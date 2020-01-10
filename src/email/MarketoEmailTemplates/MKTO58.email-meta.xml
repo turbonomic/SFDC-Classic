@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sales Call 2: offer IU case study.Email</name>
+    <style>none</style>
+    <subject>Indiana University Gives High Marks to VMTurbo</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Don’t take our word for it.  Get straight talk from one of your peers: Robert Reynolds, virtualization architect at Indiana University. Robert became engaged with VMTurbo early on in his organization’s transition to virtualized infrastructure and has found value at each stage of his virtualization journey.
+
+Robert shares his experiences in a prose write-up and in one of our “voice of the expert” sessions. Here’s just one snippet he contributes about VMTurbo:
+
+“What VMTurbo has over all the other vendors in this space that I’m aware of is their unique economic model, the way they look at things. Instead of just pulling raw data out of vCenter on CPU use or memory use, they actually drill in and create an entire model, which they also include in their planning tabs. That’s something that no other vendor really has to offer. Their approach is something really different and worthwhile.”
+
+It’s our hope that you share his sentiments after working with Operations Manager first hand. If I can do anything to make your experience more successful, please let me know.
+
+{!Lead.OwnerFirstName}{!Contact.OwnerFirstName} {!Lead.OwnerLastName}{!Contact.OwnerLastName}
+phone: {!Lead.OwnerPhone}{!Contact.OwnerPhone}
+email: {!Lead.OwnerEmail}{!Contact.OwnerEmail}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

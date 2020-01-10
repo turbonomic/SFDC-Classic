@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Follow up from Voicemail (1493210179.0)</name>
+    <style>none</style>
+    <subject>Follow up from Voicemail (1493210179.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Ray-I am following up from a voice message I left this morning. I was hoping to touch base with you over the phone and see if there is interest on your end in continuing the conversation with Turbonomic. Are you available for a quick phone call in the next few days, or early next week? Thank you,Katie                     Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

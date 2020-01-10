@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-01-19 Training Promotion (customers).Email Send 1</name>
+    <style>none</style>
+    <subject>Get Turbonomic ACE Certified for up to 25% off!</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+Turbonomic is all about celebrating our customers in 2018 (check out our blog &lt;[[https://turbonomic.com/blog/on-turbonomic/happy-new-year/]]&gt; from our Chief Customer Office, Alex Hesterberg). 
+ 
+Our Turbonomic family wants to extend that thank you to you, one of our loyal customers, by offering you up to 25% off of our ACE Certification Course!
+ 
+Our ACE Certification program gives you expertise in the Turbonomic technology and the ability to leverage Turbonomic to its fullest potential. We will cover:
+
+
+
+
+
+	- Technology Overview
+
+	- UI Walkthrough (On-Prem and Public Cloud)
+
+	- Getting to the Desired State
+
+	- Turbonomic Settings
+
+	- Enforcement
+
+	- Cost Visibility (Public Cloud)
+
+	- VM Actions 
+
+	- Planning (On-Prem and for Cloud migration)
+
+	- Graphs and Reports
+
+	- New Workload Deployment
+
+
+
+
+ 
+Our upcoming classes are as follows:
+
+
+
+	- February 6th-8th, White Plains, NY
+
+	- February 5th -7th, Reading (UK)
+
+	- March 6th-8th, White Plains, NY
+
+	- 3 additional dates and locations across the US (TBD)
+
+
+
+
+ 
+Here is the link to our page &lt;[[https://turbonomic.com/training-and-services/certification/]]&gt; where you can find the registration pages and more information on the ACE Certification Training. Please reach out to your Turbonomic representative if you have any questions or would like help registering. 
+ 
+We hope to see you in class!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The BDR has organised a demo and you have taken it over. Before you speak to them to further qualify you send this email.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BDR Demo Handover</name>
+    <style>none</style>
+    <subject>Prior to the VMTurbo Demonstration</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

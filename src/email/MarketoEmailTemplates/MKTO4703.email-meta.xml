@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-05-01 Future of APM and Cloud Optimization.ES- 5/1 Last Chance - Market</name>
+    <style>none</style>
+    <subject>Last Chance! The Future of APM and Cloud Optimization</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-future-apm]]&gt;
+
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-future-apm]]&gt;
+Hi {{lead.First Name:default=there}},
+ 
+I wanted to make sure you didn’t miss out on your chance to join us this Wednesday for an educational webinar focusing on the future of APM and cloud optimization.
+
+
+
+
+
+
+Register 
+Now &lt;[[https://turbonomic.com/resources/wbn-future-apm]]&gt;
+
+
+
+
+
+
+Join us on Wednesday at 11 am ET to learn: 
+
+
+
+	- Trends in APM today
+	- What to expect for the future of application performance assurance 
+	- How customers are getting the most value from APM integrations with AIOps technologies
+
+
+
+Hope to see you there! Register now &lt;[[https://turbonomic.com/resources/wbn-future-apm]]&gt; and enter to win a $100 Amazon Gift Card. 
+
+ 
+Thanks,
+Andrew
+
+
+PS. If you can&apos;t attend, register anyway  &lt;[[https://turbonomic.com/resources/wbn-future-apm]]&gt;and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

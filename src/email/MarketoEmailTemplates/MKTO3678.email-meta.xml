@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-05-23-RD-Sponsored-NYC.ES-Invite-1.EMAIL</name>
+    <style>none</style>
+    <subject>You&apos;re Invited - NYC IT Networking Cruise</subject>
+    <textOnly>&lt;[[http://bit.ly/vip-nyc]]&gt;
+Hi {{lead.First Name:default=there}},
+
+We’d like to cordially invite you to an exclusive sunset cruise networking event on May 23rd launching from Chelsea Piers.
+
+Enterprises are facing incredible pressure to modernize and transform their IT to become a digital business, leading many organizations to reimagine their hybrid cloud strategy. Determining which workloads go on-premises, which go in the cloud, and how to manage the transition is challenging – and mistakes are costly. 
+NYC IT Executive Networking Sunset Cruise
+Chelsea Piers | W 23rd Street, Pier 62
+Wednesday, May 23rd | 5:30 p.m.
+
+Throughout the evening, you’ll have the chance to share knowledge on tackling these challenges and learn how organizations like yours are adopting workload automation at the scale of the hybrid cloud.
+
+We hope you will join us for this discussion aboard the Manhattan, a luxury yacht, by registering via the link below: http://bit.ly/vip-nyc &lt;[[http://bit.ly/vip-nyc]]&gt;
+
+
+
+
+
+
+
+Sincerely,
+
+
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

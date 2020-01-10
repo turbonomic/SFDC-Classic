@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-01-12 Customer Survey Send 2.Send</name>
+    <style>none</style>
+    <subject>$20 Amazon Gift Card for 5 Minute Customer Survey</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+The product management team at Turbo is conducting a short survey on cloud adoption and your input is appreciated. The survey has 9 questions and should take less than 5 minutes to complete.
+
+
+For your time, we will be sending the first 150 respondents a $20 Amazon Gift Card shortly after the completion of the survey.
+
+Your feedback will help us understand how you&apos;re adopting cloud services, what it means to you and where we can help. If you&apos;re interested in giving feedback on our cloud roadmap or learning more about any of our plans there&apos;s an option within to let us know and we&apos;ll be in touch.
+
+
+Click Here to Access the Survey &lt;[[http://www.surveymonkey.com/r/cloudsurveyjan]]&gt;
+
+
+Thank you in advance for your time.
+
+
+Alan Santos
+Product Management
+alan.santos@turbonomic.com &lt;[[mailto: alan.santos@turbonomic.com]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

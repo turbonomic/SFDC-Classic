@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-04-07-Turbofest-London.EMAIL-Confirmation Email</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=}}&apos;s Pass to Turbofest London | May, 19th 2016</subject>
+    <textOnly>{{Lead.First Name:default=}}
+Thank you for registering to attend Turbofest London! This email confirms your spot to attend this exclusive event at the Royal Institution of Great Britain, London.
+
+{{Lead.First Name:default=}} {{Lead.Last Name:default=}}
+ {{company.Company Name:default=}}
+Turbofest London
+An Afternoon of Cloud &amp; Virtualization Thought Leadership | An Evening Science Demonstration of Explosive Proportions.
+
+{{my.Turbofest London Calendar:default=Save this event to your calendar!}}
+
+If you have any questions, please contact marketing@vmturbo.com &lt;[[mailto:marketing@vmturbo.com]]&gt;.
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

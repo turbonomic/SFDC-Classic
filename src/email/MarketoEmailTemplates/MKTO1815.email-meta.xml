@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>5_18_2015 5.2 Webinar.Send</name>
+    <style>none</style>
+    <subject>Last Chance To Win A Home Lab With Control For QoS, App &amp; Database Servers</subject>
+    <textOnly>&lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05072015&gt;
+Hi {{lead.First Name:default=There}},
+Operations Manager 5.2 is now available! If you want to learn more about 5.2 and all it has to offer join our webinar this week on May 21st at 11:30 AM EST &lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05182015&gt;.
+
+
+ - Defining QoS levels for specific applications
+
+
+You can specify, for example 500 ms latency or 1,000 transactions per minute, for a specific application. As VMTurbo brokers resources in the data center it prioritizes those applications to assure commitments are always met. 
+
+
+ - Deeper control into the app layer
+
+
+Get real-time application server- and database-aware decisions to fully leverage available infrastructure resources 
+
+
+ - Network-aware decisions to minimize latency
+
+
+VMTurbo reduces “east to west” latency by placing chatty workloads next to each other without sacrificing compute and storage needs. It’s the first of its kind: network-aware control. Now fully integrated with Arista’s EOS. 
+Make sure to sign up before the webinar on the 21st for your chance to win a Turbostack Homelab!
+ &lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05182015&gt;
+Register for a chance to win!
+VMTurboStack Homelab
+Valued over USD $1600.
+What’s in the VMTurboStack Home Lab?
+
+
+ - Intel NUC with Intel Core i5-4250U
+ - G.SKILL Ripjaws Series 16GB (2x8G) 204-Pin DDR3 Memory
+ - SAMSUNG 840 EVO 250GB SATA III TLC Internal Solid State Drive
+ - Synology DS415+ Diskless System DiskStation 4-Bay NAS
+ - 2x Dell 1TB 7200 RPM SATA 3.0Gb/s 3.5&quot; Hard Drive
+ - Cisco SG300-10 10-port Gigabit Managed Switch
+ - Rosewill 7ft. Cat 6 Network Cable
+ - VMTurbo Operations Manager 5.1
+ - OpenStack
+
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

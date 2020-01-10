@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2019-05-16 Dallas e Blast #1.Dallas_Event_Email1</name>
+    <style>none</style>
+    <subject>INVITATION: Hybrid Cloud &amp; Digital Transformation - What You Need to Know</subject>
+    <textOnly>&lt;[[https://turbonomic.com/vip-st-louis-2019/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Hybrid Cloud is Fueling Digital Transformation 
+The future is hybrid-cloud. Are you ready? Come hear success stories and learnings from industry-leading IT executives at the forefront of this transformational journey. You will walk away equipped with answers and principles to implement an effective IT strategy for your cloud native, hybrid cloud, or on-premises estate.
+
+
+Join us for an exclusive dinner and drinks at Del Frisco’s Double Eagle Steakhouse in Plano, TX to learn more.
+
+The first (10) attendees will receive a $100 gift card to Del Frisco&apos;s.
+
+As space is limited, please RSVP TODAY &lt;[[https://turbonomic.com/vip-dallas/]]&gt; to reserve your seat!
+
+Proven Hybrid Cloud Strategies - Dallas
+Del Frisco&apos;s
+Thursday, May 16th, 5:30 PM 
+RSVP Here &lt;[[https://turbonomic.com/vip-dallas/]]&gt;
+
+Sincerely,
+ The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

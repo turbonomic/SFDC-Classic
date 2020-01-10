@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p>Dear {{lead.First Name:default=Sir/Madam}},<br /><br /></p>
+<p><span style="font-size: 14px;"><strong>VMTurbo <a href="http://www.vmturbo.com/?p=10092">just released</a> v4.5. We are extending our control system beyond the hypervisor into the converged fabric and deeper into storage.</strong></span></p>
+<ul>
+<li><strong><span>VMTurbo resolves virtualization performance issues with one click</span></strong><span>. It tells you the specific actions to take to resolve the issue &ndash; which VMs to move, and which hosts to move them to. It will even execute those actions for you.</span></li>
+</ul>
+<p><img src="http://go.vmturbo.com/rs/vmturbo/images/Prospect4.5Announcement.png" alt="" width="500" height="128" align="middle" /></p>
+<ul>
+<li>
+<div><strong>VMTurbo will now calculate actions for NetApp and <a href="http://www.vmturbo.com/ucs-management/">Cisco UCS</a></strong><span> such as provisioning new storage controllers, new ports, or spinning up a new blade &ndash; all automatically, all optimally.</span></div>
+</li>
+</ul>
+<p><strong><span style="font-size: 14px;">Attend our webinars to learn more</span></strong></p>
+<ul>
+<li><a href="http://go.vmturbo.com/Operations_Manager_4.5_Release_Webinar_EMEA.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=4-5-release-webinar">Thursday, January 30th 8:00AM - 9:00AM&nbsp;EST</a><span style="white-space: pre;"> </span></li>
+<li><a href="http://go.vmturbo.com/Operations_Manager_4.5_Release_Webinar_US.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=4-5-release-webinar">Thursday, January 30th 12:00PM - 1:00PM&nbsp;EST</a><span style="white-space: pre;"> </span><span style="background-color: #ffffff; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;">&nbsp;</span></li>
+</ul>
+<p>Best regards,<br />VMTurbo</p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

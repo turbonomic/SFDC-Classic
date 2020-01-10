@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ovum Layered Tech webinar invite.Invitation</name>
+    <style>none</style>
+    <subject>Lessons Learned Operating A Cloud Environment</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+What recent factors have contributed to cloud environments becoming more complex? How do these contributions impact IT operations? And, how should you adapt to be more effective?
+
+VMTurbo is hosting an expert discussion regarding “Overcoming Key Challenges in Operating Cloud-Scale Environments” with contributions from Roy Illsley, principal analyst at Ovum, and Kevin Van Mondfrans, vice president at cloud service provider Layered Tech. Join us for an informative webinar and learn:
+
+
+ - Key operational challenges you may face as you develop and expand your virtualized and cloud environments
+ - Best practices for dealing with today’s cloud operations realities
+ - Innovative approaches to unlocking the full value of virtualized infrastructure and cloud services
+
+
+
+Reserve a spot. Register today! &lt;https://www3.gotomeeting.com/register/393344606&gt;
+
+EVENT: Webinar: Overcoming Key Challenges in Operating Cloud-Scale Environments
+DATE: Tuesday, January 22, 2103
+TIME: 12 pm ET
+
+ 
+
+{{lead.Lead Owner First Name:default=The VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}
+ VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

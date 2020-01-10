@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Error Messages --></label>
+        <name>DSCORGPKG__Error_Messages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>DSCORGPKG__Object__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Records Failed --></label>
+        <name>DSCORGPKG__Records_Failed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records Submitted --></label>
+        <name>DSCORGPKG__Records_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records Updated --></label>
+        <name>DSCORGPKG__Records_Updated__c</name>
+    </fields>
+</CustomObjectTranslation>

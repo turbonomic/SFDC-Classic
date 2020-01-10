@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-05-16-2019 KubeCon Meetings.ES-05-13-2019-KubeCon-Meetings-Email1-Synthio</name>
+    <style>none</style>
+    <subject>How to Enhance Your KubeCon EU Experience (even if you aren&apos;t attending)</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+Are you attending KubeCon EU in Barcelona this year? If so, we&apos;d love to connect with you and your team.
+
+Turbonomic &lt;[[https://turbonomic.com/]]&gt; helps enterprises like yours assure application performance via our AI-powered Workload Automation software.
+
+Here are some options to make a connection:
+
+
+	- Meet the team from Turbonomic at our booth (#P11) &lt;[[https://turbonomic.jifflenow.com/kubeconbarcelona2019/external_request/53bfbd]]&gt; and learn about our continuous optimization of Kubernetes services for DevOps
+	- Skip the queue and book a meeting with our technical staff &lt;[[https://turbonomic.jifflenow.com/kubeconbarcelona2019/external_request/53bfbd]]&gt; here
+	- Participate in our Scavenger Hunt &lt;[[https://view.ceros.com/turbonomic/kubehunt/p/1]]&gt;
+
+
+
+We hope to see you there.
+
+Regards,
+ Andrew
+
+PS - Not attending KubeCon EU? Register for our upcoming webinar, Introduction to Containers and Serverless &lt;[[https://turbonomic.com/resources/wbn-intro-containers-serverless-2/]]&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

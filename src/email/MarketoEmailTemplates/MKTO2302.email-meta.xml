@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: Turbonomic/Wiley Rein: Platform Introduction  (1494416167.0)</name>
+    <style>none</style>
+    <subject>RE: Turbonomic/Wiley Rein: Platform Introduction  (1494416167.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean DocumentEmail      false false false  EN-US X-NONE X-NONE             MicrosoftInternetExplorer4                                                                                                                                                                                                                                                                                                                                                                                                            Hi Andrew, I am sure you are very busy but wanted to see if you might have some time over the next couple of days to reschedule the meeting from Monday. I’ve posted the times that my team and I are available, please let me know what might work best for you.  Today: 11:30am to 1pm ESTThursday: 8am to 10am EST, 1pm to 4pm ESTFriday: 12pm to 4pm EST Best regards, James -----Original Appointment-----
+From: James Wilcox 
+Sent: Monday, May 8, 2017 3:00 PM
+To: &apos;apjohnson@wileyrein.com&apos;; Christopher Cornett; Emilio Siman
+Subject: Turbonomic/Wiley Rein: Platform Introduction 
+When: Monday, May 8, 2017 3:00 PM-4:00 PM (UTC-05:00) Eastern Time (US &amp; Canada).
+Where: GoToMeeting: 1 (646) 749-3122 ; Access Code: 539-937-653  Please join my meeting from your computer, tablet or smartphone. 
+https://global.gotomeeting.com/join/539937653  &lt;[[https://global.gotomeeting.com/join/539937653]]&gt;
+
+You can also dial in using your phone. 
+United States: +1 (646) 749-3122 
+
+Access Code: 539-937-653   Andrew, Thank you for taking the time to speak with me today. During this call we will demonstrate Turbo’s ability to: ·         Reduce the amount of time spent caring for/maintaining your virtual infrastructure by leveraging software to analyze resource demand in real-time across capacity, placement, and configuration.·         Act as a single pane of glass across your environment; across any technology ·         Providing executable actions around placement and sizing that can be leveraged in a manual or automated fashion to prevent resource-contention &amp; application delay·         Increase IT agility/compatibility to meet the business requirements·         Reduce future costs on servers, storage, and licensing, while maximizing the effectiveness of your current environment Below are some materials that explain the difference between us and some of the other tools out there. Looking forward to connecting with you in April.  Solving the SDDC Management Problem &lt;[[https://turbonomic.com/blog/on-turbonomic/solving-sddc-management-problem/]]&gt;Corporate Overview &lt;[[http://turbonomic.com/wp-content/uploads/Turbonomic-Corporate-Overview.pdf]]&gt; of Turbonomic ROI with Turbonomic &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic_ROI.pdf]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

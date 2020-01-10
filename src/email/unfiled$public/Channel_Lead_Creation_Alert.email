@@ -1,0 +1,6 @@
+*** A New Registration Has Been Submitted ***
+
+Lead Name: {!Lead.Name}
+
+
+For Details, click the following link :{!Lead.Link}

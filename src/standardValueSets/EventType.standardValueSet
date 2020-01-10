@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>true</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cisco Marketing</fullName>
+        <default>false</default>
+        <label>Cisco Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo</fullName>
+        <default>false</default>
+        <label>Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enablement</fullName>
+        <default>false</default>
+        <label>Enablement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluation Meeting</fullName>
+        <default>false</default>
+        <label>Evaluation Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Call/Meeting</fullName>
+        <default>false</default>
+        <label>Other Call/Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect Breakfast</fullName>
+        <default>false</default>
+        <label>Prospect Breakfast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinars</fullName>
+        <default>false</default>
+        <label>Webinars</label>
+    </standardValue>
+</StandardValueSet>

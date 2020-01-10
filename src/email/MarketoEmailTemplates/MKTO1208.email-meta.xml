@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Octurbofest 2015.Confirmation Email w/ Training</name>
+    <style>none</style>
+    <subject>Confirmed Registration: Octurbofest 2015 &amp; Technical Training Session</subject>
+    <textOnly>{{Lead.First Name:default=}}
+Thank you for registering to attend Turbofest Atlanta 2015! We&apos;ll send you further details and information as we near the event. 
+
+{{Lead.First Name:default=}} {{Lead.Last Name:default=}}
+ {{company.Company Name:default=}}
+Turbofest Atlanta
+More details to come!
+We cannot wait to see you at this exciting event. If you have any questions, please contact marketing@vmturbo.com &lt;mailto:marketing@vmturbo.com&gt;.
+Best,
+Team Turbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

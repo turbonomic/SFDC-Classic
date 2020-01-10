@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-30 Tackling the Modern IT Ecosystem.Sorry we missed you</name>
+    <style>none</style>
+    <subject>[WEBINAR RECORDING] {{my.Webinar Title:default=the webinar}}</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+Sorry we missed you for today&apos;s {{my.Webinar Title:default=The Webinar}} webinar.
+You can watch the webinar on-demand here &lt;[[https://turbonomic.com/thx-ecosytem-wbn/]]&gt;.
+Our agnostic platform (supports VMware, AWS, Azure, etc.) provides ongoing optimization both on-premise and once workloads are in the cloud to ensure you’re only paying for what you consume.
+For a bit more context, please see the resources below:
+
+
+	- What Turbonomic Does, Interview with Ben Nye, CEO, Turbonomic via theCUBE &lt;[[https://resources.turbonomic.com/videos/thecube-what-turbonomic-does]]&gt;
+	- Freshfields Plans AWS and Azure Migrations and Saves 20% on Azure Bill &lt;[[https://resources.turbonomic.com/case-studies/freshfields-success-story]]&gt;
+	- Migrate to Microsoft Azure in 7 Days with Turbonomic &lt;[[https://resources.turbonomic.com/turbonomic-for-azure-migrations/7-days-to-azure]]&gt;
+
+
+We hope you find this information helpful. Enjoy the recording!
+
+-Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-04-10 Maximize VMware.ES - 4/10 WBN Maximize VMware - Invite 1 - VMW ca</name>
+    <style>none</style>
+    <subject>Maximize Your VMware Ecosystem</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/?mkt_tok=eyJpIjoiWVdJNE16VXpOVFpoWVRWaiIsInQiOiJpSytmNnFDN0NcL3Rrb0pQVGNxTFF6K1wvbG5VRTIxbTBHTjJhMU9Jb280RUhUOHFWSkgyYU9MVUJoMUx0Q3lkT1JcL0txVktqdm41bjBlRHpqcEdVczFhZz09In0=]]&gt;
+
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+Whether you&apos;re on premises, in the cloud, or some combination of both, it&apos;s critical that you assure application performance and maximize efficiency in your environment. How can you be sure you’re getting the best performance and most effective use of your resources in a VMware ecosystem?
+
+
+
+
+
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/]]&gt;
+
+
+
+
+
+
+
+
+Join our webinar on April 3rd at 11 am ET with Eric Wright, a multi-year VMware vExpert and our Technology Evangelist, as we look at how to know the best way to leverage what you have today and how to evaluate what the future of 
+product and practices should look like to maximize your VMware ecosystem.
+
+
+I hope you&apos;ll join us! Register now &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/]]&gt; and enter to win a $100 Amazon Gift Card. 
+
+ 
+Thanks,
+Andrew
+ 
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/?mkt_tok=eyJpIjoiWVdJNE16VXpOVFpoWVRWaiIsInQiOiJpSytmNnFDN0NcL3Rrb0pQVGNxTFF6K1wvbG5VRTIxbTBHTjJhMU9Jb280RUhUOHFWSkgyYU9MVUJoMUx0Q3lkT1JcL0txVktqdm41bjBlRHpqcEdVczFhZz09In0=]]&gt; and we will send 
+you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

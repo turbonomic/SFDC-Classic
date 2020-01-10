@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03_27_2013 Turboticker March.Send</name>
+    <style>none</style>
+    <subject>Turboticker March 2015| The Docker (R)evolution | Pure Storage Control</subject>
+    <textOnly>VMTurbo And Pure Storage Control Module
+
+The Flash Revolution. You’re all in for Flash for All – a triumphant champion for insane IOPS, unreal in-line de-dupe and compression, and, most important, simplicity.
+
+Hear how VMTurbo has been working hand-in-hand with Pure Storage to develop the Pure Storage Control Module, a tool to help you more easily integrate Pure FlashArray into your environment and enable you to guarantee success in all-flash or heterogeneous storage environments alike – both now, and as they grow.
+Prevent VDI Performance Degradation &amp; Avoid VDI Project Killers &lt;http://vmturbo.com/wp-vdi-performance/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickermarch&amp;utm_content=032415&gt;
+
+This paper discusses how to prevent VDI performance degradation and budget over runs in a VDI deployment. The two main VDI project killers.
+
+
+
+ - 
+
+Manage extreme storage I/O demand, the biggest challenge facing performance assurance in a VDI environment.
+
+
+ - 
+
+Quickly place new desktop workloads factoring in real-time resource allocation and continuous changes in the underlying infrastructure.
+
+
+ - 
+
+Assure end-users receive a desktop like experience by minimizing latency and leveraging your existing hardware.
+
+
+ - 
+
+Prevent I/O intensive tasks (e.g. patch updates, antivirus updates, reboots) from overtaxing your storage footprint.
+
+
+ - 
+
+Assure VDI performance of your environment while maximizing utilization.
+Ops are from Mars, Devs are from Venus: The Docker (R)evolution &lt;http://vmturbo.com/about-virtualization/virtualization/ops-are-from-mars-devs-are-from-venus-the-docker-revolution/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickermarch&amp;utm_content=032415&gt;
+
+While LXC was a great beginning to build from, it was just that: a beginning. Docker evolved from the roots of what LXC did. In fact, it literally built on the core of LXC and where Docker was able to shine was with how the community was tackling some interesting problems. How does Docker shine? Where does it struggle? Find out here.
+&lt;http://vmturbo.com/about-virtualization/the-technology-isnt-wrong-you-just-didnt-see-the-use-case/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickermarch&amp;utm_content=032615&gt;
+The Technology isn&apos;t Wrong, You Just Didn&apos;t See the Use-Case &lt;http://vmturbo.com/about-virtualization/the-technology-isnt-wrong-you-just-didnt-see-the-use-case/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickermarch&amp;utm_content=032615&gt;
+
+Have you ever been told “you’re using this wrong”? In the world of technology, I see this a surprising amount. While it is entirely possible to use the wrong tool in some cases (such as using a rock as a hammer), there are also many cases where something very interesting happens around usability.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

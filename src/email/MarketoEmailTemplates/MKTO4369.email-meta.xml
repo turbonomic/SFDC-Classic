@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: Gartner Event - December 2018.002 Gartner Event  Invite 2</name>
+    <style>none</style>
+    <subject>Gartner Cloud Strategies Conference Highlights</subject>
+    <textOnly>The Gartner IT Operations and Cloud Strategies (IOCS) conference is a content-packed week with 100’s of sessions to choose from. If you will not be attending this year’s show, Turbonomic will be hosting a webinar on January 9, 2019, 11 AM &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/]]&gt; covering key findings and highlights from the show. If you are going, we aim to share 3 proven actions that will have a major impact on your hybrid and multi-cloud initiatives.
+
+When you schedule a 30-minute meeting at the event with Turbonomic &lt;[[https://turbonomic.jifflenow.com/gartnerioc2018/external_request/c7607e]]&gt;, our cloud experts will explain how you can:
+
+
+
+	- Accelerate your cloud migration efforts from months to weeks
+
+	- Reduce your cloud bill by 30% or more without compromising performance
+
+	- Maximize the discounting associated with Reserved Instances (RI) eliminating costly guesstimates
+
+
+
+
+Both Microsoft and AWS trust and promote the use of Turbonomic’s software platform to their customers and partners. 
+
+Schedule a 30-minute meeting today &lt;[[https://turbonomic.jifflenow.com/gartnerioc2018/external_request/c7607e]]&gt; and guarantee yourself a return on the event before you even arrive.
+
+
+Best,
+Catherine Kellogg</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-10-26 eBlast to Leadspace Leads.ES-2018-10-26 eBlast to Leadspace Leads</name>
+    <style>none</style>
+    <subject>Are you ready?</subject>
+    <textOnly>Hi {{lead.first name:default=there}},
+
+
+As you may know, end of support for Windows Server as well as SQL Server 2008 and 2008 R2 will occur July 9, 2019. While that may sound far off, the time to prepare for your migration is today. Check out the below video to learn more about how Turbonomic can help you make sure your team is ready.
+
+
+ &lt;[[https://resources.turbonomic.com/microsoft-and-turbonomic/ms-sql-windows-2008-to-azure]]&gt;
+
+Whether you migrate to Azure, keep workloads on premises, or some combination of both, Turbonomic can help; providing the most accurate actions to take, even automatically generating a granular cost comparison to help you understand the impact of this transition as comprehensively as possible.
+
+
+Take a closer look. Download a free trial today. &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial?utm_id=70157000001bYKbAAM]]&gt;
+
+
+Best,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

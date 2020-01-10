@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMworld 2014 VIP Cocktail Party.Invite #1 to VIPs</name>
+    <style>none</style>
+    <subject>Please Confirm: VIP Cocktail Reception with VMTurbo at VMworld</subject>
+    <textOnly>VIP: You&apos;ve Been Pre-Registered
+Please Confirm You&apos;re Coming!
+VMTurbo&apos;s VMworld VIP Cocktail Party
+Monday, August 25, 2014 | 6 p.m.
+Twenty Five Lusk Restaurant &amp; Lounge
+San Francisco, CA
+
+Confirm Here: http://bit.ly/1lJp0HS
+
+&gt;&gt;Also Take Our 30-Second VMworld Course Offering S &lt;https://www.surveymonkey.com/s/H5FD5JZ&gt;urvey!&lt;&lt;
+
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

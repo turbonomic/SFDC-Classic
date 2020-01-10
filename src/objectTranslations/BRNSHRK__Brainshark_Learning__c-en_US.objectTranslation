@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Brainshark_Record_ID --></label>
+        <name>BRNSHRK__Brainshark_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brainshark_Student_ID --></label>
+        <name>BRNSHRK__Brainshark_Student_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brainshark_Student_Name --></label>
+        <name>BRNSHRK__Brainshark_Student_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion_Date --></label>
+        <name>BRNSHRK__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>BRNSHRK__Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content Type --></label>
+        <name>BRNSHRK__Content_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Completed --></label>
+        <name>BRNSHRK__Course_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Expiration Date --></label>
+        <name>BRNSHRK__Course_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course_ID --></label>
+        <name>BRNSHRK__Course_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course_Points --></label>
+        <name>BRNSHRK__Course_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course_Possible_Points --></label>
+        <name>BRNSHRK__Course_Possible_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Title --></label>
+        <name>BRNSHRK__Course_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credits --></label>
+        <name>BRNSHRK__Credits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Curriculum_ID --></label>
+        <name>BRNSHRK__Curriculum_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Curriculum Title --></label>
+        <name>BRNSHRK__Curriculum_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Enrolled w/o Completion --></label>
+        <name>BRNSHRK__Days_Enrolled_w_o_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days to Complete --></label>
+        <name>BRNSHRK__Days_to_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment_Date --></label>
+        <name>BRNSHRK__Enrollment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment Expiration Date --></label>
+        <name>BRNSHRK__Enrollment_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First_Name --></label>
+        <name>BRNSHRK__First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- First_Viewed --></label>
+        <name>BRNSHRK__First_Viewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>BRNSHRK__Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Archived --></label>
+        <name>BRNSHRK__Is_Archived__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Deleted --></label>
+        <name>BRNSHRK__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Enrollment Deleted --></label>
+        <name>BRNSHRK__Is_Enrollment_Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Inactive --></label>
+        <name>BRNSHRK__Is_Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Required --></label>
+        <name>BRNSHRK__Is_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Student Inactive --></label>
+        <name>BRNSHRK__Is_Student_Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last_Name --></label>
+        <name>BRNSHRK__Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last_Viewed --></label>
+        <name>BRNSHRK__Last_Viewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pass_Status --></label>
+        <name>BRNSHRK__Pass_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_Audio --></label>
+        <name>BRNSHRK__Percent_Audio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_Score --></label>
+        <name>BRNSHRK__Percent_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_Slides --></label>
+        <name>BRNSHRK__Percent_Slides__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record_Type --></label>
+        <name>BRNSHRK__Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>BRNSHRK__SFDC_ID__c</name>
+        <relationshipLabel><!-- Brainshark_Learnings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Slides Viewed --></label>
+        <name>BRNSHRK__Slides_Viewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>BRNSHRK__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student Role --></label>
+        <name>BRNSHRK__Student_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student --></label>
+        <name>BRNSHRK__Student__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>BRNSHRK__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Topic Name --></label>
+        <name>BRNSHRK__Topic_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User_Company --></label>
+        <name>BRNSHRK__User_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- User_Email --></label>
+        <name>BRNSHRK__User_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- User_Name --></label>
+        <name>BRNSHRK__User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Role --></label>
+        <name>User_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Start Date --></label>
+        <name>User_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Team --></label>
+        <name>User_Team__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbofest West Survey.Survey Send</name>
+    <style>none</style>
+    <subject>Turbofest West &amp; Feedback Survey</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+{{Lead.First Name:default=Good Morning}}:
+With the Turbofest West dust settled, we ask that you please complete our 1-minute
+Survey &lt;https://www.surveymonkey.com/r/3V7TY5N&gt;
+ 
+Thanks again for joining us in San Francisco, and we look forward to hearing from you soon! 
+Thanks as always,
+Team Turbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Same copy as ES 1 - but different subject line</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-10-24 Maximize Cloud Discounts in AWS &amp; Azure - Live Demo.ES-20181017-W</name>
+    <style>none</style>
+    <subject>3 Ways to Maximize Cloud Discounts in AWS &amp; Azure</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;
+Hi {{lead.First Name:default=there}},
+Most customers overpay in the cloud. Others experience slow performance due to budget constraints.
+
+On Wednesday, October 24th at 11 am ET, join our webinar “Maximizing Cloud Discounts in AWS and Azure &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;” where Director of Technical Marketing, Eric Wright, will teach you several important ways to lower cloud bills and maximize performance in the cloud.
+
+
+
+
+Reserve Your Seat &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;
+
+
+
+In this 30-minute webinar &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;, you will learn: 
+
+
+	- How to modify pricing to reflect EPD or EA contract discounts
+
+	- How to run a migration plan incorporates these discounts
+
+	- How to optimize your performance with these discounts 
+
+
+This is your chance to maximize your discounts, shrink your cloud bill, and stay ahead of spending for the future. Register here &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;.
+Regards, 
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

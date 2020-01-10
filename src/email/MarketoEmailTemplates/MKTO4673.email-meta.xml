@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2019-04-17 APM Survey.ES 1 - First Send - APM Send.ES 1 - HTML Invite 1</name>
+    <style>none</style>
+    <subject>$10 Gift Card for 4 Minute Survey on Application Performance Management</subject>
+    <textOnly>&lt;[[http://bit.ly/2UkWwIL]]&gt;
+Hi {{lead.First Name:default=there}},
+Do you and your team still struggle to maintain application performance? How well have Application Performance Management (APM) tools helped your organization solve performance issues caused by application design and infrastructure operational issues? 
+Answer this 4-Minute Survey on Application Performance Management Adoption &lt;[[http://bit.ly/2UkWwIL]]&gt; to help us better understand how your IT organization is tackling performance issues today so that we can share best practices that will address your most pressing challenges in the future.
+
+
+
+Take Survey Now &lt;[[http://bit.ly/2UkWwIL]]&gt;
+
+
+
+To say thanks, you will earn a $10 Gift Card upon completion of the survey. Furthermore, we are offering a $50 Amazon Gift Card for agreeing to a 30-minute meeting to learn how Turbonomic can help you assure application performance. 
+Best,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

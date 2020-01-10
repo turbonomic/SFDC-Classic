@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6_1_Cold_Nurture_Client.6_1_Cold_Nurture_Client_Email_1</name>
+    <style>none</style>
+    <subject>Delivering on the Promise of AI Ops</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Do you ever worry that you and your team still have too little time available for innovation? Our latest product release can help.
+
+
+ &lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1]]&gt;
+
+The challenges of today require more than traditional scripting and orchestration. They demand AI-powered infrastructure that offers decision automation. With Turbonomic 6.1, IT organizations across industries can adopt trustworthy, full-stack automation and get back to innovation.
+
+
+Here&apos;s how &lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1]]&gt; our new product release can help.
+
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

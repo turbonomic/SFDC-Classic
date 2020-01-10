@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6/18/2013 - 4.0 Release webinar.Invite</name>
+    <style>none</style>
+    <subject>VMTurbo’s Newest Release Preview Webinar: From Chaos to Control</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+How much time and money are you already throwing at your virtualization storage problem? And is this stalling your virtual datacenter expansion initiatives? 
+
+Next week, VMTurbo will unveil new features - including added support for additional layers of the IT stack, such as data storage - that improve performance and  reduce infrastructure cost across the virtual datacenter.
+
+You won’t want to miss this opportunity to learn first-hand from VMTurbo experts how to automate decision-making to bring control to what can be a chaotic environment. 
+
+Sign up now &lt;http://bit.ly/14pmWro&gt; to reserve your spot in this webinar, which will take place on June 18 at 12:00PM (EDT). 
+
+Get a quick primer &lt;http://bit.ly/ZIB0QX&gt; on VMTurbo before the webinar.
+
+Kind Regards,
+ The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

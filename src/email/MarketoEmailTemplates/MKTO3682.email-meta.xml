@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>France_Tier3_Cold_Nurture_Enterprise.France_Tier3_Cold_Nurture_Enterprise_Email5</name>
+    <style>none</style>
+    <subject>Garantir la Performance Applicative avec Turbonomic</subject>
+    <textOnly>Bonjour {{lead.First Name:default=edit me}},
+
+Turbonomic, en recherchant en continu le meilleur compromis entre performance, coût et conformité, vous permet d’Automatiser au mieux le déploiement de vos workloads dans les Clouds Hybrides. Turbonomic s’assure que les workloads disposent toujours des ressources infrastructures nécessaires au moment où elles en ont besoin.
+
+ &lt;[[https://turbonomic.com/product/]]&gt;
+
+Les Equipes IT qui utilisent le moteur d’automatisation de Turbonomic en production trouvent qu’il est possible de garantir les SLAs applicatifs tout en garantissant un état optimal de performance aux autres Workloads.
+
+Vous pouvez planifier une démonstration &lt;[[https://turbonomic.com/request-a-demo/]]&gt; pour apprendre comment Turbonomic peut aussi aider votre organisation à optimiser sa performance, ses coûts et sa conformité en continu. 
+
+Cordialement,
+L’Equipe Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

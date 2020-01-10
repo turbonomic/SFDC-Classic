@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Enterprise Blitz VDI.Email_use</name>
+    <style>none</style>
+    <subject>VDI performance assurance whitepaper, and setting up time</subject>
+    <textOnly>{{lead.First Name:default=}},
+
+I wanted to share a free whitepaper &lt;http://go.vmturbo.com/wp-assuring-performance-in-vdi-deployments.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vdient&gt; that explores the challenges of VDI roll-outs, and how a simple approach can help you increase VDI seats on your existing infrastructure by up to 30% (average our customers are seeing). 
+
+I’d also like to set up an informal discussion on these business challenges (be they VDI or otherwise), and whether or not VMTurbo can help you solve them. 
+
+Looking forward to your reply,
+
+{{lead.Lead Owner First Name:default=}} {{lead.Lead Owner Last Name:default=}}
+{{lead.Lead Owner Email Address:default=}} | {{lead.Lead Owner Phone Number:default=}}
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

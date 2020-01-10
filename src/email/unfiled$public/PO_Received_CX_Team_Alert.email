@@ -1,0 +1,7 @@
+{!Opportunity.Account} has entered PO Received.
+
+Please fill in the following fields on the Account page:
+Customer Status
+Customer LTV
+
+Here is a link to the Opportunity: https://eu1.salesforce.com/{!Opportunity.Opportunity_Safe_ID__c}

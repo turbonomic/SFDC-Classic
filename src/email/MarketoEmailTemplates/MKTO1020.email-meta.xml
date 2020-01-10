@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New VHM - Webcast Offer</name>
+    <style>none</style>
+    <subject>Transforming IT Infrastructure for the Cloud Age</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-webcast-opensky-vdi-orchestration?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt; 
+
+Hi {{Lead.First Name}},
+
+We love webinars &lt;http://vmturbo.com/vmturbo-webcast-opensky-vdi-orchestration?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;, they&apos;re informative, quick, and far superior to reading. In fact we love them so much that we want to share them with you! 
+
+Join OpenSky&apos;s Don McKeith to learn how he helped a Fortune 50 International Health Insurer develop a ground-up orchestration framework for its virtual infrastructure, and onboard more than 25,000 zero-downtime VDI seats in less than four years.
+
+How quickly could {{company.company name:default=your company}} scale if the business called for it? Watch here to glean insights for your team directly from Mr. McKeith.
+ &lt;http://vmturbo.com/vmturbo-webcast-opensky-vdi-orchestration?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;
+
+See, webinars are awesome!
+
+
+
+
+
+
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

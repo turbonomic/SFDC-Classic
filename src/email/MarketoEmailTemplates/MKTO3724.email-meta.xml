@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-06-07-Product-Release-6-1-EMEA.ES-2018-05-24-Product-Release-6-1-Email-</name>
+    <style>none</style>
+    <subject>Using AI to continuously maximise cloud cost savings</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/using-ai-to-cut-cloud-costs/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+Many IT teams start out by manually purchasing Reserved Instances (RIs) and manually rightsizing cloud instances to try to keep a lid on cloud costs.
+
+But then – cloud usage grows and changes accelerate. Instance sizes change. New instance types are released. It’s hard to manually utilize the entire RI portfolio, but if you under-buy RIs, you’re leaving huge cost savings on the table.
+
+Join our live webinar on Thursday, June 7th at 2pm GMT to learn how Turbonomic’s AI-powered decision engine continuously optimizes RI recommendations in concert with resizing automation – to drive the elasticity AND cost savings you want and expect from the cloud.
+ &lt;[[https://turbonomic.com/resources/using-ai-to-cut-cloud-costs/]]&gt;
+
+I hope to see you there.
+
+Regards, 
+Graeme</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

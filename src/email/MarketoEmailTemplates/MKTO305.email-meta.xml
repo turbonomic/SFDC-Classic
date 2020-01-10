@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TruthinIT Follow Up 11_7_2013.Email</name>
+    <style>none</style>
+    <subject>TruthinIT Follow-Up: Overprovisioning is for Amateurs</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+We’re writing to follow up to another fantastic TruthinIT seminar, where you likely saw VMTurbo co-founder, Yuri Rabover, speak about the importance of workload rightsizing to avoid overprovisioning in the virtual datacenter.      
+
+Download this complimentary whitepaper http://bit.ly/1iRVqdK to find out how you can increase resource utilization and staff productivity by 20% and more by deploying intelligent workload management to optimize configurations and maximize resource efficiency.    
+
+ Sincerely,
+ VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

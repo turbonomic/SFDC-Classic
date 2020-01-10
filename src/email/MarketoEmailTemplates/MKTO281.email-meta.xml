@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>9/26/2013 - License to chill webinar.Thank you for attending mailer</name>
+    <style>none</style>
+    <subject>Thank You for Joining Us</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for joining us at our webinar, Control Your Virtual Infrastructure and Get Your License to Chill. We hope you found the content and discussion applicable to your current virtual datacenter challenges. We’ve attached the link to the recorded webinar here &lt;http://bit.ly/169eKkp&gt;. Feel free to share this with your colleagues. And if you have any questions or ideas, please contact us &lt;mailto:sales@vmturbo.com&gt; here. We welcome your suggestions and ideas. 
+
+Regards,
+Jonathan Reeve and Oved Lourie</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-09-26-Denver Community Appreciation Event.ES-2017-10-03-Thank-you.EMAIL</name>
+    <style>none</style>
+    <subject>Thank you for joining Turbonomic and Corus360!</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+We wanted to personally thank you for joining the Turbonomic and Corus360 teams last week at Coors Field! We has a great time getting to know you with the added benefit of a Rockies win, and we hope you did too!
+If there is any help that we can provide to you here at Turbonomic, please do not hesitate to reach out to me directly, or Chris Keithley &lt;[[mailto:ckeithley@corus360.com]]&gt; at Corus360.
+On behalf of Turbonomic and Corus360 - thank you!
+
+
+
+We hope to see you again soon,
+Megan
+
+
+
+
+
+
+
+Megan Gay
+Marketing Program Manager
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

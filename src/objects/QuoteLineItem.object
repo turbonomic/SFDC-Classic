@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddQuoteLine</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddQuoteLine</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddQuoteLine</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllQuoteLine</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllQuoteLine</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllQuoteLine</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(PricebookEntry.UnitPrice=0,NULL, 
+TEXT(ROUND((1-UnitPrice/(PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c))*100,0))&amp;&quot;%&quot;)</formula>
+        <label>Discount</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discount_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount %</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>List_Price_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Quote.Currency__c, 
+&quot;US Dollars&quot;,&quot;$&quot;, 
+&quot;UK Pounds&quot;,&quot;£&quot;, 
+&quot;Euros&quot;,&quot;€&quot;, 
+&quot;&quot;)&amp;
+
+IF( 
+  PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c &gt;= 1000000, 
+  TEXT(FLOOR(PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c / 1000000)) &amp; &quot;,&quot;, 
+  &quot;&quot;) &amp; 
+IF( 
+  PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c &gt;= 1000, 
+  RIGHT(TEXT(FLOOR(PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c / 1000)), 3) &amp; &quot;,&quot;, 
+  &quot;&quot;) &amp; 
+RIGHT(TEXT(FLOOR(PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c)), 3) &amp; &quot;.&quot; &amp; 
+IF( 
+  MOD(PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c, 1) * 100 &lt; 10, 
+  &quot;0&quot; &amp; TEXT(ROUND(MOD(PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c, 1), 2) * 100), 
+  TEXT(MIN(ROUND(MOD(PricebookEntry.UnitPrice*Quote.Exchange_Rate_for_Calcs__c, 1), 2) * 100, 99)) 
+)</formula>
+        <label>List Price</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>List_Price_copy__c</fullName>
+        <externalId>false</externalId>
+        <label>List Price (copy)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Maintenance_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Maintenance End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Maintenance Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <description>Enter Terms &amp; Conditions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Terms &amp; Conditions Of Quotation</inlineHelpText>
+        <label>Notes</label>
+        <length>32000</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <description>Product Family from Product object for reporting purposes</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Product2.Family)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Family</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Name_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Name (Text)</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>Quantity_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Quantity Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cores</fullName>
+                    <default>false</default>
+                    <label>Cores</label>
+                </value>
+                <value>
+                    <fullName>Sockets</fullName>
+                    <default>false</default>
+                    <label>Sockets</label>
+                </value>
+                <value>
+                    <fullName>VMs</fullName>
+                    <default>false</default>
+                    <label>VMs</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training/Services</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Quote_Line_Item_Safe_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quote Line Item Safe Id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Price_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Quote.Currency__c, 
+&quot;US Dollars&quot;,&quot;$&quot;, 
+&quot;UK Pounds&quot;,&quot;£&quot;, 
+&quot;Euros&quot;,&quot;€&quot;, 
+&quot;&quot;)&amp; 
+
+IF( 
+  UnitPrice &gt;= 1000000, 
+  TEXT(FLOOR(UnitPrice / 1000000)) &amp; &quot;,&quot;, 
+  &quot;&quot;) &amp; 
+IF( 
+  UnitPrice &gt;= 1000, 
+  RIGHT(TEXT(FLOOR(UnitPrice / 1000)), 3) &amp; &quot;,&quot;, 
+  &quot;&quot;) &amp; 
+RIGHT(TEXT(FLOOR(UnitPrice)), 3) &amp; &quot;.&quot; &amp; 
+IF( 
+  MOD(UnitPrice, 1) * 100 &lt; 10, 
+  &quot;0&quot; &amp; TEXT(ROUND(MOD(UnitPrice, 1), 2) * 100), 
+  TEXT(MIN(ROUND(MOD(UnitPrice, 1), 2) * 100, 99)) 
+)</formula>
+        <label>Sales Price</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ServiceDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>Term__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(Product2.ProductCode,&quot;TERM&quot;),TRUE,FALSE)</formula>
+        <label>Term?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_List_Price_Curr__c</fullName>
+        <externalId>false</externalId>
+        <formula>List_Price_copy__c*Quantity</formula>
+        <label>Total List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Sales_Price_Currency__c</fullName>
+        <externalId>false</externalId>
+        <formula>UnitPrice*Quantity</formula>
+        <label>Total Sales Price (Currency)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Sales_Price_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Quote.Currency__c, 
+&quot;US Dollars&quot;,&quot;$&quot;, 
+&quot;UK Pounds&quot;,&quot;£&quot;, 
+&quot;Euros&quot;,&quot;€&quot;, 
+&quot;&quot;)&amp; 
+
+IF( 
+  Total_Sales_Price_Currency__c &gt;= 1000000, 
+  TEXT(FLOOR(Total_Sales_Price_Currency__c / 1000000)) &amp; &quot;,&quot;, 
+  &quot;&quot;) &amp; 
+IF( 
+  Total_Sales_Price_Currency__c &gt;= 1000, 
+  RIGHT(TEXT(FLOOR(Total_Sales_Price_Currency__c / 1000)), 3) &amp; &quot;,&quot;, 
+  &quot;&quot;) &amp; 
+RIGHT(TEXT(FLOOR(Total_Sales_Price_Currency__c)), 3) &amp; &quot;.&quot; &amp; 
+IF( 
+  MOD(Total_Sales_Price_Currency__c , 1) * 100 &lt; 10, 
+  &quot;0&quot; &amp; TEXT(ROUND(MOD(Total_Sales_Price_Currency__c , 1), 2) * 100), 
+  TEXT(MIN(ROUND(MOD(Total_Sales_Price_Currency__c , 1), 2) * 100, 99)) 
+)</formula>
+        <label>Total Sales Price</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trigger_Workflow_Rules__c</fullName>
+        <externalId>false</externalId>
+        <label>Trigger Workflow Rules</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>isActiveSKU__c</fullName>
+        <externalId>false</externalId>
+        <formula>PricebookEntry.IsActive</formula>
+        <label>isActiveSKU?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>of_Months__c</fullName>
+        <externalId>false</externalId>
+        <label># of Months</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>BMC_SKUs_Restricted</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+CONTAINS(Product2.ProductCode,&quot;BMC&quot;),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>This is a BMC only sku that should not be used on quotes.  Contact Finance for any questions</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Bus_Driver_Add_SKUs_Only</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISNEW(),
+OR(
+CONTAINS(Product2.ProductCode,&quot;CNEVC&quot;),
+Product2.ProductCode=&quot;UCNE-SNM-1YR-Q416&quot;,
+Product2.ProductCode=&quot;UCNE-PERM-Q416&quot;),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;, 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Commercial Bus Driver&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Bus Driver - West Region&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Bus Driver - Central Region&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Bus Driver - East Region&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Bus Driver - EMEA&quot;))
+)</errorConditionFormula>
+        <errorMessage>Only a commercial bus driver/AVP may add in this SKU.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_Add_Products_to_Maint_Renewals</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+TEXT(Quote.Opportunity.Type)=&quot;Maintenance Renewal&quot;,
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Customer Account&quot;)),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>You may not edit a maintenance renewal unless you are in Finance or a VMT admin.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_discount_1_year_maintenance</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+OR(CONTAINS(Product2.Name,&quot;Support&quot;),CONTAINS(Product2.Name,&quot;Maintenance&quot;)),
+OR(CONTAINS(Product2.Name,&quot;1-year&quot;),CONTAINS(Product2.Name,&quot;1 year&quot;)),
+UnitPrice&lt;PricebookEntry.UnitPrice,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,$UserRole.Name&lt;&gt;&quot;CFO&quot;)</errorConditionFormula>
+        <errorDisplayField>UnitPrice</errorDisplayField>
+        <errorMessage>You cannot discount 1-year maintenance (talk to your manager if you have an extenuating circumstance)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_discount_training_and_services</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR( 
+CONTAINS(Product2.Name,&quot;Training&quot;),
+CONTAINS(Product2.ProductCode,&quot;PSO&quot;)
+), 
+UnitPrice&lt;PricebookEntry.UnitPrice*0.8,
+TEXT(Quote.Currency__c)=&quot;US Dollars&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+!$User.Approved_Rulebreaker_Level_1__c,
+NOT(CONTAINS($UserRole.Name,&quot;Bus Driver&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;CFO&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Channels&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Regional VP - Global Accounts US&quot;))
+)</errorConditionFormula>
+        <errorDisplayField>UnitPrice</errorDisplayField>
+        <errorMessage>Only Bus Drivers can discount training and services.  Please apply the discount to the license instead.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Legacy_SKU_Restrictions</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISNEW(),
+NOT(CONTAINS(Product2.ProductCode,&quot;PSO&quot;)),
+NOT(CONTAINS(Product2.ProductCode,&quot;PUB&quot;)),
+OR( 
+CONTAINS(Product2.ProductCode,&quot;ACM&quot;), 
+CONTAINS(Product2.ProductCode,&quot;SCM&quot;), 
+CONTAINS(Product2.ProductCode,&quot;EOM&quot;),
+CONTAINS(Product2.ProductCode,&quot;Q416&quot;),
+CONTAINS(Product2.ProductCode,&quot;COCM&quot;),
+CONTAINS(Product2.ProductCode,&quot;FCM&quot;),
+CONTAINS(Product2.ProductCode,&quot;HCCM&quot;),
+CONTAINS(Product2.ProductCode,&quot;IAC&quot;),
+CONTAINS(Product2.ProductCode,&quot;NCM&quot;),
+CONTAINS(Product2.ProductCode,&quot;PCB&quot;),
+CONTAINS(Product2.ProductCode,&quot;POM&quot;),
+CONTAINS(Product2.ProductCode,&quot;PVM&quot;),
+CONTAINS(Product2.ProductCode,&quot;SCB&quot;),
+CONTAINS(Product2.ProductCode,&quot;WEPC&quot;),
+CONTAINS(Product2.ProductCode,&quot;VCM&quot;)
+), 
+$UserRole.Name&lt;&gt;&quot;CFO&quot;, 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$UserRole.Name&lt;&gt;&quot;VP of Enterprise Sales&quot;,
+$UserRole.Name&lt;&gt;&quot;VP of International Sales&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Customer Account&quot;)),
+$UserRole.Name&lt;&gt;&quot;VP of Inside Sales, NORAM&quot;
+)</errorConditionFormula>
+        <errorMessage>This SKU is restricted to VPs and above. Please contact the finance team or your VP for help in adding this SKU.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Min_discount_on_3_year_APM_maintenance</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+OR(CONTAINS(Product2.Name,&quot;Application Performance Manager&quot;),
+CONTAINS(Product2.Name,&quot;APM&quot;)),
+OR(CONTAINS(Product2.Name,&quot;Support&quot;),CONTAINS(Product2.Name,&quot;Maintenance&quot;)),
+OR(CONTAINS(Product2.Name,&quot;3-year&quot;),CONTAINS(Product2.Name,&quot;3 year&quot;)),
+ROUND(UnitPrice,0)&lt;ROUND(PricebookEntry.UnitPrice*(1-0.23),0),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,$UserRole.Name&lt;&gt;&quot;CFO&quot;)</errorConditionFormula>
+        <errorDisplayField>UnitPrice</errorDisplayField>
+        <errorMessage>You cannot discount 3-year maintenance more than 23% ($92 based on 2013 prices)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Min_discount_on_3_year_ASC_maintenance</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+CONTAINS(Product2.Name,&quot;Storage Control Module&quot;),
+OR(CONTAINS(Product2.Name,&quot;Support&quot;),CONTAINS(Product2.Name,&quot;Maintenance&quot;)),
+OR(CONTAINS(Product2.Name,&quot;3-year&quot;),CONTAINS(Product2.Name,&quot;3 year&quot;)),
+ROUND(UnitPrice,0)&lt;ROUND(PricebookEntry.UnitPrice*(1-0.23),0),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,$UserRole.Name&lt;&gt;&quot;CFO&quot;)</errorConditionFormula>
+        <errorDisplayField>UnitPrice</errorDisplayField>
+        <errorMessage>You cannot discount 3-year maintenance more than 23% ($277 based on 2013 prices)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Min_discount_on_3_year_COM_maintenance</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+CONTAINS(Product2.Name,&quot;Cloud Operations Manager&quot;),
+OR(CONTAINS(Product2.Name,&quot;Support&quot;),CONTAINS(Product2.Name,&quot;Maintenance&quot;)),
+OR(CONTAINS(Product2.Name,&quot;3-year&quot;),CONTAINS(Product2.Name,&quot;3 year&quot;)),
+ROUND(UnitPrice,0)&lt;ROUND(PricebookEntry.UnitPrice*(1-0.23),0),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,$UserRole.Name&lt;&gt;&quot;CFO&quot;)</errorConditionFormula>
+        <errorDisplayField>UnitPrice</errorDisplayField>
+        <errorMessage>You cannot discount 3-year maintenance more than 23% ($462 based on 2013 prices)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Min_discount_on_3_year_maintenance</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+OR(CONTAINS(Product2.Name,&quot;Support&quot;),CONTAINS(Product2.Name,&quot;Maintenance&quot;)),
+OR(CONTAINS(Product2.Name,&quot;3-year&quot;),CONTAINS(Product2.Name,&quot;3 year&quot;)),
+ROUND(UnitPrice,0)&lt;ROUND(PricebookEntry.UnitPrice*(1-0.23),0),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,$UserRole.Name&lt;&gt;&quot;CFO&quot;)</errorConditionFormula>
+        <errorDisplayField>UnitPrice</errorDisplayField>
+        <errorMessage>You cannot discount 3-year maintenance more than 23% (talk to your manager if you have an extenuating circumstance)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Native_Sales_Price_not_equal_to_0</fullName>
+        <active>false</active>
+        <errorConditionFormula>UnitPrice&lt;&gt;0</errorConditionFormula>
+        <errorDisplayField>UnitPrice</errorDisplayField>
+        <errorMessage>Due to Salesforce problems,this field is no longer used.  Please just put a zero in it and ignore it.  You can edit the sales price by clicking &quot;Edit&quot; once the line item has been added (if you&apos;re not on the edit page already).</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_Finance_Can_Add_2_Plus_Year_SNM</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+OR(
+  CONTAINS(Product2.ProductCode,&quot;SNM&quot;),
+  CONTAINS(Product2.ProductCode,&quot;WM2&quot;)
+),
+OR(
+ISPICKVAL(Product2.Term__c,&quot;36&quot;),
+ISPICKVAL(Product2.Term__c,&quot;48&quot;),
+ISPICKVAL(Product2.Term__c,&quot;60&quot;),
+ISPICKVAL(Product2.Term__c,&quot;30&quot;),
+ISPICKVAL(Product2.Term__c,&quot;42&quot;)
+),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$UserRole.Name&lt;&gt;&quot;Bus Driver - APAC&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Customer Account&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Federal&quot;))
+)</errorConditionFormula>
+        <errorMessage>Sales may not add more than 2 years Support and Maintenance. Please ask for assistance from the finance team if you are looking to add 3 or more years of maintenance.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_Finance_Can_Add_PowerVM_SKU</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+OR(
+  CONTAINS(Product2.Name,&quot;PowerVM&quot;),
+  CONTAINS(Product2.ProductCode,&quot;6CTRL&quot;),
+  CONTAINS(Product2.ProductCode,&quot;POM-TERM-3YR&quot;),
+  CONTAINS(Product2.ProductCode,&quot;M1Y&quot;),
+  CONTAINS(Product2.ProductCode,&quot;M6M&quot;)
+  ),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;
+)</errorConditionFormula>
+        <errorMessage>The SKU you are adding is restricted. Please ask someone from Finance to add it for you.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_Finance_may_add_restricted_SKUs</fullName>
+        <active>true</active>
+        <description>Only Finance may add restricted SKUs</description>
+        <errorConditionFormula>AND(
+  ISNEW(),
+  Product2.Finance_Only_SKU__c=TRUE,
+  $UserRole.Name&lt;&gt;&quot;CFO&quot;, 
+  $UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+  OR(
+    AND(
+      NOT(CONTAINS(Product2.ProductCode,&quot;SNM&quot;)),
+      Product2.ProductCode&lt;&gt;&quot;WE-PERM&quot;),
+    AND(
+      $UserRole.Name&lt;&gt;&quot;Bus Driver - APAC&quot;,
+      NOT(CONTAINS($UserRole.Name,&quot;Customer Account&quot;)),
+      CONTAINS(Product2.ProductCode,&quot;SNM&quot;)
+    ),
+    AND(
+      Product2.ProductCode=&quot;WE-PERM&quot;,
+      $User.Full_Name__c&lt;&gt;&quot;Martin Smajlaj&quot;
+    )
+  )
+)</errorConditionFormula>
+        <errorMessage>This is a restricted SKU. Please contact the Deal Desk (DealDesk@turbonomic.com) for assistance.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_From_Enterprise</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+OR(
+CONTAINS(Product2.ProductCode,&quot;WE500VM&quot;),
+CONTAINS(Product2.ProductCode,&quot;WE1KVM&quot;)),
+CONTAINS($UserRole.Name,&quot;Enterprise&quot;))</errorConditionFormula>
+        <errorMessage>This SKU is restricted to the commercial business only.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Prepay_SKUs_for_Partner_Quotes</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+ISPICKVAL(Quote.Quote_Type__c,&quot;Partner&quot;),
+OR(
+CONTAINS(Product2.Name,&quot;Prepay&quot;),
+CONTAINS(Product2.Name,&quot;Prepaid&quot;)
+),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;, 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;
+)</errorConditionFormula>
+        <errorMessage>Cannot add a prepay SKU for Partner quotes. Please select a standard SKU.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Service_Discounting</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+OR(ISPICKVAL(Product2.Family,&quot;Services&quot;),ISPICKVAL(Product2.Family,&quot;RAPID Success&quot;)),
+OR(Discount&gt;0,Total_Sales_Price_Currency__c &lt; Total_List_Price_Curr__c),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Discount</errorDisplayField>
+        <errorMessage>Services may not be discounted unless done by Finance</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Support_Discounting_On_MR</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+CONTAINS(Product2.ProductCode,&quot;SNM&quot;),
+TEXT(Quote.Opportunity.Type)=&quot;Maintenance Renewal&quot;,
+OR(Discount&gt;0,Total_Sales_Price_Currency__c &lt; Total_List_Price_Curr__c),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;Customer Account Manager&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Discount</errorDisplayField>
+        <errorMessage>Support and Maintenance may not be discounted unless done by Finance or CX teams.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sales_Price_OR_Discount_must_be_provided</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(
+AND(ISNULL(Sales_Price_enter_this_OR_Discount__c),ISNULL(Discount_enter_this_OR_Sales_Price__c)),
+AND(NOT(ISNULL(Sales_Price_enter_this_OR_Discount__c)),NOT(ISNULL(Discount_enter_this_OR_Sales_Price__c))))</errorConditionFormula>
+        <errorMessage>Please enter a Sales Price OR a Discount (ONE field must be filled)</errorMessage>
+    </validationRules>
+</CustomObject>

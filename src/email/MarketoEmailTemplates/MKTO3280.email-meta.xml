@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Blogger Email (Cut Sponsorship).Cut Sponsorship Send</name>
+    <style>none</style>
+    <subject>Turbonomic Blogger Program Update</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Greetings from Turbonomic!
+
+With the close of 2017 now on the horizon, we are taking a closer look at the Turbonomic Blogging Program. What is working well? How can we improve? What can we do better? We want your input and candid feedback on how we can better serve, provide access to and engage with you better. Send us your ideas on the quality of content from us, your interaction (or desire) for more engagement with Turbonomic leadership, and what new types of opportunities you would like to see to engage with us!
+
+We have a few of our own ideas. For starters, we are introducing a new hands-on program around containerization and looking for a select number of volunteers to participate. This is going to be fun, a great learning experience, and the best part is being able to share this with you and our community. If you are interested in participating, please respond to this email and let me know – and include your current level of knowledge with container technology and container orchestration. We need folks of every knowledge level.
+
+And finally, refining our program includes examining the alignment of our resources. While I regret to inform that we won’t be able to sponsor your blog, we do hope and look forward to continuing to engage. In the meantime, feel free to reach out to me with any questions. Alternatively, Patrick (patrick.walsh@turbonomic.com) and Katryn (katryn.mcgaughey@turbonomic.com) are also here to support.
+
+Thank you again for being part of our community – and we look forward to continuing to work with you.
+
+Eric Wright</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

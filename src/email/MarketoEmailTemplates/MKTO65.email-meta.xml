@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>LSE case study download.Intro Email</name>
+    <style>none</style>
+    <subject>VMTurbo &amp; the London School of Economics</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+ 
+ When the London School of Economics (LSE) sought a solution to make efficiency improvements in its virtualized data center without compromising service levels of virtualized applications—and without overburdening its lean IT operations team—it chose 
+technology from VMTurbo. Read this brief success story &lt;http://bit.ly/Uhatqm&gt; to understand how VMTurbo Operations Manager ensures applications have the physical and virtual IT resources needed, drives the highest utilization of infrastructure 
+resources, and projects the impact of new workloads and growth on the environment—reducing operational overhead in LSE’s expanding virtualized data center. 
+
+As an IT leader for your educational institution, you may be facing similar pressures as you expand virtualized servers in your environment and realize that hypervisor-specific management tools alone can’t meet your requirements. Surely, with initiatives for virtual desktop infrastructure, student and faculty portals, and electronic learning, you have a lot to manage.  That’s why maximizing the efficiency of resources—IT assets and operational staff—to control costs is at the top of your To-Do list. 
+
+VMTurbo Operations Manager &lt;http://bit.ly/SY81or&gt; can help you prevent application performance degradation and resource bottlenecks, improve utilization, and intelligently plan for growth, as well as 
+increase the efficiency of your operational staff. Learn more about LSE’s success story &lt;http://bit.ly/Uhatqm&gt; , and see how your organization could benefit from the use of VMTurbo’s technology.
+
+
+{{lead.Lead Owner First Name:default=The VMTurbo Team}}  {{lead.Lead Owner Last Name:default=}}
+phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

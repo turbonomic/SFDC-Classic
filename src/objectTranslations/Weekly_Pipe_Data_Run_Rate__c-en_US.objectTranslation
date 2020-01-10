@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Weekly Pipe Data (Run Rate)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Weekly Pipe Data (Run Rate)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Analytic Snapshot Name --></label>
+        <name>Analytic_Snapshot_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Analytic Snapshot Running User --></label>
+        <name>Analytic_Snapshot_Running_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Time --></label>
+        <name>Execution_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group^Owner Team --></label>
+        <name>Group_Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Team --></label>
+        <name>Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safe ID --></label>
+        <name>Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date of FQ --></label>
+        <name>Start_Date_of_FQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Pipe --></label>
+        <name>Total_Pipe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighted Forecast --></label>
+        <name>Weighted_Forecast__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

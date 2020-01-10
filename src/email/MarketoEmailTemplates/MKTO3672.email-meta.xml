@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-0530-AI-Optimize-Kubernetes.ES-2018-05-10-Kubernetes-Follow-Up.ES-2</name>
+    <style>none</style>
+    <subject>Great meeting you at KubeCon Copenhagen!</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Great meeting you at KubeCon+Cloud NativeCon in Copenhagen! Aside from having the longest lasting spinners and the best KubeCon cheerleader, we also have the only platform that enables your Kubernetes clusters to self-manage, whether you&apos;re on-prem or in the cloud.
+
+
+Want to learn more about how Turbonomic&apos;s AI-powered decision engine continuously optimizes Kubernetes environments?
+
+
+Join our live webinar
+Self-Managing Kubernetes &lt;[[https://turbonomic.com/resources/using-ai-to-optimize-kubernetes-clusters/]]&gt; 
+Wednesday, May 30th at 11 am ET
+
+
+ &lt;[[https://turbonomic.com/resources/using-ai-to-optimize-kubernetes-clusters/]]&gt;
+
+
+
+
+Today&apos;s solutions offer more data, visibility, and automation. What&apos;s missing is a decision engine that uses that data to determine what to do and when to do it and leverages that automation to execute those actions in real-time. That&apos;s where Turbonomic comes in...
+
+
+
+	- Minimal human intervention
+
+	- Automated rescheduling of pods assures performance
+
+	- Intelligent cluster scaling ensures elastic infrastructure
+
+	- Full-stack control unites DevOps and infrastructure
+
+
+
+Save your seat here. &lt;[[https://turbonomic.com/resources/using-ai-to-optimize-kubernetes-clusters/]]&gt; Hope to see you then!
+
+
+Cheers,
+The Turbonomic Team
+©  Turbonomic, Inc.
+Contact Us &lt;[[https://turbonomic.com/company/contact-us/]]&gt;  |  Unsubscribe &lt;[[{{system.unsubscribeLink}}]]&gt;
+&lt;[[https://twitter.com/turbonomic]]&gt;     &lt;[[https://www.youtube.com/user/myVMTurboTV]]&gt;      &lt;[[https://www.linkedin.com/company/turbonomic/]]&gt;    &lt;[[https://www.facebook.com/turbonomic/]]&gt;    &lt;[[https://www.instagram.com/turbonomic/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

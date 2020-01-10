@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2014 Customer 4.5 Launch Webinar - 8:00 am.Follow up - Attendees</name>
+    <style>none</style>
+    <subject>Thank you for attending the VMTurbo 4.5 Launch Webcast</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for attending our v4.5 release webinar last week. We look forward to bringing you more of these types of webinars in the future. 
+
+If you were not able to attend the entire session or would like to revisit parts of it, you can watch it here &lt;http://bit.ly/LscRHK&gt;.
+
+We&apos;re happy to answer any of your questions: email sales@vmturbo.com or support@vmturbo.com.
+
+Sincerely,
+The VMTurbo Team
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

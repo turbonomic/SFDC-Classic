@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Historical Customer Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Historical Customer Statuses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Customer Status --></label>
+        <name>Customer_Status__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange</masterLabel>
+            <translation><!-- Orange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Execution Time --></label>
+        <name>Execution_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Count --></label>
+        <name>Record_Count__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

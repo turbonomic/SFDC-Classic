@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03_24_2014 MSFT-VMM Follow Up.Email_Img</name>
+    <style>none</style>
+    <subject>{{lead.first name:default=}} Thank You | Now, Claim Your turboSWAG</subject>
+    <textOnly>{{lead.first name:default=That Star Destroyer was so sweet.}}
+
+Thanks for attending The Hyper-V Readiness Series (Episode 1)&lt;http://bit.ly/1h2n0Uz&gt; featuring Scott Lowe &amp; David Davis of VirtualizationSoftware. Want to learn more? Propel your data center into the future? Help yourself to any of the FREE downloads below.
+
+VMTurbo Operations Manager 4.5 - Full-Featured 30 Day Trial 
+Download Here: &lt;http://bit.ly/1la1lkl&gt;
+
+VMTurbo Virtual Health Monitor - Unlimited &amp; Free, How Monitors Should Be
+Download Here: &lt;http://bit.ly/1phWeff&gt;
+
+Whitepaper: Successfully Virtualizing Business-Critical Applications
+Download Here: &lt;http://bit.ly/1kPuVZJ&gt;
+ 
+Whitepaper: Sizing-Up IT Operations Management
+Download Here: &lt;http://bit.ly/1la2Kam&gt;
+
+ 
+Swag,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

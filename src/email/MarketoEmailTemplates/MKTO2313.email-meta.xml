@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Proper hybrid cloud planning for Volusia  (1494447824.0)</name>
+    <style>none</style>
+    <subject>Proper hybrid cloud planning for Volusia  (1494447824.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Alex, From past conversations I know a big initiative for you and the team at Volusia County Schools was planning moving some of the on-premise workloads to a public cloud. Typically, organizations looking into a hybrid cloud infrastructure face three very difficult questions: ·         Which workloads should be burst to the public cloud?·         When should we burst them?·         When should we bring them back and where should we place them? Turbonomic’s economic abstraction answers all these questions and makes performance-cost driven placement  sizing and auto-scaling decisions across all clouds. With Turbonomic you are enabled to extend your private cloud management approach to:  ·         Burst workload into the cloud when demand increases and cannot be met with local resources·         Maintain control on workload performance and resource utilization to decide when to move workloads back on-premises ·         Allow applications to auto-scale and clone into the cloud ·         Load balance across private and public clouds I was hoping that you might have some time in the month of May to discuss how our platform does this and the value you and the team at Volusia County Schools could see from our platform. Do you have any time for a 30 minute introduction call?  Best regards, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

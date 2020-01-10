@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-01-Customer Thank You.Thank you email</name>
+    <style>none</style>
+    <subject>Happy New Year to our Turbonomic Customers!</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+Happy New Year from your team at Turbonomic.  You helped make 2017 an epic year for us and we want to make sure you understand how much we appreciate it! 
+
+
+Thank you for your business and direction over the year. The rate and pace of IT Transformation showed no signs of slowing in 2017 and we’re all expecting this trend to continue for the foreseeable future. As one of our customers, you remain the single most important source of guidance for us and it edifies the steps we take to ensure Customer Success is woven into the fabric of our daily Turbonomic activities!
+
+
+Thank you also for your patience and advice as we have scaled. As with any rapidly growing company, sometimes the pace of growth itself can impede the ability to deliver the type of success required by each customer. Taking the time to rethink customer engagement, reframe customer success and redefine shared goals has been a key part of our growth strategy. You’ve enabled us to do this – and I cannot thank you enough!  
+
+
+With your commitment throughout 2017, we’ve made massive investments, informed by your perspectives, into Turbonomic’s Product, Engineering and Customer Success infrastructure. This is fundamental to our strategy of making your Turbonomic experience the best vendor experience possible. To be more specific, thanks to you, we have: 
+
+
+
+	- Delivered the first-ever Hybrid Cloud Workload Automation capability as a part of our core platform – helping to simplify and accelerate your public cloud/hybrid cloud strategy.
+	- Centralized all customer-facing technical organizations (Pre-Sales System Engineers, Customer Experience, Implementation &amp; Integration, Technical Account Management, Technical Support and Technical Training &amp; Certification) into a single organization – ensuring accountability from sales to delivery to ROI.
+	- Quadrupled the size of our Pre-Sales System Engineering team – to make sure you have an actionable plan to take advantage of Turbonomic’s capabilities.
+	- Tripled the size of our Implementation &amp; Integration and Technical Account Management teams – to leverage our new Value Impact Delivery Methodology.
+	- Launched our phone-home capability within the Turbonomic platform - allowing us to deliver systematic health checks and predictive support capabilities.
+
+
+
+So, whether you have a large amount of on-prem infrastructure or are heavily investing in the Public Cloud – or if you are somewhere in between – your experience has influenced both the technology we have brought to market as well as the outstanding personnel we have brought onboard to serve you. 
+
+
+Yes, we accomplished a great deal together in 2017, but now we need to set the stage for 2018!  What would a Happy New Year thank you note be without some resolutions?  So, considering all that the Turbonomic Platform enables and in keeping with the New Year’s Resolution theme, we have put together a list of “2018 IT Resolutions” that Turbonomic is committed to helping you achieve!  
+
+
+Healthy Applications &lt;[[https://turbonomic.com/resolutions-healthyapps/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt;
+Why do we do all that we do in Infrastructure IT (e.g. performance monitoring, capacity planning, over-provisioning, policy enforcement)? Find out more &lt;[[https://turbonomic.com/resolutions-healthyapps/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt; about how Turbonomic ensures you’ll always have Healthy Applications. 
+  
+Savings on Your Hybrid Cloud Strategy &lt;[[https://turbonomic.com/resolutions-hybridcloud/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt;
+It seems that everyone has a Public Cloud / Hybrid Cloud strategy taking shape. Find out more &lt;[[https://turbonomic.com/resolutions-hybridcloud/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt; about how we can help with Hybrid Cloud Planning and Automation. 
+  
+Automating Operations &lt;[[https://turbonomic.com/resolutions-automate/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt;
+Do you know that the industry metrics on Infrastructure IT alerts states that over 80% of them get ignored? Find out how &lt;[[https://turbonomic.com/resolutions-automate/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt; Turbonomic mitigates risk and automates much of what we need to manually address today. 
+  
+Maintain a Work-Life Balance &lt;[[https://turbonomic.com/resolutions-balance/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt;
+Of course, we cannot make all work disappear, but putting Turbonomic in place means fewer technical issues to resolve, a lower number of infrastructure IT incidents and more time to focus on learning new technology while maintaining a better work/life balance. Find out more &lt;[[https://turbonomic.com/resolutions-balance/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=2018_IT_Resolutions]]&gt; about how Turbonomic makes this a reality. 
+
+
+Again, thank you for your trust and your business in 2017! We are looking forward to working with you in 2018 and delivering on your IT Transformation goals! 
+
+
+
+Alex Hesterberg
+SVP &amp; Chief Customer Officer
+Alex.hesterberg@turbonomic.com &lt;[[mailto:Alex.hesterberg@turbonomic.com]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

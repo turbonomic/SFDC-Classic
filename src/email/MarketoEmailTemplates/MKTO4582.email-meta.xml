@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-07 Webinar Invite.ES-2018-05-07-Webinar-Attendee-Promo1</name>
+    <style>none</style>
+    <subject>Will you join us this Wednesday?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Seeing as you&apos;ve registered for our webinars in the past, I wanted to make sure you didn&apos;t miss this next one coming up on Wednesday morning at 11am EST.
+
+
+ &lt;[[https://turbonomic.com/resources/continuous-aws-ri-consumption]]&gt;
+
+
+During this live demo, Director of Technical Marketing and Technology Evangelist, Eric Wright will take you through a live tour of the new cloud features of Turbonomic 6.1, with a focus on our continuous AWS Reserved Instance (RI) utilization.
+
+
+I hope you can join us &lt;[[https://turbonomic.com/resources/continuous-aws-ri-consumption]]&gt;!
+
+
+
+Best,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

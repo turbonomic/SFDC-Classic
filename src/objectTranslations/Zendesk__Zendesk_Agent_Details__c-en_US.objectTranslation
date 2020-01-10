@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Access Token --></label>
+        <name>Zendesk__AccessToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>Zendesk__Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Oauth --></label>
+        <name>Zendesk__UseOauth__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>Zendesk__User__c</name>
+        <relationshipLabel><!-- Zendesk Agent Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>Zendesk__Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zendesk Domain --></label>
+        <name>Zendesk__Zendesk_Domain__c</name>
+        <relationshipLabel><!-- Zendesk Agent Details --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>11_26_2015 Happy Turkey Day.Send</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=VMTurbo}}&apos;s Virtual Turkey</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+No gimmick today. We&apos;re simply writing to wish you and yours a very Happy Thanksgiving. May your day be filled with laughter, fond memories, and an elastic waistband.
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

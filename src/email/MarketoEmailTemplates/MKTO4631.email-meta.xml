@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AWS_Cold_Nurture.AWS_Cold_Nurture_Email_4</name>
+    <style>none</style>
+    <subject>Learn how MetroStar Systems reduced their AWS bill by 25% with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Too many IT teams that migrate to the cloud struggle to manage their cloud spend after the migration. MetroStar Systems faced this challenge. Under executive pressure to reduce their AWS spend fast, MetroStar Systems turned to Turbonomic. By automating Turbonomic AWS storage tier optimization recommendations, they quickly saw a 25% reduction in their monthly spend.
+
+
+Check out the below video to learn more about their journey to minimize their AWS spend and save hundreds of hours of labor in the process.
+
+
+ &lt;[[https://resources.turbonomic.com/turbonomic-and-aws/metrostar-success-story?utm_campaign=70157000001bYQKAA2]]&gt;
+
+
+Interested in learning more? Chat with a workload automation specialist &lt;[[https://turbonomic.com/request-a-demo/?utm_id=70157000001bY52AAE]]&gt; at Turbonomic to see how we can help you assure performance while minimizing cost and maintaining compliance.
+
+
+Best,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Freemium Survey 2.Freemium Survey CTA</name>
+    <style>none</style>
+    <subject>$10 Amazon Gift Card | VMT Product Survey</subject>
+    <textOnly>{{lead.First Name:default=Dear Sir or Madam}}:
+
+Please take this 5-minute survey &lt;https://www.surveymonkey.com/s/TPKLZHH&gt; to assist VMTurbo best tailor its new, currently-in-the-works, (free) Cluster Control product. The first 25 respondents to complete the entire survey will receive a $10 Amazon.com gift card, which can be used to purchase any of these items &lt;http://amzn.to/1qdc28B&gt;.
+
+Personally, we&apos;re getting the bacon bandages &lt;http://amzn.to/1qBpgel&gt;.
+
+Thank you in advance,
+
+Team Turbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

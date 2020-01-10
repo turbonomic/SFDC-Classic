@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject:  The &apos;Next Steps&apos; for the Opportunity at {!Alliance_Registration__c.Customer_Account_Name__c} Have Been Updated</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alliance Reg Next Steps Update</name>
+    <style>none</style>
+    <subject>The &apos;Next Steps&apos; for the Opportunity at {!Alliance_Registration__c.Customer_Account_Name__c} Have Been Updated</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

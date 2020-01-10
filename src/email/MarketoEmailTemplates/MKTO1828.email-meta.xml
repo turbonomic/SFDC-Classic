@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Pre-Recordings</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-04-07-Turbofest-London.EMAIL-Thank You For Attending</name>
+    <style>none</style>
+    <subject>Thank You For Attending Turbofest London!</subject>
+    <textOnly>Hi {{Lead.First Name}},
+We were honoured to host Turbofest London last week with a full room and a packed speaking agenda. Thank you for joining us and making the event such a great success!
+Be sure to keep an eye out for the Turbofest recordings which we will be sharing within the next week.
+
+Best,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

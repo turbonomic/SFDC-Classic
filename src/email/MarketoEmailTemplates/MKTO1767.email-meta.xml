@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2016-04-GSC Tech Com.EMAIL-Follow Up Email</name>
+    <style>none</style>
+    <subject>Thank You For Stopping By! - GSC TechCom 2016</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+Thanks for stopping by our booth last week. I realize it was hectic in the exhibit hall and there wasn’t much time to demonstrate the benefits of the technology, but I&apos;m happy schedule a follow up session in the coming weeks. We&apos;re working with accounts teams both within CSC and outside to help drive costs out and improve service delivery.
+One of the key themes I heard throughout the conference was “Build, Sell, Deliver” and I believe that VMTurbo can play a major role on all three fronts. There is a recent Gartner &lt;[[https://www.gartner.com/doc/reprints?id=1-32CTR1D&amp;ct=160331&amp;st=sb]]&gt; report that mentions VMTurbo and our approach to controlling virtual and cloud environments. According to the report:
+“Dynamic optimization technology for resources and cloud service is a technology capability that uses telemetry, algorithms, service and resource analytics, and policies to drive real-time automated actions that reduce waste, cost and risk exposure, while simultaneously improving service levels. These technologies help reduce cloud service and virtual infrastructure sprawl and cost, while improving governance and compliance.”
+As always, it was great to be a part of the conference and to meet so many of you. If you have questions or would like to setup time to speak, email csc@vmturbo.com  &lt;[[mailto:csc@vmturbo.com]]&gt;and someone from our team will respond.
+Regards,
+Justin Kutticherry</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN - EMEA -2019-03-21 Performance, Cost, Compliance - France.Invite Email</name>
+    <style>none</style>
+    <subject>Webinaire: Performance, coût, conformité : Turbonomic optimise votre infrastructure Multi-Cloud</subject>
+    <textOnly>&lt;[[https://tech-inn.webex.com/tech-inn/onstage/g.php?MTID=ef71b527ea6eb470f11aabaabc83ab64e]]&gt;
+Performance, coût, conformité : Turbonomic optimise votre infrastructure Multi-Cloud
+
+Aujourd&apos;hui, de nombreuses entreprises ont du mal à garantir la performance de leurs applications. Souvent, la solution consiste à surprovisionner du matériel ou à se retrouver sans contrôle de sa facture Public Cloud, ce qui entraîne des dépenses 
+excessives. Cela passe souvent inaperçu jusqu&apos;à ce qu&apos;elles reçoivent une facture beaucoup plus importante que prévue ou qu&apos;un programme d’optimisation des coûts soit initié par la DSI.
+
+
+
+
+INSCRIVEZ-VOUS &lt;[[ttps://tech-inn.webex.com/tech-inn/onstage/g.php?MTID=ef71b527ea6eb470f11aabaabc83ab64e]]&gt;
+
+
+
+
+
+
+
+Dans ce webinaire, Jérôme Papazian montrera comment automatiser la gestion des workloads dans une infrastructure Multi-Cloud afin de garantir la performance 
+des applications, en réduisant les coûts matériels, logiciels et opérationnels, tout en respectant les contraintes d’urbanisation.
+ 
+Il est temps de passer à l’automatisation, inscrivez-vous &lt;[[ttps://tech-inn.webex.com/tech-inn/onstage/g.php?MTID=ef71b527ea6eb470f11aabaabc83ab64e]]&gt; dès maintenant à ce webinaire.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

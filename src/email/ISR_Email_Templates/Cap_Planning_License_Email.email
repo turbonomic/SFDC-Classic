@@ -1,0 +1,16 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+Thank you for your interest in the free trial of VMTurbo Operations Manager with capacity planning. The attached file includes your License Key to unlock features, including capacity planning, for a 30-day trial period.<br /><br />
+
+Follow the instructions for whichever scenario applies:<br />
+1) If you have VMTurbo Operations Manager already installed, simply copy that license key text from start to finish and paste it into the "License Configuration" (in the Admin tab) of the Operations Manager virtual appliance that is currently running.<br />
+2) If you have not previously installed the product in your environment, simply <a href="http://go.vmturbo.com/Cloud_Edition_Download_Appliance_Download.html">download VMTurbo Operations Manager</a>, and once installed, you will be prompted in the installation and configuration process to submit your license key to activate the product.<br /><br />
+Should you have any questions or issues, please feel free to contact me. I look forward to working with you.
+<br /><br />
+
+Best regards,<br /><br />
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}<br /><br />
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br />
+<a href="http://www.vmturbo.com/esevideo">How does VMTurbo work?</a>

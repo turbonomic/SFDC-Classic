@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>02_2014 4.5 Customer JumpStart.Email</name>
+    <style>none</style>
+    <subject>VMTurbo Training Webinar - Covering New Features of v4.5</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+VMTurbo recently released v4.5, with a host of new features and functionality. Join a 90 minute jumpstart training webinar on March 4th see how these features work.
+
+REGISTER for the training today:
+- Webinar: Tue, Mar 4, 2014 @ 12-1:30p Eastern &lt;http://bit.ly/1lrmrYL&gt;
+- Email education@vmturbo.com to schedule a one-on-one training 
+
+The training will address new features in v4.5. You will learn how to:
+
+- Automate VMTurbo recommendations to converge and keep your environment in its optimal state, where you assure application performance while utilizing your infrastructure as efficiently as possible
+- Use VMTurbo to analyze historical trends and project resource needs
+- Customize the VMTurbo dashboards
+- Plan for potential workload fluctuations and hardware migrations
+- Investigate how infrastructure changes would affect performance
+- Generate action plans to transform your environment into the desired state
+- View the new supply chain and workload dashboards
+
+Still need to UPGRADE?
+- View the guide here &lt;http://bit.ly/1faxDDL&gt; 
+
+More TRAINING options:
+- Comprehensive paid training (on-site or remotely via a webex session). The remote training takes 3 hours (or two 90-minute sessions) and costs $1,500. The on-site class is 1 day, costs $2,500 (+travel expenses), and includes a series of hands-on lab exercises. For additional information, please feel free to contact VMTurbo Education at education@vmturbo.com, or visit our website for additional information &lt;http://go.vmturbo.com/pso-training-request.html&gt;. 
+
+
+Sincerely,
+ VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

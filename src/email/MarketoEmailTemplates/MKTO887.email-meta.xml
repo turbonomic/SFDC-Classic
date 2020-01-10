@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>12_6_2014 Beta Home Test.Beta Homepage Test</name>
+    <style>none</style>
+    <subject>25 Bonus Point Offer in the Green Circle</subject>
+    <textOnly>&lt;https://greencircle.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=betahome?utm_content=120614&gt;
+Green Circle Member Exclusive:
+Shape our website
+Hi, {{Lead.First Name:default=Weekend Warrior}}:
+
+We’ve heard you and we’re redesigning our website to be more user friendly. As a valued Green Circle member, your opinion counts! We’re giving you early access to hear what you have to say about our new website design before it goes live. Your input will help define the future look and feel of VMTurbo online.
+ &lt;http://vmturbo.com/beta-home?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=betahome&amp;utm_content=120614&gt;
+All you have to do is click the link above, check out the new page and take the short pop-up survey. Once you&apos;ve completed the survey you will automatically gain 25 points in the Green Circle as a thank you from us!
+Important: In order to receive points, you&apos;ll need to submit your Green Circle Username on the last question of the survey.
+Show me the new page! &lt;http://vmturbo.com/beta-home?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=betahome&amp;utm_content=120614&gt;
+
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

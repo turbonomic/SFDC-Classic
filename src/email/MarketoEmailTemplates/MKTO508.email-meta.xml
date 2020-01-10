@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Braniacs_Chris.Braniacs_02</name>
+    <style>none</style>
+    <subject>Your Discount Code</subject>
+    <textOnly>You’re invited to take part in a 15% discount for text prep services. Please visit our discount page &lt;http://go.vmturbo.com/Braniacs_Chris_LP_Discount.html&gt; to register. 
+
+-The Brainiacs Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

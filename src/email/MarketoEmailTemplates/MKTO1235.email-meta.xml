@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>3-Day VHM Drip.Emma Followup #3</name>
+    <style>none</style>
+    <subject>Assume you are all set {{Lead.First Name}}</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+Are you all set? I&apos;ve reached out a couple times to connect on your recent Virtual Health Monitor download but have not heard back from you.
+
+The tool you downloaded provides basic visibility across all virtualized hosts and virtual machines, helping you identify issues and understand the breadth of problems in your environment. Depending on the size of your data center, you may be better off downloading VMTurbo Operations Manager &lt;http://vmturbo.com/downloads/operations-manager-30-day-trial?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=emma3&amp;utm_content=opsman30&gt;, which offers all of the automated performance control of our full product, FREE for 30 days.
+
+Please don&apos;t hesitate to email me should you have any questions at all.
+
+Jillian Grassetti
+EvalTeam Help Associate, VMTurbo, Inc.
+
+o 866.834.5087 | e evalTeam@vmturbo.com &lt;mailto:evalTeam@vmturbo.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

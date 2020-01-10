@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Field containing Ids from which distinct values will be retrieved to be used as a filter against the main query panel object --></help>
+        <label><!-- Base Master Field API Name --></label>
+        <name>PowerLoader__Base_Master_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- API Name of Object that filters will be run against --></help>
+        <label><!-- Base Object API Name --></label>
+        <name>PowerLoader__Base_Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Value Type --></label>
+        <name>PowerLoader__Default_Value_Type__c</name>
+        <picklistValues>
+            <masterLabel>JS Snippet</masterLabel>
+            <translation><!-- JS Snippet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Static</masterLabel>
+            <translation><!-- Static --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default Value --></label>
+        <name>PowerLoader__Default_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Sequence --></label>
+        <name>PowerLoader__Display_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Type --></label>
+        <name>PowerLoader__Display_Type__c</name>
+        <picklistValues>
+            <masterLabel>Checkbox</masterLabel>
+            <translation><!-- Checkbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation><!-- Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date/Time</masterLabel>
+            <translation><!-- Date/Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lookup</masterLabel>
+            <translation><!-- Lookup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Picklist</masterLabel>
+            <translation><!-- Multi Picklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Numeric</masterLabel>
+            <translation><!-- Numeric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio</masterLabel>
+            <translation><!-- Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Picklist</masterLabel>
+            <translation><!-- Single Picklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IsDisabled --></label>
+        <name>PowerLoader__IsDisabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsHidden --></label>
+        <name>PowerLoader__IsHidden__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsRequired --></label>
+        <name>PowerLoader__IsRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Label HTML --></label>
+        <name>PowerLoader__Is_Label_HTML__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>PowerLoader__Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Label Field API Name --></label>
+        <name>PowerLoader__List_Label_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Source Type --></label>
+        <name>PowerLoader__List_Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>Field Definition</masterLabel>
+            <translation><!-- Field Definition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JS Snippet</masterLabel>
+            <translation><!-- JS Snippet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOQL</masterLabel>
+            <translation><!-- SOQL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Static List</masterLabel>
+            <translation><!-- Static List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- List Source --></label>
+        <name>PowerLoader__List_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Value Field API Name --></label>
+        <name>PowerLoader__List_Value_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>PowerLoader__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Query Panel --></label>
+        <name>PowerLoader__Query_Panel__c</name>
+        <relationshipLabel><!-- Query Parameters --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tag --></label>
+        <name>PowerLoader__Tag__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Display type is required --></errorMessage>
+        <name>PowerLoader__Display_type_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- List source type is required for selected Display Type --></errorMessage>
+        <name>PowerLoader__List_Source_Type_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- List source (SOQL select statement), label field, and value field are required for List Source Type SOQL --></errorMessage>
+        <name>PowerLoader__List_source_required_for_SOQL</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lookup Object API Name is required when Display Type is Lookup --></errorMessage>
+        <name>PowerLoader__Lookup_Object_API_Name_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Object API Name and List Value Field API Name are required for List Source Type Field Definition --></errorMessage>
+        <name>PowerLoader__Object_API_required_for_Field_Definition</name>
+    </validationRules>
+</CustomObjectTranslation>

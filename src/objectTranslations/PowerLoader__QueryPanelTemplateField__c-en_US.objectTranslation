@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- QueryPanelTemplate --></label>
+        <name>PowerLoader__QueryPanelTemplate__c</name>
+        <relationshipLabel><!-- Query Panel Template Fields --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>PowerLoader__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

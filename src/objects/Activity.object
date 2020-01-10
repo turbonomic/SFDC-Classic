@@ -1,0 +1,2463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Active_Created_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CreatedBy.IsActive=TRUE,&quot;TRUE&quot;,&quot;FALSE&quot;)</formula>
+        <label>Active (Created By)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Activity_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <label>Activity Safe ID</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Activity_type_workflow__c</fullName>
+        <description>Activity type is not available in custom reports, so this is a workaround</description>
+        <externalId>false</externalId>
+        <label>Activity type (workflow)</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Owner:User.IsActive=TRUE,&quot;True&quot;,&quot;False&quot;)</formula>
+        <label>Assigned: Active</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_Created_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Full_Name__c&amp;&quot; (&quot;&amp;CreatedBy.Full_Name__c&amp;&quot;)&quot;</formula>
+        <label>Assigned (Created By)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_Role_Buckets__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(Owner:User.UserRole.Name,&quot;Business Development Rep&quot;),&quot;BDR&quot;,
+IF(CONTAINS(Owner:User.UserRole.Name,&quot;Account Executive&quot;),&quot;AE&quot;,
+&quot;Other&quot;))</formula>
+        <label>Assigned Role Buckets</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_SE__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to SE</description>
+        <externalId>false</externalId>
+        <label>Assigned SE</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assigned_Team2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Full_Name__c&amp;&quot; (&quot;&amp;TEXT(Owner:User.Team__c)&amp;&quot;)&quot;</formula>
+        <label>Assigned (Team)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_Team__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.Team__c)</formula>
+        <label>Assigned Team</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_To__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Full_Name__c</formula>
+        <label>Assigned To</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_Username__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Username</formula>
+        <label>Assigned Username</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPU_Sockets__c</fullName>
+        <externalId>false</externalId>
+        <label>CPU Sockets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>VMT Call Date/Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Call_Disposition__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Disposition</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Left Voicemail</fullName>
+                    <default>false</default>
+                    <label>Left Voicemail</label>
+                </value>
+                <value>
+                    <fullName>Left Live Message</fullName>
+                    <default>false</default>
+                    <label>Left Live Message</label>
+                </value>
+                <value>
+                    <fullName>Conversation</fullName>
+                    <default>false</default>
+                    <label>Conversation</label>
+                </value>
+                <value>
+                    <fullName>No Answer</fullName>
+                    <default>true</default>
+                    <label>No Answer</label>
+                </value>
+                <value>
+                    <fullName>Set Callback</fullName>
+                    <default>false</default>
+                    <label>Set Callback</label>
+                </value>
+                <value>
+                    <fullName>Wrong Number</fullName>
+                    <default>false</default>
+                    <label>Wrong Number</label>
+                </value>
+                <value>
+                    <fullName>Bad Number</fullName>
+                    <default>false</default>
+                    <label>Bad Number</label>
+                </value>
+                <value>
+                    <fullName>Busy</fullName>
+                    <default>false</default>
+                    <label>Busy</label>
+                </value>
+                <value>
+                    <fullName>Connect</fullName>
+                    <default>false</default>
+                    <label>Connect</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Call_Duration_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>CallDurationInSeconds/3600</formula>
+        <label>Call Duration (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Connects_num__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(
+Activity_type_workflow__c=&quot;Call&quot;,
+OR(TEXT(Call_Disposition__c)=&quot;Connect&quot;,TEXT(Call_Disposition__c)=&quot;Conversation&quot;)),
+1,0)</formula>
+        <label>Connects #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conversations_num__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(Activity_type_workflow__c=&quot;Call&quot;,TEXT(Call_Disposition__c)=&quot;Conversation&quot;),1,0)</formula>
+        <label>Conversations #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cores__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of CPU cores in customer infrastructure</inlineHelpText>
+        <label>Cores</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_By_Current_User__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CreatedById=$User.Id,&quot;TRUE&quot;,&quot;FALSE&quot;)</formula>
+        <label>Created By Current User</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_By_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.UserRole.Name</formula>
+        <label>Created By Role</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_By_Team2__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName&amp;&quot; &quot;&amp;CreatedBy.LastName&amp;&quot; (&quot;&amp;TEXT(CreatedBy.Team__c)&amp;&quot;)&quot;</formula>
+        <label>Created By (Team)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_By_Team__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CreatedBy.Team__c)</formula>
+        <label>Created By Team</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_By_Tenure_at_Creation_BDR__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE(CreatedDate)-CreatedBy.Start_Date__c</formula>
+        <label>Created By Tenure at Creation (BDR)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_By_Tenure_at_Creation_SR__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE(CreatedDate)-CreatedBy.Promotion_to_AE_Date__c</formula>
+        <label>Created By Tenure at Creation (SR)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_By_Username__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.Username</formula>
+        <label>Created By Username</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Created Date/Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Created_by_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CreatedBy.Id=Owner:User.Id,&quot;Yes&quot;,&quot;No&quot;)</formula>
+        <label>Created by Owner</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Demos__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Activity_type_workflow__c=&quot;Demo&quot;,1,0)</formula>
+        <label>Demos #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dials__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(Activity_type_workflow__c=&quot;Connect&quot;,Activity_type_workflow__c=&quot;Call&quot;,FIND(&quot;onversation&quot;,Activity_type_workflow__c)&gt;0),1,0)</formula>
+        <label>Dials #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Engagement_Activity__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR(AND(Activity_type_workflow__c=&quot;Call&quot;,OR(ISPICKVAL(Call_Disposition__c,&quot;Connect&quot;), ISPICKVAL(Call_Disposition__c,&quot;Conversation&quot;))),
+Activity_type_workflow__c=&quot;Inbound Call&quot;,
+Activity_type_workflow__c=&quot;Email (Inbound)&quot;,
+Activity_type_workflow__c=&quot;Demo&quot;,
+Activity_type_workflow__c=&quot;First Meeting&quot;,
+Activity_type_workflow__c=&quot;Customer Success&quot;,
+Activity_type_workflow__c=&quot;Evaluation Meeting&quot;,
+Activity_type_workflow__c=&quot;Business Impact Presentation&quot;,
+Activity_type_workflow__c=&quot;Discovery Call&quot;,
+Activity_type_workflow__c=&quot;Key Globals Exec Meeting&quot;,
+Activity_type_workflow__c=&quot;Product Walkthrough&quot;,
+Activity_type_workflow__c=&quot;Business Case Review&quot;,
+Activity_type_workflow__c=&quot;Technical Session&quot;,
+Activity_type_workflow__c=&quot;Other Call/Meeting&quot;,
+Activity_type_workflow__c=&quot;On-Site Meeting&quot;,
+Activity_type_workflow__c=&quot;First Meeting&quot;,
+Activity_type_workflow__c=&quot;POV Scoping&quot;,
+Activity_type_workflow__c=&quot;Procurement Meeting&quot;,
+Activity_type_workflow__c=&quot;Webinar&quot;,
+Activity_type_workflow__c=&quot;Webinar Demo&quot;,
+AND(LEFT(Subject,12)=&quot;Opened Email&quot;,Assigned_To__c=&quot;Marketo&quot;),
+AND(LEFT(Subject,13)=&quot;Clicked Email&quot;,Assigned_To__c=&quot;Marketo&quot;))</formula>
+        <label>Engagement Activity</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Engineer__c</fullName>
+        <description>Indicates which  Engineer will lead the demo, install, etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates which  Engineer will lead the demo, install, etc</inlineHelpText>
+        <label>Engineer</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alan Markey</fullName>
+                    <default>false</default>
+                    <label>Alan Markey</label>
+                </value>
+                <value>
+                    <fullName>Alec Kemp</fullName>
+                    <default>false</default>
+                    <label>Alec Kemp</label>
+                </value>
+                <value>
+                    <fullName>Alex Marsh</fullName>
+                    <default>false</default>
+                    <label>Alex Marsh</label>
+                </value>
+                <value>
+                    <fullName>Allen Patterson</fullName>
+                    <default>false</default>
+                    <label>Allen Patterson</label>
+                </value>
+                <value>
+                    <fullName>Anson McCook</fullName>
+                    <default>false</default>
+                    <label>Anson McCook</label>
+                </value>
+                <value>
+                    <fullName>Aseem Anwar</fullName>
+                    <default>false</default>
+                    <label>Aseem Anwar</label>
+                </value>
+                <value>
+                    <fullName>Barry Howard</fullName>
+                    <default>false</default>
+                    <label>Barry Howard</label>
+                </value>
+                <value>
+                    <fullName>Brad Blodgett</fullName>
+                    <default>false</default>
+                    <label>Brad Blodgett</label>
+                </value>
+                <value>
+                    <fullName>Charles Russell</fullName>
+                    <default>false</default>
+                    <label>Charles Russell</label>
+                </value>
+                <value>
+                    <fullName>Chris Rauch</fullName>
+                    <default>false</default>
+                    <label>Chris Rauch</label>
+                </value>
+                <value>
+                    <fullName>Chris Williamson</fullName>
+                    <default>false</default>
+                    <label>Chris Williamson</label>
+                </value>
+                <value>
+                    <fullName>Daniel Butzer</fullName>
+                    <default>false</default>
+                    <label>Daniel Butzer</label>
+                </value>
+                <value>
+                    <fullName>Derrick Faur</fullName>
+                    <default>false</default>
+                    <label>Derrick Faur</label>
+                </value>
+                <value>
+                    <fullName>DeVaughn Riley</fullName>
+                    <default>false</default>
+                    <label>DeVaughn Riley</label>
+                </value>
+                <value>
+                    <fullName>Don McKeith</fullName>
+                    <default>false</default>
+                    <label>Don McKeith</label>
+                </value>
+                <value>
+                    <fullName>Eric Horsman</fullName>
+                    <default>false</default>
+                    <label>Eric Horsman</label>
+                </value>
+                <value>
+                    <fullName>Francois Guillaume</fullName>
+                    <default>false</default>
+                    <label>Francois Guillaume</label>
+                </value>
+                <value>
+                    <fullName>Griffin Bossard</fullName>
+                    <default>false</default>
+                    <label>Griffin Bossard</label>
+                </value>
+                <value>
+                    <fullName>Hillel Adler</fullName>
+                    <default>false</default>
+                    <label>Hillel Adler</label>
+                </value>
+                <value>
+                    <fullName>Howard Masters</fullName>
+                    <default>false</default>
+                    <label>Howard Masters</label>
+                </value>
+                <value>
+                    <fullName>Iddo Avneri</fullName>
+                    <default>false</default>
+                    <label>Iddo Avneri</label>
+                </value>
+                <value>
+                    <fullName>Jacob Ben-David</fullName>
+                    <default>false</default>
+                    <label>Jacob Ben-David</label>
+                </value>
+                <value>
+                    <fullName>James Dyckowski</fullName>
+                    <default>false</default>
+                    <label>James Dyckowski</label>
+                </value>
+                <value>
+                    <fullName>Jamie Hodge</fullName>
+                    <default>false</default>
+                    <label>Jamie Hodge</label>
+                </value>
+                <value>
+                    <fullName>Jason Beaudette</fullName>
+                    <default>false</default>
+                    <label>Jason Beaudette</label>
+                </value>
+                <value>
+                    <fullName>Jason Howard</fullName>
+                    <default>false</default>
+                    <label>Jason Howard</label>
+                </value>
+                <value>
+                    <fullName>Jason Huff</fullName>
+                    <default>false</default>
+                    <label>Jason Huff</label>
+                </value>
+                <value>
+                    <fullName>Jeremy Levenson</fullName>
+                    <default>false</default>
+                    <label>Jeremy Levenson</label>
+                </value>
+                <value>
+                    <fullName>Jerome Papazian</fullName>
+                    <default>false</default>
+                    <label>Jerome Papazian</label>
+                </value>
+                <value>
+                    <fullName>Jimmy Herbert</fullName>
+                    <default>false</default>
+                    <label>Jimmy Herbert</label>
+                </value>
+                <value>
+                    <fullName>Joe Burke</fullName>
+                    <default>false</default>
+                    <label>Joe Burke</label>
+                </value>
+                <value>
+                    <fullName>Jon-Paul Sepulveres</fullName>
+                    <default>false</default>
+                    <label>Jon-Paul Sepulveres</label>
+                </value>
+                <value>
+                    <fullName>Juan Santos</fullName>
+                    <default>false</default>
+                    <label>Juan Santos</label>
+                </value>
+                <value>
+                    <fullName>Jules Albin</fullName>
+                    <default>false</default>
+                    <label>Jules Albin</label>
+                </value>
+                <value>
+                    <fullName>Justus Gries</fullName>
+                    <default>false</default>
+                    <label>Justus Gries</label>
+                </value>
+                <value>
+                    <fullName>Kent Nierendorf</fullName>
+                    <default>false</default>
+                    <label>Kent Nierendorf</label>
+                </value>
+                <value>
+                    <fullName>Kevin Lamb</fullName>
+                    <default>false</default>
+                    <label>Kevin Lamb</label>
+                </value>
+                <value>
+                    <fullName>Luis Da Silva</fullName>
+                    <default>false</default>
+                    <label>Luis Da Silva</label>
+                </value>
+                <value>
+                    <fullName>Masa Kawano</fullName>
+                    <default>false</default>
+                    <label>Masa Kawano</label>
+                </value>
+                <value>
+                    <fullName>Matthew Harcourt</fullName>
+                    <default>false</default>
+                    <label>Matthew Harcourt</label>
+                </value>
+                <value>
+                    <fullName>Matt Ray</fullName>
+                    <default>false</default>
+                    <label>Matt Ray</label>
+                </value>
+                <value>
+                    <fullName>Matt Vetter</fullName>
+                    <default>false</default>
+                    <label>Matt Vetter</label>
+                </value>
+                <value>
+                    <fullName>Michael Gaillard</fullName>
+                    <default>false</default>
+                    <label>Michael Gaillard</label>
+                </value>
+                <value>
+                    <fullName>Michael Isaia</fullName>
+                    <default>false</default>
+                    <label>Michael Isaia</label>
+                </value>
+                <value>
+                    <fullName>Michael Nagar</fullName>
+                    <default>false</default>
+                    <label>Michael Nagar</label>
+                </value>
+                <value>
+                    <fullName>Michael Saville</fullName>
+                    <default>false</default>
+                    <label>Michael Saville</label>
+                </value>
+                <value>
+                    <fullName>Mitch Gerdisch</fullName>
+                    <default>false</default>
+                    <label>Mitch Gerdisch</label>
+                </value>
+                <value>
+                    <fullName>Nick Joseph</fullName>
+                    <default>false</default>
+                    <label>Nick Joseph</label>
+                </value>
+                <value>
+                    <fullName>No Engineer</fullName>
+                    <default>false</default>
+                    <label>No Engineer</label>
+                </value>
+                <value>
+                    <fullName>Patrick Farley</fullName>
+                    <default>false</default>
+                    <label>Patrick Farley</label>
+                </value>
+                <value>
+                    <fullName>Paul Mallick</fullName>
+                    <default>false</default>
+                    <label>Paul Mallick</label>
+                </value>
+                <value>
+                    <fullName>Paul Zychowicz</fullName>
+                    <default>false</default>
+                    <label>Paul Zychowicz</label>
+                </value>
+                <value>
+                    <fullName>Richard Stinton</fullName>
+                    <default>false</default>
+                    <label>Richard Stinton</label>
+                </value>
+                <value>
+                    <fullName>Robert Coppersmith</fullName>
+                    <default>false</default>
+                    <label>Robert Coppersmith</label>
+                </value>
+                <value>
+                    <fullName>Ron Whitling</fullName>
+                    <default>false</default>
+                    <label>Ron Whitling</label>
+                </value>
+                <value>
+                    <fullName>Ryan DeWaele</fullName>
+                    <default>false</default>
+                    <label>Ryan DeWaele</label>
+                </value>
+                <value>
+                    <fullName>Ryan Geyer</fullName>
+                    <default>false</default>
+                    <label>Ryan Geyer</label>
+                </value>
+                <value>
+                    <fullName>Ryan Strehlke</fullName>
+                    <default>false</default>
+                    <label>Ryan Strehlke</label>
+                </value>
+                <value>
+                    <fullName>Sergey Omelaenko</fullName>
+                    <default>false</default>
+                    <label>Sergey Omelaenko</label>
+                </value>
+                <value>
+                    <fullName>Stephen Wagner</fullName>
+                    <default>false</default>
+                    <label>Stephen Wagner</label>
+                </value>
+                <value>
+                    <fullName>Suky Bains</fullName>
+                    <default>false</default>
+                    <label>Suky Bains</label>
+                </value>
+                <value>
+                    <fullName>Vijay Tolani</fullName>
+                    <default>false</default>
+                    <label>Vijay Tolani</label>
+                </value>
+                <value>
+                    <fullName>Vytas Januskis</fullName>
+                    <default>false</default>
+                    <label>Vytas Januskis</label>
+                </value>
+                <value>
+                    <fullName>Will Searle</fullName>
+                    <default>false</default>
+                    <label>Will Searle</label>
+                </value>
+                <value>
+                    <fullName>Al Vasek</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Al Vasek</label>
+                </value>
+                <value>
+                    <fullName>Arif Khan</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Arif Khan</label>
+                </value>
+                <value>
+                    <fullName>Austin Portal</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Austin Portal</label>
+                </value>
+                <value>
+                    <fullName>Babadee Angwafo</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Babadee Angwafo</label>
+                </value>
+                <value>
+                    <fullName>Ben Archer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Ben Archer</label>
+                </value>
+                <value>
+                    <fullName>Bill Grenache</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bill Grenache</label>
+                </value>
+                <value>
+                    <fullName>Bosheng Song</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bosheng Song</label>
+                </value>
+                <value>
+                    <fullName>Brandon Foster</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Brandon Foster</label>
+                </value>
+                <value>
+                    <fullName>Bunmi Sowande</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bunmi Sowande</label>
+                </value>
+                <value>
+                    <fullName>Carmen Grasso</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Carmen Grasso</label>
+                </value>
+                <value>
+                    <fullName>Chris Nolan</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Chris Nolan</label>
+                </value>
+                <value>
+                    <fullName>Chris Sawtelle</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Chris Sawtelle</label>
+                </value>
+                <value>
+                    <fullName>Craig Lesinski</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Craig Lesinski</label>
+                </value>
+                <value>
+                    <fullName>Dan Germain</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Dan Germain</label>
+                </value>
+                <value>
+                    <fullName>Dan Lazar</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Dan Lazar</label>
+                </value>
+                <value>
+                    <fullName>Danilo Florissi</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Danilo Florissi</label>
+                </value>
+                <value>
+                    <fullName>Darren Boyd</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Darren Boyd</label>
+                </value>
+                <value>
+                    <fullName>Dor Juravski</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Dor Juravski</label>
+                </value>
+                <value>
+                    <fullName>Edison Diaz</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Edison Diaz</label>
+                </value>
+                <value>
+                    <fullName>Endre Sara</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Endre Sara</label>
+                </value>
+                <value>
+                    <fullName>Eric Bannon</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Eric Bannon</label>
+                </value>
+                <value>
+                    <fullName>Eric Sennewald</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Eric Sennewald</label>
+                </value>
+                <value>
+                    <fullName>Eva Tuczai</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Eva Tuczai</label>
+                </value>
+                <value>
+                    <fullName>Felix Labunsky</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Felix Labunsky</label>
+                </value>
+                <value>
+                    <fullName>Francis Cordon</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Francis Cordon</label>
+                </value>
+                <value>
+                    <fullName>Fred Wild</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Fred Wild</label>
+                </value>
+                <value>
+                    <fullName>Gabriel Audu</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Gabriel Audu</label>
+                </value>
+                <value>
+                    <fullName>Galen Farrar</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Galen Farrar</label>
+                </value>
+                <value>
+                    <fullName>Gustavo Nascimento</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Gustavo Nascimento</label>
+                </value>
+                <value>
+                    <fullName>Jay Rajendran</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Jay Rajendran</label>
+                </value>
+                <value>
+                    <fullName>Jim O&apos;Donnell</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Jim O&apos;Donnell</label>
+                </value>
+                <value>
+                    <fullName>Joel Sheppard</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Joel Sheppard</label>
+                </value>
+                <value>
+                    <fullName>Kaitlyn McGillycuddy</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Kaitlyn McGillycuddy</label>
+                </value>
+                <value>
+                    <fullName>Karl Young</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Karl Young</label>
+                </value>
+                <value>
+                    <fullName>Matthew Bennett</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Matthew Bennett</label>
+                </value>
+                <value>
+                    <fullName>Matthew Parsons</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Matthew Parsons</label>
+                </value>
+                <value>
+                    <fullName>Mike Berthiaume</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mike Berthiaume</label>
+                </value>
+                <value>
+                    <fullName>Mike Galvin</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mike Galvin</label>
+                </value>
+                <value>
+                    <fullName>Oved Lourie</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Oved Lourie</label>
+                </value>
+                <value>
+                    <fullName>Patrick Parish</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Patrick Parish</label>
+                </value>
+                <value>
+                    <fullName>Philip Thomas</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Philip Thomas</label>
+                </value>
+                <value>
+                    <fullName>Ray Mileo</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Ray Mileo</label>
+                </value>
+                <value>
+                    <fullName>Reinier Serra</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Reinier Serra</label>
+                </value>
+                <value>
+                    <fullName>Richard Owens</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Richard Owens</label>
+                </value>
+                <value>
+                    <fullName>Richard Trickey</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Richard Trickey</label>
+                </value>
+                <value>
+                    <fullName>Rob Cooper</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rob Cooper</label>
+                </value>
+                <value>
+                    <fullName>Shai Benjamin</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Shai Benjamin</label>
+                </value>
+                <value>
+                    <fullName>Simon Ravenscroft</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Simon Ravenscroft</label>
+                </value>
+                <value>
+                    <fullName>Stephen Gibbons</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Stephen Gibbons</label>
+                </value>
+                <value>
+                    <fullName>Stephen Wilson</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Stephen Wilson</label>
+                </value>
+                <value>
+                    <fullName>Steve Gorman</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Steve Gorman</label>
+                </value>
+                <value>
+                    <fullName>Tom Becchetti</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Tom Becchetti</label>
+                </value>
+                <value>
+                    <fullName>Tom Burke</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Tom Burke</label>
+                </value>
+                <value>
+                    <fullName>Will Schnoor</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Will Schnoor</label>
+                </value>
+                <value>
+                    <fullName>Yotam Yemini</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Yotam Yemini</label>
+                </value>
+                <value>
+                    <fullName>Yuri Rabover</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Yuri Rabover</label>
+                </value>
+                <value>
+                    <fullName>Yuval Shkedi</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Yuval Shkedi</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Executive_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VMT Executive Visit</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Demo_Scheduled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is checked by a Task Trigger method if this activity is the first schedule Demo in a particular opportunity.</description>
+        <externalId>false</externalId>
+        <label>First Demo Scheduled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Demo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is checked by a Task Trigger method if this activity is the first completed Demo in a particular opportunity.</description>
+        <externalId>false</externalId>
+        <label>First Demo</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Meeting_Scheduled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is checked by a Task Trigger method if this activity is the first scheduled &quot;meeting&quot; (demo, on-site, other meeting) in a particular opportunity.</description>
+        <externalId>false</externalId>
+        <label>First Meeting Scheduled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Meeting__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Similar to the first demo checkbox. This field is checked by a Task Trigger method if this activity is the first completed&quot;meeting&quot; (demo, on-site, other meeting) in a particular opportunity.</description>
+        <externalId>false</externalId>
+        <label>First Meeting</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hardware_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Hardware Vendor</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cisco</fullName>
+                    <default>false</default>
+                    <label>Cisco</label>
+                </value>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>Dell</fullName>
+                    <default>false</default>
+                    <label>Dell</label>
+                </value>
+                <value>
+                    <fullName>IBM</fullName>
+                    <default>false</default>
+                    <label>IBM</label>
+                </value>
+                <value>
+                    <fullName>Nutanix</fullName>
+                    <default>false</default>
+                    <label>Nutanix</label>
+                </value>
+                <value>
+                    <fullName>Oracle/Sun</fullName>
+                    <default>false</default>
+                    <label>Oracle/Sun</label>
+                </value>
+                <value>
+                    <fullName>SimpliVity</fullName>
+                    <default>false</default>
+                    <label>SimpliVity</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Hosts_VMs__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Hosts__c),&quot;N/A&quot;,
+IF(LEN(TEXT(Hosts__c))&gt;=7,
+LEFT(TEXT(Hosts__c),LEN(TEXT(Hosts__c))-6)&amp;&quot;,&quot;&amp;LEFT(RIGHT(TEXT(Hosts__c),6),3)&amp;&quot;,&quot;&amp;RIGHT(TEXT(Hosts__c),3),
+IF(LEN(TEXT(Hosts__c))&gt;=4,
+LEFT(TEXT(Hosts__c),LEN(TEXT(Hosts__c))-3)&amp;&quot;,&quot;&amp;RIGHT(TEXT(Hosts__c),3),TEXT(Hosts__c))))
+&amp;&quot; (&quot;&amp;
+IF(ISBLANK(Virtual_Machines_VMs__c),&quot;N/A)&quot;,
+IF(LEN(TEXT(Virtual_Machines_VMs__c))&gt;=7,
+LEFT(TEXT(Virtual_Machines_VMs__c),LEN(TEXT(Virtual_Machines_VMs__c))-6)&amp;&quot;,&quot;&amp;LEFT(RIGHT(TEXT(Virtual_Machines_VMs__c),6),3)&amp;&quot;,&quot;&amp;RIGHT(TEXT(Virtual_Machines_VMs__c),3)&amp;&quot;)&quot;,
+IF(LEN(TEXT(Virtual_Machines_VMs__c))&gt;=4,
+LEFT(TEXT(Virtual_Machines_VMs__c),LEN(TEXT(Virtual_Machines_VMs__c))-3)&amp;&quot;,&quot;&amp;RIGHT(TEXT(Virtual_Machines_VMs__c),3)&amp;&quot;)&quot;,TEXT(Virtual_Machines_VMs__c)&amp;&quot;)&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hosts (VMs)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hosts__c</fullName>
+        <externalId>false</externalId>
+        <label>Hosts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hypervisor_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Hypervisor Vendor</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>VMware</fullName>
+                    <default>false</default>
+                    <label>VMware</label>
+                </value>
+                <value>
+                    <fullName>Hyper-V (Microsoft)</fullName>
+                    <default>false</default>
+                    <label>Hyper-V (Microsoft)</label>
+                </value>
+                <value>
+                    <fullName>Xen (Open Source)</fullName>
+                    <default>false</default>
+                    <label>Xen (Open Source)</label>
+                </value>
+                <value>
+                    <fullName>Xen (Citrix)</fullName>
+                    <default>false</default>
+                    <label>Xen (Citrix)</label>
+                </value>
+                <value>
+                    <fullName>KVM (Openstack)</fullName>
+                    <default>false</default>
+                    <label>KVM (Openstack)</label>
+                </value>
+                <value>
+                    <fullName>KVM (Redhat)</fullName>
+                    <default>false</default>
+                    <label>KVM (Redhat)</label>
+                </value>
+                <value>
+                    <fullName>OracleVM</fullName>
+                    <default>false</default>
+                    <label>OracleVM</label>
+                </value>
+                <value>
+                    <fullName>Heterogeneous</fullName>
+                    <default>false</default>
+                    <label>Heterogeneous</label>
+                </value>
+                <value>
+                    <fullName>IBM PowerVM</fullName>
+                    <default>false</default>
+                    <label>IBM PowerVM</label>
+                </value>
+                <value>
+                    <fullName>Acropolis</fullName>
+                    <default>false</default>
+                    <label>Acropolis</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Installed_During_Demo_Yes_No__c</fullName>
+        <externalId>false</externalId>
+        <label>Installed / Conducted on Client Infrstr.</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LID__Date_Sent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date Sent</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LID__URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Local_Date_TIme__c</fullName>
+        <description>Gives a local Date Time depending on the Lead/Contact&apos;s Address/Phone information</description>
+        <externalId>false</externalId>
+        <label>Local Date/TIme</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Marketing_Campaign_Influence__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing Campaign Influence</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Hardware Refresh</fullName>
+                    <default>false</default>
+                    <label>Efficiency Campaign</label>
+                </value>
+                <value>
+                    <fullName>Journey to the Cloud</fullName>
+                    <default>false</default>
+                    <label>Journey to the Cloud</label>
+                </value>
+                <value>
+                    <fullName>CIO Direct Mail</fullName>
+                    <default>false</default>
+                    <label>CIO Direct Mail</label>
+                </value>
+                <value>
+                    <fullName>Infrastructure Survey</fullName>
+                    <default>false</default>
+                    <label>Infrastructure Survey</label>
+                </value>
+                <value>
+                    <fullName>Cloud Readiness Survey</fullName>
+                    <default>false</default>
+                    <label>Cloud Readiness Survey</label>
+                </value>
+                <value>
+                    <fullName>Field Marketing</fullName>
+                    <default>false</default>
+                    <label>Field Marketing</label>
+                </value>
+                <value>
+                    <fullName>Customer Referral Program</fullName>
+                    <default>false</default>
+                    <label>Customer Referral Program</label>
+                </value>
+                <value>
+                    <fullName>IT Maturity Survey</fullName>
+                    <default>false</default>
+                    <label>IT Maturity Survey</label>
+                </value>
+                <value>
+                    <fullName>MLB All-Star Sweepstakes</fullName>
+                    <default>false</default>
+                    <label>MLB All-Star Sweepstakes</label>
+                </value>
+                <value>
+                    <fullName>Tradeshow</fullName>
+                    <default>false</default>
+                    <label>Tradeshow</label>
+                </value>
+                <value>
+                    <fullName>IT Compliance Survey</fullName>
+                    <default>false</default>
+                    <label>IT Compliance Survey</label>
+                </value>
+                <value>
+                    <fullName>Cloud Barrier Survey</fullName>
+                    <default>false</default>
+                    <label>Cloud Barrier Survey</label>
+                </value>
+                <value>
+                    <fullName>Ignite Raffle</fullName>
+                    <default>false</default>
+                    <label>Ignite Raffle</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Marketo_Subject__c</fullName>
+        <description>Summarizes the subject from marketo tasks. E.g., groups all whitepaper form fills into &quot;WP&quot;.</description>
+        <externalId>false</externalId>
+        <formula>IF( Marketo_Task_Type__c = &quot;Form Fill&quot;, 
+IF( OR( CONTAINS( Subject, &quot;wp-&quot; ), CONTAINS( Subject, &quot;-WP&quot; ), CONTAINS( Subject, &quot;-wp&quot; )), &quot;WP&quot;, 
+IF( CONTAINS( Subject, &quot;New-Customer-Jumpstart&quot;), &quot;Training&quot;,
+IF( CONTAINS( Subject, &quot;UnsubscribePage&quot;), &quot;Unsubscribe&quot;, 
+IF( OR( CONTAINS( Subject, &quot;new-cloud-edition-license&quot; ), CONTAINS( Subject, &quot;virtual-health-monitor-license&quot; )), &quot;License&quot;, 
+IF( OR(CONTAINS( Subject, &quot;VHMAppliancedownloadtestconvertedpage&quot;), CONTAINS( Subject, &quot;New_VHMLandingPage&quot;)), &quot;VHM&quot;, 
+IF( OR(CONTAINS( Subject, &quot;CloudApplianceDownloadTestpage&quot;), CONTAINS( Subject, &quot;New_OperationsManager45&quot;)), &quot;Full Product&quot;, &quot;Other&quot;)))))), &quot;&quot;)</formula>
+        <inlineHelpText>Summarizes the subject from marketo tasks. E.g., groups all whitepaper form fills into &quot;WP&quot;.</inlineHelpText>
+        <label>Marketo Task Subject</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Marketo_Task_Type__c</fullName>
+        <description>Summarizes the Subject of the task for all Marketo tasks.</description>
+        <externalId>false</externalId>
+        <formula>if( Activity_type_workflow__c = &quot;Marketo&quot;, 
+
+case( left(Subject, 6), 
+&quot;Was Se&quot;, &quot;Email Send&quot;,
+&quot;Opened&quot;, &quot;Email Open&quot;,
+&quot;Clicke&quot;, &quot;Email Click&quot;,
+&quot;Filled&quot;, &quot;Form Fill&quot;,
+&quot;Other&quot;), 
+
+&quot;&quot;)</formula>
+        <inlineHelpText>Summarizes the Subject of the task for all Marketo tasks.</inlineHelpText>
+        <label>Marketo Task Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Next_Steps2__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Steps</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Qualify account</fullName>
+                    <default>false</default>
+                    <label>Qualify account</label>
+                </value>
+                <value>
+                    <fullName>Schedule demo and agree upon agenda</fullName>
+                    <default>false</default>
+                    <label>Schedule demo and agree upon agenda</label>
+                </value>
+                <value>
+                    <fullName>Confirm person of influence can state our value prop</fullName>
+                    <default>false</default>
+                    <label>Confirm person of influence can state our value prop</label>
+                </value>
+                <value>
+                    <fullName>Review business and/or technical decision criteria</fullName>
+                    <default>false</default>
+                    <label>Review business and/or technical decision criteria</label>
+                </value>
+                <value>
+                    <fullName>Demo VMTurbo to show how it fits prospect&apos;s use cases</fullName>
+                    <default>false</default>
+                    <label>Demo VMTurbo to show how it fits prospect&apos;s use cases</label>
+                </value>
+                <value>
+                    <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                    <default>false</default>
+                    <label>Prove VMTurbo meets technical criteria via Install Review</label>
+                </value>
+                <value>
+                    <fullName>Outline decision-making process</fullName>
+                    <default>false</default>
+                    <label>Outline decision-making process</label>
+                </value>
+                <value>
+                    <fullName>Get update on status of competition</fullName>
+                    <default>false</default>
+                    <label>Get update on status of competition</label>
+                </value>
+                <value>
+                    <fullName>Align prospect&apos;s purchase timeline with our sales process</fullName>
+                    <default>false</default>
+                    <label>Align prospect&apos;s purchase timeline with our sales process</label>
+                </value>
+                <value>
+                    <fullName>Gain commitment that technical case is won</fullName>
+                    <default>false</default>
+                    <label>Gain commitment that technical case is won</label>
+                </value>
+                <value>
+                    <fullName>Gain commitment to move to procurement</fullName>
+                    <default>false</default>
+                    <label>Gain commitment to move to procurement</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Next_Steps_details__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What are our next steps? (Commit the customer to a date for the immediate next step)</inlineHelpText>
+        <label>Next Steps Details</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Notes_for_Meeting__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Any additional notes</inlineHelpText>
+        <label>Notes for Meeting</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Objective_Details__c</fullName>
+        <description>Short summary of account status and goals for this activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What are the specific business and/or technical goals of this activity?</inlineHelpText>
+        <label>Objective Details</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Objectives2__c</fullName>
+        <externalId>false</externalId>
+        <label>Objectives</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Qualify account</fullName>
+                    <default>false</default>
+                    <label>Qualify account</label>
+                </value>
+                <value>
+                    <fullName>Schedule demo and agree upon agenda</fullName>
+                    <default>false</default>
+                    <label>Schedule demo and agree upon agenda</label>
+                </value>
+                <value>
+                    <fullName>Confirm person of influence can state our value prop</fullName>
+                    <default>false</default>
+                    <label>Confirm person of influence can state our value prop</label>
+                </value>
+                <value>
+                    <fullName>Review business and/or technical decision criteria</fullName>
+                    <default>false</default>
+                    <label>Review business and/or technical decision criteria</label>
+                </value>
+                <value>
+                    <fullName>Demo VMTurbo to show how it fits prospect&apos;s use cases</fullName>
+                    <default>false</default>
+                    <label>Demo VMTurbo to show how it fits prospect&apos;s use cases</label>
+                </value>
+                <value>
+                    <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                    <default>false</default>
+                    <label>Prove VMTurbo meets technical criteria via Install Review</label>
+                </value>
+                <value>
+                    <fullName>Outline decision-making process</fullName>
+                    <default>false</default>
+                    <label>Outline decision-making process</label>
+                </value>
+                <value>
+                    <fullName>Get update on status of competition</fullName>
+                    <default>false</default>
+                    <label>Get update on status of competition</label>
+                </value>
+                <value>
+                    <fullName>Align prospect&apos;s purchase timeline with our sales process</fullName>
+                    <default>false</default>
+                    <label>Align prospect&apos;s purchase timeline with our sales process</label>
+                </value>
+                <value>
+                    <fullName>Gain commitment that technical case is won</fullName>
+                    <default>false</default>
+                    <label>Gain commitment that technical case is won</label>
+                </value>
+                <value>
+                    <fullName>Gain commitment to move to procurement</fullName>
+                    <default>false</default>
+                    <label>Gain commitment to move to procurement</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>On_Site_Meeting__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This Meeting/Task happened on-site at a customer location.</inlineHelpText>
+        <label>On-Site Meeting</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>One_activity__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>One (activity)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Outcomes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What are Outcomes of this activity? How did we do relative to the specific business and/or technical Objectives that we outlined for this activity?</inlineHelpText>
+        <label>Comments Summary</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Team_Present__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Team Present</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Portal Administration</fullName>
+                    <default>false</default>
+                    <label>Portal Administration</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Technical/Engineering</fullName>
+                    <default>false</default>
+                    <label>Technical/Engineering</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Pre_Demo_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre Demo Notes</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Partner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Preferred Partner</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.DeveloperName</field>
+                <operation>equals</operation>
+                <value>Partner</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Activities Mentioned</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Problem__c</fullName>
+        <externalId>false</externalId>
+        <label>Problem</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Role_Assigned__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(Owner:User.UserRole.Name,&quot;Business Development Rep&quot;),&quot;BDR-&quot;&amp;Owner:User.Full_Name__c,
+IF(CONTAINS(Owner:User.UserRole.Name,&quot;Account Executive&quot;),&quot;AE-&quot;&amp;Owner:User.Full_Name__c,
+IF(CONTAINS(Owner:User.UserRole.Name,&quot;Bus Driver&quot;),&quot;BD-&quot;&amp;Owner:User.Full_Name__c,
+IF(CONTAINS(Owner:User.UserRole.Name,&quot;Enterprise Rep&quot;),&quot;Ent-&quot;&amp;Owner:User.Full_Name__c,
+Owner:User.Full_Name__c))))</formula>
+        <label>Role-Assigned</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role_Created_By_Static__c</fullName>
+        <externalId>false</externalId>
+        <label>Role (Created By - Static)</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role_Created_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(CreatedBy.UserRole.Name,&quot;Business Development Rep&quot;),&quot;BDR-&quot;&amp;CreatedBy.Full_Name__c,
+IF(CONTAINS(CreatedBy.UserRole.Name,&quot;Sales Development Rep&quot;),&quot;SDR-&quot;&amp;CreatedBy.Full_Name__c,
+IF(CONTAINS(CreatedBy.UserRole.Name,&quot;Account Executive&quot;),&quot;AE-&quot;&amp;CreatedBy.Full_Name__c, 
+IF(CONTAINS(CreatedBy.UserRole.Name,&quot;Bus Driver&quot;),&quot;BD-&quot;&amp;CreatedBy.Full_Name__c, 
+IF(CONTAINS(CreatedBy.UserRole.Name,&quot;Enterprise Rep&quot;),&quot;Ent-&quot;&amp;CreatedBy.Full_Name__c, 
+CreatedBy.Full_Name__c)))))</formula>
+        <label>Role-Created By</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SE_Assigned__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.SE_Assigned1__r.Full_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SE Assigned</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SE_Next_Steps_Comments__c</fullName>
+        <description>A field for SE&apos;s to place notes for the next steps and any other comments neccessary</description>
+        <externalId>false</externalId>
+        <label>SE Notes</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SL_Cadence_ID__c</fullName>
+        <description>Alphanumeric identifier assigned to a Cadence.</description>
+        <externalId>true</externalId>
+        <label>Cadence ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Cadence_Name__c</fullName>
+        <description>Name of Salesloft Cadence</description>
+        <externalId>false</externalId>
+        <label>Cadence Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Clicked_Count__c</fullName>
+        <description>How many clicks were received on a URL within an email</description>
+        <externalId>false</externalId>
+        <label>Clicked Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Email_Template_ID__c</fullName>
+        <description>Alphanumeric identifier assigned to a Salesloft email template</description>
+        <externalId>false</externalId>
+        <label>Email Template ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Email_Template_Title__c</fullName>
+        <description>Name given to a Salesloft email template</description>
+        <externalId>false</externalId>
+        <label>Email Template Title</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Replies_Count__c</fullName>
+        <description>How many replies a Salesloft email has received</description>
+        <externalId>false</externalId>
+        <label>Replies Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Step_Day__c</fullName>
+        <description>The day in the Salesloft Cadence that a step has been set to be run</description>
+        <externalId>false</externalId>
+        <label>Step Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Step_ID__c</fullName>
+        <description>The alphanumeric identifier assigned to a step within a Salesloft cadence</description>
+        <externalId>false</externalId>
+        <label>Step ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Step_Name__c</fullName>
+        <description>The name given to a step within a Salesloft cadence</description>
+        <externalId>false</externalId>
+        <label>Step Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Step_Type__c</fullName>
+        <description>The type of step within a Salesloft cadence (i.e. email, phone, other)</description>
+        <externalId>false</externalId>
+        <label>Step Type</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SL_Viewed_Count__c</fullName>
+        <description>How man opens/views a Salesloft email has received</description>
+        <externalId>false</externalId>
+        <label>Viewed Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Team_Assigned_Static__c,
+&quot;SEC&quot;,&quot;Central&quot;,
+&quot;Beast Coast&quot;,&quot;Central&quot;,
+&quot;Closers Club&quot;,&quot;East&quot;,
+&quot;The Green Monsters&quot;,&quot;East&quot;,
+&quot;Virtual Empire&quot;,&quot;East&quot;,
+&quot;The Ringers&quot;,&quot;East&quot;,
+&quot;Peak Performers&quot;,&quot;West&quot;,
+&quot;The Green Flash&quot;,&quot;West&quot;,
+&quot;The Pack&quot;,&quot;West&quot;,
+&quot;Spartans&quot;,&quot;East&quot;,
+&quot;The Foundation&quot;,&quot;Central&quot;,
+&quot;The Wolves of Boylston&quot;,&quot;East&quot;,
+&quot;Green Street Hooligans&quot;,&quot;Central&quot;,
+&quot;Bangers n Cash&quot;,&quot;EMEA&quot;,
+&quot;Enterprise&quot;,&quot;US Enterprise&quot;,
+&quot;Global Accounts International&quot;,&quot;Global Accounts - EMEA&quot;,
+&quot;Global Accounts US&quot;,&quot;Global Accounts - US&quot;,
+&quot;Aussie Posse&quot;,&quot;APAC&quot;,
+&quot;Marketing Inbound&quot;,&quot;Marketing Inbound&quot;,
+&quot;The Minutemen&quot;,&quot;EMEA&quot;,
+&quot;Xccelerators&quot;,&quot;Channel&quot;,
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Region</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Storage_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Storage Vendor</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Atlantis</fullName>
+                    <default>false</default>
+                    <label>Atlantis</label>
+                </value>
+                <value>
+                    <fullName>DataGravity</fullName>
+                    <default>false</default>
+                    <label>DataGravity</label>
+                </value>
+                <value>
+                    <fullName>Dell</fullName>
+                    <default>false</default>
+                    <label>Dell</label>
+                </value>
+                <value>
+                    <fullName>Dell MD Series (NetApp OEM)</fullName>
+                    <default>false</default>
+                    <label>Dell MD Series (NetApp OEM)</label>
+                </value>
+                <value>
+                    <fullName>EMC (Other)</fullName>
+                    <default>false</default>
+                    <label>EMC (Other)</label>
+                </value>
+                <value>
+                    <fullName>EMC (VMAX)</fullName>
+                    <default>false</default>
+                    <label>EMC (VMAX)</label>
+                </value>
+                <value>
+                    <fullName>EMC (VNX)</fullName>
+                    <default>false</default>
+                    <label>EMC (VNX)</label>
+                </value>
+                <value>
+                    <fullName>EMC (VNX-F)</fullName>
+                    <default>false</default>
+                    <label>EMC (VNX-F)</label>
+                </value>
+                <value>
+                    <fullName>Hitachi</fullName>
+                    <default>false</default>
+                    <label>Hitachi</label>
+                </value>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>HP (3PAR)</fullName>
+                    <default>false</default>
+                    <label>HP (3PAR)</label>
+                </value>
+                <value>
+                    <fullName>HP (Other)</fullName>
+                    <default>false</default>
+                    <label>HP (Other)</label>
+                </value>
+                <value>
+                    <fullName>IBM</fullName>
+                    <default>false</default>
+                    <label>IBM</label>
+                </value>
+                <value>
+                    <fullName>IBM N Series (NetApp OEM)</fullName>
+                    <default>false</default>
+                    <label>IBM N Series (NetApp OEM)</label>
+                </value>
+                <value>
+                    <fullName>NetApp</fullName>
+                    <default>false</default>
+                    <label>NetApp</label>
+                </value>
+                <value>
+                    <fullName>Nimble Storage</fullName>
+                    <default>false</default>
+                    <label>Nimble Storage</label>
+                </value>
+                <value>
+                    <fullName>Nutanix</fullName>
+                    <default>false</default>
+                    <label>Nutanix</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pure Storage</fullName>
+                    <default>false</default>
+                    <label>Pure Storage</label>
+                </value>
+                <value>
+                    <fullName>SolidFire</fullName>
+                    <default>false</default>
+                    <label>SolidFire</label>
+                </value>
+                <value>
+                    <fullName>Tegile</fullName>
+                    <default>false</default>
+                    <label>Tegile</label>
+                </value>
+                <value>
+                    <fullName>Tintri</fullName>
+                    <default>false</default>
+                    <label>Tintri</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Violin Memory</fullName>
+                    <default>false</default>
+                    <label>Violin Memory</label>
+                </value>
+                <value>
+                    <fullName>XtremIO</fullName>
+                    <default>false</default>
+                    <label>XtremIO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Team_Assigned_Static__c</fullName>
+        <externalId>false</externalId>
+        <label>Team (Assigned - Static)</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_Created_By_Static__c</fullName>
+        <externalId>false</externalId>
+        <label>Team (Created By - Static)</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tenure_Created_By_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY()-CreatedBy.Start_Date__c</formula>
+        <label>Tenure (Created By - Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Time_Pain__c</fullName>
+        <externalId>false</externalId>
+        <label>Time (Pain)</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Trigger_workflow_rules__c</fullName>
+        <externalId>false</externalId>
+        <label>Trigger workflow rules</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Turbonomic_Demo_Version__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Which version of Turbonomic will you be presenting in your Demo?</inlineHelpText>
+        <label>Turbonomic Demo Version</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Turbonomic_Product_Version</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Virtual_Machines_VMs__c</fullName>
+        <externalId>false</externalId>
+        <label>Virtual Machines (VMs)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warm_Account_Stamp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox to be stamped at time of activity creation. Stamps whether account was warm at time of activity creation.</description>
+        <externalId>false</externalId>
+        <label>Warm Account (Stamp)</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>bizible2__BizibleId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>BizibleId</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Bizible_Touchpoint_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Custom date used to set the Touchpoint Date for Bizible Attribution. If blank, Created Date will be used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Custom date used to set the Touchpoint Date for Bizible Attribution. If blank, Created Date will be used.</inlineHelpText>
+        <label>Bizible Touchpoint Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sma__BaseObjectId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MapAnything Base Object</label>
+        <referenceTo>sma__MABaseObject__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>BaseObjectIds</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sma__LayerId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Layer Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>Inactive_Unresolved_Emails</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>Not Started,To Be Rescheduled,In Progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>contains</operation>
+            <value>Inactive</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>startsWith</operation>
+            <value>Unresolved Email</value>
+        </filters>
+        <filters>
+            <field>TASK.TYPE</field>
+            <operation>equals</operation>
+            <value>Email</value>
+        </filters>
+        <label>Inactive Unresolved Emails</label>
+        <sharedTo>
+            <role>VMT_SF_admin</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Open_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>Not Started,To Be Rescheduled,In Progress</value>
+        </filters>
+        <label>My Open Tasks</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Overdue_Inactive_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>Not Started,To Be Rescheduled,In Progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>contains</operation>
+            <value>Inactive</value>
+        </filters>
+        <label>Overdue Inactive Tasks</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>activities__Overdue_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>1/1/2017 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <operation>equals</operation>
+            <value>Lyle</value>
+        </filters>
+        <label>Overdue Tasks</label>
+        <sharedTo>
+            <role>VMT_SF_admin</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>activities__Today_Overdue_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today + Overdue Tasks</label>
+        <sharedTo>
+            <role>VMT_SF_admin</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>activities__TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+        <sharedTo>
+            <role>VMT_SF_admin</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>activities__Tomorrow_s_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Tomorrow&apos;s Tasks</label>
+        <sharedTo>
+            <role>VMT_SF_admin</role>
+        </sharedTo>
+    </listViews>
+    <searchLayouts>
+        <listViewButtons>Mass_Delete</listViewButtons>
+        <listViewButtons>activities__Mass_Update</listViewButtons>
+        <searchFilterFields>TASK.CALLTYPE</searchFilterFields>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.CALLTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Re: VMTurbo</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Call 1st voicemail</name>
+    <style>none</style>
+    <subject>Re: VMTurbo</subject>
+    <textOnly>Hi {!Lead.FirstName}, 
+ 
+I&apos;m trying to connect with you for a quick second. I work at VMTurbo, a software company focused on proactive resource management for virtualized data centers. VMTurbo provides guided operational support by analyzing workload demands and resource capacities. The result of our real-time analytics is that workloads get the resources they need while maximizing the utilization of servers and storage. Our technology has been developed by a team of PhD&apos;s with over 100+ combined years of IT experience. 
+
+I&apos;d really appreciate a moment of your time to understand your organization&apos;s financial and technical strategies regarding data center virtualization and explore with you whether VMTurbo could be a potential fit. 
+
+Best regards, 
+
+{!User.FirstName}{!User.LastName}
+        
+Phone: 781.373.3540 ~ Fax: 781.373.3257 
+Top 10 Reasons to Choose VMTurbo - http://tiny.cc/4kmu4</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

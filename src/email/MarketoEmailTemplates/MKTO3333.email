@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;"> 
+<div>
+<span style="font-size: 12px;">Dear {{lead.First Name:default=Friend}},<br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; 
+white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; 
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; 
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; 
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;">In my more than 20 years both investing in and running enterprise IT companies, I have had the privilege of watching IT go through waves of transformation from a birds-eye view. All previous waves pale in comparison to that which we observe&nbsp;today.</span><br /><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I cordially invite you to join myself&nbsp;and dozens of our fellow&nbsp;IT leaders in&nbsp;Dallas for the upcoming <a href="turbonomic.com/learn-dallas" target="_blank">Dallas&nbsp;Executive Networking Event<strong>:</strong>&nbsp;</a><em><a href="turbonomic.com/learn-dallas" target="_blank">Elastic Compute at Cloud Economics</a>&nbsp;</em>on Tuesday,&nbsp;December 12th 2017 at the home of the Dallas Mavericks, the&nbsp;American Airlines Center&nbsp;at 6:00PM.&nbsp;</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: arial, helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: 
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">While the hybrid cloud presents boundless opportunities, the IT operations and management risks are formidable and oversights are expensive. The reality is, we end up paying for what we think we'll use, and many workloads in the cloud are just as over-provisioned as their on-premises counterparts, leading enterprises to overspend on idle resources, this time, paying AWS or Azure by the hour or even the second. </span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: arial, helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: 
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: arial, helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: 
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">This&nbsp;event is&nbsp;a great opportunity to meet with peers, share challenges, and discuss trends heading into the new year.&nbsp;</span>It is my goal and&nbsp;hope that this networking opportunity will be intellectually stimulating and beneficial for all.&nbsp;</span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">Following our reception, myself and your technology peers will take our seats in the Turbonomic Suite to cheer on the&nbsp;Dallas Mavericks&nbsp;as they take on the San Antonio Spurs.</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please <strong><a href="https://turbonomic.com/learn-dallas/" target="_blank">register here</a>&nbsp;</strong>as soon as possible.<br /></span>
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,</span>
+</div> 
+<div>
+<span style="font-size: 12px;">Ben</span>
+</div> 
+<p><a href="https://turbonomic.com/learn-phoenix" target="_blank"><span style="font-size: 12px;"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/ben-nye.png" alt="ben-nye.png" height="80" width="80" /></span></a></p> 
+<p><span style="font-size: 12px;"><em>Ben Nye<br /></em></span><span style="font-size: 12px;"><em>Chief&nbsp;Executive&nbsp;Officer<br />Turbonomic, Inc.</em></span></p> 
+<p><br /></p> 
+</div>  
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>lead.first name - Per my previous emails... (1493295613.0)</name>
+    <style>none</style>
+    <subject>lead.first name - Per my previous emails... (1493295613.0)</subject>
+    <textOnly>Good Morning Mark,
+
+
+  Based on my research, I believe we will be a good fit for what Mosaic Life Care is trying to achieve, specifically within these areas:   
+   Assuring Application Performance:   Based on one of the articles the articles I have read, it is my understanding that application performance is the backbone of IMF’s business. Turbonomic continuously analyzes real-time workload demand and matches compute, storage and network resources in a virtualized, private or public cloud environment. With our real time control you will prevent outages from occurring in your datacenter.    
+   Drive Greater Efficiency:
+A “shift infrastructure spend by leveraging cloud computing solutions to reduce the need for capital funding”. With our real time control Turbonomic will identify areas to reclaim resources in your on-prem infrastructure. Server Sprawl and dormant virtual machines is a common problem with our customers and most of our customers see a 40% increase in VM Density. Also with our planning functionality you would easily decommission aging infrastructure and maximize your infrastructure efficiency while enabling you to put together a cost-effective cloud strategy.    
+   Capacity Planning/Management:
+“Rapid changes in the IT industry and constantly shifting environment mean that any long-term plans for spending are subject to uncertainty.” We have helped several companies namely Apple, Barclays, JPMC, HP, Cisco etc when it comes to workload migrations and consolidating centers. This planning exercise is something we can easily do for you during a 30 day FREE trial.    
+   What are your objections in a quick meeting? There is no doubt in my mind that we can help Mosaic Life Care. Please let us know either way if you would be open to a quick meeting.
+
+   Thank you,
+Alex Osterman Turbonomic Office: 857.305.4646 | Cell: 617.875.7687 Account Executive                      Tribune Publishing: 1.5 Million in Avoided Cost with VMTurbo &lt;[[https://www.youtube.com/watch?v=xTV43Q8jlG4]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

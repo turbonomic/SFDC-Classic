@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-10-26-Toronto-Community-Appreciation-Event.ES-2017- (2 Weeks Out).EMAIL</name>
+    <style>none</style>
+    <subject>RSVP: Toronto IT Community at Stryke Target Range</subject>
+    <textOnly>&lt;[[https://turbonomic.com/community-toronto/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+We&apos;re looking forward a fantastic evening filled with food, drinks, and of course, some competitive activities at Stryke Target Range.
+Will you join us with Cisco and your technology peers on October 26th? We will have brief presentations from both the Cisco and Turbonomic teams to discuss our technology partnership, follow-up by and afternoon of networking! 
+Toronto IT Community Appreciation
+
+Where: Stryke Target Range
+738 Dundas St. E, Toronto, ON M5A 2C3
+Thursday, October 26th 4:00pm
+ &lt;[[https://turbonomic.com/community-toronto/]]&gt;
+
+
+
+
+
+We hope to see you there,
+
+
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

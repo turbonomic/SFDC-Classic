@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>20190106-US Cookie Mailer.ES 1 - Pre Direct Mail Delivery.ES 1</name>
+    <style>none</style>
+    <subject>How to Deliver Greater Innovation at a Lower Cost</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/microsoft-and-turbonomic/7-days-to-azure?utm_campaign=70157000001j56HAAQ]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+
+
+I&apos;ve been speaking with IT thought-leaders like you about the ways they are migrating their on-premises to AWS &amp; Azure while consolidating their on-premises footprint. What has become clear is this problem is beyond human scale.
+
+
+Turbonomic&apos;s Workload Automation solution for Hybrid Cloud enables out 2000+ customers to reduce the cost, risk, and complexity associated with migration and consolidation. 
+
+
+Our agnostic platform (supports VMware, AWS, Azure, etc.) provides ongoing optimization both on-premise and once workloads are in the cloud to ensure you&apos;re only paying for what you consume.
+
+
+For a bit more context, please see the resources below:
+
+
+
+	- Migrate to Microsoft Azure in 7 Days with Turbonomic &lt;[[https://resources.turbonomic.com/microsoft-and-turbonomic/7-days-to-azure?utm_campaign=70157000001j56HAAQ]]&gt;
+	- AWS or Azure? How Turbonomic Enables Data-Driven Decisions &lt;[[https://resources.turbonomic.com/accelerate-cloud-migration-projects/which-cloud-webinar-v-1?utm_campaign=70157000001j56HAAQ]]&gt;
+	- How Freshfields plans AWS and Azure Migrations and Saves 20% on Azure Bill &lt;[[https://resources.turbonomic.com/case-studies/freshfields-success-story?utm_campaign=70157000001j56HAAQ]]&gt;
+
+
+I hope you find this information helpful and that you enjoy some treats that are on their way to your office and will be delivered next week.
+
+
+Regards,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

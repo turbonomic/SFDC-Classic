@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-12-10 Trial Promo - MQLs.ES-2018-12-10 Trial Promo - MQLs</name>
+    <style>none</style>
+    <subject>Hiscox CIO And Former Barclays CTO Joins Turbonomic’s Board Of Directors</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+We are excited to announce Ian Penny, Chief Information Officer (CIO) of Hiscox and the former Chief Technology Officer (CTO) of Barclays, has been elected to Turbonomic&apos;s Board of Directors. Penny is the second Turbonomic board member with CIO experience in driving major digital transformation and cloud initiatives for international multi-billion dollar companies.
+
+
+ &lt;[[https://turbonomic.com/press-releases/hiscox-cio-joins-turbonomic-board-of-directors/]]&gt;
+
+Over 2,000 CIOs and 20 percent of the Fortune 500 trust Turbonomic to manage over 3.5 million dynamic workloads in real-time, assuring application performance and enforcing policy compliance while reducing costs, on-premises and in the cloud.
+
+
+Interested in taking a closer look? Check out our 30-day free trial to see Turbonomic for yourself &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001j4hHAAQ]]&gt;.
+
+
+Best,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

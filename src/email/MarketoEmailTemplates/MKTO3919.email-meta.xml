@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_SaaS_LeadSpace_Container_Nurture.Cloud_Native_Commercial_Campaigns_Nurture_3</name>
+    <style>none</style>
+    <subject>Using AI to Self-Manage Kubernetes Environments</subject>
+    <textOnly>&lt;[[https://turbonomic.com/thx-wbn-using-ai-to-optimize-kubernetes-clusters/]]&gt;
+Hi {{lead.First Name:default=there}}, 
+
+With its 
+promise of speed and elasticity, Kubernetes has taken the lead among container platforms. Unfortunately, its benefits come with a steep learning curve that can prolong the adoption process. It doesn’t have to be that way for you and your team.
+
+ &lt;[[https://turbonomic.com/thx-wbn-using-ai-to-optimize-kubernetes-clusters/]]&gt; 
+
+Turbonomic’s AI-powered decision engine now continuously optimizes Kubernetes environments – enabling elastic infrastructure and assuring performance, uniting DevOps and infrastructure with full stack control. 
+
+Schedule a Demo &lt;[[https://turbonomic.com/request-a-demo/]]&gt; and learn how Turbonomic can help your IT organization optimize for performance, compliance, and cost in real-time.
+
+
+Cheers, 
+Asena Woodward
+Sr. Product Marketing Manager, Turbonomic
+
+
+P.S. If you&apos;re ready, we&apos;d love to learn more about the challenges you face and to show you how we can help. Please schedule a meeting &lt;[[https://turbonomic.com/request-a-demo/]]&gt; with us today.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

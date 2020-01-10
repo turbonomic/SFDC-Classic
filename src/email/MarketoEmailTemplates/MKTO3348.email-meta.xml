@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-11-14-Tampa ESB-Dave K Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-12-07-Field-Central-RD-Sponsored-Houston.ES-2017-11-30-Houston-1.EM-201</name>
+    <style>none</style>
+    <subject>See you in Houston?</subject>
+    <textOnly>Hi {{lead.First Name:default=Friend}},
+
+I wanted to invite you to an exclusive networking lunch for IT executives in the Houston and greater Houston area in partnership with Cisco that we&apos;ll be hosting on December 7th. This is a great opportunity to meet with peers, share challenges, and discuss trends heading into the new year. Hope you can make it.
+
+
+
+Houston Executive Networking Lunch &lt;[[https://turbonomic.com/vip-houston/]]&gt;
+Thursday, December 7 at 12pm
+III Forks, 1201 Fannin St, Houston TX 77002 
+
+
+
+Our guests include CIOs, CTOs, IT Managers, and Directors in fields such as healthcare, energy, education and more. We would love to have you join the conversation. If interested, please RSVP here &lt;[[https://turbonomic.com/vip-houston/]]&gt;.
+
+
+
+
+Yours sincerely,
+Dave
+
+ &lt;[[https://turbonomic.com/learn-phoenix]]&gt;
+
+Dave Kranowitz
+Vice President, North America
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

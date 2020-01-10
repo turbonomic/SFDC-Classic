@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_Gulf_Coast</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_NYC_New_England</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_Other_West_Territories</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_Pacific_Coast</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Account</field>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Owner_Team__c</field>
+        <field>Amount</field>
+        <field>of_CPU_Sockets__c</field>
+        <field>of_Virtual_Machines__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>dan.dipalma@vmturbo.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>grant.hornung@vmturbo.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>jr.butler@vmturbo.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Send Note to AVP for Approval</label>
+        <name>Send_Note_to_AVP_for_Approval</name>
+    </approvalStep>
+    <emailTemplate>unfiled$public/Velo_Opp_Pipe_Alert_for_AVP</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND(Owner_Team_Group_Buckets__c = &quot;US Velocity&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;Closers Club&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;The Green Monsters&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;Green Berets&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;The Wild West&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;The Hunchbacks&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;The Titans&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;The Green Flash&quot;,
+Amount &gt;= 100000,
+Highest_Stage_Reached__c=&quot;Identify&quot;)</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>AVP_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Velo_Opportunity_Approved_To_Pipe</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Velo_Opportunity_Denied_to_Pipe</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Velocity Opportunity Pipe Approval 100K</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

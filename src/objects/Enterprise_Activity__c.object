@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Enterprise Activities</relationshipLabel>
+        <relationshipName>Enterprise_Activities</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Admin__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Admin</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CIO_CTO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CIO/CTO</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Director__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Director</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Engineer__c</fullName>
+        <externalId>false</externalId>
+        <label>Engineer</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alec Kemp</fullName>
+                    <default>false</default>
+                    <label>Alec Kemp</label>
+                </value>
+                <value>
+                    <fullName>Allen Patterson</fullName>
+                    <default>false</default>
+                    <label>Allen Patterson</label>
+                </value>
+                <value>
+                    <fullName>Anson McCook</fullName>
+                    <default>false</default>
+                    <label>Anson McCook</label>
+                </value>
+                <value>
+                    <fullName>Aseem Anwar</fullName>
+                    <default>false</default>
+                    <label>Aseem Anwar</label>
+                </value>
+                <value>
+                    <fullName>Barry Howard</fullName>
+                    <default>false</default>
+                    <label>Barry Howard</label>
+                </value>
+                <value>
+                    <fullName>Brad Blogett</fullName>
+                    <default>false</default>
+                    <label>Brad Blogett</label>
+                </value>
+                <value>
+                    <fullName>Charles Russell</fullName>
+                    <default>false</default>
+                    <label>Charles Russell</label>
+                </value>
+                <value>
+                    <fullName>Chris Rauch</fullName>
+                    <default>false</default>
+                    <label>Chris Rauch</label>
+                </value>
+                <value>
+                    <fullName>Chris Williamson</fullName>
+                    <default>false</default>
+                    <label>Chris Williamson</label>
+                </value>
+                <value>
+                    <fullName>Daniel Butzer</fullName>
+                    <default>false</default>
+                    <label>Daniel Butzer</label>
+                </value>
+                <value>
+                    <fullName>Don McKeith</fullName>
+                    <default>false</default>
+                    <label>Don McKeith</label>
+                </value>
+                <value>
+                    <fullName>Eric Horsman</fullName>
+                    <default>false</default>
+                    <label>Eric Horsman</label>
+                </value>
+                <value>
+                    <fullName>Francois Guillaume</fullName>
+                    <default>false</default>
+                    <label>Francois Guillaume</label>
+                </value>
+                <value>
+                    <fullName>Hillel Adler</fullName>
+                    <default>false</default>
+                    <label>Hillel Adler</label>
+                </value>
+                <value>
+                    <fullName>Iddo Avneri</fullName>
+                    <default>false</default>
+                    <label>Iddo Avneri</label>
+                </value>
+                <value>
+                    <fullName>Jacob Ben-David</fullName>
+                    <default>false</default>
+                    <label>Jacob Ben-David</label>
+                </value>
+                <value>
+                    <fullName>James Dyckowski</fullName>
+                    <default>false</default>
+                    <label>James Dyckowski</label>
+                </value>
+                <value>
+                    <fullName>Jamie Hodge</fullName>
+                    <default>false</default>
+                    <label>Jamie Hodge</label>
+                </value>
+                <value>
+                    <fullName>Jason Beaudette</fullName>
+                    <default>false</default>
+                    <label>Jason Beaudette</label>
+                </value>
+                <value>
+                    <fullName>Jason Howard</fullName>
+                    <default>false</default>
+                    <label>Jason Howard</label>
+                </value>
+                <value>
+                    <fullName>Jason Huff</fullName>
+                    <default>false</default>
+                    <label>Jason Huff</label>
+                </value>
+                <value>
+                    <fullName>Jeremy Levenson</fullName>
+                    <default>false</default>
+                    <label>Jeremy Levenson</label>
+                </value>
+                <value>
+                    <fullName>Jerome Papazian</fullName>
+                    <default>false</default>
+                    <label>Jerome Papazian</label>
+                </value>
+                <value>
+                    <fullName>Jimmy Herbert</fullName>
+                    <default>false</default>
+                    <label>Jimmy Herbert</label>
+                </value>
+                <value>
+                    <fullName>Joe Burke</fullName>
+                    <default>false</default>
+                    <label>Joe Burke</label>
+                </value>
+                <value>
+                    <fullName>Juan Santos</fullName>
+                    <default>false</default>
+                    <label>Juan Santos</label>
+                </value>
+                <value>
+                    <fullName>Jules Albin</fullName>
+                    <default>false</default>
+                    <label>Jules Albin</label>
+                </value>
+                <value>
+                    <fullName>Kent Nierendorf</fullName>
+                    <default>false</default>
+                    <label>Kent Nierendorf</label>
+                </value>
+                <value>
+                    <fullName>Kevin Lamb</fullName>
+                    <default>false</default>
+                    <label>Kevin Lamb</label>
+                </value>
+                <value>
+                    <fullName>Luis DaSilva</fullName>
+                    <default>false</default>
+                    <label>Luis DaSilva</label>
+                </value>
+                <value>
+                    <fullName>Masa Kawano</fullName>
+                    <default>false</default>
+                    <label>Masa Kawano</label>
+                </value>
+                <value>
+                    <fullName>Matthew Harcourt</fullName>
+                    <default>false</default>
+                    <label>Matthew Harcourt</label>
+                </value>
+                <value>
+                    <fullName>Matt Ray</fullName>
+                    <default>false</default>
+                    <label>Matt Ray</label>
+                </value>
+                <value>
+                    <fullName>Matt Vetter</fullName>
+                    <default>false</default>
+                    <label>Matt Vetter</label>
+                </value>
+                <value>
+                    <fullName>Michael Isaia</fullName>
+                    <default>false</default>
+                    <label>Michael Isaia</label>
+                </value>
+                <value>
+                    <fullName>Michael Nagar</fullName>
+                    <default>false</default>
+                    <label>Michael Nagar</label>
+                </value>
+                <value>
+                    <fullName>Michael Saville</fullName>
+                    <default>false</default>
+                    <label>Michael Saville</label>
+                </value>
+                <value>
+                    <fullName>Nick Joseph</fullName>
+                    <default>false</default>
+                    <label>Nick Joseph</label>
+                </value>
+                <value>
+                    <fullName>No Engineer</fullName>
+                    <default>false</default>
+                    <label>No Engineer</label>
+                </value>
+                <value>
+                    <fullName>Paul Mallick</fullName>
+                    <default>false</default>
+                    <label>Paul Mallick</label>
+                </value>
+                <value>
+                    <fullName>Paul Zychowicz</fullName>
+                    <default>false</default>
+                    <label>Paul Zychowicz</label>
+                </value>
+                <value>
+                    <fullName>Richard Stinton</fullName>
+                    <default>false</default>
+                    <label>Richard Stinton</label>
+                </value>
+                <value>
+                    <fullName>Richard Trickey</fullName>
+                    <default>false</default>
+                    <label>Richard Trickey</label>
+                </value>
+                <value>
+                    <fullName>Robert Coppersmith</fullName>
+                    <default>false</default>
+                    <label>Robert Coppersmith</label>
+                </value>
+                <value>
+                    <fullName>Ryan DeWaele</fullName>
+                    <default>false</default>
+                    <label>Ryan DeWaele</label>
+                </value>
+                <value>
+                    <fullName>Ryan Strehlke</fullName>
+                    <default>false</default>
+                    <label>Ryan Strehlke</label>
+                </value>
+                <value>
+                    <fullName>Sergey Omelaenko</fullName>
+                    <default>false</default>
+                    <label>Sergey Omelaenko</label>
+                </value>
+                <value>
+                    <fullName>Stephan Wagner</fullName>
+                    <default>false</default>
+                    <label>Stephan Wagner</label>
+                </value>
+                <value>
+                    <fullName>Suky Bains</fullName>
+                    <default>false</default>
+                    <label>Suky Bains</label>
+                </value>
+                <value>
+                    <fullName>Vijay Tolani</fullName>
+                    <default>false</default>
+                    <label>Vijay Tolani</label>
+                </value>
+                <value>
+                    <fullName>Vytas Januskis</fullName>
+                    <default>false</default>
+                    <label>Vytas Januskis</label>
+                </value>
+                <value>
+                    <fullName>Will Searle</fullName>
+                    <default>false</default>
+                    <label>Will Searle</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Executive_Sponsor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Executive Sponsor</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Enterprise_Activities</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Manager__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Manager</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Meeting Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Meeting Summary</label>
+        <length>50000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Primary_Objective__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Objective</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Related_Opportunity__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Enterprise Activities</relationshipLabel>
+        <relationshipName>Enterprise_Activities</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SE_Assigned__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.SE_Assigned1__r.Full_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SE Assigned</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SVP</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>VP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VP</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Enterprise Activity</label>
+    <nameField>
+        <label>Enterprise Activity Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Enterprise Activities</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>

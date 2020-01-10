@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Whitepaper-Nurture10-new.Email</name>
+    <style>none</style>
+    <subject>Are you ready to get started with VMTurbo?</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Almost all of our nearly 500 customers started the journey to improve their Operations Management process, drive down costs, improve utilization and free their team from chasing down and fixing problems in their virtualized environment by installing our Trial appliance &lt;http://go.vmturbo.com/cloud-edition-download.html&gt;. 
+
+
+The VMTurbo Operations Manager Trial &lt;http://go.vmturbo.com/cloud-edition-download.html&gt; is a fully functioning license that allows you to explore all the features of the solution for 30 days.  The trial enables you to:
+
+
+ - Discover – an easy to install &amp; configure virtual appliance drops into your virtual environment on any hypervisor and immediately discovers your virtual infrastructure without requiring new databases and introducing overhead in the environment.
+ - Converge – within hours, you will see actionable recommendations that address risks and contention for resources across the environment. These actions prevent problems before they arise and converge your environment to the Optimal Operating Zone – where application performance is ensured and you are getting the most out of your underlying physical resources.
+ - Control – utilizing the closed loop capabilities of VMTurbo Operation Manager to maintain the environment in a healthy state (the Optimal Operating Zone). By leveraging the automation capabilities in the product – the necessary actions are driven into the environment – preventing problems and removing your team from firefighting.
+
+
+
+I’d love to connect with you directly to let you know how others get value out of our solution.  Can we schedule a call?
+
+
+I look forward to hearing from you.
+
+Thank you,
+
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+contact us &lt;http://go.vmturbo.com/contact-us.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | website &lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | privacy policy &lt;http://www.vmturbo.com/privacy-policy?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

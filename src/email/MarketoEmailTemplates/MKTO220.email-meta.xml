@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Citrix Synergy 2013 follow up.Email</name>
+    <style>none</style>
+    <subject>Citrix Synergy and Virtualized Datacenter Control</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thanks for stopping by our booth at Citrix Synergy 2013. We enjoyed learning about your plans to implement desktop virtualization in a way that allows you to efficiently run desktop workloads and meet service levels and budget.
+
+We can help. Our solution allows you to intelligently plan, deploy and control virtualized data centers and cloud environments. Supporting multiple hypervisors, it focuses on ensuring performance of workloads while maximizing the utilization of your virtual infrastructure.
+
+To learn more, get a quick-and-easy glimpse &lt;http://bit.ly/11Dl0zv&gt; into how we can help you control your cloud and virtualized environments as you plan and deploy desktop virtualization. Better yet - download a 30-day &lt;http://bit.ly/QzvQgM&gt; trial and take it for a spin. Our virtual appliance is easily downloaded and configured, and will provide value in less than 30 minutes.
+
+ 
+Kind regards
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

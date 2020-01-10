@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>IT Maturity Survey - Continuing the conversation  (1494946111.0)</name>
+    <style>none</style>
+    <subject>IT Maturity Survey - Continuing the conversation  (1494946111.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Mike,
+Thank you for completing the Turbonomic IT Maturity Survey. From past conversations with other members of your team, I know you are close to signing off on the full VRops suite to maximize the virtualized infrastructure at UCF. I was hoping that we could have a high level conversation to show you why other large schools like Georgetown, Boston College and Indiana University have gone with Turbonomic’s control platform over the VRops suite of tools while you evaluate the VMware tool. 
+You indicated on your survey several challenges that Turbonomic directly addresses, specifically:
+	- Overprovisioned Infrastructure and Inefficiency - Turbonomic has been proven to reduce infrastructure requirements by 30% or more through intelligent consolidation 	- Administrative Costs (High Admin:Workload Ratio) - Turbonomic has been proven to empower organizations to manage 10x more workloads with the same headcount through its intelligent automation 	- Growth in Environment Complexity - Turbonomic’s vendor-agnostic, patented analytics have been proven to reduce infrastructure requirements by 30% or more through intelligent automation (this includes hyper converged infrastructure and flash storage).
+
+There are many benefits as to why our customers like EMC, BMC &lt;[[http://www.bmc.com/it-solutions/truesight-capacity-optimization-and-turbonomic.html]]&gt; and HP use Turbonomic in their internal infrastructure over the other tools and I was hoping to get the chance to show you why. Do you have some time to speak over the next couple of weeks? Alternatively, if you are going to Cisco Live I’d be happy to coordinate a meeting with one of our executives that will be there.  
+Thank you,Going to Cisco Live? Meet with a Turbonomic Executive &lt;[[https://turbonomic.com/leadership-meetings]]&gt; James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

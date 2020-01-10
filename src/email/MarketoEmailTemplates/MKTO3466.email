@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;"> 
+<div>
+<span style="font-size: 12px;">Dear {{lead.First Name:default=Friend}},</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; 
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; 
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; 
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;">In my years of experience in technology and business leadership, I have had the privilege of watching IT go through waves of transformation from a birds-eye view. As an Operating Partner at General Atlantic, I focus on&nbsp;partnering with high growth technology companies, in addition to serving on the boards of enterprises such as Citigroup, HPE, AppDynamics and Turbonomic.&nbsp;All previous waves pale in comparison to that which we observe&nbsp;today.&nbsp;</span></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: 
+#262626;">Data center and cloud advancements are happening at an unprecedented rate. That means more decisions will have to be made, requiring a broader set of skills to keep your workloads healthy.&nbsp;</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I cordially invite you to join myself&nbsp;and dozens of our fellow&nbsp;IT leaders in&nbsp;Los Angeles for the upcoming&nbsp;<a href="https://turbonomic.com/exec-newyork/" target="_blank"> New York&nbsp;Executive Networking Event: Workload Automation for Your Hybrid Cloud</a><em><a href="https://turbonomic.com/vip-losangeles/" target="_blank">&nbsp;</a></em><a href="https://turbonomic.com/vip-losangeles/" target="_blank"></a>hosted by Turbonomic, Cisco, and AppDynamics, on Monday, March 12th 2018 at the&nbsp;Cisco NYC Offices for a presentation and reception at 4:00 p.m., followed by a&nbsp;New York Rangers&nbsp;Game in the Turbonomic Suite at the Madison Square Garden. </span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: arial, helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: 
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">This&nbsp;event is&nbsp;a great opportunity to meet with peers, share challenges, and discuss trends.&nbsp;</span>It is my goal and&nbsp;hope that this networking opportunity will be intellectually stimulating and beneficial for all.&nbsp;</span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">Following our reception, myself and your technology peers will take our seats in the Turbonomic Suite to cheer on the&nbsp;Rangers&nbsp;as they take on the&nbsp;Carolina Hurricanes</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please <strong><a href="https://turbonomic.com/exec-newyork/" target="_blank">register here</a>&nbsp;</strong>as soon as possible.<br /></span>
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,</span>
+</div> 
+<div>
+<span style="font-size: 12px;">Gary</span>
+</div> 
+<p><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/gary_reiner_ga-5-web.jpg" alt="gary_reiner_ga-5-web.jpg" height="132" width="110" /><br /></p> 
+<p><span style="font-size: 12px;"><em>Gary Reiner<br /></em></span><span style="font-size: 12px;"><em>Operating Partner<br />General Atlantic</em></span></p> 
+<p><br /></p> 
+</div>  
+</body>
+</html>

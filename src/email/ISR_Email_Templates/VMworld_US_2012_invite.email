@@ -1,0 +1,15 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+VMTurbo will be exhibiting at VMworld in San Francisco later this month. If you are planning to attend, we’d like to invite you to come by the booth (#2222) and spend some time with our technical and executive teams to learn more about how our technology is driving down the operating costs and improving performance of the virtual infrastructure at hundreds of companies just like yours.<br/ ><br/ >
+If you are not heading to the show, or if you’d like a “sneak peek” at what we’ll be showing – I would be glad to set up some time with our team here to understand your key initiatives for the rest of 2012 and discuss how VMTurbo Operations Manager can deliver the intelligent control and automated decision-making you need to get the most out of your virtual environment. Reduce the burden on your operations team, improve utilization of your physical resources, prevent problems and assure applications have the resources they require to deliver on business goals – all with easy to install virtual appliance that controls any hypervisor environment.<br/ ><br/ >
+Reply now to book some time at the show or beforehand. I look forward to speaking with you soon – or seeing you out in San Francisco.
+
+
+<br/ ><br/ >
+
+Best Regards, <br/ ><br/ >
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}<br/ ><br/ >
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br/ >
+<a href="www.vmturbo.com/esevideo ">How does VMTurbo work?</a> <br />

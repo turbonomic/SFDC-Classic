@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2017-02-15-Q1 Town Hall.EMAIL-Invite #2</name>
+    <style>none</style>
+    <subject>Partner Town Hall Meeting</subject>
+    <textOnly>Dear {{lead.First Name:default=Partner}}, 
+As you saw in our January Monthly Newsletter &lt;[[https://greencircle.vmturbo.com/docs/DOC-4317]]&gt;, Turbonomic is had a recent valuation at $800M in our last round of funding, and we&apos;re only going to continue to grow. We are excited about the opportunity for our partners to grow with us! 
+
+Our annual Partner Town Hall Meeting &lt;[[https://turbonomic.com/q1-17-partner-town-hall-meeting/]]&gt; is this week on Wednesday, February 15th at 11:00 AM EST is an opportunity for you hear more about our strategy for how you, as partners, can grow with us. 
+If you haven&apos;t already done so, be sure to reserve &lt;[[https://turbonomic.com/q1-17-partner-town-hall-meeting/]]&gt; your spot today!
+I look forward to seeing you on the call,
+
+
+Sean Finnegan 
+Vice President of Channel Sales</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

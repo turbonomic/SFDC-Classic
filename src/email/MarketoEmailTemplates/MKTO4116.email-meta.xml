@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Aspirus Healthcare Customer Success</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_Health Care_Cold_Nurture.Healthcare_Cold_Nurture_Enterprise_ES_4</name>
+    <style>none</style>
+    <subject>How Aspirus Automates and Expands Infrastructure with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Using Turbonomic, Aspirus Wausau Hospital was able to make smarter hardware purchasing decisions, save time, and eliminate contention by leveraging automation. 
+
+ &lt;[[https://turbonomic.com/resources/videos/customer-success-aspirus-wausau-hospital/]]&gt;
+
+&quot;The trend in healthcare today is preventative medicine, making sure people don&apos;t get sick in the first place...that&apos;s exactly what we&apos;re doing with our virtual infrastructure with Turbonomic, it&apos;s awesome.&quot; - Jesse Kozikowski, Server Analyst II, Aspirus Wausau Hospital
+
+Schedule a demo &lt;[[https://turbonomic.com/request-a-demo/]]&gt; and learn how Turbonomic can help your IT organization optimize for performance, compliance, and cost in real-time.
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

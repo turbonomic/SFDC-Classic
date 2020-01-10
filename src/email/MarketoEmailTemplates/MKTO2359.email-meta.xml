@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EM-2017-04-25-SEC-BoydC.EM-2017-04-25-Boyd #1</name>
+    <style>none</style>
+    <subject>Can I Send You to the Memphis BBQ World Championship?</subject>
+    <textOnly>Hi {{lead.First Name:default=Friend}},
+
+ 
+I hope this note finds you well! As you may have seen, Turbonomic is offering two VIP passes to the 2017 World Championship Barbeque Cooking Contest in Memphis (valued at $1,190.00). All it takes to be entered to win is filling out a brief survey and scheduling a quick 30-minute meeting with a Turbonomic engineer!
+ 
+One Grand Prize winner &lt;[[https://www.surveymonkey.com/r/YQMY9QG?marketo_zs00ja7e8g=[marketo_zs00ja7e8g_value]&amp;marketo_6ailg567og=[marketo_6ailg567og_value]&amp;marketo_27kfq4j6cg=[marketo_27kfq4j6cg_value]]]&gt; will receive two VIP passes, including parking, to the event taking place May 17-20!
+ 
+Simply fill out this brief survey &lt;[[https://www.surveymonkey.com/r/YQMY9QG?marketo_zs00ja7e8g=[marketo_zs00ja7e8g_value]&amp;marketo_6ailg567og=[marketo_6ailg567og_value]&amp;marketo_27kfq4j6cg=[marketo_27kfq4j6cg_value]]]&gt; and we will be in contact shortly. Looking forward to speaking with you!
+ 
+Best,
+Chris
+
+
+
+
+Chris Boyd
+Account Executive - TN
+Office 857-305-4657  |  Cell 901-502-1650
+
+VMTurbo is now Turbonomic &lt;[[http://turbonomic.com/turbonomic/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

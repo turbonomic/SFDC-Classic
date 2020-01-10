@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Travelport Stryder Winner.Winner Announcement</name>
+    <style>none</style>
+    <subject>Winner Announcement | Travelport Webinar Giveaway  | Attacknid Stryder</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Congratulations
+To Mike Chavez, Proud Owner of a Brand New
+Thank you for registering for VMTurbo&apos;s Travelport webinar. We hope you enjoyed and learned from our presentation.
+
+All registered attendees were eligible to win a Combat CreaturesTM AttacknidTM StryderTM, and we would like to congratulate Mike Chavez of JTFN for winning! For those who attended, we apologize for running out of time and not conducting a live raffle.
+
+ 
+For those who were unable to join us today, we hope you will visit our blog &lt;http://bit.ly/1lEkMQP&gt; and view the recording when it is ready.
+Visit Our Blog &lt;http://bit.ly/1lEkMQP&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>JS July 2014.Email_use</name>
+    <style>none</style>
+    <subject>Complimentary VMTurbo Training | July 8th 12pm EST</subject>
+    <textOnly>Turbo-Charge Your Environment with
+VMTurbo Operations Manager User Training
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Congratulations on your recent purchase of VMTurbo Operations Manager! We at VMTurbo are here to support you every step of the way as you deploy VMTurbo, achieve perpetual health, and brainstorm ways to use your newfound free time.
+
+VMTurbo Educational Services provides a flexible and dynamic set of training offerings &lt;http://go.vmturbo.com/pso-training-request.html&gt; designed to help you leverage VMTurbo Operations Manager to converge and sustain your virtualized and cloud environment in the optimal operating zone, where service performance is assured while the infrastructure is utilized as efficiently as possible.
+
+To learn more about our classes, please click here:
+
+ &lt;http://go.vmturbo.com/pso-training-request.html&gt;
+
+In addition to our paid training opportunities, we also offer a free, monthly, 90-minute jumpstart webinar &lt;http://bit.ly/1lx1Tvx&gt;, open to all of our customers. The next jumpstart will take place Tuesday, July 8th from 12pm-1:30pm EST. You can register by clicking the button below.
+
+ &lt;http://bit.ly/1lx1Tvx&gt;
+
+Thank you for placing your trust in VMTurbo. As you will soon learn, you’ve made a very wise and healthy decision.
+
+Educationally yours,
+Orna Kliger
+Director
+VMTurbo Educational Services
+Education@vmturbo.com &lt;mailto:%20education@vmturbo.com&gt;
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

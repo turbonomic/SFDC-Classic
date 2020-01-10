@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Cloud Initiatives | Turbo (1495111221.0)</name>
+    <style>none</style>
+    <subject>Cloud Initiatives | Turbo (1495111221.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   90 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                     Loren, I’m reaching out given my research and knowledge of Dartmouth’s public cloud initiatives as well as VDI troubles and wanted to find time to introduce you to Turbonomic. Customers like Boston College, Penn State &lt;[[https://www.techvalidate.com/product-research/turbonomic/case-studies/788-3B4-BB3]]&gt;, Princeton University etc. have found great success with our technology as they look to  stretch their IT budget &lt;[[https://turbonomic.com/blog/on-turbonomic/stretching-your-academic-it-budget/]]&gt; on premise as well as in the public cloud &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic-for-AWS-Data-Sheet.pdf]]&gt;.  My assumption is that Dartmouth is considering the public cloud for the following reason:
+	- Scalability	- Performance &amp; Uptime	- Labor and tech skills increasing demand	- More time to focus on projects
+ Benefits of using Turbo in the cloud:
+	- Auto-scale to assure performance	- Autonomically determines the right instance sizing, no more, no less (ie: M4.xlarge vs. M4.small)	- Avoid AWS costs by utilizing your on premise infrastructure as best possible.
+ Additionally, most of my EDU customers deal with headaches that come with not only onboarding additional VDI but managing them daily. For instance, managing storage I/O throughput without needing to overprovision, accommodating end-user expectations, and determining proper initial and ongoing placement.  Prevent I/O intensive tasks from bringing down VDI &lt;[[https://turbonomic.com/blog/on-turbonomic/io-intensive-tasks-in-vdi-environment/]]&gt; Do you have time in the coming weeks for an introductory call?  -          Alex                      Alexander SharpSales RepresentativeO: 857.305.5803     M: 617.913.7986500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

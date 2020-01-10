@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Everbank Falcon Winner.Winner Announcement</name>
+    <style>none</style>
+    <subject>Congratulations, Josh: The LEGO Falcon Is Yours.</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Congrats, Josh!
+The Winner, You Are.
+Dear Josh,
+Thank you for registering for VMTurbo&apos;s Everbank webinar. As you know, you were entered to win a LEGOTM Millennium Falcon upon registering, and we have great news. You won! Please click the link below to contact Jenny Sharpe &lt;mailto:jennifer.sharpe@vmturbo.com&gt; at VMTurbo, who will coordinate shipping your Falcon.
+We hope you will join us tomorrow for our webinar with Travelport, at which we will raffle-off a Combat CreaturesTM AttacknidsTM StryderTM.
+ Congratulations, sir!
+Claim Your Falcon &lt;mailto:jennifer.sharpe@vmturbo.com&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

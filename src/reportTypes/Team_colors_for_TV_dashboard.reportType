@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Team_colors_for_TV_dashboard__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>For pulling team colors into TV dashboard</description>
+    <label>Team colors for TV dashboard</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Team_Abbreviation__c</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Excel_Color_Number__c</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Color__c</field>
+            <table>Team_colors_for_TV_dashboard__c</table>
+        </columns>
+        <masterLabel>Team colors for TV dashboard</masterLabel>
+    </sections>
+</ReportType>

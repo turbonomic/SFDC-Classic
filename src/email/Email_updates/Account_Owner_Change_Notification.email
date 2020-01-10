@@ -1,0 +1,3 @@
+The account {!Account.Name} was changed by an AE. Follow up and see why the change was made.
+
+Here is the link to the account: https://eu1.salesforce.com/{!Account.Account_Safe_ID__c}

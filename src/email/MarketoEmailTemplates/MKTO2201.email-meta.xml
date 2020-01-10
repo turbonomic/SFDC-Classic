@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Jake Quinn LinkedIn Follow Up (1493750998.0)</name>
+    <style>none</style>
+    <subject>Jake Quinn LinkedIn Follow Up (1493750998.0)</subject>
+    <textOnly>Hi David -  I hope this note finds you well! My name is Jake Quinn and I wanted to follow up from my LinkedIn request with some context as to why I am reaching out.  I have spoken with some of your team members in the past as well as with CTOs and CIOs on a daily basis and they tell me that they are frustrated with constraining IT budgets while needing to deliver QoS to end users on a growing virtualized infrastructure. Combined with the mission critical nature of healthcare applications, strict industry regulations, and looming cost implications, the task of executing on your cloud and virtualization strategy isn’t easy. I’d love to spend some time sharing with you how we’re helping organizations like Mary Washington Healthcare, Cape Cod Healthcare, &amp; MaineHealth overcome the challenge of assuring application performance while maximizing efficiency in their virtual infrastructures. Below is a figure displaying the results we have driven across all our current healthcare customers.  Would you be open to a 20 minute conversation at your convenience?  If you&apos;d like to learn more, take a look at our Turbonomic for Healthcare Providers solution brief &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic_Data-Sheet_Healthcare.pdf]]&gt;, which explains the value we can add in more detail.  Best,  Jake
+Jake Quinn  Territory Manager Office: 857.305.4637 | Cell: 781.264.8681</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

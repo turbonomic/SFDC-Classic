@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2018-11-Which Cloud EMEA.Email - Invite 1a EMEA Send.ES 1 - HTML Invite 1</name>
+    <style>none</style>
+    <subject>£5 Starbucks Voucher for 3 Minute Survey | Which Cloud Survey</subject>
+    <textOnly>&lt;[[http://bit.ly/2T9BmxI]]&gt;
+Take Survey and Earn £5 Starbucks Voucher &lt;[[http://bit.ly/2T9BmxI]]&gt;
+Hi {{lead.First Name:default=there}},
+
+When it comes down to cloud providers, which should you choose? It should be a straightforward question, but when you need a detailed justification for the CIO, the CFO, and the board, you need more than just a hunch. 
+
+Let&apos;s find out together. Take our NEW Which Cloud Survey &lt;[[http://bit.ly/2T9BmxI]]&gt; to help establish a baseline on where organizations like yours are in their public cloud journeys and identify which cloud providers are winning in the race towards adoption.
+
+
+
+Take Survey Now &lt;[[http://bit.ly/2T9BmxI]]&gt;
+
+
+
+This survey will take approximately 3 minutes to complete. As a thank you for your time, you will earn a free coffee with a £5 Starbucks voucher upon completion of the survey.
+
+Regards,
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

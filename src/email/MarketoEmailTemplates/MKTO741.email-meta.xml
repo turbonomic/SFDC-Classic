@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>08_08_2014 VMW Europe Launch.Email_use</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=Enter &amp;}}: Win 2 Passes to VMworld Europe | 3 Chances to Win</subject>
+    <textOnly>Enter For Your Chance to Win 2 Passes to VMworld Europe
+Drawings on August 22, August 29, &amp; September 9
+Enter to Win 2 Full Passes to VMworld® Europe! &lt;http://vmturbo.com/vmturbo-vmworld-europe-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=EUsweeps&gt;
+Every Friday in June, we gave away two full conference passes to VMworld® U.S. You didn’t think we’d stop there, did you?
+
+Our VMworld Europe Sweepstakes is a continuation of tradition: getting as many people to VMworld as we can. We’re leading the virtual revolution from the spindles of your on-prem datastores to the beefiest VM you’ve provisioned in the Amazon cloud. Why should we limit the boundaries of our virtual love?
+Enter today. &lt;http://vmturbo.com/vmturbo-vmworld-europe-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=EUsweeps&gt; Return for winner listings every Friday: August 22, 29, &amp; September 5.
+See you in Barca.
+
+Please see Official Rules &lt;http://go.vmturbo.com/vmturbo-vmworld-europe-sweepstakes-rules.html&gt;. We have included as many countries as legally possible.
+Enter to Win &lt;http://vmturbo.com/vmturbo-vmworld-europe-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=EUsweeps&gt;
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+Green Circle</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

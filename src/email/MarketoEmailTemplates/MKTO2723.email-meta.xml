@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-06-09-CIO Guide to Autonomic IT.Send</name>
+    <style>none</style>
+    <subject>2017 CIO Guide to Autonomic IT</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/cio-guide-to-autonomic-it/]]&gt;
+Hi {{lead.First Name:default=edit There}},
+Given the ever-increasing criticality of IT to the business, the CIO that cannot deliver predictable performance, while minimizing cost will be replaced. Yet a number of trends are increasing the complexity of solving this problem. Moreover, organizations today vary in their level of IT maturity. The ability to adopt new technologies and processes, pressure from the business, as well as the beliefs and aspirations of CIOs all play a role in how and why organizations mature.
+This document describes five stages of IT maturity for CIOs to understand where their organization is today and where they can aspire to reach:
+
+
+	- Aware: Collect and review performance and cost metrics
+	- Proactive: Proactively make changes to assure performance and control cost
+	- Automated Management: Continuously assure performance within cost constraints
+	- Demand Aligned: Auto scale apps and infrastructure based on real-time demand
+	- SLA Delivery: Deliver differentiated service levels within cost and constraints
+
+
+Adopting an autonomic IT approach requires a change in mindset across the organization. But whatever their stage of IT maturity, CIOs and their organizations can benefit. This document is your roadmap.
+ &lt;[[https://turbonomic.com/resources/cio-guide-to-autonomic-it/]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

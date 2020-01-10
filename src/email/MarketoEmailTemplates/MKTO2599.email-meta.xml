@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Reconnecting about VMTurbo (now Turbonomic)  (1495474564.0)</name>
+    <style>none</style>
+    <subject>Reconnecting about VMTurbo (now Turbonomic)  (1495474564.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Ubaldo, Hope everything is going well with you. Back in 2014 you and the team at iTopia were customers of Turbonomic (then VMTurbo) and I wanted to see if you might have some time in May or June to review the platform again to see what is new with Turbonomic.  With a new update every quarter, there have been quite a few changes on our side including the rebrand to Turbonomic but our general mission is still the same: Turbnonomic’s control platform increases application performance on less infrastructure.  Do you have time over the next couple of months to do a 30 minutes review of what is new?  Best regards,  James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

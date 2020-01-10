@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>$15,000 Off Turbonomic for State and Local Government Institutions (1494859649.0</name>
+    <style>none</style>
+    <subject>$15,000 Off Turbonomic for State and Local Government Institutions (1494859649.0)</subject>
+    <textOnly>Hi Scott,
+
+I’m reaching out with a special offer for State and Local Government organizations as we approach the summer months. I’ve worked with a number of  cities, towns and counties including City of Miami, to alleviate their IT infrastructure management challenges. They generally run within a July budget cycle and occasionally have remaining funds towards the end of their fiscal year.
+I typically find these customers bear one of two prevalent problems:
+
+	- Their IT environments are highly fragmented, marked by high inefficiency and/or Their staff is limited, thinly spread and under-resources.	- Their staff is limited, thinly spread and under-resources.
+Turbonomic directly addresses both of these challenges.
+With that in mind, we’d like to offer a $15,000 discount for any deal with us, if you install Turbonomic’s autonomic performance platform before the end of May. 
+Do you have 30 minutes for my team and I to provide an introduction to you and the team at City of Fort Lauderdale over the next couple of weeks? 
+
+Best regards,
+James</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

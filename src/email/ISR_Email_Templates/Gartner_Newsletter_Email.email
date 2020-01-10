@@ -1,0 +1,18 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+<b>What if the days were longer?</b> <br /> 
+What percentage of your day do you spend drilling into large amounts of data and troubleshooting issues with your virtual datacenter? Since you can’t add hours to the day (and why would you want to?), it’d be great to have that time back to spend on other important elements of your job. The unfortunate reality is that managing the virtual infrastructure is chewing up even more of your cycles as you expand virtualization and adopt cloud services.<br /><br />
+ 
+<b>Gartner gets it. </b><br />
+I’m writing today with some very compelling research by Gartner on 3 best practices for managing your virtualized environment. Download this <a href="http://www.gartner.com/technology/media-products/newsletters/vm_turbo/volume1_issue1/index.html?source=isr_email">complementary Gartner report</a> to learn about a unique approach to operations management, which is built on a software defined control platform. That's just a fancy way of saying that software like ours makes IT operations straightforward, automated, and predictable. <br /><br />
+ 
+<b>Even better.</b> <br />
+In a quick call, I can share with you how others, like BT, Colgate-Palmolive, London School of Economics, and CSC, quickly and easily implemented our virtualization management technology to optimize their IT environments and save time. It really is that simple. I look forward to talking with you. Please let me know when you'd like to chat. <br /><br />
+
+
+Best Regards,<br /><br />
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}<br /><br />
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br />
+<a href="http://www.vmturbo.com/esevideo">How does VMTurbo work?</a>

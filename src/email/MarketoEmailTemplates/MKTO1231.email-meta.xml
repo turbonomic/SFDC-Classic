@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Alliance Technology Group Event Q4 2015.Registration Confirmation</name>
+    <style>none</style>
+    <subject>Confirmed: Alliance Technology Group - VMTurbo Dinner</subject>
+    <textOnly>Dear {{lead.First Name}},
+You are confirmed! We&apos;re very excited to hear you&apos;ll be joining us at The Drake &lt;http://www.drakesf.com/&gt; on Monday, August 31st after a long day at VMworld.
+Get ready! Get excited! And make sure to stop by Booth #505, and learn about the future of the modern data center.
+VMTurbo VIP Cocktail Reception
+Monday, August 31, 2015 | 6:30 - 9:00 p.m.
+The Drake
+508 4th Street
+San Francisco, CA 94107
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

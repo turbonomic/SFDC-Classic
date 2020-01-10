@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2017-09-11-VMworld EU.EMAIL-VMworld EU Booth 2</name>
+    <style>none</style>
+    <subject>Turbonomic at VMworld Europe | Win an Oculus Rift &amp; More</subject>
+    <textOnly>We enjoyed engaging with you last year at VMworld 2016. Are you attending again this year? We would love to see you again at Booth B514. 
+This year at VMworld Europe we will be giving away great prizes: a Nest, a GoPro Hero Session camera and an Oculus Rift each day of the event.Want to increase your chances on winning these top items? Stop by Booth B514, grab a t-shirt, take a selfie, and tweet the photo with #TurboShirt for an extra entry into the giveaway.
+
+
+
+
+Want an exclusive preview of our next software update? Pre-book an onsite meeting with our team at VMworld!
+BOOK YOUR MEETING NOW &lt;[[https://turbonomic.com/meet-us-vmworld-europe-2017/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

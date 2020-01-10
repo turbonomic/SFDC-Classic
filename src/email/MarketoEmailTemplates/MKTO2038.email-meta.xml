@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-02-17-Cloud Survey 2.Send</name>
+    <style>none</style>
+    <subject>Are You Leveraging the Cloud? Help Shape our Roadmap.</subject>
+    <textOnly>Hi {{Lead.First Name}},
+Many Turbonomic customers are leveraging the cloud. Are you one of them? As we continue to extend our autonomic platform, we want to better understand your challenges in the public cloud whether you are just starting out, or you’ve adopted a “cloud first” strategy.
+Please take our quick survey &lt;[[https://www.surveymonkey.com/r/DTN5NGL]]&gt; for a chance to win $100 and be selected for a market research interview.
+ &lt;[[https://www.surveymonkey.com/r/DTN5NGL]]&gt;
+ &lt;[[https://www.surveymonkey.com/r/DTN5NGL]]&gt;We’re offering $50 Amazon Gift cards for 30-minute interviews. Spots are limited! If you’ve been selected, we will reach out directly. Whether you’re leveraging AWS, Azure, IBM Softlayer, or Google Cloud, your input will help guide our roadmap.
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

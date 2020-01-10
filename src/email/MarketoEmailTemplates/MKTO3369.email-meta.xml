@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-12-07-San Francisco-Feeley</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-12-12-San Francisco ESB-Bill Veghte Email.EM-2017-12-07-San Francisco-Fe</name>
+    <style>none</style>
+    <subject>2 Tickets Left - VIP Invite - Luxury Suite at Warriors Game 12/14</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+With less than two days until the game I wanted to see if you would join us to celebrate the Holiday Season at our VIP executive event with Cisco Thursday night, (12/14) in a luxury suite at the Warriors game. Bill Veghte, our Executive Chairman (ex-EVP/GM Microsoft and HP) will be hosting the event.
+
+Bill helped build Azure for Microsoft and is currently our Executive Chairman and is personally helping to lead our engineering relationship with both AWS and Microsoft. We have 1800+ customers including HP, Cisco, Conoco Phillips, Citi, JPMC, Barclays, Morgan Stanley, BMC and many more worldwide. Bill will lead a brief executive forum on today’s hybrid cloud challenges (how management risks are formidable and oversights are expensive). After which we will watch the Warriors take on the Mavericks.
+
+I look forward to meeting you, and participating in an engaging conversation. As space we only have two tickets left, I do ask that you please register here &lt;[[https://turbonomic.com/learn-sanfrancisco/]]&gt; as soon as possible or reply to this email confirming your ticket. 
+
+Please let me know if you can make it!
+
+Warmly,
+
+Judi Feeley
+
+Judi Feeley
+Regional Vice President
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

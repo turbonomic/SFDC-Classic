@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Salesforce Metrics</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Salesforce Metrics</value>
+    </caseValues>
+    <fields>
+        <label><!-- Deals Closed --></label>
+        <name>Deals_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demos Completed --></label>
+        <name>Demos_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demos Scheduled --></label>
+        <name>Demos_Scheduled__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evals Completed --></label>
+        <name>Evals_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evals Started --></label>
+        <name>Evals_Started__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline Added (#) --></label>
+        <name>Pipeline_Added_N__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline Added ($) --></label>
+        <name>Pipeline_Added__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Metric # --></label>
+        <name>Salesforce_Metric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Talent Management File --></label>
+        <name>Talent_Management_File__c</name>
+        <relationshipLabel><!-- Salesforce Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Bookings --></label>
+        <name>Total_Bookings__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Safe ID --></label>
+        <name>User_Safe_ID__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Enterprise Metrics --></label>
+        <name>Enterprise_Metrics</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MTD --></label>
+        <name>MTD</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- QTD --></label>
+        <name>QTD</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Development Metrics --></label>
+        <name>Sales_Development_Metrics</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Only admins can create new Talent Management records --></errorMessage>
+        <name>Only_Ops_Special_Can_Create</name>
+    </validationRules>
+</CustomObjectTranslation>

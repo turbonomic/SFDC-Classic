@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM Survey 2.Email</name>
+    <style>none</style>
+    <subject>First 25 Respondents Get $10 to Amazon: VMTurbo Virtual Health Monitor Survey</subject>
+    <textOnly>What Will You Buy with Your $10? &lt;http://smile.amazon.com/s/field-keywords=gifts under %2410&gt;
+
+Hi {{lead.First Name:default=}},
+You are receiving this email because you have download VMTurbo&apos;s free &amp; unlimited Virtual Health Monitor at some point in the past 6 months.
+
+The first 25 respondents to complete this Virtual Health Monitor Survey &lt;https://docs.google.com/forms/d/1-msW1aCoeKqdoTkyZvqHqJol9YF3OuVjyg3NX8PDqgY/viewform?usp=send_form&gt; will receive a $10 Amazon Gift Card.
+
+We&apos;re using ours to buy the banana phone.
+
+Thank you {{lead.First Name:default=}}.
+ - Team Turbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Virtual Health Monitor license.Follow Up Email - Download</name>
+    <style>none</style>
+    <subject>VMTurbo Virtual Health Monitor Licence</subject>
+    <textOnly>   
+Thank you for downloading
+VMTurbo Virtual Health Monitor License
+Click here to download &lt;http://go.vmturbo.com/New_Community_Edition_Thank_you.html?&gt; the white paper.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

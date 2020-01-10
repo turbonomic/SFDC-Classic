@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>France_Tier3_Cold_Nurture_Commercial.France_Tier3_Cold_Nurture_Commercial_Email1</name>
+    <style>none</style>
+    <subject>L’automatisation de vos Workloads dans les Clouds Hybrides</subject>
+    <textOnly>Bonjour {{lead.First Name:default=edit me}},
+
+Êtes-vous bien sûr de tirer pleinement partie de l’ensemble des investissements IT ?
+
+Turbonomic &lt;[[https://www.turbonomic.com]]&gt; en recherchant en continu le meilleur compromis entre performance, coût et conformité, vous permet d’Automatiser au mieux le déploiement de vos workloads dans les Clouds Hybrides.
+
+ &lt;[[https://turbonomic.com/resources/videos/smart-workload-automation-for-hybrid-cloud-with-turbonomic/?utm_source=turbonomic&amp;utm_medium=email]]&gt;
+
+Fondée en 2010, Turbonomic est une des sociétés technologiques qui observe une des plus fortes croissances mondiales. Turbonomic aide aujourd’hui des milliers de sociétés à maximiser la valeur de leurs investissements IT.
+
+Voici comment Turbonomic peut aider votre organisation aujourd’hui.
+
+Cordialement,
+L’Equipe Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

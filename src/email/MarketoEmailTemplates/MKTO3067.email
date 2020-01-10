@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;">
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Dear&nbsp;{{lead.First Name:default=Friend}},</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">With the NBA season upcoming and the Warriors gearing up for another successful run to the finals I thought you’d be interested in the chance to see a game.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">I’m reaching out from Turbonomic, and I’d like to share with you why HP, Cisco, JP Morgan, and 1700+ more trust our platform in their on premise and cloud environments. Turbonomic can help you achieve several different IT initiatives, whether it’s reducing infrastructure and cloud spend, or preventing performance issues that impact employees and customers, we do it all while remaining compliant with your business policies.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">In exchange for a face-to-face meeting, I’d be happy to send some Warriors tickets your way. <a href="https://turbonomic.com/special-invitation-golden-state-warriors-tickets/" target="_blank" id="">Sign up here!</a> Here’s the view from the seats:</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/Warriors.png" alt="Warriors.png" height="265" width="354" style="display: block; margin-left: auto; margin-right: auto;" /></span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Please let us know if you are open to further exploring the possibilities of Turbonomic’s platform.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Yours Sincerely,</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Shannon Burgess</span></p>
+</div>  
+</body>
+</html>

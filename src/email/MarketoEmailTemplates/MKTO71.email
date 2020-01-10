@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Dear {{lead.First Name:default=Sir/Madam}},</span><br /> <br /><span style="font-size: 12px;"><span style="font-family: arial,helvetica,sans-serif;"> </span><span style="font-family: arial,helvetica,sans-serif;">Is your data center virtualized? Is your team challenged with how to handle application performance degradation or resource bottlenecks? Or would you like to improve resource utilization or more intelligently plan for growth?</span></span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><a href="http://www.vmturbo.com/wp-content/uploads/2012/05/VMTurbo_LSE-SuccessStory.pdf">Read this brief success story</a> regarding how the London School of Economics (LSE) used VMTurbo Operations Manager to:</span></p>
+<ul>
+<li><span style="font-size: 12px;"><span style="font-family: arial,helvetica,sans-serif;">Ensure applications have the physical and virtual resources they need</span></span></li>
+<li><span style="font-size: 12px;"><span style="font-family: arial,helvetica,sans-serif;">Maximize resource utilization</span></span></li>
+<li><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Plan for new workloads and growth in their environment</span></li>
+</ul>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><a href="http://www.vmturbo.com/product/what-it-does/operations-management-virtualized-environments/">VMTurbo Operations Manager</a> helped LSE reduce OPEX and improve service levels.&nbsp; Would you like to see if VMTurbo can do the same for you?</span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">{{lead.Lead Owner First Name:default=The VMTurbo Team}}&nbsp; {{lead.Lead Owner Last Name:default=}}</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</span><br /><br /></p></div>
+</div>
+</body>
+</html>

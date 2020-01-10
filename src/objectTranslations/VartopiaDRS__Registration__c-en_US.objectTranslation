@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approved By --></label>
+        <name>Approved_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Date Period for TV --></label>
+        <name>Approved_Date_Period_for_TV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Unmapped --></label>
+        <name>Days_Unmapped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Type --></label>
+        <name>Deal_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incremental</masterLabel>
+            <translation><!-- Incremental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint/Accelerated</masterLabel>
+            <translation><!-- Joint/Accelerated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecasted Registration --></label>
+        <name>Forecasted_Registration__c</name>
+    </fields>
+    <fields>
+        <label><!-- One (Registration) --></label>
+        <name>One_Registration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage at Approval --></label>
+        <name>Opportunity_Stage_at_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Partner Manager (Static) --></label>
+        <name>Original_Partner_Manager_Static__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Team --></label>
+        <name>Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- PROP Delivery Date --></label>
+        <name>PROP_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager (Account) --></label>
+        <name>Partner_Manager_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager Name --></label>
+        <name>Partner_Manager_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager Note --></label>
+        <name>Partner_Manager_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager Region (Static) --></label>
+        <name>Partner_Manager_Region_Static__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager Role (Static) --></label>
+        <name>Partner_Manager_Role_Stamped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager Role --></label>
+        <name>Partner_Manager_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager Team --></label>
+        <name>Partner_Manager_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager Username --></label>
+        <name>Partner_Manager_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Manager --></label>
+        <name>Partner_Manager__c</name>
+        <relationshipLabel><!-- Registration (Partner Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner Office --></label>
+        <name>Partner_Office__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner SE --></label>
+        <name>Partner_SE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner (non-Distributor) --></label>
+        <name>Partner_non_Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pure Promotion Reg --></label>
+        <name>Pure_Promotion_Reg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg Identified By (Manual) --></label>
+        <name>Reg_Identified_By_Manual__c</name>
+        <relationshipLabel><!-- Registration (Reg Identified By (Manual)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reg Identified By --></label>
+        <name>Reg_Identified_By_Static__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Report Field --></label>
+        <name>Registration_Report_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Safe ID --></label>
+        <name>Registration_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Ops Confirmation --></label>
+        <name>Sales_Ops_Audit__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Ops Confirmation Notes --></label>
+        <name>Sales_Ops_Confirmation_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Workflow Rules --></label>
+        <name>Trigger_Workflow_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Date --></label>
+        <name>VartopiaDRS__Approved_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Registration has been approved by Vartopia. --></help>
+        <label><!-- Approved by Vartopia --></label>
+        <name>VartopiaDRS__Approved_by_Vartopia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign 1 --></label>
+        <name>VartopiaDRS__Campaign_1__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign 2 --></label>
+        <name>VartopiaDRS__Campaign_2__c</name>
+        <relationshipLabel><!-- Registrations (Campaign 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign 3 --></label>
+        <name>VartopiaDRS__Campaign_3__c</name>
+        <relationshipLabel><!-- Registrations (Campaign 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Customer Seen a Demo of the Solution</label>
+        <name>VartopiaDRS__Check_Box_1__c</name>
+    </fields>
+    <fields>
+        <label>Customer has Downloaded a Trial</label>
+        <name>VartopiaDRS__Check_Box_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check_Box_3 --></label>
+        <name>VartopiaDRS__Check_Box_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check_Box_4 --></label>
+        <name>VartopiaDRS__Check_Box_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check_Box_5 --></label>
+        <name>VartopiaDRS__Check_Box_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>VartopiaDRS__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created from MVS --></label>
+        <name>VartopiaDRS__Created_from_MVS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_1 --></label>
+        <name>VartopiaDRS__Currency_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_2 --></label>
+        <name>VartopiaDRS__Currency_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_3 --></label>
+        <name>VartopiaDRS__Currency_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Account OwnerId --></label>
+        <name>VartopiaDRS__Customer_Account_OwnerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer AddressLine1 --></label>
+        <name>VartopiaDRS__Customer_AddressLine1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer AddressLine2 --></label>
+        <name>VartopiaDRS__Customer_AddressLine2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer City --></label>
+        <name>VartopiaDRS__Customer_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact Email --></label>
+        <name>VartopiaDRS__Customer_Contact_Email_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact Email --></label>
+        <name>VartopiaDRS__Customer_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact First Name --></label>
+        <name>VartopiaDRS__Customer_Contact_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact Last Name --></label>
+        <name>VartopiaDRS__Customer_Contact_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact Phone --></label>
+        <name>VartopiaDRS__Customer_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact --></label>
+        <name>VartopiaDRS__Customer_Contact__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Country --></label>
+        <name>VartopiaDRS__Customer_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Name --></label>
+        <name>VartopiaDRS__Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer State --></label>
+        <name>VartopiaDRS__Customer_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Zip --></label>
+        <name>VartopiaDRS__Customer_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>VartopiaDRS__Customer__c</name>
+        <relationshipLabel><!-- Registrations (Customer Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date of Next Customer Meeting</label>
+        <name>VartopiaDRS__Date_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date 2 --></label>
+        <name>VartopiaDRS__Date_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date 3 --></label>
+        <name>VartopiaDRS__Date_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Submitted --></label>
+        <name>VartopiaDRS__Date_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Name --></label>
+        <name>VartopiaDRS__Deal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denail Resean formula --></label>
+        <name>VartopiaDRS__Denail_Resean_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denial Reason --></label>
+        <name>VartopiaDRS__Denial_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Doesn’t Meet Program Requirements</masterLabel>
+            <translation><!-- Doesn’t Meet Program Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Registration</masterLabel>
+            <translation><!-- Duplicate Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other – See Comment Field</masterLabel>
+            <translation><!-- Other – See Comment Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered by Another Partner</masterLabel>
+            <translation><!-- Registered by Another Partner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Preferred Distributor</label>
+        <name>VartopiaDRS__Distributor_Account__c</name>
+        <relationshipLabel><!-- Registrations (Distributor Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Domain --></label>
+        <name>VartopiaDRS__Domain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email 1 --></label>
+        <name>VartopiaDRS__Email_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email 2 --></label>
+        <name>VartopiaDRS__Email_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email 3 --></label>
+        <name>VartopiaDRS__Email_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Close Date --></label>
+        <name>VartopiaDRS__Expected_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Revenue --></label>
+        <name>VartopiaDRS__Expected_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>VartopiaDRS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>VartopiaDRS__Lead__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Project / Opportunity Description</label>
+        <name>VartopiaDRS__Long_Text_Area_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Text Area 2 --></label>
+        <name>VartopiaDRS__Long_Text_Area_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Text Area 3 --></label>
+        <name>VartopiaDRS__Long_Text_Area_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 10 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_10__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 1 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_1__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 2 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_2__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 3 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_3__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 4 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_4__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 5 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_5__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 6 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_6__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 7 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_7__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 8 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_8__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Select Picklist 9 --></label>
+        <name>VartopiaDRS__Multi_Select_Picklist_9__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Number of Server Hosts</label>
+        <name>VartopiaDRS__Number_1__c</name>
+    </fields>
+    <fields>
+        <label>Number of Host Sockets</label>
+        <name>VartopiaDRS__Number_2__c</name>
+    </fields>
+    <fields>
+        <label>Estimated Number of VMs</label>
+        <name>VartopiaDRS__Number_3__c</name>
+    </fields>
+    <fields>
+        <label>Estimated Number of Licenses</label>
+        <name>VartopiaDRS__Number_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number 5 --></label>
+        <name>VartopiaDRS__Number_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity OwnerId --></label>
+        <name>VartopiaDRS__Opportunity_OwnerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity_StageName --></label>
+        <name>VartopiaDRS__Opportunity_StageName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage --></label>
+        <name>VartopiaDRS__Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>VartopiaDRS__Opportunity__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner Account --></label>
+        <name>VartopiaDRS__Partner_Account__c</name>
+        <relationshipLabel><!-- Registrations (Partner Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Percent 1 --></label>
+        <name>VartopiaDRS__Percent_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent 2 --></label>
+        <name>VartopiaDRS__Percent_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent 3 --></label>
+        <name>VartopiaDRS__Percent_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone 1 --></label>
+        <name>VartopiaDRS__Phone_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone 2 --></label>
+        <name>VartopiaDRS__Phone_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone 3 --></label>
+        <name>VartopiaDRS__Phone_3__c</name>
+    </fields>
+    <fields>
+        <label>Customer Hypervisor</label>
+        <name>VartopiaDRS__Picklist_10__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 11 --></label>
+        <name>VartopiaDRS__Picklist_11__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 12 --></label>
+        <name>VartopiaDRS__Picklist_12__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 13 --></label>
+        <name>VartopiaDRS__Picklist_13__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 14 --></label>
+        <name>VartopiaDRS__Picklist_14__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 15 --></label>
+        <name>VartopiaDRS__Picklist_15__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 16 --></label>
+        <name>VartopiaDRS__Picklist_16__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 17 --></label>
+        <name>VartopiaDRS__Picklist_17__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 18 --></label>
+        <name>VartopiaDRS__Picklist_18__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 19 --></label>
+        <name>VartopiaDRS__Picklist_19__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Opportunity Type</label>
+        <name>VartopiaDRS__Picklist_1__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 20 --></label>
+        <name>VartopiaDRS__Picklist_20__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Server Vendor</label>
+        <name>VartopiaDRS__Picklist_2__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>VMTurbo Partner Promo</label>
+        <name>VartopiaDRS__Picklist_3__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pure Control Promotion</masterLabel>
+            <translation><!-- Pure Control Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VMTurbo Education Promotion</masterLabel>
+            <translation><!-- VMTurbo Education Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VMTurbo e-Commerce Promotion</masterLabel>
+            <translation><!-- VMTurbo e-Commerce Promotion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Stage of Customer &quot;Cloud Journey&quot;?</label>
+        <name>VartopiaDRS__Picklist_4__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Customer Preferred Cloud</label>
+        <name>VartopiaDRS__Picklist_5__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>How did the Reseller find this deal?</label>
+        <name>VartopiaDRS__Picklist_6__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Solution Recommended By Partner</label>
+        <name>VartopiaDRS__Picklist_7__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 8 --></label>
+        <name>VartopiaDRS__Picklist_8__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Storage Vendors</label>
+        <name>VartopiaDRS__Picklist_9__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Salesrep Email --></label>
+        <name>VartopiaDRS__Primary_Salesrep_Email_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Salesrep Email --></label>
+        <name>VartopiaDRS__Primary_Salesrep_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Salesrep FirstName --></label>
+        <name>VartopiaDRS__Primary_Salesrep_FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Salesrep LastName --></label>
+        <name>VartopiaDRS__Primary_Salesrep_LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Salesrep Phone --></label>
+        <name>VartopiaDRS__Primary_Salesrep_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Name --></label>
+        <name>VartopiaDRS__Program_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Denial(Deprecated) --></label>
+        <name>VartopiaDRS__Reason_For_Denial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg Days Since Submitted --></label>
+        <name>VartopiaDRS__Reg_Days_Since_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Extended --></label>
+        <name>VartopiaDRS__Registration_Extended__c</name>
+    </fields>
+    <fields>
+        <label><!-- SalesRep Contact --></label>
+        <name>VartopiaDRS__SalesRep_Contact__c</name>
+        <relationshipLabel><!-- Registrations (SalesRep Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep --></label>
+        <name>VartopiaDRS__Sales_Rep__c</name>
+        <relationshipLabel><!-- Registration (Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Solution Name --></label>
+        <name>VartopiaDRS__Solution_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted By Email --></label>
+        <name>VartopiaDRS__Submitted_By_Email_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted By Email --></label>
+        <name>VartopiaDRS__Submitted_By_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted By FirstName --></label>
+        <name>VartopiaDRS__Submitted_By_FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted By LastName --></label>
+        <name>VartopiaDRS__Submitted_By_LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted By PhoneNumber --></label>
+        <name>VartopiaDRS__Submitted_By_PhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter Contact --></label>
+        <name>VartopiaDRS__Submitter_Contact__c</name>
+        <relationshipLabel><!-- Registrations (Submitter Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Field 1 --></label>
+        <name>VartopiaDRS__Test_Field_1__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Field 2 --></label>
+        <name>VartopiaDRS__Test_Field_2__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Text10(255) --></label>
+        <name>VartopiaDRS__Text10_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text11(255) --></label>
+        <name>VartopiaDRS__Text11_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text12(255) --></label>
+        <name>VartopiaDRS__Text12_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text13(255) --></label>
+        <name>VartopiaDRS__Text13_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text14(255) --></label>
+        <name>VartopiaDRS__Text14_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text15(255) --></label>
+        <name>VartopiaDRS__Text15_255__c</name>
+    </fields>
+    <fields>
+        <label>Hypervisor Software In Use</label>
+        <name>VartopiaDRS__Text1_255__c</name>
+    </fields>
+    <fields>
+        <label>Server Vendor(s)</label>
+        <name>VartopiaDRS__Text2_255__c</name>
+    </fields>
+    <fields>
+        <label>Storage Vendors(s)</label>
+        <name>VartopiaDRS__Text3_255__c</name>
+    </fields>
+    <fields>
+        <label>Other Solutions Cust is Evaluating</label>
+        <name>VartopiaDRS__Text4_255__c</name>
+    </fields>
+    <fields>
+        <label>VMTurbo Sales Rep</label>
+        <name>VartopiaDRS__Text5_255__c</name>
+    </fields>
+    <fields>
+        <label>PURE Sales Rep</label>
+        <name>VartopiaDRS__Text6_255__c</name>
+    </fields>
+    <fields>
+        <label>Partner Promotion</label>
+        <name>VartopiaDRS__Text7_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text8(255) --></label>
+        <name>VartopiaDRS__Text8_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text9(255) --></label>
+        <name>VartopiaDRS__Text9_255__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL 1 --></label>
+        <name>VartopiaDRS__URL_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL 2 --></label>
+        <name>VartopiaDRS__URL_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL 3 --></label>
+        <name>VartopiaDRS__URL_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vartopia Registration Id --></label>
+        <name>VartopiaDRS__Vartopia_Registration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Approval ID --></label>
+        <name>VartopiaDRS__Vendor_Approval_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Deal ID --></label>
+        <name>VartopiaDRS__Vendor_Deal_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Status --></label>
+        <name>VartopiaDRS__Vendor_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed-Lost</masterLabel>
+            <translation><!-- Closed-Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed-Won</masterLabel>
+            <translation><!-- Closed-Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned</masterLabel>
+            <translation><!-- Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Only Sean or an Admin may change this field. --></errorMessage>
+        <name>Lock_Partner_Promo_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Sales Ops may move the Registration to &quot;Sales Ops Approved&quot;. Please reach out to Sales Ops. --></errorMessage>
+        <name>Only_Admins_Can_Move_to_SOA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No one may make changes to Deal Type or Vendor Status unless the Deal Type is Fulfillment (triggers will change vendor status to closed-won) --></errorMessage>
+        <name>Prevent_Changes_to_DT_and_VS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill out the Opportunity this Registration is related to. --></errorMessage>
+        <name>Require_Opportunity_Fill_Approved_Plus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RVPs or Bus Drivers must choose one of the following options below: 
+- Vendor Status = Approved and a Deal Type filled in (joint or incremental) 
+- Vendor Status = Denied and no Deal Type filled in --></errorMessage>
+        <name>Sales_Only_Move_to_Approved_or_Denied</name>
+    </validationRules>
+    <webLinks>
+        <label>Extend Expiration Date 90 Days</label>
+        <name>VartopiaDRS__Extend_Deal_Upto_30_Days</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Find_Duplicates --></label>
+        <name>VartopiaDRS__Find_Duplicates</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_To_Contact --></label>
+        <name>VartopiaDRS__Map_To_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_To_Customer --></label>
+        <name>VartopiaDRS__Map_To_Customer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_To_Lead --></label>
+        <name>VartopiaDRS__Map_To_Lead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_To_Opportunity --></label>
+        <name>VartopiaDRS__Map_To_Opportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Vartopia_Registration --></label>
+        <name>VartopiaDRS__View_Vartopia_Registration</name>
+    </webLinks>
+</CustomObjectTranslation>

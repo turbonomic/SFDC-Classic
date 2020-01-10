@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>06_17_2014 VMworld Sweepstakes.Email_use</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=}}, Enter the VMTurbo VMworld Sweepstakes! | Drawing This Friday | Win 2 Full Passes</subject>
+    <textOnly>Enter Today.
+Win on Friday.
+Go in August.
+
+Enter to Win Tickets to VMworld®:
+http://bit.ly/1krN3vc
+
+Win 2 Full Passes to VMworld® 2014 &lt;http://bit.ly/1krN3vc&gt;
+{{lead.First Name:default=}}:
+
+This is for real. If you don&apos;t believe us, ask last Friday&apos;s winner, Shaun Sparks &lt;http://bit.ly/1krN3vc&gt;.
+
+Every Friday until June 27th, VMTurbo is giving away two Full Conference Passes to VMworld® 2014 in San Francisco &lt;http://longwhiteclouds.com/2014/06/13/want-a-free-ticket-to-vmworld-usa-find-out-how/&gt;. The epicenter of all things virtual, VMworld® is our industry&apos;s biggest stage. We will be there, and we want you there too. Enter to win today, and let&apos;s Paint the Town Green.
+Enter to Win &lt;http://bit.ly/1krN3vc&gt;
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

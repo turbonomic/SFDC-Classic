@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Wbnr - Financial Services: The True Cost of Performance</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_Financial Services_Cold_Nurture.FinancialServices_Cold_Nurture_Ent</name>
+    <style>none</style>
+    <subject>Financial Services: The True Cost of App Performance [FREE Webcast]</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/turbonomic-webinar-series-best-practices-for-financial-services/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+
+In a highly competitive industry, it’s no wonder financial services organizations like yours are investing billions into complex IT systems to run their business – but how can you ensure that your organization is getting the most of your investments while also preventing downtime?
+
+ &lt;[[https://turbonomic.com/resources/turbonomic-webinar-series-best-practices-for-financial-services/]]&gt;
+
+
+
+
+
+
+By watching this webinar, you will uncover:
+
+
+	- Unique challenges facing financial services organizations
+
+	- Implications of current industry trends faced by FiServ IT teams
+
+	- How financial organizations can enhance, scale, and assure performance on cloud operations while maximizing on-prem investments with Turbonomic
+
+
+
+We hope you find this helpful!
+
+
+
+
+
+Regards,
+
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

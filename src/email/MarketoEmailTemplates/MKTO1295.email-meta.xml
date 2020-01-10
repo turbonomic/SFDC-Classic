@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_29_2015 Turbo Tip.October Tip</name>
+    <style>none</style>
+    <subject>Turbo Tip Of The Month</subject>
+    <textOnly>Hi {{lead.First Name:default=Valued Customer}},
+
+We wanted to share with you our &quot;VMTurbo Tip&quot; of the Month from our VMTurbo User Community (Sign Up &lt;https://greencircle.vmturbo.com/create-account.jspa&gt;, Forgot Password &lt;https://greencircle.vmturbo.com/emailPasswordToken!input.jspa&gt;, Forgot Username &lt;https://greencircle.vmturbo.com/forgot-username!input.jspa&gt;)
+This month&apos;s VMTurbo Tip is: How to generate a report.
+Check our reporting glossary &lt;https://greencircle.vmturbo.com/docs/DOC-1352&gt; on the Green Circle!
+Here you will find:
+
+
+ - Schedule delivery of recurring reports &lt;https://greencircle.vmturbo.com/docs/DOC-1783&gt;
+ - Create custom reports on the fly &lt;https://greencircle.vmturbo.com/docs/DOC-1785&gt;
+ - Insert custom SQL Reports &lt;https://greencircle.vmturbo.com/docs/DOC-1786&gt;
+ 
+
+For more customizable reports create a custom dashboard &lt;https://greencircle.vmturbo.com/message/2605#2605&gt;
+If you experience any issues please contact your Customer Experience Team &lt;mailto:cxteam@vmturbo.com&gt; and we can provide assistance
+Stay Green,
+Your Customer Experience Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

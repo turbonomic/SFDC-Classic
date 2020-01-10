@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic in NYC May 24th (1494864561.0)</name>
+    <style>none</style>
+    <subject>Turbonomic in NYC May 24th (1494864561.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Gary,I wanted to reach out because I will be in the area this Friday with a customer and wanted to see if you were available for a coffee/drink. I know you have talked to us in the past and timing was not ideal and since I am in the area I would love to connect and touch base, but figured why not offer you free food as incentive! Let me know what your schedule looks like, looking forward to hearing from you! Best,Katie                      Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

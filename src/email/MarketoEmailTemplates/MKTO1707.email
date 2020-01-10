@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<title>layout2</title>
+
+<style type="text/css">
+/* CSS Document */
+ f
+/*
+*Project:       MiniShow Responsive Email Template
+*Version:       1.0
+*Creat:         24/03/13 
+*Author:        digith 
+*Website:       http://themeforest.net/user/digith
+*/
+/* Client-specific Styles */
+#outlook a { padding:0; } /* Force Outlook to provide a "view in browser" button.
+ */
+body { width:100% !important; margin:0; padding:0; }
+.ReadMsgBody { width:100%; }
+.ExternalClass { width:100%; } /* Force Hotmail to display emails at full width */
+body { -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-webkit-font-smoothing: antialiased;} 
+.yshortcuts, .yshortcuts a, .yshortcuts a:link, .yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span { text-decoration: none !important; border-bottom: none !important; background: none !important; }
+/* Reset Margins and Paddings */
+h1, h2, h3,p{ margin-top:0 !important; margin-right:0 !important; margin-bottom:10px !important; margin-left:0 !important; }
+h4, h5, h6 { margin-top:0 !important; margin-right:0 !important; margin-bottom:0 !important; margin-left:0 !important; }
+table,table td{ border-collapse: collapse;}
+table[align=left]{border: none;mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+table[align=left] td{border: none;}
+img { border:0; display: block;-ms-interpolation-mode: bicubic;}
+.img-inline { display:inline; border:0; vertical-align:-2px;-moz-border-radius:0 !important;-webkit-border-radius:0 !important;border-radius:0 !important; }
+.BGtable { height:100% !important; margin:0; padding:0; width:100% !important; }
+@media only screen and (max-width: 640px) { img{height:auto;}
+/*------Table Size------*/
+/*no1-container*/
+table.w600                                                      { width:560px !important;}/*full*/       
+td.email-container,table.w600   { width:540px !important;}/*full-20px*/
+table.footer                                                    { width:520px !important;}/*full-40px-CON*/
+/*no2-TOTAL=Content(CON)*/
+table.w380                                                      { width:320px !important;}
+table.w370                                                      { width:310px !important;}
+table.sidebar                                           { width:200px !important;}
+table.w194,     table.w194f             { width:174px !important;}
+table.w192,     table.w192f             { width:172px !important;}/*3col*/
+table.w388                                                      { width:348px !important;}/*sidebar col*/
+table.w145                                                      { width:50% !important;}/*4col*/
+table.w290,     table.w290f             { width:50% !important;}/*2col*/
+/*no3-footer table*/
+table.footer-left                                       { width:65% !important;}
+table.footer-right                                      { width:35% !important;}
+/*-------img-size------*/
+/*no1 show-img*/
+img.wrap                        {width:560px !important;height:10px !important;}
+img.img-166h            {max-width:130px !important;}
+
+/*
+img.img-600,    img.img-560,    img.img-350,    img.img-180,            
+img.img-174,    img.img-270,    img.img-125     {width:100% !important;max-width:100% !important; }
+*/
+
+#content2 img, #content4 img, #content7 img, #content9 img, #content11 img { width:100% !important;max-width:100% !important; }
+
+
+/*no2 devider*/
+img.devider-img {width:540px !important;height:10px !important;}
+ }
+@media only screen and (max-width: 480px) {
+/*------Table Size------*/
+/*container*/
+table.w600                                                      { width:400px !important; }/*full*/      
+td.email-container,table.w600   { width:380px !important; }/*full-20px*/
+table.footer                                                    { width:360px !important;}/*full-40px-CON*/
+/*small table*/
+table.w380,     table.w370,     table.sidebar,  table.w192f,            table.w194f,    table.w388,     table.w290f             { width:100% !important;}
+table.w194,     table.w192,     table.w145,             table.w290
+                                                                                                                                { width:50% !important; }
+/*footer table*/
+table.footer-left,              table.footer-right              { width:100% !important;}
+table.footer-left td, table.footer-right td     {text-align:center !important;}
+table.footer-left td                                    { height:60px !important}
+table.footer-right td                           { height:40px !important}
+/*-------img-size------*/
+/*show-img*/
+img.wrap                        {width:400px !important;height:10px !important;}
+img.img-166h            {width:120px !important;}
+img.img-social  {height:30px !important;max-height:30px !important;width:auto !important;}                                              
+/*devider*/
+img.devider-img {width:380px !important;height:10px !important;}
+/*------hide and display------*/
+td.webonly,span.webonly,.webonly { display: none !important; }
+.sidebar-maincontent,.sidebar-maincontent-right{ padding:0 !important; }
+ }
+@media only screen and (max-width: 360px)  {
+/*------Table Size------*/
+/*container*/
+table.w600,td.w600                      { width:320px !important; }/*full*/      
+td.email-container,table.w600   { width:300px !important; }/*full-20px*/
+table.footer                                                    { width:280px !important;}/*full-40px-CON*/
+/*small table*/
+table.w194,     table.w192,     table.w145,     table.w290      
+                                                                                { width:100% !important; }
+/*-------img-size------*/
+/*show-img*/
+img.wrap                        {width:320px !important;height:10px !important;}
+img.img-166h            {width:100px !important; }
+/*devider*/
+img.devider-img {width:300px !important;height:10px !important;}
+ }
+ 
+@media only screen and (max-width: 320px) {
+/*------Table Size------*/
+/*container*/
+table.w600                                                      {width:300px !important; }/*full*/       
+td.email-container,table.w600   {width:280px !important; }/*full-20px*/
+table.footer                                                    {width:260px !important;}/*full-40px-CON*/
+/*-------img-size------*/
+/*show-img*/
+img.wrap                        {width:300px !important;height:10px !important;}
+img.img-166h            {width:80px  !important; }
+/*devider*/
+img.devider-img {width:280px !important;height:10px !important;}
+ }
+</style>
+</head>
+<body background="https://dl.dropboxusercontent.com/u/180082968/bg2.gif" style="-ms-text-size-adjust:100%; font-size:13px; font-weight:400; margin:0; -webkit-text-size-adjust:100%; background-color:#dedede; background-repeat:repeat; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:0; background-image:url(https://dl.dropboxusercontent.com/u/180082968/bg2.gif); -webkit-font-smoothing:antialiased; width:100% !important; " bgcolor="#DEDEDE" ><table width="100%" border="0" cellpadding="0" cellspacing="0" class="BGtable" background="https://dl.dropboxusercontent.com/u/180082968/bg2.gif" style="font-size:13px; font-weight:400; margin:0; border-collapse:collapse; background-color:#dedede; background-repeat:repeat; padding:0; background-image:url(https://dl.dropboxusercontent.com/u/180082968/bg2.gif); font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; height:100% !important; width:100% !important; " bgcolor="#DEDEDE" ><tr ><td style="font-weight:400; font-size:13px; border-collapse:collapse; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; " ><table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="w600" style="border-collapse:collapse; " ><tr ><td style="font-weight:400; font-size:13px; border-collapse:collapse; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; " ><table width="600" border="0" cellspacing="0" cellpadding="0" class="w600" style="border-collapse:collapse; " ><tr ><td width="5" valign="top" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="5" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#D1D1D1" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#C1C1C1" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#BDBDBD" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#A8A8A8" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#00133E" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="600" valign="top" class="email-container" style="font-size:13px; font-weight:400; border-collapse:collapse; background-color:#fff; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; line-height:18px; color:#00133e; " bgcolor="#fff" ><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="dark-module" style="border-collapse:collapse; background-color:#00133E; " bgcolor="#00133E" ><tr ><td id="content1" class="mktEditable" height="110" align="center" valign="middle" style="border-collapse:collapse; color:#00133e; " ><a href="http://vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814"><img style="border: 0; display: block; border-radius: 4px;" src="http://go.vmturbo.com/rs/vmturbo/images/TurboTickerbanner - November.png" border="0" alt="tulong" hspace="0" vspace="0"></a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="w600" style="border-collapse:collapse; " ><tr ><td style="border-collapse:collapse; " ><div id="content2" class="mktEditable" ><a style="outline: none; text-decoration: none; color: #e84d5c;" href="http://vmturbo.com/5_0-release-webinar/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814"><img class="img-600" style="width: 100%; max-width: 600px; border: 0; display: block;" src="http://go.vmturbo.com/rs/vmturbo/images/turboticker_nov_5.0" border="0" alt="VMT 5.0" hspace="0" vspace="0" width="650" height="340"></a></div>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; " ><tr ><td valign="top" class="general-td" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:10px 10px 0; " ><table width="191" border="0" align="left" cellpadding="0" cellspacing="0" class="w192f" style="border-collapse:collapse; border:none; mso-table-rspace:0pt; mso-table-lspace:0pt; " ><tr ><td valign="top" id="content3" class="col3-mid-img-td align-td h3 mktEditable" style="font-weight:bold; font-size:18px; text-shadow:0 2px 1px #d1d1d1; border-collapse:collapse; padding:10px 9px; border:none; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#252525; mso-border-right-alt:solid #fff .5pt; " >Biggest Release Since Founding</td>
+</tr>
+<tr ><td align="center" valign="top" class="col3-mid-img-td align-td" style="border-collapse:collapse; padding:10px 9px; border:none; color:#00133e; mso-border-right-alt:solid #fff .5pt; " ><div id="content4" class="mktEditable" ><a href="http://vmturbo.com/35000-decisions?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814"><img class="img-174" style="max-width: 174px; border: 0; display: block; border-radius: 4px;" src="http://go.vmturbo.com/rs/vmturbo/images/5_0_drone.png" alt="Phantom Drone" width="165" height="110"></a></div>
+</td>
+</tr>
+</table>
+<table width="388" border="0" cellpadding="0" cellspacing="0" class="w388" style="border-collapse:collapse; " ><tr ><td valign="top" id="content5" class="general-img-td mktEditable" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:10px; " ><p style="font-size: 13px; font-weight: 400; margin: 0 0 10px; font-family: Tahoma,'Helvetica Neue',Arial,sans-serif; color: #00133e;">VMTurbo 5.0 marks the biggest release since the founding of VMTurbo in 2009. This latest version, released November 12, features five new Control Modules, extending VMTurbo-owners' control to Network, Hybrid Cloud, VDI, Applications, and Containers.</p>
+<p class="last" style="font-size: 13px; font-weight: 400; margin: 0 0 10px; font-family: Tahoma,'Helvetica Neue',Arial,sans-serif; color: #00133e;">As a celebration of this release, VMTurbo is giving away a Phantom 2 Vision+ Drone every month until February to all who <a href="http://vmturbo.com/35000-decisions?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814">take VMTurbo 5.0 for a 30-Day test drive</a>.</p></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="10" align="center" class="footer-devider" style="font-size: 1px !important; -webkit-text-size-adjust: none; border-collapse: collapse; line-height: 1px !important;color: #00133e;"><img src="https://dl.dropboxusercontent.com/u/180082968/footer-devider2.gif" alt="" width="600" height="10" class="devider-img" vspace="0" hspace="0" border="0" style="border: 0; -ms-interpolation-mode: bicubic; display: block;"></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; " ><tr ><td class="general-td" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:10px 10px 0; " ><table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; " ><tr ><td valign="top" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; " ><table width="387" border="0" align="left" cellpadding="0" cellspacing="0" class="w388" style="border-collapse:collapse; border:none; mso-table-rspace:0pt; mso-table-lspace:0pt; " ><tr ><td class="general-img-td align-td" style="font-weight:400; font-size:13px; border-collapse:collapse; padding:10px; border:none; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; mso-border-right-alt:solid #fff .5pt; " ><div id="content6" class="mktEditable" ><h3 class="h3" style="text-shadow: 0 2px 1px #d1d1d1; font-size: 18px; font-weight: bold; margin: 0 0 10px; line-height: 20px; color: #252525;">Video: <a href="http://vmturbo.com/product?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814">How VMTurbo 5.0 Works</a></h3>
+<p>"Minimal configuration, no workflow scripting, no alerts. It just works, right out of the box." How does VMTurbo's decision engine drive environments to their healthiest state, right from the beginning? Watch this 3-minute video to learn how VMTurbo does it.</p></div>
+</td>
+</tr>
+</table>
+<table width="192" border="0" cellpadding="0" cellspacing="0" class="w192f" style="border-collapse:collapse; " ><tr ><td align="center" valign="top" class="col3-mid-img-td" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:10px 9px; " ><div id="content7" class="mktEditable" ><a href="http://vmturbo.com/product?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814"><img class="img-174" style="max-width: 174px; border: 0; display: block; border-radius: 4px;" src="http://go.vmturbo.com/rs/vmturbo/images/5_0_video.png" border="0" alt="5.0 Market" hspace="0" vspace="0" width="175" height="115"></a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td valign="top" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; " ><table width="387" border="0" align="left" cellpadding="0" cellspacing="0" class="w388" style="border-collapse:collapse; border:none; mso-table-rspace:0pt; mso-table-lspace:0pt; " ><tr ><td class="general-img-td align-td" style="font-weight:400; font-size:13px; border-collapse:collapse; padding:10px; border:none; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; mso-border-right-alt:solid #fff .5pt; " ><div id="content8" class="mktEditable" ><h3 class="h3" style="text-shadow: 0 2px 1px #d1d1d1; font-size: 18px; font-weight: bold; margin: 0 0 10px; line-height: 20px; color: #252525;">Whitepaper: <a href="http://vmturbo.com/network-flow-and-application-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814">Network Flow &amp; Application Performance</a></h3>
+<p>n-Tier application architecture offers many undeniable benefits. However, the proliferation of this architecture - enabled by virtualization - has yielded a boom in East-West network traffic. Learn how to minimize the latency created by this phenomenon and more in this brand new whitepaper.<br /><br /></p></div>
+</td>
+</tr>
+</table>
+<table width="192" border="0" cellpadding="0" cellspacing="0" class="w192f" style="border-collapse:collapse; " ><tr ><td align="center" valign="top" class="col3-mid-img-td" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:10px 9px; " ><div id="content9" class="mktEditable" ><a href="http://vmturbo.com/network-flow-and-application-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814"><img class="img-174" style="max-width: 174px; border: 0; display: block; border-radius: 4px;" src="http://cdn.vmturbo.com/wp-content/uploads/2014/11/Network-Control-Module-2b-300x151.png" border="0" alt="Net Flow" hspace="0" vspace="0" width="175" height="88"></a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td valign="top" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; " ><table width="387" border="0" align="left" cellpadding="0" cellspacing="0" class="w388" style="border-collapse:collapse; border:none; mso-table-rspace:0pt; mso-table-lspace:0pt; " ><tr ><td class="general-img-td align-td" style="font-weight:400; font-size:13px; border-collapse:collapse; padding:10px; border:none; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; mso-border-right-alt:solid #fff .5pt; " ><div id="content10" class="mktEditable" ><h3 class="h3" style="text-shadow: 0 2px 1px #d1d1d1; font-size: 18px; font-weight: bold; margin: 0 0 10px; line-height: 20px; color: #252525;"><span style="color: #252525;"><span style="font-size: 17.7777786254883px; line-height: 20px;">Blog: <a href="http://vmturbo.com/blog/bane-software-defined-universe-software-defined-latency?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickernov&amp;utm_content=111814">Software-Defined Latency</a></span></span></h3>
+<h3 class="h3" style="text-shadow: 0 2px 1px #d1d1d1; font-size: 18px; font-weight: bold; margin: 0 0 10px; line-height: 20px; color: #252525;"><span style="color: #00133e; font-size: 13.3333339691162px; font-weight: normal; line-height: 18px;">As the world continues its pivot from hardware definition to software definition, the bane of the SDDC - Latency - rears its ugly head. How do we slay latency?</span></h3></div>
+</td>
+</tr>
+</table>
+<table width="192" border="0" cellpadding="0" cellspacing="0" class="w192f" style="border-collapse:collapse; " ><tr ><td align="center" valign="top" class="col3-mid-img-td" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:10px 9px; " ><div id="content11" class="mktEditable" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="10" align="center" class="footer-devider" style="font-size: 1px !important; -webkit-text-size-adjust: none; border-collapse: collapse; line-height: 1px !important;color: #00133e;"><img src="https://dl.dropboxusercontent.com/u/180082968/footer-devider2.gif" alt="" width="600" height="10" class="devider-img" vspace="0" hspace="0" border="0" style="border: 0; -ms-interpolation-mode: bicubic; display: block;"></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="dark-module" style="border-collapse:collapse; background-color:#00133E; " bgcolor="#00133E" ><tr ><td height="20" class="last-module" style="font-weight:400; font-size:13px; border-collapse:collapse; line-height:18px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#00133e; padding:10px; " ><table width="100%" border="0" cellpadding="0" cellspacing="0" class="footer" style="border-collapse:collapse; line-height:18px; " ><tr ><td align="left" valign="middle" class="general-td" style="font-weight:400; font-size:11px; -webkit-text-size-adjust:none; border-collapse:collapse; line-height:16px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#444; padding:10px 10px 0; " ><table width="329" border="0" align="left" cellpadding="0" cellspacing="0" class="footer-left" style="border-collapse:collapse; border:none; mso-table-rspace:0pt; mso-table-lspace:0pt; " ><tr ><td height="60" align="left" valign="middle" id="content12" class="h6 mktEditable" style="font-size:11px; font-weight:normal !important; border:none; -webkit-text-size-adjust:none; text-transform:uppercase; border-collapse:collapse; line-height:16px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#d3d3d3 !important; text-align:left; mso-border-right-alt:solid #00133E .5pt; " ></td>
+</tr>
+</table>
+<table width="230" border="0" cellpadding="0" cellspacing="0" class="footer-right" style="border-collapse:collapse; " ><tr ><td id="content13" class="mktEditable" height="60" valign="middle" style="font-weight:400; font-size:11px; -webkit-text-size-adjust:none; border-collapse:collapse; line-height:16px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#444; text-align:right; " align="right" ></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="1" valign="top" bgcolor="#00133E" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#A8A8A8" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#BDBDBD" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#C1C1C1" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="1" valign="top" bgcolor="#D1D1D1" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="1" height="40" border="0" style="border: 0; display: block;"></td>
+<td width="5" valign="top" style="border-collapse: collapse;"><img src="https://dl.dropboxusercontent.com/u/180082968/spacer2.gif" width="5" height="40" border="0" style="border: 0; display: block;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="small-img" style="font-size: 1px !important; -webkit-text-size-adjust: none; border-collapse: collapse; line-height: 1px !important;color: #00133e;"><img src="https://dl.dropboxusercontent.com/u/180082968/container-bottom2.gif" alt="" width="600" height="10" hspace="0" vspace="0" border="0" class="wrap" style="border: 0; -ms-interpolation-mode: bicubic; display: block;"></td>
+</tr>
+</table>
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="footer" style="border-collapse:collapse; line-height:18px; " ><tr ><td height="20" align="center" id="content14" class="footer-td mktEditable" style="font-weight:400; font-size:11px; -webkit-text-size-adjust:none; border-collapse:collapse; line-height:16px; font-family:Tahoma,'Helvetica Neue',Arial,sans-serif; color:#444; padding:10px 10px 20px; " ><span class="footer-title" style="font-weight: normal !important; font-size: 10px; -webkit-text-size-adjust: none; text-transform: uppercase; line-height: 16px; color: #222;">500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087</span><br>
+<span class="h6" style="font-weight: normal !important; font-size: 10px; -webkit-text-size-adjust: none; text-transform: uppercase; line-height: 16px; color: #252525;"><a href="http://go.vmturbo.com/contact-us.html?utm_source=vmturbo&utm_medium=email&utm_campaign=ticker" target="_blank" style="outline: none; text-decoration: none; color: #7c74e1 !important;">contacts</a> | <a href="http://www.vmturbo.com?utm_source=vmturbo&utm_medium=email&utm_campaign=ticker" style="outline: none; text-decoration: none; color: #7c74e1 !important;">website</a> | <a href="http://www.vmturbo.com/privacy-policy?utm_source=vmturbo&utm_medium=email&utm_campaign=ticker" target="_blank" style="outline: none; text-decoration: none; color: #7c74e1 !important;">privacy policy</a> | <a href="{{system.forwardToFriendLink:default=edit%20me}}" style="outline: none; text-decoration: none; color: #7c74e1 !important;">forward</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

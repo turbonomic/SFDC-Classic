@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMEA_Tier3_Enterprise_Cold_EB.EMEA_Tier3_Enterprise_Cold_EB_Nurture_Email8</name>
+    <style>none</style>
+    <subject>Assure Application Performance with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+At Turbonomic, our mission is to deliver a software platform that continuously and automatically maintains the health of workloads, at scale, wherever they&apos;re deployed.
+
+Based on your profile, we think you are an excellent fit to see a demo of our software.
+
+You can sign up here &lt;[[https://turbonomic.com/request-a-demo/]]&gt; or simply reply to this email, and we&apos;ll schedule a call.
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

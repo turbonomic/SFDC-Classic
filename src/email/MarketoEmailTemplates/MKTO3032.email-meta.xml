@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-08-31 GSX Follow-Up Email.sendwbanner</name>
+    <style>none</style>
+    <subject>Working hard after GSX? Let the self-managing data center help.</subject>
+    <textOnly>&lt;[[https://www.youtube.com/watch?time_continue=1&amp;v=mKZPzX94eGI]]&gt;
+Hi {{Lead.First Name}},
+Great seeing you at GSX! We hope you are excited to bring Turbonomic (a.k.a. Cisco Workload Optimization Manager) to your customers. The Turbonomic team is thrilled to be working with Cisco and dedicated to enabling your success. With that, check out the Workload Optimization Manager Sales Briefcase for great resources to help you sell.
+ &lt;[[https://salesconnect.cisco.com/c/r/salesconnect/index.html#/briefcase-details/P05188042]]&gt;
+
+
+Like funny videos with robots? Check out this blog for a great video on why customers want self-managing data centers &lt;[[https://blogs.cisco.com/datacenter/real-time-optimization-ensures-workload-performance]]&gt;.
+Stay tuned, there’s more to come! We are dedicated to transforming data center and hybrid cloud management—and we look forward to working together with you to do that.
+ 
+Best,
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

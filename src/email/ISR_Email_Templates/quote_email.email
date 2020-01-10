@@ -1,0 +1,11 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Contact.FirstName},<br /><br />
+
+Attached to this email is the quote you have requested plus the corresponding EULA. If you have any questions I am happy to clarify the details. We are excited to have your organization leverage VMTurbo's groundbreaking technology to achieve the goals we've discussed with you.<br /><br />
+Please don't hesitate to let me know how else I can be of assistance.<br /><br />
+
+
+Best regards,<br /><br />
+
+{!User.FirstName} {!User.LastName} <br />
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br/ >
+<a href="http://tiny.cc/4kmu4">Top 10 Reasons to Choose VMTurbo</a> <br />

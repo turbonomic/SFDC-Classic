@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>02_2014 One Click Res..Email</name>
+    <style>none</style>
+    <subject>One-click resolution of alerts</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Does resolving VMWare or Hyper-V alerts feel like playing whac-a-mole...you resolve one issue, only to create another one? What if you could turn all your badges green with one click? 
+
+
+Get VMTurbo&apos;s free trial http://bit.ly/1bOYHuF. You&apos;ll be deployed in 30 minutes, and we&apos;ll give you the specific actions to resolve performance degradations in your environment.
+How is this possible? We&apos;ve eliminated unintended consequences. Read our list of best practices for managing complex virtual environments &lt;http://bit.ly/1bOYUy3&gt;.
+
+
+Sincerely,
+ VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

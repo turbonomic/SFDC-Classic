@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-08 Partner Promo Email 3.ES-2018-05-08 Partner Promo Email 3</name>
+    <style>none</style>
+    <subject>Harness the Disruption with New Turbonomic Partner Program</subject>
+    <textOnly>&lt;[[https://www.webcaster4.com/Webcast/Page/1848/25145]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Disruption starts with innovation, and it starts with you, Our Partners.
+
+Turbonomic is disrupting the Cloud space with AI-driven workload automation technology that recommends where to place workloads (application, containers, VMs, etc.) to ensure they get the exact resources needed, at the right time – assuring performance, lowering cost and maintaining compliance.
+
+Our unique solution is helping partners, worldwide, capitalize on the digital transformation and Cloud space.
+
+Join us on Tuesday, May 15, 2018 at 1:00pm ET to learn how you can be at the heart of this disruption while increasing your profitability with new program incentives and benefits. In this session, you’ll learn more about our:
+
+
+	- 
+NEW! Partner Program Paths 
+
+	- NEW! Competitive Discounts &amp; Incentives
+
+	- NEW! Tools &amp; Resources
+
+	- NEW! Sales, Technical &amp; Post-Sales Partner Accreditations
+
+	- NEW! Market Development Funds (MDF) Program 
+
+	- NEW! Marketing Campaigns
+
+
+
+ &lt;[[https://www.webcaster4.com/Webcast/Page/1848/25145]]&gt;
+
+
+Don&apos;t miss your chance to be a part of the disruption!
+
+If you have any questions, feel free to reach out to Channel@Turbonomic.com &lt;[[mailto:Channel@Turbonomic.com]]&gt;.
+
+Regards,
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

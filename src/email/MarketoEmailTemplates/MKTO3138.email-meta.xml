@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic Exclusive VMWorld Europe Promotion! (1506360377.0)</name>
+    <style>none</style>
+    <subject>Turbonomic Exclusive VMWorld Europe Promotion! (1506360377.0)</subject>
+    <textOnly>Dear {{Lead.First Name}}, It was great seeing you at VMworld. I wanted to let you know that Turbonomic is running an exclusive 2-month promotion for the VMworld attendees who came by our booth.We’d love to offer you the opportunity to take Turbonomic on an extended test run in your virtual environment, and give you access to our FULL product for 60-Days for free! Take of advantage of this EXCLUSIVE Promo TODAY – Click HERE &lt;[[https://turbonomic.com/vmworld-emea-promotion/]]&gt; and someone on our team will be in contact soon.We look forward to working with you!Regards,Bert Chapman              Business Development | www.turbonomic.com &lt;[[http://t.sidekickopen06.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg7fsMfsVf6rcs7fcnh-W3Mqkws56dCyqf5Yh5Ys02?t=http%3A%2F%2Fwww.turbonomic.com&amp;si=6362405433245696&amp;pi=d19bfa17-ed30-41d7-a72d-472f7c69d821]]&gt;   Office: 01189 671546 | Mobile: +44 7889296620 The Pinnacle, 20 Tudor Rd, Reading RG1 1NH, UK      &lt;[[https://www.youtube.com/user/myTurbonomicTV]]&gt; &lt;[[https://www.linkedin.com/company/turbonomic]]&gt; &lt;[[https://www.twitter.com/turbonomic]]&gt; &lt;[[https://www.facebook.com/turbonomic]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

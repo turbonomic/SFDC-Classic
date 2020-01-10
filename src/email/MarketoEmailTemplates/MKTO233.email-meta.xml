@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6_27_2013 Data Storage inhouse mailing.Email</name>
+    <style>none</style>
+    <subject>Complimentary Whitepaper: Aligning Virtualization and Storage Management</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+VMTurbo has just released a whitepaper that contains insights on how to address the most critical challenge IT leaders face when trying to deliver application performance--how to manage resource contention in the underlying storage infrastructure.
+
+Click here &lt;http://bit.ly/15FfdpS&gt; to download this complimentary white paper and learn how to :
+
+
+ - Reduce ongoing storage infrastructure costs by 20-30%
+ - Significantly reduce operational costs by preventing complex storage problems  and their impact on workloads, and, in turn, on end users 
+ - Ensure application performance and reduce risk 
+ - Enable IO-intensive applications to be virtualized reliably, bringing down the  overall cost to deliver compute services to the business and customers 
+
+
+
+Want some quick facts first? Check out our infographic &lt;http://bit.ly/12iOcfA&gt;.
+ 
+Best regards,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

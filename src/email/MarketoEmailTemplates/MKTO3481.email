@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;">
+<div>
+<span style="font-size: 12px;">Dear {{lead.First Name:default=Friend}},</span>
+</div> 
+<div>
+<span style="font-size: 12px;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;">I hope this email finds you well. </span></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">&nbsp;Data center and cloud advancements are happening at an unprecedented rate. That means more decisions will have to be made, requiring a broader set of skills to keep your workloads healthy. While you can't automate people, you can automate workloads, and accelerate business growth.</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I'm looking forward to hosting an event in your region on Tuesday, March 6<sup>th&nbsp;</sup>2018, the <a href="https://turbonomic.com/exec-district/" target="_blank" id="">Washington DC Executive Networking Series: Workload Automation for Your Hybrid Cloud</a>, to discuss these advancements with CIO's, Executives, and leaders from organizations like yours. Together we will learn about the adoption of workload automation at the scale of hybrid cloud.</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">&nbsp;</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">Following our cocktail hour and presentation, we'll take our seats in the Turbonomic Suite for the evening to watch All-Star Bradley Beal and the Washington Wizards take on Dwayne Wade and the Miami Heat.</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">Will I see you there?&nbsp;</span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">As seats are filling up fast, I do ask that you please <strong><a href="https://turbonomic.com/exec-district/" target="_blank">register here</a>&nbsp;</strong>as soon as possible.<br /></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,</span>
+</div> 
+<div>
+<span style="font-size: 12px;">Ben</span>
+</div> 
+<p><a href="https://turbonomic.com/learn-phoenix" target="_blank"><span style="font-size: 12px;"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/ben-nye.png" alt="ben-nye.png" height="80" width="80" /></span></a></p> 
+<p><span style="font-size: 12px;"><em>Ben Nye<br /></em></span><span style="font-size: 12px;"><em>Chief&nbsp;Executive&nbsp;Officer<br />Turbonomic, Inc.</em></span></p> 
+<p><br /></p>
+</div>  
+</body>
+</html>

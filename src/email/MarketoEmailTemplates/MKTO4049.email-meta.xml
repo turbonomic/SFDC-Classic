@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-09-12 Resizing Webinar.ES-2018-09-11 PKS Live Demo Invite 2 - September</name>
+    <style>none</style>
+    <subject>[You&apos;re Invited, {{lead.First Name:default=}}] Discover Automated Resizing in VSphere, Azure, and AWS</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/resizing/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+With endless configuration options for your hundreds or even thousands of workloads, how can you choose what&apos;s right for your business without overspending? Join our Director of Technical Marketing, Eric Wright, and Product Marketer, Maggie Schroeder, as they walk through the do&apos;s and don&apos;ts of resizing on September 12, 2018, at 11 am ET &lt;[[https://turbonomic.com/resources/resizing/]]&gt;. 
+
+
+ &lt;[[https://turbonomic.com/resources/resizing/]]&gt;
+
+In this live webinar, you will learn why it is necessary to trust automation to implement sizing changes and how to quickly set up compute, storage, and database resizing automation in VSphere, Azure, and AWS.
+I hope to see you there!
+
+
+
+
+Regards,
+Megan
+
+
+
+
+
+PS - If you can&apos;t join the live webinar, feel free to sign up anyways &lt;[[https://turbonomic.com/resources/resizing/]]&gt;, and we&apos;ll send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

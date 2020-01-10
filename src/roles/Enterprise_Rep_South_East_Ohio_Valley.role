@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>Sales Rep _US Ent Central 2</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>US Enterprise Rep - Central 2</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Bus_Driver_Enterprise_South_East_Ohio_Valley</parentRole>
+</Role>

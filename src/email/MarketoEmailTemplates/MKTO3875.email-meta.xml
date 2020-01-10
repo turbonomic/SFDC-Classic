@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-07-18-RD-Sponsored-Phoenix.ES-2018-07-11 Phoenix Invite 2.Invite</name>
+    <style>none</style>
+    <subject>Join Former Verizon &amp; EMC CIO for Dinner - July 18</subject>
+    <textOnly>&lt;[[https://www.eventbrite.com/e/phoenix-it-networking-dinner-tickets-45998837762]]&gt;
+Hi {{lead.First Name:default=there}},
+
+It’s no secret that our industry is experiencing a tectonic shift – businesses are being asked to do more with less, become more agile, more resilient, more innovative. It is this environment in which Vic Bhagat has lead IT revolutions at Fortune 500 companies, including Verizon, EMC, and GE - adapting and maturing their strategies and processes to meet the needs of their customers and employees.
+ 
+We’d like to invite you to join Vic and your fellow IT leaders from companies like PetSmart, First Data and Arizona State University for dinner on Wednesday, July 18th at Fat Ox &lt;[[https://www.eventbrite.com/e/phoenix-it-networking-dinner-tickets-45998837762]]&gt; – and we have a special message from Vic himself.
+
+
+ &lt;[[https://vmturbo.wistia.com/medias/4sknh9an91]]&gt;
+RSVP to reserve your spot today &lt;[[https://www.eventbrite.com/e/phoenix-it-networking-dinner-tickets-45998837762]]&gt;.
+ 
+
+
+Sincerely,
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

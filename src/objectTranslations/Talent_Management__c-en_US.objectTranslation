@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Talent Management</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Talent Management</value>
+    </caseValues>
+    <fields>
+        <label><!-- BIP Role-Play Assessment Completed --></label>
+        <name>BIP_Role_Play_Assessment_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- BIP Role-Play Assessment Score --></label>
+        <name>BIP_Role_Play_Assessment_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHAMP Practical Exam Completed --></label>
+        <name>CHAMP_Practical_Exam_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHAMP Practical Exam Result --></label>
+        <name>CHAMP_Practical_Exam_Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass with Honors</masterLabel>
+            <translation><!-- Pass with Honors --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CHAMP Written Exam Completed --></label>
+        <name>CHAMP_Written_Exam_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHAMP Written Exam Result --></label>
+        <name>CHAMP_Written_Exam_Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass with Honors</masterLabel>
+            <translation><!-- Pass with Honors --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Call with Manager (1) --></label>
+        <name>Call_with_Manager_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call with Manager (2) --></label>
+        <name>Call_with_Manager_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call with Manager and SE (1) --></label>
+        <name>Call_with_Manager_and_SE_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call with SDR and SDM (1) --></label>
+        <name>Call_with_SDR_and_SDM_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call with SDR and SDM (2) --></label>
+        <name>Call_with_SDR_and_SDM_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cold Call Role-Play Assessment Completed --></label>
+        <name>Cold_Call_Role_Play_Assessment_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cold Call Role-Play Assessment Score --></label>
+        <name>Cold_Call_Role_Play_Assessment_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cold Call Role-Play Assessor --></label>
+        <name>Cold_Call_Role_Play_Assessor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cold Calling (1) --></label>
+        <name>Cold_Calling_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cold Calling (2) --></label>
+        <name>Cold_Calling_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current User Salesforce Metric # --></label>
+        <name>Current_User_Salesforce_Metric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivering the Demo Completed --></label>
+        <name>Delivering_the_Demo_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivering the Demo Score --></label>
+        <name>Delivering_the_Demo_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Development Guide Review Completed By --></label>
+        <name>Development_Guide_Review_Completed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Development Guide Review Completed --></label>
+        <name>Development_Guide_Review_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Development Guide Review Score --></label>
+        <name>Development_Guide_Review_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executive Ride-Along (1) --></label>
+        <name>Executive_Ride_Along_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executive Ride-Along (2) --></label>
+        <name>Executive_Ride_Along_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Call Role-Play Assessment Complete --></label>
+        <name>First_Call_Role_Play_Assessment_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Call Role-Play Assessment Score --></label>
+        <name>First_Call_Role_Play_Assessment_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Evaluation - BIP Delivery (1) --></label>
+        <name>Manager_Evaluation_BIP_Delivery_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Evaluation - BIP Delivery (2) --></label>
+        <name>Manager_Evaluation_BIP_Delivery_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Evaluation - First Call (1) --></label>
+        <name>Manager_Evaluation_First_Call_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Evaluation - First Call (2) --></label>
+        <name>Manager_Evaluation_First_Call_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Evaluation - First Call (3) --></label>
+        <name>Manager_Evaluation_First_Call_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Charles Crouchman --></label>
+        <name>Meet_with_Charles_Crouchman__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Customer Experience Manager --></label>
+        <name>Meet_with_Customer_Experience_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Enterprise/Commercial AE --></label>
+        <name>Meet_with_Enterprise_Commercial_AE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Eric Fischer --></label>
+        <name>Meet_with_Eric_Fischer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date check for meeting with manager on first day --></help>
+        <label><!-- Meet with Manager (Beginning of Week) --></label>
+        <name>Meet_with_Manager_Beginning_of_Week__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date check to ensure manager meets with employee at the end of first week --></help>
+        <label><!-- Meet with Manager (End of Week) --></label>
+        <name>Meet_with_Manager_End_of_Week__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Partner Manager --></label>
+        <name>Meet_with_Partner_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Sales Development Manager --></label>
+        <name>Meet_with_Sales_Development_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Sales Development Rep --></label>
+        <name>Meet_with_Sales_Development_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Sales Engineer --></label>
+        <name>Meet_with_Sales_Engineer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet with Shmuel Kliger (The Why) --></label>
+        <name>Meet_with_Shmuel_Kliger_The_Why__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting with SDM and SDR (3) --></label>
+        <name>Meeting_with_SDM_and_SDR_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Start Date --></label>
+        <name>Original_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Work Exam Score --></label>
+        <name>Pre_Work_Exam_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present VMTurbo Pitch Deck Completed --></label>
+        <name>Present_VMTurbo_Pitch_Deck_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present VMTurbo Pitch Deck Score --></label>
+        <name>Present_VMTurbo_Pitch_Deck_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 1 Completed By --></label>
+        <name>SDM_Cold_Call_Observation_1_Completed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 1 Completed --></label>
+        <name>SDM_Cold_Call_Observation_1_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 2 Completed By --></label>
+        <name>SDM_Cold_Call_Observation_2_Completed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 2 Completed --></label>
+        <name>SDM_Cold_Call_Observation_2_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 3 Completed By --></label>
+        <name>SDM_Cold_Call_Observation_3_Completed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 3 Completed --></label>
+        <name>SDM_Cold_Call_Observation_3_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 4 Completed By --></label>
+        <name>SDM_Cold_Call_Observation_4_Completed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDM Cold Call Observation 4 Completed --></label>
+        <name>SDM_Cold_Call_Observation_4_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Navigator Setup &amp; Profile Update --></label>
+        <name>Sales_Navigator_Setup_Profile_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow BIP Delivery (1) --></label>
+        <name>Shadow_BIP_Delivery_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow BIP Delivery (2) --></label>
+        <name>Shadow_BIP_Delivery_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow BIP Delivery (3) --></label>
+        <name>Shadow_BIP_Delivery_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow BIP Delivery (4) --></label>
+        <name>Shadow_BIP_Delivery_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Closing Call (1) --></label>
+        <name>Shadow_Closing_Call_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Closing Call (2) --></label>
+        <name>Shadow_Closing_Call_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Closing Call (3) --></label>
+        <name>Shadow_Closing_Call_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Closing Call (4) --></label>
+        <name>Shadow_Closing_Call_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow First Call/Initial Demo (1) --></label>
+        <name>Shadow_First_Call_Initial_Demo_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow First Call/Initial Demo (2) --></label>
+        <name>Shadow_First_Call_Initial_Demo_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow First Call/Initial Demo (3) --></label>
+        <name>Shadow_First_Call_Initial_Demo_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow First Call/Initial Demo (4) --></label>
+        <name>Shadow_First_Call_Initial_Demo_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Impact Statements Completed With --></label>
+        <name>Shadow_Impact_Statements_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Impact Statements Completed --></label>
+        <name>Shadow_Impact_Statements_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Install Review (1) --></label>
+        <name>Shadow_Install_Review_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Install Review (2) --></label>
+        <name>Shadow_Install_Review_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Objection Handling Completed With --></label>
+        <name>Shadow_Objection_Handling_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Objection Handling Completed --></label>
+        <name>Shadow_Objection_Handling_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Qualification Completed With --></label>
+        <name>Shadow_Qualification_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Qualification Completed --></label>
+        <name>Shadow_Qualification_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling 1 Completed With --></label>
+        <name>Shadow_SDR_Cold_Calling_1_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling (1) --></label>
+        <name>Shadow_SDR_Cold_Calling_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling 2 Completed With --></label>
+        <name>Shadow_SDR_Cold_Calling_2_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling (2) --></label>
+        <name>Shadow_SDR_Cold_Calling_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling 3 Completed With --></label>
+        <name>Shadow_SDR_Cold_Calling_3_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling (3) --></label>
+        <name>Shadow_SDR_Cold_Calling_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling 4 Completed With --></label>
+        <name>Shadow_SDR_Cold_Calling_4_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow SDR Cold Calling (4) --></label>
+        <name>Shadow_SDR_Cold_Calling_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Sourcing 1 Completed With --></label>
+        <name>Shadow_Sourcing_1_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Sourcing 1 Date Completed --></label>
+        <name>Shadow_Sourcing_1_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Sourcing 1 Score --></label>
+        <name>Shadow_Sourcing_1_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Sourcing 2 Completed With --></label>
+        <name>Shadow_Sourcing_2_Completed_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Sourcing 2 Date Completed --></label>
+        <name>Shadow_Sourcing_2_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shadow Sourcing 2 Score --></label>
+        <name>Shadow_Sourcing_2_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shark Tank Presentation Completed --></label>
+        <name>Shark_Tank_Presentation_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shark Tank Presentation Score --></label>
+        <name>Shark_Tank_Presentation_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sourced Accounts Review Completed --></label>
+        <name>Sourced_Accounts_Review_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sourced Accounts Review Score --></label>
+        <name>Sourced_Accounts_Review_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tenure in Role --></label>
+        <name>Tenure_in_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Role --></label>
+        <name>User_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Safe ID --></label>
+        <name>User_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Team --></label>
+        <name>User_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- VMTurbo Case Study Date Completed --></label>
+        <name>VMTurbo_Case_Study_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- VMTurbo Case Study Score --></label>
+        <name>VMTurbo_Case_Study_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- VMTurbo Pitch Completed --></label>
+        <name>VMTurbo_Pitch_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- VMTurbo Pitch Score --></label>
+        <name>VMTurbo_Pitch_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Virtualization Analogy Date Completed --></label>
+        <name>Virtualization_Analogy_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Virtualization Analogy Score --></label>
+        <name>Virtualization_Analogy_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 1 Exam Completed --></label>
+        <name>Week_1_Exam_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 1 Exam Score --></label>
+        <name>Week_1_Exam_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 1 Live Trainings --></label>
+        <name>Week_1_Live_Trainings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 1 One-on-One Meeting --></label>
+        <name>Week_1_One_on_One_Meeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 2 One-on-One Meeting --></label>
+        <name>Week_2_One_on_One_Meeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 2 Pre-Work Content --></label>
+        <name>Week_2_Pre_Work_Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 2 Pre-Work Exam Completed --></label>
+        <name>Week_2_Pre_Work_Exam_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 2 Pre-Work Exam Score --></label>
+        <name>Week_2_Pre_Work_Exam_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 3 Exam Completed --></label>
+        <name>Week_3_Exam_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 3 Exam Score --></label>
+        <name>Week_3_Exam_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week 3 Live Trainings --></label>
+        <name>Week_3_Live_Trainings__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date HR reaches out to welcome employee --></help>
+        <label><!-- Welcome Call from HR --></label>
+        <name>Welcome_Call_from_HR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date manager calls employee to welcome them --></help>
+        <label><!-- Welcome Call from Manager --></label>
+        <name>Welcome_Call_from_Manager__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date at which the welcome email is sent. --></help>
+        <label><!-- Welcome Email Sent --></label>
+        <name>Welcome_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Whiteboard Presentation Completed --></label>
+        <name>Whiteboard_Presentation_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Whiteboard Presentation Score --></label>
+        <name>Whiteboard_Presentation_Score__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Account Executive --></label>
+        <name>Account_Executive</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Development Rep --></label>
+        <name>Sales_Development_Rep</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

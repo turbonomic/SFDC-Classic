@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-07-25-July-Partner Newsletter.July 2016 Newsletter</name>
+    <style>none</style>
+    <subject>July Partner Newsletter</subject>
+    <textOnly>In This Issue:
+
+
+
+	- Partner Discount: E-Commerce Organizations
+
+
+	- Partner Town Hall Meeting 
+
+	- Partner Download Links 
+	- Technical Corner: Leveraging Custom Reports in VMTurbo
+
+
+
+Partner Discount: 
+E-Commerce Organizations
+
+
+With the holiday season less than four months away, Black Friday planning is underway for E-Commerce organizations – making it the ideal time to present solutions that will improve the performance of their mission-critical applications, efficiency of their infrastructure and general peace of mind during their busiest time of the year. Until August 31st, partners who bring VMTurbo into an e-commerce consumer or retail prospect will receive an additional 15% discount on their VMTurbo transfer price. Simply register your opportunity in the VMTurbo Partner Portal to receive this offer.
+Click here &lt;[[https://greencircle.vmturbo.com/docs/DOC-3428]]&gt; for additional e-commerce specific collateral and information available in the Partner Portal. 
+Partner Town Hall Meeting 
+
+Our upcoming Partner Town Hall Meeting will take place on August 16th, 2016 at 11 AM EST. Register here &lt;[[http://vmturbo.com/vmturbo-q3-partner-town-hall-meeting/]]&gt; to save your spot. 
+
+These Town Hall meetings are an opportunity to voice questions, concerns and feedback but also discuss the following topics: 
+
+
+
+	- VMTurbo is now Turbonomic
+
+	- Partner Download Links
+
+
+	- MDF Requests
+
+	- Upcoming Events
+	- Promotions
+	- Q &amp; A
+
+
+
+Click here to register &lt;[[http://vmturbo.com/vmturbo-q3-partner-town-hall-meeting/]]&gt; and stay informed about the various resources available to Partners and future initiatives to support the Partner community.
+
+
+Partner Download Links 
+
+Every VMTurbo Partner can have a branded landing page that you can send to your client and prospects to download a VMTurbo 30 day trial. Once a client or prospect has filled out the form on the landing page your partner rep will get notified and reach out to you to follow-up with the lead. 
+
+If you would like one of these unique partner download links, please contact partners@vmturbo.com &lt;[[mailto:partners@vmturbo.com]]&gt; and provide the logo you would like to appear on the landing page in .png or .jpeg format. Here&apos;s an example of a partner download page:
+
+
+
+
+
+
+
+
+
+Technical Corner:  
+Creating Custom Reports in VMTurbo
+
+When it comes to making decisions regarding the data center some of us need justification and that is exactly what this blog &lt;[[http://vmturbo.com/blog/how-to-create-vmturbo-custom-reports/]]&gt; post is about. Help customers leverage custom reporting in VMTurbo. 
+
+Click here &lt;[[http://vmturbo.com/blog/how-to-create-vmturbo-custom-reports/]]&gt; to learn more!
+Welcome New Customers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Download the VMTurbo App! 
+
+To download your app you can search VMTurbo Sales in your iTunes or Google Play Store.
+
+
+
+
+ &lt;[[https://itunes.apple.com/us/app/vmturbo-sales-ready/id1070007765?ls=1&amp;mt=8]]&gt;    &lt;[[https://play.google.com/store/search?q=vmturbo&amp;c=apps&amp;hl=en]]&gt;
+
+
+
+
+
+
+
+Upcoming Events
+
+
+VMworld Las Vegas
+August 
+26th- September 1st, 2016 all-day eventClick here for more information! &lt;[[http://vmturbo.com/turbofest-chicago/]]&gt;
+
+Chicago VMUG
+September 22, 2016 all-day eventClick here for more information! &lt;[[http://vmturbo.com/resources/events/boston-vmug/]]&gt;
+
+Dallas-Fort 
+Worth VMUG
+September 29, 2016 all-day eventClick here for more information! &lt;[[http://vmturbo.com/resources/events/nutanix-next/]]&gt;
+
+
+
+
+
+Join the Green Circle
+
+The Green Circle is our online community where you can access all resources, like training materials, industry insight, informative forums and make the most of your partnership with VMTurbo. Click here to join now » &lt;[[https://greencircle.vmturbo.com/welcome?inviteID=12005]]&gt;
+
+
+
+New Content 
+
+Blog Post: PaaS vs. DIY, What Problem Are You Solving?
+Click here to view &lt;[[http://vmturbo.com/blog/paas-vs-diy-what-problem-are-you-solving/]]&gt;
+
+
+Press Release: VMTurbo Taps Enterprise Sales Veteran to Lead EMEA
+Click here to view &lt;[[http://vmturbo.com/press-releases/vmturbo-taps-enterprise-sales-veteran-to-lead-emea/]]&gt;
+
+White Paper: Empowering E-Commerce Against Unpredictable Demand
+Click here to view &lt;[[http://vmturbo.com/solutions/use-cases/maintain-web-application-performance-demand-peaks/]]&gt; 
+
+
+
+Visit the Partner Portal 
+
+Click here &lt;[[https://greencircle.vmturbo.com/community/partner-portal]]&gt; to search for key collateral, local partner contacts, register new opportunities and more. 
+Onboarding: Click here! &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bpathway-to-partnership%5D]]&gt;
+Technical Training: Click here! &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bmission-tech-accreditation%5D]]&gt;
+Sales Training: Click here! &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bmission-sales-accreditation%5D]]&gt; 
+
+
+Questions?
+
+
+If you have any questions please email us at partners@vmturbo.com &lt;[[mailto:partners@vmturbo.com]]&gt;. We always appreciate your feedback so feel free to send us suggestions on how to improve our partner program or request resources that you would like to see.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

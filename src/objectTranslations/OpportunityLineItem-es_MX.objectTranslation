@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Converted to Asset? --></label>
+        <name>Converted_to_Asset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount (%) --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Entity --></label>
+        <name>License_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- LineItemID --></label>
+        <name>LineItemID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricebook ID --></label>
+        <name>Pricebook_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family (Maintenance Split) --></label>
+        <name>Product_Family_Maintenance_Split__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name (Text) --></label>
+        <name>Product_Name_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Type --></label>
+        <name>Quantity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cores</masterLabel>
+            <translation><!-- Cores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sockets</masterLabel>
+            <translation><!-- Sockets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VMs</masterLabel>
+            <translation><!-- VMs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Id. del producto de oportunidad que provino del paquete de este producto.</help>
+        <label><!-- Parent ID --></label>
+        <name>SBQQ__ParentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line --></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica el tipo de suscripción para determinar el precio del contrato.</help>
+        <label><!-- Subscription Type --></label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total List Price --></label>
+        <name>Total_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price (Formula) --></label>
+        <name>Total_Price_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales Price --></label>
+        <name>Total_Sales_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Revenue --></label>
+        <name>Training_Revenue__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Not allowed to have a Perm license on any opportunity at or under 50 sockets --></errorMessage>
+        <name>Error_Perm_Products_on_sub_50_Soc_Opps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity Products should only be modified by Finance. Please reach out to finance@turbonomic.com if you need to make any changes on the opportunity products. --></errorMessage>
+        <name>Restrict_Product_Changes</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Convert_Prod_to_Assets_List --></label>
+        <name>Convert_Prod_to_Assets_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

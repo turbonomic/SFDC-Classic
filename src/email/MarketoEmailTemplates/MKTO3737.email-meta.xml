@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-29 Partner Program Launch - Follow-Up.ES-2018-05-29 Partner Program L</name>
+    <style>none</style>
+    <subject>Turbonomic New Partner Program Launch Recording</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+Our new partner program launch event on May 15th was a tremendous success and we could not have done this without you.
+
+The feedback and support have been overwhelming. Read CRN’s Turbonomic Doubles Down On Channel Commitment with Overhauled, Hybrid-Cloud Focused Program &lt;[[https://www.crn.com/news/cloud/300103736/crn-exclusive-turbonomic-doubles-down-on-channel-commitment-with-overhauled-hybrid-cloud-focused-program.htm]]&gt;.
+
+If you missed the event or would like to see the launch-cast again, simply go here to view the recording &lt;[[https://www.webcaster4.com/Webcast/Page/1848/25145]]&gt;.
+
+Also, we’ve created some new tools and resources to make it easier and quicker to sell Turbonomic. Below are some items that might be of interest to you:
+
+
+	- The SMART (Self Managing and Real-Time) Workload Video &lt;[[https://resources.turbonomic.com/videos/the-smart-workload-v3]]&gt;
+	- CIO Guide to Autonomic IT Whitepaper &lt;[[https://resources.turbonomic.com/template/turbonomic-cio-guide-to-autonomic-it]]&gt;
+	- Turbonomic 6.1 New Features Video &lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1/6-1-highlight-reel]]&gt;
+
+
+
+All of the above items could be found on our Partner Portal. To request access, email PartnerDesk@Turbonomic.com &lt;[[mailto:PartnerDesk@Turbonomic.com]]&gt;.
+
+Thanks again for your support of our new partner program and happy selling!
+
+Regards,
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,9 @@
+Hi Dave,
+
+{!Opportunity.CreatedBy} just created a new Opportunity!
+
+Account Name: {!Opportunity.Account}
+
+Link: https://eu4.salesforce.com/{!Opportunity.AccountId}
+
+Please reassign the Territory Owner to one of your enterprise reps.

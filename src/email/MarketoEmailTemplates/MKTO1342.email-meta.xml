@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_21_2014 Garland Final.Email_Use</name>
+    <style>none</style>
+    <subject>Webinar Tomorrow: Max Consolidate Your Virtual Workloads | Register to Win a LEGO Police Dropship</subject>
+    <textOnly>Webinar &lt;http://www.vmturbo.com/vmturbo-webinar-garland-texas/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=garland&amp;utm_content=102114&gt;: Unearthing a Dev Lab, VDI, &amp; $200K Savings in Garland, Texas
+October 22, 2014 | 12 p.m. EST | 11 a.m. CT | 5 p.m. GMT
+
+Register to Win a LEGO® Super Secret Police Dropship!
+
+ &lt;http://www.vmturbo.com/vmturbo-webinar-garland-texas/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=garland&amp;utm_content=102114&gt;
+&lt;http://www.ci.garland.tx.us/&gt;The City of Garland in northeast Texas is home to some 230,000 people – the 12th largest city in the state and 88th in the country.
+
+Each of Garland’s 40 municipal departments – Police, Fire, Public Safety, Parks, Court, etc. – are served from a single data center.
+
+In this webinar, you’ll catch a complete demonstration of VMTurbo® Operations Manager &lt;http://vmturbo.com/product/operations-management-software/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=garland&amp;utm_content=102114&gt;, and learn of Garland’s story including:
+
+
+ - The unique challenges of managing an organizationally siloed IT infrastructure and how Garland overcame them
+ - The challenge of properly provisioning hardware in an abstracted virtualized estate, from server to the underlying storage
+ - How City of Garland uses VMTurbo to eliminate contention performance issues, maximize up-time and maintain a healthy state for its municipalities
+ - The power of reporting to convey that business units’ and departments’ resource needs are being consistently met
+ - How City of Garland leveraged VMTurbo to save more than $200K in its first year of deployment
+
+
+All attendees of this webinar will be entered into a live drawing for a LEGO®™ Movie 70815 Super Secret Police Dropship Building Set &lt;http://www.lego.com/en-us/movie/products/products/70815-super-secret-police-dropship&gt; valued at $79.99 USD!
+Register Now &lt;http://www.vmturbo.com/vmturbo-webinar-garland-texas/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=garland&amp;utm_content=101014&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

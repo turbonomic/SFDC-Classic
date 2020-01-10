@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;">
+<p><span style="font-family: helvetica, arial, sans-serif; font-size: 12px;"><span style="color: black;">Good afternoon&nbsp;</span>{{lead.First Name:default=Friend}},</span></p> 
+<p><span style="font-size: 12px; font-family: Calibri; color: black;"><span style="font-family: helvetica, arial, sans-serif;">You have been invited by {{lead.Territory Owner (L):default=your Turbonomic Account Executive}}&nbsp;to attend the 2017 Opening Night at the US Open at Arthur Ashe Stadium on Monday, August 28<sup>th</sup> 2017.</span> </span></p> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><span style="color: black;">All guests will have unlimited access to the Chase Center Hospitality Pavilion throughout the entire evening and you will be able to learn from your Turbonomic Account Executive about our upcoming release, Turbonomic 6.0, as well as </span><span style="color: #333333; background: white;">organizations are using Turbonomic’s hybrid clou</span><span style="color: #333333; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">d management platform to optimize their hybrid environments with Cisco UCS.</span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><span style="color: #333333; background: white;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif; color: black;">Please RSVP on the link below to save your seat, as space is very limited at the Turbonomic loge.</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif; color: black;"> </span>
+<br />
+</div> 
+<div style="text-align: center;">
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif; color: #2c9427;"><a href="https://turbonomic.com/turbonomic-executive-networking-event-us-open/" style="color: #2c9427;">https://turbonomic.com/turbonomic-executive-networking-event-us-open/</a>&nbsp;</span>
+</div> 
+<div style="text-align: center;">
+<span style="font-size: 12px;"><span style="font-family: 'Calibri Light'; color: black;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><span style="color: #2c9427;"><strong>When:</strong></span><span style="color: black;"> Monday, August 28<sup>th</sup> 2017 6:00PM</span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><span style="color: #2c9427;"><strong>Where:</strong></span><span style="color: black;"> Arthur Ashe Stadium; Chase Center Hospitality Pavilion </span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><span style="color: #2c9427;"><strong>Address: </strong></span><span style="color: #222222; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">124-02 Roosevelt Ave, Flushing, NY 11368</span><span style="color: black;">&nbsp;</span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><span style="color: black;"></span></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: helvetica, arial, sans-serif; color: black;">I hope to see you there!</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: 'Calibri Light'; color: black;"> </span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Your friends at <span style="color: #2c9427;">Turbonomic</span></span>
+</div>
+</div>  
+</body>
+</html>

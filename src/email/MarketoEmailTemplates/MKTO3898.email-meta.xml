@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Survey Invite</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2018-07-Cloud Migration Survey.ES-2018-07-20-Survey Invite 3.Email</name>
+    <style>none</style>
+    <subject>Last Chance $100 Amazon Gift Card | Cloud Migration Survey</subject>
+    <textOnly>&lt;[[http://bit.ly/2KQU2Sd]]&gt;
+Hi {{lead.First Name:default=there}},
+
+I wanted to make sure you didn&apos;t miss the chance to participate in our cloud migration survey as we explore the challenges facing organizations on their journey to hybrid cloud.
+
+ &lt;[[http://bit.ly/2KQU2Sd]]&gt;
+
+I hope that you&apos;ll take 3 minutes to share your experiences with us. As a thank you for your time, those who complete this survey &lt;[[http://bit.ly/2KQU2Sd]]&gt; will receive a $10 Amazon Gift Card.
+
+Furthermore, we are offering a $100 Amazon Gift Card at the end of the survey if you agree to a meet with a Turbonomic engineer (meeting must complete by July 27th). If at the end of your meeting, you choose to engage in a proof of value, we will make a $300 donation to the 501(c)(3) charity of your choosing.
+
+We look forward to the opportunity to partner with you to make an impact in an organization that is important to you.
+
+
+
+Regards,
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

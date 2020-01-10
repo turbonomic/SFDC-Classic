@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert for CX team when Sales requests a customer reference on an Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Customer Referral Requested</name>
+    <style>none</style>
+    <subject>New Customer Referral Alert - {!Opportunity.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

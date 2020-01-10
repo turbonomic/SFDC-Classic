@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Maintenance Renewal Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Maintenance Renewal Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Safe ID --></label>
+        <name>Account_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date (Finance) --></label>
+        <name>Close_Date_Finance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Churn Risk Last Updated --></label>
+        <name>Customer_Churn_Risk_Last_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Churn Risk Updated Date --></label>
+        <name>Customer_Churn_Risk_Updated_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Churn Risk --></label>
+        <name>Customer_Churn_Risk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Experience Region --></label>
+        <name>Customer_Experience_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer LTV Tier --></label>
+        <name>Customer_LTV_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Highest Stage Reached --></label>
+        <name>Highest_Stage_Reached__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Budget ($M) --></label>
+        <name>IT_Budget_M__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Deal Amount --></label>
+        <name>Max_Deal_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Safe ID --></label>
+        <name>Opportunity_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ops new segment --></label>
+        <name>Ops_new_segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Customer Churn Risk --></label>
+        <name>Prior_Customer_Churn_Risk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Forecast Amount --></label>
+        <name>Renewal_Forecast_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Owner Team (Group Buckets) --></label>
+        <name>Territory_Owner_Team_Group_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Owner Team --></label>
+        <name>Territory_Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Owner --></label>
+        <name>Territory_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Undiscounted Renewal Amount --></label>
+        <name>Undiscounted_Renewal_Amount__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

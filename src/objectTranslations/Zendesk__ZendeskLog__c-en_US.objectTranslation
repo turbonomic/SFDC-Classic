@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Date/Time --></label>
+        <name>Zendesk__DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Zendesk__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Endpoint --></label>
+        <name>Zendesk__Endpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Level --></label>
+        <name>Zendesk__Log_Level__c</name>
+        <picklistValues>
+            <masterLabel>Debug</masterLabel>
+            <translation><!-- Debug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Logging Level --></label>
+        <name>Zendesk__Logging_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method --></label>
+        <name>Zendesk__Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Body --></label>
+        <name>Zendesk__RequestBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Header --></label>
+        <name>Zendesk__RequestHeader__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Body --></label>
+        <name>Zendesk__Request_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resource --></label>
+        <name>Zendesk__Resource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Code --></label>
+        <name>Zendesk__ResponseCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>Zendesk__Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tags --></label>
+        <name>Zendesk__Tags__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zendesk Support Ticket --></label>
+        <name>Zendesk__Ticket__c</name>
+        <relationshipLabel><!-- Integration Logs --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Bulk Sync --></label>
+        <name>Zendesk__Bulk_Sync</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Callout --></label>
+        <name>Zendesk__Callout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ongoing Sync --></label>
+        <name>Zendesk__Ongoing_Sync</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>Zendesk__Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ticket Log --></label>
+        <name>Zendesk__TicketLog</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ticket Sending --></label>
+        <name>Zendesk__Ticket_Sending</name>
+    </recordTypes>
+</CustomObjectTranslation>

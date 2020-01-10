@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Lead_Field_Regions__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Field Regions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Round_Robin_Number__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Round Robin Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Round_Robin_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Round Robin Region</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Lead Round Robin</label>
+    <listViews>
+        <fullName>Admin_View</fullName>
+        <columns>NAME</columns>
+        <columns>Lead_Field_Regions__c</columns>
+        <columns>Round_Robin_Number__c</columns>
+        <columns>Round_Robin_Region__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Admin View</label>
+        <sharedTo>
+            <role>VMT_SF_admin</role>
+        </sharedTo>
+    </listViews>
+    <visibility>Protected</visibility>
+</CustomObject>

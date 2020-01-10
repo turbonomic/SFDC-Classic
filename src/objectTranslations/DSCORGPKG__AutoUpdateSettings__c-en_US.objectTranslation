@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AccountBatchUpdate --></label>
+        <name>DSCORGPKG__AccountBatchUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Always Display Account Intermediate Page --></label>
+        <name>DSCORGPKG__AlwaysDisplayAccountIntermediatePage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Append And Clean Last Run Account --></label>
+        <name>DSCORGPKG__Append_And_Clean_Last_Run_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Append And Clean Last Run Contact --></label>
+        <name>DSCORGPKG__Append_And_Clean_Last_Run_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Append And Clean Last Run Lead --></label>
+        <name>DSCORGPKG__Append_And_Clean_Last_Run_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactBatchUpdate --></label>
+        <name>DSCORGPKG__ContactBatchUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreateNewLeads --></label>
+        <name>DSCORGPKG__CreateNewLeads__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do not Allow Contacts without Accounts --></label>
+        <name>DSCORGPKG__Do_not_Allow_Contacts_without_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Automatic Weekly Update --></label>
+        <name>DSCORGPKG__Enable_Automatic_Weekly_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Technology Imports --></label>
+        <name>DSCORGPKG__Enable_Technology_Imports__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeadBatchUpdate --></label>
+        <name>DSCORGPKG__LeadBatchUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Triggers Category --></label>
+        <name>DSCORGPKG__Legacy_Triggers_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- OppAlertDeleteDate --></label>
+        <name>DSCORGPKG__OppAlertDeleteDate__c</name>
+        <picklistValues>
+            <masterLabel>1 Month</masterLabel>
+            <translation><!-- 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Year</masterLabel>
+            <translation><!-- 1 Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Months</masterLabel>
+            <translation><!-- 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Months</masterLabel>
+            <translation><!-- 3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Months</masterLabel>
+            <translation><!-- 6 Months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OppAlert ContributoryTopics --></label>
+        <name>DSCORGPKG__OppAlert_ContributoryTopics__c</name>
+    </fields>
+    <fields>
+        <label><!-- OppAlert OpportunityType --></label>
+        <name>DSCORGPKG__OppAlert_OpportunityType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remove Inactive Technologies --></label>
+        <name>DSCORGPKG__Remove_Inactive_Technologies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search By Website --></label>
+        <name>DSCORGPKG__Search_By_Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Type --></label>
+        <name>DSCORGPKG__Search_Type__c</name>
+        <picklistValues>
+            <masterLabel>Exact</masterLabel>
+            <translation><!-- Exact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Like *</masterLabel>
+            <translation><!-- Like * --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Selected Technology --></label>
+        <name>DSCORGPKG__Selected_Technology__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tiggers Category --></label>
+        <name>DSCORGPKG__Tiggers_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tiggers Department --></label>
+        <name>DSCORGPKG__Tiggers_Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriggerDeleteDate --></label>
+        <name>DSCORGPKG__TriggerDeleteDate__c</name>
+        <picklistValues>
+            <masterLabel>1 Month</masterLabel>
+            <translation><!-- 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Year</masterLabel>
+            <translation><!-- 1 Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Months</masterLabel>
+            <translation><!-- 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Months</masterLabel>
+            <translation><!-- 3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Months</masterLabel>
+            <translation><!-- 6 Months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trigger Type --></label>
+        <name>DSCORGPKG__Trigger_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Triggers Topics Category --></label>
+        <name>DSCORGPKG__Triggers_Topics_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Account Fields only if NULL --></label>
+        <name>DSCORGPKG__UpdateAccountFieldsifNULL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Contact Fields only if NULL --></label>
+        <name>DSCORGPKG__UpdateContactFieldsIfNULL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Lead Fields only if NULL --></label>
+        <name>DSCORGPKG__UpdateLeadFieldsifNULL__c</name>
+    </fields>
+    <fields>
+        <label><!-- customAccountField --></label>
+        <name>DSCORGPKG__customAccountField__c</name>
+    </fields>
+    <fields>
+        <label><!-- customContactField --></label>
+        <name>DSCORGPKG__customContactField__c</name>
+    </fields>
+    <fields>
+        <label><!-- customLeadField --></label>
+        <name>DSCORGPKG__customLeadField__c</name>
+    </fields>
+    <fields>
+        <label><!-- disableAccountObjectInsert --></label>
+        <name>DSCORGPKG__disableAccountObjectInsert__c</name>
+    </fields>
+    <fields>
+        <label><!-- disableAccountObject --></label>
+        <name>DSCORGPKG__disableAccountObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- disableContactObjectInsert --></label>
+        <name>DSCORGPKG__disableContactObjectInsert__c</name>
+    </fields>
+    <fields>
+        <label><!-- disableContactObject --></label>
+        <name>DSCORGPKG__disableContactObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- disableLeadObjectInsert --></label>
+        <name>DSCORGPKG__disableLeadObjectInsert__c</name>
+    </fields>
+    <fields>
+        <label><!-- disableLeadObject --></label>
+        <name>DSCORGPKG__disableLeadObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- isAccountTriggerRecImport --></label>
+        <name>DSCORGPKG__isAccountTriggerRecImport__c</name>
+    </fields>
+    <fields>
+        <label><!-- isAppendnCleanSchedule --></label>
+        <name>DSCORGPKG__isAppendnCleanSchedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCheckAddUpdateAllCompsAndContacts --></label>
+        <name>DSCORGPKG__isCheckAddUpdateAllCompsAndContacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCheckAddUpdateAll --></label>
+        <name>DSCORGPKG__isCheckAddUpdateAll__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCheckAddUpdateCompanyandContacts --></label>
+        <name>DSCORGPKG__isCheckAddUpdateCompanyandContacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- isContactTriggerRecImport --></label>
+        <name>DSCORGPKG__isContactTriggerRecImport__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCustomFieldAccount --></label>
+        <name>DSCORGPKG__isCustomFieldAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCustomFieldContact --></label>
+        <name>DSCORGPKG__isCustomFieldContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCustomFieldLead --></label>
+        <name>DSCORGPKG__isCustomFieldLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDeleteOppAlerts --></label>
+        <name>DSCORGPKG__isDeleteOppAlerts__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDeleteTriggers --></label>
+        <name>DSCORGPKG__isDeleteTriggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDuplicateCheckContacts --></label>
+        <name>DSCORGPKG__isDuplicateCheckContacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDuplicateCheckLeads --></label>
+        <name>DSCORGPKG__isDuplicateCheckLeads__c</name>
+    </fields>
+    <fields>
+        <label><!-- isExportCSVCheck --></label>
+        <name>DSCORGPKG__isExportCSVCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLeadTriggerRecImport --></label>
+        <name>DSCORGPKG__isLeadTriggerRecImport__c</name>
+    </fields>
+    <fields>
+        <label><!-- isOppAlertsRecImport --></label>
+        <name>DSCORGPKG__isOppAlertsRecImport__c</name>
+    </fields>
+    <fields>
+        <label><!-- isOwnerChange --></label>
+        <name>DSCORGPKG__isOwnerChange__c</name>
+    </fields>
+    <fields>
+        <label><!-- isPersonnelTrigger --></label>
+        <name>DSCORGPKG__isPersonnelTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- isPreventConflict --></label>
+        <name>DSCORGPKG__isPreventConflict__c</name>
+    </fields>
+    <fields>
+        <label><!-- isProjectTrigger --></label>
+        <name>DSCORGPKG__isProjectTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- scheduleDeleteConflict --></label>
+        <name>DSCORGPKG__scheduleDeleteConflict__c</name>
+        <picklistValues>
+            <masterLabel>1 Month</masterLabel>
+            <translation><!-- 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Week</masterLabel>
+            <translation><!-- 1 Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do not automatically delete</masterLabel>
+            <translation><!-- Do not automatically delete --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- scheduleDeleteHistory --></label>
+        <name>DSCORGPKG__scheduleDeleteHistory__c</name>
+        <picklistValues>
+            <masterLabel>1 Month</masterLabel>
+            <translation><!-- 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Week</masterLabel>
+            <translation><!-- 1 Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do not automatically delete</masterLabel>
+            <translation><!-- Do not automatically delete --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

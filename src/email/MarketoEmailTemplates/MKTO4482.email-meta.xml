@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-30 Tackling the Modern IT Ecosystem.ES-2019-01-23 Invite 3.ES 2a</name>
+    <style>none</style>
+    <subject>Elevate Decisions On-Prem, to Containers, &amp; in Cloud</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;
+Hi {{lead.First Name:default=there}},
+The modern IT ecosystem is growing more rapidly than ever before and, it has grown beyond the human scale to manage. How can you make sure you and your team keep up?
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;
+
+
+
+Join Eric 
+Wright on January 30th at 11 am, to learn how you can innovate faster, unleash agility and stay ahead of your competition.
+Attend the live webinar  &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;to overcome 6 industry trending challenges in today&apos;s rapidly growing on-premises, public cloud, or containerized environments. All registered attendees will be entered to win a $100 Amazon Gift Card.
+See you 
+there,
+Andrew
+
+
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;, and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

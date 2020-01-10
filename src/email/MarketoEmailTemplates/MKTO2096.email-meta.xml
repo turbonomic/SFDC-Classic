@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2017-4-04-Live Demo Series UK.Promotion #2</name>
+    <style>none</style>
+    <subject>Next Week: Top 3 Challenges BEFORE Moving to the Public Cloud</subject>
+    <textOnly>Next week, Turbonomic is launching a European webinar series, and the first topic is:
+Top 3 Things to Consider On-Prem Before Moving to the Public Cloud to be held on Tuesday, April 4 at 12 PM GMT and Thursday, April 6 at 2 PM GMT
+In 
+this webinar we will address the common challenges and questions to consider on your hybrid cloud journey related to sizing/cost, workload dependencies and governance. Be sure to register today and mark the date in your diary!
+
+
+ &lt;[[https://turbonomic.com/resources/operations-manager-live-demo-series/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic Demonstration Today  (1497619775.0)</name>
+    <style>none</style>
+    <subject>Turbonomic Demonstration Today  (1497619775.0)</subject>
+    <textOnly>-     
+	- 
+	-   90 Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Levi, I’ve aligned some great resources for today’s demonstration with you at 10:00 am EST. Below is the agenda for the call and the conference bridge info. Feel free to bring any members of your team on the call. Don’t hesitate to reach out with any questions you might have.   Conference bridge info:  Please join my meeting from your computer, tablet or smartphone. 
+https://global.gotomeeting.com/join/501623605  &lt;[[https://global.gotomeeting.com/join/501623605]]&gt;
+
+You can also dial in using your phone. 
+United States: +1 (408) 650-3113 
+
+Access Code: 501-623-605   Agenda:1) Turbonomic Overview 2) Technical Presentation3) Q&amp;A Best, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

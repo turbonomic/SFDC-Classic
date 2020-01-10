@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Green Circle Content</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Green Circle Content</value>
+    </caseValues>
+    <fields>
+        <label><!-- Blog Posts --></label>
+        <name>Blog_Posts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discussions --></label>
+        <name>Discussions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documents --></label>
+        <name>Documents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ideas --></label>
+        <name>Ideas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Date --></label>
+        <name>Observation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Polls --></label>
+        <name>Polls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Updates --></label>
+        <name>Status_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Content --></label>
+        <name>Total_Content__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

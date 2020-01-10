@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-06-14-RD-Sponsored-Los-Angeles.ES-2018-06-13-LA-Invite-2.ES-1b</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Join Me for Dinner Tomorrow?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+
+
+
+
+
+I hope this note finds you well – I’m following up on the email I sent last week inviting you to join me for dinner this Thursday in Los Angeles.
+ 
+Having been involved with Turbonomic for the last few years, first as a customer at both Verizon and EMC and now as a Senior Advisor, I have seen the platform mature and expand – in large part thanks to input from valued customers. 
+ 
+It is for this reason that I hope you will be able to join me for dinner  &lt;[[http://info.turbonomic.com/NI00dZ0g000k0OH0fZ0001g]]&gt;tomorrow, Thursday, June 14 at WP24 at the Ritz Carlton LA. During dinner, I’d love to hear your vision for your organization and understand your take on IT operations management. Seats are filling up quickly, so please RSVP as soon as possible.
+ 
+I look forward to seeing you!
+ 
+Best,
+Vic
+ 
+
+
+Vic Bhagat
+Senior Advisor, 
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

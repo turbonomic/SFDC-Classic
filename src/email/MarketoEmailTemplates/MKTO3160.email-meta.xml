@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic Exclusive VMWorld Europe Promotion! (1506410244.0)</name>
+    <style>none</style>
+    <subject>Turbonomic Exclusive VMWorld Europe Promotion! (1506410244.0)</subject>
+    <textOnly>Dear VAsilis, 
+It was great seeing you at VMworld! 
+You perhaps had a discussion or demo with us, grabbed a copy of our collateral, or took yourself a couple of our Turbonomic fidget spinners or &quot;Virtual PerfectiON&quot; T-shirts from our booth. 
+I wanted to let you know that Turbonomic is running an exclusive 2-month promotion for the VMworld attendees who came by our booth. 
+Our standard product download gives users a limited 30-day free trial, but we’d love to offer you the opportunity to take Turbonomic on an extended test run in your virtual environment, and give you access to our FULL product for 60-Days!  
+Take of advantage of this EXCLUSIVE Promo TODAY – Click HERE &lt;[[https://turbonomic.com/vmworld-emea-promotion/]]&gt; and someone on our team will be in contact soon. 
+We look forward to working with you! 
+ 
+Regards, 
+Maxime,              
+      &lt;[[https://www.youtube.com/user/myTurbonomicTV]]&gt; &lt;[[https://www.linkedin.com/company/turbonomic]]&gt; &lt;[[https://www.twitter.com/turbonomic]]&gt; &lt;[[https://www.facebook.com/turbonomic]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

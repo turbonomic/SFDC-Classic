@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>06_12_2014 turboticker CCL.Ticker_use</name>
+    <style>none</style>
+    <subject>Win VMworld Passes | No Limits Cluster Flattening | turboticker June 2014</subject>
+    <textOnly>VMTurbo Turboticker | June 2014
+Your ticket to VMworld (R) is here. Enter to Win: http://bit.ly/1uKh6At
+Free Tool: Virtual Health Monitor
+Download Free Virtual Health Monitor: &lt;http://bit.ly/1hdGf1C&gt;
+Download VMTurbo Virtual Health Monitor today, absolutely free &lt;http://bit.ly/1hdGf1C&gt;. Virtual Health Monitor installs on any hypervisor(s), provides real-time performance monitoring, and scales automatically as your environment grows. Gain visibility, and download .pdf efficiency and performance reports at any time. Virtual Health Monitor is freeware, and yours to keep forever. We call it &quot;Forevereeware&quot;.
+No Limits with Cluster Flattening Mode
+
+Artificial limits, imposed by the limitations of hardware and management vendors, cease to exist under VMTurbo&apos;s software-driven control. Learn how VMTurbo erases the limits between virtualization and storage, converged fabrics, and even resource clusters, to safely drive your environment to maximal utilization.
+Read More... &lt;http://bit.ly/1ig0AR6&gt;
+Free Whitepaper: Capacity Management for the Cloud Era
+
+VMTurbo&apos;s latest whitepaper addresses the need for precise capacity planning in today&apos;s datacenter. As workload growth booms, ballpark planning is ever more inadequate. Download the free whitepaper today.
+ Read Now... &lt;http://bit.ly/TzAUZX&gt;
+VMTurbo: Your IT Control System.
+&lt;http://www.facebook.com/vmturbo1&gt;
+ &lt;http://www.twitter.com/vmturbo&gt;
+ &lt;http://www.linkedin.com/company/248491&gt;
+no 234 street name. city name,country name  Tel:01 234567890
+
+contacts &lt;#&gt; | website &lt;#&gt; | privacy policy &lt;#&gt; | forward &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

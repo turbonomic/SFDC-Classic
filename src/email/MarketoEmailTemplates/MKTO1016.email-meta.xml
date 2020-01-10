@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM - Webcast Recording</name>
+    <style>none</style>
+    <subject>Transforming IT Infrastructure for the Cloud Age</subject>
+    <textOnly>Webinar: Transforming IT Infrastructure for the Cloud Age
+
+How to Deliver Real-Time Automation &amp; Hyperscale Operations
+&lt;http://vmturbo.com/thx-wbnr-recrd-opensky-orchestration-webinar-full?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;
+{{lead.First Name:default=Turbofriend}},
+We love webinars &lt;http://vmturbo.com/resources/#webinars?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;, they&apos;re informative, quick, and far superior to reading. In fact we love them so much that we want to share them with you! 
+Join OpenSky&apos;s Don McKeith to learn how he helped a Fortune 50 International Health Insurer client develop a ground-up orchestration framework for its virtual infrastructure, and onboard more than 25,000 zero-downtime VDI seats in less than four years.
+How quickly could {{company.company name:default=your company}} scale if the business called for it? Watch here to glean insights for your team directly from Mr. McKeith.
+See, webinars are awesome!
+Watch &lt;http://vmturbo.com/thx-wbnr-recrd-opensky-orchestration-webinar-full?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt; Now &lt;http://vmturbo.com/thx-wbnr-recrd-opensky-orchestration-webinar-full?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;
+&lt;http://www.vmturbo.com/downloads/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;
+&lt;http://www.vmturbo.com/resources/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;
+&lt;https://greencircle.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wcast&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

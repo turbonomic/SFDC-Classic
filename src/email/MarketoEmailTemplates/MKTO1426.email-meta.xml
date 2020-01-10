@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03_19_2014 vCloudD Use Case Email_Img.Email_Img</name>
+    <style>none</style>
+    <subject>Whitepaper: Unleash vCloud Director&apos;s Potential</subject>
+    <textOnly>{{lead.first name:default=FACT}}:
+
+VMware&apos;s vCloud Director packs tremendous potential for Service Providers and Enterprises, like {{company.Company Name:default=yours}}, to deliver agile and cost-effective Infrastructure as a Service (IaaS). This whitepaper addresses the cost benefits of vCloud deployment, and offers one major way in which you can favorably bend the cost curve 30% more &lt;http://bit.ly/PkufRs&gt;, while:
+
+- Driving efficiency far above traditional DRS
+- Eliminating non-productive IT labor costs
+- Optimizing costs with multi-tenant reporting
+- Positioning for infinite IaaS scalability
+
+As Bernd Herzog of The Virtualization Practice put it, &quot;VMTurbo is delivering today, what is promised in VMware’s future strategy.&quot; Download the whitepaper &lt;http://bit.ly/PkufRs&gt;, and learn precisely what this means.
+
+Ahead of the curve,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Training Follow-Up (1493230447.0)</name>
+    <style>none</style>
+    <subject>Training Follow-Up (1493230447.0)</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+  I wanted to extend myself as a resource following your Turbonomic Jumpstart Training. Please reach me at {{lead.Lead Owner Phone Number:default=edit me}}    Yours sincerely,   
+{{company.Customer Experience Owner:default=edit me}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

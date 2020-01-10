@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>08_27_2015 VMworld Overview.Send</name>
+    <style>none</style>
+    <subject>Win a $10,000 Desired State Vacation from VMTurbo @ Booth 505</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmworld-sweeps-2015&amp;utm_content=05202015&gt;
+Hi {{Lead.First Name}},
+
+
+
+
+
+This Sunday we will be joining friends, colleagues and IT Leaders alike for an unforgettable few days at VMworld 2015. 
+With thousands of attendees, influential thought leaders and fascinating learning sessions, we&apos;re sure you&apos;ll leave San Francisco with some great takeaways.
+
+
+
+
+
+The VMTurbo Desired State Giveaway &lt;http://vmturbo.com/blog/vmworld-2015-your-desired-state/&gt;
+
+VMTurbo has helped more than 1,000 customers reach their Desired state within their cloud and virtual environments. Now, we want to help our users, and real-time control believers, get to their own personal Desired state. Our grand prize winner will receive $10,000 to anywhere in the world of their choice! There are 5 ways to enter:
+
+
+ - Visiting Booth #505 during VMworld 2015 expo hours and be scanned by a VMTurbo staff member
+ - Participating in the &quot;human vs. machine challenge&quot; at VMworld Booth #505
+ - Attending our VMworld VIP Cocktail Party at The Drake in downtown San Francisco on Monday, August 31st
+ - Registering yourself or a friend in the Green Circle Community &lt;https://greencircle.vmturbo.com/welcome&gt;. All new sign ups through September 2nd will receive an entry
+ - Following and engaging with VMTurbo on social media - tell us about your desired state using #desiredstate:
+
+
+ - Follow and Tweet @VMTurbo &lt;https://twitter.com/VMTurbo&gt; using #desiredstate
+ - Follow us on Facebook &lt;https://www.facebook.com/vmturbo1&gt; and post using #desiredstate
+ - Follow us on Instagram &lt;https://instagram.com/vmturbo_inc/&gt; and post using #desiredstate
+
+
+ - Click here &lt;http://vmturbo.com/blog/vmworld-2015-your-desired-state/&gt; for more information on the contest
+
+
+
+Stop by Booth #505 for Awe Inspiring Presentations (and Swag)
+
+Make sure to stop by and check out presentations from VMTurbo, Pure Storage, Nutanix, Arista and more. We will be giving away a Pebble Time watch at each presentation! Full presentation schedule can be found here &lt;http://vmturbo.com/blog/vmworld-2015-your-desired-state/#schedule&gt;.
+
+Join us at The Drake for the Best After Party in Town!
+
+Come unwind with VMTurbo and our partners, Arista, Nutanix &amp; Pure Storage at our 3rd annual VMTurbo VIP Cocktail party! This will be a night to remember, not to mention each attendee will be entered into our Desired State giveaway, grand prize being $10,000 towards your dream vacation and a Turbostack!
+
+
+ &lt;http://vmturbo.com/resources/events/vmturbo-2015-vip-cocktail-party/&gt;
+
+See you at VMworld!
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

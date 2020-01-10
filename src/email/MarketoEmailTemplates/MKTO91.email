@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<title>Happy Holidays From VMTurbo!</title>
+
+<style type="text/css">
+
+#content { text-align: center; }
+
+h1 { color: #005aa9; font-size: 30px;  font-family: MyriadProBold,Arial,Helvetica,sans-serif;}
+
+p { color: #4f4e4c; font-size: 14px;  font-family: MyriadProBold,Arial,Helvetica,sans-serif;line-height: 19px;}
+
+
+</style>
+</head>
+<body ><div id="content" ><table border="0" width="660" height="540" ><tr valign="top" ><td ><table border="0" cellpadding="0" cellspacing="0" width="500" style="margin-left:83px; " ><tr valign="top">
+<td colspan="3"><img src="http://vmturbo.com/holiday/images/header.jpg" border="0"></td>
+</tr>
+<tr ><td width="35" bgcolor="#F4FBFE">&nbsp;</td>
+<td bgcolor="#F4FBFE" ><div class="mktEditable" id="main_text" >
+<p style="text-align: center;"><br /> <span style="font-family: verdana,geneva; font-size: 12px;">With an enormously successful 2012 coming to a close and the New Year approaching, I am truly excited about building on our collective accomplishments as we head into 2013.</span><br />&nbsp;<br 
+/><span style="font-family: verdana,geneva; font-size: 12px;">Through the course of this year, we have seen virtualization and cloud initiatives continuing to accelerate, with many of you on the path to realizing your 80 to 100 percent virtualization goal.
+    For most of you, this forced a fresh look at requirements, existing processes and tools, and operational staff skill sets, leading you to engage with VMTurbo for the first time&mdash;or expand on our existing relationship.
+    Whichever the case, we thank you for your business.</span><br />&nbsp;<br /><span style="font-family: verdana,geneva; font-size: 12px;">The successes we&rsquo;ve witnessed from your implementations of Operations Manager have been remarkable.
+    Across the board, we&rsquo;ve seen utilization gains, reduction in infrastructure issues and overall operational efficiencies realized from our improved approach to operations management&mdash;one that offloads decision-making instead of just providing alerts.</span><br />&nbsp;<br /><span 
+style="font-family: verdana,geneva; font-size: 12px;">Our successes are pretty exciting as well.&nbsp; In the last few months, we signed our 250th customer, hired our 75th employee, initiated one of our largest deployments (50,000 VMs), and partnered with 7 of the top 10 hosting providers to be    
+the intelligent planning and optimization engine for their business cloud infrastructure.
+    In 2012, we launched three product revisions, expanded our virtualization and cloud platform support with XenServer, RHEV and CloudStack, and certified our solution with VCE Vblock systems.
+    We expanded geographically into Central Europe and Asia-Pacific, and more than tripled our revenues.
+    And, we&rsquo;ve had a lot of fun getting it all done.</span><br />&nbsp;<br /><span style="font-family: verdana,geneva; font-size: 12px;">On behalf of VMTurbo, the warmest holiday wishes to you and your families.
+    I know we are all looking forward to an exciting and prosperous 2013.</span><br />&nbsp;<br /><span style="font-family: verdana,geneva; font-size: 12px;">Warm regards,</span><br /><span style="font-family: verdana,geneva; font-size: 12px;">N.
+    Louis Shipley, CEO</span></p>
+</div>
+</td>
+<td width="35" bgcolor="#F4FBFE">&nbsp;</td>
+</tr>
+<tr valign="top">
+<td colspan="3"><img src="http://vmturbo.com/holiday/images/footer.jpg" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

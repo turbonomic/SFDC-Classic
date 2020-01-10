@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>wi__AccessKeyDev__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Access Key Dev</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wi__AccessKeyLive__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Access Key Live</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wi__AccountURLDev__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account URL Dev</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__AccountURLLive__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account URL Live</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__ContactURLDev__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact URL Dev</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__ContactURLLive__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact URL Live</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__DealURLDev__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Deal URL Dev</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__DealURLLive__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Deal URL Live</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__Enable_Account_Integration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox that indicates that all code necessary to integrate Salesforce Accounts to the WebInfinity Integration is available and configured in your org.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox that indicates that all code necessary to integrate Salesforce Contacts to the WebInfinity Integration  is available and configured in your org.
+Contact WebInfinity for more Information.</inlineHelpText>
+        <label>Enable Account Integration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wi__Enable_Contact_Integration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox that indicates that all code necessary to integrate Salesforce Contacts to the WebInfinity Integration is available and configured in your org.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox that indicates that all code necessary to integrate Salesforce Contacts to the WebInfinity Integration  is available and configured in your org.
+Contact WebInfinity for more Information.</inlineHelpText>
+        <label>Enable Contact Integration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wi__Enable_Lead_Integration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox that indicates that all code necessary to integrate Salesforce Leads to the WebInfinity Integration  is available and configured in your org.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox that indicates that all code necessary to integrate Salesforce Leads to the WebInfinity Integration  is available and configured in your org. 
+Contact WebInfinity for more Information.</inlineHelpText>
+        <label>Enable Lead Integration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wi__Enable_OCR_Link__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox that indicates that all code necessary to Link Opportunities and Contacts is available and configured is in your org.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox that indicates that all code necessary to link Opportunities and Contacts when Leads are converted is in your org.
+Requires that Contact, Opportunity and Lead Integration to WebInfinity is enabled.
+Contact WebInfinity for more Information.</inlineHelpText>
+        <label>Enable OCR Link</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wi__Enable_Opportunity_Integration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox that indicates that all code necessary to integrate Salesforce Opportunities to the WebInfinity Integration is available and configured in your org.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox that indicates that all code necessary to integrate Salesforce Opportunities to the WebInfinity Integration is available and configured in your org.
+Contact WebInfinity for more Information.</inlineHelpText>
+        <label>Enable Opportunity Integration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wi__LeadURLDev__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Lead URL Dev</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__LeadURLLive__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Lead URL Live</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__Notification_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email Address where emails related to WebInfinity Integration errors will be sent to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email Address where emails related to WebInfinity Integration errors will be sent to.</inlineHelpText>
+        <label>Notification Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wi__OpportunityURLDev__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Opportunity URL Dev</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wi__OpportunityURLLive__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Opportunity URL Live</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>WI Web Hook Config</label>
+    <visibility>Public</visibility>
+</CustomObject>

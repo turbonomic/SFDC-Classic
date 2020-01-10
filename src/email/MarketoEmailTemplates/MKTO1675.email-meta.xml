@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-03-16-Nike Webinar.Cancel Send</name>
+    <style>none</style>
+    <subject>WEBINAR POSTPONED: Nike &amp; VMTurbo How Nike Maintains VDI Performance and Health Across Continents</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+Unlike the data center, not everything can always be in our control. Unfortunately, due to unforseen circumstances, our webinar today with Nike is being postponed.
+We apologize for the inconvenience, and are working to reschedule as quickly as possible.
+We’d like to offer all registrants a free VMTurbo Engineer3 t-shirt while we reschedule. If you are interested, please respond to this email with your shirt size and shipping address.
+Stay tuned for more information.
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

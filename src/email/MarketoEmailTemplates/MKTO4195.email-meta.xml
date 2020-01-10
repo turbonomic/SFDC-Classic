@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Triggered_Nurture_Campaign_Product_Download_Engaged_Technical User/Director.Trig</name>
+    <style>none</style>
+    <subject>Deliver Greater Performance and Save</subject>
+    <textOnly>&lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001bXWHAA2]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Turbonomic Workload Automation will help you deliver 30% better performance, 30% lower cost, and 30% fewer tickets in 30-minutes or less at {{company.Company Name:default=your organization}}. See for yourself. 
+
+ &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001bXWHAA2]]&gt; &lt;[[https://turbonomic.com/request-a-demo]]&gt;
+
+Download Turbonomic&apos;s 30-Day Free Trial &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001bXWHAA2]]&gt; and get the full functionality of our platform for 30 days free. 
+
+
+
+	- Quick install as a single VM on any Hypervisor, Azure, or AWS
+
+	- Get placement, sizing, and provisioning decisions based on workload demand
+	- Simultaneously optimize performance, cost, and compliance in real-time 
+
+
+In the first month of using Turbonomic, DXC automated decisions around placement, sizing, and provisioning, saving $1.25M and delivered greater performance to their clients.
+
+All the best,
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

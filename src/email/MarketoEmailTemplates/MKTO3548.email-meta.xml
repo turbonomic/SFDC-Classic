@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-03-02-Channel-TSA-Infrastructure-Survey.Send</name>
+    <style>none</style>
+    <subject>$10 Amazon Gift Card for a 2 Minute Survey | TSA Presents: Turbonomic&apos;s Infrastructure Optimization Survey</subject>
+    <textOnly>&lt;[[https://www.surveymonkey.com/r/SS5F6HJ?marketo_4sgek4bxhs={{lead.id}}]]&gt;
+Hi {{lead.First Name:default=there}},
+If you&apos;ve ever worked with a member of the TSA team, you know we are driven first and foremost by delivery the highest quality services to our customers. We strive to be a strategic partner for you and work exclusively with technologies that bring the same customer-centric mentality to their business. That is why we are excited to announce, with Turbonomic, an opportunity for us to give back to you!
+
+We are happy to debut the launch of our Infrastructure Optimization Survey &lt;[[https://www.surveymonkey.com/r/SS5F6HJ?marketo_4sgek4bxhs={{lead.id}}]]&gt;. We are offering a $10 Amazon gift card for completing the 3-minute survey by today, end of the day. Furthermore, we are offering $50 Amazon gift card for agreeing to a 30-minute meeting with your TSA representative and a Turbonomic engineer (meeting must complete by April 9th). 
+We look forward to the opportunity to speak with you about how the TSA-Turbonomic partnership is changing the IT industry for the better, but we are much more excited to hear your feedback.
+ &lt;[[https://www.surveymonkey.com/r/SS5F6HJ?marketo_4sgek4bxhs={{lead.id}}]]&gt;
+- The TSA &amp; Turbonomic Teams</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

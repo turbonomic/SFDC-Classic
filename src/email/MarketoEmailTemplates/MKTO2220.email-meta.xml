@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Stop Wrestling 2 classes up ... (1494268977.0)</name>
+    <style>none</style>
+    <subject>Stop Wrestling 2 classes up ... (1494268977.0)</subject>
+    <textOnly>Brian-  Between presure to deliver the best applicaiton peformance  with diminishing budgets, getting ahead of help desk complaints, managing a 30 person team, and balancing the IT budget ... you may often feellike you are on the mat with an opponent much larger than yourself. I&apos;m reaching out to see if you would be open to a conversation about how Turbonomic’s technology can help you address some of the problems specific to Financial Services IT professionals. In the financial services sector, even a few hours of application downtime can cost organizations millions of dollars. Not only is this detrimental to your balance sheet, but to customer experience, which is becoming even more important as expectations rise and competition from emerging FinTech startups increases. Managing this dynamic along with increased scale, security considerations, and new technologies isn’t easy – especially as you strive to execute a future-facing cloud strategy. I&apos;d love to learn more about your current approach to these challenges, and share how we’ve helped organizations like Regions Financial , J.P. Morgan, and First Tennessee overcome them. Below are the truly compelling results we have driven across all our financial service customers:  Would you be open to a conversation Thursday at 1130 am or 3 pm ? If you&apos;d like to learn more, take a look at our Turbonomic for Financial Services solution brief &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic_Solutions-Brief_Financial.pdf]]&gt;, which explains the value we can add in more detail.  Best,  Chris Boyd Account Executive | Southeast
+ Office 857-305-4657  |  Cell 901-502-1650 Why Two Tech Tycoons Fell in Love with Turbo &lt;[[http://www.businessinsider.com/why-two-tech-tycoons-joined-turbonomic-2016-11]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

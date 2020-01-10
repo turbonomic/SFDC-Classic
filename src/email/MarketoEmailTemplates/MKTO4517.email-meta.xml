@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2019-02-ELA - Thank You.EMAIL-Thank You</name>
+    <style>none</style>
+    <subject>Your Gift Card for Completing the Licensing &amp; Compliance Survey</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4fVAAQ]]&gt;
+ &lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4fVAAQ]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Thank you for completing our Licensing and Compliance in the Cloud Era Survey, your insight is greatly appreciated! As a reward for your time, your $10 gift card is enclosed below.
+
+
+Based on your responses I think you might also like this on-demand webinar, How to Optimize Your VMware ELA &lt;[[https://resources.turbonomic.com/on-demand-webinars/webinar-how-to-optimize-your-vmware-ela/?utm_campaign=7012o000001oRWOAA2]]&gt;. In 30-minutes, you will learn:
+
+
+
+	- Key capabilities &amp; value of the VMware Portfolio
+	- How to evaluate your cloud migration and investment alongside your ELA
+	- How to optimize your investments and significantly shrink your ELA
+
+
+
+
+
+Regards,
+Megan
+
+{{my.Gift 10:default=edit me}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

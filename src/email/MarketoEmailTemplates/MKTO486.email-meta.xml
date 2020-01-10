@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Product-Nurture40.Email</name>
+    <style>none</style>
+    <subject>Thank You V-Much {{lead.First Name:default=for Trying VMTurbo}}</subject>
+    <textOnly>   
+{{lead.First Name:default=We Just Wanted to}}
+Thank You.
+Thanks for giving us a shot. Your trial has come and gone, but we&apos;d like to invite you to download our free and unlimited VMTurbo Virtual Health Monitor &lt;http://bit.ly/1ck6OMP&gt;. 
+
+VHM won&apos;t continually drive your environment to health like Operations Manager, but it will let you know when things go awry - and we won&apos;t charge you a cent for it.
+
+Get Free VHM &lt;http://bit.ly/1ck6OMP&gt;
+
+If you&apos;d like to revisit licensing VMTurbo Operations Manager, we are always here &lt;mailto: sales@vmturbo.com&gt;.
+
+In good health,
+ VMTurbo
+(877) 978 8818</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

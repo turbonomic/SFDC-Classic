@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_16_2015 Expedient Webinar #1.Email_use</name>
+    <style>none</style>
+    <subject>Webinar: Delivering Performance in Shared Environments | Win a Quadcopter RC Drone</subject>
+    <textOnly>Webinar: Cloud Mechanics
+
+Delivering Performance in Shared Environments
+Wednesday, January 28, 2015 | 12-1 p.m. EST
+Presented by VMTurbo and
+
+ &lt;http://vmturbo.com/expedient-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=expedient&amp;utm_content=011615&gt;
+
+Expedient Data Centers &lt;http://www.expedient.com/&gt;, a leader in Managed and Data Center Services with locations from Cleveland to Memphis to Boston, unpacks the mechanics of how it consistently meets Service Level Agreements for its customers.
+Join this webinar &lt;http://vmturbo.com/expedient-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=expedient&amp;utm_content=011615&gt; and learn how service providers use VMTurbo to provide consistent performance across all workloads, as well as the three roles a responsible managed service provider (MSP) takes in order to accomplish that directive:
+
+
+ - Plan: assist customers in determining the most performant and efficient configuration of virtual machine resources
+ - Operate: operate cloud infrastructure and inform customers of non-optimal configurations
+ - Monitor: provide a consistent cloud platform for clients to have predictable and repeatable performance expectations 
+
+
+All registrants who attend will be entered to win a UDI U818A 2.4GHz 4 CH 6 Axis Gyro RC Quadcopter with Camera RTF Mode 2 valued at USD $129.00!
+Register Now &lt;http://vmturbo.com/expedient-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=expedient&amp;utm_content=011615&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

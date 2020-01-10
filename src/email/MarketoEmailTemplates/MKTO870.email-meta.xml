@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM-Appliance-Nurture3.Email_use</name>
+    <style>none</style>
+    <subject>Virtual Health Monitor: What It Does.</subject>
+    <textOnly>VMTurbo Virtual Health Monitor
+ 
+Forever and Free, As Monitoring Should Be.
+
+A few days back, you downloaded VMTurbo Virtual Health Monitor.
+You now have mountaintop visibility into your virtual environment, wielding the power to identify risks in real time. Performance reports? All yours. In perpetuity. Forever.
+
+Interested in learning more about what VHM can do? Click here &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/10/VMT-Virtual-Health-Monitor-Data-Sheet-Oct-20142.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhmnurture&gt;.
+
+In good health,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

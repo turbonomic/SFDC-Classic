@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CS - ACI</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Commercial_Financial Services_Cold_Nurture.FinancialServices_Cold_Nurture_Com</name>
+    <style>none</style>
+    <subject>ACI Worldwide Realizes Seven-Figure Savings with Turbonomic</subject>
+    <textOnly>&lt;[[http://turbonomic.com/wp-content/uploads/Turbonomic-ACIWorldwide-Success-Story.pdf]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+At ACI Worldwide &lt;[[http://turbonomic.com/wp-content/uploads/Turbonomic-ACIWorldwide-Success-Story.pdf]]&gt;, performance, stability, and compliance is of the utmost importance. Through workload automation with Turbonomic, ACI Worldwide improved team productivity, improved resource utilization from 50% to 75% while maintaining SLA adherence, and ultimately realized seven-figure savings in SWL licensing costs through intelligent workload consolidation
+
+
+
+
+
+
+ &lt;[[http://turbonomic.com/wp-content/uploads/Turbonomic-ACIWorldwide-Success-Story.pdf]]&gt;
+
+
+Want to learn how we can help your organization? See how over 1,900 of our customers &lt;[[https://turbonomic.com/customers/customers-by-industry/]]&gt; leverage workload automation to simultaneously optimize performance, cost and policy compliance in real-time. 
+
+
+
+
+
+
+
+
+
+Regards,
+
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

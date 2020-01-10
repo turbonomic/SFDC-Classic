@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Auto Match Batch ID --></label>
+        <name>Zendesk__Auto_Match_Batch_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create in Zendesk Batch ID --></label>
+        <name>Zendesk__Create_in_Zendesk_Batch_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create in Zendesk Prepare Batch ID --></label>
+        <name>Zendesk__Create_in_Zendesk_Prepare_Batch_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create in Zendesk Update Batch ID --></label>
+        <name>Zendesk__Create_in_Zendesk_Update_Batch_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create record in --></label>
+        <name>Zendesk__Create_record_in__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce only</masterLabel>
+            <translation><!-- Salesforce only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zendesk Support only</masterLabel>
+            <translation><!-- Zendesk Support only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>Zendesk__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Match Prepare Batch ID --></label>
+        <name>Zendesk__Manual_Match_Prepare_Batch_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Match Update Salesforce Batch ID --></label>
+        <name>Zendesk__Manual_Match_Update_Salesforce_Batch_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Match Update Zendesk Batch ID --></label>
+        <name>Zendesk__Manual_Match_Update_Zendesk_Batch_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Progress --></label>
+        <name>Zendesk__Progress__c</name>
+        <picklistValues>
+            <masterLabel>Abort</masterLabel>
+            <translation><!-- Abort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Match</masterLabel>
+            <translation><!-- Auto Match --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create in Zendesk</masterLabel>
+            <translation><!-- Create in Zendesk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Match</masterLabel>
+            <translation><!-- Manual Match --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Match Prepare Records</masterLabel>
+            <translation><!-- Manual Match Prepare Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Match Update Zendesk</masterLabel>
+            <translation><!-- Manual Match Update Zendesk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepare for Create in Zendesk</masterLabel>
+            <translation><!-- Prepare for Create in Zendesk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Update for Record Created in Zendesk</masterLabel>
+            <translation><!-- Salesforce Update for Record Created in Zendesk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation><!-- Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update in Salesforce</masterLabel>
+            <translation><!-- Update in Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Create in Zendesk</masterLabel>
+            <translation><!-- Waiting for Create in Zendesk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source of Truth --></label>
+        <name>Zendesk__Source_of_Truth__c</name>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zendesk Support</masterLabel>
+            <translation><!-- Zendesk Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Zendesk__Status__c</name>
+        <picklistValues>
+            <masterLabel>Aborted by user</masterLabel>
+            <translation><!-- Aborted by user --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Running</masterLabel>
+            <translation><!-- Running --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync Direction --></label>
+        <name>Zendesk__Sync_Direction__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce to Zendesk</masterLabel>
+            <translation><!-- Salesforce to Zendesk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zendesk to Salesforce</masterLabel>
+            <translation><!-- Zendesk to Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync Mode --></label>
+        <name>Zendesk__Sync_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Full sync</masterLabel>
+            <translation><!-- Full sync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Import only</masterLabel>
+            <translation><!-- Import only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync Object Settings --></label>
+        <name>Zendesk__Sync_Object_Settings__c</name>
+        <picklistValues>
+            <masterLabel>Account and Organization</masterLabel>
+            <translation><!-- Account and Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact and User</masterLabel>
+            <translation><!-- Contact and User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead and User</masterLabel>
+            <translation><!-- Lead and User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync Objects --></label>
+        <name>Zendesk__Sync_Objects__c</name>
+        <picklistValues>
+            <masterLabel>Account and Organization</masterLabel>
+            <translation><!-- Account and Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact and User</masterLabel>
+            <translation><!-- Contact and User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead and User</masterLabel>
+            <translation><!-- Lead and User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Records Auto Matched --></label>
+        <name>Zendesk__Total_Records_Auto_Matched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records Created in Salesforce --></label>
+        <name>Zendesk__Total_Records_Created_in_Salesforce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records Created in Zendesk --></label>
+        <name>Zendesk__Total_Records_Created_in_Zendesk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records Manual Matched --></label>
+        <name>Zendesk__Total_Records_Manual_Matched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records Updated in Salesforce --></label>
+        <name>Zendesk__Total_Records_Updated_in_Salesforce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records for Auto Match --></label>
+        <name>Zendesk__Total_Records_for_Auto_Match__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records for Manual Match --></label>
+        <name>Zendesk__Total_Records_for_Manual_Match__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records to Create in Zendesk --></label>
+        <name>Zendesk__Total_Records_to_Create_in_Zendesk__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>30day Trial Appliance Download - Mobile version.Download Link Email</name>
+    <style>none</style>
+    <subject>Your Green Circle Is Inside.</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Are You At A Desktop Now?
+GOOD. LET&apos;S DO THIS.
+Thanks again for requesting a 30-Day Trial of VMTurbo Operations Manager. Since you can&apos;t install an .ova on a mobile device, we&apos;re sending you this nifty email with your download link &lt;http://54.187.68.245/thx-dl-ft-cloud-edition-download?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=mobile&gt;. Once you download, you&apos;ll receive an email helping you acquire a unique 30-Day License Key. Once you acquire a License Key, VMTurbo is yours for 30 Days.
+
+Then, go to your boss and ask for a raise.
+
+This is the start of a beautiful thing.
+VMTurbo
+Download &lt;http://54.187.68.245/thx-dl-ft-cloud-edition-download?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=mobile&gt;
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

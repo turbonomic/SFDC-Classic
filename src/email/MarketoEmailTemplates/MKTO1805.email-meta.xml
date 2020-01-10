@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-05-11-OpenStack Mitaka Webinar.EMAIL-Follow Up Attended</name>
+    <style>none</style>
+    <subject>Thank You For Attending The OpenStack Mitaka: Updates From Release 13 Webinar!</subject>
+    <textOnly>Hi {{Lead.First Name}},
+Thank you for attending the OpenStack Mitaka: Updates From Release 13 Webinar. We hope you left with some useful takeaways!
+
+Please feel free to watch the webinar on demand at your convenience! You can find the recording here &lt;[[http://vmturbo.com/thx-wbnr-rcrd-openstack-mitaka/]]&gt;.
+
+If you have any questions about the webinar please reach out to your account representative or our Evaluation Team &lt;[[mailto:evalteam@vmturbo.com]]&gt;.
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

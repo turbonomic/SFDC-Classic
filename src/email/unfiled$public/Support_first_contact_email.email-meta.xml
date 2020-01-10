@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject:  VMTurbo Support - how are things going?</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Support first contact email</name>
+    <style>none</style>
+    <subject>VMTurbo Support - how are things going?</subject>
+    <textOnly>Hi {!Contact.FirstName}
+
+I&apos;m Joel Sheppard and I am the Director of Software Test and Customer Satisfaction at VMTurbo.  As a recent customer to the VMTurbo Family I wanted to reach out to you and ensure that you and your team have deployed the VMTurbo appliance, are getting the most from your purchase, and if you have any questions, etc that I could help you with.
+
+Please do let me know how things are going.
+
+I look forward to hearing back from you {!Contact.FirstName}.
+
+Thanks for choosing VMTurbo!
+
+Best regards,
+
+{!User.FirstName} {!User.LastName}
+
+Direct #:  781-418-5228 ~ Office #:  781 373 3540</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

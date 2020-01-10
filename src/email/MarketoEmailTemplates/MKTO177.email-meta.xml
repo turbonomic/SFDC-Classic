@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Community Nurture Test - Phase 2.Email #2</name>
+    <style>none</style>
+    <subject>Making the Most of Your Operations Manager Trial</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Just a quick note to follow up on the email we sent you last week. We look forward to showing you how you can extend the capabilities of Operations Manager. The trial product you’re using showcases how we can help you achieve visibility into your environment. The next step is to gain control. 
+
+Join us for a short phone conversation &lt;http://bit.ly/ZroJfV&gt; to learn how you can apply our economic scheduling engine with prescriptive analytics and go beyond the monitoring and alerting capabilities you’re leveraging today toward full command of your IT environment. 
+
+Want more information first? Browse this page &lt;http://bit.ly/16fwIQf&gt; (it’ll only take a few minutes) and see for yourself why IT analytics, such as those offered in the full version of VMTurbo Operations Manager, can help you manage the challenges brought about by virtualization.
+
+Thank you,
+
+VMTurbo Team
+ phone: (781) 373-3540
+ email: sales@vmturbo.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

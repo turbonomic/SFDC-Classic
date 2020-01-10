@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic Customer Referral Program -- $100 Amazon Gift Card (1493293566.0)</name>
+    <style>none</style>
+    <subject>Turbonomic Customer Referral Program -- $100 Amazon Gift Card (1493293566.0)</subject>
+    <textOnly>Hi Paul
+   I hope this note finds you well and you&apos;re ready for summer to arrive. I am reaching out because as you know, we are always looking to add new members to the growing Turbonomic family, and what better way to do so then through referrals from our own happy customers! We recently launched an official customer referral program, and I would love for you to participate.   If you can broker an introduction to a member of the infrastructure operations, cloud or virtualization team at an organization you think would benefit from using Turbonomic within the Kentucky area I would gladly send you a $100 Amazon Gift Card per each intro in return. If you are unable to accept gifts or would prefer this option, we would gladly make a $100 donation to the charity of your choice.   I also want to offer you some of our most useful customer resources, including a recorded Jumpstart Training webinar &lt;[[https://greencircle.vmturbo.com/docs/DOC-1881-free-jumpstart-training-webinar-video]]&gt;, our Green Circle Product Forum &lt;[[https://greencircle.vmturbo.com/community/products/pages/overview]]&gt;, and our latest webinar with Martin Health &lt;[[https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fturbonomic.com%2Fthx-wbnr-recrd-turbonomic-webinar-series-exchanging-guessing-for-accuracy-in-your-hardware-refresh%2F]]&gt;, during which our champion discusses how Turbonomic helped them save $500k during a major hardware refresh. Additionally, you can sign up for training programs and services directly on the Education page &lt;[[https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fturbonomic.com%2Ftraining-and-services%2Feducation%2F]]&gt; of our website.   I appreciate you and Rescare being a customer and I look forward to connecting the next time I stop by Louisville!   Best, 
+  Alex OstermanTurbonomicOffice: 857.305.4646 | Cell: 617.875.7687Account Executive                    Tribune Publishing: 1.5 Million in Avoided Cost with VMTurbo &lt;[[https://www.youtube.com/watch?v=xTV43Q8jlG4]]&gt; </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

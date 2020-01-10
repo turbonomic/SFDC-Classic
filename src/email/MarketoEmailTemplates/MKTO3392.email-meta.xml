@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-01-04-CWOM Days Central.CWOM Days</name>
+    <style>none</style>
+    <subject>Cisco Workload Optimization Day – You’re Invited!</subject>
+    <textOnly>Cisco Workload Optimization Day – You’re Invited!
+
+Cisco and Turbonomic &lt;[[http://www.turbonomic.com/]]&gt; have recently partnered to deliver Cisco Workload Optimization Manager &lt;[[https://www.youtube.com/watch?v=mKZPzX94eGI]]&gt; (WOM).  
+
+Cisco® Workload Optimization Manager enables data center and cloud infrastructure to self-manage. With the platform, infrastructure dynamically adjusts to meet changing workload demand—ensuring continuous health in the environment. It relieves Infrastructure and Operations teams from the day-to-day management of infrastructure and resource availability, giving them time back to drive innovation for the business. 
+
+Attend this 3-hour planning session with your regional Cisco field reps, Cisco partners and Turbonomic account executives to discuss how to leverage the Cisco WOM solution to more quickly retire sales quotas. By attending this event, you will:
+
+
+	- Learn more about the Cisco and Turbonomic Partnership
+
+	- Get an in-depth overview of Cisco Workload Optimization Manager
+
+	- Understand how Cisco WOM compliments and augments Tetration and AppDynamics
+
+	- Participate in discussions with your sales peers on how to engage and position Cisco WOM with customers 
+
+
+
+Who should Attend?
+
+
+	- Account Managers
+
+	- Product Sales Specialists
+
+	- Data Center Sales Specialists
+
+	- Operations Director
+
+	- Consultant Systems Engineers
+
+	- Customer Solutions Architect
+
+	- Technical Solutions Architect
+
+	- Cisco Partners
+
+
+
+
+Space is limited, please register to reserve your spot in your region today!
+JANUARY 18, 2018 | 2:30 P.M.
+Cisco Systems
+7400 College Blvd., Overland Park, KS
+FEBRUARY 13, 2018 | 3:00 P.M.
+Rosemont Corporate Center
+
+9501 Techonology Blvd., Rosemont, IL</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

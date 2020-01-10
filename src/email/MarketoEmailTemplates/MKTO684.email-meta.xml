@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Day-Before-Details.Email</name>
+    <style>none</style>
+    <subject>Details for Bain Breakfast Tomorrow</subject>
+    <textOnly>{{lead.First Name:default=}},
+I&apos;m very much looking forward to meeting up tomorrow, and first wanted to provide you with details for breakfast. As a reminder, we&apos;ll begin at 7:30 a.m. You have been pre-cleared with Hancock Tower Security, so you need only present a valid Driver&apos;s License/ID.
+
+We&apos;ll be in the Weather Beacon Conference Room on the 39th Floor, Bain Capital Ventures. Once past security, simply take the elevator to Floor 39, where you&apos;ll be greeted by a VMTurbo team member.
+
+If you have any questions on your way up, please contact VMTurbo&apos;s JR Butler at 774.249.4299.
+
+Looking forward to it,
+{{lead.Lead Owner First Name:default=}}
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

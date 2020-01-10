@@ -1,0 +1,86 @@
+<apex:page >
+    <apex:includeScript value="/soap/ajax/28.0/connection.js"/>
+    <apex:includeScript value="/soap/ajax/28.0/apex.js"/>
+
+    <style type="text/css">
+        h1 { 
+            font-size: 20px;
+            padding: 50px 50px 15px;
+            display:block;
+        }
+        p{
+            font-size: 16px;
+            padding: 15px 50px;
+            margin:0px;
+            line-height: 25px;
+        }
+        a{
+            color:green;
+        }
+        ol{
+            font-size: 16px;
+            line-height: 28px;
+            padding-left: 80px;
+        }
+    </style>
+    
+    <h1 id="loginHeader">
+        Logging you into the Green Circle... 
+        If you have popups disabled <a id="loginLink" href="https://login-sf-greencircle.vmturbo.com/" target="_blank">click here</a> to access
+    </h1>
+    <div>
+        <p id="instructions">
+            To update your Green Circle password in Salesforce follow the instructions below:
+        </p>
+        <ol>
+            <li><a id="userDetailLink" style="font-weight:bold;" href="https://eu4.salesforce.com/_ui/core/userprofile/UserProfilePage?tab=sfdc.ProfilePlatformFeed" target="_blank">Click here</a> to view your user profile</li>
+            <li>Click “Edit” on your profile</li>
+            <li>Find the field titled “Green Circle Password”</li>
+            <li>Enter your (correct) password and click "Save"</li>
+            <li>Return to the Green Circle tab and you will be automatically logged in </li>
+        </ol>
+        <p>
+           Don’t know your Green Circle password? To request a change <a id="forgotPW" href="https://login-sf-greencircle.vmturbo.com/" target="_blank" style="font-weight:bold;">go here</a> and click "Forgot Password"
+        </p>
+        <p id="accessAnyway"></p>
+    </div>
+
+    <script>
+          sforce.connection.sessionId = "{!$Api.Session_ID}";
+          
+          function encrypt(str){
+              var encrypted = str.replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+              encrypted = encodeURIComponent(encrypted);
+              return encrypted;
+          }
+          
+          var username = encrypt('{!$User.Green_Circle_Username__c}');
+          var password = '{!$User.Hashed_Green_Circle_Password__c}';
+          var userId = '{!$User.id}';
+          var loginStr = "https://login-sf-greencircle.vmturbo.com/?id="+username;
+          
+          var userDetailStr = 'https://eu4.salesforce.com/'+userId+'?noredirect=1';
+          var userDetailLink = document.getElementById("userDetailLink");
+          userDetailLink.href = userDetailStr;
+
+          if(password.length > 2){
+              try { 
+                var result = sforce.apex.execute("UserMethods","DecryptHashedPassword",{userId: '{!$User.id}'});
+                password = encrypt(result[0]);
+                loginStr += "&tok="+password;
+                window.open(loginStr, "_blank");
+              } catch (err) { 
+                    console.log(err)
+              }
+          }else{
+              document.getElementById("loginHeader").innerHTML = 'Did you know that you can automatically log you into the Green Circle from Salesforce?';
+              document.getElementById("instructions").innerHTML = 'Your username is automatically populated, but by default you must enter your password to log in. To automatically populate your password in the future, follow the instructions below:';
+              document.getElementById("accessAnyway").innerHTML = 'You can always directly access the Green Circle <a href="'+loginStr+'" target="_blank">here</a>';
+          }
+        
+          var forgotPWLink = document.getElementById("forgotPW");
+          var loginLink = document.getElementById("loginLink");
+          loginLink.href = loginStr;
+
+     </script>
+</apex:page>

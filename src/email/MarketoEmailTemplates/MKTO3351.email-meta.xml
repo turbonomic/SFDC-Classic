@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-11-Turbonomic Openshift Webinar Send.Turbonomic Openshift Send</name>
+    <style>none</style>
+    <subject>[Webinar] Self-Managing OpenShift with Turbonomic - Register to Watch Now!</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/turbonomic-and-openshift-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=turbonomic_openshift_webinar]]&gt;
+Hi {{lead.First Name:default=There}}, 
+
+
+If you operate a large or fast-growing OpenShift Dev, Test, or Production environment, or are looking into an OpenShift investment, you’re likely already experiencing (or anticipating) the complexity of day-to-day operations.
+
+
+Turbonomic provides substantial value around automating key operations – including re-scheduling, horizontal scaling, and end-to-end visibility and control of the total environment – to substantial augment the value of the native scheduler.
+
+To learn more, please take a look at our On-Demand Webinar, Self Managing OpenShift with Turbonomic:
+
+
+
+
+
+
+
+ &lt;[[https://turbonomic.com/resources/turbonomic-and-openshift-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=turbonomic_openshift_webinar]]&gt;
+
+
+
+
+
+- Your Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

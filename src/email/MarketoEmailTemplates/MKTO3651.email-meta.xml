@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Wbnr - 5 stages of cloud adoption</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_Manufacturing_Cold_Nurture.Manufacturing_Cold_Nurture_Enterprise_E</name>
+    <style>none</style>
+    <subject>The 5 Stages of Cloud Adoption</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/cloud-secrets-webinar-series-5-stages-of-cloud-adoption/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Enterprises adopt the public cloud in five discrete stages, each marked by tell-tale practices, challenges, and cost structures.
+
+
+Where is your organization in your cloud journey and what should you be doing today to get set for cloud success? 
+
+
+ &lt;[[https://turbonomic.com/resources/cloud-secrets-webinar-series-5-stages-of-cloud-adoption/]]&gt;
+
+
+
+
+Watch this webcast &lt;[[https://turbonomic.com/resources/cloud-secrets-webinar-series-5-stages-of-cloud-adoption/]]&gt; to help your organization benchmark where it is and where it’s going.
+
+
+
+
+
+
+
+Regards,
+
+
+Team Turbonomic
+
+
+
+
+
+
+PS. Turbonomic can help your organization accelerate and de-risk your cloud migration. Learn more. &lt;[[https://resources.turbonomic.com/accelerate-cloud-migration-projects]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic - Citrix Synergy event  (1495132412.0)</name>
+    <style>none</style>
+    <subject>Turbonomic - Citrix Synergy event  (1495132412.0)</subject>
+    <textOnly>-     
+	- 
+	-   110 Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi John, Thanks for taking the time to speak with me today. I’ve given my colleague AJ Fiore a heads up that you will be stopping by the booth at some point next week during the event.  We are booth 509. I’ve included our whitepaper that explains the value that our customers see in case you have some time to read through it between now and the event. We look forward to showing more about Turbonomic’s capabilities at the event.  Turbonomic ROI &lt;[[http://info.turbonomic.com/ol/jExZc8DIKlxQsRpg5uiMMKvivTDUe5u9qKgwWbq2n59ziQVuYOPLdRGphcBWFZZvNa%2DaCAZNQsIylEpLFL3FOoVJ%5FqhpAky9TDPmzpHVeoFBYpRn3cxx%5Fq%2Dqzi4Lr8nEh1XIVB9IRWl4dgfARIsNnjvPHokaDQ%2DMyk%5FoZ6o5mHAKspsU1LWndoOA2ieZ%5F3LPwgGsPH1Jydm1zWmoIr5Pyu4I7kgd3HosUdTc6xrw%2D%2D4LnR9q29tBhDFcpuVcKuQ75jSzRyaxtNb5Qs56eI2fheagsO4QPUdjuq0cKm3cA02xAtOMeBVc5CrezyE%2DGRU%5FHz1VUNolp0asm0kLdOYkUCK5wT0i80Im4Z9%5FjrPAmz%2DoX2%5FtBS2nuDmN4QOkJI0Oxm2zxoJmo2w%2C/jUtXdM3GIllNoVdlsbPWN7vhmzDGf5a7vvJtG%5Fjp1N8x0EZqPO%5FANQ752pxEDp5tcLSWFRYAAN0y4TNnDvWHfo9O9fhUCA%2DxVzbAl7GXPalNfrpn2c91wL211G8Ers69pkneC0AAT3xlZ0vIT40PrXP3NJZlXg6XoX%2DcEZAOugkPw7wJxsmoIIul2keD71Dv9hmtDV5zse6C4XvkXY4smtoR5FN52mg1Sdjb6WGK45Qgqx4U2u8jiixGr60jMpBssgewViDnx73Cd9l%5Fc6GQpaTzse1yYkMb3oktTmbGL1K5PLK7dBRa%2DAmjmAULZitGFwJ%2DLft8wgOKtit%2DLrIdEiin3igu1DQyiPsO7oKs6RuaZ2HeLgirmwS46l6nGqdU2HW6qt0D4z7HKVHP2u1zQ0CjDNOZrUOgHZWQ%5FUw%5FWsNdUstPeK6l6NWHzvcI9i3hI0y6gaKzRg4HI4kBvtuWu%2D65qsS7vXiD3hpLkApadBB09TLQV4%2DoOSIrx43ByuT41qI%2C]]&gt; Best regards, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

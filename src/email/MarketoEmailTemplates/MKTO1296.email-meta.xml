@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>12_9_2015 OpenStack Liberty Webinar.12_1_2015 Openstack Liberty Invite.Send</name>
+    <style>none</style>
+    <subject>Webinar: OpenStack Liberty, What&apos;s New &amp; The Challenges Ahead</subject>
+    <textOnly>&lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-4&amp;utm_content=11042015&gt;
+Hi {{lead.First Name:default=There}},
+
+The new bits for VMTurbo Operations Manager 5.4 will be released in just a couple weeks. On November 18th at 11:30 am EST we will be hosting a webinar to discuss the new developments, which include:
+
+
+
+ - Cloud Foundry 
+Deliver a Paas that keeps up with the speed of business as VMTurbo manages complex Cloud Foundry workloads. &apos;Happy developers&apos; is the surest way to combat Shadow IT.
+
+
+
+ - Cross vCenter Live Migration 
+Extending our support for vSphere 6.0 allows for better migration planning. VMTurbo figures out the best solution for disaster recovery (DR) scenarios or re-hosting to more modern infrastructure.
+
+
+
+ - EMC XtremIO &amp; EMC VMAX Control 
+Customers can get the most out of their storage investments knowing that IO intensive workloads will always get the resources they need, as VMTurbo minimizes resource contention across EMC storage, compute and network.
+
+
+
+ - Application Control with Active Directory Authentication
+Authenticate to Microsoft SQL databases with Active Directory authentication, getting all the benefits of the Application Control Module.
+
+
+Other Developments Include
+
+
+ - Proactive Support - Assuring the performance of your VMTurbo instance
+ - And customer-requested UI Improvements
+
+
+ &lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-4&amp;utm_content=11042015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

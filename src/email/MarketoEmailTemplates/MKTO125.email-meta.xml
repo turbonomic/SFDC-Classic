@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ovum webinar follow up.Thank you Email</name>
+    <style>none</style>
+    <subject>Overcoming Key Challenges in Operating Cloud Environments Webinar</subject>
+    <textOnly>   
+
+
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for attending VMTurbo’s webinar on January 22nd.  If you were not able to attend the entire session or you would like to revisit parts of it, you can watch it here &lt;http://bit.ly/SLIFcx&gt;.
+
+Our expert panelists, Roy Illsley from Ovum and Kevin Van Mondfrans from Layered Tech, did an excellent job of providing insights into cloud adoption and the challenges in building and managing a cloud data center. It’s likely that these challenges resonate with you. Do you also agree that there’s an opportunity to rethink the approach to IT operations management in virtualized and cloud environments?
+
+VMTurbo provides the control system that ensures applications have the resources required to meet business demands at the lowest operational and capital costs. Unlike monitoring &amp; reporting tools, VMTurbo Operations Manager automates decision-making, prescribing actions to assure performance while maximizing resource utilization. Try it for yourself &lt;http://go.vmturbo.com/cloud-edition-download.html?source=Email&gt;.
+
+We look forward to seeing you at one of our upcoming events again soon.
+
+Sincerely,
+
+Lauren Whitehouse, Director of Product Marketing
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

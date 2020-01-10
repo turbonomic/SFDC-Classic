@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-08-25-Boston-Veghte</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-08-25-Denver ESB-Bill Veghte Email.EM-2017-08-25-Denver-Veghte</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Denver Executive Networking Lunch at Del Frisco&apos;s</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+In my more than 25 years at Microsoft, HPE and now Turbonomic, I have had the privilege of watching IT go through waves of disruption from a birds-eye view. All previous waves pale in comparison to that which we observe today. 
+
+I cordially invite you to join myself and dozens of our fellow IT leaders in the Denver area for our Denver Executive Networking Lunch &lt;[[https://turbonomic.com/learn-denver/]]&gt;: Hybrid Cloud Management to Enable your Journey to the Cloud, September 15th 2017 at the Del Frisco’s in the Tech Center at 11:30AM MST.
+
+Enterprises are facing incredible pressure to modernize and transform IT to become a digital business, leading many organizations to reinvent their hybrid cloud strategy. Determining which workloads go on-premises, which go in the cloud, and how to manage the transition is challenging and mistakes are costly. We will discuss this unprecedented shift our industry currently faces and how we as the stewards of our generation can lead the innovation charge. It is my goal and hope that this networking opportunity will be intellectually stimulating and beneficial for all.
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/learn-denver/]]&gt; as soon as possible.
+
+Yours Sincerely,
+
+Bill Veghte
+
+Bill Veghte
+Executive Chairman
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>06_08_2015 VMWorld.Send</name>
+    <style>none</style>
+    <subject>{{Lead.First Name}}, Win 2 Tickets To VMworld, Only 2 Chances Left.</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmworld-sweeps-2015&amp;utm_content=05202015&gt;
+Hi {{Lead.First Name}},
+
+VMTurbo is giving 2 more lucky winners two Full Conference Passes to VMworld 2015 in San Francisco. The epicenter of all things virtual, VMworld is our industry&apos;s biggest stage. We will be there, and we want you there too. We will be giving away a pair of tickets on June 19th  and July 10th. Enter today for your chance to win!
+ &lt;http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmworld-sweeps-2015&amp;utm_content=06082015&gt;
+
+
+ - Who? 2 Winners (maybe you!)
+ - What? 2 VMworld 2015 Passes
+ - Where? San Francisco, California
+ - When? August 30th - September 3rd
+
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

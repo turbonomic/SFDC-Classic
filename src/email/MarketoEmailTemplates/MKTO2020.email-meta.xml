@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-12-05-OpenStack e-Book.Send</name>
+    <style>none</style>
+    <subject>OpenStack is Coming, Are You Ready?</subject>
+    <textOnly>&lt;[[http://vmturbo.com/thx-wp-ebook-openstack-for-enterprise-the-tipping-point-cometh?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=OpenStacke-Book&amp;utm_content=12052016]]&gt;
+{{lead.First Name:default=edit me}},
+A fundamental shift in IT is almost upon us – and OpenStack is leading the way.  Since its first release in 2010, the open-source cloud operating system has generated incredible momentum and is now invaluable in organizations like Best Buy, PayPal and Comcast.
+Find out why in our latest e-Book; OpenStack For Enterprise – The Tipping Point Cometh! &lt;[[http://vmturbo.com/thx-wp-ebook-openstack-for-enterprise-the-tipping-point-cometh?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=OpenStacke-Book&amp;utm_content=12052016]]&gt;
+After reading this E-Book you’ll know:
+
+
+	- A brief history of OpenStack
+	- OpenStack releases, programs and their roles
+	- How some of the biggest companies are adopting and using OpenStack
+	- And much more…
+
+
+ &lt;[[http://vmturbo.com/thx-wp-ebook-openstack-for-enterprise-the-tipping-point-cometh?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=OpenStacke-Book&amp;utm_content=12052016]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

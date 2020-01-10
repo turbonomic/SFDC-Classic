@@ -1,0 +1,7 @@
+*** New Quote Approval Needed ***
+
+Submitted by: {!Quote.CreatedBy}
+Account: {!Opportunity.Account}
+Amount: {!Opportunity.Amount}
+Quote Link: https://eu1.salesforce.com/{!Quote.Id}
+Opportunity Link: https://eu1.salesforce.com/{!Opportunity.Opportunity_Safe_ID__c}

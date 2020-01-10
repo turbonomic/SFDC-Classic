@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>04_08_2015 Principled Tech Report.Send</name>
+    <style>none</style>
+    <subject>New Report: How to Decrease Latency by 37% in Virtual &amp; Cloud Environments</subject>
+    <textOnly>Get the New Report &amp; Infographic Here &lt;http://vmturbo.com/blog/ever-thought-about-competing-on-latency-try-cutting-it-by-37-new-report-infographic?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=principled-tech-report&amp;utm_content=04082015&gt; 
+
+Hi {{lead.First Name:default=edit me}},
+
+Amazon found that every 100ms of latency cost 1% in sales. In terms of Amazon’s 2014 revenue of $88.94 billion, 1% is $889,400,000—not insignificant. 
+
+Sure, not every company operates on Amazon’s scale, but latency doesn’t care how big or small your operations are. It sucks profits and puts application performance at risk. Principled Technologies recently published a study that empirically proves how VMTurbo improves application performance and drives benefits that directly impact the bottom-line. The firm deployed VMTurbo’s Demand-Driven Control system in their virtualized data center; by implementing VMTurbo’s recommendations in its virtual environment, it was able to cut latency by 37%
+
+What would a 37% reduction in latency do for you? Think about it.
+Get the full report and infographic here:
+Ever Thought About Competing on Latency? (New Report &amp; Infographic) &lt;http://vmturbo.com/blog/ever-thought-about-competing-on-latency-try-cutting-it-by-37-new-report-infographic?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=principled-tech-report&amp;utm_content=04082015&gt; 
+
+Principled Technologies is trusted by EMC, Microsoft, IBM, Red Hat, VMware and many other tech giants to provide technical evidence. The report includes a detailed reference architecture and how they achieved the results.
+
+ 
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

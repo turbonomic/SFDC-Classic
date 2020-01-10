@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>VP Sales</fullName>
+        <default>false</default>
+        <label>VP Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional VP</fullName>
+        <default>false</default>
+        <label>Regional VP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional Director (Bus Driver)</fullName>
+        <default>false</default>
+        <label>Regional Director (Bus Driver)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enterprise Director (Ent Rep)</fullName>
+        <default>false</default>
+        <label>Enterprise Director (Ent Rep)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enterprise Territory Manager (Ent AE)</fullName>
+        <default>false</default>
+        <label>Enterprise Territory Manager (Ent AE)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Territory Manager (AE)</fullName>
+        <default>false</default>
+        <label>Territory Manager (AE)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Manager (SDR)</fullName>
+        <default>false</default>
+        <label>Account Manager (SDR)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Development Director</fullName>
+        <default>false</default>
+        <label>Business Development Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity Owner</fullName>
+        <default>false</default>
+        <label>Opportunity Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Alliance Manager</fullName>
+        <default>false</default>
+        <label>Alliance Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Engineer</fullName>
+        <default>false</default>
+        <label>Sales Engineer</label>
+    </standardValue>
+</StandardValueSet>

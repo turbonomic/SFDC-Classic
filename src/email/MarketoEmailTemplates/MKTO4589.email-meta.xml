@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2019-03-21-Dallas-send-2.ES-2019-03-28 Dallas Event invite</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=}} Join us at Cool River Cafe Thursday</subject>
+    <textOnly>Hi {{lead.First Name:default=there}}!
+ 
+Join Turbonomic and GDT this Thursday for an 
+exclusive lunch discussion at Cool River Cafe &lt;[[https://www.eventbrite.com/e/cracking-the-code-cool-river-tickets-57423244470]]&gt; about how your company can utilize Automation and Orchestration for applications, hybrid cloud and multi-cloud environments. We’ll examine infrastructures, tools and processes to help design your data center of the future. You’ll learn how to:
+
+
+	- Assure Application performance
+	- Display IT’s value to your entire organization
+	- Bridge the Application-Infrastructure gap
+	- Accelerate Application migration   
+
+
+Space is limited. Register now &lt;[[https://www.eventbrite.com/e/cracking-the-code-cool-river-tickets-57423244470]]&gt; to save your seat!
+
+
+
+
+Sincerely,
+Team 
+Turbonomic
+Cracking the Code – Dallas &lt;[[https://www.eventbrite.com/e/cracking-the-code-cool-river-tickets-57423244470]]&gt;
+Cool River Cafe | 1045 Hidden Ridge, Irvine TX
+
+Thursday, March 28, 2019 | 11:00 AM</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

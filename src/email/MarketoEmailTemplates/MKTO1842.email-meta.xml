@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-06-22-Bates Education Webinar.EMAIL-Confirmation Email</name>
+    <style>none</style>
+    <subject>Thank You For Registering For The VMTurbo Webinar Series - How Bates College Delivers Quality IT Services Campus-wide</subject>
+    <textOnly>Hi {{Lead.First Name}},
+You are now registered for our upcoming VMTurbo Webinar Series: How Bates College Delivers Quality IT Services Campus-wide!
+Date: Wednesday, June 22, 2016
+ Time: 1:00 - 2:00 PM EST - {{my.Bates &amp; VMTurbo Webinar:default=Add To Calendar}}
+You should receieve a confirmation email from GoToWebinar shortly with your login information.
+See you there!
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

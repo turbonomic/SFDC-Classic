@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Alliance Registrations</relationshipLabel>
+        <relationshipName>Alliance_Registrations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Age_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Registration_Status__c)=&quot;Denied&quot;,Denied_Date__c - DATEVALUE(CreatedDate),
+IF(TEXT(Registration_Status__c)=&quot;Closed&quot;,Closed_Date__c - DATEVALUE(CreatedDate),
+IF(ISBLANK(Opportunity__c),TODAY()-DATEVALUE(CreatedDate),
+IF(Opportunity__r.X1_if_Open__c=0,Opportunity__r.Close_Date_adj_for_Loss__c-DATEVALUE(CreatedDate),TODAY()-DATEVALUE(CreatedDate)))))</formula>
+        <label>Age (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alliance_Calculated_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Opportunity__r.of_Virtual_Machines__c)),92 * Opportunity__r.of_Virtual_Machines__c,
+IF(NOT(ISBLANK(Opportunity__r.of_Cores__c)),92 * Opportunity__r.of_Cores__c,null))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Alliance Calculated Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Alliance_Partner_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(LEFT(Alliance_Partner_Rep__c,FIND(&quot; &quot;,Alliance_Partner_Rep__c))&lt;&gt;&quot;&quot;,LEFT(Alliance_Partner_Rep__c,FIND(&quot; &quot;,Alliance_Partner_Rep__c)),Alliance_Partner_Rep__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Alliance Partner First Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alliance_Partner_Rep_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Alliance Partner Rep Email</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alliance_Partner_Rep_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Alliance Partner Rep Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Alliance_Partner_Rep__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Partner Rep</inlineHelpText>
+        <label>Alliance Partner Rep</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alliance_Partner_Sales_Manager__c</fullName>
+        <externalId>false</externalId>
+        <label>Alliance Partner Sales Manager</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alliance_Partner__c</fullName>
+        <externalId>false</externalId>
+        <label>Alliance Partner</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Alliance_Partners</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Alliance_Registration_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Alliance Registration Safe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alliance_Rep_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The Alliance Rep Notes field is meant for internal notes that are not BMC facing. Updating this field will not alert BMC of any changes made to the Registration.</inlineHelpText>
+        <label>Alliance Rep Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Alliance_Rep__c</fullName>
+        <externalId>false</externalId>
+        <label>Alliance Rep</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Alliance_Reps</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approved_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved By</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approved_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Closed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Closed_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Competitors__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Solutions Under Evaluation</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Core_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Core Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Account_Engagement_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>Customer_Account_Name__c &amp; &quot; (&quot; &amp; TEXT(Engagement_Status__c) &amp; &quot;)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Account (Engagement Status)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Account Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Contact Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Contact_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Contact Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Contact_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Contact Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Contact_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Contact Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Alliance Registrations</relationshipLabel>
+        <relationshipName>Alliance_Registrations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Website__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Website</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Days_Pending__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Registration_Status__c)&lt;&gt;&quot;Pending&quot;,null,
+IF(NOT(ISBLANK(Pending_Date__c)),TODAY()-Pending_Date__c,null))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Pending</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Denial_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Denial Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Denied_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Denied Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Engagement_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Engagement Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Green</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Environment_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Environment Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Incumbent</fullName>
+                    <default>false</default>
+                    <label>Incumbent</label>
+                </value>
+                <value>
+                    <fullName>Greenfield</fullName>
+                    <default>false</default>
+                    <label>Greenfield</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_Opportunity_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Opportunity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expiration_Date__c</fullName>
+        <defaultValue>DATE(YEAR(TODAY()),MONTH(TODAY()+6),DAY(TODAY()))</defaultValue>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Hardware_Vendor_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Hardware Vendor (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hardware_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Hardware Vendor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Arista</fullName>
+                    <default>false</default>
+                    <label>Arista</label>
+                </value>
+                <value>
+                    <fullName>Cisco</fullName>
+                    <default>false</default>
+                    <label>Cisco</label>
+                </value>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>Dell</fullName>
+                    <default>false</default>
+                    <label>Dell</label>
+                </value>
+                <value>
+                    <fullName>IBM</fullName>
+                    <default>false</default>
+                    <label>IBM</label>
+                </value>
+                <value>
+                    <fullName>Nutanix</fullName>
+                    <default>false</default>
+                    <label>Nutanix</label>
+                </value>
+                <value>
+                    <fullName>Oracle/Sun</fullName>
+                    <default>false</default>
+                    <label>Oracle/Sun</label>
+                </value>
+                <value>
+                    <fullName>SimpliVity</fullName>
+                    <default>false</default>
+                    <label>SimpliVity</label>
+                </value>
+                <value>
+                    <fullName>Other (Specify)</fullName>
+                    <default>false</default>
+                    <label>Other (Specify)</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Host_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Host Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hypervisor_Vendor_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Hypervisor Vendor (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hypervisor_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Hypervisor Vendor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>VMware</fullName>
+                    <default>false</default>
+                    <label>VMware</label>
+                </value>
+                <value>
+                    <fullName>Hyper-V (Microsoft)</fullName>
+                    <default>false</default>
+                    <label>Hyper-V (Microsoft)</label>
+                </value>
+                <value>
+                    <fullName>Xen (Open Source)</fullName>
+                    <default>false</default>
+                    <label>Xen (Open Source)</label>
+                </value>
+                <value>
+                    <fullName>Xen (Citrix)</fullName>
+                    <default>false</default>
+                    <label>Xen (Citrix)</label>
+                </value>
+                <value>
+                    <fullName>KVM (Openstack)</fullName>
+                    <default>false</default>
+                    <label>KVM (Openstack)</label>
+                </value>
+                <value>
+                    <fullName>KVM (Redhat)</fullName>
+                    <default>false</default>
+                    <label>KVM (Redhat)</label>
+                </value>
+                <value>
+                    <fullName>OracleVM</fullName>
+                    <default>false</default>
+                    <label>OracleVM</label>
+                </value>
+                <value>
+                    <fullName>Heterogeneous</fullName>
+                    <default>false</default>
+                    <label>Heterogeneous</label>
+                </value>
+                <value>
+                    <fullName>IBM PowerVM</fullName>
+                    <default>false</default>
+                    <label>IBM PowerVM</label>
+                </value>
+                <value>
+                    <fullName>Acropolis</fullName>
+                    <default>false</default>
+                    <label>Acropolis</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Other (Specify)</fullName>
+                    <default>false</default>
+                    <label>Other (Specify)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Next_Steps__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The Next Steps field is a public facing notes field that will alert the Alliance Partner and their team of any updates you make to this field. Use this if you want to provide an update to the Alliance Partner regarding this Registration.</inlineHelpText>
+        <label>Next Steps</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Alliance Registrations</relationshipLabel>
+        <relationshipName>Alliance_Registrations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Partner_First_Name_Capitalized__c</fullName>
+        <externalId>false</externalId>
+        <formula>UPPER(LEFT(Alliance_Partner_First_Name__c, 1)) &amp;MID(Alliance_Partner_First_Name__c, 2,LEN(Alliance_Partner_First_Name__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Partner First Name Capitalized</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pending_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Date Stamp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Competitor__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Competitor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Environment_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cirba</fullName>
+                    <default>false</default>
+                    <label>Cirba</label>
+                </value>
+                <value>
+                    <fullName>vRealize</fullName>
+                    <default>false</default>
+                    <label>vRealize</label>
+                </value>
+                <value>
+                    <fullName>SolarWinds</fullName>
+                    <default>false</default>
+                    <label>SolarWinds</label>
+                </value>
+                <value>
+                    <fullName>CloudForms</fullName>
+                    <default>false</default>
+                    <label>CloudForms</label>
+                </value>
+                <value>
+                    <fullName>Mesosphere</fullName>
+                    <default>false</default>
+                    <label>Mesosphere</label>
+                </value>
+                <value>
+                    <fullName>Kubernetes</fullName>
+                    <default>false</default>
+                    <label>Kubernetes</label>
+                </value>
+                <value>
+                    <fullName>RightScale</fullName>
+                    <default>false</default>
+                    <label>RightScale</label>
+                </value>
+                <value>
+                    <fullName>vFoglight</fullName>
+                    <default>false</default>
+                    <label>vFoglight</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Incumbent</controllingFieldValue>
+                <controllingFieldValue>Greenfield</controllingFieldValue>
+                <valueName>Cirba</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incumbent</controllingFieldValue>
+                <controllingFieldValue>Greenfield</controllingFieldValue>
+                <valueName>vRealize</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incumbent</controllingFieldValue>
+                <controllingFieldValue>Greenfield</controllingFieldValue>
+                <valueName>SolarWinds</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incumbent</controllingFieldValue>
+                <controllingFieldValue>Greenfield</controllingFieldValue>
+                <valueName>CloudForms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incumbent</controllingFieldValue>
+                <controllingFieldValue>Greenfield</controllingFieldValue>
+                <valueName>Mesosphere</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incumbent</controllingFieldValue>
+                <controllingFieldValue>Greenfield</controllingFieldValue>
+                <valueName>Kubernetes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incumbent</controllingFieldValue>
+                <controllingFieldValue>Greenfield</controllingFieldValue>
+                <valueName>RightScale</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_Opportunity_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Project/Opportunity Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Registration_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Status</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Incremental</fullName>
+                    <default>false</default>
+                    <label>Incremental</label>
+                </value>
+                <value>
+                    <fullName>Denied</fullName>
+                    <default>false</default>
+                    <label>Denied</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Manager__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Turbonomic Sales Manager</inlineHelpText>
+        <label>Sales Manager</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Rep__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Turbonomic Sales Rep</inlineHelpText>
+        <label>Sales Rep</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Socket_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Socket Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stage_of_Opportunity_when_Linked__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage of Opportunity when Linked</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Storage_Vendor_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Storage Vendor (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Storage_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Storage Vendor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Atlantis</fullName>
+                    <default>false</default>
+                    <label>Atlantis</label>
+                </value>
+                <value>
+                    <fullName>DataGravity</fullName>
+                    <default>false</default>
+                    <label>DataGravity</label>
+                </value>
+                <value>
+                    <fullName>Dell Compellent</fullName>
+                    <default>false</default>
+                    <label>Dell Compellent</label>
+                </value>
+                <value>
+                    <fullName>Dell MD Series (NetApp OEM)</fullName>
+                    <default>false</default>
+                    <label>Dell MD Series (NetApp OEM)</label>
+                </value>
+                <value>
+                    <fullName>EMC (Other)</fullName>
+                    <default>false</default>
+                    <label>EMC (Other)</label>
+                </value>
+                <value>
+                    <fullName>EMC (VMAX)</fullName>
+                    <default>false</default>
+                    <label>EMC (VMAX)</label>
+                </value>
+                <value>
+                    <fullName>EMC (VNX)</fullName>
+                    <default>false</default>
+                    <label>EMC (VNX)</label>
+                </value>
+                <value>
+                    <fullName>EMC (VNX-F)</fullName>
+                    <default>false</default>
+                    <label>EMC (VNX-F)</label>
+                </value>
+                <value>
+                    <fullName>EMC (XtremIO)</fullName>
+                    <default>false</default>
+                    <label>EMC (XtremIO)</label>
+                </value>
+                <value>
+                    <fullName>Heterogeneous</fullName>
+                    <default>false</default>
+                    <label>Heterogeneous</label>
+                </value>
+                <value>
+                    <fullName>Hitachi</fullName>
+                    <default>false</default>
+                    <label>Hitachi</label>
+                </value>
+                <value>
+                    <fullName>HP (3PAR)</fullName>
+                    <default>false</default>
+                    <label>HP (3PAR)</label>
+                </value>
+                <value>
+                    <fullName>HP (Other)</fullName>
+                    <default>false</default>
+                    <label>HP (Other)</label>
+                </value>
+                <value>
+                    <fullName>IBM</fullName>
+                    <default>false</default>
+                    <label>IBM</label>
+                </value>
+                <value>
+                    <fullName>IBM N Series (NetApp OEM)</fullName>
+                    <default>false</default>
+                    <label>IBM N Series (NetApp OEM)</label>
+                </value>
+                <value>
+                    <fullName>NetApp</fullName>
+                    <default>false</default>
+                    <label>NetApp</label>
+                </value>
+                <value>
+                    <fullName>Nimble Storage</fullName>
+                    <default>false</default>
+                    <label>Nimble Storage</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Nutanix</fullName>
+                    <default>false</default>
+                    <label>Nutanix</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>Other (Specify)</fullName>
+                    <default>false</default>
+                    <label>Other (Specify)</label>
+                </value>
+                <value>
+                    <fullName>Pure Storage</fullName>
+                    <default>false</default>
+                    <label>Pure Storage</label>
+                </value>
+                <value>
+                    <fullName>SolidFire</fullName>
+                    <default>false</default>
+                    <label>SolidFire</label>
+                </value>
+                <value>
+                    <fullName>Tegile</fullName>
+                    <default>false</default>
+                    <label>Tegile</label>
+                </value>
+                <value>
+                    <fullName>Tintri</fullName>
+                    <default>false</default>
+                    <label>Tintri</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Violin Memory</fullName>
+                    <default>false</default>
+                    <label>Violin Memory</label>
+                </value>
+                <value>
+                    <fullName>XtremIO</fullName>
+                    <default>false</default>
+                    <label>XtremIO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Third_Party_Opportunity_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>3rd Party Opportunity ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X1_if_Opportunity_Attached__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Opportunity__c),0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>1 if Opportunity Attached</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Alliance Registration</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>TURBO{00000}</displayFormat>
+        <label>Alliance Registration Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Alliance Registrations</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Alliance_Create_Only</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+$UserRole.Name&lt;&gt;&quot;VP of LATAM Sales and Global Accounts US&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Global Accounts US&quot;)),
+$UserRole.Name&lt;&gt;&quot;Alliance Manager&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$User.Full_Name__c&lt;&gt;&quot;Gregory Dunn&quot;)</errorConditionFormula>
+        <errorMessage>You do not have access to create an Alliance Registration. Please contact a strategic alliance team member to create the registration.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Closed_Reason</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Registration_Status__c),
+TEXT(Registration_Status__c)=&quot;Closed&quot;,
+ISBLANK(Closed_Reason__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Closed_Reason__c</errorDisplayField>
+        <errorMessage>Please fill in the Closed Reason so that the Alliance Partner is notified.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Denial_Reason</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Registration_Status__c),
+TEXT(Registration_Status__c)=&quot;Denied&quot;,
+ISBLANK(Denial_Reason__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Denial_Reason__c</errorDisplayField>
+        <errorMessage>Please fill in the Denial Reason so that the Alliance Partner is notified.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

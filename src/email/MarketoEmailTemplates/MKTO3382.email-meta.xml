@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: Confirming your attendance for Monday (1513867940.0)</name>
+    <style>none</style>
+    <subject>RE: Confirming your attendance for Monday (1513867940.0)</subject>
+    <textOnly>Good Morning Rick, Happy Holidays, wanted to reach out to first thank you for your attendance at the Bulls game. As a Celtics fan it was definitely not my preferred outcome but always good for the hometown team to come away with a W. I know you met several colleagues of mine at the event, and from what they’ve told me it sounds like it was an interesting discussion. My ask is to sync up with you to go a bit more in depth about what Turbonomic has to offer and uncover any areas that we could fit into in terms of your 2018 roadmap. Do you have any time available later this week? I know things are hectic during the holiday season but let me know if you could carve out 30 minutes or so.  Thanks,Alex From: Hermes, Rick [mailto:Rick.Hermes@vwcredit.com] 
+Sent: Friday, December 8, 2017 9:44 AM
+To: Alexander Opiela &lt;alexander.opiela@turbonomic.com&gt;; Ahmed, Rehan &lt;Rehan.Ahmed@vwcredit.com&gt;
+Subject: RE: Confirming your attendance for Monday Alex -  Yes – still plan on being there. Thanks Rick From: Alexander Opiela [mailto:alexander.opiela@turbonomic.com &lt;[[mailto:alexander.opiela@turbonomic.com]]&gt;] 
+Sent: Thursday, December 7, 2017 8:27 AM
+To: Ahmed, Rehan &lt;Rehan.Ahmed@vwcredit.com &lt;[[mailto:Rehan.Ahmed@vwcredit.com]]&gt;&gt;; Hermes, Rick &lt;Rick.Hermes@vwcredit.com &lt;[[mailto:Rick.Hermes@vwcredit.com]]&gt;&gt;
+Subject: Confirming your attendance for Monday Good Morning Guys, Just left you both a voicemail, I wanted to reach out to confirm you still plan on attending the executive networking event @ the Bulls/Celtics game on Monday.  Can you confirm you plan on attending? Looking forward to it! Cheers,Alex Alex Opiela | TurbonomicO: 857.305.5823 M: 508.838.0272 This message and its attachments are intended only for the designated recipient(s). It may contain confidential or proprietary information and may be subject to legal or other confidentiality protections. If you are not a designated recipient, you may not review, copy or distribute this message. If you receive this in error, please notify the sender by reply e-mail and delete this message. Thank you.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

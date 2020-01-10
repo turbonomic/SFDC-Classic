@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-08-08-US Open Moran &amp; Martin Contacts</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-08-08-US Open Moran &amp; Martin Acct Send.EM-2017-08-08-US Open Moran &amp; Mar</name>
+    <style>none</style>
+    <subject>Your Invitation - Opening Night at The US Open</subject>
+    <textOnly>Good afternoon {{lead.First Name:default=Friend}},
+
+You have been invited by {{lead.Territory Owner (L):default=your Turbonomic Account Executive}} to attend the 2017 Opening Night at the US Open at Arthur Ashe Stadium on Monday, August 28th 2017. 
+All guests will have unlimited access to the Chase Center Hospitality Pavilion throughout the entire evening and you will be able to learn from your Turbonomic Account Executive about our upcoming release, Turbonomic 6.0, as well as organizations are using Turbonomic’s hybrid cloud management platform to optimize their hybrid environments with Cisco UCS.
+
+
+Please RSVP on the link below to save your seat, as space is very limited at the Turbonomic loge.
+ 
+
+https://turbonomic.com/turbonomic-executive-networking-event-us-open/ &lt;[[https://turbonomic.com/turbonomic-executive-networking-event-us-open/]]&gt; 
+
+
+When: Monday, August 28th 2017 6:00PM
+Where: Arthur Ashe Stadium; Chase Center Hospitality Pavilion 
+Address: 124-02 Roosevelt Ave, Flushing, NY 11368 
+
+
+I hope to see you there!
+ 
+
+Your friends at Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

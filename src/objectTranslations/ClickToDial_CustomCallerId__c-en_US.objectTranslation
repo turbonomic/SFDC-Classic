@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ClickToDial_Custom Caller Id</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ClickToDial_Custom Caller Id</value>
+    </caseValues>
+    <fields>
+        <help><!-- Caller Id ex +1 844-438-8872 --></help>
+        <label><!-- CallerId --></label>
+        <name>CallerId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Caller id prefix ex., *844 --></help>
+        <label><!-- Prefix --></label>
+        <name>Prefix__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

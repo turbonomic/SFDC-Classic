@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-20-Field-West-RD-Sponsored-Portland.Marketing Invitation 2.EMAIL - L</name>
+    <style>none</style>
+    <subject>Join Me: Portland Trailblazers vs Houston Rockets</subject>
+    <textOnly>&lt;[[https://turbonomic.com/vip-portland/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+My name is Luke Martindale and it is a pleasure to meet you. I recently came on board with Turbonomic to help my customers transform their hybrid cloud estates with workload automation.
+
+I would love to begin our partnership by inviting you to join me for an exclusive invite only networking event that we are hosting on Tuesday, March 20th as the Trailblazers take on the Rockets &lt;[[https://turbonomic.com/vip-portland/]]&gt;. The night will be full of networking, food, drink and hopefully a Trailblazers victory.
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/vip-portland/]]&gt; as soon as possible.
+
+Have a great night,
+
+Luke Martindale</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

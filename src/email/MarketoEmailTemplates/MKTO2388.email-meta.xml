@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-11-15-Q4 Town Hall.EMAIL-Invite #2</name>
+    <style>none</style>
+    <subject>Partner Town Hall Meeting + VDI Campaign</subject>
+    <textOnly>Dear {{lead.First Name:default=Partner}}, 
+We are excited to invite you to our Partner Town Hall Meeting &lt;[[https://turbonomic.com/turbonomic-2016-q4-partner-town-hall-meeting/]]&gt; next week on Tuesday, November 15th at 11:00 AM EST. If you haven&apos;t already done so, be sure to register here! &lt;[[https://turbonomic.com/turbonomic-2016-q4-partner-town-hall-meeting/]]&gt; We have many exciting topics we will be discussing in the webinar, one of which is our new VDI Campaign for Q4 that I want to share more about with you today before next Tuesday... 
+As you&apos;re aware, VDI environments are highly volatile, plagued by unpredictable demand resulting in often unreliable performance. From managing storage I/O, to accommodating end-user expectations to determining proper sizing and placement for new instance deployments, overseeing the VDI infrastructure isn&apos;t an easy job. 
+Turbonomic currently controls more than 983,000 VDI workloads for hundreds of customers, executing roughly 33,000 actions per day. Thanks to Turbonomic, these workloads are properly sized, placed and provisioned to maintain a healthy VDI environment that delivers a quality end-user experience. 
+As a trusted advisor and valued partner, Turbonomic is offering a special discount to partners who register a deal with a customer who has a VDI environment. In addition, once that deal closes, Turbonomic is offering an additional discount on any subsequent deal that closes within 90 days of the first VDI deal. 
+For more information on the VDI campaign, be sure to attend our Quarterly Town Hall next week. Also, be sure to review the promotion with your team on the Partner Portal. &lt;[[https://greencircle.vmturbo.com/docs/DOC-3960]]&gt;
+
+
+Look forward to seeing you on the call,
+
+Sean Finnegan 
+Vice President of Channel Sales</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

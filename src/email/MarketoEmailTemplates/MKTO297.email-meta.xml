@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Netapp Insight Follow up Email2.Email plain</name>
+    <style>none</style>
+    <subject>Exciting News- VMTurbo and JPMC</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+We’re very excited to be working with the NetApp team to enable your customers to overcome challenges with maintaining consistent application workload performance as they scale out cloud and virtualization 
+infrastructures. By increasing the reliability and ROI of the Data ONTAP platform by up to 30%, NetApp can reduce the expense associated with addressing customer performance issues and can differentiate itself with application service assurance, enhancing its competitive advantage.
+
+VMTurbo was recently recognized by JPMorgan Chase, which inducted us into the Innovation Hall of Fame &lt;http://bit.ly/16w1bgT&gt;. A recent survey revealed that 89% of our customer realized value within just 3 months of deployment. 
+
+We look forward to working with you and the NetApp team and partner network to bring this added value to ONTAP customers.
+
+Sincerely,
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

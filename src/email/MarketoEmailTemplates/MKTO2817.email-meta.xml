@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-06-21-TESM Webinar.Send</name>
+    <style>none</style>
+    <subject>Webinar: TESM and Turbonomic</subject>
+    <textOnly>Join TESM&apos;s webinar on Thursday, 6th July at 11.30 (BST).
+TESM and Turbonomic will show you how ServiceNow ITSM solutions and hybrid cloud management, can be brought together to help you in the multi-dimensional challenge of aligning business demand with IT supply:
+
+
+	- How do you assure application performance while remaining efficient and cost-effective?
+	- How do you continue to comply with appropriate regulatory and other policy requirements?
+	- How do you embrace the agility, elasticity, flexibility and responsiveness that the cloud offers, without compromising your ITSM governance processes and controls?
+
+
+We hope you will be able to join us to find some answers to these challenges.
+The session will be presented by TESM Strategic Consultant, Stuart Hasking &lt;[[http://mail.tesm.com/t/i-i-olrjrkt-idkhuyddt-y/]]&gt;, and Anson McCook &lt;[[http://mail.tesm.com/t/i-i-olrjrkt-idkhuyddt-j/]]&gt;, Senior Manager, Sales Engineering, Turbonomic.
+ REGISTER NOW &lt;[[http://mail.tesm.com/t/i-i-olrjrkt-idkhuyddt-t/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

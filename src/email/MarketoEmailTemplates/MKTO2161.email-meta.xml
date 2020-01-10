@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Revisit Turbonomic (1493222178.0)</name>
+    <style>none</style>
+    <subject>Revisit Turbonomic (1493222178.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Loren-I wanted to reach out to see if you had time for a quick phone call surrounding Turbonomic. I know you have talked to us in the past but timing never seemed right, so I wanted to get back on the radar and see if we can touch base! Let me know if you have 20 minutes to spare for a quick phone call. Thank you,Katie                     Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

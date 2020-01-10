@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Triggered_Nurture_Campaign_Trial_Q4.Triggered_Nurture_Campaign_Trial_Q4</name>
+    <style>none</style>
+    <subject>=?UTF-8?q?=F0=9F=A4=94?= What would you do differently?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001j4zaAAA]]&gt;
+Hi {{lead.First Name:default=there}},
+Digital apps and services are growing exponentially, increasing the scale and complexity of your hybrid and multi-cloud infrastructure. How can you assure performance under these circumstances? Turbonomic relies on the economic principles of supply and demand, giving workloads the resources they need when they need them.
+ 
+
+Download our free trial &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001j4zaAAA]]&gt; today to see how you can leverage Turbonomic&apos;s autonomic decision engine to assure performance, manage cost and maintain compliance.
+
+ &lt;[[https://turbonomic.com/request-a-demo]]&gt; 
+
+
+
+Download 
+Trial &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001j4zaAAA]]&gt;
+
+
+
+
+ 
+
+With Turbonomic 
+continuously assuring performance, while maintaining compliance and minimizing cost, what new projects could you tackle? What new problems could you solve? Download our free trial &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001j4zaAAA]]&gt; today and see for yourself!
+ 
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

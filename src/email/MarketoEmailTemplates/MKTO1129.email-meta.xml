@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Tech Field Day Customer Send.TFD5 Invite</name>
+    <style>none</style>
+    <subject>Virtualization Field Day Live Hosted By VMTurbo!</subject>
+    <textOnly>&lt;http://techfieldday.com/event/vfd5/&gt;
+Hi {{Lead.First Name}},
+Tune in toady at 10:00 AM to 12:00 PM EST as VMTurbo hosts Virtualization Field Day 5, live from our brand new offices in downtown Boston.
+If you aren&apos;t familiar with the Tech Field Day Series, these events bring together vendors and members from the community to have technical discussions about various vendors&apos; products and offerings and are streamed live on their website &lt;http://techfieldday.com/event/vfd5/&gt;.
+The full listing of the vendors presenting, including the schedule can be found here &lt;http://techfieldday.com/event/vfd5/&gt;. 
+We hope to see you on the live stream and make sure to engage with the #VFD5 hashtag on Twitter for more exciting news!
+ &lt;http://techfieldday.com/event/vfd5/&gt;
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Product-Nurture40.Email</name>
+    <style>none</style>
+    <subject>VMTurbo Trial: What did you think?</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+
+I hope you had a positive experience with your trial download of VMTurbo Operations Manager. If you would like to download &lt;http://go.vmturbo.com/new-community-edition-license.html&gt; our Community Edition you can benefit from its monitoring and reporting features.
+
+I’d love to get your feedback on your experience with our trial. You can take our eight-question (no kidding) survey &lt;http://www.surveymonkey.com/s/63NJJZD&gt; in a minute or two (really, no kidding). Let us know what we do well and where we need improvement. Don’t hold back. We welcome your comments and suggestions.
+
+And, if you’re missing the rich features of the Enterprise or Cloud Edition, let’s discuss putting a quote together!
+
+Thank you!
+
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

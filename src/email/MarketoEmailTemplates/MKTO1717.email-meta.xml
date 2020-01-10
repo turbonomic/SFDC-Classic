@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WC-2014-11-Phantom Drone 5.0.Confirmation Email to Lead</name>
+    <style>none</style>
+    <subject>Phantom 2 Vision+ Entry and 5.0 Control Module License</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Thank You for Downloading, {{lead.First Name:default=}}
+Get Your License Key Here. &lt;http://go.vmturbo.com/new-cloud-edition-license.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=phantom&gt;
+{{Lead.First Name:default=Turbofriend}},
+
+Thank you for downloading a free trial of VMTurbo 5.0, the world&apos;s only software-driven decision engine for cloud and virtual environments.
+
+You have been entered into our drawing pool for a coveted Phantom 2 Vision+ RC Dronecopter. Drawings will be held November 28, 2014; December 19, 2014; and January 30, 2015 (Click for Terms &amp; Conditions &lt;http://vmturbo.com/5_0-phantom-terms-conditions/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=phantom&gt;).
+
+Once you&apos;ve deployed your instance of VMTurbo 5.0 &lt;http://vmturbo.com/resources/vmturbo-quick-start-guide/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=phantom&gt;, click the button below to access a trial license for our newest Control Modules:
+
+ - Network Control
+ - Hybrid Cloud Control
+ - VDI Control
+ - Application Control
+ - Container Control
+Get Control Modules &lt;http://vmturbo.com/vmturbo-control-module-download/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=phantom&gt;
+Downloads
+White Papers
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Marketing Invite 2</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-01-23-Field-East-RD-Sponsored-Montreal.ES-2017-12-18-Montreal-04.Send</name>
+    <style>none</style>
+    <subject>RSVP: Montreal Networking Event with Cisco and Turbonomic</subject>
+    <textOnly>&lt;[[turbonomic.com/vip-montreal]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+We&apos;re looking forward a fantastic evening filled with food, drinks, and of course, hockey as the Canadiens take on the Avalance. 
+Will you join us, Cisco, and your technology peers on January 23rd?
+
+Montreal IT Networking Event: Hosted by Cisco &amp; Turbonomic
+Montreal Canadiens vs Colorado Avalanche
+
+Bell Centre; 1909 Avenue des Canadiens-de-Montréal
+Montréal, QC H4B 5G0, Canada
+Tuesday, January 23rd 6:30pm
+ &lt;[[https://turbonomic.com/vip-montreal/]]&gt;
+
+
+
+
+
+
+
+
+We hope to see you there,
+
+
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

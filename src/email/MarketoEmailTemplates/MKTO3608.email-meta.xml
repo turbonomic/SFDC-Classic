@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMEA_Tier2_Commercial_Warm_EB.EMEA_Tier3_Commercial_Cold_EB_Nurture_Email4</name>
+    <style>none</style>
+    <subject>BMC Delivers Cloud Economics on and off premises with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Once BMC turned Turbonomic on, they instantly saw a 25% increase in overall capacity. Not only that - application performance went through the roof.
+
+ &lt;[[https://turbonomic.com/resources/videos/cloud-economics-on-prem-or-off-with-turbonomic-bmc/]]&gt;
+
+“The return on investment was instantaneous for us. Think about not having to spend $5 or $10 million to meet the next year&apos;s capacity demand.” - Scott Crowder, Chief Information Officer, BMC
+
+Schedule a Demo &lt;[[https://turbonomic.com/request-a-demo/]]&gt; and learn how Turbonomic can help your IT organization optimize for performance, cost, and compliance in real-time.
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

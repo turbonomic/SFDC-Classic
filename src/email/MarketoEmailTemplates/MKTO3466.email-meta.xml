@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-12-Field-East-ESB-New-York.ES-2018-02-13 Exec 1 Gary.EM-2018-02-13 E</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: New York Executive Networking Reception and Rangers Game</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+
+
+
+In my years of experience in technology and business leadership, I have had the privilege of watching IT go through waves of transformation from a birds-eye view. As an Operating Partner at General Atlantic, I focus on partnering with high growth technology companies, in addition to serving on the boards of enterprises such as Citigroup, HPE, AppDynamics and Turbonomic. All previous waves pale in comparison to that which we observe today. Data center and cloud advancements are happening at an unprecedented rate. That means more decisions will have to be made, requiring a broader set of skills to keep your workloads healthy. 
+
+I cordially invite you to join myself and dozens of our fellow IT leaders in Los Angeles for the upcoming  New 
+York Executive Networking Event: Workload Automation for Your Hybrid Cloud &lt;[[https://turbonomic.com/exec-newyork/]]&gt;  &lt;[[https://turbonomic.com/vip-losangeles/]]&gt; &lt;[[https://turbonomic.com/vip-losangeles/]]&gt;hosted by Turbonomic, Cisco, and AppDynamics, on Monday, March 12th 2018 at the Cisco NYC Offices for a presentation and reception at 4:00 p.m., followed by 
+a New York Rangers Game in the Turbonomic Suite at the Madison Square Garden. 
+
+
+This event is a great opportunity to meet with peers, share challenges, and discuss trends. It is my goal and hope that this networking opportunity will be 
+intellectually stimulating and beneficial for all. Following our reception, myself and your technology peers will take our seats in the Turbonomic Suite to cheer on the Rangers as they take on the Carolina Hurricanes
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/exec-newyork/]]&gt; as soon as possible.
+
+
+
+Yours sincerely,
+Gary
+
+
+
+
+Gary Reiner
+Operating Partner
+General Atlantic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

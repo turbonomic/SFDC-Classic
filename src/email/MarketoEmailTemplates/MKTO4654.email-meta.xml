@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Azure_Cold_Nurture.Azure_Cold_Nurture_Email_5</name>
+    <style>none</style>
+    <subject>Assure Performance. Ensure Compliance. Minimize Cost.</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/template/performance-and-cost-optimization-with-microsoft-azure-whitepaper?utm_campaign=70157000001bY5vAAE]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+
+
+IT teams across industries are being called on to transform their infrastructure for agility and elasticity. Increasingly, these teams turn to the hybrid cloud in an attempt to achieve these objectives. But, while hybrid cloud presents incredible opportunity, there are many operational and management risks to consider in your journey.
+
+
+Check out our whitepaper &lt;[[https://resources.turbonomic.com/template/performance-and-cost-optimization-with-microsoft-azure-whitepaper?utm_campaign=70157000001bY5vAAE]]&gt; to see how you and your team can optimize your hybrid cloud strategy.
+
+ &lt;[[https://resources.turbonomic.com/template/performance-and-cost-optimization-with-microsoft-azure-whitepaper?utm_campaign=70157000001bY5vAAE]]&gt;
+
+See how you and your team achieve elasticity in Azure through Turbonomic&apos;s AI-powered decision engine which uses the principles of supply and demand to scale your capacity as needed. 
+
+We hope you find it helpful!
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Whitepaper-Nurture15.Email</name>
+    <style>none</style>
+    <subject>Join VMTurbo for a live demonstration</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Managing the virtualized environment of today is significantly more complex than just keeping the plates spinning.  There are important business needs and goals that must be met:
+
+
+ - Assure continuous performance for all applications—especially business-critical ones
+ - Make the best use of the physical infrastructure because it directly affects operating costs
+ - Develop a forward-looking cost/benefit analysis for hardware refresh, higher VM density, and infrastructure growth
+
+
+VMTurbo offers bi-weekly webinars with a live demonstration of VMTurbo Operations Manager in a group setting that allow you to explore how we can help you address these challenges. Sign up &lt;http://www.vmturbo.com/events/vmturbo-bi-weekly-live-demo-series/&gt; for one today. If you’d prefer a one-on-one experience with one of our support engineers, you can schedule a demo &lt;http://go.vmturbo.com/request-a-demo.html&gt;.
+
+Thank you,
+
+{{lead.Lead Owner First Name:default=VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}
+phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

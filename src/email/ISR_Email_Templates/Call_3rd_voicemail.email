@@ -1,0 +1,12 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+I'm very interested in learning about your company's management strategy regarding the virtualized data center. Any organization that has made a significant investment in virtualization has been tasked with analyzing and finding the equilibrium between the supply of physical resources and the demands of virtual assets. VMTurbo is uniquely positioned to address the continuous struggle of minimizing storage and server costs while assuring that workloads get the resources they need.<br/ ><br/ >
+
+Our software was developed by a team of world-renowned PhD's in the management software space. Our product is easy to use, installs quickly requiring no agents, and can scale to thousands of VM's. The potential of achieving continuous health across your infrastructure is an opportunity that has been very appealing to our thousands of user. Our unique approach is part of why we earned Gartner's 2011 Cool Vendor Award. I'd welcome the opportunity to discuss this further with you and/or any of your colleagues. Please let me know how and when to reach you. <br/ ><br/ >
+
+
+Best regards, <br/ ><br/ >
+{!User.FirstName} {!User.LastName}<br/ ><br/ >
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br/ >
+<a href="http://tiny.cc/4kmu4">Top 10 Reasons to Choose VMTurbo</a> <br />

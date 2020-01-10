@@ -1,0 +1,13 @@
+Account: {!Opportunity.Account}
+Opportunity Name: {!Opportunity.Name}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Owner Team: {!Opportunity.Owner_Team__c}
+Current Stage: {!Opportunity.StageName}
+
+Amount: {!Opportunity.Amount}
+# of Sockets: {!Opportunity.of_CPU_Sockets__c}
+# of VMs: {!Opportunity.of_Virtual_Machines__c}
+First Demo Date: {!Opportunity.First_Demo_Date__c}
+
+Opportunity Link: {!Opportunity.Link}
+To see all your approval requests, go here: https://eu4.salesforce.com/04i

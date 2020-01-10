@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EM-2017-04-25-SEC-HendersonD.EM-2017-04-25-Henderson #1</name>
+    <style>none</style>
+    <subject>Can I Send You to the Kentucky Derby?</subject>
+    <textOnly>Hi {{lead.First Name:default=Friend}},
+
+ 
+I hope this note finds you well! As you may have seen, Turbonomic is offering the chance for four lucky winners to attend the upcoming Kentucky Derby. All it takes to be entered to win is filling out a brief survey and scheduling a quick 30-minute meeting with a Turbonomic engineer! 
+ 
+One Grand Prize winner &lt;[[https://www.surveymonkey.com/r/XRDTN8K?marketo_zs00ja7e8g=%5bmarketo_zs00ja7e8g_value%5d&amp;marketo_ff0s7l5qls=%5bmarketo_ff0s7l5qls_value%5d&amp;marketo_olh86f3r9s=%5bmarketo_olh86f3r9s_value%5d&amp;marketo_day0sfb59s=%5bmarketo_day0sfb59s_value%5d&amp;marketo_qqebotxyuo=%5bmarketo_qqebotxyuo_value]]&gt; will receive a pair of Reserved Seats (valued at more than $1,200), and three winners will receive a pair of General Admission tickets to enjoy the full weekend at Churchill Downs!
+ 
+Simply fill out this brief survey &lt;[[https://www.surveymonkey.com/r/XRDTN8K?marketo_zs00ja7e8g=%5bmarketo_zs00ja7e8g_value%5d&amp;marketo_ff0s7l5qls=%5bmarketo_ff0s7l5qls_value%5d&amp;marketo_olh86f3r9s=%5bmarketo_olh86f3r9s_value%5d&amp;marketo_day0sfb59s=%5bmarketo_day0sfb59s_value%5d&amp;marketo_qqebotxyuo=%5bmarketo_qqebotxyuo_value]]&gt; and we will be in contact shortly. Looking forward to speaking with you!
+ 
+Best,
+Dwight
+
+
+
+
+Dwight Henderson Jr. | Account Executive
+Mobile: (508) 494-0619
+Office: (857) 305-5779
+
+VMTurbo is now Turbonomic &lt;[[http://turbonomic.com/turbonomic/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

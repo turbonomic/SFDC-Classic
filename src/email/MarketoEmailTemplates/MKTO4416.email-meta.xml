@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-12-17 Trial Promo 2 - MQLs.ES-2018-12-18 Trial Promo 2 - MQLs</name>
+    <style>none</style>
+    <subject>Assure Application Performance through Automation</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+The challenges of today require more than traditional scripting and orchestration. They need an AI-powered infrastructure which enables decision automation. Check out Turbonomic CEO, Benjamin Nye &lt;[[https://resources.turbonomic.com/videos/thecube-ai-ops]]&gt;, discussing AI-Powered workload management on theCUBE.
+
+
+ &lt;[[https://resources.turbonomic.com/videos/thecube-ai-ops]]&gt;
+ &lt;[[https://turbonomic.com/press-releases/hiscox-cio-joins-turbonomic-board-of-directors/]]&gt;
+
+We are proud to be leading the charge towards AI Ops at Turbonomic. With our AI-powered platform, customers empower the IT organization to embrace trustworthy, full-stack automation, and get back to the business of innovation.
+
+
+Don&apos;t take our word for it. Explore Turbonomic for yourself. Download a 30-day free trial of Turbonomic today! &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001j4nFAAQ]]&gt;
+
+
+Best,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2017-02-14-Microsoft Ignite Australia.EMAIL-Microsoft Ignite Booth Promo</name>
+    <style>none</style>
+    <subject>Turbonomic at Microsoft Ignite</subject>
+    <textOnly>See Turbonomic at Microsoft Ignite
+Real Time. Self Managing. Application Performance.
+Turbonomic is thrilled to be attending Microsoft Ignite Australia 2017. We will be demonstrating our patented Autonomic Platform--revealing how it continuously analyses application demand and automatically allocates shared resources in real-time. Stop by stand 42 to learn more, grab some swag or simply say hello!
+Turbonomic
+
+500 Boylston St, 8th Floor 
+ 
+ Boston, MA 
+ 
+ 02116</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

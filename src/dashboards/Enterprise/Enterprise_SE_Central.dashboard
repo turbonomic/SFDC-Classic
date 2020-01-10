@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>East Sales Engineers Dashboard</description>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>This is the goal, but focus on the small steps to get to the #s you want.  This means converting up the pipeline and getting technical wins.  Your are no responsible for closing the deal, sales is.</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Bookings_this_FY</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Bookings Closed YTD</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>This includes all Opps in your name targeted to closed by end of quarter.  Convert, Convert, Convert.</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Cent_Ops_Forcasted_to_close_this_Q</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Opportunities Forecasted to Close this Q</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Be consistent and accurate with SalesForce!  If things aren&apos;t being logged chase them down.  We&apos;re judged more on this than anything else.</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Mtgs_Completes_This_Q</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Meetings Completed This Quarter</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>We need to make sure SF is as accurate as possible - In a lot of ways this is how we are measured as individuals and a group</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Cent_Meetings_Completed_This_Week</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Meetings Completed This Week By SE</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Measures how long it takes for your first demo in each open opp identify and above to move to Eval Start (Upside)</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Demo_to_Eval_Conversion</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>First Demo to Eval Started Conversion</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Use this to pay attention to all of your open Ops including those forecasted to close next year.  Make sure nothing falls through the cracks.</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>99</maxValuesDisplayed>
+            <report>Sales_Engineer_Reports/ESE_East_All_Open_Ops</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>All Open Opportunities by SE</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Let&apos;s try to keep this chart empty! Follow up with your technical contacts!</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Cent_POC_w_No_Activity_for_2_Wks</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Active POCs w/ No Activity Last 2 Weeks</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Beat your sales people with sticks, these waste our time when we could be doing more important things.</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_No_Shows_this_Q</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>No-Shows This Quarter</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>How long is it taking us from comittment to POC after initial install (eval start date) to Eval complete date and technical win?</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Ups_to_SU_Conversion</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>How long from upside to tech win?</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Focus on how to progress these to close and work with your AEs on the POCs and SU deals that are pushing to the 2-3months and later range. Why is this happening?</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Active_POCs_Ups_and_SU</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>All Active POCs Ups and SU by Duration</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Evals Started in the current FQ</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Evals_This_Q</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Evals Started Q1 and Q2 By SE/Opp Name</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Measures the proportion of First Demos on Open Opps that progress or get unqualified after the initial call.  Work with your AEs on why the Demo was unqualified and what we could have done better</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Demos_to_Op_vs_Unqual</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>First Demo Conversion Rate to OPP vs Unq</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Engineer_Reports/ESE_Central_Demos_Unqualed_by_time</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Out of Demo&apos;s Unqualed - How many days?</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </rightSection>
+    <runningUser>don.mckeith@vmturbo.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Enterprise SE Central</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

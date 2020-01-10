@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-QoS-Nurture.ENG-QOS-Early-04.04-30-Day-Trial</name>
+    <style>none</style>
+    <subject>Guarantee QOS Adherence</subject>
+    <textOnly>&lt;[[http://vmturbo.com/download-vmturbo-operations-manager-direct?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-QOS&amp;utm_content=Early04]]&gt;
+Hi {{Lead.First Name}},
+Mission-critical applications with SLAs, such as ecommerce sites and transaction systems, strive for the very best in application performance. With VMTurbo you are able to define QoS levels (response time or transactions per second) for any application. The software then continuously controls the environment in a state in which the specified QoS levels are delivered.
+When a QoS goal is defined for applications (all or some), for example 500 ms latency or 1,000 transactions per minute, VMTurbo applies its market abstraction to take care of the rest. QoS levels are simply another dimension that VMTurbo uses to refine an environment’s Desired State.
+Are you ready to see all that VMTurbo has to offer you? Give the free trial a shot &lt;[[http://vmturbo.com/download-vmturbo-operations-manager-direct?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-QOS&amp;utm_content=Early04]]&gt; and see just how VMTurbo will drive your environment to perpetual health.
+ &lt;[[http://vmturbo.com/downloads/operations-manager-30-day-trial?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-QOS&amp;utm_content=Early04]]&gt;
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>only for open opportunities &amp; customers</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>VMworld US 2012 invite</name>
+    <style>none</style>
+    <subject>Will you be at VMworld? Get a Preview from VMTurbo</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+VMTurbo will be exhibiting at VMworld in San Francisco later this month. If you are planning to attend, we’d like to invite you to come by the booth (#2222) and spend some time with our technical and executive teams to learn more about how our technology is driving down the operating costs and improving performance of the virtual infrastructure at hundreds of companies just like yours.
+
+If you are not heading to the show, or if you’d like a “sneak peek” at what we’ll be showing – I would be glad to set up some time with our team here to understand your key initiatives for the rest of 2012 and discuss how VMTurbo Operations Manager can deliver the intelligent control and automated decision-making you need to get the most out of your virtual environment. Reduce the burden on your operations team, improve utilization of your physical resources, prevent problems and assure applications have the resources they require to deliver on business goals – all with easy to install virtual appliance that controls any hypervisor environment.
+
+Reply now to book some time at the show or beforehand. I look forward to speaking with you soon – or seeing you out in San Francisco.
+
+Best Regards,
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

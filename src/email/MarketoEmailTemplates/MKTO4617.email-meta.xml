@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-04-10 Maximize VMware.ES-04-09 Last Chance 2.Email A</name>
+    <style>none</style>
+    <subject>Last Chance! Maximize Your VMware Ecosystem</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/]]&gt;
+
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+I wanted to make sure you didn&apos;t miss out. This is your last call to join Eric Wright, a multi-year VMware vExpert and our Technology Evangelist, as he discusses how you can assure application 
+performance and maximize efficiency in your VMware ecosystem. 
+
+
+
+
+
+
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/]]&gt;
+
+
+
+
+
+
+
+
+Join our webinar tomorrow as we look at how to know the best way to leverage what you have today and how to evaluate what the future of product and practices should look like to maximize your VMware ecosystem.
+
+
+I hope you&apos;ll join us! Register now &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/]]&gt; and enter to win a $100 Amazon Gift Card. 
+
+ 
+Thanks,
+Andrew
+ 
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-maximize-vmware/?mkt_tok=eyJpIjoiWVdJNE16VXpOVFpoWVRWaiIsInQiOiJpSytmNnFDN0NcL3Rrb0pQVGNxTFF6K1wvbG5VRTIxbTBHTjJhMU9Jb280RUhUOHFWSkgyYU9MVUJoMUx0Q3lkT1JcL0txVktqdm41bjBlRHpqcEdVczFhZz09In0=]]&gt; and we will send 
+you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

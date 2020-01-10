@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>***Insert Personalized Subject*** (1492797969.0)</name>
+    <style>none</style>
+    <subject>***Insert Personalized Subject*** (1492797969.0)</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}}, 
+I hope this note finds you well! My name is ***INSERT NAME*** and I cover the ***INSERT REGION*** for Turbonomic. I&apos;m reaching because I understand your organization is ***PLANNING FOR/UNDERGOING***a hardware refresh. I&apos;d like to see if you would be open to a conversation about how Turbonomic’s technology can address some of the challenges specific to infrastructure projects such as this for ***COMPANY***. 
+As you’re aware, engaging in a hardware refresh offers many opportunities for improvement, from faster application response times to more reliable services for end-users. Today&apos;s virtualized and cloud environments are highly dynamic, however, and inaccurate or incomplete projections can quickly lead to being underprepared to meet unexpected demand, or overspending on unnecessary hardware. 
+I’d like to spend some time sharing with you how we‘ve helped organizations like Mayo Clinic and Six Flags (***feel free to change***) overcome these challenges and implement their hardware refreshes with success. 
+Would you be open to a conversation at ***INSERT DATE*** at ***INSERT TIME***or ***INSERT TIME***?   Best,   ***INSERT NAME***</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

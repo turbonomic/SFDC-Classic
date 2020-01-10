@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Commercial_Container_Platforms_Campaigns_Nurture.Cloud_Native_Commercial_Camp</name>
+    <style>none</style>
+    <subject>Hybrid Cloud Optimization Across the Data Center, Azure, and Kubernetes</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/case-studies/fortune-500-healthcare-success-story]]&gt;
+Hi {{lead.First Name:default=There}},
+
+At a Fortune 500 Healthcare Company with multiple data centers and a growing Azure environment, safely increasing utilization on-premises while effectively managing their Azure workloads, and running Kubernetes in production is of the utmost importance.
+
+ &lt;[[https://resources.turbonomic.com/case-studies/fortune-500-healthcare-success-story]]&gt;
+
+With Turbonomic, the organization tripled the number of VDIs hosted on the same hardware footprint and saved 20% off their monthly cloud bills by optimizing their Azure environment.
+
+Interested in learning more? See how over 1,900 of our customers &lt;[[https://resources.turbonomic.com/case-studies]]&gt; leverage workload automation to optimize performance, cost and policy compliance in real-time.
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

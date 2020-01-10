@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Abbreviated Name --></label>
+        <name>Abbreviated_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Executive Level --></label>
+        <name>Account_Executive_Level__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aligned Account Executive --></label>
+        <name>Aligned_Account_Executive__c</name>
+        <relationshipLabel><!-- Users (Aligned Account Executive) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Repurposing for use with CX team as well
+
+Original: For velocity BDRs only.  This is the sales bus that the BDR is aligned to. --></help>
+        <label><!-- Aligned to Team Region --></label>
+        <name>Aligned_to_Team_Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation><!-- Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation><!-- East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation><!-- Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATAM</masterLabel>
+            <translation><!-- LATAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Level 1 rulebreaker - allows bus driver permissions without the bus driver role assigned. --></help>
+        <label><!-- Approved Rulebreaker Level 1 --></label>
+        <name>Approved_Rulebreaker_Level_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned (for dashboards) --></label>
+        <name>Assigned_for_dashboards__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculate SF Metrics --></label>
+        <name>Calculate_SF_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By (for dashboards) --></label>
+        <name>Created_By_for_dashboards__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Salesforce Metric # --></label>
+        <name>Current_Salesforce_Metric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demotion Date --></label>
+        <name>Demotion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee ADP ID --></label>
+        <name>Employee_ADP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Participation Points --></label>
+        <name>Employee_Participation_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Number --></label>
+        <name>File_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Approval User --></label>
+        <lookupFilter>
+            <errorMessage><!-- Approval must be from Finance. --></errorMessage>
+        </lookupFilter>
+        <name>Finance_Approval_User__c</name>
+        <relationshipLabel><!-- Users (Finance Approval User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geo/Team Transition Date --></label>
+        <name>Geo_Team_Transition_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is encrypted, so no one has access to see your password. --></help>
+        <label><!-- Green Circle Password --></label>
+        <name>Green_Circle_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Green Circle Username --></label>
+        <name>Green_Circle_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Talent Management File --></label>
+        <name>Has_Talent_Management_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hashed Green Circle Password --></label>
+        <name>Hashed_Green_Circle_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Junior Role --></label>
+        <name>Junior_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation><!-- United States --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manager Email --></label>
+        <name>Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Team Bucket --></label>
+        <name>Master_Team_Bucket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Movement Date --></label>
+        <name>Most_Recent_Movement_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name for Excel Charts --></label>
+        <name>Name_for_Excel_Charts__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox to designate whether SDR is on floating bus or not --></help>
+        <label><!-- On-bus SDR --></label>
+        <name>On_bus_SDR__c</name>
+    </fields>
+    <fields>
+        <label><!-- One (user) --></label>
+        <name>One_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order For TVs EMEA BDR HM --></label>
+        <name>Order_For_TVs_EMEA_BDR_HM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order for TVs AE Heatmap --></label>
+        <name>Order_for_TVs_AE_Heatmap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order for TVs BDR HM --></label>
+        <name>Order_for_TVs_BDR_HM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order for TVs Channel --></label>
+        <name>Order_for_TVs_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order for TVs Recruiting --></label>
+        <name>Order_for_TVs_Recruiting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order for TVs --></label>
+        <name>Order_for_TVs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original KBDR Promotion Date --></label>
+        <name>Original_KBDR_Promotion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion to AE Date --></label>
+        <name>Promotion_to_AE_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion to Bus Driver Date --></label>
+        <name>Promotion_to_Bus_Driver_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion to Key BDR Date --></label>
+        <name>Promotion_to_Key_BDR_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion to Recruiter Date --></label>
+        <name>Promotion_to_Recruiter_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion to SDR Date --></label>
+        <name>Promotion_to_SDR_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion to Sourcer Date --></label>
+        <name>Promotion_to_Sourcer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recruiting Team --></label>
+        <name>Recruiting_Team__c</name>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experienced</masterLabel>
+            <translation><!-- Experienced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound US</masterLabel>
+            <translation><!-- Inbound US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ring of Hire</masterLabel>
+            <translation><!-- Ring of Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved by the Bell</masterLabel>
+            <translation><!-- Saved by the Bell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U Crew</masterLabel>
+            <translation><!-- U Crew --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Role Bucket for TVs --></label>
+        <name>Role_Bucket_for_TVs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role Buckets --></label>
+        <name>Role_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role Type for Resourcing --></label>
+        <name>Role_Type_for_Resourcing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role (formula) --></label>
+        <name>Role_formula__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customize default tab in Product Lookup page. --></help>
+        <label><!-- Default Product Lookup Tab --></label>
+        <name>SBQQ__DefaultProductLookupTab__c</name>
+        <picklistValues>
+            <masterLabel>Guided Selling</masterLabel>
+            <translation><!-- Guided Selling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Filters</masterLabel>
+            <translation><!-- Search Filters --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use to enable CPQ Diagnostic Tool, only available if org setting is enabled. Contact support to enable this capability. --></help>
+        <label><!-- Enable Diagnostic Tool --></label>
+        <name>SBQQ__DiagnosticToolEnabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check to allow this user to change output format of quote documents. --></help>
+        <label><!-- Allow Output Format Change --></label>
+        <name>SBQQ__OutputFormatChangeAllowed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select &quot;Followed&quot; to display products you follow in Chatter before others when adding to quote. --></help>
+        <label><!-- Product Sort Preference --></label>
+        <name>SBQQ__ProductSortPreference__c</name>
+        <picklistValues>
+            <masterLabel>Followed</masterLabel>
+            <translation><!-- Followed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check to clear search filters and results every time you add products to your quotes. Otherwise, your previous selections are kept. --></help>
+        <label><!-- Reset Product Lookup --></label>
+        <name>SBQQ__ResetProductLookup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Theme --></label>
+        <name>SBQQ__Theme__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Roles Bucketed --></label>
+        <name>Sales_Roles_Bucketed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Start Date --></label>
+        <name>Sales_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Abbreviation --></label>
+        <name>Team_Abbreviation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Buckets (for headcount) --></label>
+        <name>Team_Buckets_for_headcount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team (Group Buckets) --></label>
+        <name>Team_Group_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team (Group Level Buckets) --></label>
+        <name>Team_Group_Level_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <picklistValues>
+            <masterLabel>APAC Enterprise</masterLabel>
+            <translation><!-- APAC Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Commercial France</masterLabel>
+            <translation><!-- EMEA Commercial France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Commercial UK</masterLabel>
+            <translation><!-- EMEA Commercial UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Enterprise</masterLabel>
+            <translation><!-- EMEA Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Enterprise France</masterLabel>
+            <translation><!-- EMEA Enterprise France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Enterprise Germany</masterLabel>
+            <translation><!-- EMEA Enterprise Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Enterprise SDR</masterLabel>
+            <translation><!-- EMEA Enterprise SDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Enterprise UK</masterLabel>
+            <translation><!-- EMEA Enterprise UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Enterprise Unallocated</masterLabel>
+            <translation><!-- EMEA Enterprise Unallocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Accounts International</masterLabel>
+            <translation><!-- Global Accounts International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Accounts US</masterLabel>
+            <translation><!-- Global Accounts US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATAM</masterLabel>
+            <translation><!-- LATAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Team Assigned</masterLabel>
+            <translation><!-- No Team Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Methodology Commercial</masterLabel>
+            <translation><!-- The Methodology Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Pack Commercial</masterLabel>
+            <translation><!-- The Pack Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial</masterLabel>
+            <translation><!-- US Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial East</masterLabel>
+            <translation><!-- US Commercial East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial East 1</masterLabel>
+            <translation><!-- US Commercial East 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial East 2</masterLabel>
+            <translation><!-- US Commercial East 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial East 3</masterLabel>
+            <translation><!-- US Commercial East 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial East SDR</masterLabel>
+            <translation><!-- US Commercial East SDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial Unallocated</masterLabel>
+            <translation><!-- US Commercial Unallocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial West</masterLabel>
+            <translation><!-- US Commercial West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial West 1</masterLabel>
+            <translation><!-- US Commercial West 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial West 2</masterLabel>
+            <translation><!-- US Commercial West 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial West 3</masterLabel>
+            <translation><!-- US Commercial West 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Commercial West SDR</masterLabel>
+            <translation><!-- US Commercial West SDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise</masterLabel>
+            <translation><!-- US Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise Central</masterLabel>
+            <translation><!-- US Enterprise Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise Central 1</masterLabel>
+            <translation><!-- US Enterprise Central 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise Central 2</masterLabel>
+            <translation><!-- US Enterprise Central 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise Central 3</masterLabel>
+            <translation><!-- US Enterprise Central 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise East</masterLabel>
+            <translation><!-- US Enterprise East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise East 1</masterLabel>
+            <translation><!-- US Enterprise East 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise East 2</masterLabel>
+            <translation><!-- US Enterprise East 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise East 3</masterLabel>
+            <translation><!-- US Enterprise East 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise SDR</masterLabel>
+            <translation><!-- US Enterprise SDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise Unallocated</masterLabel>
+            <translation><!-- US Enterprise Unallocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise West</masterLabel>
+            <translation><!-- US Enterprise West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise West 1</masterLabel>
+            <translation><!-- US Enterprise West 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Enterprise West 2</masterLabel>
+            <translation><!-- US Enterprise West 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xccelerators</masterLabel>
+            <translation><!-- Xccelerators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>a_Executive</masterLabel>
+            <translation><!-- a_Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>a_Finance</masterLabel>
+            <translation><!-- a_Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>a_Marketing</masterLabel>
+            <translation><!-- a_Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>a_Recruiting</masterLabel>
+            <translation><!-- a_Recruiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>a_Sales Enablement</masterLabel>
+            <translation><!-- a_Sales Enablement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>p_Candy Time</masterLabel>
+            <translation><!-- p_Candy Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>p_Technical Account Managers</masterLabel>
+            <translation><!-- p_Technical Account Managers --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team (for Headcount) --></label>
+        <name>Team_for_Headcount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team strategy --></label>
+        <name>Team_strategy__c</name>
+        <picklistValues>
+            <masterLabel>Channel</masterLabel>
+            <translation><!-- Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation><!-- Direct --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tenure at Company (Days) --></label>
+        <name>Tenure_at_Company_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tenure (days) --></label>
+        <name>Tenure_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Date --></label>
+        <name>Termination_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Status --></label>
+        <name>Termination_Status__c</name>
+        <picklistValues>
+            <masterLabel>Involuntary</masterLabel>
+            <translation><!-- Involuntary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voluntary</masterLabel>
+            <translation><!-- Voluntary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transition from BDR/AE/Bus Driver Date --></label>
+        <name>Transition_from_BDR_AE_Bus_Driver_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition from Role --></label>
+        <name>Transition_from_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition from Team --></label>
+        <name>Transition_from_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Workflow Rules --></label>
+        <name>Trigger_Workflow_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Number --></label>
+        <name>Unique_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- User ID --></label>
+        <name>User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- User License --></label>
+        <name>User_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Role Name --></label>
+        <name>User_Role_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Safe ID --></label>
+        <name>User_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- VMTurbo Employee Participation --></label>
+        <name>VMTurbo_Employee_Participation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Velocity Region --></label>
+        <name>Velocity_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSProSFMembershipStatus --></label>
+        <name>dsfs__DSProSFMembershipStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSProSFPassword --></label>
+        <name>dsfs__DSProSFPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSProSFUsername --></label>
+        <name>dsfs__DSProSFUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Manager --></label>
+        <name>marketing_manager__c</name>
+        <relationshipLabel><!-- Users (Marketing Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsCachingAnonWebActivityList --></label>
+        <name>mkto_si__IsCachingAnonWebActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingBestBets --></label>
+        <name>mkto_si__IsCachingBestBets__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingEmailActivityList --></label>
+        <name>mkto_si__IsCachingEmailActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingGroupedWebActivityList --></label>
+        <name>mkto_si__IsCachingGroupedWebActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingInterestingMomentsList --></label>
+        <name>mkto_si__IsCachingInterestingMomentsList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingScoringList --></label>
+        <name>mkto_si__IsCachingScoringList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingStreamList --></label>
+        <name>mkto_si__IsCachingStreamList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingWatchList --></label>
+        <name>mkto_si__IsCachingWatchList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingWebActivityList --></label>
+        <name>mkto_si__IsCachingWebActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketo Sales Insight Welcome Counter --></label>
+        <name>mkto_si__Sales_Insight_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow MapAnything Exports --></label>
+        <name>sma__AllowMapAnythingExports__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Proximity Radius --></label>
+        <name>sma__DefaultProximityRadius__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edit MapAnything Org Wide Queries --></label>
+        <name>sma__EditMapAnythingOrgWirdeQueries__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapAnything Beta Tester --></label>
+        <name>sma__MABetaTester__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapAnything Default Latitude --></label>
+        <name>sma__MADefaultLatitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapAnything Default Longitude --></label>
+        <name>sma__MADefaultLongitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- MADefaultType --></label>
+        <name>sma__MADefaultType__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapAnything Default Zoom Level --></label>
+        <name>sma__MADefaultZoomLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapAnything Max Export Size --></label>
+        <name>sma__MAMaxExportSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapAnything Max Query Size --></label>
+        <name>sma__MAMaxQuerySize__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapAnything Version --></label>
+        <name>sma__MAVersion__c</name>
+        <picklistValues>
+            <masterLabel>Beta</masterLabel>
+            <translation><!-- Beta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation><!-- Current --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Previous</masterLabel>
+            <translation><!-- Previous --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Map Anything Settings --></label>
+        <name>sma__MapAnythingSettings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Type of Measurement --></label>
+        <name>sma__PreferredTypeOfMeasurement__c</name>
+        <picklistValues>
+            <masterLabel>Feet</masterLabel>
+            <translation><!-- Feet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Km</masterLabel>
+            <translation><!-- Km --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meters</masterLabel>
+            <translation><!-- Meters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miles</masterLabel>
+            <translation><!-- Miles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yards</masterLabel>
+            <translation><!-- Yards --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Receive Batch Exception Emails --></label>
+        <name>sma__ReceiveBatchExceptionEmails__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestUserLookup --></label>
+        <name>sma__TestUserLookup__c</name>
+        <relationshipLabel><!-- Users (TestUserLookup) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- VP Approvers --></label>
+        <name>vp_approvers__c</name>
+        <relationshipLabel><!-- Users (VP Approvers) --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Inactive people must have belong to one of the &quot;Inactive&quot; roles --></errorMessage>
+        <name>Inactive_users_must_have_Inactive_role</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the termination date --></errorMessage>
+        <name>Must_fill_in_termination_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field is required for all active velocity BDRs.  Please select the SALES team that the BDR is aligned to. --></errorMessage>
+        <name>Require_Aligned_to_Team_for_velocity_BDR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify the date this rep was promoted to AE (if the rep was hired as an AE, please enter his/her start date) --></errorMessage>
+        <name>Require_Promotion_to_AE_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide a phone number (this gets pulled into Marketo emails, so make sure it&apos;s right) --></errorMessage>
+        <name>Require_phone_number_for_sales_reps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify a termination status --></errorMessage>
+        <name>Require_termination_status</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Select_Theme --></label>
+        <name>SBQQ__Select_Theme</name>
+    </webLinks>
+</CustomObjectTranslation>

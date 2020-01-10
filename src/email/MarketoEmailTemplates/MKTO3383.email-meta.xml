@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-22-DXC Executive Partnership Update.December 2017 Update</name>
+    <style>none</style>
+    <subject>Turbonomic and DXC Executive Partnership Update 12.22.2017</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+Below please find our weekly Executive Partnership Update. In spite of some holiday slow down, we have maintained our consistent increase in velocity.
+
+As we continue to refine the content below, we hope that you will let us know how best to refine the data and presentation. Let us know what we can do to improve.
+
+Thanks,
+
+Greg
+ 
+
+
+
+
+
+Total VMs Consumed
+
+
+Assessments Generated
+
+
+
+
+36.1K
+
+
+45 accounts
+
+
+
+
+Install Base
+
+
+Top Pursuits
+
+
+
+
+
+
+
+
+Account
+
+
+VMs
+
+
+
+
+
+VPC Expansion
+
+
+15K
+
+
+
+
+
+BizCloud
+
+
+11K
+
+
+
+
+
+Leveraged Environment
+
+
+4K
+
+
+
+
+
+MetLife
+
+
+2K
+
+
+
+
+
+Ahold
+
+
+950
+
+
+
+
+
+Network Rail
+
+
+750
+
+
+
+
+
+Vale
+
+
+700
+
+
+
+
+
+Molson Coors
+
+
+664
+
+
+
+
+
+TAFMIS
+
+
+358
+
+
+
+
+
+Ingalls
+
+
+298
+
+
+
+
+
+Textron
+
+
+221
+
+
+
+
+
+SAS
+
+
+200
+
+
+
+
+
+Deutsche Bank Innovation Lab
+
+
+180
+
+
+
+
+
+Green Cargo
+
+
+125
+
+
+
+
+bpost
+
+
+50
+
+
+
+
+SAS Upsell
+
+
+50
+
+
+
+
+
+
+
+ 
+
+
+
+
+Account
+
+
+VMs
+
+
+
+
+Barclays
+
+
+20,000 
+
+
+
+
+Deutsche Bank
+
+
+10,000 
+
+
+
+
+Shell Calgary
+
+
+10,000 
+
+
+
+
+Manulife
+
+
+6,600 
+
+
+
+
+Luxottica
+
+
+5,000
+
+
+
+
+Toyota
+
+
+4,500 
+
+
+
+
+Kraft / Heinz
+
+
+4,000 
+
+
+
+
+IAG
+
+
+3,010 
+
+
+
+
+CIBC
+
+
+3,000 
+
+
+
+
+Macquarie
+
+
+3,000
+
+
+
+
+P&amp;G
+
+
+2,750
+
+
+
+
+Audi
+
+
+2,724
+
+
+
+
+*** Link to full forecast here &lt;[[https://vmturbo-my.sharepoint.com/personal/greg_difraia_vmturbo_com/_layouts/15/guestaccess.aspx?docid=128e83958f9b0490d93acbfa0ea7cdae3&amp;authkey=AY5ZuAD-upVFNEgTJEvn6A0&amp;e=e82cc500767448228cef3a5835d8856b]]&gt;. ***
+
+
+
+
+New Pursuits this Week
+
+
+Key Activity
+
+
+
+
+
+
+	- Westpac
+	- NYU-AD
+
+
+
+
+Closed 3 deals with Vale, SAS Upsell, and Deutsche Bank.
+Reviewed 5 assessments, completed an additional 5 as well.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

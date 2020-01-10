@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-04-22 Verizon VMT Multi-Cloud II 1.Survey Send</name>
+    <style>none</style>
+    <subject>Win A $100 Amazon Gift Card | Verizon &amp; VMTurbo State of Multi-Cloud Part II</subject>
+    <textOnly>Take Survey: The State of Enterprise Multi-Cloud II
+Win 1 of 10 $100 Amazon Gift Cards!
+&lt;[[https://www.surveymonkey.com/r/VMT-Vz-state-of-multi-cloud-2]]&gt;
+Hi {{lead.First Name:default=}},
+
+
+This survey is the second in a series of four, conducted by Verizon &amp; VMTurbo, which will collectively establish a baseline for where organizations currently reside along the Multi-Cloud journey, and establish a framework for proceeding on the path to Hybrid Cloud over the next 3 years. A 45-page report of the results from the first installation is available here &lt;[[http://vmturbo.com/resources/the-state-of-multi-cloud-part-one?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=the-state-of-multi-cloud-part-one&amp;utm_content=04222016]]&gt;.
+
+
+
+
+Your participation in this survey is integral to the completion of a seminal document that will serve to benefit a multitude of enterprises as they devise and execute their strategy. This survey will take approximately ten (10) minutes to complete. For your time, you will be entered for a chance to win one (1) of ten (10) $100 Amazon Gift Cards.* Thank you for your participation.
+
+
+TAKE SURVEY NOW &lt;[[https://www.surveymonkey.com/r/VMT-Vz-state-of-multi-cloud-2]]&gt;
+
+* NO PURCHASE NECESSARY Void where prohibited.  Sweepstakes open to eligible participants 18 years or older.  Sweepstakes sponsored solely by VMTurbo.  For official rules by which all entrants are bound click here &lt;[[http://vmturbo.com/vmturbo-survey-terms-and-conditions]]&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

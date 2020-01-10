@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Phase 4a - Email 2 - WP.Intro Email 2</name>
+    <style>none</style>
+    <subject>VMTurbo’s Approach to Solving Your Biggest Virtualization Headache</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+ 
+ “With limited staff it was challenging to manage the virtual environment as it grew.”
+—Robert Reynolds, Indiana University
+
+Sound familiar? This is sentiment we consistently heard from IT professionals at higher education institutions, such as Northeastern University and Washington University in St. Louis.  Virtualized environments require constant—and often labor-intensive—management. To continue to scale, these organizations recognized the need for a different approach, one described in this brief white paper  &lt;http://bit.ly/UmIhP1&gt; and two-minute video &lt;http://www.vmturbo.com/esevideo&gt;.
+
+VMTurbo identifies specific actions, that can easily be automated, to optimize your virtual environment and prevent problems. The team at East Carolina University was devoting a lot of cycles to troubleshooting and identifying latency bottlenecks. With VMTurbo, these bottlenecks were remediated before alerts were triggered.
+
+I’d like to spend 10 minutes with you or someone on your team to provide more details regarding how we have helped customers just like you save time and money with VMTurbo Operations Manager. 
+
+{{lead.Lead Owner First Name:default=The VMTurbo Team}}  {{lead.Lead Owner Last Name:default=}}
+phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

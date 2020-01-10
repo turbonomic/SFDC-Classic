@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Operations Manager 3.3 Webcast follow up.Thank you Email</name>
+    <style>none</style>
+    <subject>Follow up re: VMTurbo “Greater Simplicity and Control” Webinar</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for attending VMTurbo’s webinar on February 14th.  If you were not able to attend the entire session or you would like to revisit parts of it, you can watch it here &lt;http://www.vmturbo.com/operations-manager-webcast-thank-you&gt;.
+
+As you heard from VMTurbo founder and CTO Shmuel Kliger, Software-Defined Control  &lt;http://www.vmturbo.com/software-defined-control/&gt; solves the problem of assuring workload performance while utilizing virtual infrastructure resources most efficiently. Co-founder and vice president of product strategy Yuri Rabover’s overview demonstrated how, as well as new features in Operations Manager 3.3. &lt;http://www.vmturbo.com/vmturbo-transforms-it-operations-with-software-defined-control-in-latest-release/&gt;
+
+The information shared supports our belief that IT operations management needs to be fundamentally changed to allow you to unlock the full value of virtualized infrastructure. By controlling the IT environment in a “healthy” state and simplifying IT operations, our solution transforms IT operations from complex, time- and labor-intensive, reactive, and unpredictable to simple, automated, preventive, and efficient. Our control system for virtual infrastructure ensures consistent service delivery and reduces the capital and operational costs of running virtual data centers.
+
+Try it for yourself: www.vmturbo.com/download &lt;http://go.vmturbo.com/cloud-edition-download.html&gt;.
+
+We look forward to seeing you at one of our upcoming events again soon.
+
+Best regards,
+Lauren Whitehouse
+Director, Product Marketing</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

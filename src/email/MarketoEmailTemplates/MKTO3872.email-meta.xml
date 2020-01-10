@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: Microsoft Inspire 07_16_18.001 Microsoft Inspire 07_16_18 - Invite 1</name>
+    <style>none</style>
+    <subject>We hope to see you soon at Microsoft Inspire!</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Will you be attending Microsoft Inspire next week? If you are, we hope that you will stop by and visit Turbonomic in Booth #1422.
+
+Turbonomic has been named by Microsoft as a top ISV for assessment, migration, and optimization of hybrid cloud environments.
+
+Our API driven platform assesses and optimizes hybrid cloud environments pre-migration, radically accelerates Azure migrations with fast and accurate plans and once in Azure, enables customers to continuously optimize their entire hybrid state - assuring the performance of their applications at the lowest possible cost.
+
+Our executive team will be in Las Vegas for Microsoft Inspire and would love to meet. Click here to schedule a one-on-one meeting &lt;[[https://turbonomic.com/request-a-meeting-microsoft-inspire/]]&gt; with a member of our team at Inspire.
+
+
+We hope to see you next week!
+
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

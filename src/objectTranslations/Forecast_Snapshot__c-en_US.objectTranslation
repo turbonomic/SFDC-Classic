@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Forecast Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Forecast Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Close Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Time --></label>
+        <name>Execution_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Amount --></label>
+        <name>Forecast_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Opportunity --></label>
+        <name>Forecast_Opportunity__c</name>
+        <picklistValues>
+            <masterLabel>Best Case</masterLabel>
+            <translation><!-- Best Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forecast</masterLabel>
+            <translation><!-- Forecast --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Team (Group Buckets) --></label>
+        <name>Owner_Team_Group_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Team --></label>
+        <name>Owner_Team__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

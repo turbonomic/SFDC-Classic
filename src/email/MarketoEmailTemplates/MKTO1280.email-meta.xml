@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TachTech Event Reminder.Invite</name>
+    <style>none</style>
+    <subject>Reminder: Your Invite to Wingtip Happy Hour This Thursday</subject>
+    <textOnly>Invitation only, a hosted 
+happy hour @ the Wingtip Club
+ RSVP required to attend
+
+
+
+
+
+
+View this email in 
+your browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Happy 
+Hour
+Thursday, November 19th, 5:30 - 8:00 PM
+
+ The Wingtip Private Club
+ 550 Montgomery, 10th Floor
+ San Francisco, CA 94108
+ Back by popular demand! We are hosting another evening of fun, food, libations, and networking on the top floor of the 
+Wingtip Club. This new and uniquely themed venue is a 21st Century interpretation of the classic social club located across the street from the TransAmerica Pyramid on the top floor of 550 Montgomery above the Wingtip retail shop (former Bank of Italy).
+Wingtip boasts great views, one of the top spirits collection in San Francisco, and of course you can also expect an extraordinary 
+mix of people and a few surprises.
+
+ Invite-only Event
+All attendees must have approved RSVPs to attend.
+This event will fill up so register now to save your spot.
+ 
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 
+2015 Tach Tech, All rights reserved. 
+ 
+ 
+ unsubscribe from this list &lt;http://tachtech.us7.list-manage2.com/unsubscribe?u=519941bb95c84fe58c6261089&amp;id=14d36bfb05&amp;e=ccaa9fbbf6&amp;c=98280afde1&gt;    update subscription preferences &lt;http://tachtech.us7.list-manage.com/profile?u=519941bb95c84fe58c6261089&amp;id=14d36bfb05&amp;e=ccaa9fbbf6&gt;  
+ 
+  &lt;http://www.mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&amp;utm_medium=email&amp;utm_campaign=monkey_rewards&amp;aid=519941bb95c84fe58c6261089&amp;afl=1&quot;&gt;&lt;img src=&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

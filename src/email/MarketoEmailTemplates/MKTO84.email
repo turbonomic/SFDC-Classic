@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p style="text-align: left;">Dear {{lead.First Name:default=Sir/Madam}},<br /> <br /> <em>&ldquo;With limited staff it was challenging to manage the virtual environment as it grew.&rdquo;</em><br />&mdash;Robert Reynolds, Indiana University<br /><br />Sound familiar? This is sentiment we consistently heard from IT professionals at higher education institutions, such as Northeastern University and Washington University in St. Louis.&nbsp; Virtualized environments require constant&mdash;and often labor-intensive&mdash;management. To continue to scale, these organizations recognized the need for a different approach, one described in this brief <a href="http://www.vmturbo.com/wp-content/uploads/2012/06/VMT-WP-Applying-an-Economic-Model-to-IT-Mgmt-Jun-2012.pdf">white paper </a>and two-minute <a href="http://www.vmturbo.com/esevideo">video</a>.</p>
+<p style="text-align: left;">VMTurbo identifies specific actions, that can easily be automated, to optimize your virtual environment and prevent problems. The team at East Carolina University was devoting a lot of cycles to troubleshooting and identifying latency bottlenecks. With VMTurbo, these bottlenecks were remediated before alerts were triggered.</p>
+<p style="text-align: left;">I&rsquo;d like to spend 10 minutes with you or someone on your team to <span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">provide more details </span>regarding how we have helped customers just like you save time and money with VMTurbo Operations Manager.</p>
+<p style="text-align: left;"><strong><span style="font-size: 14px;"><a href="mailto:{{lead.Lead Owner Email Address:default=sales@vmturbo.com}}">Contact me</a></span></strong><br /><br />{{lead.Lead Owner First Name:default=The VMTurbo Team}}&nbsp; {{lead.Lead Owner Last Name:default=}}<br />phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}<br />email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}<br /><br /></p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

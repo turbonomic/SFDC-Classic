@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- FieldType --></label>
+        <name>VartopiaDRS__FieldType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>VartopiaDRS__Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Value --></label>
+        <name>VartopiaDRS__Field_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- InternalName --></label>
+        <name>VartopiaDRS__InternalName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>VartopiaDRS__Operator__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentFilterCriteria --></label>
+        <name>VartopiaDRS__ParentFilterCriteria__c</name>
+    </fields>
+</CustomObjectTranslation>

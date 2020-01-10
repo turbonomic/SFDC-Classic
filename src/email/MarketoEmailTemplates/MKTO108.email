@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ><img src="http://go.vmturbo.com/rs/vmturbo/images/Citrix logo.png" alt="" height="59" width="150"></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p>Dear {{lead.First Name:default=Sir/Madam}},</p>
+<p><span style="font-size: 9pt;">Citrix and VMTurbo cordially invite you to join us at Cloud Expo Europe 2013, the National Hall, Olympia, London.</span><strong>&nbsp;</strong></p>
+<p><strong><span style="font-size: 9pt;">Cloud Expo Europe 2013 is the single most important event for business and public sector organisations - big or small - wanting to harness the power of the cloud.</span></strong></p>
+<p><span style="font-size: 9pt;">Come join Citrix and VMTurbo on our stand (567) to see how your organisation can benefit from our Cloud and Management solutions. Learn about building and </span>delivering<span style="font-size: 9pt;"> clouds as well as </span>control the environment by automating decision-making and keeping it in the optimal state. See how we can help you meet service levels and business goals, preventing performance bottlenecks while maximizing resource efficiency, making you more productive.</p>
+<p><strong><span style="font-size: 9pt;">At the show you will also be able to hear from:</span></strong><span style="font-size: 9pt;"><strong>&nbsp;</strong></span></p>
+<ul>
+<li><span style="font-size: 9pt;"><strong>Our Cloud and Networking Product experts</strong> &ndash; who will be on our stand to provide technical expertise</span><span style="font-size: 9pt;"><strong>&nbsp;</strong></span></li>
+<li><span style="font-size: 9pt;"><strong>Shannon Williams</strong> VP of Cloud Market Development at Citrix will take to stage in</span><span style="font-size: 9pt;"> the Virtualisation, Infrastructure and Platforms theatre</span></li>
+<li><span style="font-size: 9pt;"><strong>Olivier Maes</strong> Senior Director of CloudPlatform at Citrix EMEA will be speaking</span><span style="font-size: 9pt;"> in the Cloud Service Providers and Ecosystems &ndash; Business theatre</span></li>
+</ul>
+<p><span style="font-size: 9pt;">To view the full conference programme visit www.cloudexpoeurope.com and to register for your <strong>FREE </strong>tickets follow </span><a href="http://www.cloudexpoeurope.com/reg-citrix"><span style="font-size: 9pt;">www.cloudexpoeurope.com/reg-citrix.</span></a></p>
+<p><span style="font-size: 9pt;">We look forward to seeing you at the event!</span></p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

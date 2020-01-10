@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM-Appliance-Nurture0.Email</name>
+    <style>none</style>
+    <subject>VMTurbo Virtual Health Monitor Download … What’s Next?</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Congratulations! You’ve successfully downloaded the VMTurbo Virtual Health Monitor software.
+
+To activate the solution, you need to take these steps:
+
+ 1) First, install the appliance. If you need assistance with installation, you can refer to the installation guide &lt;http://www.vmturbo.com/resources/documentation/&gt;. 
+IMPORTANT NOTE: Our documentation is in revision and will refer to “Community Edition,” the predecessor to Virtual Health Monitor.
+
+ 2) Next, the setup wizard will step you through the process of requesting and installing the license key to activate Virtual Health Monitor for the term of your license. 
+IMPORTANT NOTE: The installation and configuration wizard presents you with three options for License Installation: 
+- “I have a license for Full Product” 
+- “Request a license for a 30-day Trial” 
+- “Request a license for the free Community Edition” 
+Select “Community Edition,” the predecessor to Virtual Health Monitor.
+ 
+3) And then the setup wizard will guide you through setting up the target configuration.
+
+After, you should be all set to begin exploring VMTurbo Virtual Health Monitor and seeing the value its monitoring and reporting provide for your virtual environment.
+
+
+Best regards,
+
+{{lead.Lead Owner First Name:default=VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}
+ phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+ email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

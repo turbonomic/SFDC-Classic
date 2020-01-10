@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Emma Automated Email.Emma #2</name>
+    <style>none</style>
+    <subject>Your VHM download</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+Just following-up on my email from yesterday. Do you have 5 minutes to hop on a quick call today? I want to make sure you received your Virtual Health Monitor license key and were able to deploy the appliance. Thank you!
+
+Kind regards,
+
+Jillian Grassetti
+EvalTeam Help Associate, VMTurbo, Inc.
+o 866.834.5087 | e evalTeam@vmturbo.com &lt;mailto:evalTeam@vmturbo.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

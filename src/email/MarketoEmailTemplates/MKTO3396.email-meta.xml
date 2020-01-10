@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-01-08-State of AI in Hybrid Cloud Management.Send</name>
+    <style>none</style>
+    <subject>LAST CHANCE| Complete Survey to Enter to Win $100</subject>
+    <textOnly>&lt;[[https://www.surveymonkey.com/r/9DJK5DW?marketo_ncxb1j524g=[marketo_ncxb1j524g_value]&amp;marketo_b1db5q8380=[marketo_b1db5q8380_value]&amp;marketo_7hdqewl5cg=[marketo_7hdqewl5cg_value]]]&gt;
+{{lead.First Name:default=Hi there}},
+
+It’s that time of year again – the season of giving, getting… and reflection. 2017 brought self-driving cars, self-healing systems, and self-managing data centers to the fore, with various degrees of artificial intelligence making it possible. Will 2018 be the year AI becomes ubiquitous? 
+ 
+Let’s find out together. AppDynamics, Red Hat, StackPointCloud, and Turbonomic have joined together to collectively establish a baseline for where organizations are currently on their hybrid cloud journey and the role that AI plays—or will play—in making that journey successful.
+ 
+Your participation is integral to the completion of the report, which we will 
+publish in January 2018. The survey will take approximately ten (10) minutes to complete. For your time, you will be entered for a chance to win one (1) of ten (10) $100 Amazon Gift Cards.* 
+
+ &lt;[[https://www.surveymonkey.com/r/XNFB8VH?marketo_ncxb1j524g=[marketo_ncxb1j524g_value]&amp;marketo_b1db5q8380=[marketo_b1db5q8380_value]]]&gt;
+
+
+
+
+                                          
+
+
+
+
+
+*NO PURCHASE NECESSARY. Void where prohibited. Sweepstakes open to eligible participants 18 years or older. Sweepstakes sponsored solely by Turbonomic. For official rules by which all entrants are bound click here. &lt;[[https://turbonomic.com/survey-terms-and-conditions/]]&gt;
+
+
+
+
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

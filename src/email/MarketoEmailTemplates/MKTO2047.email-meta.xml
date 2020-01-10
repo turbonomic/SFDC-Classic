@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-11-15-Q4 Town Hall.EMAIL- Invite</name>
+    <style>none</style>
+    <subject>Upcoming Partner Town Hall Meeting-Register Today!</subject>
+    <textOnly>Dear {{lead.First Name:default=Partner}}, 
+As a valued partner, we would like to invite you to join us on our upcoming Partner Town Hall Meeting. &lt;[[https://turbonomic.com/turbonomic-2016-q4-partner-town-hall-meeting/]]&gt; This live webinar is taking place on Tuesday, November 15th at 11:00 AM EDT.
+
+Join us &lt;[[https://turbonomic.com/turbonomic-2016-q4-partner-town-hall-meeting/]]&gt; in this opportunity to connect with partners and look at our top initiatives for Q4 as they pertain to the channel. We will be discussing the following: 
+
+
+	- Partner Resources: Use Cases
+
+	- Vision Partner + CIO Summit Recap 
+
+	- Current VDI Partner Promotion
+
+	- Customer Success Story
+	- Q &amp; A 
+
+
+This webinar will be approximately 45 minutes and will have a 15 minute Q &amp; A session to voice any questions, concerns, and feedback.
+Click here &lt;[[https://turbonomic.com/turbonomic-2016-q4-partner-town-hall-meeting/]]&gt; to join us on November 15th at 11:00 AM EDT.
+Look forward to seeing you on the call,
+
+Sean Finnegan 
+Vice President of Channel Sales</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

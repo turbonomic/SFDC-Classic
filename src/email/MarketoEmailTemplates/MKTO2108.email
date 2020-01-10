@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body><div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif;">
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Hi&nbsp;{{lead.First Name:default=edit me}},</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">I hope this note finds you well! My name is ***INSERT NAME*** and I cover the ***INSERT REGION*** for Turbonomic. I'm reaching because I understand your organization is ***PLANNING FOR/UNDERGOING***a hardware refresh. I'd like to see if you would be open to a conversation about how Turbonomic’s technology can address some of the challenges specific to infrastructure projects such as this for ***COMPANY***.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">As you’re aware, engaging in a hardware refresh offers many opportunities for improvement, from faster application response times to more reliable services for end-users. Today's virtualized and cloud environments are highly dynamic, however, and inaccurate or incomplete projections can quickly lead to being underprepared to meet unexpected demand, or overspending on unnecessary hardware.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">I’d like to spend some time sharing with you how we‘ve helped organizations like Mayo Clinic and Six Flags (***feel free to change***) overcome these challenges and implement their hardware refreshes with success.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Would you be open to a conversation at ***INSERT DATE*** at ***INSERT TIME***or ***INSERT TIME***? </span></p> 
+<div>
+<span style="font-size: 12px; font-family: 'times new roman', times;">Best,</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: 'times new roman', times;">***INSERT NAME***</span>
+</div>
+</div>  
+</body>
+</html>

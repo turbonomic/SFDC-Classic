@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMworld 2015 VIP Cocktail Party.Maybe Confirmation</name>
+    <style>none</style>
+    <subject>We Hope You&apos;ll Join Us: VMTurbo VMworld VIP Cocktail Reception</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+We hope we&apos;ll see you at the reception on Monday, August 31st after a long day at VMworld.
+
+When your schedule is set, feel free to revisit the invitation page and confirm your registration &lt;http://vmturbo.com/resources/events/vmworld-2015-vip-cocktail-party?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vipinvite&amp;utm_content=confirmationemail&gt;. We&apos;ll send you a reminder a few days before.
+
+Even if you can&apos;t make the reception (we hope you will), make sure to stop by booth #505 and see what the future of the data center looks like.
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

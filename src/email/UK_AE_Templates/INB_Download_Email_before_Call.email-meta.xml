@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Where you are trying to call a download however have been unable to get through.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>INB. Download Email before Call</name>
+    <style>none</style>
+    <subject>{!Lead.Company}&apos;s download of VMTurbo</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

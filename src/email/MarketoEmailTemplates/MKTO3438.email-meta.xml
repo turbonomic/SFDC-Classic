@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2018-02-02 DXC Executive Partnership Update.2-2-2018 Update</name>
+    <style>none</style>
+    <subject>Turbonomic and DXC Executive Partnership Update 02.2.2018</subject>
+    <textOnly>Hi {{Lead.First Name}},
+Below please find our weekly Executive Partnership Update. This weekly summary is sent every Friday to update stakeholders on progress across the partnership.
+We had a strong finish to the month, which also marks the end of Turbonomic’s FY 2018. We are looking forward to kicking off our FY 2019 building on the significant momentum seen to date.
+Any questions or comments, please reach out. Thanks, 
+ 
+ Greg
+ 
+
+
+
+
+Total VMs Consumed
+
+
+Assessments Generated
+
+
+
+
+43,850
+
+
+49 accounts
+
+
+
+
+Install Base
+
+
+Top Pursuits
+
+
+
+
+
+ 
+
+
+
+
+Account
+
+
+VMs
+
+
+
+
+
+VPC Expansion
+
+
+14,983
+
+
+
+
+
+BizCloud
+
+
+11,000
+
+
+
+
+
+Leveraged Environment
+
+
+4,000
+
+
+
+
+
+Procter &amp; Gamble
+
+
+2,750
+
+
+
+
+
+Nissan (pending)
+
+
+1,900
+
+
+
+
+
+MetLife
+
+
+1,600
+
+
+
+
+
+Caceis
+
+
+1,317
+
+
+
+
+
+Ahold
+
+
+950
+
+
+
+
+
+Network Rail
+
+
+750
+
+
+
+
+
+Vale
+
+
+700
+
+
+
+
+
+Molson Coors
+
+
+664
+
+
+
+
+
+CIBC
+
+
+500 
+
+
+
+
+
+Central Bank of Ireland
+
+
+500
+
+
+
+
+
+Grupo Bimbo
+
+
+497
+
+
+
+
+
+TAFMIS
+
+
+358
+
+
+
+
+
+Ingalls
+
+
+298
+
+
+
+
+
+Textron
+
+
+221
+
+
+
+
+
+SAS
+
+
+250
+
+
+
+
+
+Mondelez
+
+
+200
+
+
+
+
+
+Deutsche Bank Innovation Lab
+
+
+180
+
+
+
+
+
+Green Cargo
+
+
+125
+
+
+
+
+Bpost
+
+
+50
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Account (Gear Owner)
+
+
+VMs
+
+
+
+
+
+Deutsche Bank (Mix)
+
+
+10,000
+
+
+
+
+
+Kraft / Heinz (Client)
+
+
+        4,000 
+
+
+
+
+
+Luxottica (DXC)
+
+
+        4,000 
+
+
+
+
+
+Manulife (DXC)
+
+
+        4,000 
+
+
+
+
+
+IAG (DXC)
+
+
+3,010
+
+
+
+
+
+E.ON (DXC)
+
+
+3,000
+
+
+
+
+
+Audi (DXC)
+
+
+2,724
+
+
+
+
+
+Ericsson (DXC)
+
+
+2,000
+
+
+
+
+
+Nokia (DXC)
+
+
+2,000
+
+
+
+
+
+Aon (DXC)
+
+
+1,700
+
+
+
+
+
+KPMG (DXC)
+
+
+        1,000 
+
+
+
+
+
+Ferrovial (DXC)
+
+
+           881 
+
+
+
+
+
+Boral (DXC)
+
+
+           523 
+
+
+
+
+
+Bluescope (DXC)
+
+
+           497 
+
+
+
+
+
+SCG (DXC)
+
+
+           395 
+
+
+
+
+
+Macquarie (Client)
+
+
+           314 
+
+
+
+
+
+Luxembourg Data Center (DXC)
+
+
+           300 
+
+
+
+
+*** Link to full forecast here &lt;[[https://vmturbo-my.sharepoint.com/personal/greg_difraia_vmturbo_com/_layouts/15/guestaccess.aspx?docid=128e83958f9b0490d93acbfa0ea7cdae3&amp;authkey=AY5ZuAD-upVFNEgTJEvn6A0&amp;e=e82cc500767448228cef3a5835d8856b]]&gt;. ***
+
+
+
+
+New Pursuits this Week
+
+
+Closed Business this Week
+
+
+
+
+
+
+	- RBS Rothschild
+	- South African Airways (SAA)
+	- Flemish Government
+
+
+
+
+
+
+	- Nissan – 1,900 VMs (pending)
+	- Caceis – 1,317 VMs
+	- CIBC – 1,000 VMs
+	- Grupo Bimbo – 497 VMs
+	- Mondelez – 200 VMs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

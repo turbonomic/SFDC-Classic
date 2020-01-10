@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Increase_Utilization.Increase_Utilization_Nurture_1_Intro</name>
+    <style>none</style>
+    <subject>Assure Performance 24x7x365 Days a Year</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization]]&gt;
+Hi {{lead.First Name:default=there}}, 
+ 
+  
+ 
+ 
+ How does your team prevent resource contention and performance issues today?  
+ 
+ Many IT teams rely on spreadsheets and manual planning processes to forecast capacity and assure performance. This approach leads them to overspend significantly on data center infrastructure and software and it does not even assure performance.  
+ 
+ It doesn&apos;t have to be this way for you and your team. Turbonomic can help. 
+ 
+ 
+ 
+ 
+  &lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization]]&gt; 
+ Our platform implements specific, actionable decisions in real-time and analyzes data continuously to meet application demand. Through this you can assure performance, maintain compliance and minimize  spend.  Learn more today. &lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization]]&gt;  
+ 
+ Regards, 
+ Team Turbonomic 
+ 
+                               </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

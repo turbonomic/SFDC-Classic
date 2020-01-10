@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-03-13 Turbonomic 6.3.Sorry we missed you - Customer</name>
+    <style>none</style>
+    <subject>[WEBINAR RECORDING] {{my.Webinar Title:default=the webinar}}</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Sorry we missed you for {{my.Webinar Title:default=The Webinar}}.
+
+You can watch the webinar on-demand here &lt;[[https://turbonomic.com/thx-whats-new-wbn/]]&gt;.
+
+If you haven&apos;t done so already, please install Turbonomic 6.3 &lt;[[https://greencircle.vmturbo.com/docs/DOC-1292-how-to-perform-a-turbonomic-offline-update-latest-links-included]]&gt; or reach out to your CX rep to learn more.
+
+We hope you enjoy the recording!
+-Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

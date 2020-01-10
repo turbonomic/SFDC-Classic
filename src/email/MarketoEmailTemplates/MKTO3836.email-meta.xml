@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-06-27-HyperFlex-AppD.June_Webinar-2018-06-20-HyperFlex-AppD Email 3.Las</name>
+    <style>none</style>
+    <subject>[Webinar] App-Aware, Full Stack Optimization for Hyperconverged Infrastructures| Last Chance to Register</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/webinar-cisco-hyperflex-appdynamics/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+
+This is your last call to attend tomorrow’s LIVE panel discussion webinar at 1 pm ET. Join our technical experts from Cisco and Turbonomic as they discuss the benefits of App-Aware, Full-Stack Optimization with Turbonomic, Hyperflex, and AppDynamics
+ &lt;[[https://turbonomic.com/resources/webinar-cisco-hyperflex-appdynamics/]]&gt;
+
+
+
+
+During the webinar, you will learn how to deliver application awareness, cloud elasticity on-prem, supercluster optimization in more – to drive better decisions through infrastructure.
+
+
+
+
+Regards, 
+Team Turbonomic
+
+P.S. If you can&apos;t join us live, please feel free to sign up anyway &lt;[[https://turbonomic.com/resources/webinar-cisco-hyperflex-appdynamics/]]&gt;, and we&apos;ll email you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

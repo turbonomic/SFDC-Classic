@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Benchmarking Container Adoption</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-02-20 Container Adoption.ES- 20190220-Invite 2.Whole Emails Test</name>
+    <style>none</style>
+    <subject>Are you In or Out?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-container-adoption/?utm_campaign=7012o000001oRY5AAM]]&gt;
+
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-container-adoption/?utm_campaign=7012o000001oRY5AAM]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+The rate of container adoption is increasing rapidly. According to Gartner, 50% of organizations will be running containerized applications by next year. Are you and your team ready for production? 
+
+
+
+
+
+
+Register 
+Now &lt;[[https://turbonomic.com/resources/wbn-container-adoption/?utm_campaign=7012o000001oRY5AAM]]&gt;
+
+
+
+
+
+
+
+Attend tomorrow&apos;s webinar, Benchmarking Your Container Adoption in 2019 &lt;[[https://turbonomic.com/resources/wbn-container-adoption/?utm_campaign=7012o000001oRY5AAM]]&gt; at 11 am ET where you will learn the emerging trends, why the built in 
+knobs are limited, and how you can overcome the roadblocks to managing containers at scale and across multiple clouds. 
+Register now and enter to win a $100 Amazon Gift Card.  
+See you then,
+Andrew
+
+
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-container-adoption/?utm_campaign=7012o000001oRY5AAM]]&gt; and we will share the recording with you afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

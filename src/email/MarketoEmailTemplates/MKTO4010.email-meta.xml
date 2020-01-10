@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-05-09-DellEMC World Commercial Dinner.EMAIL-Invite-DellEMC</name>
+    <style>none</style>
+    <subject>Join Me for a Steak Dinner at DellEMC World</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+
+
+Next week, I’ll be heading west to Las Vegas to attend Dell EMC World 2017 and I would like to personally extend an invitation to join me for dinner on the evening of Tuesday, May 9th. While I’m excited to attend the conference, one of my favorite parts about visiting Vegas is the incredible food – and what better way to spend my Tuesday evening then enjoying a nice steak with forward-thinking conference-goers like you?
+ 
+If you are planning to attend Dell EMC World and are interested in joining me for dinner at 8:15pm on Tuesday, May 9th, simply RSVP here &lt;[[https://turbonomic.com/dell-emc-world-appreciation-dinner/]]&gt;.
+ 
+While you’re there, don’t forget to stop by Booth #638 to learn more about Turbonomic’s cloud and virtualization management capabilities, and get a sneak-peek at our upcoming product release.
+ 
+I hope to see you in Vegas!
+ 
+Best,
+Steve
+
+
+
+
+Steve Corndell
+General Manager and Vice President
+Commercial Sales, Americas
+Email: steve.corndell@turbonomic.com &lt;[[mailto:steve.corndell@turbonomic.com]]&gt;
+Cell: 774-273-0056
+Office: 781-418-5232</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

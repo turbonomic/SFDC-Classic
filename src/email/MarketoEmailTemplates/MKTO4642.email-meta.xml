@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6_1_Cold_Nurture_US_Enterprise.6_1_Cold_Nurture_US_Enterprise_Email_2</name>
+    <style>none</style>
+    <subject>Using AI to Continuously Maximize Cloud Cost Savings</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/videos/webinar-using-artificial-intelligence-to-continuously-maximize-cloud-cost-saving]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Many IT teams try to minimize cloud costs by manually rightsizing cloud instances. Too often these efforts have the opposite effect. As cloud usage grows, changes accelerate, and it becomes increasingly difficult to manage cost. It doesn&apos;t have to be this way for you and your team.
+
+ &lt;[[https://resources.turbonomic.com/videos/webinar-using-artificial-intelligence-to-continuously-maximize-cloud-cost-saving]]&gt;
+
+Turbonomic’s AI-powered decision engine continuously optimizes RI recommendations in concert with resizing automation – to drive the elasticity AND cost savings you want and expect from the cloud.
+
+Check out our webcast &lt;[[https://resources.turbonomic.com/videos/webinar-using-artificial-intelligence-to-continuously-maximize-cloud-cost-saving]]&gt; to learn more about how we can help.
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

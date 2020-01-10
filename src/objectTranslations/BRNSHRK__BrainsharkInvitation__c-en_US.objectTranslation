@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activity Record Id --></label>
+        <name>BRNSHRK__ActivityRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>BRNSHRK__Activity__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Presentation Title --></label>
+        <name>BRNSHRK__BrainsharkPresentation__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign ID --></label>
+        <name>BRNSHRK__CampaignID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>BRNSHRK__Contact__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Has Views --></label>
+        <name>BRNSHRK__HasViews__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Send/View --></label>
+        <name>BRNSHRK__IntegrationKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>BRNSHRK__Lead__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MemberID --></label>
+        <name>BRNSHRK__MemberID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage Sent --></label>
+        <name>BRNSHRK__OpportunityStage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presentation ID --></label>
+        <name>BRNSHRK__Pid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>BRNSHRK__RelatedAccount__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Campaign --></label>
+        <name>BRNSHRK__RelatedCampaign__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>BRNSHRK__RelatedCase__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Contract --></label>
+        <name>BRNSHRK__RelatedContract__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity --></label>
+        <name>BRNSHRK__RelatedOpportunity__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Solution --></label>
+        <name>BRNSHRK__RelatedSolution__c</name>
+        <relationshipLabel><!-- Brainshark Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sender Role --></label>
+        <name>BRNSHRK__SenderRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Body HTML --></label>
+        <name>BRNSHRK__SentBodyHtml__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Body --></label>
+        <name>BRNSHRK__SentBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent by Active User --></label>
+        <name>BRNSHRK__SentByActiveUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent by is Logged in user --></label>
+        <name>BRNSHRK__SentByIsLoggedInUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent by = Running User --></label>
+        <name>BRNSHRK__SentByRunningUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Date/Time --></label>
+        <name>BRNSHRK__SentDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Subject --></label>
+        <name>BRNSHRK__SentSubject__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula pulls data from Lead/Contact. --></help>
+        <label><!-- SFDC: Company --></label>
+        <name>BRNSHRK__SfdcCompany__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula pulls data from Lead/Contact. --></help>
+        <label><!-- SFDC: Email --></label>
+        <name>BRNSHRK__SfdcEmail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula pulls data from Lead/Contact. --></help>
+        <label><!-- SFDC: Phone --></label>
+        <name>BRNSHRK__SfdcPhone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pulls the Job Title field from the Lead/Contact record. --></help>
+        <label><!-- SFDC: Title --></label>
+        <name>BRNSHRK__SfdcTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>BRNSHRK__Source__c</name>
+        <picklistValues>
+            <masterLabel>Auto-Generated</masterLabel>
+            <translation><!-- Auto-Generated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- View Count --></label>
+        <name>BRNSHRK__ViewCount__c</name>
+    </fields>
+</CustomObjectTranslation>

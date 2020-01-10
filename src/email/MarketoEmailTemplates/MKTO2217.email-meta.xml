@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: Collier County PS Strategic Plan for 2017  (1494254168.0)</name>
+    <style>none</style>
+    <subject>RE: Collier County PS Strategic Plan for 2017  (1494254168.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean DocumentEmail      false false false  EN-US X-NONE X-NONE             MicrosoftInternetExplorer4                                                                                                                                                                                                                                                                                                                                                                                                            Hi Tom, Following up on the email below, I wanted to see if you had any time this week or next to have an introduction discussion around how Turbonomic can help in the following areas:  ·         Defer hardware costs out of the infrastructure by increasing VM to host densities.·         Increase performance around VDI environment by 35%. After speaking with other members of your team I’ve heard that you have 16,000 VDI seats that you are managing today and I was hoping to discuss how Turbonomic delivers better performance around each area of the infrastructure including VDI.  Do you have 15-30 minutes this week or next for an initial discussion?
+Best regards, James  From: James Wilcox 
+Sent: Wednesday, April 26, 2017 8:26 AM
+To: &apos;petryth@collierschools.com&apos; &lt;petryth@collierschools.com&gt;
+Subject: Collier County PS Strategic Plan for 2017  Tom – After looking through your strategic plans for 2014 – 2017 there was a couple of pieces that jumped out at me in the “Decrease server provision time by 95%’, and 2009-2010 VMware Server ” sections of the plan. It seems that you and the team made a point to use virtualization to increase the capacity of the underlying infrastructure without creating any kind of service interruptions. Continuing on that point, I wanted to discuss with you how Turbonomic allows teams to create an even tighter VM to host density ratio across every cluster while also allowing for an increase in application performance and better delivery of service. It does this by using our patented economic scheduling engine that allows for applications to dictate the resources they need in real time, rather than looking at the supply/hardware and historical data.  Relevant example - Seminole County Public Schools:  &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic-SCPS-Success-Story.pdf]]&gt;With Turbonomic’s real-time capacity management to simulate a migration from old Dell hosts to new Cisco UCS blades, the team learned they could consolidate from 12 hosts down to 3, enabling them to save nearly $80,000. These funds can now be reallocated to new projects focused on innovation, such as collapsing and centralizing much of their remote site infrastructure to enable more unified IT management.  Do you have 30 minutes over the next few weeks for an introduction demonstration of how this is possible?  Best, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;    </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

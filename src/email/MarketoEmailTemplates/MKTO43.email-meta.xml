@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Community Edition Download.license email</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=edit me}}, Welcome to VMTurbo</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for downloading the Community version of VMTurbo Operations Manager.
+
+As you begin this process, please note that there are three different download packages available. All three represent exactly the same capabilities, the difference being the packaging of the virtual appliance to be deployed on various hypervisor platforms (vSphere, Hyper-V or XenServer). 
+
+Follow the links below to select the correct VMTurbo Operations Manager package for your virtual environment:
+
+ - XenServer: http://bit.ly/Owutzy
+ - HyperV: http://bit.ly/O5Fvgu
+ - VMware: http://bit.ly/PwJ9Az
+
+The default login for the Operations Manager is:
+ Username: administrator
+ Password: administrator
+ 
+ Regardless of package, your license key (http://bit.ly/P9cwqW) will enable the Community Edition. The license also provides you with a 30-day trial of the advanced optimization and automation features included in the Enterprise and Cloud Editions of VMTurbo Operations Manager.  Once your 30 day trial expires the appliance will revert back to the FREE Community Edition and continue to function with that feature-set.
+ 
+ We will be following up with you regularly through your trial period to ensure you get the most out of your evaluation. Thanks again for your interest in VMTurbo, and please let us know if you have any questions. 
+ 
+ -The VMTurbo Team
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+Account: {!Opportunity.Account}
+Opportunity Name: {!Opportunity.Name}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Owner Team: {!Opportunity.Owner_Team__c}
+
+Amount: {!Opportunity.Amount}
+# of Sockets: {!Opportunity.of_CPU_Sockets__c}
+# of VMs: {!Opportunity.of_Virtual_Machines__c}
+First Demo Date: {!Opportunity.First_Demo_Date__c}
+
+Note: Only AVPs may approve the request unless the AVP delegates the approval to a velocity bus driver.
+
+To see your list of approvals: https://eu4.salesforce.com/04i
+Opportunity Link: {!Opportunity.Link}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-06-22-Bates Education Webinar.ES-2016-06-21-Bates Webinar.Send</name>
+    <style>none</style>
+    <subject>Tomorrow&apos;s Webinar! Tackling Challenges in Higher Education IT</subject>
+    <textOnly>&lt;[[http://vmturbo.com/resources/vmturbo-webinar-series-bates-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=BatesWebinar&amp;utm_content=06212016]]&gt;
+Hi {{lead.First Name:default=There}},
+
+To be an elite college, you not only have to have the best professors and faculty, but also provide the best possible IT services to meet the needs of students and researchers. This is no easy feat, largely thanks to the complexity of the modern virtual infrastructure. But problem solving should be happening in the classroom, not in the data center.
+Join us tomorrow, June 22nd at 1:00 PM ET &lt;[[http://vmturbo.com/resources/vmturbo-webinar-series-bates-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=BatesWebinar&amp;utm_content=06212016]]&gt; as we learn how Bates College tackles challenges faced by academic institutions of all shapes and sizes.
+During this webinar we will cover:
+
+
+ - The challenges driven by managing a complex virtual environment, providing services to more than 2,500 students and faculty members
+ - The challenges of maintaining uptime during times of high traffic, including course registration and exam periods
+ - How Bates uses VMTurbo to improve workload performance, maximize uptime and maintain a healthy data center
+ - How Bates’ infrastructure team has more time than ever to focus on delivering the highest quality services possible
+
+
+
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

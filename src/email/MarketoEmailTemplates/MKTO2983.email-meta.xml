@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-08-16-JAX ESB-Bill Veghte Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-08-16-Jax-ESB-Ben Nye Email.EM-2017-08-16-JAX ESB-Bill Veghte Email</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Jacksonville Executive Networking Dinner at The River Club</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+Having spent 20 years at Microsoft, followed by my role as COO of Hewlett-Packard, I have had the privilege of watching IT go through waves of 
+transformation from a birds-eye view. All previous waves pale in comparison to that which we observe today.
+
+I cordially invite you to join myself and dozens of our fellow IT leaders in Jacksonville for the Jacksonville Executive 
+Networking Dinner: &lt;[[https://turbonomic.com/learn-jacksonville/]]&gt; Elastic Compute at Cloud Economics on Thursday, October 26th 2017 at The River Club at 5:00PM. 
+
+
+Enterprises are facing incredible pressure to modernize and transform IT to become a digital business, leading many organizations to reinvent their hybrid cloud strategy. Determining which workloads go on-premises, which go in the cloud, and how to manage the transition is challenging and mistakes are costly. We will discuss this unprecedented shift our industry currently faces and how we as the stewards of our generation can lead the innovation charge. It is my goal and hope that this networking opportunity will be intellectually stimulating and beneficial for all.
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/learn-jacksonville/]]&gt; as soon as possible.
+
+
+
+
+Yours sincerely,
+Bill
+ &lt;[[https://turbonomic.com/learn-phoenix]]&gt;
+Bill Veghte
+Executive Chairman
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

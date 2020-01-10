@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-09-12-Boston-Last Chance</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-9-12-Boston-ESB-Last Chance.EM-2017-09-12-Boston-Last Chance</name>
+    <style>none</style>
+    <subject>September 21st Dinner at Harvard Club of Boston</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+
+
+Next week, Presidio and Turbonomic will be hosting the Boston Executive Networking Dinner: &lt;[[https://turbonomic.com/learn-boston/]]&gt; Elastic Compute at Cloud Economics on Thursday, 
+September 21st 2017 at the Downtown Harvard Club of Boston at 5:00PM EST.
+
+
+We have very limited seating available and we want to make sure that you have a seat at this private event. Turbonomic CEO, Ben Nye, will be leading the keynote presentation, where he will open up the floor for discussion amongst your fellow New England technology leaders to discuss the pressure enterprises are facing to modernize and transform IT to become a digital business.
+ 
+
+During this private dinner Ben Nye 
+will unveil Turbonomic&apos;s technology partnership with Cisco, which has evolved into the Cisco Workload Optimization Manager Solution &lt;[[https://www.cisco.com/c/dam/en/us/solutions/collateral/data-center-virtualization/one-enterprise-suite/solution-overview-c22-739078.pdf]]&gt;. 
+
+We look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here  &lt;[[https://turbonomic.com/learn-boston/]]&gt;as soon as possible.
+
+
+
+All attendees will receive a Home Automation Kit of their choosing. 
+
+
+What:  Boston Executive Networking 
+Dinner: &lt;[[https://turbonomic.com/learn-boston/]]&gt; Elastic Compute at Cloud Economics
+Where: Downtown Harvard Club of Boston; 1 Federal St. Boston, MA 02110
+When: Thursday, September 21st, 2017 5:00PM EST
+RSVP: https://turbonomic.com/learn-boston/ &lt;[[https://turbonomic.com/learn-boston/]]&gt; 
+
+
+Yours sincerely,
+
+Maria Rodriguez; Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

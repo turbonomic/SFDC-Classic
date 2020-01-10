@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbofest London 2015.Channel Invite</name>
+    <style>none</style>
+    <subject>You&apos;re Invited - Turbofest London With VMTurbo</subject>
+    <textOnly>&lt;http://vmturbo.com/register-for-turbofest-london?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbofest_London&amp;utm_content=invite&gt;
+
+
+
+
+Thursday, March 19th 2015 | 12:30 p.m.
+
+The Andaz Liverpool Street Hotel London
+40 Liverpool Street
+ London, England, EC2M 7QN
+Dear Valued VMT Partner,
+It is my pleasure to cordially invite you to VMTurbo’s First Annual Turbofest London! &lt;http://vmturbo.com/register-for-turbofest-london?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbofest_London&amp;utm_content=invite&gt;
+This afternoon meeting and evening reception will be held this Thursday, March 19, 2015 at the Andaz Liverpool Street Hotel in London.
+Attend this exclusive event as we discuss OpenStack, SDN, engineering and managing scale out applications as well as future trends in cloud and virtualization. You will also get an inside look at the 2015 VMTurbo Roadmap as we explain how VMT can help you to sell more infrastructure in 2015!
+The event will begin with lunch at 12:30, we will then move into presentations from 1:30 to 6:00 and wrap up with a cocktail reception, providing ample time to network until 10:00 p.m.
+You can register here &lt;http://vmturbo.com/register-for-turbofest-london?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbofest_London&amp;utm_content=invite&gt;, and a VMTurbo executive will also contact you to address any questions you may have. I hope you will attend this exciting event; it will be one to remember.
+Sincerely,
+J. Benjamin H. Nye
+Chief Executive Officer
+VMTurbo, Inc.
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

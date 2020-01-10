@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>4_30_2015 Webcast Blast.Send</name>
+    <style>none</style>
+    <subject>How to Deliver Performance In A Shared Environment</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+Expedient Data Centers &lt;http://www.expedient.com/&gt;, a leader in Managed and Data Center Services with locations from Cleveland to Memphis to Boston, unpacks the mechanics of how it consistently meets Service Level Agreements for its customers.
+
+Watch this free webinar &lt;http://vmturbo.com/expedient-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=expedientwcast&amp;utm_content=04302015&gt; and learn how service providers use VMTurbo to provide consistent performance across all workloads, as well as the three roles a responsible managed service provider (MSP) takes in order to accomplish that directive:
+
+
+ - Plan: assist customers in determining the most performant and efficient configuration of virtual machine resources
+ - Operate: operate cloud infrastructure and inform customers of non-optimal configurations
+ - Monitor: provide a consistent cloud platform for clients to have predictable and repeatable performance expectations
+
+
+
+-The VMTurbo Team
+ &lt;http://vmturbo.com/expedient-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=expedientwcast&amp;utm_content=04302015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-01-18-Field-East-RD-Sponsored-Jacksonville.ES-2018-01-15.EMAIL - Last C</name>
+    <style>none</style>
+    <subject>Last Call: Jacksonville Community Lunch &amp; Golf</subject>
+    <textOnly>&lt;[[https://turbonomic.com/vip-jacksonville/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+We have a limited number of slots left and we hope that you will join us on January 18th, at TPC Sawgrass for an afternoon of lunch and golf.
+
+
+TPC Sawgrass is the No. 9-ranked resort golf course in the US and the top-ranked golf course in Florida. After lunch at the club house, we&apos;ll be teeing off on a must play course for golf fans around the world, Dye Valley, at 12:45 p.m.
+
+
+
+Jacksonville Community Lunch &amp; Golf &lt;[[https://turbonomic.com/vip-jacksonville/]]&gt;
+
+Where: TPC Sawgrass 
+110 Championship Way, Ponte Vedra Beach, Florida 32082
+Tuesday, January 18th 11:30am
+
+
+
+
+ &lt;[[https://turbonomic.com/vip-jacksonville/]]&gt;
+
+
+
+
+
+Last call!
+
+
+
+
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>4/30/2014 Everbank Webcast.Ship Happens</name>
+    <style>none</style>
+    <subject>Important VMTurbo Webinar Update | Results: LEGO X-Wing vs. Millennium Falcon</subject>
+    <textOnly>Ship Happens.
+Rescheduled, The Everbank Webinar Must Be.
+A Backup Plan, Wookily We Have.
+
+Details Here: &lt;http://bit.ly/1jMScbz&gt;
+- Everbank had to go to Dagobah. They&apos;ll be back, but not by April 30th. (Bummer.)
+
+ - You&apos;ve been automatically registered for our May 1st Travelport webinar, where we&apos;re giving out a Combat MonstersTM AttacknidTM StryderTM. You&apos;ll receive an email with the link to join. (Awesome.)
+
+
+ - The  LEGOTM Millennium Falcon crushed the X-Wing in voting, and we&apos;re still giving it away on April 30th. Winner will be notified by email and announced at the Travelport webinar (Awesome.)
+
+ - Why? Because it&apos;s awesome. And because you&apos;re awesome. (Awesome.)
+Learn More About Travelport &lt;http://bit.ly/1jMScbz&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

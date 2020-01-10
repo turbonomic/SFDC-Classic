@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>12_12_2014 Arista Webinar #3.Email_use</name>
+    <style>none</style>
+    <subject>Webinar: VMTurbo and Arista Networks LANZ Integration</subject>
+    <textOnly>Webinar: Software-Driven Network Control
+Wednesdaym, December 17th, 2014 | 1 p.m. EST | 10 a.m. GMT
+&lt;http://vmturbo.com/arista-networks-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=aristaeos&amp;utm_content=121214&gt;
+This week, VMTurbo and Arista Networks announced a formal alliance and API integration &lt;http://vmturbo.com/press-releases/vmturbo-and-arista-networks-integration/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=aristaeos&amp;utm_content=121214&gt; between VMTurbo&apos;s Network nControl and Arista LANZ™.
+Join us on December 17th to learn about Arista Networks’ methodologies and exciting disruptions within the network landscape, as well as the ways in which VMTurbo drives dynamic network localization decisions to achieve near-zero latency in Arista environments. You&apos;ll learn:
+
+
+ - The features and benefits of the Arista ecosystem
+ - The features and benefits of VMTurbo&apos;s control solution
+ - The augmented benefits of running the solutions together
+ - A live demonstration of VMTurbo 5.0 Network nControl
+
+
+
+Register Now &lt;http://vmturbo.com/arista-networks-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=aristaeos&amp;utm_content=121214&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

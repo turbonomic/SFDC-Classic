@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>See you tomorrow?</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-03-06 AWS vs Azure.ES-20190205-Invite 1.Whole Emails Test</name>
+    <style>none</style>
+    <subject>AWS vs Azure</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-aws-vs-azure/]]&gt;
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-aws-vs-azure/]]&gt;
+Hi {{lead.First Name:default=there}},
+Are you torn between which is the right cloud feature or service for you, and which cloud provider should you use? AWS or Azure?
+
+
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-aws-vs-azure/]]&gt;
+
+
+
+
+
+
+Join the AWS vs Azure &lt;[[https://turbonomic.com/resources/wbn-aws-vs-azure/]]&gt; webinar, March 6th at 11 am ET, and find out what key services, capabilities, and differences you&apos;ll discover as you look to adopt AWS and Azure. You&apos;ll learn how organizations like yours have made decisions between cloud providers and how to choose which cloud is right for you based on your requirements and objectives.
+
+
+Register now and enter to win a $100 Amazon Gift Card. Hope to see you there!
+ 
+Thanks,
+Andrew
+ 
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-aws-vs-azure/]]&gt; and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

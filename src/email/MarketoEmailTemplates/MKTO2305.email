@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body><div style="font-size:12px; font-family: tahoma, arial, helvetica, sans-serif;"><div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;">
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Dear {{lead.First Name:default=Friend}},<br><br></span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">This summer, Turbonomic’s executive chairman Bill Veghte (former COO of HP), CTO Charles Crouchman (formerly Head of Development/Ops at Cirba) and CEO Ben Nye (Bain Capital Ventures, Solarwinds, VERITAS and Precise) will be at the following events, eager to hear and share stories regarding hybrid IT.</span></p> 
+<ul> 
+<li><span style="font-size: 10px; font-family: arial, helvetica, sans-serif;"><span style="text-indent: -0.25in;"><span style="font-variant-caps: normal; line-height: normal;">&nbsp;</span></span><strong style="font-size: 10pt; text-indent: -0.25in;"><em>HPE Discover (June 5-8)</em></strong></span><br></li> 
+<li><span style="font-size: 10px; font-family: arial, helvetica, sans-serif;"><span style="text-indent: -0.25in;"><span style="font-variant-caps: normal; line-height: normal;">&nbsp;</span></span><strong style="font-size: 10pt; text-indent: -0.25in;"><em>Cisco Live! (June 25-29)</em></strong></span><br></li> 
+<li><span style="font-size: 10px; font-family: arial, helvetica, sans-serif;"><span style="text-indent: -0.25in;"><span style="font-variant-caps: normal; line-height: normal;">&nbsp;</span></span><strong style="font-size: 10pt; text-indent: -0.25in;"><em>VMworld US (August 27-31)</em></strong></span><br></li> 
+<li><span style="font-size: 10px; font-family: arial, helvetica, sans-serif;"><span style="text-indent: -0.25in;"><span style="font-variant-caps: normal; line-height: normal;">&nbsp;</span></span><strong style="font-size: 10pt; text-indent: -0.25in;"><em>Microsoft Ignite (September 25-29)</em></strong></span><br></li> 
+<li><span style="font-size: 10px; font-family: arial, helvetica, sans-serif;"><span style="text-indent: -0.25in;"><span style="font-variant-caps: normal; line-height: normal;">&nbsp;</span></span><strong style="font-size: 10pt; text-indent: -0.25in;"><em>AWS re:Invent (November 27 – December 1)</em></strong></span><br></li> 
+<li><span style="font-size: 10px; font-family: arial, helvetica, sans-serif;"><span style="text-indent: -0.25in;"><span style="font-variant-caps: normal; line-height: normal;">&nbsp;</span></span><strong style="font-size: 10pt; text-indent: -0.25in;"><em>Gartner Data Center Infrastructure &amp; Operations (December 4-7)</em></strong></span></li> 
+</ul> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Happy to facilitate a conversation with one of our executives if you’re planning on attending any of these events. You may also request to meet with them <a href="https://turbonomic.com/leadership-meetings?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=sb-exec-meeting&amp;utm_content=1" target="_blank" id="">here</a>.</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Thanks,</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-family: arial, helvetica, sans-serif;">{{lead.Lead Owner First Name:default=Turbonomic}} {{lead.Lead Owner Last Name:default=Team}}</span></p><br><p class="MsoNormal"><b><span style="font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-font-family:
+Calibri;mso-no-proof:yes">Brendan Welshoff | </span></b><span style="font-size:
+10.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-font-family:Calibri;
+mso-no-proof:yes">Enterprise Sales <u1:p></u1:p></span><span style="font-size:
+9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-bidi-font-family:Tahoma"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-font-family:
+Calibri;mso-no-proof:yes">O: 857-305-5729<b> | </b>M: 774-571-5053 <u1:p></u1:p></span><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-bidi-font-family:
+Tahoma"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-font-family:
+Calibri;mso-no-proof:yes">500 Boylston Street, Boston, MA 02116&nbsp;<u1:p></u1:p></span><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-bidi-font-family:
+Tahoma"><o:p></o:p></span></p>
+</div>  
+</div></body>
+</html>

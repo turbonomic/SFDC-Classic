@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-06-19 6.1 Email 2 - Dave Kranowitz.Email</name>
+    <style>none</style>
+    <subject>Upgrade to Turbonomic 6.1 for Application-Aware Workload Automation</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+I hope this note finds you well! I’m following up on the email I sent to you recently, offering a free assessment of your environment through the lens of Turbonomic 6.1.
+
+We’ve received amazing feedback on the release from customers who have taken advantage of this upgrade, and I want to make sure you don’t miss out on the ability to leverage our improved product functionality. As a reminder, some of the updates you can benefit from include: 
+
+
+	- Maximized Reserved Instance Utilization in AWS
+	- Application-Aware Infrastructure Management through Integration with AppDynamics
+	- Self-Managing Container Platforms, across Kubernetes, Red Hat OpenShift and Pivotal Cloud Foundry
+	- Executive Dashboards Showing Performance Improvements and Savings
+
+
+
+If you’re interested in exploring 6.1 with a Turbonomic engineer, please reply to my email so we can schedule a time to connect.
+
+
+
+
+Best,
+
+Dave 
+  
+
+ 
+
+ 
+   Dave Kranowitz
+   GM and VP of Enterprise Sales, Americas
+   Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

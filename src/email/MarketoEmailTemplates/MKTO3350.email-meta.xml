@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-11-29-KubeCon Email Send.Kubecon Email Send</name>
+    <style>none</style>
+    <subject>Going to KubeCon? Visit Turbonomic at Booth S39!</subject>
+    <textOnly>&lt;[[https://blog.openshift.com/self-managing-openshift-turbonomic/]]&gt;
+Hi {{Lead.First Name}},
+
+
+Are you attending KubeCon in Austin next week? We are! And, we would love to meet you at our booth! Stop by booth S39 for a demo of self-managing Kubernetes powered by Turbonomic. We’ll also be demoing our hot-off-the-press integration with StackPointCloud for turnkey deployment of self-managing Kubernetes clusters on AWS or Azure. We hope to see you there!
+ 
+In the meantime, check out this Red Hat blog from our team: Self-Managing OpenShift with Turbonomic &lt;[[https://blog.openshift.com/self-managing-openshift-turbonomic/]]&gt;. It includes a demo video of how Turbonomic works with OpenShift (which, if you didn’t already know runs on Kubernetes. ;-))
+ 
+-The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

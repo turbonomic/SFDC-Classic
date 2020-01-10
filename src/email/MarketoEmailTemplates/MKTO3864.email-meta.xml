@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Commercial_Financial Services_Cold_Nurture.FinancialServices_Cold_Nurture_Com</name>
+    <style>none</style>
+    <subject>Workload Automation for IT Environments in Financial Services</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+ 
+
+The success of every financial transaction relies on the IT infrastructure reporting it and milliseconds are the difference between making and losing millions. 
+
+
+
+
+
+
+
+ &lt;[[https://www.youtube.com/watch?v=kGys-SMBBIg]]&gt;
+
+
+ Watch this video &lt;[[https://www.youtube.com/watch?v=kGys-SMBBIg]]&gt; to see how you can ensure business-critical workloads get the resources they need when they need them.
+ 
+
+In an industry where millisecond delays can cost hundreds of millions, how would those performance improvements impact your business? 
+
+
+
+
+
+
+
+
+
+
+Regards,
+
+
+Team Turbonomic
+
+
+ &lt;[[turbonomic.com]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

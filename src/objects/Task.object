@@ -1,0 +1,4568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <content>TaskDeleteOverride</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>LID__Tasks</fullName>
+        <fields>Subject</fields>
+        <fields>WhoId</fields>
+        <fields>WhatId</fields>
+        <fields>RecordTypeId</fields>
+        <label>Tasks</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <fieldSets>
+        <fullName>activities__CreateTasks</fullName>
+        <availableFields>
+            <field>AccountId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>IsRecurrence</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceActivityId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceDayOfMonth</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceDayOfWeekMask</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceInterval</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceMonthOfYear</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceRegeneratedType</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>WhatId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>WhoId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>CreateTasks</description>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Subject</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Priority</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CreateTasks</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>activities__MassUpdateTasks</fullName>
+        <description>UpdateTasks</description>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Subject</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>WhoId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>WhatId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Priority</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>IsReminderSet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ReminderDateTime</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>MassUpdateTasks</label>
+    </fieldSets>
+    <fields>
+        <fullName>ActivityDate</fullName>
+    </fields>
+    <fields>
+        <fullName>CallDisposition</fullName>
+        <inlineHelpText>Summarize what we learned from the Activity and Next Steps</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>CallDurationInSeconds</fullName>
+    </fields>
+    <fields>
+        <fullName>CallObject</fullName>
+    </fields>
+    <fields>
+        <fullName>CallType</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>IsRecurrence</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RecurrenceInterval</fullName>
+    </fields>
+    <fields>
+        <fullName>RecurrenceRegeneratedType</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <inlineHelpText>To Be Rescheduled: New date has not been confirmed yet (when date is set, update date and change status to &quot;Not Started&quot;)
+Rejected by Sales Rep: AE rejected meeting because he/she thought it was a WOT
+Canceled: Prospect canceled or repeatedly no-showed</inlineHelpText>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TaskSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <inlineHelpText>Connect = spoke, no meaningful convo
+Connect &amp; Conversation = meaningful conversation
+Product Walkthrough = &quot;mini demo&quot; run by salesperson
+Initial = first demo/install with ACCOUNT (all others are subsequent)</inlineHelpText>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>CompletedTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>LAST_UPDATE</field>
+            <operation>equals</operation>
+            <value>TODAY,LAST_N_DAYS:30</value>
+        </filters>
+        <label>ENCODED:{!FilterNames.Task_CompletedTasks}</label>
+    </listViews>
+    <listViews>
+        <fullName>DelegatedTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Delegated</filterScope>
+        <label>ENCODED:{!FilterNames.Task_DelegatedTasks}</label>
+    </listViews>
+    <listViews>
+        <fullName>OpenTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>ENCODED:{!FilterNames.Task_OpenTasks}</label>
+    </listViews>
+    <listViews>
+        <fullName>OverdueTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>ENCODED:{!FilterNames.Task_OverdueTasks}</label>
+    </listViews>
+    <listViews>
+        <fullName>RecurringTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>ENCODED:{!FilterNames.Task_RecurringTasks}</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY,LAST_N_DAYS:30</value>
+        </filters>
+        <label>ENCODED:{!FilterNames.z_TodaysTasks}</label>
+    </listViews>
+    <listViews>
+        <fullName>UnscheduledTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+        </filters>
+        <label>ENCODED:{!FilterNames.Task_UnscheduledTasks}</label>
+    </listViews>
+    <recordTypes>
+        <fullName>LID__InMail</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>LID__Tasks</compactLayoutAssignment>
+        <description>Record type for LinkedIn inMails (sent to non-connections)</description>
+        <label>LinkedIn InMail</label>
+        <picklistValues>
+            <picklist>Call_Disposition__c</picklist>
+            <values>
+                <fullName>Bad Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Busy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conversation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Live Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Voicemail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Answer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Set Callback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Alec Kemp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alex Marsh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Allen Patterson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anson McCook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aseem Anwar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barry Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brad Blodgett</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charles Russell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Rauch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Williamson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daniel Butzer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Derrick Faur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Don McKeith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eric Horsman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hillel Adler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iddo Avneri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jacob Ben-David</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>James Dyckowski</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jamie Hodge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Beaudette</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Huff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeremy Levenson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jimmy Herbert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joe Burke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jon-Paul Sepulveres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Juan Santos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jules Albin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Justus Gries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kent Nierendorf</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kevin Lamb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luis Da Silva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Masa Kawano</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Ray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Vetter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matthew Harcourt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Isaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Nagar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Saville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mitch Gerdisch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nick Joseph</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Mallick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Zychowicz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Richard Stinton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Robert Coppersmith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ron Whitling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan DeWaele</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan Strehlke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sergey Omelaenko</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Wagner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suky Bains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vytas Januskis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Searle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hardware_Vendor__c</picklist>
+            <values>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle%2FSun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SimpliVity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hypervisor_Vendor__c</picklist>
+            <values>
+                <fullName>Acropolis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heterogeneous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-V %28Microsoft%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM PowerVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Openstack%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Redhat%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OracleVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VMware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Citrix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Open Source%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installed_During_Demo_Yes_No__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Campaign_Influence__c</picklist>
+            <values>
+                <fullName>CIO Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Barrier Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Readiness Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Refresh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Compliance Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Maturity Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Journey to the Cloud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MLB All-Star Sweepstakes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Steps2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Objectives2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Team_Present__c</picklist>
+            <values>
+                <fullName>Portal Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FEngineering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Storage_Vendor__c</picklist>
+            <values>
+                <fullName>Atlantis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DataGravity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell MD Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VMAX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX-F%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %283PAR%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM N Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nimble Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pure Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SolidFire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tegile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tintri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Violin Memory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XtremIO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cisco Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer EBC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Roadmap Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Lab Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Workshop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__Message</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>LID__Tasks</compactLayoutAssignment>
+        <description>Record type for LinkedIn messages (sent to connections)</description>
+        <label>LinkedIn Message</label>
+        <picklistValues>
+            <picklist>Call_Disposition__c</picklist>
+            <values>
+                <fullName>Bad Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Busy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conversation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Live Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Voicemail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Answer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Set Callback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Alec Kemp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anson McCook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aseem Anwar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barry Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brad Blodgett</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charles Russell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Rauch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Williamson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daniel Butzer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Don McKeith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eric Horsman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hillel Adler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iddo Avneri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jacob Ben-David</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>James Dyckowski</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Beaudette</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Huff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeremy Levenson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jimmy Herbert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joe Burke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Juan Santos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jules Albin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kevin Lamb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luis Da Silva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Ray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Vetter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matthew Harcourt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Isaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Nagar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Saville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nick Joseph</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Mallick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Zychowicz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Robert Coppersmith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan DeWaele</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan Strehlke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Wagner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suky Bains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Searle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hardware_Vendor__c</picklist>
+            <values>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle%2FSun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SimpliVity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hypervisor_Vendor__c</picklist>
+            <values>
+                <fullName>Acropolis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heterogeneous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-V %28Microsoft%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM PowerVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Openstack%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Redhat%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OracleVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VMware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Citrix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Open Source%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installed_During_Demo_Yes_No__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Campaign_Influence__c</picklist>
+            <values>
+                <fullName>CIO Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Barrier Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Readiness Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Refresh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Compliance Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Maturity Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Journey to the Cloud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MLB All-Star Sweepstakes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Steps2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Objectives2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Team_Present__c</picklist>
+            <values>
+                <fullName>Portal Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FEngineering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Storage_Vendor__c</picklist>
+            <values>
+                <fullName>Atlantis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DataGravity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell MD Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VMAX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX-F%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %283PAR%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM N Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nimble Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pure Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SolidFire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tegile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tintri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Violin Memory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XtremIO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__PointDrive_Presentation_Created</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>LID__Tasks</compactLayoutAssignment>
+        <description>Record type for PointDrives created</description>
+        <label>PointDrive Created</label>
+        <picklistValues>
+            <picklist>Call_Disposition__c</picklist>
+            <values>
+                <fullName>Bad Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Busy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conversation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Live Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Voicemail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Answer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Set Callback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Alec Kemp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anson McCook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aseem Anwar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barry Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brad Blodgett</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charles Russell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Rauch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Williamson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daniel Butzer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Don McKeith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eric Horsman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hillel Adler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iddo Avneri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jacob Ben-David</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>James Dyckowski</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Beaudette</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Huff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeremy Levenson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jimmy Herbert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joe Burke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Juan Santos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jules Albin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kevin Lamb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luis Da Silva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Ray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Vetter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matthew Harcourt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Isaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Nagar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Saville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nick Joseph</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Mallick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Zychowicz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Robert Coppersmith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan DeWaele</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan Strehlke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Wagner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suky Bains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Searle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hardware_Vendor__c</picklist>
+            <values>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle%2FSun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SimpliVity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hypervisor_Vendor__c</picklist>
+            <values>
+                <fullName>Acropolis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heterogeneous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-V %28Microsoft%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM PowerVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Openstack%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Redhat%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OracleVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VMware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Citrix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Open Source%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installed_During_Demo_Yes_No__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Campaign_Influence__c</picklist>
+            <values>
+                <fullName>CIO Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Barrier Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Readiness Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Refresh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Compliance Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Maturity Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Journey to the Cloud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MLB All-Star Sweepstakes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Steps2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Objectives2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Team_Present__c</picklist>
+            <values>
+                <fullName>Portal Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FEngineering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Storage_Vendor__c</picklist>
+            <values>
+                <fullName>Atlantis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DataGravity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell MD Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VMAX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX-F%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %283PAR%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM N Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nimble Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pure Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SolidFire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tegile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tintri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Violin Memory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XtremIO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__PointDrive_Presentation_Viewed</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>LID__Tasks</compactLayoutAssignment>
+        <description>Record type for PointDrives viewed</description>
+        <label>PointDrive Viewed</label>
+        <picklistValues>
+            <picklist>Call_Disposition__c</picklist>
+            <values>
+                <fullName>Bad Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Busy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conversation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Live Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Voicemail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Answer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Set Callback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Alec Kemp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anson McCook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aseem Anwar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barry Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brad Blodgett</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charles Russell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Rauch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Williamson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daniel Butzer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Don McKeith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eric Horsman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hillel Adler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iddo Avneri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jacob Ben-David</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>James Dyckowski</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Beaudette</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Huff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeremy Levenson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jimmy Herbert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joe Burke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Juan Santos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jules Albin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kevin Lamb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luis Da Silva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Ray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Vetter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matthew Harcourt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Isaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Nagar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Saville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nick Joseph</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Mallick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Zychowicz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Robert Coppersmith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan DeWaele</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan Strehlke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Wagner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suky Bains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Searle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hardware_Vendor__c</picklist>
+            <values>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle%2FSun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SimpliVity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hypervisor_Vendor__c</picklist>
+            <values>
+                <fullName>Acropolis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heterogeneous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-V %28Microsoft%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM PowerVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Openstack%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Redhat%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OracleVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VMware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Citrix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Open Source%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installed_During_Demo_Yes_No__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Campaign_Influence__c</picklist>
+            <values>
+                <fullName>CIO Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Barrier Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Readiness Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Refresh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Compliance Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Maturity Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Journey to the Cloud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MLB All-Star Sweepstakes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Steps2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Objectives2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Team_Present__c</picklist>
+            <values>
+                <fullName>Portal Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FEngineering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Storage_Vendor__c</picklist>
+            <values>
+                <fullName>Atlantis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DataGravity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell MD Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VMAX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX-F%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %283PAR%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM N Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nimble Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pure Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SolidFire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tegile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tintri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Violin Memory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XtremIO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Task</fullName>
+        <active>true</active>
+        <label>Task</label>
+        <picklistValues>
+            <picklist>Call_Disposition__c</picklist>
+            <values>
+                <fullName>Bad Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Busy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conversation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Live Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Voicemail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Answer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Set Callback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Alan Markey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alec Kemp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alex Marsh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Allen Patterson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anson McCook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aseem Anwar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barry Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brad Blodgett</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charles Russell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Rauch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chris Williamson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daniel Butzer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DeVaughn Riley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Derrick Faur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Don McKeith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eric Horsman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Francois Guillaume</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Griffin Bossard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hillel Adler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Howard Masters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iddo Avneri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jacob Ben-David</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>James Dyckowski</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jamie Hodge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Beaudette</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Howard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jason Huff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeremy Levenson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jerome Papazian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jimmy Herbert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joe Burke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jon-Paul Sepulveres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Juan Santos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jules Albin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Justus Gries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kent Nierendorf</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kevin Lamb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luis Da Silva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Masa Kawano</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Ray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matt Vetter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matthew Harcourt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Gaillard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Isaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Nagar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Saville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mitch Gerdisch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nick Joseph</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patrick Farley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Mallick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paul Zychowicz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Richard Stinton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Robert Coppersmith</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ron Whitling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan DeWaele</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan Geyer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ryan Strehlke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sergey Omelaenko</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Wagner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suky Bains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vijay Tolani</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vytas Januskis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Searle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hardware_Vendor__c</picklist>
+            <values>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle%2FSun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SimpliVity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hypervisor_Vendor__c</picklist>
+            <values>
+                <fullName>Acropolis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heterogeneous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-V %28Microsoft%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM PowerVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Openstack%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KVM %28Redhat%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OracleVM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VMware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Citrix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xen %28Open Source%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installed_During_Demo_Yes_No__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Campaign_Influence__c</picklist>
+            <values>
+                <fullName>CIO Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Barrier Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Readiness Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Refresh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Compliance Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Maturity Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ignite Raffle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Journey to the Cloud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MLB All-Star Sweepstakes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Steps2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Objectives2__c</picklist>
+            <values>
+                <fullName>Align prospect%27s purchase timeline with our sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirm person of influence can state our value prop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo VMTurbo to show how it fits prospect%27s use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment that technical case is won</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain commitment to move to procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get update on status of competition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outline decision-making process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prove VMTurbo meets technical criteria via Install Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualify account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review business and%2For technical decision criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schedule demo and agree upon agenda</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Team_Present__c</picklist>
+            <values>
+                <fullName>Portal Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical%2FEngineering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected by Sales Rep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Rescheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Storage_Vendor__c</picklist>
+            <values>
+                <fullName>Atlantis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DataGravity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell MD Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VMAX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMC %28VNX-F%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %283PAR%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP %28Other%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM N Series %28NetApp OEM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nimble Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutanix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pure Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SolidFire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tegile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tintri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Violin Memory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XtremIO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check-In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Relationship Kickoff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upsell Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>- None -</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%2E1 Conversation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Mapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blog</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Impact Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Case Study</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cisco Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer EBC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Roadmap Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Success</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discovery Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email %28Inbound%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Evaluation Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Task</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Key Globals Exec Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn Contact Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn InMail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No-Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Call%2FMeeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POV Scoping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Account Mapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Call Blitz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Lab Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Onsite Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - QBR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Sales Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Success Story</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Tech Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners - Workshop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Procurement Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE Follow-up Conversation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE Follow-up Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Session</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Cannot_Complete_Own_Demos</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Status),
+TEXT(Status)=&quot;Completed&quot;,
+TEXT(Type)=&quot;Demo&quot;,
+$User.Full_Name__c&lt;&gt;Assigned_To__c,
+NOT(CONTAINS($UserRole.Name,&quot;Enterprise&quot;)),
+OR(
+CONTAINS($UserRole.Name,&quot;Sales Development Rep&quot;),
+CONTAINS($UserRole.Name,&quot;Business Development Rep&quot;)))</errorConditionFormula>
+        <errorDisplayField>Status</errorDisplayField>
+        <errorMessage>BDR/SDRs are not allowed to complete demos assigned to an AE. Please have the AE or SE complete the demo.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_change_call_task_into_demo</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL(PRIORVALUE(Type),&quot;Call&quot;),
+ISPICKVAL(Type,&quot;Demo&quot;),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;
+)</errorConditionFormula>
+        <errorDisplayField>Type</errorDisplayField>
+        <errorMessage>Cannot convert a call task into a demo task. Please create a new demo task.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Include_env_size_on_demos</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+TEXT(Type)=&quot;Demo&quot;, 
+OR(
+  AND(
+    OR(ISBLANK(Virtual_Machines_VMs__c),ISBLANK(Hosts__c)),
+    OR(YEAR(ActivityDate)&gt;= 2014,ISBLANK(ActivityDate))),
+  AND(
+    OR(ISBLANK(Virtual_Machines_VMs__c),ISBLANK(Hosts__c),
+    AND(ISBLANK(Cores__c),ISPICKVAL(Status,&quot;Completed&quot;))
+    ),
+    OR(ActivityDate&gt;=DATE(2016,08,14),ISBLANK(ActivityDate)))),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$User.FirstName&lt;&gt;&quot;Shmuel&quot;,
+$UserRole.Name&lt;&gt;&quot;Director of Support&quot;,
+$UserRole.Name&lt;&gt;&quot;Director of Customer Support&quot;)</errorConditionFormula>
+        <errorDisplayField>Virtual_Machines_VMs__c</errorDisplayField>
+        <errorMessage>VMs and hosts (host field is below this one) are required for demos. Cores are also required for completed demos. CPU socket count (two fields down) is not required but strongly recommended for tracking purposes.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__cannot_edit_Priority_on_Linkedin_Tasks</fullName>
+        <active>false</active>
+        <description>Validation Rule not in use</description>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorDisplayField>Priority</errorDisplayField>
+        <errorMessage>You cannot edit the Priority field on LInkedin Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__cannot_edit_assigned_on_Linkedin_Tasks</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(RecordType.Name = &quot;inMail&quot;, RecordType.Name = &quot;Messages&quot;, RecordType.Name = &quot;PointDrive Presentation Created&quot;, RecordType.Name = &quot;PointDrive Presentation Viewed&quot; )
+&amp;&amp; (ISCHANGED( OwnerId ))</errorConditionFormula>
+        <errorDisplayField>Status</errorDisplayField>
+        <errorMessage>You cannot edit the Assigned To field on LinkedIn Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__cannot_edit_status_on_Linkedin_Tasks</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(RecordType.Name = &quot;inMail&quot;, RecordType.Name = &quot;Messages&quot;, RecordType.Name = &quot;PointDrive Presentation Created&quot;, RecordType.Name = &quot;PointDrive Presentation Viewed&quot; )
+&amp;&amp; (ISCHANGED( Status ))</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>You cannot edit the Assigned To field on LinkedIn Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Limit_Changes_of_Type_After_Demo_Schedul</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(ISPICKVAL(PRIORVALUE(Type),&quot;Demo&quot;),
+ISPICKVAL(PRIORVALUE(Type),&quot;Evaluation Meeting&quot;)),
+
+NOT(OR(ISPICKVAL(Type,&quot;Demo&quot;),
+ISPICKVAL(Type,&quot;Evaluation Meeting&quot;)))
+,$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Type</errorDisplayField>
+        <errorMessage>Cannot change type from Demo or Evaluaiton Meeting after meeting is scheduled</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Link_demos_and_installs_to_contacts_only</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR( 
+TEXT(Type)=&quot;First Meeting&quot;, 
+TEXT(Type)=&quot;POV Scoping&quot;, 
+TEXT(Type)=&quot;Evaluation Meeting&quot;, 
+TEXT(Type)=&quot;Business Impact Presentation&quot;, 
+TEXT(Type)=&quot;Procurement Meeting&quot;, 
+TEXT(Type)=&quot;Demo&quot;, 
+TEXT(Type)=&quot;Technical Session&quot;,
+TEXT(Type)=&quot;Referral&quot;, 
+CONTAINS(TEXT(Type),&quot;SE Follow-up&quot;)),
+LEFT(WhoId,3)&lt;&gt;&quot;003&quot;,
+YEAR(ActivityDate)&gt;= 2013,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>WhoId</errorDisplayField>
+        <errorMessage>The Task type you selected must be linked to a Contact (not a lead). If the person you are trying to relate to is a Lead, please convert them into a Contact.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MC_Cannot_Complete_Tasks</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISCHANGED(Status),
+TEXT(Status)=&quot;Completed&quot;,
+$User.Full_Name__c = &quot;Matthew Clark&quot;)</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>Please have the AE/SDR complete the Task this activity is assigned to.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Must_attach_to_lead_or_contact</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISBLANK(WhoId),TEXT(Type)&lt;&gt;&quot;Email&quot;,TEXT(Type)&lt;&gt;&quot;Business Impact Presentation&quot;,
+Subject&lt;&gt;&quot;Follow up on Closed Lost opportunity&quot;,
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$User.FirstName&lt;&gt;&quot;Shmuel&quot;,
+$UserRole.Name&lt;&gt;&quot;Director of Support&quot;,
+$UserRole.Name&lt;&gt;&quot;Director of Customer Support&quot;,
+$UserRole.Name&lt;&gt;&quot;Recruiter&quot;)</errorConditionFormula>
+        <errorDisplayField>WhoId</errorDisplayField>
+        <errorMessage>You must attach this task to a lead or contact</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_SEs_can_Create_SE_Followup_Tasks</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+CONTAINS(TEXT(Type),&quot;SE Follow-up&quot;),
+NOT(CONTAINS($UserRole.Name,&quot;Sales Engineer&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;VMT SF admin&quot;)))</errorConditionFormula>
+        <errorMessage>Only Sales Engineers may create/edit SE Follow-up type activities</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_support_can_use_In_Progress</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(TEXT(Status)=&quot;In Progress&quot;,
+  NOT(CONTAINS($UserRole.Name,&quot;Support&quot;)),
+  $UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Status</errorDisplayField>
+        <errorMessage>In Progress can only be used by the Customer Support group</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Pre_Demo_Notes_Required_for_Demos</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+ISPICKVAL(Type,&quot;Demo&quot;),
+ISBLANK(Pre_Demo_Notes__c),
+OR(
+CONTAINS($UserRole.Name,&quot;Commercial Sales Development Rep&quot;),
+$UserRole.Name=&quot;Business Development Rep&quot;
+))</errorConditionFormula>
+        <errorDisplayField>Pre_Demo_Notes__c</errorDisplayField>
+        <errorMessage>Pre Demo Notes Required to save demo</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Modification_to_No_Show</fullName>
+        <active>true</active>
+        <description>Prevents no show modification unless admin or se</description>
+        <errorConditionFormula>AND(
+OR(AND(PriorValue(Type)=&quot;No-Show&quot;,NOT(ISPICKVAL(Type,&quot;No-Show&quot;))),ISPICKVAL(Type,&quot;No-Show&quot;)),
+OR(
+AND(ISPICKVAL(Engineer__c,&quot;No Engineer&quot;),$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$UserRole.Name&lt;&gt;&quot;Business Development Rep - Key&quot;,
+$UserRole.Name&lt;&gt;&quot;Sales Engineer - US&quot;,
+$UserRole.Name&lt;&gt;&quot;Sales Engineer - International&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Account Executive&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Bus Driver&quot;))),
+AND(
+NOT(ISPICKVAL(Engineer__c,&quot;No Engineer&quot;)),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$UserRole.Name&lt;&gt;&quot;Sales Engineer - US&quot;,
+$UserRole.Name&lt;&gt;&quot;Sales Engineer - International&quot;))
+)</errorConditionFormula>
+        <errorMessage>Only SEs can edit no-shows (and AEs/Bus Drivers when no engineer is selected).</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Relate_demos_and_installs_to_opps</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(LEFT(WhatId,3)&lt;&gt;&quot;006&quot;,
+OR(
+TEXT(Type)=&quot;First Meeting&quot;,
+TEXT(Type)=&quot;POV Scoping&quot;,
+TEXT(Type)=&quot;Evaluation Meeting&quot;,
+TEXT(Type)=&quot;Business Impact Presentation&quot;,
+TEXT(Type)=&quot;Procurement Meeting&quot;,
+TEXT(Type)=&quot;Demo&quot;,
+TEXT(Type)=&quot;Technical Session&quot;,
+TEXT(Type)=&quot;Referral&quot;,
+CONTAINS(TEXT(Type),&quot;SE Follow-up&quot;)),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>WhatId</errorDisplayField>
+        <errorMessage>The Task Type you have chosen must be related to an Opportunity. Please select an Opportunity to relate this Task to.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Discos_Attached_to_Opps</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+TEXT(Type)=&quot;Discovery Call&quot;,
+NOT(BEGINS(WhatId,&quot;006&quot;)),
+CONTAINS($UserRole.Name,&quot;Global Accounts US&quot;))</errorConditionFormula>
+        <errorMessage>Please attach your Discovery Call to an Opportunity</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Install_Field_for_Demo</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISPICKVAL(Type,&quot;Demo&quot;),ISPICKVAL(Installed_During_Demo_Yes_No__c,&quot;&quot;), ISPICKVAL(Status,&quot;Completed&quot;), $UserRole.Name &lt;&gt; &quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Installed_During_Demo_Yes_No__c</errorDisplayField>
+        <errorMessage>Must answer if VMTurbo was installed during demo.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Marketing_Campaign_Influence</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+OR(TEXT(Type)=&quot;Demo&quot;,TEXT(Type)=&quot;First Meeting&quot;),
+TEXT(Marketing_Campaign_Influence__c)=&quot;&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Marketing_Campaign_Influence__c</errorDisplayField>
+        <errorMessage>Please fill in the Marketing Campaign Influence field. Choose &quot;None&quot; if none apply.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Notes_for_Meeting</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISBLANK(Notes_for_Meeting__c), 
+OR(TEXT(Type)=&quot;Initial Demo&quot;,TEXT(Type)=&quot;Subsequent Demo&quot;), 
+NOT(CONTAINS($UserRole.Name,&quot;Support&quot;)), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Notes_for_Meeting__c</errorDisplayField>
+        <errorMessage>Required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Problem_Time_Money_or_Unidentifi</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISBLANK(Problem__c),
+ISBLANK(Time_Pain__c),
+ISBLANK(00ND00000064uJm),
+ISBLANK(00ND00000064uJh),
+TEXT(Type)=&quot;Demo&quot;,
+OR(TEXT(Status)=&quot;Not Started&quot;,TEXT(Status)=&quot;To Be Rescheduled&quot;),
+CONTAINS($UserRole.Name,&quot;Business Development Rep&quot;),
+NOT(CONTAINS($UserRole.Name,&quot;International&quot;)),
+NOT(CONTAINS($UserRole.Name,&quot;Enterprise&quot;)))</errorConditionFormula>
+        <errorMessage>You must fill in at least one of the following fields: Problem, Time, Money, Unidentified</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Reason_For_Meeting</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISBLANK(00ND00000064r3X),
+TEXT(Type)=&quot;Demo&quot;, 
+NOT(CONTAINS($UserRole.Name,&quot;Support&quot;)), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>Reason for Meeting is required on Demos</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Role</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(TEXT(00ND0000005ggQL)=&quot;&quot;, 
+OR(TEXT(Type)=&quot;Initial Demo&quot;,TEXT(Type)=&quot;Subsequent Demo&quot;), 
+NOT(CONTAINS($UserRole.Name,&quot;Support&quot;)), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>Required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_comments_to_close_task</fullName>
+        <active>true</active>
+        <description>Comments field must be filled in in order to mark task completed</description>
+        <errorConditionFormula>AND(
+OR(
+  ISPICKVAL(Type,&quot;Discovery Call&quot;),
+  ISPICKVAL(Type,&quot;Product Walkthrough&quot;),
+  ISPICKVAL(Type,&quot;Demo&quot;),
+  ISPICKVAL(Type,&quot;SE Follow-up&quot;),
+  ISPICKVAL(Type,&quot;Evaluation Meeting&quot;)),
+ISPICKVAL(Status,&quot;Completed&quot;),ISBLANK(Description),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$UserRole.Name&lt;&gt;&quot;Recruiter&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Bus Driver&quot;)),
+$UserRole.Name&lt;&gt;&quot;Manager - BDR Bus&quot;,
+$UserRole.Name&lt;&gt;&quot;Business Development Rep - Inbound Bus Team Lead&quot;,
+YEAR(ActivityDate)&gt;2013)</errorConditionFormula>
+        <errorDisplayField>Description</errorDisplayField>
+        <errorMessage>You must complete the Comments section in order to mark this task completed. If you are trying to convert a lead, your bus driver and/or manager can convert the lead for you. Otherwise, contact Sales Ops.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+ISBLANK(ActivityDate))</errorConditionFormula>
+        <errorDisplayField>ActivityDate</errorDisplayField>
+        <errorMessage>Please fill in the date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_engineer_for_certain_types</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(TEXT(Type)=&quot;Demo&quot;,
+TEXT(Type)=&quot;Evaluation Meeting&quot;,
+TEXT(Type)=&quot;Technical Session&quot;,
+TEXT(Type)=&quot;No-Show&quot;,
+TEXT(Type)=&quot;Customer Enablement&quot;),
+TEXT(Engineer__c)=&quot;&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Engineer__c</errorDisplayField>
+        <errorMessage>You must fill in the Engineer field (choose &quot;No engineer&quot; if applicable)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Referral_Type_to_CX_Team</fullName>
+        <active>true</active>
+        <description>Only the CX team should be able to log Customer Referral Calls</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(Type)
+),
+ISPICKVAL(Type,&quot;Referral&quot;),
+$User.User_Role_Name__c &lt;&gt;&quot;Customer Account Director&quot;,
+$User.User_Role_Name__c &lt;&gt;&quot;Customer Account Manager&quot;,
+$User.User_Role_Name__c &lt;&gt;&quot;VMT SF admin&quot;
+)</errorConditionFormula>
+        <errorDisplayField>Type</errorDisplayField>
+        <errorMessage>Only the CX team can log Customer Referral Calls</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tsk_001_Demo_Version_required</fullName>
+        <active>true</active>
+        <description>The version of Turbonomic that will be demo-ed to the client is required for every Demo Task.</description>
+        <errorConditionFormula>AND(
+TEXT(Type) = &quot;Demo&quot;,
+ISBLANK(TEXT(Turbonomic_Demo_Version__c))
+)</errorConditionFormula>
+        <errorDisplayField>Type</errorDisplayField>
+        <errorMessage>Please enter the product version you will be presenting in the Demo using the field &quot;Turbonomic Demo Version&quot; (error id:  Tsk_001).</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>MA_MapIt_a2T57000002VnvyEAC</fullName>
+        <availability>online</availability>
+        <description>Maps this Task with selected tooltips</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Map It</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/sma__mapanything?recordId={!Task.Id}&amp;baseObjectId=a2T57000002VnvyEAC&amp;tooltipField=Status&amp;tooltipField2=AccountId&amp;tooltipField3=CallType&amp;tooltipField4=CreatedDate&amp;tooltipField5=Priority&amp;color=%2366FF00</url>
+    </webLinks>
+    <webLinks>
+        <fullName>activities__CloseTasks</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Close Tasks</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/38.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/38.0/apex.js&quot;)}
+var left = (screen.width/2)-(320/2);
+var top = (screen.height/2)-(200/2);
+var records = {!GETRECORDIDS($ObjectType.Task)};
+var strIDs=&apos;&apos;;
+if (records[0] == null)
+{
+alert(&apos;Please select atleast one record&apos;);
+}
+else
+{
+for (var n=0; n&lt;records.length; n++)
+{
+if(strIDs == &apos;&apos;)
+strIDs = records[n];
+else
+strIDs = strIDs + &quot;,&quot; + records[n];
+}
+window.location.href = &apos;/apex/activities__CloseTasks?strIDs=&apos;+strIDs+&apos;&amp;retURL=&apos;+ window.location.href;
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>activities__Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Update Tasks</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/38.0/connection.js&quot;)}
+var records =  {!GETRECORDIDS( $ObjectType.Task)};
+var returnURL = window.location.href;
+if(records != null &amp;&amp; records != &apos;&apos;){
+     mywin = window.open(&apos;/apex/activities__UpdateTasks?Ids=&apos;+records+&apos;&amp;retURL=&apos;+returnURL , &apos;_top&apos;,
+                                             &apos;height=400,width=600,status=yes,toolbar=no,menubar=no,location=no,center=yes,resizable=no&apos;);
+     mywin.focus();
+}else{
+    alert(&apos;Please select atleast one task.&apos;);
+}</url>
+    </webLinks>
+</CustomObject>

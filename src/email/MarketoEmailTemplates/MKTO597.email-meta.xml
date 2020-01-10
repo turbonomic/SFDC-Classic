@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Third Party Nurture December_2013.Email 2</name>
+    <style>none</style>
+    <subject>Fast and Free Download Kit- Proactive Control for Your Virtual Datacenter</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+You are likely evaluating your IT spend in preparation for 2014 initiatives and wishing you could reduce or defer capital and operating expenses until you absolutely need to incur them. This would be possible if you could drive greater efficiency—both in hardware utilization and staff productivity—in your data center.
+
+Check out this free download kit &lt;http://bit.ly/1a53Jya&gt;, which contains the essentials for learning about VMTurbo&apos;s approach to automating control of your virtual environment and realizing up to 30% efficiency gains in utilization and productivity.
+
+VMTurbo allows you to:
+
+- Increase infrastructure efficiency and virtual machine densities up to 30% or more 
+- Reduce the volume of incidents, as well as the time to repair
+- Assure service delivery and reliably virtualize more of your application estate
+- Gain peace of mind that your workloads are under control
+
+
+Kind regards,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

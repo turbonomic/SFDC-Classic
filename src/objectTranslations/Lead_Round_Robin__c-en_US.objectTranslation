@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lead Round Robin</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lead Round Robin</value>
+    </caseValues>
+    <fields>
+        <label><!-- Lead Field Regions --></label>
+        <name>Lead_Field_Regions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round Robin Number --></label>
+        <name>Round_Robin_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round Robin Region --></label>
+        <name>Round_Robin_Region__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

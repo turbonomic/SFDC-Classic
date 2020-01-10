@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03_05_2014 Storage Use Case.Email.Subject Line</name>
+    <style>none</style>
+    <subject>Controlling Storage from VM to Spindle</subject>
+    <textOnly>   
+Achieving VM-to-Spindle
+Storage Control
+{{lead.First Name:default=FACT}}:
+
+Approximately 25% of virtualization dollars are dedicated to storage, with much of this spend wasted on over-provisioned IO and disk capacity. By effectively controlling the end-to-end relationships between workloads and storage, organizations can:
+
+ - Reduce ongoing storage costs by 20-30%
+ - Reliably virtualize IO-intensive applications
+ - Actively prevent complex storage problems
+ - Intelligently thin-provision, deduplicate, and compress storage volumes to optimize datastore efficiency
+
+VMTurbo’s Aligning Virtualization &amp; Storage Management &lt;http://bit.ly/1mL9ddp&gt; whitepaper explores the most common storage performance issues, and how your organization can leverage Storage Magazine&apos;s 2013 Product of the Year &lt;http://bit.ly/1jCKrtQ&gt;, to own your environment from VM to spindle.
+
+It’s a new era in storage management.
+
+Thinly provisioned,
+VMTurbo
+Read the Whitepaper</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

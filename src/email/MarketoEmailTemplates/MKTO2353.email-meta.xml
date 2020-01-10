@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-04-HPE London Meetup.HPE Invitation</name>
+    <style>none</style>
+    <subject>You’re invited: HPE London Tech Meetup on May 18</subject>
+    <textOnly>You&apos;re Invited
+
+
+Hewlett Packard Enterprise are excited to host theirr first tech meetup event for UK Financial Services and Insurance customers on May 18th at their London HQ. 
+This informal, drop-in event targeted at Architects and Engineers, is an opportunity for HPE to introduce you to a selection of their innovative go-to-market partners – Scality &lt;[[http://www.scality.com/]]&gt;, Turbonomic &lt;[[https://turbonomic.com/]]&gt;, CTERA &lt;[[http://www.ctera.com/]]&gt; and ActiveViam &lt;[[https://activeviam.com/]]&gt; who each have bespoke capabilities in software-defined datacentre optimisation and are trusted by banking and insurance institutions across Europe. 
+HPE will bring the light refreshments and drinks, just bring yourself! 
+Location: 
+Hewlett Packard Enterprise 
+1 Aldermanbury 
+London 
+EC2V 7HR 
+Date: 18th May 
+Time: 18:00-20:30 
+Registration opens March 29, 2017 at 9:00am!
+ &lt;[[http://fasttracks.info/2p1NJ]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

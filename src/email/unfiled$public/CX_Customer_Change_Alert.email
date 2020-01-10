@@ -1,0 +1,6 @@
+CX Team,
+
+{!Account.Name} has changed Territory Owner/CX Owner.
+
+Territory Owner is now {!Account.AE_Rep__c}.
+CX Owner is now {!Account.Customer_Experience_Owner3__c}.

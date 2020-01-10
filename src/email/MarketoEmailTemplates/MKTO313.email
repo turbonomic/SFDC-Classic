@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Dear {{lead.First Name:default=Sir/Madam}},</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;">We look forward to having you join us tomorrow for the webinar, </span></span><em style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">NetApp ONTAP and VMTurbo: Aligning Virtualization with Storage &ndash; Live Demo. </em><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;">The link to the meeting in your&nbsp;preferred&nbsp;timezone appears below. In advance of the session, feel free to <a href="http://go.vmturbo.com/contact-us.html">contact us</a> with any questions you&rsquo;d like addressed. There will also be a live Q&amp;A session following the presentation.&nbsp;</span></span></p>
+<ul style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal;">
+</ul>
+<p style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Link to the meeting at your preferred time:</span></p>
+<ul style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal;">
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><a href="https://www3.gotomeeting.com/register/861381406">Tuesday, November 19, 10:00 AM&nbsp;EST&nbsp;</a></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><a href="https://www3.gotomeeting.com/register/382621894">Tuesday, November 19, 12:00 PM EST</a></span></li>
+</ul>
+<div style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Sincerely,</span></div>
+<div style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Jonathan Reeve</span></div>
+<div style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">VMTurbo</span></div></div>
+</div>
+</body>
+</html>

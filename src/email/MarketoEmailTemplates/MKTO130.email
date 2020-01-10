@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" >
+<p>Dear {{lead.First Name:default=Sir/Madam}},<br /> <br /> I hope you are well and apologize for the interruption here.
+    I wanted to take a quick moment to thank and congratulate you (at the same time) for trusting in VMTurbo to help you better control and optimize your virtual infrastructure.<br />&nbsp;<br />Why? Well,  yesterday we were selected by Forbes as one of the <a 
+href="http://www.forbes.com/most-promising-companies/list/">Top 100 Most Promising Companies</a> in America.
+     For innovative software companies like ours, getting early adopters to recognize the need to approach an old problem with a unique solution is important &ndash; but getting them to &ldquo;take the leap&rdquo; and bet on your company is what really matters.
+     And you all jumped with us &ndash; then championed us and helped us improve how our product delivers on that promise.
+     So, a massive &ldquo;thank you!&rdquo; from all of us here at VMTurbo.
+     And, while the award itself is no way the end goal, we wanted to share the acceptance with you as well &ndash; thus the &ldquo;congratulations&rdquo;.
+     Without you all seeing the light, we would just be a bunch of folks with a novel idea (and a failed company).</p>
+<p>I'd love to hear how you are doing with our product - and if you are up for doing a success story we'd certainly appreciate that, too.<br />&nbsp;<br />Best regards,</p>
+<div>Derek Slayton <br /> VP of Marketing</div>
+<div>derek.slayton@vmturbo.com&nbsp;</div>
+<div>781.418.5203</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

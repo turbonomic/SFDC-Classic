@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p class="p1">&nbsp;</p>
+<p class="p1">Dear {{lead.First Name:default=Sir/Madam}},</p>
+<p>There are still a few spots left for tomorrow's webinar! VMTurbo is hosting an expert discussion. Get an industry analyst's and a cloud service provider's point of view regarding<em> "Overcoming Key Challenges in Operating Cloud Environments"</em>.</p>
+<p><a href="https://www3.gotomeeting.com/register/393344606">Register now!</a><br /><br /><strong>DATE:</strong> Tuesday, January 22, 2103<br /><strong>TIME:</strong> 12 pm ET<br /><strong>PRESENTERS:</strong> Kevin Van Mondfrans from <em>Layered Tech</em> &amp; Roy Illsley from <em>Ovum</em><br /><br /><a href="https://www3.gotomeeting.com/register/393344606">Learn more.</a></p>
+<p>We hope you will join us!</p>
+<p>- The VMTurbo Team</p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

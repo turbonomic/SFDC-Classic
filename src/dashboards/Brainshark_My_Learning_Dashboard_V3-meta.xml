@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>eddie.genao@vmturbo.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>Brainshark: My Learning Dashboard V3</name>
+</DashboardFolder>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM - Whitepaper Offer</name>
+    <style>none</style>
+    <subject>3 Network Tips for vAdmins and Architects</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=35000decisions&amp;utm_content=112114&gt;
+Network Flow &amp; Application Performance &lt;http://vmturbo.com/network-flow-and-application-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wp_offer&gt;
+
+3 Tips for Admins &amp; Architects
+
+ &lt;http://vmturbo.com/network-flow-and-application-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wp_offer&gt;
+Network-heavy, scale-out workloads place considerable stress on today’s rapidly growing virtualized and cloud datacenters. Non-delimiting network components, as well as emerging software-defined networking (SDN) technologies aim to mitigate the potential bottlenecks that can precipitate at the network layer in such environments, as well as simplify network design. However, there remain significant challenges, as well as optimization opportunities, at the network layer.
+This whitepaper &lt;http://vmturbo.com/network-flow-and-application-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wp_offer&gt; examines the latency-inducing pitfalls of common  VM placement tactics, as well as a network flow approach that minimizes network, compute, and storage latency all at once.
+
+Get Free Whitepaper &lt;http://vmturbo.com/network-flow-and-application-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wp_offer&gt;
+&lt;http://www.vmturbo.com/downloads?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wp_offer&gt;
+&lt;http://www.vmturbo.com/resources/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wp_offer&gt;
+&lt;https://greencircle.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=wp_offer&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

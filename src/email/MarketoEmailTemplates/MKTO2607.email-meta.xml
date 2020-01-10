@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>meeting tomorrow (1495547453.0)</name>
+    <style>none</style>
+    <subject>meeting tomorrow (1495547453.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi TJ, Hope you had a great weekend. Just wanted to check in and be sure that you are still available for our meeting tomorrow at 11am PST. Please let me know either way.  Best,Maggie Margaret Schroeder - Turbonomic
+Sales Development Representative 
+O: 857.305.4608  C: 802.440.2128 
+500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

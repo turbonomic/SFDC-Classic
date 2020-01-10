@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-06-07-EchoStor Dine and Dash Send.Send</name>
+    <style>none</style>
+    <subject>Date Change now 6/27/2017| Join EchoStor and Turbonomic for Dinner with a Side of Automation</subject>
+    <textOnly>&lt;[[https://echostor.com/wp-content/uploads/2017/05/Turbo_Dine-n_Dash_Event_Email.html]]&gt;
+{{lead.First Name:default=there}},
+Busy schedule keep you from making our dinner tonight? Good news, we have decided to reschedule tonight&apos;s dinner for June 27th!
+To remind you our dinner with a side of automation will be held at Maggiano&apos;s in Boston. Please come join EchoStor and Turbonomic &lt;[[https://echostor.com/wp-content/uploads/2017/05/Turbo_Dine-n_Dash_Event_Email.html]]&gt; for drinks and appetizers as we discuss how to deliver better applications faster regardless of cloud, infrastructure or architecture. After our brief session we will send you home with a dinner for four from one of the best Italian restaurants in all of Boston!
+
+
+	- Host: EchoStor and Turbonomic
+	- When: Wednesday June, 27th 2017, 7PM
+	- Where: Maggianos&apos;s Little Italy
+	- Address: 4 Columbus Ave, Boston, MA 02116
+
+
+
+RSVP Here &lt;[[https://echostor.com/wp-content/uploads/2017/05/Turbo_Dine-n_Dash_Event_Email.html]]&gt;.
+
+Please reach out to Grace.Murphy@Turbonomic.com or your account executives for any further questions.
+
+Best,
+
+Your friends at Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

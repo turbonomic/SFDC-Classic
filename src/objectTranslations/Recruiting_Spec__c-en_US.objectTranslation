@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recruiting Spec</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recruiting Specs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Admin Notes --></label>
+        <name>Admin_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency Involved --></label>
+        <name>Agency_Involved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Budget for Recruiter --></label>
+        <name>Approved_Budget_for_Recruiter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Customer Success</masterLabel>
+            <translation><!-- Customer Success --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G&amp;A: Finance</masterLabel>
+            <translation><!-- G&amp;A: Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G&amp;A: HR &amp; Recruiting</masterLabel>
+            <translation><!-- G&amp;A: HR &amp; Recruiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G&amp;A: Misc</masterLabel>
+            <translation><!-- G&amp;A: Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G&amp;A: Strategy &amp; Ops</masterLabel>
+            <translation><!-- G&amp;A: Strategy &amp; Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales: BDR EMEA</masterLabel>
+            <translation><!-- Sales: BDR EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales: BDR General</masterLabel>
+            <translation><!-- Sales: BDR General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales: Enterprise</masterLabel>
+            <translation><!-- Sales: Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales: Globals</masterLabel>
+            <translation><!-- Sales: Globals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales: Sales Engineer</masterLabel>
+            <translation><!-- Sales: Sales Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales: Velocity</masterLabel>
+            <translation><!-- Sales: Velocity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Candidate Start Date --></label>
+        <name>Candidate_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Expired --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinator --></label>
+        <name>Coordinator__c</name>
+        <picklistValues>
+            <masterLabel>Adam Pasti</masterLabel>
+            <translation><!-- Adam Pasti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andrew Lane</masterLabel>
+            <translation><!-- Andrew Lane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brigid Doulin</masterLabel>
+            <translation><!-- Brigid Doulin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federika Cariati</masterLabel>
+            <translation><!-- Federika Cariati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lila Haffey</masterLabel>
+            <translation><!-- Lila Haffey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Megan Griffin</masterLabel>
+            <translation><!-- Megan Griffin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michelle Tuzio</masterLabel>
+            <translation><!-- Michelle Tuzio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rachel Murray</masterLabel>
+            <translation><!-- Rachel Murray --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veronica Curran</masterLabel>
+            <translation><!-- Veronica Curran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zach Choquette</masterLabel>
+            <translation><!-- Zach Choquette --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Filled --></label>
+        <name>Date_Filled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Open --></label>
+        <name>Days_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deadline Period --></label>
+        <name>Deadline_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deadline --></label>
+        <name>Deadline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Experience Level --></label>
+        <name>Experience_Level__c</name>
+        <picklistValues>
+            <masterLabel>Entry</masterLabel>
+            <translation><!-- Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid</masterLabel>
+            <translation><!-- Mid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior</masterLabel>
+            <translation><!-- Senior --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hiring Manager --></label>
+        <name>Hiring_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interview Team --></label>
+        <name>Interview_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>Boston</masterLabel>
+            <translation><!-- Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYC</masterLabel>
+            <translation><!-- NYC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (EMEA)</masterLabel>
+            <translation><!-- Other (EMEA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (NorthAm)</masterLabel>
+            <translation><!-- Other (NorthAm) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toronto</masterLabel>
+            <translation><!-- Toronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK (Reading)</masterLabel>
+            <translation><!-- UK (Reading) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Plains</masterLabel>
+            <translation><!-- White Plains --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Candidates Hired --></label>
+        <name>Number_of_Candidates_Hired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Hires to Target --></label>
+        <name>Number_of_Hires_to_Target__c</name>
+    </fields>
+    <fields>
+        <help><!-- To identify the date that the business decided to pause on a headcount req --></help>
+        <label><!-- On Hold Date --></label>
+        <name>On_Hold_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Date --></label>
+        <name>Open_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter of Deadline --></label>
+        <name>Quarter_of_Deadline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recruiter Credit --></label>
+        <name>Recruiter_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recruiter --></label>
+        <name>Recruiter__c</name>
+        <picklistValues>
+            <masterLabel>Adam Pasti</masterLabel>
+            <translation><!-- Adam Pasti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brigid Doulin</masterLabel>
+            <translation><!-- Brigid Doulin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ed Morris</masterLabel>
+            <translation><!-- Ed Morris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jen Russell</masterLabel>
+            <translation><!-- Jen Russell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kara Gilbert</masterLabel>
+            <translation><!-- Kara Gilbert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Larry Jacobson</masterLabel>
+            <translation><!-- Larry Jacobson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lila Haffey</masterLabel>
+            <translation><!-- Lila Haffey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nick Picardi</masterLabel>
+            <translation><!-- Nick Picardi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stacey Schmidt</masterLabel>
+            <translation><!-- Stacey Schmidt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zach Choquette</masterLabel>
+            <translation><!-- Zach Choquette --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recruiting Spec Safe ID --></label>
+        <name>Recruiting_Spec_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report To --></label>
+        <name>Report_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Researcher --></label>
+        <name>Researcher__c</name>
+        <picklistValues>
+            <masterLabel>Adam Pasti</masterLabel>
+            <translation><!-- Adam Pasti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andrew Lane</masterLabel>
+            <translation><!-- Andrew Lane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brigid Doulin</masterLabel>
+            <translation><!-- Brigid Doulin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federika Cariati</masterLabel>
+            <translation><!-- Federika Cariati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kara Gilbert</masterLabel>
+            <translation><!-- Kara Gilbert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lila Haffey</masterLabel>
+            <translation><!-- Lila Haffey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Megan Griffin</masterLabel>
+            <translation><!-- Megan Griffin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michelle Tuzio</masterLabel>
+            <translation><!-- Michelle Tuzio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rachel Murray</masterLabel>
+            <translation><!-- Rachel Murray --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veronica Curran</masterLabel>
+            <translation><!-- Veronica Curran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zach Choquette</masterLabel>
+            <translation><!-- Zach Choquette --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To identify the date that the business decided to resume a paused headcount req --></help>
+        <label><!-- Resume Date --></label>
+        <name>Resume_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salary Guideline --></label>
+        <name>Salary_Guideline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sourcer --></label>
+        <name>Sourcer__c</name>
+        <picklistValues>
+            <masterLabel>Adam Pasti</masterLabel>
+            <translation><!-- Adam Pasti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andrew Lane</masterLabel>
+            <translation><!-- Andrew Lane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDR Team</masterLabel>
+            <translation><!-- BDR Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brigid Doulin</masterLabel>
+            <translation><!-- Brigid Doulin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federika Cariati</masterLabel>
+            <translation><!-- Federika Cariati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lila Haffey</masterLabel>
+            <translation><!-- Lila Haffey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Megan Griffin</masterLabel>
+            <translation><!-- Megan Griffin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michelle Tuzio</masterLabel>
+            <translation><!-- Michelle Tuzio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rachel Murray</masterLabel>
+            <translation><!-- Rachel Murray --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veronica Curran</masterLabel>
+            <translation><!-- Veronica Curran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zach Choquette</masterLabel>
+            <translation><!-- Zach Choquette --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fill Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Hires --></label>
+        <name>Target_Hires__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today Quarter --></label>
+        <name>Today_Quarter__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Only Sales Ops or HR  may edit Recruiting Specs. Email salesops@vmturbo.com for questions. --></errorMessage>
+        <name>Only_VMT_Admins_Can_Make_Changes</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-03-09-Turbofest-Silicon-Valley.01. General Invite 02_01_2016.Invite</name>
+    <style>none</style>
+    <subject>You’re Invited: Turbofest Silicon Valley | AWS Loft, Mystery Celebrity Comedian</subject>
+    <textOnly>&lt;[[http://vmturbo.com/turbofest-silicon-valley??utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=Turbofest-SV&amp;amp;utm_content=02012016]]&gt;
+
+Dear {{lead.First Name:default=Sir or Madam}}:
+It is my pleasure to cordially invite you to VMTurbo&apos;s second Turbofest Silicon Valley! This afternoon event will be held Wednesday, March 9th, 2016 at the San Francisco AWS Pop Up Loft &lt;[[https://aws.amazon.com/start-ups/loft/sf-loft/]]&gt;. Presentations will run from 1:00 PM to 6:00 PM followed by an evening of comedy &amp; networking.
+Due to space considerations, Turbofest Silicon Valley is limited to the first 100 VIP registrants. We are eager to announce our Mystery Celebrity Comedian. Stay tuned for this special announcement on February 8th.
+You can register here &lt;[[http://vmturbo.com/turbofest-silicon-valley??utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Turbofest-SV&amp;utm_content=02012016]]&gt;, for this invitiation-only event, and a VMTurbo representative will contact you to address any question you may have. I look forward to seeing you there.
+Sincerely,
+J. Benjamin H. Nye
+Chief Executive Office
+VMTurbo Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

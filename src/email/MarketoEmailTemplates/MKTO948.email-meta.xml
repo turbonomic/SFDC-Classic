@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CM/DS</name>
+    <style>none</style>
+    <subject>Enhance The Desired State with VMTurbo Control Modules</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Learn About VMTurbo Control Modules Today!
+ &lt;http://vmturbo.com/product/control-modules?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;
+Dear {{lead.First Name:default=Sir/Madam}},
+Are you experiencing true control?
+Our Control Modules extend Operations Manager from the hypervisor into each layer of the datacenter providing tighter control over the desired state to further assure application workload performance while maximizing efficiency.
+Control Modules pull additional entities – containers, public cloud zones, network flows – into the VMTurbo Market, enabling Operations Manager to evaluate more complete information in driving your environment to its Desired State.
+Container Control Module &lt;http://vmturbo.com/product/control-modules/container-management-software?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; places and auto-scales container-based deployments
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/10/VMT%20Container%20Control%20Module%20Data%20Sheet%20Nov%202014.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;
+Application Control Module &lt;http://vmturbo.com/product/control-modules/application-management-software?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; enables application-aware service assurance and prioritization
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/10/VMT%20Application%20Control%20Module%20Data%20Sheet%20Nov%202014.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;
+Network Control Module &lt;http://vmturbo.com/product/control-modules/network-management-software?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; manages the tradeoffs between compute, storage, and network latency
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/10/VMT%20Network%20Control%20Module%20Data%20Sheet%20Nov%202014.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;  
+Hybrid Cloud Control Module &lt;http://vmturbo.com/product/control-modules/hybrid-cloud-management-software?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; enables intelligent bursting to public resources based on demand
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/12/VMT-Hybrid-Cloud-Control-Module-Data-Sheet-Nov-2014.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;  
+Cloud Control Module &lt;http://vmturbo.com/product/control-modules/cloud-management-software?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; provides control and visibility into common Cloud Management Platforms
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/11/VMT-OpenStack-Data-Sheet-Nov-20141.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;  
+Fabric Control Module &lt;http://vmturbo.com/product/control-modules/ucs-fabric-management-software?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; delivers complete visibility and control of the converged network fabric
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/11/VMT-Fabric-Control-Module-Data-Sheet-Nov-2014.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;  
+Storage Control Module &lt;http://vmturbo.com/product/control-modules/storage-resource-management?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; addresses run-time performance issues stemming from storage contention
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/12/VMT-Storage-Control-Module-Nov-2014.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt;  
+VDI Control Module &lt;http://vmturbo.com/product/control-modules/vdi-management-software?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; controls the demand of I/O intensive events to maintain end-user experience
+Data Sheet &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/10/VMT%20VDI%20Control%20Module%20Data%20Sheet%20Nov%202014.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=cm_ds&gt; 
+Your IT control system,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

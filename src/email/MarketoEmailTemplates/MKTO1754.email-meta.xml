@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-04-14-UI Survey.UI Survey</name>
+    <style>none</style>
+    <subject>Feedback on New VMTurbo 5.5 User Interface</subject>
+    <textOnly>Hi {{lead.First Name:default=Valued Customer}},
+We&apos;ve been working to improve our user interface and want to make sure it meets your needs. With our latest release (VMTurbo 5.5) we rolled out a preview of our new user interface.
+Please take this short survey &lt;[[https://www.surveymonkey.com/r/KW5JH9R]]&gt;, it won&apos;t take any more than 3 minutes to tell us what you think.
+If you have not yet upgraded you can learn more about what&apos;s new in 5.5 here &lt;[[http://vmturbo.com/blog/vmturbo-enhances-private-and-public-cloud-control-with-its-5-5-release/]]&gt;
+Stay Green,
+Your Dedicated Customer Experience Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

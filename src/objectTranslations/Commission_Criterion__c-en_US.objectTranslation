@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Commission Criterion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commission Criteria</value>
+    </caseValues>
+    <fields>
+        <label><!-- Close Date On or After --></label>
+        <name>Close_Date_On_or_After__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date On or Before --></label>
+        <name>Close_Date_On_or_Before__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Opportunity Owner is selected, the rep will be paid on his/her deals.
+If an Owner Team is selected, the rep will be paid on deals closed by that team. --></help>
+        <label><!-- Criterion for Payment --></label>
+        <name>Criterion_for_Payment__c</name>
+        <picklistValues>
+            <masterLabel>Aussie Posse</masterLabel>
+            <translation><!-- Aussie Posse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangers n Cash</masterLabel>
+            <translation><!-- Bangers n Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beast Coast</masterLabel>
+            <translation><!-- Beast Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Development</masterLabel>
+            <translation><!-- Business Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candy Time</masterLabel>
+            <translation><!-- Candy Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Corporate</masterLabel>
+            <translation><!-- Central Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closers Club</masterLabel>
+            <translation><!-- Closers Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-Unit</masterLabel>
+            <translation><!-- E-Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Enterprise</masterLabel>
+            <translation><!-- EMEA Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Inbound</masterLabel>
+            <translation><!-- EMEA Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Corporate</masterLabel>
+            <translation><!-- East Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation><!-- Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal</masterLabel>
+            <translation><!-- Federal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ganas iOS</masterLabel>
+            <translation><!-- Ganas iOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Accounts International</masterLabel>
+            <translation><!-- Global Accounts International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Accounts US</masterLabel>
+            <translation><!-- Global Accounts US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intimidators</masterLabel>
+            <translation><!-- Intimidators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mount Crushmore</masterLabel>
+            <translation><!-- Mount Crushmore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opp Owner (incl. Splits)</masterLabel>
+            <translation><!-- Opp Owner (incl. Splits) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline Pitbulls</masterLabel>
+            <translation><!-- Pipeline Pitbulls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC</masterLabel>
+            <translation><!-- SEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Green Flash</masterLabel>
+            <translation><!-- The Green Flash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Green Monsters</masterLabel>
+            <translation><!-- The Green Monsters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Kitchen</masterLabel>
+            <translation><!-- The Kitchen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Ringers</masterLabel>
+            <translation><!-- The Ringers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Wild West</masterLabel>
+            <translation><!-- The Wild West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VManifest Destiny</masterLabel>
+            <translation><!-- VManifest Destiny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual Empire</masterLabel>
+            <translation><!-- Virtual Empire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Corporate</masterLabel>
+            <translation><!-- West Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheelers and Dealers</masterLabel>
+            <translation><!-- Wheelers and Dealers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xccelerators</masterLabel>
+            <translation><!-- Xccelerators --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rep --></label>
+        <name>Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Comp Plan --></label>
+        <name>Sales_Comp_Plan__c</name>
+        <relationshipLabel><!-- Commission Criteria --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

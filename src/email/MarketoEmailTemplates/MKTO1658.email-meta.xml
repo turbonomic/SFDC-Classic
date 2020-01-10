@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-03-11-Pure Accelerate.EMAIL-Pure Accelerate</name>
+    <style>none</style>
+    <subject>Save $100 to Pure//Accelerate with VMTurbo</subject>
+    <textOnly>&lt;[[http://info.purestorage.com/transformation-squared.html]]&gt; &lt;[[https://www.purestorage.com/refs/mega-nav---accelerate.html]]&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Where would you go if nothing held you back?
+
+
+Join VMTurbo at Pure//Accelerate for inspired keynotes, expert breakout sessions, and game-changing product demos.  Be inspired by the most compelling thinkers, sharing their insights about what&apos;s possible.
+
+
+VMTurbo Ben Nye will deliver a breakout session on our integration work with Pure Storage - bringing Application-Aware QoS to Pure Storage environments. Be sure to stop by the VMTurbo Booth for great swag and a demo of VMTurbo v5.4.
+
+
+What you&apos;ll experience:
+
+
+ - Keynotes led by industry veterans including VMware COO, Carl Eschenbach and San Francisco Giants CIO, Bill Schlough.
+ - Three exciting tracks designed to expand your thinking: Accelerate Your Cloud, Accelerate Your Applications and Accelerate Your Flash Future. Check out our agenda &lt;[[https://www.purestorage.com/events/pure_accelerate2016/pure_events_schedule.html]]&gt; for more info.
+
+ - The biggest new product launch of the year in enterprise technology.
+
+On behalf of VMTurbo, please use code VMturbo16-100 for $100 off registration today! 
+
+
+
+
+
+
+
+
+ &lt;[[https://www.purestorage.com/refs/mega-nav---accelerate.html]]&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When
+Monday March 14th Tuesday March 15th
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Where
+Pier 48
+San Francisco, CA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What
+A conference by innovators for innovators
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ © Pure Storage, Inc. &lt;[[#link]]&gt; | Privacy Policy &lt;[[#link]]&gt; | Terms of Use &lt;[[#link]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

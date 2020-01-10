@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<title>Customer Delight Newsletter</title> 
+<style type="text/css">
+  #outlook a{
+    padding:0;
+  }
+  .ReadMsgBody{
+    width:100%;
+  }
+  .ExternalClass{
+    width:100%;
+  }
+  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+    line-height: 100%;
+  }
+  body, table, td, p, a, li, blockquote{
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+  }
+  table, td{
+    mso-table-lspace:0pt;
+    mso-table-rspace:0pt;
+  }
+  img{
+    -ms-interpolation-mode:bicubic;
+  }
+  /*  RESET STYLES*/
+  body{
+    margin:0; padding:0;
+  }
+  img{
+    border:0;
+    height:auto;
+    line-height:100%;
+    outline:none;
+    text-decoration:none;
+  }
+  table{
+    border-collapse:collapse !important;
+  }
+  body, #bodyTable, #bodyCell{
+    height:100% !important;
+    margin:0;
+    padding:0;
+    width:100% !important;
+  }
+  /* Template Styles */
+  /* ========== Page Styles ========== */
+  #bodyCell{
+    padding:20px;
+  }
+  body, #bodyTable{
+    /*background-color:#DEE0E2;*/
+  }
+  #bodyCell{
+    /*border-top:4px solid #BBBBBB*/;
+  }
+  #templateContainer{
+    /*border:1px solid #BBBBBB*/;
+  }
+  h1{
+    /*color:#202020 !important;*/
+    display:block;
+    font-family:Arial;
+    font-size:26px;
+    font-style:normal;
+    font-weight:bold;
+    line-height:100%;
+    letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+    text-align:left;
+  }
+  /**
+  * @tab Page
+  * @section heading 2
+  * @tip Set the styling for all second-level headings in your emails.
+  * @style heading 2
+  */
+  h2{
+    color:#404040 !important;
+    display:block;
+    font-family:Arial;
+    font-size:20px;
+    font-style:normal;
+    font-weight:bold;
+    line-height:100%;
+    letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    /*margin-bottom:10px;*/
+    margin-left:0;
+    text-align:left;
+  }
+  h3{
+    color:#fff;
+    display:block;
+    font-family:Arial;
+    font-size:19px;
+    /*font-style:italic;*/
+    font-weight:normal;
+    line-height:100%;
+    letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    /*margin-bottom:10px;*/
+    margin-left:0;
+    text-align:center;
+  }
+  h4{
+    color:#808080 !important;
+    display:block;
+    font-family:Arial;
+    font-size:14px;
+    /*font-style:italic;*/
+    font-weight:normal;
+    line-height:100%;
+    letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+    text-align:left;
+  }
+  #templatePreheader{
+    background-color:#F4F4F4;
+    border-bottom:1px solid #CCCCCC;
+  }
+  .preheaderContent{
+    color:#808080;
+    font-family:Arial;
+    font-size:10px;
+    line-height:125%;
+    text-align:left;
+  }
+  .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+    color:#333;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  #templateHeader{
+    background-color:#F4F4F4;
+  }
+  .headerContent{
+    color:#505050;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    line-height:100%;
+    padding-top:0;
+    padding-right:0;
+    padding-bottom:0;
+    padding-left:0;
+    text-align:left;
+    vertical-align:middle;
+  }
+  .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+    color:#EB4102;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  #headerImage{
+    height:auto;
+    max-width:600px;
+  }
+  #templateBody{
+    background-color:#F4F4F4;
+    border-top:1px solid #FFFFFF;
+    border-bottom:1px solid #CCCCCC;
+  }
+  .bodyContent{
+    color:#505050;
+    font-family:Arial;
+    font-size:16px;
+    line-height:150%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    text-align:left;
+  }
+  .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+    color:#EB4102;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  .bodyContent img{
+    display:inline;
+    height:auto;
+    max-width:560px;
+  }
+  /* ========== Column Styles ========== */
+  .templateColumnContainer{width:200px;}
+  .templateColumns{
+    background-color:#F4F4F4;
+  }
+  .leftColumnContent{
+    color:#505050;
+    font-family:Arial;
+    font-size:14px;
+    line-height:150%;
+    /*padding-top:0;
+    padding-right:20px;
+    padding-bottom:0;
+    padding-left:20px;*/
+    /*text-align:left;*/
+  }
+  .leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+    color:#EB4102;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  .centerColumnContent{
+    color:#505050;
+    font-family:Arial;
+    font-size:14px;
+    line-height:150%;
+   /* padding-top:0;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;*/
+    /*text-align:left;*/
+  }
+  .centerColumnContent a:link, .centerColumnContent a:visited, /* Yahoo! Mail Override */ .centerColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+    color:#EB4102;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  .rightColumnContent{
+    color:#505050;
+    font-family:Arial;
+    font-size:14px;
+    line-height:150%;
+    /*padding-top:0;
+    padding-right:20px;
+    padding-bottom:0;
+    padding-left:20px;*/
+    /*text-align:left;*/
+  }
+  .rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+    color:#EB4102;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  .leftColumnContent img, .rightColumnContent img{
+    display:inline;
+    height:auto;
+    max-width:260px;
+  }
+  /* ========== Footer Styles ========== */
+  #templateFooter{
+    /*background-color:#F4F4F4;*/
+    * border-top:1px solid #FFFFFF;*/
+  }
+  .footerContent{
+    /*color:#808080;*/
+    font-family:Arial;
+    font-size:10px;
+    line-height:150%;
+    padding-top:10px;
+    padding-right:235px;
+    padding-bottom:15px;
+    padding-left:20px;
+    text-align:left;
+  }
+  .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+    color:#6F5555;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  /* MOBILE STYLES */
+    @media only screen and (max-width: 480px){
+    /*CLIENT-SPECIFIC MOBILE STYLES */
+    body, table, td, p, a, li, blockquote{
+      -webkit-text-size-adjust:none !important;
+    } /* Prevent Webkit platforms from changing default text sizes */
+    body{
+      width:100% !important; min-width:100% !important;
+    } /* Prevent iOS Mail from adding padding to the body */
+    /* MOBILE RESET STYLES */
+    #bodyCell{
+      /*padding:10px !important;*/
+    }
+    /*MOBILE TEMPLATE STYLES */
+    /* ======== Page Styles ======== */
+    #templateContainer{
+     /* max-width:600px !important;
+      width:100% !important;*/
+    }
+    h1{
+      font-size:24px !important;
+      line-height:100% !important;
+    }
+    h2{
+      font-size:20px !important;
+      line-height:100% !important;
+    }
+    h3{
+      font-size:16px !important;
+      line-height:100% !important;
+    }
+    h4{
+      font-size:16px !important;
+      line-height:100% !important;
+    }
+    /* ======== Header Styles ======== */
+    #templatePreheader{
+      display:none !important;
+    } /* Hide the template preheader to save space */
+    #headerImage{
+      height:auto !important;
+      max-width:600px !important;
+      width:100% !important;
+    }
+    .headerContent{
+      font-size:20px !important;
+      line-height:125% !important;
+    }
+    /* ======== Body Styles ======== */
+    .bodyContent{
+      font-size:18px !important;
+      line-height:125% !important;
+    }
+    /* ======== Column Styles ======== */
+    .templateColumnContainer{
+      display:block !important; width:100% !important;
+    }
+    .columnImage{
+      height:auto !important;
+      max-width:480px !important;
+      width:100% !important;
+    }
+    .leftColumnContent{
+      font-size:16px !important;
+      line-height:125% !important;
+    }
+    .centerColumnContent{
+      font-size:16px !important;
+      line-height:125% !important;
+    }
+    .rightColumnContent{
+      font-size:16px !important;
+      line-height:125% !important;
+    }
+    /* ======== Footer Styles ======== */
+    .footerContent{
+      font-size:14px !important;
+      line-height:115% !important;
+    }
+    .footerContent a{display:block !important;}
+  }
+</style> 
+</head> 
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="height:100% !important;margin:0;padding:0;width:100% !important;"> 
+<center> 
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" style="height:100% !important;width:100% !important;" id="bodyTable"> 
+<tbody>
+<tr> 
+<td align="center" valign="top" style="padding:10px" id=""> 
+<!-- BEGIN TEMPLATE // --> 
+<table border="0" cellpadding="0" cellspacing="0" style="width:600px" id="templateContainer"> 
+<tbody>
+<tr> 
+<td align="center" valign="top"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody>
+<tr> 
+<td class="mktEditable" id="newsletter-subject" style="background-color:#1F1F1F;color: #fff;font-family: Arial;font-size: 10.5px;text-align: center;height:54px;"><p>Greetings from Turbonomic, {{lead.First Name:default=}}</p> <p>Here's your monthly dose of Turbonomic. Want to speak about your experience as a customer?</p> <p>Sign up for a confidential <a style="color: #2c9427;" href="mailto:Murphy.Vandervelde@Turbonomic.com?Subject=Customer Feedback Interview" target="_top">Customer Feedback Interview</a> and receive a $25 Amazon Gift card!</p></td> 
+</tr> 
+</tbody>
+</table> </td> 
+</tr> 
+<tr> 
+<td align="center" valign="top"> 
+<!-- BEGIN HEADER // --> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#000; padding:1em 0;" id="templateHeader"> 
+<tbody>
+<tr style="background-color:#000; padding:1em 0;"> 
+<td valign="middle" style="height:140px; color:#fff;font-family:Arial;font-size:20px;font-weight:bold;line-height:100%;text-align:center;vertical-align:middle;" class="headerContent mktEditable" id="newsletter-title"><p><a href="https://greencircle.vmturbo.com/videos/1214?utm_source=turbonomic&amp;amp;amp;utm_medium=email&amp;amp;amp;utm_campaign=customer-newsletter&amp;amp;amp;utm_content=11022016" target="_blank" title="Creating Executive Dashboards"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/TurboShot_Header-GCKB.png" constrain="false" imagepreview="false" width="600" height="200" /></a></p></td> 
+</tr> 
+</tbody>
+</table> 
+<!-- // END HEADER --> </td> 
+</tr> 
+<!-- BEGIN BODY --> 
+<tr> 
+<td align="center" valign="top" style="margin:0px; margin-top:0px"> 
+<!-- BEGIN COLUMNS // --> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#376631;" class="templateColumns"> 
+<tbody>
+<tr> 
+<td align="center" valign="top" id="newsletter-first-card" class="templateColumnContainer mktEditable" style="/*background:url('http://go.vmturbo.com/rs/303-ZIH-630/images/first-card-image.jpg')center;*/width:200px;">
+<table border="0" cellpadding="20" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="center" class="leftColumnContent" style="color: #505050; font-family: Arial; font-size: 14px; text-align: center;"><a href="https://greencircle.vmturbo.com/docs/DOC-3870?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=11022016#whatsHappening" target="_blank" style="text-decoration: none; color: #fff; display: block; text-align: center;"> <img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/whats-happening-final-final.png" /> </a></td> 
+</tr> 
+</tbody> 
+</table></td> 
+<!--<td align="center" valign="top" id="newsletter-second-card" class="templateColumnContainer mktEditable" style="background-color:#000;/*background: url('http://go.vmturbo.com/rs/303-ZIH-630/images/second-card-image.jpg')center;*/width:200px;">
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                  <td align="center" class="centerColumnContent" style="color:#505050;font-family:Arial;font-size:14px;text-align:center;">
+                                    <a href="https://greencircle.vmturbo.com/docs/DOC-3558?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=08312016#productUpdates" target="_blank" style="text-decoration:none; color:#fff;display:block;text-align: center;"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/TurboShot_Header_300x85_blk.jpg"/>
+                                  </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>--> 
+<td align="center" valign="top" id="newsletter-third-card" class="templateColumnContainer mktEditable" style="background-color:#257d21;/*background:url('http://go.vmturbo.com/rs/303-ZIH-630/images/third-card-image.jpg')60% bottom;*/ width:200px;">
+<table border="0" cellpadding="20" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="center" class="rightColumnContent" style="color: #505050; font-family: Arial; font-size: 14px; text-align: center;"><a href="https://greencircle.vmturbo.com/docs/DOC-3870?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=11022016#tipsTricks" target="_blank" style="text-decoration: none; color: #fff; display: block; text-align: center;"> <img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/turbonomic-tipsandtricks-final-final.png" /> </a></td> 
+</tr> 
+</tbody> 
+</table></td> 
+</tr> 
+</tbody>
+</table> 
+<!-- // END COLUMNS --> </td> 
+</tr> 
+<!-- FEATURED CONTENT --> 
+<tr> 
+<td align="center" valign="top"> 
+<!-- BEGIN COLUMNS // --> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #F4F4F4;" class="templateColumns"> 
+<tbody>
+<tr> 
+<td align="center" valign="top" id="featured-content-1" class="templateColumnContainer mktEditable" style="border-right:1px solid rgb(222, 224, 226);width:200px;height:298px;">
+<table border="0" cellpadding="20" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td style="color: #505050; font-family: Arial; font-size: 14px; text-align: left;"> <h2 style="font-family: Arial; font-weight: 400; color: #404040 !important; display: block; font-size: 20px; font-style: normal; letter-spacing: normal; text-align: left;">Featured Customer</h2> <p style="font-family: Arial; font-size: 14px; font-style: italic;">Amy Manley&nbsp;&amp;&nbsp;University of Chicago Medical Center</p> <p style="font-size: 13px; color: #717171; line-height: 17px; padding-top: 18px;">This month we are excited to feature Amy Manley from University of Chicago Medical Center. Amy championed Turbonomic to her boss as a necessity for the next generation infrastructure they were building at the time. With automation fully enabled they were able to drive vm densities from 8:1 to 30:1, cut the time in half to deliver the new infrastructure, and help intelligently place new vms with our integration into VRA/VRO!</p> <a href="https://greencircle.vmturbo.com/docs/DOC-3870?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016#featuredCustomer" target="_blank" style="font-size: 12px; font-weight: 600; color: #2c9427; text-decoration: none;">Read More »</a></td> 
+</tr> 
+<!--                                   
+<tr>
+<td valign="top" class="leftColumnContent" style="color:#505050;font-family:Arial;font-size:14px;text-align:left;">
+<p style="font-size:16px; color:#717171;font-size:13px;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+ It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+ <a href="http://www.vmturbo.com" target="_blank" style="font-size:12px; font-weight:600; color:#2C9427; text-decoration:none;">Read More &raquo;</a>
+                                    </td>
+                                  
+</tr>
+ -->
+</tbody> 
+</table></td> 
+<td align="center" valign="top" id="featured-content-2" class="templateColumnContainer mktEditable" style="width:200px;height:300px;">
+<table border="0" cellpadding="20" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td style="color: #505050; font-family: Arial; font-size: 14px; text-align: left;"> <h2 style="font-family: Arial; font-weight: 400; color: #404040 !important; display: block; font-size: 20px; font-style: normal; letter-spacing: normal; text-align: left;">Featured Technology</h2> <p style="font-family: Arial; font-size: 14px; font-style: italic;">Serverless Computing: Oxymoron or the Next Big Cloud Play?</p> <p style="font-size: 13px; color: #717171; line-height: 17px; padding-top: 18px;">By now we are all familiar with the terms SaaS, IaaS and PaaS but prepare yourself for a new wave of offerings “as a service”. Serverless computing, Event Driven Computing or Function as a Service (FaaS for short) is an emerging trend that cloud providers are offering to their clientele. While it sounds like an oxy moron, serverless computing could be the new frontier for cloud solutions.</p> <a href="https://turbonomic.com/blog/on-technology/serverless-computing-oxy-moron-or-the-next-big-cloud-play/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=11022016#featuredTech" target="_blank" style="font-size: 12px; font-weight: 600; color: #2c9427; text-decoration: none;">Read More »</a></td> 
+</tr> 
+</tbody> 
+</table></td> 
+</tr> 
+</tbody>
+</table> 
+<!-- // END COLUMNS --> </td> 
+</tr> 
+<!-- END BODY --> 
+<!-- FEATURED CONTENT --> 
+<!-- BEGIN COMIC --> 
+<tr> 
+<td align="center" valign="top" style="margin:0px;"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody>
+<tr> 
+<td id="comic-strip" style="margin:0px;" valign="top" class="headerContent mktEditable"><p><img style="height: 300px; width: 900px;" src="http://go.Turbonomic.com/rs/303-ZIH-630/images/FreemiumShip3sm.jpg" /></p></td> 
+</tr> 
+</tbody>
+</table> </td> 
+</tr> 
+<!-- END COMIC --> 
+<!-- TRUST RADIUS --> 
+<tr> 
+<td align="center" valign="top"> 
+<table border="0" cellspacing="0" cellpadding="20" width="100%" class="mktEditable" id="trustradius">
+<tbody> 
+<tr> 
+<td style="text-align: center; background-color:#565656;" colspan="10"> <img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/trustradius-logo-newsletter.png" style="display: block;margin: 0 auto;width: 80px;" /> <p style="color: #fff; font-family: Arial; font-size: 15px;font-weight:600;margin-bottom:-22px">How likely are you to recommend Turbonomic to a colleague?</p> </td> 
+</tr> 
+<tr> 
+<td style="text-align: left; background-color: #565656;" colspan="5"><span style="color: #fff; font-family: Arial; font-size: 13px; line-height: 150%; text-align: left;"><strong>&nbsp; Not at all likely<br /></strong></span> </td> 
+<td style="text-align: right; background-color: #565656;" colspan="5"><span style="color: #fff; font-family: Arial; font-size: 13px; line-height: 150%; text-align: left;"><strong>Extremely likely&nbsp;&nbsp; <br /></strong></span> </td> 
+</tr> 
+<tr style="background-color:#565656;"> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=1"> <span style="color: #505050;">1</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=2"> <span style="color: #505050;">2</span> </a> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=3"> <span style="color: #505050;">3</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=4"> <span style="color: #505050;">4</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=5"> <span style="color: #505050;">5</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=6"> <span style="color: #505050;">6</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=7"> <span style="color: #505050;">7</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=8"> <span style="color: #505050;">8</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 0px 20px 12px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=9"> <span style="color: #505050;">9</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+<td width="3%" style="background-color: #565656; padding: 0px 10px 19px 10px;" align="center" valign="middle"> 
+<table cellspacing="0" cellpadding="0" width="90%"> 
+<tbody> 
+<tr> 
+<td style="border: 1px solid black; border-radius: 5px; color: #e6e6e6; display: block;" height="40" align="center" bgcolor="#ffffff"><a style="font-size: 14px; font-family: sans-serif; text-decoration: none; line-height: 40px; width: 100%; display: inline-block;" target="_blank" href="https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=10"> <span style="color: #505050;">10</span> </a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody>
+</table> </td> 
+</tr>  
+<!-- END TRUST RADIUS --> 
+<tr> 
+<td align="center" valign="top"> 
+<!-- BEGIN FOOTER // --> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="background-color:#333; color:#6F5555;height:85px;"> 
+<tbody>
+<tr> 
+<td valign="top" class="footerContent mktEditable" style="padding-left:20px" id="footer-info"><p style="color:#fff;font-size:11px;line-height:15px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;">© Turbonomic, Inc.</p> <p style="font-size:11px;line-height:15px;font-family:Helvetica,Arial,sans-serif;font-weight:normal;color:#fff;">500 Boylston Street, 7th Floor<br />Boston, MA 02116</p></td> 
+<td id="footer-social" class="mktEditable" style="text-align:right;padding-right:20px"><a target="_blank" href="https://twitter.com/turbonomic"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-twitter.png" width="28" height="28" alt="Follow us on Twitter" /></a> <a target="_blank" href="https://www.linkedin.com/company/turbonomic"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-linkedin.png" width="28" height="28" alt="Connect with us on LinkedIn" /></a> <a target="_blank" href="https://www.youtube.com/user/myVMTurboTV?gl=CO&amp;hl=es-419"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-youtube.png" width="28" height="28" alt="Visit us on YouTube" /></a> <a target="_blank" href="https://www.facebook.com/turbonomic"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-facebook.png" width="28" height="28" alt="Visit us on Facebook" /></a></td> 
+</tr> 
+</tbody>
+</table> </td> 
+</tr> 
+<!-- end footer --> 
+</tbody>
+</table> </td> 
+</tr> 
+</tbody>
+</table> 
+<!-- // END TEMPLATE -->    
+</center>  
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>5_13_2015 5.2 Webinar + Bits Customer.Send</name>
+    <style>none</style>
+    <subject>Win A Home Lab With Control For QoS, App &amp; Database Servers | VMTurbo 5.2 Now Available</subject>
+    <textOnly>&lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05072015&gt;
+Hi {{lead.First Name:default=There}},
+
+Operations Manager 5.2 is now available! We also released an upgrade to Operations Manager 5.1 – update 3. As a current user of VMTurbo you should update to 5.1 update 3 and if you want to learn more about 5.2 and all it has to offer join our webinar on May 21st at 11:30 AM EST &lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05132015&gt;.
+
+
+ - Defining QoS levels for specific applications
+
+
+You can specify, for example 500 ms latency or 1,000 transactions per minute, for a specific application. As VMTurbo brokers resources in the data center it prioritizes those applications to assure commitments are always met. 
+
+
+ - Deeper control into the app layer
+
+
+Get real-time application server- and database-aware decisions to fully leverage available infrastructure resources 
+
+
+ - Network-aware decisions to minimize latency
+
+
+VMTurbo reduces “east to west” latency by placing chatty workloads next to each other without sacrificing compute and storage needs. It’s the first of its kind: network-aware control. Now fully integrated with Arista’s EOS. 
+
+Register for the webinar today and you could win a Turbostack home lab!
+ &lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05132015&gt;
+
+Once you&apos;ve registered make sure to head over the GreenCircle &lt;https://greencircle.vmturbo.com/welcome&gt; and keep your eye out for our GA release announcement. And as always, if you have any questions or concerns please contact the Customer Experience team at CXTeam@vmturbo.com &lt;mailto:cxteam@vmturbo.com&gt;
+
+Best,
+
+-Your Dedicated Customer Experience Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>blank template</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Consumerbase 2 - Gartner Email.Email</name>
+    <style>none</style>
+    <subject>Gartner Report Download: Gain Control of IT Operations As You Expand Virtualization</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+Imagine the ability to manage the continued expansion of your virtual data center without having to guess how future workload growth will impact your environment. Add to that the ability to support your growing virtual infrastructure with an IT team that isn’t growing at the same rate. 
+
+This Gartner report and newsletter &lt;http://bit.ly/13mO8Jx&gt; provides some perspectives on how you can meet these challenges as you adopt virtualization more broadly. To do it, you need to drive more automation and intelligence into your operational approach – and reduce costs while improving workload performance. 
+
+
+It’s time to stop imagining and start controlling. Learn more about a new approach to operations management. Download &lt;http://bit.ly/13mO8Jx&gt; your complimentary Gartner report now.
+
+
+Derek Slayton,
+VP of Marketing</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

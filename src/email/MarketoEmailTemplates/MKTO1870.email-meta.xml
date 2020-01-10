@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-06-23-AWS Marketplace.EMAIL-AWS Marketplace</name>
+    <style>none</style>
+    <subject>Introducing VMTurbo for Multi-Clouds | 14 Days from AWS Marketplace</subject>
+    <textOnly>No Matter The Cloud, We Keep You In Control.
+Introducing VMTurbo For Multi-Cloud Environments Free for 14 Days
+
+Get StartedL
+
+&lt;[[https://aws.amazon.com/marketplace/pp/B010TWIRJO/ref=sp_mpg_product_title?ie=UTF8&amp;sr=0-2]]&gt;
+Hi {{lead.First Name:default=There}},
+It’s a multi-cloud world. Gone are the days of only-on-premises deployments. You want to run Any Workload on Any Cloud, Anytime, Anywhere. You want them to run cheap, and you need them to run fast.
+
+That’s why VMTurbo has partnered with Amazon Web Services to offer VMTurbo for multi-cloud environments &lt;[[https://aws.amazon.com/marketplace/pp/B010TWIRJO/ref=sp_mpg_product_title?ie=UTF8&amp;sr=0-2]]&gt;, helping you minimize AWS bills without sacrificing performance.
+
+Benefits
+
+
+
+ - Control the performance of Any Application running on:
+
+
+ - Amazon Web Services
+ - Microsoft Azure
+ - IBM Softlayer
+
+ - Your Own Private Data Center
+
+
+
+ - Minimize Public Cloud bills without sacrificing performance
+ - Gain visibility into workload performance, resource consumption, and more
+ - Create custom dashboards for yourself, your teams, and end users
+
+ - All this and more in just 30 minutes!
+
+
+
+Try It Free for 14 Days &lt;[[https://aws.amazon.com/marketplace/pp/B010TWIRJO/ref=sp_mpg_product_title?ie=UTF8&amp;sr=0-2]]&gt;
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

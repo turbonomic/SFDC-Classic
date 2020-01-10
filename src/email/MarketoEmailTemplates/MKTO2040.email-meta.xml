@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-09-14-IT Budget Template.Send</name>
+    <style>none</style>
+    <subject>Free 3-Year IT Budget Template - Easily Manage Your IT Spend</subject>
+    <textOnly>&lt;[[http://turbonomic.com/3-year-it-budget-template?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=it-budget-template&amp;utm_content=09142016]]&gt;
+Hi {{lead.First Name:default=There}},
+
+IT budgeting is no easy feat. Whether you&apos;re a small shop and wearing many hats, or a large matrix organization across many projects, the administrative time it takes to create, organize and complete an annual operating budget is a significant waste.
+We&apos;ve worked with our very own customers to design this simple and intuitive 3-Year IT Budget Template for all the reasons above. This budget template, built in Microsoft Excel, includes five budgeting tabs and a 3-Year rollup tab enabling you to quickly and easily track and project:
+
+
+
+
+	- 
+
+Operating Costs
+
+
+	- 
+
+Software &amp; Licensing Costs
+
+
+	- 
+
+Hardware Costs
+
+
+	- 
+
+System Build Cost Comparisons
+
+
+	- 
+
+and all of those special projects
+
+
+
+ &lt;[[http://turbonomic.com/3-year-it-budget-template?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=it-budget-template&amp;utm_content=09142016]]&gt;
+-The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

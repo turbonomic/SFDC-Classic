@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Hyper to VMware migration strategy  (1497538368.0)</name>
+    <style>none</style>
+    <subject>Hyper to VMware migration strategy  (1497538368.0)</subject>
+    <textOnly>-     
+	- 
+	-   90 Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Gray - After speaking with other members of your team at Hogan Lovells I’ve heard that you are in the middle of migrating from a Hyper-V environment to a VMware environment, and I was hoping to show you how Turbonomic is the only virtualization control platform that is hypervisor agnostic, allowing teams to manage and optimize a heterogeneous environments like your own, and properly shift workloads from one environment to the other.  Our control platform allows teams to:
+	- Reduce ongoing compute/storage costs by 20-30% by optimizing workload placement as they shift workloads to a new hypervisor technology	- Reduce operational costs of problem and incident management by eliminating complex problems with disk space and IO performance contention	- Assure application performance and reduce risk by minimizing the contention for CPU, Mem, disk space and IO capacity	- Enable more IO-intensive applications to be virtualized reliably, bringing down the overall cost to deliver compute services to the business and customer
+We do all of this with no human intervention through our workload automation engine. Do you have 30 minutes for my engineer and I to explain how this is possible on a 30 minute WebEx?  Best regards, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

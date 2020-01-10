@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-09-19-CAE-Ignite.ES-2017-09-19-CAE-Ignite</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Join Us for Dinner at Microsoft Ignite</subject>
+    <textOnly>&lt;[[https://turbonomic.com/activate-your-hybrid-cloud-microsoft-ignite/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Hosted by Jeff Irvin, AVP of Commercial Sales, we invite you to join your peers for a Community Networking Event on the second evening of Microsoft Ignite!
+
+Turbonomic Community Networking Dinner &lt;[[https://turbonomic.com/activate-your-hybrid-cloud-microsoft-ignite/]]&gt;
+
+Marlow&apos;s 
+Tavern
+Pointe Orlando, 
+9101 International Drive, Orlando, FL 32819
+Tuesday, September 
+26th, 7:00 PM EDT
+Reserve Your Spot Today! &lt;[[https://turbonomic.com/activate-your-hybrid-cloud-microsoft-ignite/]]&gt;
+
+
+Please reach out to catherine.kellogg@turbonomic.com or your account executives for any further questions.
+
+We can&apos;t wait to see you there!
+
+
+
+Cheers,
+
+
+Your friends at Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

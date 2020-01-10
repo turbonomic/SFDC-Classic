@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Trip for 2 to MLB All-Star Game (1496254473.0)</name>
+    <style>none</style>
+    <subject>Trip for 2 to MLB All-Star Game (1496254473.0)</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}}, 
+I wanted to let you know that we are running a special promotion for meeting with us over the next month. If you complete an introductory meeting with Turbonomic before June 23rd, we will enter you in a raffle to win a trip for two (2) to the 2017 MLB All-Star Game in Miami, Florida from July 9 - 12, 2017.  
+Turbonomic’s autonomic workload management platform frees up operations, infrastructure, architecture and engineering teams from manual management and planning within any cloud or on-prem environment, enabling you to work more effectively together as you pursue strategic initiatives. We’d like to show you how - and give you an opportunity to watch the best baseball players in the league come together for an unforgettable event.  
+If you’d like to be entered, you can visit this page &lt;[[https://turbonomic.com/mlb-all-star-experience-giveaway/]]&gt;, or just let me know and I will work with you directly to schedule our meeting and put you into the raffle.  
+Best, 
+***INSERT NAME***</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

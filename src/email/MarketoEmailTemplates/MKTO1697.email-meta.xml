@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-30-Day Trial Nurture.03-Supply Chain.Send</name>
+    <style>none</style>
+    <subject>VMTurbo Top Ten Features #3: Supply Chain</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Here is your third VMTurbo Top Ten Feature: Supply Chain. Of course, if at any time you want to accelerate your learning, you can visit the Green Circle Community &lt;[[https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-HybridCloud&amp;utm_content=Mid03]]&gt; and gain tips and tricks from real VMTurbo customers and evaluators just like you.
+Feature #3: Supply Chain
+
+VMTurbo&apos;s algorithm abstracts the data center and all its entities into a service supply chain of virtual buyers and sellers. The output of their transactions is a series of Actions that guarantee performance. The Supply Chain shows the design of their relationships, and helps you answer the following questions:
+
+ - What are the relationships among all entities in my environment?
+ - Which ones need attention?
+
+Step-By-Step: Supply Chain
+
+The following steps will guide you through the Supply Chain tab:
+
+ - Navigator arrows represent the Buyer-Seller relationships between types entities
+ - Click any entity type in the Navigator to populate this section with all the entities in that class; Red = Overutilized, Green = Desired Utilization, Blue = Underutilized
+ - Click any entity in the Navigator to populate the Related section with details about the selected item and its supply chain
+ - The purple box represents the current Utilization Index (UI)* and the green box represents the Utilization Index after related actions in the To Do section are executed
+
+ - Utilization plots the utilization levels for each resource consumed by the selected entity, over time. Slide the carrots to adjust the time period displayed by the plot.
+
+*Utilization Index (UI) is VMTurbo&apos;s calculation of the relative price of an entity in the data center, modeled as an exponential function of its current utilization. UI ranges from 1 to 20,000.
+
+Next Feature: Workload Chart</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

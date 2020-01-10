@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-08-01-Cloud-Native-Hypervisor.ES-2018-07-25-Cloud-Native-Hypervisor-Pro</name>
+    <style>none</style>
+    <subject>Webinar Invitation | The Impact of Cloud Native on IT</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/cloud-native-hypervisor-webinar/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+You are invited to join us on August 1st, at 11am ET, as a distinguished panel of technical experts discuss the impact of cloud native on IT and how you can prepare for the coming onslaught of complexity.
+ &lt;[[https://turbonomic.com/resources/cloud-native-hypervisor-webinar//]]&gt;
+
+In this live, 60-minute discussion and demo session &lt;[[https://turbonomic.com/resources/cloud-native-hypervisor-webinar/]]&gt;, you will learn how the growing adoption of cloud native and distributed architectures are forcing organizations to change the way they approach their unique digital transformations.
+
+See you there!
+
+Regards, 
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

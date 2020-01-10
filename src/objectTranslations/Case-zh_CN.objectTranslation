@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Affected Users --></label>
+        <name>Affected_Users__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-20</masterLabel>
+            <translation><!-- 2-20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21-50</masterLabel>
+            <translation><!-- 21-50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;50</masterLabel>
+            <translation><!-- &gt;50 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aged --></label>
+        <name>Aged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned to --></label>
+        <name>Assigned_to__c</name>
+        <relationshipLabel><!-- Cases (Assigned to) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>Case_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please select the closest value that represents the issue --></help>
+        <label><!-- Case Type --></label>
+        <name>Case_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Creation</masterLabel>
+            <translation><!-- Account Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bug</masterLabel>
+            <translation><!-- Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Change</masterLabel>
+            <translation><!-- Data Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement Request</masterLabel>
+            <translation><!-- Enhancement Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation><!-- Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New User</masterLabel>
+            <translation><!-- New User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Merge</masterLabel>
+            <translation><!-- Record Merge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports and Dashboards</masterLabel>
+            <translation><!-- Reports and Dashboards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Issue</masterLabel>
+            <translation><!-- Training Issue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Behavior</masterLabel>
+            <translation><!-- Incorrect Behavior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malfunction</masterLabel>
+            <translation><!-- Malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memory Leaks</masterLabel>
+            <translation><!-- Memory Leaks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance/Scalability</masterLabel>
+            <translation><!-- Performance/Scalability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Experience</masterLabel>
+            <translation><!-- User Experience --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Component/Product --></label>
+        <name>Component__c</name>
+        <picklistValues>
+            <masterLabel>Delivery</masterLabel>
+            <translation><!-- Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovery</masterLabel>
+            <translation><!-- Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market</masterLabel>
+            <translation><!-- Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoring</masterLabel>
+            <translation><!-- Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Persistence</masterLabel>
+            <translation><!-- Persistence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planner</masterLabel>
+            <translation><!-- Planner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentation</masterLabel>
+            <translation><!-- Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporter</masterLabel>
+            <translation><!-- Reporter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolver</masterLabel>
+            <translation><!-- Resolver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Delivered --></label>
+        <name>Date_Delivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe Your Problem/Question --></label>
+        <name>Describe_Your_Problem_Question_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description About Fix --></label>
+        <name>Description_About_Fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Org Seats --></label>
+        <name>Discover_Org_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Org --></label>
+        <name>Discover_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Org # --></label>
+        <name>Discover_Org_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engineer --></label>
+        <name>Engineer__c</name>
+        <picklistValues>
+            <masterLabel>Benjamin, Shai</masterLabel>
+            <translation><!-- Benjamin, Shai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florissi, Danilo</masterLabel>
+            <translation><!-- Florissi, Danilo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Katki, Navaz</masterLabel>
+            <translation><!-- Katki, Navaz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miller, Christine</masterLabel>
+            <translation><!-- Miller, Christine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sara, Endre</masterLabel>
+            <translation><!-- Sara, Endre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tal, Ariel</masterLabel>
+            <translation><!-- Tal, Ariel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vyas, Nitya</masterLabel>
+            <translation><!-- Vyas, Nitya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wild, Fred</masterLabel>
+            <translation><!-- Wild, Fred --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Go-Live Date --></label>
+        <name>Go_Live_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Applications --></label>
+        <name>Integrated_Applications__c</name>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn_Nav --></label>
+        <name>LinkedIn_Nav__c</name>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn_Nav # --></label>
+        <name>LinkedIn_Nav_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- New User Name --></label>
+        <name>New_User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- New User Start Date --></label>
+        <name>New_User_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunities --></label>
+        <name>Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provisioning Complete --></label>
+        <name>Provisioning_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported By --></label>
+        <name>Reported_By__c</name>
+        <relationshipLabel><!-- Cases (Reported By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Data Change</masterLabel>
+            <translation><!-- Data Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement</masterLabel>
+            <translation><!-- Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue/Bug</masterLabel>
+            <translation><!-- Issue/Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New User</masterLabel>
+            <translation><!-- New User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Question/Information</masterLabel>
+            <translation><!-- Question/Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports and Dashboards</masterLabel>
+            <translation><!-- Reports and Dashboards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Date --></label>
+        <name>Requested_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Date --></label>
+        <name>Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Permission Sets --></label>
+        <name>Salesforce_Permission_Sets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Profile --></label>
+        <name>Salesforce_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Role --></label>
+        <name>Salesforce_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution Approved --></label>
+        <name>Solution_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>Implement</masterLabel>
+            <translation><!-- Implement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigate</masterLabel>
+            <translation><!-- Investigate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verify</masterLabel>
+            <translation><!-- Verify --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team Affected --></label>
+        <name>Team_Affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- User License --></label>
+        <name>User_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value Sets to update --></label>
+        <name>Value_Sets_to_update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created At --></label>
+        <name>Zendesk__Created_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initially Assigned At --></label>
+        <name>Zendesk__Initially_Assigned_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Time --></label>
+        <name>Zendesk__Resolution_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solved At --></label>
+        <name>Zendesk__Solved_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated At --></label>
+        <name>Zendesk__Updated_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zendesk Support Ticket ID --></label>
+        <name>Zendesk__Zendesk_Ticket_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoom Info --></label>
+        <name>Zoom_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoom Info # --></label>
+        <name>Zoom_Info_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ad Campaign Name (FT) --></label>
+        <name>bizible2__Ad_Campaign_Name_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ad Campaign Name (LC) --></label>
+        <name>bizible2__Ad_Campaign_Name_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landing Page (FT) --></label>
+        <name>bizible2__Landing_Page_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landing Page (LC) --></label>
+        <name>bizible2__Landing_Page_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of marketing activity --></help>
+        <label><!-- Marketing Channel (FT) --></label>
+        <name>bizible2__Marketing_Channel_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of marketing activity --></help>
+        <label><!-- Marketing Channel (LC) --></label>
+        <name>bizible2__Marketing_Channel_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date that the session activity occurred --></help>
+        <label><!-- Touchpoint Date (FT) --></label>
+        <name>bizible2__Touchpoint_Date_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date that the session activity occurred --></help>
+        <label><!-- Touchpoint Date (LC) --></label>
+        <name>bizible2__Touchpoint_Date_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the referrer --></help>
+        <label><!-- Touchpoint Source (FT) --></label>
+        <name>bizible2__Touchpoint_Source_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the referrer --></help>
+        <label><!-- Touchpoint Source (LC) --></label>
+        <name>bizible2__Touchpoint_Source_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The title, copy, and display URL from the ad --></help>
+        <label><!-- Ad Content (FT) --></label>
+        <name>bizible2_ext__Ad_Content_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The title, copy, and display URL from the ad --></help>
+        <label><!-- Ad Content (LC) --></label>
+        <name>bizible2_ext__Ad_Content_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ad Destination URL (FT) --></label>
+        <name>bizible2_ext__Ad_Destination_URL_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ad Destination URL (LC) --></label>
+        <name>bizible2_ext__Ad_Destination_URL_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ad Group Name (FT) --></label>
+        <name>bizible2_ext__Ad_Group_Name_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ad Group Name (LC) --></label>
+        <name>bizible2_ext__Ad_Group_Name_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The device that the user is using while engaged in the activity --></help>
+        <label><!-- Device (FT) --></label>
+        <name>bizible2_ext__Device_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The device that the user is using while engaged in the activity --></help>
+        <label><!-- Device (LC) --></label>
+        <name>bizible2_ext__Device_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The country, region, city that the user is located in while engaged in the activity --></help>
+        <label><!-- Geo (FT) --></label>
+        <name>bizible2_ext__Geo_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The country, region, city that the user is located in while engaged in the activity --></help>
+        <label><!-- Geo (LC) --></label>
+        <name>bizible2_ext__Geo_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Keywords chosen by the advertiser that match the user&apos;s search results --></help>
+        <label><!-- Keyword Text (FT) --></label>
+        <name>bizible2_ext__Keyword_Text_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Keywords chosen by the advertiser that match the user&apos;s search results --></help>
+        <label><!-- Keyword Text (LC) --></label>
+        <name>bizible2_ext__Keyword_Text_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landing Page - Raw (FT) --></label>
+        <name>bizible2_ext__Landing_Page_Raw_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landing Page - Raw (LC) --></label>
+        <name>bizible2_ext__Landing_Page_Raw_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The whole path of the Marketing Channel including any custom Sub Channels --></help>
+        <label><!-- Marketing Channel - Path (FT) --></label>
+        <name>bizible2_ext__Marketing_Channel_Path_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The whole path of the Marketing Channel including any custom Sub Channels --></help>
+        <label><!-- Marketing Channel - Path (LC) --></label>
+        <name>bizible2_ext__Marketing_Channel_Path_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The channel being used (ex. web, search, email), set within the UTM parameter --></help>
+        <label><!-- Medium (FT) --></label>
+        <name>bizible2_ext__Medium_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The channel being used (ex. web, search, email), set within the UTM parameter --></help>
+        <label><!-- Medium (LC) --></label>
+        <name>bizible2_ext__Medium_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placement Id (FT) --></label>
+        <name>bizible2_ext__Placement_Id_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placement Id (LC) --></label>
+        <name>bizible2_ext__Placement_Id_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placement Name (FT) --></label>
+        <name>bizible2_ext__Placement_Name_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placement Name (LC) --></label>
+        <name>bizible2_ext__Placement_Name_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The operating system and browser that the user is on while engaged in the activity --></help>
+        <label><!-- Platform / Browser (FT) --></label>
+        <name>bizible2_ext__Platform_Browser_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The operating system and browser that the user is on while engaged in the activity --></help>
+        <label><!-- Platform / Browser (LC) --></label>
+        <name>bizible2_ext__Platform_Browser_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrer Page (FT) --></label>
+        <name>bizible2_ext__Referrer_Page_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrer Page (LC) --></label>
+        <name>bizible2_ext__Referrer_Page_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The URL of the referring website --></help>
+        <label><!-- Referrer Page - Raw (FT) --></label>
+        <name>bizible2_ext__Referrer_Page_Raw_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The URL of the referring website --></help>
+        <label><!-- Referrer Page - Raw (LC) --></label>
+        <name>bizible2_ext__Referrer_Page_Raw_LC__c</name>
+    </fields>
+    <fields>
+        <help><!-- The term(s) that the user entered to view the search results --></help>
+        <label><!-- Search Phrase (FT) --></label>
+        <name>bizible2_ext__Search_Phrase_FT__c</name>
+    </fields>
+    <fields>
+        <help><!-- The term(s) that the user entered to view the search results --></help>
+        <label><!-- Search Phrase (LC) --></label>
+        <name>bizible2_ext__Search_Phrase_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Id (FT) --></label>
+        <name>bizible2_ext__Site_Id_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Id (LC) --></label>
+        <name>bizible2_ext__Site_Id_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Name (FT) --></label>
+        <name>bizible2_ext__Site_Name_FT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Name (LC) --></label>
+        <name>bizible2_ext__Site_Name_LC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Campaign (FT) --></label>
+        <name>bizible__AdWords_Campaign__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bizible Ad Group (FT) --></label>
+        <name>bizible__Ad_Group__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bizible City (FT) --></label>
+        <name>bizible__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Country (FT) --></label>
+        <name>bizible__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Attribution --></label>
+        <name>bizible__Data__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bizible Device (FT) --></label>
+        <name>bizible__Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Keyword (FT) --></label>
+        <name>bizible__Keyword__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bizible Landing Page (FT) --></label>
+        <name>bizible__LandingPage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Medium (FT) --></label>
+        <name>bizible__Medium__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bizible Referrer Page (FT) --></label>
+        <name>bizible__ReferrerPage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Region (FT) --></label>
+        <name>bizible__Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Search Phrase (FT) --></label>
+        <name>bizible__Search_Phrase__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bizible Ad Content (FT) --></label>
+        <name>bizible__Text_Ad__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bizible WebSource (FT) --></label>
+        <name>bizible__WebSource__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Application Support for internal Users --></description>
+        <label><!-- Ops App Support --></label>
+        <name>Case_App_Support</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Case Implementation Service --></label>
+        <name>Case_Implementation_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Case default --></label>
+        <name>Case_default</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- MA_MapIt_a2T57000002VnvxEAC --></label>
+        <name>MA_MapIt_a2T57000002VnvxEAC</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Zendesk_Ticket_View_Link --></label>
+        <name>Zendesk__Zendesk_Ticket_View_Link</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Cases --></label>
+        <name>activities__Create_Tasks_Cases</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UpsellCrosssellOpportunity --></label>
+        <name>bizible__UpsellCrosssellOpportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

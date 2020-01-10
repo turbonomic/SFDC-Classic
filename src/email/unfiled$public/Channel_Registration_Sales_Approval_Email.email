@@ -1,0 +1,8 @@
+A new registration was just submitted. Please click on the registration link below and change the Deal Type of the Registration to Incremental, Joint/Accelerated, or Fullfilment and update the Vendor Status to Approved or Denied. 
+
+Partner Account: {!VartopiaDRS__Registration__c.VartopiaDRS__Partner_Account__c} 
+Partner Manager: {!VartopiaDRS__Registration__c.Partner_Manager__c} 
+Customer: {!VartopiaDRS__Registration__c.VartopiaDRS__Customer_Name__c} 
+Amount: {!VartopiaDRS__Registration__c.VartopiaDRS__Expected_Revenue__c} 
+Sales Rep: {!VartopiaDRS__Registration__c.VartopiaDRS__Sales_Rep__c} 
+Registration Link: {!VartopiaDRS__Registration__c.Link}

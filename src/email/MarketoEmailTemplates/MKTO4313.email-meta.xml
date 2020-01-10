@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2018-11-Which Cloud Survey - Thank You.EMAIL-Thank You</name>
+    <style>none</style>
+    <subject>Thank You for Completing our Which Cloud Survey</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Thank you for completing our Which Cloud Survey, your insight is greatly appreciated! As a reward for your time, your $10 Amazon gift card is enclosed below.
+When choosing between cloud providers, there&apos;s no one-size-fits-all answer. How do you identify which cloud is the best fit and understand how much it would cost if you migrated there? Turbonomic can help.
+
+
+
+Learn More &lt;[[https://resources.turbonomic.com/on-demand-webinars/which-cloud-webinar-v-1]]&gt;
+
+
+
+Turbonomic Cloud Migration planning enables organizations to understand - and compare - the price costs of migrating optimized workloads from on-premises data centers to the public cloud, including licensing models and discounting mechanisms such as RIs and Azure Hybrid Use Benefit (AHUB).  
+Watch this on-demand webinar, Choosing Between AWS and Azure: How to Enable a Data Driven Decision &lt;[[https://resources.turbonomic.com/on-demand-webinars/which-cloud-webinar-v-1]]&gt;, to learn how you can identify the best cloud for your applications, based on real-time, intelligent data.
+Regards,
+Megan
+{{my.Gift 10:default=edit me}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

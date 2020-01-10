@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-01-23-Field-East-RD-Sponsored-Montreal.ES-2018-01-11-Montreal-08.EMAIL</name>
+    <style>none</style>
+    <subject>Invitation Exclusive: Cisco et Turbonomic Suite Privée au Centre Bell 23Janvier2018</subject>
+    <textOnly>Bonjour {{lead.First Name:default=edit me}},
+ 
+
+Dans mes années d’expériences au Turbonomic, j’ai vécu la transformation digitale de notre industrie a un monde automatise avec l’introduction du nuage hybride. Je veux discuter cette transition avec vous et vos pairs. 
+ 
+J’aimerais vous inviter à un évènement de réseautage avec Turbonomic et Cisco, le 23 Janvier 2018, pour regarder un match de hockey entre les Canadiens de Montréal et les Avalanches de Colorado au Centre Bel &lt;[[https://turbonomic.com/vip-montreal]]&gt;l.
+ 
+Cet évènement c’est une excellente occasion pour établissez des réseaux et parlez de défis et de solutions avec des collègues. Mes objectifs et m’espoirs c’est que cet évènement de réseautage sera stimulant intellectuellement et amusant aussi. 
+ 
+J’ai hâte de vous rencontrent. L’espace est limitée; s’il vous plait inscrivez-vous ici dès que possible ou répondre à cet e-mail pour enregistrer.
+ 
+Cordialement,
+
+  
+
+
+
+
+Maria Rodriguez
+Sr. Marketing Program Manager, Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

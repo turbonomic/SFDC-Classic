@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject:  Turbonomic - {!Alliance_Registration__c.Customer_Account_Name__c} Registration Approved</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Alliance_Letterhead</letterhead>
+    <name>Alliance Reg Status Approved Email</name>
+    <style>freeForm</style>
+    <subject>Turbonomic - {!Alliance_Registration__c.Customer_Account_Name__c} Registration Approved</subject>
+    <textOnly>{!Alliance_Registration__c.Partner_First_Name_Capitalized__c},
+
+
+The registration for {!Alliance_Registration__c.Customer_Account_Name__c} was approved.
+
+
+Please reach out to your Turbonomic sales team for assistance with the opportunity.
+
+
+Regards,
+
+The Turbo Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

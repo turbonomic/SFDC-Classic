@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-05-06-IT Process Survey Send (Ashley).Send</name>
+    <style>none</style>
+    <subject>£200 for 5 Minute Survey | IT Process Survey</subject>
+    <textOnly>&lt;[[https://www.surveymonkey.co.uk/r/B7VXLHY]]&gt;
+Hello,
+
+As you know, it is easy for vendors to come off as aggressive and transactional. At Turbonomic our mission is to be far more than that. This is why we want to take a step back, let you know that we think your time is extremely valuable and take a moment to better understand the daily challenges you face.
+
+We are excited to announce the launch of our IT Process Survey &lt;[[https://www.surveymonkey.co.uk/r/B7VXLHY]]&gt;. We are offering a chance to win a £200 voucher to buyagift.co.uk for completing the 5 minute survey by July 7th.
+
+
+ &lt;[[https://www.surveymonkey.co.uk/r/B7VXLHY]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

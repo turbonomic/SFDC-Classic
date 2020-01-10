@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>04_07_2015 Openstack Giveaway.Send</name>
+    <style>none</style>
+    <subject>{{Lead.First Name}}, We Want You To Be At The OpenStack Summit</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-openstack-summit-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=openstack-summit-sweeps&amp;utm_content=04072015&gt;
+Hi {{Lead.First Name}},
+
+We love OpenStack and Open Source, in fact we are a proud supporter of the OpenStack Foundation &lt;https://www.openstack.org/foundation/companies&gt; and open source. The VMTurbo engineering team even includes some very talented individual OpenStack code contributors. if you&apos;re curious check out some of our open source contributions are over at https://github.com/vmturbo &lt;https://github.com/vmturbo&gt;!
+
+If you couldn&apos;t tell we&apos;re really excited about OpenStack, and we want you to be as well! Thats why we are giving three lucky winners, two passes each to the OpenStack Summit in Vancouver! Enter today and you could join attendees of all levels who will learn about OpenStack through keynotes, speaking sessions, hands-on labs, and OpenStack’s ecosystem marketplace. What better way to join the open source discussion?
+ &lt;http://vmturbo.com/vmturbo-openstack-summit-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=openstack-summit-sweeps&amp;utm_content=04072015&gt;
+
+
+ - Who? 3 Winners (maybe you!)
+ - What? 2 OpenStack Summit 2015 Passes
+ - Where? Vancouver, British Columbia
+ - When? May 18-22, 2015
+
+
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

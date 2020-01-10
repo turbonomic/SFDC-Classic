@@ -1,0 +1,6 @@
+Hi {!Case.Contact},
+
+A new comment has been added to your case {!Case.CaseNumber}. To view details and reply to the comment please go to {!Case.Link}.
+
+Thanks,
+Support Team

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-27-Field-East-ESB-Nashville.Marketing Invitation 2.EMAIL - Marketing</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Nashville Predators vs Minnesota Wild</subject>
+    <textOnly>&lt;[[https://turbonomic.com/exec-nashville/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+On behalf of the Turbonomic and Cisco teams, we are pleased to invite you to an exclusive event on March 27th, as the Nashville Predators take on the Mnnesota Wild.
+
+
+We are expecting a fantastic evening filled with food, drinks, and of course, hockey. We hope you will accept this invitation to join us, learn more about workload automation, and network with your peers in the technology industry.
+
+
+Executive Networking Series Nashville 
+Workload Automation for Your Hybrid Cloud
+Nashville Predators vs Minnesota Wild
+Tuesday, March 27th | Bridgestone Arena | 5:00 p.m.
+
+ &lt;[[http://turbonomic.com/exec-nashville]]&gt;
+
+
+
+ &lt;[[https://turbonomic.com/exec-newyork/]]&gt;
+
+
+
+We hope to see you there,
+
+
+
+
+
+
+Your friends at Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

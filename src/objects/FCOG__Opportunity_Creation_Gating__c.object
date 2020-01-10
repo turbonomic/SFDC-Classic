@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Configuration setting for the Full Circle CRM Opportunity Creation Manager package</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FCOG__Enable_Contact_Gating__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Requires that all opportunities be created from the contact page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, All opportunities must be created off the contact page or lead conversion unless overridden at the profile or user level</inlineHelpText>
+        <label>Gate All Users</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FCOG__PageTitle__c</fullName>
+        <defaultValue>&quot;You cannot create opportunities this way&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Page title for VisualForce page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This will be used as the header on the Visualforce warning page.</inlineHelpText>
+        <label>Gating Page Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FCOG__Set_Opportunity_Name__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Set the opportunity name based on the Account name followed by a dash</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When selected, opportunities created off the contact will have the Opportunity Name field pre-populated with the account name similar to those created through lead conversion.</inlineHelpText>
+        <label>Set Opportunity Name</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FCOG__Use_Window_Alert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Gates via a window alert bypassing display of the Visual Force page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When selected, this option will be presented with a window alert instead of a Visualforce page if the user is prevented from creating an opportunity.</inlineHelpText>
+        <label>Use Window Alert</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FCOG__WarningPageResource__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Resource name of HTML static resource to use as the content for the warning page. Overrides default (DefaultGatingContent)</description>
+        <externalId>false</externalId>
+        <label>Warning Page Resource</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FCOG__Window_alert_message__c</fullName>
+        <defaultValue>&quot;Use the New Opportunity button from the contact page to create new opportunities&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Message to display on window alert if window alert is selected</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If &apos;Use Window Alert&apos; is selected, this will be the message that is displayed in the alert window.</inlineHelpText>
+        <label>Window Alert Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Opportunity Creation Gating</label>
+    <visibility>Public</visibility>
+</CustomObject>

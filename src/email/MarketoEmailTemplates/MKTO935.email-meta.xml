@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>30-Day - Live Demo</name>
+    <style>none</style>
+    <subject>Your VMTurbo Live Demo: Put Your Virtual Decisions on Autopilot</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+You Make Approximately 35,000 Decisions A Day. Put the Virtual Ones On Autopilot.
+ &lt;http://vmturbo.com/product/request-a-demo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=live_demo&gt;
+ 
+Dear {{lead.First Name:default=Sir/Madam}},
+You&apos;ve seen the trial, you&apos;ve had your hands on the product, now let us guide you to 100% enlightenment. Our team of experts will give you a personalized walk through of VMTurbo showing you just how VMTurbo can optimize your environment.
+Are you ready to get more detail and see the product in action? Want to learn about the differences between VMTurbo and other virtualization management solutions?
+Sign up for a free 30-minute demonstration today! &lt;http://vmturbo.com/product/request-a-demo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=live_demo&gt;
+ &lt;http://vmturbo.com/product/request-a-demo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=live_demo&gt;Your IT control system,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

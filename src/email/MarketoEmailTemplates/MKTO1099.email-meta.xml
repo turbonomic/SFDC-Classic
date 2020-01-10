@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>05_28_2015 OpenStack Webinar Missed.Recording</name>
+    <style>none</style>
+    <subject>Sorry You Missed The OpenStack Primetime Webinar</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-resources/webinar-openstack-primetime-the-state-of-open-clouds-2015?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=openstack-webinar-2015&amp;utm_content=05222015&gt;
+Hi {{lead.First Name:default=edit me}},
+We&apos;re sorry you missed the OpenStack Primetime webinar yesterday but we get it, things come up. 
+If you would like to view a recording of the OpenStack Primetime webinar simply click the link below and enjoy the webinar whenever it is convenient for you.
+Eric and Ken had a great discussion surrounding OpenStack, including adoption trends and some great use cases, so make sure to check it out!
+Best,
+- The VMTurbo Team
+ &lt;http://vmturbo.com/thx-wbnr-recrd-openstack-primetime-the-state-of-open-clouds-2015?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=openstack-webinar-2015&amp;utm_content=05282015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

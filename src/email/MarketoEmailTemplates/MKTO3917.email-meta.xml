@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-07-25-Azure.ES-2018-07-24-Turbonomic-Azure-Invite-4.ES-2018-07-23-Turbo</name>
+    <style>none</style>
+    <subject>Will I see you tomorrow?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-azure/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=azure-webinar&amp;utm_term=megan]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+I wanted to make sure you didn&apos;t miss out, this is your last call to register for tomorrow&apos;s webinar at 11 am ET, as our team of cloud experts discuss the benefits of Turbonomic and Azure. 
+
+ &lt;[[https://turbonomic.com/resources/wbn-azure/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=azure-webinar]]&gt;
+
+
+During the webinar, you will learn how you can deliver accurate Azure migrations within days and see how to continously optimize compute, storage, and Azure SQL.
+
+
+I hope to see you there!
+
+
+Regards,
+Megan
+
+
+
+
+PS. If you can&apos;t join us live, please feel free to register here anyways &lt;[[https://turbonomic.com/resources/wbn-azure/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=azure-webinar]]&gt;, and I&apos;ll send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CH-ES-02-22-2016-Webinar Invite.Send</name>
+    <style>none</style>
+    <subject>Webinar Tomorrow: Assure the Performance of I/O Intensive Workloads</subject>
+    <textOnly>&lt;http://vmturbo.com/resources/5-it-predictions-2016/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=webinar-predictions-2016&amp;utm_content=01062016&gt;
+Hi {{lead.First Name:default=Partner}},
+You&apos;re invited to join us TOMORROW for a special webinar featuring EMC XtremIO to learn about how to assure the performance of I/O intensive workloads at scale.  
+During this webinar you can expect to learn the following: 
+
+
+
+ - How to assure application quality of service across all flash and heterogeneous storage environments
+ - What does it take to enable massive mixed workload consolidation for multiple Tier 1 workloads
+ - Why real-time automatable placement, sizing and provision decisions at every layer of the stack enable performance control
+ - How you can provision 1000s of VMs instantly with no overhead, no SLA risk, and no infrastructure impact
+
+ - Why the hypervisor integrations matter for large-scale virtual environments
+
+
+
+Save your spot by registering here &lt;[[http://vmturbo.com/resources/vmturbo-xtremio-webinar?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=webinar-XtremIO-VMTurbo&amp;amp;utm_content=02222016]]&gt; or using the button below. We look forward to seeing you on the webinar tomorrow, Wednesday, February 24, 2016 at 2:00 PM ET.
+ &lt;[[http://vmturbo.com/resources/vmturbo-xtremio-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=webinar-XtremIO-VMTurbo&amp;utm_content=02222016]]&gt;
+
+
+- The VMTurbo Channel Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

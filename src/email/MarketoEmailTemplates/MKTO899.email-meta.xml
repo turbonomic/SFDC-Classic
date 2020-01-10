@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>12_15_2014 Arista Webinar #4.Email_use</name>
+    <style>none</style>
+    <subject>Webinar Tomorrow: VMTurbo and Arista Networks LANZ Integration</subject>
+    <textOnly>&lt;http://vmturbo.com/arista-networks-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=aristaeos&amp;utm_content=121614&gt;
+Last week, VMTurbo and Arista Networks announced a formal alliance and API integration &lt;http://vmturbo.com/press-releases/vmturbo-and-arista-networks-integration/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=aristaeos&amp;utm_content=121214&gt; between VMTurbo&apos;s Network nControl and Arista LANZ™.
+Arista Networks is disrupting the SDN Landscape. Learn what they&apos;re up to as well as how VMTurbo drives dynamic network localization decisions to achieve near-zero latency in Arista environments.
+Aggressive virtualization and cloud adoption have driven rapid growth in East-West data traffic across datacenter and cloud network topologies. Multiple levels of virtual abstraction have already introduced the risk of latency at the storage and compute layers, and with the traffic patterns typical of cloud environments, the risk of latency at the network layer has only been amplified.
+Arista Networks just announced the addition of EOS+, a software platform for network programmability and automation as an evolution of Arista EOS (Extensible Operating System). EOS+ provides an advanced level of programmability, allowing customers to take advantage of pre-built and custom EOS applications as well as integration with a wide range of technology partner solutions from A10 Networks, Ansible, Aruba, Cloudera, Nuage, Palo Alto Networks, Puppet Labs, Pure Storage, Red Hat, Splunk, VMTurbo, VMware and Zscaler. This platform allows for rapid deployment using DevOps models and integration with the network as a whole, for reduced operational costs and deployment timeframes.
+Arista Latency Analyzer (LANZ™) is a breakthrough technology that tracks sources of congestion and latency with real time, microsecond reporting. As adoption of 2-tier 10/40/100 GbE architectures has exponentially increased bandwidth across today’s cloud scale environments, so too has it introduced new network management complexities. Integration between VMTurbo and Arista Networks LANZ™ enables not only real time congestion tracking, but also congestion and latency prevention automated latency remediation through network-and-port-buffer-aware traffic engineering decisions, driven by VMTurbo’s Unified Demand-Driven Control Platform.
+Join this webinar to learn about Arista Networks’ exciting disruptions within the SDN landscape, as well as the ways in which VMTurbo drives dynamic network localization decisions to achieve near-zero latency in Arista environments.
+ 
+
+
+
+
+
+Register Now &lt;http://vmturbo.com/arista-networks-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=aristaeos&amp;utm_content=121614&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

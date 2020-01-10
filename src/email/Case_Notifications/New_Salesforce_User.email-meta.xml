@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification from Sf Case to Sf Admin to create a new Sf User</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Turbo_Pink</letterhead>
+    <name>Case:  New Salesforce User</name>
+    <style>freeForm</style>
+    <subject>New Salesforce User</subject>
+    <textOnly>There is a new User to sign up in Salesforce
+
+{!Case.OwnerFullName}
+{!Case.Contact}
+{!Case.CreatedBy}
+{!Case.CreatedDate}
+{!Case.Description}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

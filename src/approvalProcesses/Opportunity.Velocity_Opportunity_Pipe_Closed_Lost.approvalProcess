@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_Gulf_Coast</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_NYC_New_England</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_Other_West_Territories</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Commercial_Bus_Driver_Pacific_Coast</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Account</field>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Owner_Team__c</field>
+        <field>Amount</field>
+        <field>of_CPU_Sockets__c</field>
+        <field>of_Virtual_Machines__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>dan.dipalma@vmturbo.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>jr.butler@vmturbo.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Send Note to AVP for Approval</label>
+        <name>Send_Note_to_AVP_for_Approval</name>
+    </approvalStep>
+    <emailTemplate>unfiled$public/Velo_Opp_Lost_Alert_for_AVP</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND(Owner_Team_Group_Buckets__c = &quot;US Velocity&quot;,
+TEXT(Owner_Team__c)&lt;&gt;&quot;The Hunchbacks&quot;,TEXT(Owner_Team__c)&lt;&gt;&quot;The Wild West&quot;,TEXT(Owner_Team__c)&lt;&gt;&quot;The Titans&quot;,
+Amount &gt;= 50000,
+Probability &lt; 1,
+OR(TEXT(StageName)=&quot;Pipeline&quot;,Probability&gt;0))</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>AVP_Closed_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Velo_opportunity_Approved_to_Lost</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Velo_Opportunity_Denied_to_Lost</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Velocity Opportunity Pipe Closed Lost</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

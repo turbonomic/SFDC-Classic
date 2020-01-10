@@ -1,0 +1,6 @@
+Ticket # ({!Zendesk__Zendesk_Ticket__c.Zendesk__Ticket_ID__c}) has been logged by {!Zendesk__Zendesk_Ticket__c.Zendesk__Requester__c} with {!Zendesk__Zendesk_Ticket__c.Organization__c} on {!Zendesk__Zendesk_Ticket__c.CreatedDate}.
+
+
+Details:
+Ticket Link: {!Zendesk__Zendesk_Ticket__c.Link}
+Ticket Subject: {!Zendesk__Zendesk_Ticket__c.Zendesk__Subject__c}

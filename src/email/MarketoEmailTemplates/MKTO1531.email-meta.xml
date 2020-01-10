@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New - WP - Principled Tech Report</name>
+    <style>none</style>
+    <subject>Why Successful Businesses Care About Latency</subject>
+    <textOnly>Dear {{Lead.First Name}},
+
+The numbers don’t lie—latency sucks…profits.
+
+Consider the following:
+
+You’ve done the research. Here’s a recap of what VMTurbo can do for you:
+
+
+ - Amazon found that 100 ms cost them 1% in sales. In terms of its 2014 revenue of $88.94 billion, 1% is $889,400,000. Not insignificant.
+ - One study found that a 1 ms advantage can be worth $100,000,000 to a major brokerage firm.
+ - It’s so costly that $1.5 billion to lay the first trans-arctic ocean fiber optic cables in order to cut latency between London and Tokyo by 30% is a practically steal.
+
+
+
+It’s no wonder then that businesses care about latency—and the successful ones are doing something about it.
+
+A Principled Technologies study found that VMTurbo improved application performance through actionable recommendations—specifically cutting latency by 37%. The report details the methodology and results of the study
+. &lt;http://vmturbo.com/wp-content/uploads/2014/04/Principled-Tech_Study_VMTurbo_performance_0315.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wp_love&amp;utm_content=principled_report&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

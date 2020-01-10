@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-23 Cloud Status Quo.ES-2019-01-14 Invite 1.Whole Emails Test</name>
+    <style>none</style>
+    <subject>=?utf-8?q?=f0=9f=8C=80?= Cloud Status Quo, How Do You Beat It?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=70157000001j57eAAA]]&gt;
+For decades, on-premises IT has operated under a model where things break, and once again IT is left to engineer. This break-fix loop has extended into the cloud as workloads are migrated, budgets are overrun, and then IT is left to engineer cost reduction plans.
+
+Meanwhile, scalability, agility, and operational efficiency suffer as costs rise. This vicious cycle is called the cloud status quo.
+ 
+Join Mor Cohen, CTO of Cloud at Turbonomic on January 23, 2019, at 11 am for our “How to Beat the Cloud Status Quo &lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=70157000001j57eAAA]]&gt;” webinar to find out how to overcome this break-fix loop. During this 30 minute session you will learn:
+
+
+	- How organizations are negatively impacted by the cloud cost break-fix loop
+
+	- The key factors that collectively drive cost optimization in the cloud
+
+	- How to quantifiably improve performance and reduce costs in the cloud
+
+
+
+
+
+Register 
+Now &lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=70157000001j57eAAA]]&gt;
+
+
+
+
+PRESENTED BY
+ 
+  Mor Cohen
+  CTO, Cloud
+  Turbonomic
+  
+
+
+
+SCHEDULING CONFLICT?
+We&apos;ve got you covered. Register &lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=70157000001j57eAAA]]&gt; for the live event and you&apos;ll receive the recording shortly afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

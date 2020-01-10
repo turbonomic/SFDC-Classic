@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic - Conversation follow up  (1493739164.0)</name>
+    <style>none</style>
+    <subject>Turbonomic - Conversation follow up  (1493739164.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Raj – Thank you for taking the time to speak with me today. As discussed, below are some materials that explain the value our customers see in Turbonomic. Please don’t hesitate to reach out if you have any questions.  ROI White Paper for Turbonomic &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic_ROI.pdf]]&gt;  Turbonomic Corporate Overview &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic-Corporate-Overview.pdf]]&gt; EDF Delivers the Cloud &lt;[[https://turbonomic.com/resources/videos/turbonomic-customer-success-story-edf-re-delivering-cloud/]]&gt;  Looking forward to touching base next week. Best regards, James</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

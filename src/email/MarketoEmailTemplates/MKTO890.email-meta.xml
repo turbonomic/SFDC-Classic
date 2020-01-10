@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>12_1_14 Jamboree Delgado.Email_plain</name>
+    <style>none</style>
+    <subject>{{Lead.First Name:default=}}&apos;s Invitation: Tech Disruptors Holiday Jamboree with Pure Storage, Zerto, and VMTurbo</subject>
+    <textOnly>Dear {{Lead.First Name:default=Sir or Madam}},
+
+I want to personally invite you to the Tech Disruptors Holiday Jamboree &lt;http://pages.zerto.com/2014HolidayJamboree.html&gt; at Dolce Cubano in Stamford, CT on December 10.
+
+Join Pure Storage, Zerto, and VMTurbo at Dolce Cubano for a fun holiday networking Jamboree, where we will sip on egg nog, eat great food and entertain you with some great knowledge from these three tech disruptors.
+
+Register Here &lt;http://pages.zerto.com/2014HolidayJamboree.html&gt;, and feel free to email me with any questions. This event is hosted at no cost to you, so I hope to see you and your colleagues there!
+
+Sincerely,
+Raphael Delgado
+VMTurbo
+781-418-5272| raphael.delgado@vmturbo.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

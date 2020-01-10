@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-03-09-Turbofest-Silicon-Valley.ES-2016-03-04 Registered Reminder</name>
+    <style>none</style>
+    <subject>5 Days! Turbofest Silicon Valley Surprise | Get Your Custom South Park Avatar</subject>
+    <textOnly>Hi {{Lead.First Name}}, 
+
+We&apos;re ecstatic to have you join us next Wednesday for #VMTurbofest Silicon Valley! Take 5 minutes to join The Green Circle Community today and upload your photo to receive a customized South Park avatar &lt;[[http://greencircle.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Turbofest-SV&amp;utm_content=030416]]&gt; at Turbofest!
+
+#VMTurbofest Details
+Wednesday March, 9, 2016
+Amazon Web Services Pop-Up Loft
+925 Market Street, San Francisco, CA 94103
+
+ - Registration begins at 12:15 PM on Floor 3
+ - All registered guests will receive a commemorative Turbofest Silicon Valley 2016 messenger bag
+ - Turbofest will start promptly at 1:00 PM and full agenda can be accessed here &lt;[[http://vmturbo.com/wp-content/uploads/2016/03/turbofestAgendaPDF1.pdf]]&gt;
+ - Presentations end at 6:00 PM, followed by networking and cocktails
+ - Enjoy an intimate comedic performance at 8:00 PM from T.J. Miller of HBO&apos;s Silicon Valley and Hollywood&apos;s latest blockbuster, Deadpool
+
+Please do not hesitate to reach out to us with any and all questions; our contact information can be found below.
+We look forward to seeing you in San Francisco!
+
+Sincerely,
+
+Jillian Fiumara 
+Event Manager, VMTurbo
+Cell: 860.305.1239
+
+Kelsey Hill
+Executive Assistant, VMTurbo
+Cell: 914.330.4210
+Sed vulputate rutrum faucibus. Curabitur posuere sodales auctor. Maecenas eu ligula nibh. Duis suscipit leo et eros molestie, at mattis elit blandit. Integer ut orci eu metus finibus tempor. Aliquam pretium nunc sit amet ante laoreet, eu placerat quam fringilla. Vivamus auctor sollicitudin purus nec accumsan. Etiam metus augue, porta non tortor a, commodo dignissim arcu. Proin in sapien erat. Vivamus vel neque a tortor laoreet varius. In non pharetra mauris. Suspendisse potenti.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

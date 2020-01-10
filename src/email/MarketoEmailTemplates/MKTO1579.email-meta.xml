@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-06-15-Turbofest Chicago.EMAIL-Early Bird Confirmation</name>
+    <style>none</style>
+    <subject>Turbofest World Tour 2016 Update Confirmation</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Thank you for signing up to receive Turbofest Chicago updates. We will send you details on how to register as soon as they are available. Until then, click below to save June 15th on your calendar!
+
+{{my.Turbofest Chicago Save-The-Date:default=Save The Date}}
+
+#VMTurbofest</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

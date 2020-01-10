@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NYC Wine Tasting reminder.Email final</name>
+    <style>none</style>
+    <subject>VMTurbo Wine Tasting</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+We’re looking forward to seeing you tomorrow at our Wine Tasting event. 
+ Included below are the details.
+
+Sincerely,
+
+Lou Shipley
+
+ 
+
+Event: Wine Tasting with VMTurbo
+ Time: 6:30 PM
+ Location: Harvard Club, Mahagony Room, 3rd Floor
+ 27 W 44th St, New York, NY 10036</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partner Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partner Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- Event Date --></label>
+        <name>Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Event Type --></label>
+        <name>Partner_Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Blitz Campaign</masterLabel>
+            <translation><!-- Blitz Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conference</masterLabel>
+            <translation><!-- Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint Event</masterLabel>
+            <translation><!-- Joint Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Office Visit</masterLabel>
+            <translation><!-- Partner Office Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Training</masterLabel>
+            <translation><!-- Partner Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Partner Office --></label>
+        <name>Partner_Office__c</name>
+        <relationshipLabel><!-- Partner Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Team__c</name>
+        <relationshipLabel><!-- Partner Events --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

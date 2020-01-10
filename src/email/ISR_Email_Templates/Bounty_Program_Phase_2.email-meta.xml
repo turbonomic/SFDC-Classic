@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Bounty Program - Phase 2</name>
+    <style>none</style>
+    <subject>Great Talking With You</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+I enjoyed talking with you today and look forward to our upcoming meeting. I’m excited to demonstrate how VMTurbo can save you time and expense by ensuring workload performance while maximizing resource utilization in your unique IT environment.
+
+Meanwhile, check out this short overview &lt;http://bit.ly/XYnaGJ&gt; of VMTurbo and you’ll see why I’m so excited to show you how you can take control of your virtual data center.
+
+Very Best Regards,
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257
+How does VMTurbo work?</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

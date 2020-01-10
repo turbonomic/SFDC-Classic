@@ -1,0 +1,14 @@
+Dear Ops Queue, 
+
+A New Lead is in your Ops Queue that needs an Account created. 
+
+Please provide the next steps for this Partner Lead request. 
+{!Lead.Name}
+{!Lead.Company}
+{!Lead.Description}
+
+To see the details, please click the following link: {!Lead.Link}
+
+
+Thank you, 
+WI Partner

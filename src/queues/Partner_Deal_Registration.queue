@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>partnerdealregistration@turbonomic.com</email>
+    <name>Partner Deal Registration</name>
+    <queueMembers>
+        <users>
+            <user>charmian.mcintyre@vmturbo.com</user>
+            <user>chris.gallamore@vmturbo.com</user>
+            <user>chris.williamson@vmturbo.com</user>
+            <user>daniel.charland@vmturbo.com</user>
+            <user>francois.guillaume@vmturbo.com</user>
+            <user>howard.masters@vmturbo.com</user>
+            <user>jennifer.clark@vmturbo.com</user>
+            <user>melissa.lyons@vmturbo.com</user>
+            <user>nick.saunders@vmturbo.com</user>
+            <user>patrick.mccreight@vmturbo.com</user>
+            <user>rick.razaq@vmturbo.com</user>
+            <user>suky.bains@vmturbo.com</user>
+            <user>tracy.paugh@vmturbo.com</user>
+            <user>veronica.sera@vmturbo.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

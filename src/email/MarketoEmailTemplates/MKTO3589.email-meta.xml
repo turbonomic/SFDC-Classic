@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-04-13-AWS-SummitSF-PostShow.AWS SummitSF PostShow 1</name>
+    <style>none</style>
+    <subject>Your AWS Summit SF Follow Up</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Thanks for stopping by the Turbonomic booth at AWS Summit San Francisco. As promised, here is a resource that shows how we help our customers migrate to the cloud:
+
+ &lt;[[https://resources.turbonomic.com/accelerate-cloud-migration-projects]]&gt;
+
+Turbonomic can help you reduce your projected cloud spend by optimizing your on-premise workloads before migration and determining needed AWS Reserved Instance (RI) capacity.
+
+Learn more and start your migration with confidence.
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

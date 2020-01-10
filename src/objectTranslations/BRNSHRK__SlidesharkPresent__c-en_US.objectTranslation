@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Presentation Title --></label>
+        <name>BRNSHRK__BrainsharkPresentation__c</name>
+        <relationshipLabel><!-- Slideshark Presents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Brainshark View Key --></label>
+        <name>BRNSHRK__BrainsharkViewKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>BRNSHRK__Contact__c</name>
+        <relationshipLabel><!-- Slideshark Presents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>BRNSHRK__Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>BRNSHRK__Lead__c</name>
+        <relationshipLabel><!-- Slideshark Presents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of Slides --></label>
+        <name>BRNSHRK__NumberOfSlides__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage Presented --></label>
+        <name>BRNSHRK__OpportunityStage__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Slides Presented --></label>
+        <name>BRNSHRK__PercentSlidesPresented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presentation ID --></label>
+        <name>BRNSHRK__Pid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present by Active User --></label>
+        <name>BRNSHRK__PresentByActiveUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present by Running User --></label>
+        <name>BRNSHRK__PresentByRunningUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date/Time Presented --></label>
+        <name>BRNSHRK__PresentDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present IP Address City --></label>
+        <name>BRNSHRK__PresentIPAddressCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present IP Address Country --></label>
+        <name>BRNSHRK__PresentIPAddressCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present IP Address Region --></label>
+        <name>BRNSHRK__PresentIPAddressRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present Is Mobile --></label>
+        <name>BRNSHRK__PresentIsMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present Time --></label>
+        <name>BRNSHRK__PresentTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present Minutes --></label>
+        <name>BRNSHRK__Present_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present Seconds --></label>
+        <name>BRNSHRK__Present_Seconds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presenting Time MM:SS --></label>
+        <name>BRNSHRK__Present_Time_MM_SS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presenter Name --></label>
+        <name>BRNSHRK__PresenterName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Role --></label>
+        <name>BRNSHRK__PresenterRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>BRNSHRK__RelatedAccount__c</name>
+        <relationshipLabel><!-- Slideshark Presents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>BRNSHRK__RelatedCase__c</name>
+        <relationshipLabel><!-- Slideshark Presents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity --></label>
+        <name>BRNSHRK__RelatedOpportunity__c</name>
+        <relationshipLabel><!-- Slideshark Presents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Formula pulls data from Lead/Contact. --></help>
+        <label><!-- SFDC: Company --></label>
+        <name>BRNSHRK__SfdcCompany__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula pulls data from Lead/Contact. --></help>
+        <label><!-- SFDC: Email --></label>
+        <name>BRNSHRK__SfdcEmail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula pulls data from Lead/Contact. --></help>
+        <label><!-- SFDC: Phone --></label>
+        <name>BRNSHRK__SfdcPhone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pulls the Job Title field from the Lead/Contact record. --></help>
+        <label><!-- SFDC: Title --></label>
+        <name>BRNSHRK__SfdcTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Slides Presented --></label>
+        <name>BRNSHRK__SlidesPresented__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2016-03-14-Pure Accelerate.EMAIL-Post Event</name>
+    <style>none</style>
+    <subject>{{lead.First Name}}&apos;s Pure//Accelerate 30-Day VMTurbo Download</subject>
+    <textOnly>Hi {{Lead.First Name}},
+It was our pleasure to meet and speak with you earlier this week at Pure//Accelerate. Our booth staff was astounded by the innovation happening at the and organizations with which we spoke. As promised, here is a follow-up email inviting you to learn more about how VMTurbo can Guarantee Quality-of-Service Adherence for your organization.
+
+At right, you&apos;ll find several data sheets and a lab report from Principled Technologies demonstrating how VMTurbo increases application response time by over 30% without any baselining or configuration. We encourage you to try VMTurbo FREE for 30 Days, by downloading now &lt;[[http://vmturbo.com/downloads/operations-manager-30-day-trial?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=pureaccelerate&amp;amp;utm_content=031816]]&gt;. The papers and reports are compelling, but the performance will speak for itself.
+
+- The VMTurbo Team
+Download Now &lt;[[http://vmturbo.com/downloads/operations-manager-30-day-trial?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=pureaccelerate&amp;amp;utm_content=031816]]&gt;
+
+
+
+
+ - Principled Technologies Study: VMTurbo Boosts Performance &lt;[[http://vmturbo.com/wp-content/uploads/2016/01/VMTurbo_large_environment_0116.pdf]]&gt;
+ - VMTurbo Datasheet &lt;[[http://cdn.vmturbo.com/wp-content/uploads/2016/03/VMTurbo-Operations-Manager-Data-Sheet.pdf]]&gt;
+ - Application Control Datasheet &lt;[[http://cdn.vmturbo.com/wp-content/uploads/2016/03/Application-Control-Module-Data-Sheet.pdf]]&gt;
+ - Pure Storage Control Datasheet &lt;[[http://cdn.vmturbo.com/wp-content/uploads/2016/03/Pure-Storage-Control-Module-Data-Sheet.pdf]]&gt;
+
+
+ &lt;[[http://vmturbo.com/downloads/operations-manager-30-day-trial?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=pureaccelerate&amp;amp;utm_content=031816]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

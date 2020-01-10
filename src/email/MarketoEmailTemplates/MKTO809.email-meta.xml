@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>09_23_2014 EHR for Partners.Email_use</name>
+    <style>none</style>
+    <subject>And the Winner Is... | Health IT Week Infographic &amp; Drawing</subject>
+    <textOnly>Click to View Full Infographic &lt;http://vmturbo.com/blog/meaningful-use-infographic/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=nhitweek&amp;utm_content=092214&gt;
+
+INFOGRAPHIC:
+Meaningful Use &amp; the Electronic Health Record Storage Boom
+ 
+National Health IT Week has come and gone. VMTurbo congratulates Wade W. for watching our Mary Washington Healthcare Webcast &lt;http://vmturbo.com/vmturbo-webcast-mary-washington-healthcare/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=nhitweek&amp;utm_content=092214&gt; and winning a LEGO© Batman©™ Tumbler set!
+View Infographic &lt;http://vmturbo.com/blog/meaningful-use-infographic/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=nhitweek&amp;utm_content=092214&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

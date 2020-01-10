@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>WP download.Intro Email 2</name>
+    <style>none</style>
+    <subject>VMTurbo’s Approach to Solving Your Biggest Virtualization Headache</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+ 
+ “With limited staff it was challenging to manage the environment as it became so large.”
+—Robert Reynolds, Indiana University
+
+Sound familiar? This is sentiment we consistently heard from IT 
+professionals at higher education institutions, such as Northeastern University, East Carolina University, Lane Community College, and Washington University in St. Louis.  Once virtualized, their now highly-dynamic environment required constant management—complex, real-time coordination among the infrastructure, application, storage, and network teams to diagnose and resolve issues.  This type of labor-intensive management didn’t 
+scale and they recognized the need for a different approach &lt;http://www.vmturbo.com/resources/white-papers-briefs/operations-management-in-the-virtual-data-center-white-paper/operations-management-in-the-virtual-data-center-white-paper-thank-you/&gt;.
+
+This is exactly the 
+problem we sought to address when we developed our intelligent workload management solution, Operations Manager &lt;http://www.vmturbo.com/product/what-it-does/operations-management-virtualized-environments/&gt;. Rather than overburdening staff with alerts and volumes of data to interpret, VMTurbo identifies specific actions, that can easily be automated, to optimize your virtual environment and prevent problems. The team at East Carolina University was devoting a lot of cycles to troubleshooting and identifying latency bottlenecks. With VMTurbo, these bottlenecks were remediated before alerts were triggered.  
+
+I’d like to spend 10 minutes with you or someone on your team to give you more detail regarding how we have helped customers just like you save time and money with VMTurbo Operations Manager. Let me know when it&apos;s a good time to speak. In the meantime, if you’d like to learn more about VMTurbo’s innovative and unique approach, download this white paper &lt;http://www.vmturbo.com/resources/white-papers-briefs/operations-management-in-the-virtual-data-center-white-paper/operations-management-in-the-virtual-data-center-white-paper-thank-you/&gt; or view this short, informative video &lt;http://www.vmturbo.com/resources/videos-main/esevideo/&gt;.
+
+{{lead.Lead Owner First Name:default=The VMTurbo Team}}  {{lead.Lead Owner Last Name:default=}}
+phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

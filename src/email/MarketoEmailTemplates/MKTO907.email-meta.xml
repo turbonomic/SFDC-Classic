@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_09_2015 Predictions Infographic.Email_use</name>
+    <style>none</style>
+    <subject>Five 2015 IT Predictions: Azure Will Toyota the Public Cloud</subject>
+    <textOnly>Five 2015 IT Predictions
+
+View the Infographic &lt;http://vmturbo.com/blog/2015-it-industry-predictions/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=predictions&amp;utm+content=010915&gt;
+&lt;http://vmturbo.com/blog/2015-it-industry-predictions/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=predictions&amp;utm+content=010915&gt;
+{{Lead.First Name:default=Turbofriend}},
+2014 sure was a busy year, but now that December 31st has come and gone, it’s time to look forward. Our experts, VMTurbo co-founders Yechiam Yemini (YY) and Yuri Rabover, accompanied by Principal Solutions Engineer and Technology Evangelist Eric Wright (aka @discoposse &lt;https://twitter.com/discoposse&gt;), weighed in on what’s in store for 2015. Click here &lt;http://vmturbo.com/blog/2015-it-industry-predictions/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=predictions&amp;utm+content=010915&gt; for a brief look at what they had to say.
+
+View Infographic &lt;http://vmturbo.com/blog/2015-it-industry-predictions/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=predictions&amp;utm+content=010915&gt;&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

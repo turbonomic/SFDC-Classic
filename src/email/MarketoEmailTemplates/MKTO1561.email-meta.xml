@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_19_2015 Turbostack 2.Send</name>
+    <style>none</style>
+    <subject>Win A Home Lab, Solve The n-Dimensional Problem.</subject>
+    <textOnly>&lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05072015&gt;
+Hi {{lead.First Name:default=There}},
+
+Your data center is more complex than you give it credit for. With a multitude of resources (CPU, RAM, IOPs, NetIO, Balloon, Swap, Buffer, Flow...) whose utilization can assume a multitude of states effecting performance, how do you find a state that satisfies all of the inherent tradeoffs? What about when we add hybrid cloud, containers or webscale application architectures? All of these tradeoffs combine to create an n-dimensional problem beyond human scale.
+
+Click below to see if you can solve this problem, and be entered to win a VMTurbo TurboStack home lab. 
+ &lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05072015&gt;
+
+Enter for a chance to win!
+
+VMTurboStack Homelab
+
+Valued over USD $1300.
+
+What’s in the VMTurboStack Home Lab?
+
+
+ - Intel NUC with Intel Core i5-4250U
+ - G.SKILL Ripjaws Series 16GB (2x8G) 204-Pin DDR3 Memory
+ - SAMSUNG 840 EVO 250GB SATA III TLC Internal Solid State Drive
+ - Synology DS415+ Diskless System DiskStation 4-Bay NAS
+ - 2x Dell 1TB 7200 RPM SATA 3.0Gb/s 3.5&quot; Hard Drive
+ - Cisco SG300-10 10-port Gigabit Managed Switch
+ - Rosewill 7ft. Cat 6 Network Cable
+ - VMTurbo Operations Manager 5.1
+ - OpenStack
+
+
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

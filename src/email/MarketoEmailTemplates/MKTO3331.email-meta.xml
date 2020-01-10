@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-11-14-Boston ESB-Mark Thurmond Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-12-21-Field-East-ESB-Boston.ES-2017-11-14-Boston-ESB-1.EM-2017-11-14-Bo</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Boston Executive Networking Reception and Bruins Game</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+In my years of experience with IT infrastructure and cloud domains, I have had the privilege of watching IT go through waves of transformation from a birds-eye view. All previous waves pale in comparison to that which we observe today.
+
+I cordially invite you to join myself and dozens of our fellow IT leaders in Boston for the upcoming Boston Executive Networking Event:  &lt;[[turbonomic.com/learn-boston]]&gt;Elastic Compute at Cloud Economics &lt;[[turbonomic.com/learn-boston]]&gt; on Thursday, December 21st 2017 at the home of the Boston Bruins, the TD Garden at 5:30PM. 
+
+
+While the hybrid cloud presents boundless opportunities, the IT operations and management risks are formidable and oversights are expensive. The reality is, we end up paying for what we think we&apos;ll use, and many workloads in the cloud are just as over-provisioned as their on-premises counterparts, leading enterprises to overspend on idle resources, this time, paying AWS or Azure by the hour or even the second. 
+
+This event is a great opportunity to meet with peers, share challenges, and discuss trends heading into the new year. It is my goal and hope that this networking 
+opportunity will be intellectually stimulating and beneficial for all. Following our reception, myself and your technology peers will take our seats in the Turbonomic Suite to cheer on the Boston Bruins as they take on the Winnipeg Jets.
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/learn-boston/]]&gt; as soon as possible.
+
+
+
+Yours sincerely,
+Mark
+
+ &lt;[[https://turbonomic.com/learn-phoenix]]&gt;
+
+Mark Thurmond
+Chief Operating Officer
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

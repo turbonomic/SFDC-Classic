@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: Turbonomic intro for Brandsmart  (1494504584.0)</name>
+    <style>none</style>
+    <subject>RE: Turbonomic intro for Brandsmart  (1494504584.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean DocumentEmail     false false false  EN-US X-NONE X-NONE       MicrosoftInternetExplorer4                                                                                                                                                                                                                                                                                                                                                                                                         Hi Fernando, Following up on the email below, I wanted to see if you would be open to my team and I providing an introduction to Turbonomic to discuss if it would be of value to you and the infrastructure team at Brandsmart. As discussed with Vincent, our platform enables our customers to increase application performance while increasing the efficiency of their infrastructure. See the link below for more details:  Turbonomic Customer Success Story &lt;[[https://turbonomic.com/resources/videos/customer-success-hatcocorp/]]&gt; Do you have any time over the next couple of weeks for an introduction call?  Best regards, James  From: James Wilcox 
+Sent: Friday, May 5, 2017 2:43 PM
+To: &apos;fernando.delfino@bm1.brandsmart.com&apos; &lt;fernando.delfino@bm1.brandsmart.com&gt;
+Cc: &apos;vincent.visco@bm1.brandsmart.com&apos; &lt;vincent.visco@bm1.brandsmart.com&gt;; AJ Fiore &lt;aj.fiore@turbonomic.com&gt;
+Subject: Turbonomic intro for Brandsmart  Fernando, My team and I met with Vincent about a month ago to introduce him to Turbonomic and he mentioned that you would be the next best person to reach out to in regards to next steps for introducing Turbonomic to the rest of the Brandsmart team.  I wanted to reach out to you directly to see if you have any time over the next few weeks to have an hour long call for an overview of Turbonomic and discuss how it could be beneficial for you and the team at Brandsmart.  Do you have any availability over the next two weeks for an introduction?  Best,   James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  Going to Cisco Live? Meet with a Turbonomic Executive &lt;[[https://turbonomic.com/leadership-meetings]]&gt; </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

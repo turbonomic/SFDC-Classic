@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMUG Charlotte follow up.Email</name>
+    <style>none</style>
+    <subject>Carolina VMware Users Summit Follow up</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+It was great to meet and spend some time with you at VMware Forum on 2nd May – thanks for taking the time to come by and see us. As a follow-up to the event, I&apos;ve linked below a few of the many resources designed to dive deeper into the ways VMTurbo will dramatically improve how you control and automate your virtual data center.
+
+ - Trial Download &lt;http://bit.ly/QzvQgM&gt; - check out VMTurbo in your environment, absolutely free
+ - Online Evaluation Resource Center &lt;http://bit.ly/Yz66Yv&gt; for product and support info
+
+And if you missed my breakout session, How to Guarantee VM Performance and Maximize Utilization, feel free to take a look at this whitepaper &lt;http://bit.ly/11v0WKW&gt;.
+
+My team will be following up with you shortly to understand your priorities and interest in learning more about VMTurbo.If you would like to set up some time to get a more in-depth, tailored demonstration of our solution, please let us know here &lt;http://bit.ly/145VraT&gt;. 
+
+Kind regards
+Steve Corndell</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

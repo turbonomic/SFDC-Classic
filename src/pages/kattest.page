@@ -1,0 +1,9 @@
+<apex:page >
+  <h1>Katrina Thompson</h1>
+  <br>
+  This is your new Page {!$User.FirstName}
+  </br><br>
+  {!$User.Alias}
+  </br>
+  
+</apex:page>

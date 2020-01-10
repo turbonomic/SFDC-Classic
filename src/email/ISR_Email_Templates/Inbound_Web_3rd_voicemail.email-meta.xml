@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>VMTurbo - download feedback</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Inbound Web 3rd voicemail</name>
+    <style>none</style>
+    <subject>VMTurbo - download feedback</subject>
+    <textOnly>Hi {!Lead.FirstName}, 
+ 
+Please let me know when might be a good time to reach you. I&apos;m hoping to get some initial feedback from you about your experience with VMTurbo. Our market research team is constantly working to improve the experience that our customers have with our virtual appliance, and so we truly thank you for taking the time to evaluate our product and hope that we will hear from you soon. 
+
+Thanks, 
+
+{!User.FirstName}{!User.LastName}
+        
+Phone: 781.373.3540 ~ Fax: 781.373.3257 
+Top 10 Reasons to Choose VMTurbo - http://tiny.cc/4kmu4</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

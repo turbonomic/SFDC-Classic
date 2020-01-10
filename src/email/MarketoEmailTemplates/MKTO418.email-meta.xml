@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2_27_2014_VMUG Toronto Pre-Event mailer.Email</name>
+    <style>none</style>
+    <subject>Toronto VMUG is February 27th. Will You Be There?</subject>
+    <textOnly>   
+Toronto VMUG
+February 27, 2014 | Metro Convention Center
+ 
+ &lt;http://www.vmturbo.com/events/toronto-vmug-february-27-2014/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmugpre&gt;
+VMTurbo engineers will be at Booth #34 to discuss virtualization management and the features of our latest release, VMTurbo Operations Manager 4.5 &lt;http://www.vmturbo.com/operations-manager/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmugpre&gt;, including: 
+
+ - Control modules for NetApp, EMC, and Cisco UCS that allow you to manage and control both fabric and storage
+ - Distributing loads across all hosts in your environment by eliminating artificial cluster boundaries - allowing for even greater utilization and densities while assuring VM performance
+ - Intelligent, truly-automated stack control for your SDDC
+
+In addition to leading the virtual revolution, VMTurbo has been busy collecting hardware (Awards, not blades): 
+
+ - #26 Forbes America&apos;s Most Promising Companies 2014
+ - TechTrailblazers Who To Watch in 2014 First Place in Virtualization
+ - Storage Magazine&apos;s Product of the Year 2013 Bronze Level in Storage Management Tools
+
+See you in Toronto,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-08-31-Boston-Email from AE</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-08-31-Boston ESB-Email from AE.EM-2017-08-31-Boston-Email from AE</name>
+    <style>none</style>
+    <subject>Sept. 21 Executive Networking Dinner at Downtown Harvard Club of Boston</subject>
+    <textOnly>Good afternoon {{lead.First Name:default=edit me}},
+ 
+You have been cordially invited by {{lead.Territory Owner (L):default=edit me}}, your Turbonomic Account Executive, to attend the Boston Executive Networking Event: Elastic Compute at Cloud Economics hosted by Presidio. 
+ 
+This private event will be hosted by Ben Nye, Turbonomic CEO &amp; Co-Managing Partner at Bain Capital Ventures. As a part of Forbes’ “Midas List” of top VC investors and a seasoned executive, Ben will be speaking to the challenges and complexities that adopting and re-defining cloud strategies can bring upon companies&apos; IT strategies and the proven solutions that are alleviating those challenges.  
+ 
+When: Thursday September 21st 2017, 5:00PM
+Where: Downtown Harvard Club of Boston
+Address: 1 Federal St. Boston, Ma 02110
+RSVP: turbonomic.com/learn-boston/ &lt;[[https://turbonomic.com/learn-boston/]]&gt;
+ 
+We hope that you will be able to join us for this private affair. 
+ 
+-Maria Rodriguez; Turbonomic
+
+
+
+
+ &lt;[[https://turbonomic.com/learn-boston/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

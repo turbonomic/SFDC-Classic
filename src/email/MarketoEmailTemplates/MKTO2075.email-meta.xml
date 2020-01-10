@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-Multi Hypervisor/Hyper-V-Nurture.ENG-Mult-Hypervisor-Early-03.03-Hyper-V-Man</name>
+    <style>none</style>
+    <subject>How To Approach Hyper-V Management</subject>
+    <textOnly>&lt;[[http://turbonomic.com/blog/on-turbonomic/how-to-approach-hyper-v-management/]]&gt;
+Hi {{lead.First Name:default=There}},
+Microsoft&apos;s virtualization platform Hyper-V has evolved significantly over the years and has adapted to emerging market trends. Despite these advancements something that hasn&apos;t changed is how we manage these environments.
+We often see users moving to Hyper-V as a way to curtail costs, if you are moving to or leveraging a Hyper-V environment for cost how are you going to continue to scale the environment without introducing unnecessary capital expenditures?
+It boils down to increasing utilization without introducing performance degradation and headcount. This calls for a new approach to Hyper-V management, click below to learn how to make this possible.
+ &lt;[[http://turbonomic.com/blog/on-turbonomic/how-to-approach-hyper-v-management/]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

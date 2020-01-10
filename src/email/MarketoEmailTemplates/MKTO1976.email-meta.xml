@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-01-13-Evolution of Enterprise Applications &amp; Performance.Send</name>
+    <style>none</style>
+    <subject>Evolution of Enterprise Applications and How To Assure Performance</subject>
+    <textOnly>&lt;[[https://turbonomic.com/thx-wp-assuring-application-performance-at-scale?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=wp-assuring-application-performance-at-scale&amp;utm_content=01132017]]&gt;
+Hi {{lead.First Name:default=There}},
+How do you think about your applications today? In this paper we examine the evolution of enterprise applications, the data centers in which these applications reside and the increasing expectations of businesses and end-users on the Quality of Service their applications deliver.
+We also discuss Application Performance Monitoring (APM) and why this approach is no longer sufficient to meet today’s complex data center and application design, nor meet end-user and business expectations.
+ &lt;[[https://turbonomic.com/thx-wp-assuring-application-performance-at-scale?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=wp-enterprise-application-performance&amp;utm_content=01132017]]&gt;
+
+
+
+
+Want to see Turbonomic in action? Download our 30-Day Free Trial &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=30-dai&amp;utm_content=01092017]]&gt;.
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

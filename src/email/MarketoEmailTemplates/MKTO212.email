@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-size: 14px; font-family: arial,helvetica,sans-serif;">Dear {{lead.First Name:default=Sir/Madam}},</span></p>
+<p><span style="font-size: 14px; font-family: arial,helvetica,sans-serif;">Would you like to learn about how a about how BT Global plc deployed&nbsp; virtualization management across &gt;6300 virtual machines in multiple distributed data centers, resulting in operational and capital expense reduction? Check out this <a href="http://www.vmturbo.com/wp-content/uploads/2013/03/VMT-Customer-Testimonial-BT-Mar-20131.pdf">brief write-up</a>.</span><br />&nbsp;<br /><span style="font-size: 14px; font-family: arial,helvetica,sans-serif;">How does VMTurbo&rsquo;s solution reduce expenses with nearly immediate time-to-value?</span></p>
+<ul>
+<li><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 14px;">By increasing VM density and rightsizing clusters, thus reducing the need for unnecessary spend on new hosts</span><span style="font-size: 14px;">&nbsp;</span></span></li>
+<li><span style="font-size: 14px; font-family: arial,helvetica,sans-serif;">By significantly reducing the time needed for your IT professionals to route, evaluate, and act on incidents</span></li>
+</ul>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">We&rsquo;ll prove it in less than 4 hours in your environment. Get started with this <a href="http://go.vmturbo.com/cloud-edition-download.html?source=email">simple download</a>.</span></p>
+<p><br /><span style="font-size: 14px; font-family: arial,helvetica,sans-serif;">To Your Virtual Health,</span><br /><span style="font-size: 14px; font-family: arial,helvetica,sans-serif;"> The VMTurbo Team</span></p></div>
+</div>
+</body>
+</html>

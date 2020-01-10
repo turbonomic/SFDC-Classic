@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-08-08-VMworld Europe Giveaway 2016.Send</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=Hey}}, Win Two Tickets to VMworld Europe 2016!</subject>
+    <textOnly>&lt;[[http://vmturbo.com/vmturbo-vmworld-europe-2016-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmworld-europe-passes-2016&amp;utm_content=08082016]]&gt;
+Hi {{lead.First Name:default=}},
+One lucky winner has already been chosen! But you still have 2 more chances to win 2 Full Conference Passes to VMworld Europe 2016 in beautiful Barcelona, Spain! The epicenter of all things virtual, VMworld is our 
+industry&apos;s biggest stage and we want to see you there. We are giving away a pair of tickets on August 19th and September 9th. Enter today for your chance to win!
+
+
+Good Luck!
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

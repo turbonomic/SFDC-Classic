@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2019-03-15-Future of Virtualization Survey.ES 3 - MQLs Resend.ES 3 - HTML Inv</name>
+    <style>none</style>
+    <subject>[Last Chance] $10 for 3-Minute Survey</subject>
+    <textOnly>&lt;[[http://bit.ly/2T6c0jd]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+As more organizations, like yours, explore cloud migration and container adoption, the future of traditional virtualization has become increasingly uncertain.
+
+
+Answer this 3-Minute Survey on the Future of Virtualization &lt;[[http://bit.ly/2T6c0jd]]&gt; to help us better understand trends in cloud and container adoption and how these impact the future of virtualization. 
+
+
+
+
+
+
+Take Survey Now &lt;[[http://bit.ly/2T6c0jd]]&gt;
+
+
+
+
+
+
+To say thanks, you will earn a $10 Amazon Gift Card upon completion of the survey. 
+
+
+Furthermore, we are offering a $50 Amazon Gift Card for agreeing to a 30-minute meeting to learn how Turbonomic can help you at every stage in your cloud and container adoption journey.
+
+
+Regards,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>30-Day Trial Expire</name>
+    <style>none</style>
+    <subject>Your VMTurbo Trial Expires Today</subject>
+    <textOnly>Dear {{Lead.First Name}},
+
+Your VMTurbo trial expires today. Are you really going to go back to fighting fires? Have you been missing those 3 a.m. alerts? No? Good, we didn’t think so—say “No” to drowning in alerts and dashboards. 
+
+Embrace your calling as the driver of game-changing projects at your company. Schedule a 30-minute demo today. Our team of experts will give you a personalized walk through of VMTurbo, showing you just how VMTurbo will drive your environment to perpetual health.
+
+Sign up for a free 30-minute demonstration today! &lt;http://vmturbo.com/product/request-a-demo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=Trial_Expire&gt;
+
+We look forward to hearing from you!
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

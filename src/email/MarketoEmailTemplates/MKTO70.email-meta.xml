@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>November 2012 customer Jumpstart invite.Invitation</name>
+    <style>none</style>
+    <subject>Join us for a free Jumpstart Training</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for your purchase of VMTurbo Operations Manager. To ensure the most successful outcome of using our solution, VMTurbo Educational Services is offering a Jumpstart Training session &lt;https://www3.gotomeeting.com/register/542879398&gt; on November 29th, 2012 from 12pm to 1:30pm ET. The session will introduce you to the breakthrough technology that drives VMTurbo Operations Manager, and demonstrate how it assures application performance while utilizing virtualized and cloud infrastructure resources as efficiently as possible.
+
+Who will Benefit: enterprise and virtualization architects, capacity planners, system administrators, and IT and support personnel. There is no limit to who can participate from your organization.
+
+Some of the key lessons they will take away include:
+
+
+ - Preventing problems in your virtual environment before they occur
+ - Using VMTurbo recommendations for workload placement to maximize efficiency
+ - Exploring the wealth of information to gain visibility and insight into your virtual environment
+ - Using VMTurbo to analyze historical trends
+ - Customizing the VMTurbo dashboards
+ - Planning for projected workload fluctuations and hardware migrations
+ - Investigating how infrastructure changes would affect performance and efficiency
+
+
+
+Register here! &lt;https://www3.gotomeeting.com/register/542879398&gt;
+
+VMTurbo Jumpstart Training
+Thursday, November 29th, 2012
+12:00 pm – 1:30 pm ET
+
+We hope you can join us! If you need more information, please contact education@vmturbo.com.
+VMTurbo Educational Services</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>3.3</fullName>
+        <default>false</default>
+        <label>3.3</label>
+    </customValue>
+    <customValue>
+        <fullName>4.0</fullName>
+        <default>false</default>
+        <label>4.0</label>
+    </customValue>
+    <customValue>
+        <fullName>4.0 U1</fullName>
+        <default>false</default>
+        <label>4.0 U1</label>
+    </customValue>
+    <customValue>
+        <fullName>4.0 U2</fullName>
+        <default>false</default>
+        <label>4.0 U2</label>
+    </customValue>
+    <customValue>
+        <fullName>4.1</fullName>
+        <default>false</default>
+        <label>4.1</label>
+    </customValue>
+    <customValue>
+        <fullName>4.5</fullName>
+        <default>false</default>
+        <label>4.5</label>
+    </customValue>
+    <customValue>
+        <fullName>4.6</fullName>
+        <default>false</default>
+        <label>4.6</label>
+    </customValue>
+    <customValue>
+        <fullName>4.7</fullName>
+        <default>false</default>
+        <label>4.7</label>
+    </customValue>
+    <customValue>
+        <fullName>5.0</fullName>
+        <default>false</default>
+        <label>5.0</label>
+    </customValue>
+    <customValue>
+        <fullName>5.1</fullName>
+        <default>false</default>
+        <label>5.1</label>
+    </customValue>
+    <customValue>
+        <fullName>5.2</fullName>
+        <default>false</default>
+        <label>5.2</label>
+    </customValue>
+    <customValue>
+        <fullName>5.3</fullName>
+        <default>false</default>
+        <label>5.3</label>
+    </customValue>
+    <customValue>
+        <fullName>5.4</fullName>
+        <default>false</default>
+        <label>5.4</label>
+    </customValue>
+    <customValue>
+        <fullName>5.5</fullName>
+        <default>false</default>
+        <label>5.5</label>
+    </customValue>
+    <customValue>
+        <fullName>5.6</fullName>
+        <default>false</default>
+        <label>5.6</label>
+    </customValue>
+    <customValue>
+        <fullName>5.7</fullName>
+        <default>false</default>
+        <label>5.7</label>
+    </customValue>
+    <customValue>
+        <fullName>5.8</fullName>
+        <default>false</default>
+        <label>5.8</label>
+    </customValue>
+    <customValue>
+        <fullName>5.9</fullName>
+        <default>false</default>
+        <label>5.9</label>
+    </customValue>
+    <customValue>
+        <fullName>6.0</fullName>
+        <default>false</default>
+        <label>6.0</label>
+    </customValue>
+    <customValue>
+        <fullName>6.1</fullName>
+        <default>false</default>
+        <label>6.1</label>
+    </customValue>
+    <customValue>
+        <fullName>6.2</fullName>
+        <default>false</default>
+        <label>6.2</label>
+    </customValue>
+    <customValue>
+        <fullName>6.3</fullName>
+        <default>false</default>
+        <label>6.3</label>
+    </customValue>
+    <customValue>
+        <fullName>CWOM 1.1</fullName>
+        <default>false</default>
+        <label>CWOM 1.1</label>
+    </customValue>
+    <customValue>
+        <fullName>CWOM 1.2</fullName>
+        <default>false</default>
+        <label>CWOM 1.2</label>
+    </customValue>
+    <customValue>
+        <fullName>CWOM  2.0</fullName>
+        <default>false</default>
+        <label>CWOM  2.0</label>
+    </customValue>
+    <masterLabel>Turbonomic Product Version</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-06-13-Pure//Accelerate Dinner.EMAIL-Invite-Pure//Accelerate-Account Own</name>
+    <style>none</style>
+    <subject>Join Me for a Bay-Side Seafood Dinner 6/13 at Pure//Accelerate</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+
+Are you going to Pure//Accelerate in San Francisco? If so, we’d love if you could join us for dinner so we can get to know our community even better!
+
+
+After the Hall Crawl on Tuesday, June 13th, we will be heading over to Mission Rock Resort for a bay-side seafood dinner. If you are planning to attend the conference, or simply will be in the San Francisco area, and are interested in joining us for dinner at 7:30pm, RSVP here &lt;[[https://turbonomic.com/pure-accelerate-turbonomic-dinner%20/]]&gt;.
+ 
+While you’re there, don’t forget to stop by our booth to learn more about Turbonomic’s partnership with Pure Storage, and get a sneak-peek at our brand-new user interface and upcoming product release.
+ 
+I hope to see you in there!
+ 
+Best,
+Steve
+
+
+
+
+Steve Corndell
+
+General Manager and Vice President
+Commercial Sales, Americas
+Email: steve.corndell@turbonomic.com &lt;[[mailto:steve.corndell@turbonomic.com]]&gt;
+Cell: 774-273-0056
+Office: 781-418-5232</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

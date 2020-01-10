@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2019-02-15-ELA EMEA.ES - 1a.ES 1 - HTML Invite 1</name>
+    <style>none</style>
+    <subject>£5 Gift Card for 2 Minute Survey | Licensing, ELAs, &amp; Compliance in the Cloud Era</subject>
+    <textOnly>&lt;[[http://bit.ly/2tn4aXK]]&gt;
+Hi {{lead.First Name:default=there}},
+As workloads proliferate in the cloud and IT scales to meet business demands, enterprises must increase focus on negotiating licensing agreements and maintaining compliance, or else face unexpected (and often unaffordable) vendor penalties.
+Answer this 2-Minute Survey, ELAs &amp; Compliance in the Cloud Era, &lt;[[http://bit.ly/2tn4aXK]]&gt; to help establish a baseline on the current licensing adoption rates and uncover the key challenges to negotiate better agreements, maintain compliance, and avoid overspending. 
+
+
+
+Take Survey Now &lt;[[http://bit.ly/2tn4aXK]]&gt;
+
+
+
+To say thanks, you will earn a £5 Gift Card upon completion of the survey. Furthermore, we are offering a £40 Gift Card for agreeing to a 30-minute meeting to learn how Turbonomic can help you take back control of your ELA. 
+Regards,
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

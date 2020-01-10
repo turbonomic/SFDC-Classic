@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-03-18-Razor Technology.01.01_19_2016-Razor Technology-Q1-Invite.01.Invi</name>
+    <style>none</style>
+    <subject>Free technical workshop this week in PA</subject>
+    <textOnly>Hi {{lead.First Name:default=Partner}}, 
+Join us for a hands-on technology workshop with Razor &amp; VMTurbo and learn how to manage application demand from industry experts! You&apos;ll witness firsthand how VMTurbo operates in your data center, manages workloads and preventatively reallocates resources while increasing your overall efficiency.
+In this instructor led workshop, you will be guided through several lab modules: modeling hypothetical scenarios, creating custom dashboards, demonstrating use cases requiring deeper integrations, and much more. Additionally, we&apos;re holding an in-depth Q&amp;A session where we&apos;ll answer all of your burning questions.
+Please bring your laptop and have the VMTurbo software installed on your device before attending the workshop.
+When: THIS WEEK, Friday, March 18th, 10am - 12pm
+Where: Razor Technology Conshohocken Office, 5 Tower Bridge, 300 Barr Harbor Dr., Suite 705 (7th Floor), West Conshohocken, PA 19428 
+Full workshop agenda available at the registration link above. Make sure you RSVP &lt;[[http://www.razor-tech.com/e1t/c/*W1wlPKZ863QWKW3l_hs84f6bKZ0/*N2V6xgN2p5hcW623fHy6GQ81P0/5/f18dQhb0S9r29hP6QKW91YLFv2YX2vdW83zszs76kn0GW73CP9_2zHMkcW6vp1yH4rHNDnW3VS6YY2HH7R2W2JlPLj4DZt7nW4Dj3mc3SQczKW41CGm-2zSxSRW3CsRrh4DdMgSW2B4WpW2HRxcnW3VKBCY5kcSJVW6vwHK55D0dr3W3SLYcb49JfBwW3C8bwH40d_NgW2GqmK84CMbx1W4PHGGg2y0YtcW2-J-SL2z_tPYW41Q2SW6gs7FKW3VKVtL6nGl8CN2PS9sYmmHhNW72-dWv7P1-wWN33FK-yqPkxDVnjZC84h_lCyV4h7Gf1jn4MbW8TZ3D12fLM9gVnJjdZ1gPhJFW7s-rnM3m__f3W1SLnGC2LwT4-N4f7-4bw5K5TW6VWQ6y6xj8V0W5nkfzZ2fR4PWW32tZ2x58XsbsW4BNQM75Nm0W_W6xd5K54jjZ0XW2p8_TT7-cq4hW3d0zvx4p7yDTW2zz8kG3GCq8fW8z-H_s3NGDbSW39sl3h52D2LlVCjYjP8rY3STN988n5GkVwBgW8Fr0B67SJlTyW5bZ6n24F-kbRW88Zdxh381L54MvHVkn1lgMPdgFmpq03]]&gt; on or before March 18th. Feel free to forward to tech evaluators within the org as well.
+Hope to see you there! 
+The Channel Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

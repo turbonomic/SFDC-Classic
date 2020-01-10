@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recruiting Organization</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recruiting Organizations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Recruiting Organization Safe ID --></label>
+        <name>Recruiting_Organization_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recruiting Territory Owner --></label>
+        <name>Recruiting_Territory_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

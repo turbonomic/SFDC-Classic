@@ -1,0 +1,6 @@
+Dear {!User.FirstName} 
+
+Your Opportunity Registration {!Opportunity.Name}, Opportunity ID {!Opportunity.Opportunity_ID__c} for {!Opportunity.Account}, Amount {!Opportunity.Amount} will expire in 10 days. If you wish to extend the opportunity registration please talk to your VMTurbo Representative.
+
+Kind Regards
+The VMTurbo Channel Team

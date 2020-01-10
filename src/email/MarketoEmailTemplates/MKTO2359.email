@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;">
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">Hi&nbsp;{{lead.First Name:default=Friend}},</span>
+</div> 
+<div> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">I hope this note finds you well! As you may have seen, Turbonomic is offering two VIP passes to the&nbsp;<strong>2017 World Championship Barbeque Cooking Contest in Memphis (valued at $1,190.00)</strong>. All it takes to be entered to win is filling out a brief survey and scheduling a quick 30-minute meeting with a Turbonomic engineer!</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;"><a href="https://www.surveymonkey.com/r/YQMY9QG?marketo_zs00ja7e8g=[marketo_zs00ja7e8g_value]&amp;marketo_6ailg567og=[marketo_6ailg567og_value]&amp;marketo_27kfq4j6cg=[marketo_27kfq4j6cg_value]" target="_blank" id="">One Grand Prize winner</a> will receive two VIP passes, including parking, to the event taking place May 17-20!</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">Simply fill out <a href="https://www.surveymonkey.com/r/YQMY9QG?marketo_zs00ja7e8g=[marketo_zs00ja7e8g_value]&amp;marketo_6ailg567og=[marketo_6ailg567og_value]&amp;marketo_27kfq4j6cg=[marketo_27kfq4j6cg_value]" target="_blank" id="">this brief survey</a> and we will be in contact shortly. Looking forward to speaking with you!</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">Best,</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">Chris</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><br /></p> 
+</div> 
+<div> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #1f497d;">Chris Boyd</span></strong></span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #1f497d;">Account Executive - TN<br /></span></strong><span style="color: #1f497d;">Office 857-305-4657 &nbsp;|&nbsp; Cell 901-502-1650</span></span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="color: #1f497d; font-size: 12px; font-family: arial, helvetica, sans-serif;"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/turbonomic-black%400.5x.png" alt="" width="100" height="31" constrain="true" imagepreview="false" border="" /></span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri;"><span style="color: #1f497d; font-size: 12px; font-family: arial, helvetica, sans-serif;"><a href="http://turbonomic.com/turbonomic/" style="color: #954f72;"><strong>VMTurbo is now Turbonomic</strong></a></span></p> 
+</div>
+</div>  
+</body>
+</html>

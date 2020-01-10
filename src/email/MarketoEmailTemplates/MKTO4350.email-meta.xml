@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-11-20 Customer Newsletter.ES-2018-11-20 Customer Newsletter</name>
+    <style>none</style>
+    <subject>Turbonomic Customer Newsletter</subject>
+    <textOnly>Platform and Partnership Updates
+While November marks the beginning of the wind down heading into the holidays, we’re not slowing down the innovation happening at Turbonomic. We know that you and your teams are living through an exciting and challenging time as the IT industry continues its rapid adoption of public cloud and increasing move toward running containers in production. As a result, engineers and operations teams everywhere are exploring and educating themselves on what’s next and how they can help their organizations get to where they want to be as quickly, accurately and responsibly as possible.
+
+We’re here to help you, every step of the way! For example, our engineering team has been hard at work extending our public cloud 
+capabilities, including new features, new platform integrations, and performance improvements (stay tuned for more detail). And, to ensure we deliver the best possible experience, these updates incorporate feedback received through our early access program – directly from customers like yourself, which is instrumental as we continue enhancing our award-winning platform. 
+
+If you’re heading to AWS re:Invent this month, please come see us in booth #413 to get a sneak peek of our early access release first hand!
+News and Customer Success
+Recently CRN named Turbonomic a 2018 CRN Tech Innovator Award winner, taking top honors in the IT Automation Software category. CRN’s annual awards honor standout software, services and hardware that are moving the IT industry forward. The crowning achievement of this year’s winners, according to CRN is: “The ability to help solution providers differentiate themselves and grow their businesses.” Winning the 2018 IT Automation Software category marks Turbonomic’s second consecutive appearance as a CRN Tech Innovator, recognized last year in the Enterprise Management Software category. 
+ 
+We are also excited to introduce Turbonomic&apos;s new Cloud Specialization and to work closely with top Microsoft Azure and AWS partners to deliver customers powerful technology and services to easily manage their workloads through all phases of their cloud journey! 
+ 
+ Watch our CEO &lt;[[https://resources.turbonomic.com/videos/thecube-ai-ops]]&gt;, Benjamin Nye, on theCUBE talking about the role of AIOps in leveraging the elasticity and agility of the cloud: &quot;You have to be smarter and more measured – this requires analytics and automated actions so that workloads pick the resources that are least congested on which to run.&quot;
+Events
+The Turbonomic team is coming to a city near you! Join us at an upcoming event in your area: 
+ 
+ 	- December 6 - Indianapolis &lt;[[https://turbonomic.com/vip-indy/]]&gt;
+ 	- December 13 - Calgary &lt;[[https://turbonomic.com/vip-calgary/]]&gt; 	- January 10 - Toronto &lt;[[https://turbonomic.com/vip-toronto/]]&gt; 
+ 
+ 
+  &lt;[[https://turbonomic.com/request-a-meeting-vmworld-2018/]]&gt;Don&apos;t see your city here? Contact events@turbonomic.com &lt;[[mailto:events@turbonomic.com]]&gt; for more information on Turbonomic events.
+
+©  Turbonomic, Inc. 
+ 
+ Contact Us &lt;[[https://turbonomic.com/company/contact-us/]]&gt;  |  Unsubscribe &lt;[[{{system.unsubscribeLink}}]]&gt;
+&lt;[[https://twitter.com/turbonomic]]&gt;     &lt;[[https://www.youtube.com/user/myVMTurboTV]]&gt;      &lt;[[https://www.linkedin.com/company/turbonomic/]]&gt;    &lt;[[https://www.facebook.com/turbonomic/]]&gt;    &lt;[[https://www.instagram.com/turbonomic/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

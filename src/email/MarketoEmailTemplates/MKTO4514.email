@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!-- Copyright (C) 2017 Perkuto Solutions Inc - All Rights Reserved. You may use and modify this code under the terms of the Perkuto Template license available here: http://perkuto.com/terms-and-conditions  -->
+<head> 
+<!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml><![endif]--> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta name="format-detection" content="telephone=no" /> 
+<title>Allegro</title> 
+<!-- Start Marketo Variable Definitions -->                                      
+<!-- Start Marketo Variable Definitions --> 
+<style type="text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; background-color:#e7e9e4; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; margin:0!important;padding:0!important;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+
+        body,
+        #body_style {background-color:#e7e9e4; width:100%; min-width:100%!important;}
+        
+        a[x-apple-data-detectors] {n
+        color: inherit !important;
+        text-decoration:none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+
+        #MainContainer a,
+        #MainContainer a:link,
+        #MainContainer a:visited,
+        #MainContainer a:active {color:#30a4dc; text-decoration:none;}
+        
+        #footer a,
+        #footer a:link,
+        #footer a:visited,
+        #footer a:active {color:#ffffff; text-decoration:none;}
+
+        @media only screen and (max-width:600px) {
+            body {min-width:100%!important;}
+            table.button {width:100%!important;}
+            p {padding-left:0; padding-right:0!important;}
+            table.hideTable {display:none!important;}
+            table.tableCollapse {width:100%!important;}
+            td.mobCenter {text-align:center!important;}
+            td.mobCenter2 {text-align:center!important; padding-right:25px!important;}
+            tr.hideTr {display:none!important;}
+            td.w25 {width:25px!important;}
+            img.w100 {width:100%!important; height:auto!important;}
+        }
+    </style> 
+<!--[if mso]>
+    <style>
+    * {
+      font-family: Helvetica, Arial, sans-serif!important;
+    }
+    </style>
+    <![endif]--> 
+<!--[if !mso]><!--> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" /> 
+<!--<![endif]--> 
+</head> 
+<body bgcolor="#e7e9e4"> 
+<div id="body_style" style="background-color:#e7e9e4;"> 
+<table width="100%" bgcolor="#e7e9e4" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" width="600" class="tableCollapse" align="center" style="margin:0px auto; width:600px;"> 
+<tbody> 
+<tr> 
+<td class="mktoContainer" id="MainContainer" bgcolor="#ffffff" align="center" valign="top">
+<table bgcolor="#e7e9e4" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse hideTable" id="BGSpacerModule" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="HeroBannerModule" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td valign="top" style="line-height:1px;"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left" style="line-height:1px;"> 
+<div style="display:inline-block" class="mktoImg" id="HeroBanner" mktolockimgsize="false" mktolockimgstyle="false"> 
+<img class="w100" width="600" border="0" src="http://go.Turbonomic.com/rs/303-ZIH-630/images/PAB Email Header v2.png" style="width:600px; height:auto!important; display:inline-block; -ms-interpolation-mode: bicubic; border:none; outline: none; text-decoration:none; vertical-align:middle;" height="200" /> 
+</div> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBg4e5196be-d962-4251-a576-2d656f7077bf" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBG4e5196be-d962-4251-a576-2d656f7077bf" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div></div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule039f7910a7-e8ae-4c82-a1ca-c70c46e0435a5a85ac15-49b1-45d5-9136-38d4fef95954" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="1" style="height:1px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleBG" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextBG1" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div></div> 
+<div></div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule06be6f8aec-7ed2-4e25-b658-13c4e113ae69" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="1" style="height:1px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBge005976a-ef59-4784-bd94-b0c5d22814ab0f510b6a-064f-41a1-8f0e-4f2d6e59c9cc" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBGe005976a-ef59-4784-bd94-b0c5d22814ab0f510b6a-064f-41a1-8f0e-4f2d6e59c9cc" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div>
+ Good Afternoon Patrick Allison, 
+<br /> 
+<br />I’d like to start by thanking you for your partnership, commitment, and support. Our partner ecosystem and strategy have evolved greatly over the last 12 months and we couldn’t have done it without partners like you. I’m extremely excited to announce that we are launching a Turbonomic Partner Advisory Board (PAB) this year. As one of our most trusted partners, I would like to extend this exclusive invite for you to join this community of leaders. This Senior Executive level advisory group will be a crucial part of our company and will provide input to Turbonomic in areas of overall strategy, product roadmap and innovation, marketing, programs, and all aspects of go to market. In addition, we will focus on driving thought leadership to include industry experts focused on current market trends that will help shape our joint business. 
+<br /> 
+<br />Our team will be sharing additional details regarding the board and event over the coming weeks, but I wanted to get the dates locked in on your calendar and confirm your participation on the board now to ensure everyone’s opportunity to plan accordingly. 
+<br /> 
+<br />Please let me know if we can expect you to join us in Miami. 
+<br /> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div> 
+<table width="200" height="50" style="background-color: #2c9427; text-align: center; margin-left: auto; margin-right: auto;"> 
+<tbody> 
+<tr> 
+<td style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; border: 1px dashed #bbbbbb;"><span style="font-size: 20px;"><strong><span style="color: #ffffff; font-family: helvetica, arial, sans-serif;"><a href="https://turbonomic.com/pab" style="text-decoration: none; color: #ffffff;" target="_blank">Register Now</a></span></strong></span></td> 
+</tr> 
+</tbody> 
+</table> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div>
+ If you have any questions or concerns, please let me know as soon as possible. 
+<br /> 
+<br />Thank you again and I look forward to seeing you! 
+<br /> 
+<br />Chris 
+</div> 
+<div> 
+<span style="font-size: 12px;">Senior Vice President, Global Channel &amp; Alliances</span> 
+<br /> 
+<span style="font-size: 12px;">Boston, MA USA</span> 
+<br /> 
+<span style="font-size: 12px;"><a href="mailto:Chris.Sullivan@turbonomic.com" target="_blank" id="" style="color: #2c9427; text-decoration: none;">Chris.Sullivan@turbonomic.com</a></span> 
+<br /> 
+<span style="font-size: 12px;">M: +1 978-337-8154</span> 
+<br /> 
+</div> </td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule052e5ee2ab-16ad-4d57-b94c-ccd4e5fbb37088377425-7311-4486-9631-67dad1ab6b0987705fd0-f4b5-488b-ae29-a1bbdc27e420" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="1" style="height:1px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule01" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule01" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule02" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="StayConnected" style="text-align:center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; font-weight:lighter;"><p><img src="http://go.turbonomic.com/rs/303-ZIH-630/images/turbonomic-customer-newsletter-logo.png" alt="" width="132" height="44" constrain="true" imagepreview="false" border="" /><br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule05" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule06" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="Footer" style="text-align:center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size:12px; color:#ffffff; line-height:18px;"> 
+<div>
+ ©&nbsp; Turbonomic, Inc. 
+</div> 
+<div> 
+<a href="https://turbonomic.com/company/contact-us/" target="_blank" style="color: #2c9427; text-decoration: none;">Contact Us</a>&nbsp; 
+<span style="color: #2c9427;">|</span>&nbsp; 
+<span style="text-decoration: none;"><a href="{{system.unsubscribeLink}}" target="_blank" style="color: #2c9427; text-decoration: none;">Unsubscribe</a> </span> 
+</div></td> 
+<td width="25" style="font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule04" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="SocialIcons" style="text-align:center; line-height:1px;"> 
+<div> 
+<a target="_blank" href="https://twitter.com/turbonomic"> <img width="24" height="24" border="0" alt="Twitter" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-twitter.png" /></a>&nbsp; &nbsp; 
+<a target="_blank" href="https://www.youtube.com/user/myVMTurboTV"><img width="24" height="24" border="0" alt="Youtube" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-youtube.png" /></a>&nbsp; &nbsp;&nbsp; 
+<a target="_blank" href="https://www.linkedin.com/company/turbonomic/"><img width="24" height="24" border="0" alt="LinkedIn" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-linkedin.png" /></a>&nbsp;&nbsp; 
+<a target="_blank" href="https://www.facebook.com/turbonomic/"><img width="24" height="24" border="0" alt="Facebook" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-facebook.png" /></a>&nbsp;&nbsp; 
+<a target="_blank" href="https://www.instagram.com/turbonomic/"><img width="24" height="24" border="0" alt="Instagram" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-instagram.png" /><strong></strong></a> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> r 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule07" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#e7e9e4" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse hideTable" id="BGSpacerModule2" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td valign="top"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table> 
+</div>  
+</body>
+</html>

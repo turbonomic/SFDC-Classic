@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Geo Group</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Geo Groups</value>
+    </caseValues>
+    <fields>
+        <label><!-- Number of Members --></label>
+        <name>Number_of_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Velocity Areas --></label>
+        <name>Velocity_Areas__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation><!-- Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation><!-- East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

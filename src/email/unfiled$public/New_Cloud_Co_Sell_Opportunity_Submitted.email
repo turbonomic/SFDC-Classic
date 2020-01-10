@@ -1,0 +1,11 @@
+*** NEW CLOUD CO-SELL OPPORTUNITY IDENTIFIED ***
+
+Opportunity Name: {!Opportunity.Name}
+Cloud Provider: {!Opportunity.Cloud_Co_Sell_Submission__c}
+Account Name: {!Opportunity.Account}
+Account Owner: {!Opportunity.Account_Owner__c}
+Territory Owner: {!Opportunity.Territory_Owner__c}
+
+Created By: {!Opportunity.CreatedBy}
+
+Opportunity link: {!Opportunity.Link}

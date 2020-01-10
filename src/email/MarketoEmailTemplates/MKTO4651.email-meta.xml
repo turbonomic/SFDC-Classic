@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AWS_Cold_Nurture.AWS_Cold_Nurture_Email_3</name>
+    <style>none</style>
+    <subject>Leverage the elasticity of the public cloud.</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/turbonomic-and-aws/cost-optimization-with-aws?utm_campaign=70157000001bYQKAA2]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Are you in the process of migrating to the cloud? Or, have you already migrated but wonder how you&apos;ll minimize cost and assure performance in the long-term, now that your migration is complete? Wherever you are in your cloud journey, Turbonomic can help.
+
+
+
+Check out our Cost Optimization with AWS whitepaper &lt;[[https://resources.turbonomic.com/turbonomic-and-aws/cost-optimization-with-aws?utm_campaign=70157000001bYQKAA2]]&gt; which explores how you can most effectively execute your migration to AWS and optimize your cloud strategy post-migration.
+
+
+ &lt;[[https://resources.turbonomic.com/turbonomic-and-aws/cost-optimization-with-aws?utm_campaign=70157000001bYQKAA2]]&gt;
+
+
+Turbonomic&apos;s autonomic decision-engine is the only platform where self-managed applications assure their performance autonomously through software and by software with minimal human intervention.
+
+
+Take a closer look. Download a free trial today. &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial?utm_campaign=70157000001bYQKAA2]]&gt;
+
+
+Best,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

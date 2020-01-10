@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer Tip April.GC Live Invite</name>
+    <style>none</style>
+    <subject>Live Green Circle OpenStack Discussion</subject>
+    <textOnly>&lt;https://plus.google.com/events/cpbr6tamqmf9f40f21q3pchl5sk&gt;
+Hey {{Lead.First Name}},
+Over the past 6-months the Green Circle community has been an amazing resource for VMT pros and beginners alike (If you haven&apos;t registered make sure you do so here &lt;https://greencircle.vmturbo.com/welcome&gt;).
+Now its time to step it up a bit though, which is why we&apos;re taking it live! Thats right, join Trevor Roberts Jr., Craig Tracey, and Eric Wright in a live round table discussion on Tuesday April 20th &lt;https://plus.google.com/events/cpbr6tamqmf9f40f21q3pchl5sk&gt;  as they discuss all things OpenStack. This will include the activity heading into the Kilo release, and the upcoming OpenStack Summit in Vancouver.
+This is your chance to get involved and ask the experts any questions you may have surrounding OpenStack in a live discussion, so don&apos;t miss out!
+ &lt;https://plus.google.com/events/cpbr6tamqmf9f40f21q3pchl5sk&gt;
+Best,
+Your Dedicated Customer Experience Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

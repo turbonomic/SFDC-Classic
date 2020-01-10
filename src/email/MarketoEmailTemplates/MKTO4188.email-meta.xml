@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-9-14_NonMQL_Exec_Analysts.ES-2018-9-14_NonMQL_Exec_Analysts</name>
+    <style>none</style>
+    <subject>How to Deliver Greater Innovation at a Lower Cost</subject>
+    <textOnly>&lt;[[turbonomic.com/request-a-demo]]&gt;
+Hi {{lead.First Name:default=there}},
+
+I’ve been speaking with IT Leaders like you about the ways they are migrating their on-premise workloads to AWS &amp; Azure while consolidating their on-premises footprint.  What has become clear is this problem is beyond human scale.
+
+Turbonomic&apos;s Workload Automation solution for Hybrid Cloud enables our 2000+ customers to reduce the cost, risk, and complexity associated with the migration and consolidation. 
+
+Our agnostic platform (supports VMware, AWS, Azure, etc.) provides ongoing optimization both on-premise and once workloads are in the cloud to ensure you’re only paying for what you consume.
+
+For a bit more context, please see the resources below:
+
+
+	- Migrate to Microsoft Azure in 7 Days with Turbonomic &lt;[[https://resources.turbonomic.com/turbonomic-for-azure-migrations/7-days-to-azure]]&gt;
+	- AWS or Azure? How Turbonomic Enables Data-Driven Decisions &lt;[[https://resources.turbonomic.com/turbonomic-and-aws/which-cloud-webinar-v-1]]&gt;
+	- The Forrester Wave TM: Cloud Cost Monitoring and Optimization, Q2 2018 &lt;[[https://resources.turbonomic.com/analyst-reports/turbonomic-boosts-ri-support]]&gt;
+
+
+
+I hope you find this information helpful as you continue your cloud migration journey.
+
+- Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>07_17_2014 turboticker CCL.Ticker_use</name>
+    <style>none</style>
+    <subject>Join The Green Circle Community | Win Tix to VMworld | turboticker July 2014</subject>
+    <textOnly>VMTurbo Turboticker | July 2014
+VMTurbo Proudly Presents The Green Circle Community
+Join Today for a Chance to Go to VMworld US 2014: &lt;http://bit.ly/W4RulZ&gt;
+Free Whitepaper: Bridging the IT Ops-App Owner Gap &lt;http://bit.ly/1nfMb8u&gt;
+
+Will IT Operations and Application Owners ever see eye-to-eye? IT Ops are continually pressured to deliver resources to the business better-faster-cheaper, but how is this possible amid a burgeoning application universe? Learn how by downloading the free whitepaper today.
+ Read Now... &lt;http://bit.ly/1nfMb8u&gt;
+Monitoring vs. Management vs. Control
+
+The dawn of SDN and release of VMware NSX, now more than ever, underlines the need for unified control across the IT stack. Each virtualization wave has introduced its own suite of discrete monitoring and management capabilities. Complexity is beyond human scale. Learn about Control.
+Read More... &lt;http://bit.ly/1oOzCVY&gt;
+VMTurbo VMworld Sweepstakes Results
+
+Every Friday in June, VMTurbo gave away two full conference passes to VMworld, to take place August 24-28th in San Francisco. Watch the final drawing here, and check us out at Booth #405!
+ Watch Drawing... &lt;http://bit.ly/1uKh6At&gt;
+In the time of greatest despair, a child shall be born who will destroy break-fix  management and restore order to the IT Galaxy.
+&lt;http://www.facebook.com/vmturbo1&gt;
+ &lt;http://www.twitter.com/vmturbo&gt;
+ &lt;http://www.linkedin.com/company/248491&gt;
+no 234 street name. city name,country name  Tel:01 234567890
+
+contacts &lt;#&gt; | website &lt;#&gt; | privacy policy &lt;#&gt; | forward &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

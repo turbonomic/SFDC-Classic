@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMworld VIP Cocktail Party.Sorry to miss you email</name>
+    <style>none</style>
+    <subject>Sorry to be Missing You at the VMTurbo Cocktail Reception</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+ 
+We’re sorry to be missing you at the VMTurbo VIP Customer Cocktail Reception, but we do understand how busy these events can be.
+ 
+Please drop by our booth, #611, and say hi. In advance of VMWare, download your free ParadisePack &lt;http://bit.ly/13GZHZ9&gt;, where you’ll learn more about how VMTurbo helps you gain control of your virtual datacenter so that you can relax and focus on other important aspects of your job.
+ 
+Sincerely,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

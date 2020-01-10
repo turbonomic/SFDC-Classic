@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>02_10_2015 5.1 Webinar #1.02_10_15 Email #1</name>
+    <style>none</style>
+    <subject>Win A Home Lab With Demand-Driven Control For The App World | VMTurbo 5.1</subject>
+    <textOnly>&lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt;
+Introducing Demand-Driven Control From The App To The Metal
+Join The VMTurbo 5.1 Release Webinar For A Chance To Win A Home Lab!
+&lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt;
+Now, Run-Time Application Demand Meets Real-Time Infrastructure Supply
+Worried about QoS for your Java® Apps? Stop living in the past; live in the now. The Application Control Module &lt;http://www.vmturbo.com/demand-driven-control-for-apps/vmturbo-application-control-module?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt; will autoscale up or out based on real-time application demand, allowing you to assure application performance without over provisioning.
+What about self-service scaling? Covered. VMTurbo&apos;s Private Cloud Control &lt;http://www.vmturbo.com/demand-driven-control-for-apps/vmturbo-private-cloud-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt; provides your users with self-service scaling without sacrificing application performance.
+I/O intensive apps forcing you to overprovision? Not anymore. The Storage Control Module &lt;http://www.vmturbo.com/demand-driven-control-for-apps/vmturbo-storage-control-module?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt; - now integrated with HP 3PAR and Pure Storage ensures your most demanding apps get the resources they need while maximizing the efficient use of your storage infrastructure, preventing over provisioning.
+Ready to learn more? Join us for our webinar February, 19th at 1:30 PM EST, where will be giving away a Free Turbostack Home Lab valued at USD $1,600!
+Register Now! &lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt;
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt;
+Downloads
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt;
+White Papers
+&lt;https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021015&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

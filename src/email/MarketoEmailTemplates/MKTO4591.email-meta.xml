@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email from Steve.Email from Steve final</name>
+    <style>none</style>
+    <subject>Thank you!</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+I wanted to personally thank you for being a loyal Turbonomic customer, and for the time your team has put into making this partnership a success. They have gone above and beyond, and are dedicated to making digital transformation a reality at your company. 
+ 
+With the latest release of Turbonomic, you and 20% of the Fortune 500 are able to map the application down to all individual components of your data center, making your infrastructure completely application-aware. There’s still so much we can accomplish together, and I’d like to schedule some time with you over the coming weeks to discuss your goals for the coming year and how Turbonomic can assist you with exceeding those goals!
+ 
+Please respond directly to this email with a few times you are available and I’ll send a calendar hold. 
+ 
+Thank you again for our partnership, we are committed to your success. Looking forward to speaking with you in the next few weeks! 
+ 
+
+
+Sincerely, 
+
+Steve
+
+
+General Manager and Vice President
+Commercial Sales, Americas
+Email: steve@turbonomic.com &lt;[[mailto:steve@turbonomic.com]]&gt;
+ &lt;[[mailto:steve@turbonomic.com]]&gt;Cell: 774-273-0056
+Office: 781-418-5232
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+ contact us &lt;[[http://go.vmturbo.com/contact-us.html?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker]]&gt; | website &lt;[[http://www.turbonomic.com?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker]]&gt; | privacy policy &lt;[[http://www.turbonomic.com/privacy-policy?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

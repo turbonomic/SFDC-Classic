@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Opportunity has been edited</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Opp ea 1.1 - Opportunity Changes</name>
+    <style>none</style>
+    <subject>{!Opportunity.Info_for_Email_Subject__c} Opportunity {!Opportunity.Name} has been updated/added</subject>
+    <textOnly>The opportunity {!Opportunity.Name} for account {!Opportunity.Account} has been updated/added.
+
+Changes (blanks indicate no change):
+
+Prior Stage: {!Opportunity.Prior_Stage__c}
+Current Stage: {!Opportunity.StageName}
+Prior Amount: {!Opportunity.Prior_Amount__c}
+Current Amount: {!Opportunity.Amount}
+Prior Close Date: {!Opportunity.Prior_Close_Date__c}
+Current Close Date: {!Opportunity.CloseDate}
+Opportunity Score: {!Opportunity.VMT_Opportunity_Score__c}
+
+Type: {!Opportunity.Type}
+Probability: {!Opportunity.00ND0000005TTrF}
+Forecast Opportunity: {!Opportunity.Forecast_Opportunity_2__c}
+Forecast Amount: {!Opportunity.Forecasted_Bookings__c}
+Owner: {!Opportunity.OwnerFullName}
+Owner Team: {!Opportunity.Owner_Team__c}
+State/Country: {!Account.StateCountry__c}
+Identified By (Role): {!Opportunity.Identified_By__c} ({!Opportunity.Identified_By_Role_Static__c})
+Lead Source: {!Opportunity.LeadSource}
+Primary Campaign Source: {!Opportunity.Primary_Campaign_Source_Name__c}
+First Demo Date: {!Opportunity.First_Demo_Date__c}
+Eval Start Date: {!Opportunity.Eval_Start_Date__c}
+Partner: {!Opportunity.Partner_Account__c}
+Lost Reason: {!Opportunity.Lost_Reason__c}
+Lost Reason Detail: {!Opportunity.Lost_Reason_Detail__c}
+
+To view the full record follow: https://eu4.salesforce.com/{!Opportunity.Id}
+
+- [Opp wfr/ea 1.1] -</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

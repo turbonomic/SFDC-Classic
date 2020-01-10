@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_2014 Virtual VMUG Follow Up.Email</name>
+    <style>none</style>
+    <subject>Virtual VMUG Follow Up</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+Thanks for taking the time to stop by and chat with us at the Virtual VMUG User Group online event. As a follow-up to the event, we&apos;ve linked below a few of the many resources designed to dive deeper into the ways VMTurbo will dramatically improve how you control and automate your virtual data center.
+
+- Trial Download &lt;http://bit.ly/1doILvj&gt; check out VMTurbo in your environment, absolutely free
+- Whitepaper &lt;http://bit.ly/Kylm3B&gt; on optimizing workload configurations in your virtual environment
+
+We will be following up with you shortly to understand your priorities and interest in learning more about VMTurbo.
+
+
+Sincerely,
+ VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

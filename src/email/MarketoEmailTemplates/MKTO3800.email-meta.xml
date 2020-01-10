@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-06-20-Cisco-UCS-Demo.2018-06-15-Cisco-UCS-Demo Invite 1b (Cisco Live Vi</name>
+    <style>none</style>
+    <subject>Will you join us next Wednesday?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/webinar-cisco-ucs-demo/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+It was great seeing you this week at Cisco Live!
+
+
+As a follow-up to our introduction, we&apos;d like to invite you to join us for a live webinar featuring Turbonomic automated control and optimization of a Cisco UCS environment. With the powerful combination of Turbonomic and Cisco UCS, we further extend the full stack capabilities of workload automation in your data center. 
+
+
+ &lt;[[https://turbonomic.com/resources/webinar-cisco-ucs-demo/]]&gt;
+
+
+In this 30-minute live demo, Director of Technical Marketing and Technology Evangelist, Eric Wright will showcase the complete understanding and control – extending from the physical to the virtual layers of the stack – that Turbonomic brings to a Cisco UCS environment. 
+ 
+We hope to see you there!
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

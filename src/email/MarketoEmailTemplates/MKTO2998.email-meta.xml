@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2017-4-18-Live Demo Series UK.Promotion #2</name>
+    <style>none</style>
+    <subject>Win a Raspberry Pi: Data Centre Agility Webinar</subject>
+    <textOnly>Turbonomic has launched a series where we will discuss how to autonomically deliver performance to your business and customers. Each webinar will cover how we fit into specific scenarios and provide you with the tools to address industry challenges.
+Our second topic is Breaking Barriers: Architecting Your Environment for Greater Agility to be held on Tuesday, April 18 at 12 PM GMT and Thursday, April 20 at 4 PM GMT.
+This session will dive into how you can optimise your environment and minimise latency through infrastructure design.
+
+
+ &lt;[[https://turbonomic.com/resources/operations-manager-live-demo-series/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

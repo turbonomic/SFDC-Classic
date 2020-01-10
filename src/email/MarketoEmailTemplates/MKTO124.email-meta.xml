@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ovum webinar follow up.Sorry we have missed you</name>
+    <style>none</style>
+    <subject>Overcoming Key Challenges in Operating Cloud Environments Webinar</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+We were sorry to have missed you at VMTurbo’s webinar on January 22nd.  But, hey, things come up, right? The good news is that we are glad to provide you with a recorded version of the event. &lt;http://bit.ly/SLIFcx&gt;
+
+Principal analyst Roy Illsley from Ovum provided insights into the transformation going on as organizations embrace the cloud to deliver IT services. Kevin Van Mondfrans from hosting provider Layered Tech related his organization’s experiences in building and managing their cloud data center.
+
+Layered Tech’s challenges are not unique.  Other cloud service providers and IT at corporate enterprises share similar sentiments to Kevin’s. That’s why VMTurbo believes there is an opportunity to rethink the approach to IT operations management.
+
+VMTurbo provides the control system that ensures applications have the resources required to meet business demands at the lowest operational and capital costs. Unlike monitoring &amp; reporting tools, VMTurbo Operations Manager automates decision-making, prescribing actions to assure performance while maximizing resource utilization. Try it for yourself &lt;http://go.vmturbo.com/cloud-edition-download.html?source=Email&gt;.
+
+We look forward to seeing you at one of our upcoming events again soon.
+
+Sincerely,
+
+Lauren Whitehouse, Director of Product Marketing</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

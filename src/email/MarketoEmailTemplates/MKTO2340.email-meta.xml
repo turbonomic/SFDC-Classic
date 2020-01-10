@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-04-07-SEC Commercial Cloud Readiness.Send_</name>
+    <style>none</style>
+    <subject>{{lead.First Name}}, $25 Amazon for 5 Minute Cloud Readiness Survey?</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+
+Turbonomic is in the midst of a remarkable transformation, as more and more of our customers are adopting public cloud at a significantly faster pace than pundits predicted.
+
+
+
+I invite and ask that you please take our 5-Minute Cloud Readiness Survey &lt;[[https://www.surveymonkey.com/r/cloud-readiness-commercial-direct]]&gt; in exchange for a $25 Amazon.com gift card, no strings attached. We are simply trying to get a pulse on the market.
+
+
+If you so choose, you may opt-in at the end of the survey for an additional $100 Amazon.com gift card to consult with a Turbonomic engineer and learn about our cloud offerings and how we can help you bridge from on-premises private data center management to the cloud. Thank you in advance for your time.
+
+
+
+
+ &lt;[[https://www.surveymonkey.com/r/cloud-readiness-commercial-direct]]&gt;
+Yours sincerely,
+Chris Graham</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

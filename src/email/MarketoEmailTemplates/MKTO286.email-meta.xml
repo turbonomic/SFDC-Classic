@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMware Online Forum invite - Group A.Invitation</name>
+    <style>none</style>
+    <subject>Fast and Free Download Kit- Proactive Control for Your Virtual Datacenter</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Check out this free download kit &lt;http://bit.ly/16xSxdh&gt;, which contains the essentials for learning about a new approach to managing your virtual infrastructure that will allow you to:
+
+
+ - Save 30% in capital and operating expense while eliminating the chaos around virtualization management
+ - Quickly and proactively evaluate the always-changing needs of your virtual datacenter
+ - Take immediate action to keep your applications and workloads in the ideal state
+ - Chill out with the peace of mind that your workloads are being managed efficiently and your virtual data center is under control
+
+ 
+
+Best Regards,
+
+VMTurbo Team
+Headed to VMware Online Forum &lt;http://bit.ly/16kJYVR&gt;? Stop by our virtual booth and chat with us.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

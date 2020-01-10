@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>05_19_2014 TechEd Follow up.Email</name>
+    <style>none</style>
+    <subject>We Met At TechEd. You Were Awesome.</subject>
+    <textOnly>Software-Driven Control for the Software-Defined World
+{{lead.first name:default=}},
+Thanks for introducing yourself at TechEd 2014. If you missed VMTurbo&apos;s live demo of ESX-to-Azure workload migration, you can watch the recording here &lt;http://www.vmturbo.com/vmturbo-to-demo-one-click-vsphere-esx-vm-to-azure-migration-at-teched/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=teched&gt;.
+
+VMTurbo is revolutionizing virtualization management with end-to-end Software-Driven Control. If you liked what you saw at TechEd, we hope you&apos;ll take VMTurbo Operations Manager into your environment, free for 30 days.
+
+Call us for a Demo, and ask for a VMT-Shirt. It will be your proof that you were on the vanguard.
+Learn More &lt;http://go.vmturbo.com/cloud-edition-download.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=teched&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

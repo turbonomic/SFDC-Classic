@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New VHM - Case Study Offer</name>
+    <style>none</style>
+    <subject>Canon USA Fully Automates With VMTurbo</subject>
+    <textOnly>Hi {{lead.First Name:default=Sir/Madam}},
+
+
+
+There are many case studies out there, but every once in a great while, a case study is written that changes the face of case study history. This is that case study.
+
+&quot;VMTurbo allowed us to completely automate our vMotions and storage vMotions&quot;
+
+This case study shows just how VMTurbo will maximize performance and utilization in your datacenter just as it does for Canon® U.S.A.
+
+As Data Center Operations Manager, Sean Hendershot, explains, Canon® was able to safely accommodate 108% YoY workload growth levering VMTurbo&apos;s out-of-the-box decision automation. Read now to learn the whole story.
+ &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/11/VMTurbo-Canon-USA-Success-Story-FINAL1.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vhm_love&amp;utm_content=cs_offer&gt;
+
+Best,
+TheVMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

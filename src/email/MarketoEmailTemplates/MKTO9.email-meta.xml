@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Product-Nurture1.Email</name>
+    <style>none</style>
+    <subject>Get the most out of your VMTurbo trial</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Have you had a chance to install your VMTurbo Operations Manager trial software appliance?
+Are you wondering what you should do next?
+
+Well, there’s good news! We’ve built out an Evaluation Resource Center &lt;http://www.vmturbo.com/resources/evaluation-resource-center/&gt;  &lt;http://www.vmturbo.com/product/evaluation-resource-center/&gt;to guide you through the process and, of course, you can always reach support &lt;http://support.vmturbo.com/home&gt; for assistance.
+
+Here are the top 7 things you can do to get the most out of your VMTurbo evaluation:
+
+
+ - Check out the Test Drive Tips &lt;http://www.vmturbo.com/eval-tips/&gt; 
+ - Familiarize yourself with the resources in the Evaluation Resource Center &lt;http://www.vmturbo.com/resources/evaluation-resource-center/&gt;
+ - Let us guide your evaluation in a phased approach with instructive evaluation tutorials  &lt;http://www.vmturbo.com/eval-tutorials/&gt;
+ - Learn more about VMTurbo’s Economic Scheduling Engine by watching a short video &lt;http://www.vmturbo.com/esevideo/&gt;
+ - Schedule a demo &lt;http://go.vmturbo.com/request-a-demo.html&gt; with a support engineer who can review metrics and analyze the setup of your virtual environment in real time; answer questions and troubleshoot technical issues; and demonstrate and provide tips on how to use VMTurbo effectively
+ -  Contact support &lt;http://support.vmturbo.com/home&gt; if you run into a problem or have a question
+
+
+
+I will continue to check in throughout the evaluation period to make sure you get the most out of your VMTurbo trial. I look forward to working with you.
+
+
+Thank you,
+
+{{lead.Lead Owner First Name:default=edit me}} {{lead.Lead Owner Last Name:default=edit me}}
+
+phone: {{lead.Lead Owner Phone Number:default=edit me}}
+
+email: {{lead.Lead Owner Email Address:default=edit me}}
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Product-Nurture13.Email</name>
+    <style>none</style>
+    <subject>VMTurbo Trial: Let us take the wheel</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+
+While we all like to be behind the wheel making decisions on where to go and what to do, sometimes it’s nice to just let go and let someone else be in control. VMTurbo enables a new approach—giving IT control by automating decision-making across the virtual data center. VMTurbo Operations Manager identifies and executes a set of actions to maintain the virtual environment in an optimal state. The result? You are relieved of reactive, fire-fighting activities and have more time to devote to expanding your virtualization and cloud initiatives.
+
+At this point in your evaluation of VMTurbo Operations Manager, you’re likely ready to configure automation policies, workload priorities, and other settings to let VMTurbo take the wheel.  You may want to familiarize yourself with what’s involved by watching a demonstration on Maintaining OOZ &lt;http://www.vmturbo.com/eval-tutorial-control/&gt;. You can also schedule a demo &lt;http://go.vmturbo.com/request-a-demo.html&gt; with a support engineer, who can walk you through the process.  For other resources, visit the VMTurbo Evaluation Resource Center &lt;http://www.vmturbo.com/resources/evaluation-resource-center/&gt;. 
+
+Let us know if you need any assistance by contacting support &lt;http://support.vmturbo.com/home&gt; … or me.
+
+Thank you,
+
+{{lead.Lead Owner First Name:default=VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}
+phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

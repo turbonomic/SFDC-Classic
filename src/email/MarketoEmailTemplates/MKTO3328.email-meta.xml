@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-11-09-Phoenix-Tom Murphy</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-11-09-Phoenix ESB-Tom Murphy Email.EM-2017-11-09-Phoenix-Tom Murphy</name>
+    <style>none</style>
+    <subject>You&apos;re Invited - IT Executive Dinner - November 14th</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+I wanted to extend a final invitation to you for small private networking dinner &lt;[[https://turbonomic.com/learn-phoenix/]]&gt; for IT executives in the greater Phoenix area. I will be hosting this event with Cisco next Tuesday, November 14th, at Mastro&apos;s City Hall Steakhouse. This will be a great opportunity to meet with peers, share challenges and discuss the hybrid cloud heading into the new year. I hope you can join us.
+
+
+
+	- Turbonomic Executive Networking Dinner - Phoenix &lt;[[https://turbonomic.com/learn-phoenix/]]&gt;
+
+	- Tuesday, November 14 at 7:00 p.m.
+
+	- Mastro&apos;s City Hall Steakhouse
+
+
+
+
+
+Our hosts: 
+
+
+
+	- Tom Murphy &lt;[[https://www.linkedin.com/in/tomjmurphy/]]&gt; (CMO Turbonomic)
+
+	- Judi Feeley &lt;[[https://www.linkedin.com/in/jfeeley/]]&gt; (Regional Vice President - West)
+
+
+
+
+
+Please sign up here &lt;[[https://turbonomic.com/learn-phoenix/]]&gt; or let me know if you can make it. We would love to have you join the conversation.
+
+Yours Sincerely,
+
+Tom Murphy
+
+Tom Murphy
+Chief Marketing Officer
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

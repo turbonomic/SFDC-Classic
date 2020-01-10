@@ -1,0 +1,3 @@
+Registration {!VartopiaDRS__Registration__c.Name} is now expired.
+
+Here is the registration: {!VartopiaDRS__Registration__c.Link}

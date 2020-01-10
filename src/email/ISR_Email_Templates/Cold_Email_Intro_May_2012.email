@@ -1,0 +1,16 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+I was asked to follow up with your company regarding VMTurbo. Please let me know if you're open for a quick phone call to discuss how you're taking advantage of server virtualization and deploying cloud services.<br/ ><br/ >
+
+If you're unfamiliar with our technology, it's a workload management platform that significantly reduces costs associated with the deployment and ongoing management of a virtual / cloud infrastructure. VMTurbo automatically drives and continuously maintains an optimal operating zone that guarantees end user experience while utilizing physical resources most efficiently. This includes an unparalleled simulation engine for planning infrastructure refresh, P-to-V, and V-to-V migration projects. The system installs within minutes as a small vm  and requires no database access, complex configuration, or professional services. <br/ ><br/ >
+
+I've included a couple of links below, the first is a short clip providing a high level overview of VMTurbo, the second is a blog by a leading analyst discussing our product:<br/ ><br/ >
+
+<a href="http://www.vmturbo.com/vmtvideo">Why VMTurbo Exists</a><br/ >
+<a href="http://www.virtualizationpractice.com/news-vmturbo-delivers-first-application-aware-service-assurance-solution-14436/">The Virtualization Practice<a/><br/ ><br/ >
+
+Best,<br/ >
+{!User.FirstName} {!User.LastName}<br/ >
+Consultant<br/ >
+{!User.Phone} <br/ >
+<a href="http://www.vmturbo.com/cloud-edition-download">Download a Free Trial</a>

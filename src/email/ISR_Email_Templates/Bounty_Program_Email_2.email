@@ -1,0 +1,12 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+I enjoyed talking with you today and look forward to our upcoming meeting. I’m excited to demonstrate how VMTurbo can save you time and expense by ensuring workload performance while maximizing resource utilization in your unique IT environment, much like we do for <a href="http://www.vmturbo.com/who-uses-us/customer-success-stories/"> these companies</a>.<br /><br />
+
+Meanwhile, check out this <a href="http://go.vmturbo.com/wp-applying-an-economic-model-to-it-management-download.html">white paper</a> which dives into the intelligence that makes us unique. We’ll talk more about that in our meeting.<br /><br />
+
+Very Best Regards,<br /><br />
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}<br /><br />
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br />
+<a href="http://www.vmturbo.com/esevideo">How does VMTurbo work?</a>

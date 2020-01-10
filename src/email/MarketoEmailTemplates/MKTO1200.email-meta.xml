@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Welcome Email.Welcome Email</name>
+    <style>none</style>
+    <subject>Welcome to VMTurbo, {{lead.First Name:default=VMT Hero}}!</subject>
+    <textOnly>Welcome To VMTurbo!
+Dear {{lead.First Name:default=VMT Hero}},
+Congratulations on your purchase of VMTurbo Operations Manager! To get you started we first want to let you know of all the resources available to you as you begin your journey with VMTurbo. 
+First things first, register yourself on our customer support website &lt;https://support.vmturbo.com/registration&gt; so you have access to all of our knowledge content as well as access to contact technical support for assistance.
+Getting Started
+1.  If you have VMTurbo Operations Manager already installed, it is recommended that you are running the latest version of VMTurbo Operations Manager. For more information on how to determine your version and your update options please click here &lt;https://support.vmturbo.com/hc/en-us/articles/200681386&gt;. 
+2.  Once your Operations Manager instance has been successfully updated, simply copy the license key text from start to finish and paste it into the &quot;License Configuration&quot; (in the Admin tab) of your Operations Manager instance.
+3.  If you have not previously installed VMTurbo Operations Manager in your environment, simply download it here: http://go.vmturbo.com/New_Download_Install.html &lt;http://go.vmturbo.com/New_Download_Install.html&gt;. Once installed, you will be prompted in the installation and configuration process to submit your license key to activate the product.
+The Green Circle
+Now that you are a customer you have full access to VMTurbo&apos;s peer-to-peer online community, The Green Circle! The Green Circle is virtualization’s premier destination for industry thought leadership, and is the only place where you can actually engage directly with other VMTurbo users. To register click here &lt;https://greencircle.vmturbo.com/welcome&gt; and fill in your info, then you will be all set to start talking and earning points, which you can use to get some awesome stuff in the GC store!
+Training
+If you are interested in participating in our free Jump Start training, please follow this link and register for our next Jumpstart Training session. They are held on the first Monday of each month:  http://vmturbo.com/vmturbo-new-customer-jumpstart/ &lt;http://vmturbo.com/vmturbo-new-customer-jumpstart/&gt;
+We also offer other more advanced trainings which you can view here. If you are interested, please contact Chris Ward for more information and to sign up.
+That should cover it for now! Welcome to VMTurbo, we are very excited to have you and look forward to helping you explore all that VMT offers your datacenter!
+Best, 
+- Your Dedicated Customer Experience Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

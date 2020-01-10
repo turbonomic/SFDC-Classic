@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-09-21-CAE-NewYork-092817-3.ES-2017-09-21-CAE-NewYork-092817-3</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Turbonomic Community Happy Hour and Golf</subject>
+    <textOnly>&lt;[[https://turbonomic.com/nyc-community-appreciation-chelsea-piers/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Next week, on Thursday, September 28th, the New York City Turbonomic and Presidio Community is looking forward to an evening at The Golf Club at Chelsea Pier for a happy hour and of course, golf. Together, we will brush up on our skills with a help of a golf pro and casually learn about our product roadmap from current Turbonomic and Presidio customers.
+Will you join me and your technology peers on September 28th?
+The Golf Club at Chelsea Piers &lt;[[https://turbonomic.com/nyc-community-appreciation-chelsea-piers/]]&gt;
+
+59 Chelsea Piers, New York, NY 10011
+Thursday, September 28th 5:30pm
+
+
+
+
+
+
+
+Reserve your spot today &lt;[[https://turbonomic.com/nyc-community-appreciation-chelsea-piers/]]&gt;!
+
+
+I hope to see you there,
+
+
+Cody Carlson
+Regional Sales Director, Northeast
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

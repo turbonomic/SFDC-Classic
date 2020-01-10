@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_29_2015 October Ticker.Newsletter</name>
+    <style>none</style>
+    <subject>The Turboticker: TurboStack Giveaway, Containers &amp; Microservices Webinar, The Virtual Classroom &amp; More.</subject>
+    <textOnly>Cloud &amp; Virtualization Lessons You’ll Love
+Take control of your cloud and virtual environments
+&lt;http://vmturbo.com/turbostack-giveaway/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Turbostack&amp;utm_content=Ticker&gt;
+Last Chance To Enter The October VMTurbo TurboStack Giveaway
+
+The TurboStack was created to enable you to experiment with OpenStack safely in your own home lab. Leveraging the OpenStack Juno build, the TurboStack also includes a full NFR License to VMTurbo 5.2.
+Enter To Win Here... &lt;http://vmturbo.com/turbostack-giveaway/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Turbostack&amp;utm_content=Ticker&gt;
+
+
+
+The State of Latency, Containers &amp; Microservices
+
+As organizations experiment and eventually transition to technologies such as containers and microservices they will inevitably encounter a new set of challenges, we&apos;ll discuss all these and more on our webinar Containers, Microservices and Why They Matter.
+Register Here... &lt;http://vmturbo.com/vmturbo-resources/microservices-webinar/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=MicroservicesWebinar&amp;utm_content=Ticker&gt;
+ &lt;http://vmturbo.com/resources/maximizing-the-benefits-of-the-virtual-classroom?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Educationebook&amp;utm_content=Ticker&gt;
+Maximizing The Benefits Of The Virtual Classroom
+
+How as IT administrators do you deliver the services your students need to succeed, when those needs are so varied? Not to mention, how do you do all this on a limited budget? Check out our latest e-Book today to learn cost-effective ways for delivering high quality educational services to your students and faculty.
+
+Download Here...
+
+ &lt;http://vmturbo.com/vmturbo-resources/healthcare-data-center-best-practices-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=HealthcareWebinar&amp;utm_content=Ticker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&gt;
+Lessons Learned From Healthcare Data Centers
+Companies considering deploying VDI solutions are most often looking to lower costs while still ensuring their end-users have a seamless experience, but the process can be much more difficult than it initially appeared. Download this free webinar to learn how Children&apos;s Hospital Colorado assures performance for mission-critical applications and their VDI environment to deliver the highest quality for their end-users in a highly regulated industry.
+
+Watch here... &lt;http://vmturbo.com/vmturbo-resources/healthcare-data-center-best-practices-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=HealthcareWebinar&amp;utm_content=Ticker&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

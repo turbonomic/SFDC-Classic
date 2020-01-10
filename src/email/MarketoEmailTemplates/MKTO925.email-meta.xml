@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_22_2015 turboticker January.ticker_use</name>
+    <style>none</style>
+    <subject>VMTurbo Raises $50M Series D | Win a Phantom 2 Vision+ Drone | turboticker January 2015</subject>
+    <textOnly>Webinar | Cloud Mechanics: Assuring Performance in Shared Environments
+January 28, 2015 | 12pm EST
+
+&lt;http://vmturbo.com/expedient-webinar/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerjan&amp;utm_content=012215&gt;
+Drones on Drones
+VMTurbo 5.0 marked the biggest release since the founding of VMTurbo in 2009. This latest version features five new Control Modules, extending VMTurbo-owners&apos; control to Network, Hybrid Cloud, VDI, Applications, and Containers.
+
+As a celebration of this release, we&apos;ve raffled away a Phantom 2 Vision+ Drone every month since November from among those who take VMTurbo 5.0 for a 30-Day test drive &lt;http://vmturbo.com/35000-decisions?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerjan&amp;utm_content=012215&gt;.
+VMTurbo Raises $50M Series D Funding
+
+126% Growth in Annual Revenue, 18th Consecutive Quarter of Record Revenue, 23% Q/Q Growth, Industry Recognition and New Product Innovation Drive Increasing Customer Adoption and Major Round of Funding Led by ICONIQ Capital for 2015... Read More &lt;http://vmturbo.com/press-releases/momentum-accelerates-record-revenue-2014?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerjan&amp;utm_content=012215&gt; | BostInno &lt;http://bostinno.streetwise.co/2015/01/21/vmturbo-raises-50m/&gt;
+Video: What Is Demand-Driven Control?
+
+Watch this 3-minute video &lt;http://youtu.be/LTO9pI66a-A&gt; and learn the difference between old school IT operations management and the new age of demand-driven infrastructure control.
+Whitepaper: The Path to Hybrid Cloud
+A full 49% of enterprises are running some applications in Amazon Web Services®, according to a recent study by RightScale®. Read this whitepaper &lt;http://vmturbo.com/hybrid-cloud-intelligent-bursting-aws-microsoft-azure?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerjan&amp;utm_content=012215&gt; to learn about the challenges and barriers to effective hybrid implementation: Which workloads should burst Where and When?
+www.vmturbo.com
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+contacts &lt;http://go.vmturbo.com/contact-us.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | website &lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | privacy policy &lt;http://www.vmturbo.com/privacy-policy?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | forward &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

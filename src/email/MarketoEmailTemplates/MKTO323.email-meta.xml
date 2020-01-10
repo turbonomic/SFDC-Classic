@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Third Party Nurture December_2013.Email 1</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=edit me}}, Complimentary Analyst Report: IT Management for the Cloud Era</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=edit me}},
+
+Automation,  Economics, and Efficiency – all benefits of IaaS. However, with these benefits come a number of challenges, such as constant change and fluctuation driven by interdependencies and complexity in the IT stack.
+
+And who has time to manage the ever-increasing number of mission-critical applications running in the cloud?      Not you, that’s for sure.
+
+Take a look at this short report from Neovise &lt;http://bit.ly/15OhkdZ&gt; and learn about a new approach from VMTurbo that enables effective management so that you can take advantage of all the benefits of cloud technology.
+
+Ready to give it a try? 
+Simply click here &lt;http://bit.ly/QzvQgM&gt; for a fast and free download of VMTurbo Operations Manager.
+
+Sincerely,
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

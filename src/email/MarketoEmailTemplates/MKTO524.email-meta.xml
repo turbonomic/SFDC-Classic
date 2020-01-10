@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Product-Nurture1-new!.Email</name>
+    <style>none</style>
+    <subject>Ways to Milk Your VMTurbo Trial</subject>
+    <textOnly>   
+We Gave You the Cow,
+Now Milk It.
+Dear {{lead.First Name:default=Sir/Madam}},
+
+VMTurbo&apos;s Evaluation Resource Center &lt;http://bit.ly/Mdfu0g&gt; guides you through the process of Discover-Converge-Control-Plan, so you can fully leverage your VMTurbo Operations Manager trial for the next 30 glorious days. We gave you the cow. Now we&apos;re going to help you milk it.
+Some Words of Wisdom from the farm:
+
+ - Bookmark the Evaluation Resource Center &lt;http://bit.ly/Mdfu0g&gt;.
+ - Watch this disarmingly cute yet informative video &lt;http://bit.ly/1bMIQPP&gt; on our Economic Scheduling Engine (ESE), the abstraction model that recasts the resources of your environment as a free market of buyers and sellers, trading scarce goods and constantly driving the system to dynamic equilibrium.
+ - Schedule a free assessment &lt;http://bit.ly/1gzh9Hf&gt; with one of our experienced dairy farmers, who can answer questions and provide you with real-time milking tips (it&apos;s an extended metaphor, where your VMTurbo trial is the cow and the milk is increased utilization, VM density, and application performance.)
+
+
+Give a man a cow, and there&apos;s no telling how he&apos;ll use it. Teach a man to milk, and his virtual environment will live in a state of perpetual health. Yup. We just brought the metaphor full-circle.
+Questions, comments, or feedback? Moo &lt;sales@vmturbo.com&gt;.
+Closing the loop,
+ VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+contact us &lt;http://go.vmturbo.com/contact-us.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | website &lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | privacy policy &lt;http://www.vmturbo.com/privacy-policy?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

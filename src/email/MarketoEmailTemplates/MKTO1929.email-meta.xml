@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-30-Day Trial Nurture.01-Assure Service Performance.Send</name>
+    <style>none</style>
+    <subject>Turbonomic Top Ten Features #1: Assure Service Performance</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Welcome to the Turbonomic Top 10 Feature Series! Over the coming weeks, we will be sending you ten guides to unlock the full potential of the Turbonomic platform. Of course, if at any time you want to accelerate your learning, you can visit the Green Circle Community &lt;[[https://greencircle.turbonomic.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-HybridCloud&amp;utm_content=Mid01]]&gt; and gain tips and tricks from Turbonomic users just like you.
+Feature #1: Assure Service Performance
+
+
+Turbonomic is designed to guarantee application performance. It provides you with with specific automatable actions, in real-time, that combined help you answer the following questions:
+
+
+
+	- What do I need to do to assure service performance?
+	- How do I eliminate congestion?
+	- How do I mitigate risk?
+	- Am I violating any policies?
+	- Do I need more infrastructure?
+
+
+Step-By-Step: Assure Service Performance
+
+
+
+
+
+The following steps will guide you through the Assure Service Performance Dashboard:
+
+
+
+	- Select Show All to see all Actions
+	- Select Show Top to see the top 10 actions that will improve application performance
+	- The Risks column shows the risks associated with not taking the actions prescribed by Turbonomic
+
+	- Click the ! Icon to toggle between Risks and the To Do list
+
+	- Actions can be taken directly from the Turbonomic user interface by selecting the checkbox and clicking Apply
+	- Click the Chart Icon to show more details about the entities at risk and associated with each action
+	- Click the ? Icon of each window for an explanation of that windows&apos; content and if possible, how to modify them
+
+	- Turbonomic can Automate Actions to Guarantee Performance. To enable automation, click the Policy tab and do the following:
+
+
+
+
+	- Policy &gt; Action &gt; VM &gt; Choose Cluster &gt; Move &gt; Automated &gt; Click &quot;Apply Settings Change&quot;
+
+
+
+ 
+Next Feature: Improve Overall Efficiency</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

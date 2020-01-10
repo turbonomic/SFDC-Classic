@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: AWS re:Invent-Las Vegas 11_26_18.002 Pre-Event: Email Invite 1 - 1a: 2016-2</name>
+    <style>none</style>
+    <subject>Hi {{lead.First Name:default=there}}, see you at AWS re:Invent?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+If you’re attending AWS re:Invent, we’d like to meet with you. We know you’re busy so we’ll cut to the chase - here’s our value to you:
+
+
+
+	- AWS trusts us: Turbonomic is one of only two AWS partners to achieve AWS Competencies in both Migration and Cloud Management.
+
+	- We are here to help you: Turbonomic accelerates AWS cloud migrations and prevents overspending that may stall or slow your cloud journey. 
+
+	- Our executives know what they’re doing: Members of our executive team attending include: 
+
+
+
+	- Ben Nye - Turbonomic CEO, 5X Forbes Midas List
+	- Bill Veghte - Turbonomic Executive Chairman, former EVP HPE, SVP Microsoft Windows
+	- Jennifer Heard - Turbonomic SVP, former VP Microsoft Worldwide Sales and Marketing Strategy
+
+
+
+
+
+Meet with us for just 30 minutes, and walk away prepared to maximize your AWS cloud experience.
+
+
+Please request a meeting here &lt;[[https://turbonomic.jifflenow.com/reinvent2018/external_request/0ce7a1]]&gt;. 
+ 
+Best, 
+Catherine</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

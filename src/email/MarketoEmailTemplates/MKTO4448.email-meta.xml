@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-09 Takeaways on Gartner Conference 2018.ES-2019-01-07 Last Chance.Wh</name>
+    <style>none</style>
+    <subject>See you Wednesday?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j51RAAQ]]&gt;
+Gartner predicts that, by 2020, 75% or organizations will experience business disruptions due to infrastructure and operations skill gaps. Now is the time to prepare your organization with the right strategy and resources to ensure a successful digital transformation. 
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j51RAAQ]]&gt;
+
+
+
+This Wednesday, January 9th at 11 am ET, attend our &quot;Gartner Cloud Strategies Conference Takeaways Webinar &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j51RAAQ]]&gt;&quot;, for a summary of Gartner&apos;s latest I&amp;O thought-leadership, including:
+
+
+	- Top trends impacting digital infrastructures
+	- Defining and implementing enterprise cloud strategies
+	- Best practices in cloud management
+
+
+
+By the end of this 30-minute live webinar, you&apos;ll see how to formulate and drive your cloud strategies forward. Register now &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j51RAAQ]]&gt;.
+
+
+PRESENTED BY
+ 
+
+Bob Wambach
+VP of Product Marketing and Gartner IOCS attendee
+Turbonomic
+ 
+
+ 
+
+SCHEDULING CONFLICT?
+We&apos;ve got you covered. Register for the live event and you&apos;ll receive the recording shortly afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

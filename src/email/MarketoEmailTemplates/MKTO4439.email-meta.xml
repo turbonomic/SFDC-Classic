@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-12-26 Trial Promo 3 - MQLs.ES-2018-12-27 Trial Promo 3 - MQLs</name>
+    <style>none</style>
+    <subject>Advance Your Business through IT Innovation</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+The role of the CIO has evolved dramatically in recent years. How can you keep up in the midst of such change? Check out this blog post &lt;[[https://turbonomic.com/blog/on-turbonomic/blog-modern-cio-patterns/]]&gt; by Eric Wright, Director of Technical Marketing and Technology Evangelist at Turbonomic, to learn more about the current state of IT and the future state modern CIOs are building toward.
+
+
+
+
+
+
+Learn More &lt;[[https://turbonomic.com/blog/on-turbonomic/blog-modern-cio-patterns/]]&gt;
+
+
+
+
+
+
+In order to keep up with the evolving role of IT, it is crucial that teams embrace automation. Turbonomic can help.
+
+
+Turbonomic workload automation for hybrid cloud environments delivers enterprise organizations with automation that enables on-premises and public cloud to self-manage in real-time, thereby assuring application performance while lowering cost and maintaining compliance with business policies. 
+
+
+Don&apos;t take our word for it. Explore Turbonomic for yourself. Download a 30-day free trial of Turbonomic today! &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_campaign=70157000001j4pVAAQ]]&gt;
+
+
+Best,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

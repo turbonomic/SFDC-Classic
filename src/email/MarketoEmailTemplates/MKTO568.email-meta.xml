@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sales Mailing Q4 - Email 2.Email plain</name>
+    <style>none</style>
+    <subject>reducing 2014 IT budget requirements</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+At VMTurbo, we’re seeing many organizations like yours concentrating efforts on trying to increase utilization of their existing server and storage infrastructures to prepare for projects upcoming in the new year.  Over 80% of our customers have indicated they were able to increase resource utilization by more than 20%, while almost two thirds saw this value within 15 business days.
+
+We’d like to offer you a no-cost fast and easy download of our Virtual Health Monitor &lt;http://bit.ly/16EwPYr&gt;, which will allow you to maintain proactive control and address potential problems before they become full-blown headaches. The result: peace of mind that you are maintaining your virtual environment in a healthy state and are driving down the costs of troubleshooting while you defer IT infrastructure expense until you absolutely need to incur it.
+
+Sincerely,
+ The VMTurbo Team
+
+VMTurbo was inducted into the JPMorgan Chase Innovation Hall of Fame &lt;http://bit.ly/1ar9iHo&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

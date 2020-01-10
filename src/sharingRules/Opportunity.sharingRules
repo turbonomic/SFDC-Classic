@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Quota_Visibility_for_CRO</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Quota Visibility for CRO</label>
+        <sharedTo>
+            <role>Executive_VP_of_Sales</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Quota</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quotas</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Quota_Visibility_for_HR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Quota Visibility for HR</label>
+        <sharedTo>
+            <role>Administrator290772</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Quota</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quotas</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Quota_with_Bus_Driver</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Quota with Bus Driver</label>
+        <sharedTo>
+            <group>Bus_Drivers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Quota</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Quota_with_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Quota with Finance</label>
+        <sharedTo>
+            <role>CFO</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Quota</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quotas</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Business_Development_Rule2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Business Development Rule</label>
+        <sharedTo>
+            <group>Business_Development_Opportunities</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Business_Development_Opportunities</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

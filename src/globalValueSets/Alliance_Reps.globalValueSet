@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FJ Gould</fullName>
+        <default>false</default>
+        <label>FJ Gould</label>
+    </customValue>
+    <customValue>
+        <fullName>Justin Kutticherry</fullName>
+        <default>false</default>
+        <label>Justin Kutticherry</label>
+    </customValue>
+    <customValue>
+        <fullName>Matt O&apos;Brien</fullName>
+        <default>false</default>
+        <label>Matt O&apos;Brien</label>
+    </customValue>
+    <masterLabel>Alliance Reps</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

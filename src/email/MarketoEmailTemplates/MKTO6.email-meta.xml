@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Website Announcement Mailer.Website announcement</name>
+    <style>none</style>
+    <subject>New tools to improve app performance &amp; operational efficiency</subject>
+    <textOnly>   
+Intro title:
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+It’s been a busy summer here at VMTurbo and we wanted to take a moment to make sure you were aware of some new content and tools that are FREE for all of our community members.
+
+
+ - We recently launched our new website – with several new best practice whitepapers in our resource section. New Website: http://bit.ly/Nn9JJc 
+
+ - Our 3.1 version of Operations Manager is available for download. The only UNLIMITED free product on the market for vSphere, Hyper-V and XenServer environments. Download the virtual appliance and start preventing problems (instead of drilling through data) in less than 30 minutes. Download now: http://bit.ly/R2TvIO 
+
+- If you just have a few minutes (2:31 to be exact), check out our new animated video describing  how our technology delivers a smarter way to control cloud and virtualized environments. See video: http://bit.ly/RRD164 
+
+
+Hope to see you at VMworld (Booth #2222) later this month.
+
+ Thanks,
+
+ Derek Slayton
+ VP of Marketing, VMTurbo
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

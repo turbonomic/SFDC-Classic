@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-03-13-Cloud Migration Webinar Customer Send.Customer Send</name>
+    <style>none</style>
+    <subject>[Live Webinar] 3 Ways to Accelerate and De-Risk Your Cloud Migration</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/cloud-migration-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=cloud_migration_webinar]]&gt;
+Hi {{Lead.First Name}},
+
+
+You wouldn’t build a house with a plan that’s only 80% accurate.
+
+So the next time you perform a cloud migration, why trust a cloud migration plan that doesn’t deliver exactly the performance your applications need in the cloud, at the optimal cost?
+
+Turbonomic’s cloud migration planning capabilities can save you the pain of guessing your way into the cloud and suffering the inevitable consequences – ballooning costs, performance problems, and manual troubleshooting.
+
+
+
+Please join our live webinar on Thursday March 22nd at 1PM ET &lt;[[https://turbonomic.com/resources/cloud-migration-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=cloud_migration_webinar]]&gt;  to learn how Turbonomic customers like you are radically accelerating AND de-risking their cloud migrations to drive continuous cloud optimization.
+
+
+
+
+
+
+ &lt;[[https://turbonomic.com/resources/cloud-migration-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=cloud_migration_webinar]]&gt;
+
+
+
+
+We hope to see you there!
+
+
+Best,
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

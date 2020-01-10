@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-10-05-TurboShot 2.(f)ES-2016-10-05-TurboShotProactiveSupport</name>
+    <style>none</style>
+    <subject>Learn About Proactive Support|Tips &amp; Tricks &amp; More</subject>
+    <textOnly>Greetings from Turbonomic, {{lead.First Name:default=}}
+
+Here&apos;s your monthly dose of Turbonomic. Want to speak about your experience as a customer?
+
+Sign up for a confidential Customer Feedback Interview &lt;[[mailto:Murphy.Vandervelde@Turbonomic.com?Subject=Customer Feedback Interview]]&gt; and receive a $25 Amazon Gift card!
+&lt;[[https://turbonomic.com/blog/on-turbonomic/turbonomic-proactive-support-why-use-it-and-how-to-turn-it-on??utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016]]&gt;
+&lt;[[https://greencircle.vmturbo.com/docs/DOC-3741?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016#whatsHappening]]&gt;
+&lt;[[https://greencircle.vmturbo.com/docs/DOC-3741?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016#tipsTricks]]&gt;
+Featured Customer
+Matt McColm &amp; EDF-RE
+This month we are excited to feature Matt McColm from EDF-RE, the president of our first ever Turbonomic user group (SoCal). While his journey with Turbonomic started with him &quot;avoiding us like the plague&quot; he has turned into one of our biggest advocates and even had Customer Video &lt;[[https://turbonomic.com/resources/videos/turbonomic-customer-success-story-edf-renewable-energy/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016]]&gt; release last month. Matt&apos;s story is a powerful one and we are happy he gave us a second chance!
+Read More » &lt;[[https://greencircle.vmturbo.com/docs/DOC-3741?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016#featuredCustomer]]&gt;
+Featured Technology
+Microsoft Azure: What is it and why does Real Madrid swear by it
+Cloud, seldom does an IT buzz word take on such a popular and misunderstood place in mainstream society. With everybody singing the praises of Amazon Web Services, Microsoft Azure tends to be thought of as a distanct second. With Microsoft&apos;s on-premise presence, wide offering of cloud services and unbeleiveable customer rolodex (incluidng Real Madrid) they are the fastest growing public cloud provider.
+Read More » &lt;[[https://turbonomic.com/blog/on-technology/what-is-microsoft-azure-and-why-has-real-madrid-bet-its-future-on-it/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016#featuredTech]]&gt;
+
+How likely are you to recommend Turbonomic to a colleague?      Not at all likely
+  Extremely likely   
+         1  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=1]]&gt;          2  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=2]]&gt;           3  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=3]]&gt;          4  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=4]]&gt;          5  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=5]]&gt;          6  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=6]]&gt;          7  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=7]]&gt;          8  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=8]]&gt;          9  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=9]]&gt;          10  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=10]]&gt;
+© Turbonomic, Inc. 500 Boylston Street, 7th Floor
+Boston, MA 02116
+&lt;[[https://twitter.com/turbonomic]]&gt;  &lt;[[https://www.linkedin.com/company/turbonomic]]&gt;  &lt;[[https://www.youtube.com/user/myVMTurboTV?gl=CO&amp;hl=es-419]]&gt;  &lt;[[https://www.facebook.com/turbonomic]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

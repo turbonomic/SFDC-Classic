@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>06_13_2014 VMworld Winner Notify.Announcement #1</name>
+    <style>none</style>
+    <subject>VMworld Sweepstakes | Congratulations, Shaun!</subject>
+    <textOnly>Congratulations, Shaun!
+
+You have been selected as the first recipient of two (2) Full Passes to VMworld® 2014 in San Francisco. Please contact VMTurbo Marketing Ops Manager Jenny Sharpe &lt;mailto:jennifer.sharpe@vmturbo.com&gt; to coordinate receiving your passes.
+
+Per our arrangement with VMworld, you will need to provide the name of your guest in order for us to designate a pass for them also.
+
+By accepting your prize, you are acknowledging acceptance of the Sweepstakes Official Rules &lt;http://go.vmturbo.com/vmturbo-vmworld-sweepstakes-rules.html&gt;.
+
+Congratulations.
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Executive Briefing New York.Sorry to miss you email</name>
+    <style>none</style>
+    <subject>Sorry to be Missing You at the VMTurbo Executive Briefing</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+ 
+We’re sorry to be missing you at the VMTurbo Executive Briefing, but we do understand how busy things can be. We hope you can join us at another one of our upcoming events &lt;http://bit.ly/1eemNMC&gt;.
+ 
+Sincerely,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

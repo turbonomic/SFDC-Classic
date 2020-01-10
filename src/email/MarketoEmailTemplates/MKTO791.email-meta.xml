@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Product-Nurture40.Email_use</name>
+    <style>none</style>
+    <subject>Extend Your Trial License | Thank You V-Much</subject>
+    <textOnly>THANK YOU FOR TRYING VMTURBO.
+Want to Extend Your Trial License?
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thanks for giving us a shot. Your 30-Day trial has come and gone, and we hope you have found VMTurbo useful.
+
+If you didn&apos;t have time to fully evaluate or implement VMTurbo, simply contact us and we will grant you an extended license key &lt;http://bit.ly/1gHVfGN&gt;.
+
+We are ever grateful for your time and trust, and look forward to hearing from you
+
+Your IT control system,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

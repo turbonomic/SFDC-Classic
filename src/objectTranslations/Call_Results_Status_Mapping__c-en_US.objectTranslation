@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Call Results Status Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Call Results Status Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active Response --></label>
+        <name>Active_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Disposition --></label>
+        <name>Call_Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Status --></label>
+        <name>Lead_Contact_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recent Response Timeframe --></label>
+        <name>Recent_Response_Timeframe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Status Values --></label>
+        <name>Response_Status_Values__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Reason --></label>
+        <name>Status_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Values to Update --></label>
+        <name>Status_Values_to_Update__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

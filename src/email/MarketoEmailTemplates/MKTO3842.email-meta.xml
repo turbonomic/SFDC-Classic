@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WC-2018-06-Request-a-Demo-PFL-Coffee and Mug Kits.Confirmation Email</name>
+    <style>none</style>
+    <subject>Thank You for Requesting a Turbonomic Demo</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Thank you for requesting a demo with Turbonomic. Your request is being processed and a Turbonomic representative will be reaching out to schedule a time to meet at your convenience.
+
+We look forward to discussing the challenges you are facing and how Turbonomic&apos;s Self-Managing Workload Automation can help. In the meantime, check out our resource center &lt;[[https://resources.turbonomic.com/]]&gt; to learn more.
+
+Sincerely,
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

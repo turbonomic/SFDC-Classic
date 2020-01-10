@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CCL2_BoosterShot.Email_VhmCTA</name>
+    <style>none</style>
+    <subject>{{lead.first name:default=For You}}: Try VMTurbo Virtual Health Monitor</subject>
+    <textOnly>Dear {{lead.first name:default=Sir/Madam}},
+
+Over 500 forward-thinking organizations trust VMTurbo with their virtual datacenters. They can&apos;t all be wrong: (http://bit.ly/1cqmTk6)
+
+VMTurbo Operations Manager 4.5 is the only virtualization manager that assures application performance while utilizing the underlying infrastructure as efficiently as possible. Check out how we do it: (http://bit.ly/1gFs5Di).
+
+VMTurbo automates Intelligent Workload Management, preventing resource contention problems before they occur, and driving CAPEX and OPEX to rock bottom: (http://bit.ly/1eBaTMC).
+
+Our free and unlimited Virtual Health Monitor (http://bit.ly/1bRvLV2) will help you identify problems in your virtual environment, gain deep and invaluable insights into your infrastructure, and generate performance reports in perpetuity. Forever.
+
+It&apos;s a new era in virtual ops management. Own your environment.
+
+In good health,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

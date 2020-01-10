@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-06-27-RD-Sponsored-San-Francisco.ES-2018-06-07-Palo-Alto-Invite-1b.ES-1</name>
+    <style>none</style>
+    <subject>Join Me for an Executive Dinner on June 27th</subject>
+    <textOnly>  
+Hi {{lead.First Name:default=there}}, 
+So many of us have had the privilege – and angst – of watching IT go through wave after wave of transformation. All previous waves pale in comparison to that which we observe today. One of the biggest transitions is the movement from monolithic application structures to virtualized and containerized workloads. The benefits are clear to all, however, increasingly the only realistic way to manage these workloads effectively is to use sophisticated algorithms and automation to do so. 
+I cordially invite you to join dozens of our fellow IT leaders in the Bay Area and myself for the upcoming Palo Alto Executive Networking Dinner &lt;[[https://www.eventbrite.com/e/palo-alto-executive-networking-dinner-tickets-45999060428]]&gt; hosted by Turbonomic on Wednesday, June 27th, 2018 at Bird Dog for dinner at 6:30 p.m. 
+This event is a great opportunity to meet with peers, share challenges, and discuss trends. It is my goal and  hope  that this networking opportunity will be intellectually stimulating and beneficial for all. 
+I look forward to meeting you and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://www.eventbrite.com/e/palo-alto-executive-networking-dinner-tickets-45999060428]]&gt; as soon as possible. 
+  
+ 
+ 
+ Yours sincerely, 
+ 
+ Gary 
+ 
+   
+ 
+  
+ 
+ Gary Reiner 
+ 
+ Operating Partner, General Atlantic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

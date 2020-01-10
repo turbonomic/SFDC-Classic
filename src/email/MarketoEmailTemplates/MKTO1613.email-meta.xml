@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>11_18_2015 5.4 Release Webinar.11_16_2015 5.4 General Customer Announcement.Cust</name>
+    <style>none</style>
+    <subject>VMTurbo 5.4 Now Available - Update Your Appliance Now!</subject>
+    <textOnly>&lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-4-customer&amp;utm_content=11042015&gt;
+Hi {{lead.First Name:default=There}},
+
+We’re happy to announce VMTurbo 5.4 is now generally available. As with all releases, VMTurbo 5.4 adds more proof points in our journey towards controlling any workload on any infrastructure at any time. To get started with the new bits, simply update your VMTurbo appliance:
+
+
+ - Update VMTurbo software online &lt;https://greencircle.vmturbo.com/docs/DOC-1561&gt;
+ - Update VMTurbo software offline &lt;https://greencircle.vmturbo.com/docs/DOC-1292&gt;
+
+
+What&apos;s New
+It&apos;s all about extending control further into and across the stack. You can read more about what&apos;s new in the blog post announcement
+
+
+
+ - Cloud Foundry 
+Deliver a Paas that keeps up with the speed of business as VMTurbo manages complex Cloud Foundry workloads. &apos;Happy developers&apos; is the surest way to combat Shadow IT.
+
+
+
+ - Cross vCenter Live Migration 
+Extending our support for vSphere 6.0 allows for better migration planning. VMTurbo figures out the best solution for disaster recovery (DR) scenarios or re-hosting to more modern infrastructure.
+
+
+
+ - EMC XtremIO &amp; EMC VMAX Control 
+Customers can get the most out of their storage investments knowing that IO intensive workloads will always get the resources they need, as VMTurbo minimizes resource contention across EMC storage, compute and network.
+
+
+
+ - Application Control with Active Directory Authentiation
+Authenticate to Microsoft SQL databases with Active Directory authentication, getting all the benefits of the Application Control Module.
+
+
+Other Developments Include
+
+
+ - Proactive Support - Assuring the performance of your VMTurbo instance
+ - And customer-requested UI Improvements
+
+
+ &lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-4-customer&amp;utm_content=11042015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

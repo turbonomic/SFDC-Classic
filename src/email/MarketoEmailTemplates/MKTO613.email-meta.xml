@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>7/8/2014 - Customer Jumpstart.Follow Up - Attendees</name>
+    <style>none</style>
+    <subject>Thank you for attending the VMTurbo Jumpstart Training</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for attending the VMTurbo Jumpstart webcast on July 8th. We look forward to bringing you more of these types of webinars in the future. If you have comments or suggestions as to how we can improve them, please let us know in our short survey. &lt;https://www.surveymonkey.com/s/F8N6DSX&gt;
+
+If you were not able to attend the entire session or would like to revisit parts of it, you can watch it here &lt;http://bit.ly/1cBuQID&gt;. Be aware that you will need to login with your VMTurbo Support Portal credentials to view the webcast. If you have any questions that arise as you view it, please let us know.
+
+Besides the Jumpstart webinar, we also off a wide range of additional training options &lt;http://go.vmturbo.com/pso-training-request.html&gt;. 
+
+We look forward to seeing you at one of our upcoming events again soon.
+
+Sincerely,
+The VMTurbo Team
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

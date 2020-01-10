@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-10-4-IDC Vendor Profile.Email Send</name>
+    <style>none</style>
+    <subject>IDC Vendor Profile - Applying Autonomic Control to VDI Performance Management</subject>
+    <textOnly>&lt;[[http://turbonomic.com/resources/idc-vendor-profile-vmturbo/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ENG-VDI&amp;utm_content=Bus05]]&gt;
+Hi {{lead.First Name:default=edit me}}, Data centers have grown increasingly complex, and it is more apparent than ever that assuring workload performance and availability is a task complex beyond human scale. This problem can only be solved in software, but as we continue to add dimensions to this already complex environment, traditional capacity planning solutions simply won’t cut it anymore. It’s for this reason that more IT decisions makers are implementing automated workload performance management solutions, and are quickly realizing OpEx and CapEx benefits from doing so. This IDC Vendor Profile gives insight into the world of automated workload performance management solutions, and what IT thought leaders are seeing in this quickly growing category.  &lt;[[http://turbonomic.com/resources/idc-vendor-profile-vmturbo/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ENG-VDI&amp;utm_content=Bus05]]&gt; -The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-07-19-IT Compliance Survey Send Enterprise.Send</name>
+    <style>none</style>
+    <subject>$250 Donation to Engineers Without Borders | IT Compliance Survey</subject>
+    <textOnly>&lt;[[https://www.surveymonkey.com/r/NMFJK8R?marketo_cr6r585pkg=[marketo_cr6r585pkg_value]&amp;marketo_zo8jzhpyio=[marketo_zo8jzhpyio_value]&amp;marketo_njw04rm35s=[marketo_njw04rm35s_value]&amp;marketo_4gg309aesw=[marketo_4gg309aesw_value]&amp;marketo_vo98qfnsyo=[marketo_vo98qfnsyo_value]]]&gt;
+{{lead.First Name:default=Hi there}},
+As you know, it is easy for vendors to come off as aggressive and transactional. At Turbonomic our mission is to be far more than that. This is why we want to take a step back, let you know that we understand your time is extremely valuable and extend an offer to partner with you to help make the world a better place.
+ We are excited to announce the launch of our IT Compliance Survey &lt;[[https://www.surveymonkey.com/r/NMFJK8R?marketo_cr6r585pkg=[marketo_cr6r585pkg_value]&amp;marketo_zo8jzhpyio=[marketo_zo8jzhpyio_value]&amp;marketo_njw04rm35s=[marketo_njw04rm35s_value]&amp;marketo_4gg309aesw=[marketo_4gg309aesw_value]&amp;marketo_vo98qfnsyo=[marketo_vo98qfnsyo_value]]]&gt;. We are offering a $25 Amazon gift card for completing the 5 minute survey by end of day July 20th. Furthermore, we are offering $250 donation to Engineers Without Borders if you agree to a 30 minute meeting with a Turbonomic engineer (meeting must complete by August 2nd). If at the end of the meeting, you choose to engage in a proof of value, we will donate $1,000 to the 501(c)(3) charity of your choosing.
+We look forward to the opportunity to speak with you around how Turbonomic is changing the IT industry for the better, but we are much more excited to partner with you to make an impact for a cause that is close to you.
+ &lt;[[https://www.surveymonkey.com/r/NMFJK8R?marketo_cr6r585pkg=[marketo_cr6r585pkg_value]&amp;marketo_zo8jzhpyio=[marketo_zo8jzhpyio_value]&amp;marketo_njw04rm35s=[marketo_njw04rm35s_value]&amp;marketo_4gg309aesw=[marketo_4gg309aesw_value]&amp;marketo_vo98qfnsyo=[marketo_vo98qfnsyo_value]]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

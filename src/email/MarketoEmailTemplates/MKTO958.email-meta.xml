@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_18_2015 Turboticker February.ticker_use</name>
+    <style>none</style>
+    <subject>VMTurbo Grabs Storage Magazine&apos;s Gold Award | Win a Full Home Lab | turboticker February 2015</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+&lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt; &lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&lt;img&gt;
+Pure Storage &amp; VMTurbo
+&lt;http://purestorage.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+Join The Flash Revolution!
+Introducing the VMTurbo &amp; Pure Storage Control Module
+Attend this exclusive webinar from Pure Storage &lt;http://purestorage.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt; and VMTurbo to learn about the brand new Pure Storage Control Module.
+
+
+ - Maximize the value of your Pure Storage investment through proper sizing, placement, and configuration decisions both upstream and downstream of your Pure controllers
+ - Manage heterogeneous flash/legacy storage environments by identifying which workloads require flash and when
+ - Plan for the future to onboard additional FlashArrays with a priori insight of the all-flash impact on performance and efficiency
+
+
+Register Here! &lt;http://vmturbo.com/pure-storage-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+VMTurbo Grabs the Gold in Storage Magazine’s 2014 Storage Management Products of the Year!
+VMTurbo, the only demand-driven control platform for the software-defined universe, was named The Storage Management Product of the Year by Storage magazine/SearchStorage.com. Judges awarded VMTurbo Operations Manager (v4.7) Gold, rating it highest for innovation, ease of use and manageability, finding it to be the best entry for managing capacity and resource allocation. You can read the full announcement here &lt;http://vmturbo.com/press-releases/vmturbo-grabs-gold-storage-magazines-2014-storage-management-products-year?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+&lt;http://vmturbo.com/press-releases/vmturbo-grabs-gold-storage-magazines-2014-storage-management-products-year?utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+Videos: What, Why and How?
+
+3 Very important questions, all with equally important answers. Watch these 3, 3-minute videos to find out What control is &lt;http://vmturbo.com/blog/demand-driven-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;, Why you need control &lt;http://vmturbo.com/blog/need-demand-driven-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt; and How we provide it. &lt;http://vmturbo.com/blog/vmturbo-provide-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+&lt;http://vmturbo.com/blog/demand-driven-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+Whitepaper: Applications and Data Centers Have Evolved, How Do You Assure Performance
+How do you assure application performance with increasing complexity and scale in the data center?. Read this whitepaper &lt;http://vmturbo.com/applications-and-data-centers-have-evolved-how-do-you-assure-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt; to learn common approaches to assuring performance and what changes to look out for.
+&lt;http://vmturbo.com/applications-and-data-centers-have-evolved-how-do-you-assure-performance?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerfeb&amp;utm_content=021815&gt;
+www.vmturbo.com
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+contacts &lt;http://go.vmturbo.com/contact-us.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | website &lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | privacy policy &lt;http://www.vmturbo.com/privacy-policy?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | forward &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CHN-2017-12 Turbonomic Partner Accreditation Training Denver.Reminder 24 hours</name>
+    <style>none</style>
+    <subject>Tomorrow! Denver Turbonomic Partner Accreditation Program</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+This is your reminder that the Turbonomic Partner Accreditation Training in Denver is starting tomorrow! We&apos;re looking forward to seeing you and our other valued partners at the event.
+
+Agenda:
+
+
+	- Wednesday, December 13th, 8:30am – 4:30pm*
+
+	- Wednesday, December 13th, 6:00pm – 8:00pm - Dinner
+
+	- Thursday, December 14th, 8:30am – 3:30pm*
+
+
+
+* meals and parking will be provided
+
+
+Location: 
+Denver Marriott Tech Center
+ 4900 South Syracuse Street
+ Denver, CO 80237
+ Tel: (303) 779-1100
+
+
+If you have any questions, please feel free to reach out!
+
+
+Regards,
+Laura Nielsen
+West Coast Channel Manager</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

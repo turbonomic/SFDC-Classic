@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>Account.Status_Ordered__c</groupColumn>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Enterprise_Account_Status__c.Execution_Time__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>RowCount</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Enterprise_Account_Status__c.Record_Count__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>Account.Status_Ordered__c</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Enterprise_Account_Status__c.Account_Status__c</targetField>
+    </mappings>
+    <name>Enterprise Account Status</name>
+    <runningUser>sfadmin@turbonomic.com</runningUser>
+    <sourceReport>Operation/Ent_Account_Status_Analytic_Snapshot</sourceReport>
+    <targetObject>Enterprise_Account_Status__c</targetObject>
+</AnalyticSnapshot>

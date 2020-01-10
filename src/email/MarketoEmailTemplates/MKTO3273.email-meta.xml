@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-10-12-Vancouver Community Appreciation Event.ES-2017-10-06-Vancouver-Co</name>
+    <style>none</style>
+    <subject>Turbonomic Canucks Game - Ticket Info</subject>
+    <textOnly>Hi there,
+
+
+I hope you are as excited as I am to hang out with the Turbonomic and Cisco crew Thursday evening at Rogers Arena as the Canucks take on the Jets! I am reaching out to provide you with some final details to ensure you find your way to our Penthouse Suite.
+I have your ticket, and from 5:30 p.m. until 6:45 p.m. I will wait in front Gate 10 (located near 3 Expo Blvd). I will be wearing a Turbonomic t-shirt so I&apos;m easy to find, and will personally hand you your ticket. Then you are free to head up to Suite 504!
+As space is extremely limited, please confirm your attendance or let us know if you cannot attend this event by reaching out to myself or Pramila Nair via email. Additionally, please reach out if you cannot arrive by 6:45 p.m., so that I may leave your ticket at will call. If you have any issues on the day of the event, we can be reached via phone using out numbers below.
+ &lt;[[https://turbonomic.com/san-francisco-community-appreciation-giants-vs-rockies/]]&gt;
+Thursday, October 12th 7:00pm
+Where: Rogers Arena &lt;[[https://rogersarena.com/]]&gt;
+Vancouver Canucks vs Winnipeg Jets
+800 Griffiths Way, Vancouver, BC
+
+
+
+
+Other FAQ&apos;s
+Getting Here: &lt;[[http://canucks.us13.list-manage.com/track/click?u=5abef2b7b9cfc700fe3ed479d&amp;id=9003fe40f3&amp;e=0811664608]]&gt; Roger&apos;s Arena is accessible by public transportation, and there are numerous parking options available in surrounding lots
+New Security Measures: &lt;[[http://canucks.us13.list-manage.com/track/click?u=5abef2b7b9cfc700fe3ed479d&amp;id=f83f241216&amp;e=0811664608]]&gt;  For 2017.18 season, any purses or backs larger that 35cm x 35cm x 15cm (14&quot; x 14&quot; x 6&quot;) will not be allowed into Rogers Arena. Walk though metal detectors are also in place at each gate.
+
+
+
+
+See you soon!
+Megan &amp; Pramila
+
+
+
+
+
+
+
+
+Megan Gay
+Marketing Program Manager
+Turbonomic, Inc.
+781-686-3634
+
+
+
+Pramila Nair
+Enterprise Sales Director
+Turbonomic, Inc.
+403-629-9091</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

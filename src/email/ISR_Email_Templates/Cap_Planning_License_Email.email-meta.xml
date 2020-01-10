@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Capacity Planning License Email</name>
+    <style>none</style>
+    <subject>VMTurbo license key</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+Thank you for your interest in the free trial of VMTurbo Operations Manager with capacity planning. The attached file includes your License Key to unlock features, including capacity planning, for a 30-day trial period.
+
+Follow the instructions for whichever scenario applies:
+1) If you have VMTurbo Operations Manager already installed, simply copy that license key text from start to finish and paste it into the &quot;License Configuration&quot; (in the Admin tab) of the Operations Manager virtual appliance that is currently running.
+2) If you have not previously installed the product in your environment, simply download VMTurbo Operations Manager &lt;http://go.vmturbo.com/Cloud_Edition_Download_Appliance_Download.html&gt; , and once installed, you will be prompted in the installation and configuration process to submit your license key to activate the product.
+
+Should you have any questions or issues, please feel free to contact me. I look forward to working with you.
+
+Best regards,
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

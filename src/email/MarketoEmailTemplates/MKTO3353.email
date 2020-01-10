@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;"> 
+<div>
+<span style="font-size: 12px;">Dear {{lead.First Name:default=Friend}},<br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; 
+white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; 
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"></span></span>
+<br />
+</div> 
+<div> 
+<div style="color: #000000; font-family: Helvetica, Arial, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial;">
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">Whether your a customer today or considering to join the Turbonomic family, I'd like to personally thank you for being a part of our community. At Turbonomic, our community is the core to our organization driving our mission to&nbsp;help customers manage any workload, on any infrastructure, anywhere and at any time. We couldn't be more grateful for our customers who's voices drive our product roadmap and motivate our team to deliver the only Hybrid Cloud Management Platform that assures application performance in real-time.</span>
+</div> 
+<div style="color: #000000; font-family: Helvetica, Arial, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial;">
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">Will you join me and your technology peers in&nbsp;Dallas for the upcoming <a href="turbonomic.com/learn-dallas" target="_blank">Dallas&nbsp;Executive Networking Event<strong>:</strong>&nbsp;</a><em><a href="turbonomic.com/learn-dallas" target="_blank">Elastic Compute at Cloud Economics</a>&nbsp;</em>on Tuesday,&nbsp;December 12th 2017 at the home of the Dallas Mavericks, the&nbsp;American Airlines Center&nbsp;at 6:00PM?</span>
+</div> 
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"><span style="color: #262626; font-family: arial, helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: 
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">IT executives in industries such as financial services, healthcare, technology, education and more will be in attendance. I hope you can make it.&nbsp;&nbsp;</span></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">As space is limited, I do ask that you please <strong><a href="https://turbonomic.com/learn-dallas/" target="_blank">register here</a>&nbsp;</strong>as soon as possible.<br /></span>
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,</span>
+</div> 
+<div>
+<span style="font-size: 12px;">Ben</span>
+</div> 
+<p><a href="https://turbonomic.com/learn-phoenix" target="_blank"><span style="font-size: 12px;"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/ben-nye.png" alt="ben-nye.png" height="80" width="80" /></span></a></p> 
+<p><span style="font-size: 12px;"><em>Ben Nye<br /></em></span><span style="font-size: 12px;"><em>Chief&nbsp;Executive&nbsp;Officer<br />Turbonomic, Inc.</em></span></p> 
+<p><br /></p> 
+</div>  
+</body>
+</html>

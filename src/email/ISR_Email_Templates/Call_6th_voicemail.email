@@ -1,0 +1,12 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+I've been putting a lot of effort into trying to reach someone involved with your organization's strategy to minimize data center costs. VMTurbo's management software is unique in its' ability to analyze how the entire IT Stack is impacted by the fluctuating demands of workloads and the resources available to them. I've helped a number of organizations in your industry successfully achieve drastic capital and operational improvements, and I'd be excited to share some additional background about our company with you. <br/ ><br/ >
+
+When you are open to spending a couple minutes with me, please shoot me a short message or phone call. I very much look forward to hearing from you. In the meantime, I encourage you to visit our website to learn more about VMTurbo by downloading one (or more) of our <a href="http://www.vmturbo.com/resources/white-papers/"><b>whitepapers</b></a>.<br/ ><br/ >
+
+Best regards, <br/ ><br/ >
+{!User.FirstName} {!User.LastName}<br/ ><br/ >
+
+<width="64"><br /><br />
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br/ >
+<a href="http://tiny.cc/4kmu4">Top 10 Reasons to Choose VMTurbo</a> <br />

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;">
+<div>
+<span style="font-family: helvetica, arial, sans-serif; font-size: 12px;">Dear {{lead.First Name:default=Friend}},</span>
+<br /> 
+<p><span style="font-family: helvetica, arial, sans-serif; font-size: 12px;"><span style="color: black;">I’d like to invite you to meet with our leadership team at VMworld in Las Vegas for an exclusive opportunity to get a 30-minute on-site briefing on Turbonomic’s Hybrid Cloud Management. During this briefing you will have the opportunity to:</span><span style="color: black;">&nbsp;</span></span></p> 
+<ul> 
+<li><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;">Network with technology thought leaders including our Executive Chairman and former HPE COO Bill Veghte, and our Founder&nbsp;and former SMARTS CTO Shmuel Kliger.</span><br /></li> 
+<li><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;">Gain VIP insight into Turbonomic’s roadmap</span><br /></li> 
+<li><span style="font-family: helvetica, arial, sans-serif; font-size: 12px;">Learn about our 5.9 Release, - featuring capabilities that are enabling our customers to minimize costs, assure performance and enforce compliance across all clouds from VMware to Amazon Web Services and Microsoft Azure.</span></li> 
+</ul> 
+<p><span style="font-family: helvetica, arial, sans-serif; font-size: 12px;"><span style="color: black;">I would be delighted to schedule you with any of the following executives at VMworld. Simply let me know by&nbsp;</span><a href="https://turbonomic.com/leadership-meetings" target="_blank"><strong><span style="color: #954f72;">requesting a meeting here</span></strong><span style="color: black;"><span style="font-variant-caps: normal; orphans: auto; text-align: start; widows: auto; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; float: none; word-spacing: 0px;">&nbsp;</span></span></a>&nbsp;</span></p> 
+<p><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><strong><span style="color: black;">Turbonomic Executives at VMworld US (August 27<sup>th</sup>&nbsp;– 31<sup>st</sup>, 2017)</span></strong></span></p> 
+<ul> 
+<li><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><a href="https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fbenjaminnye%2F" style="font-family: 'Calibri Light'; font-size: 11pt;"><span style="color: #954f72;">Ben Nye</span></a>, Chief Executive Officer</span><br /></li> 
+<li><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><a href="https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcharles-crouchman-23250b%2F" style="font-family: 'Calibri Light'; font-size: 11pt;"><span style="color: #954f72;">Charles Crouchman</span></a>, Chief Technology Officer</span><br /></li> 
+<li><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><a href="https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Falex-hesterberg-7b23014%2F" style="font-family: 'Calibri Light'; font-size: 11pt;"><span style="color: #954f72;">Alex Hesterberg</span></a>, Chief Customer Officer</span><br /></li> 
+<li><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><a href="https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fjenniferheard%2F" style="font-family: 'Calibri Light'; font-size: 11pt;"><span style="color: #954f72;">Jennifer Heard</span></a>, SVP Global Strategic Partners</span><br /></li> 
+<li><span style="font-size: 12px; font-family: helvetica, arial, sans-serif;"><a href="https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fshmuel-kliger-1a91963%2F" style="font-family: 'Calibri Light'; font-size: 11pt;"><span style="color: #954f72;">Shmuel Kliger</span></a>, Founder and President</span><br /></li> 
+</ul> 
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,</span>
+</div> 
+<div>
+<span style="font-size: 12px;"></span>
+</div> 
+<div>
+<span style="font-size: 12px;">Your friends at <span style="color: #2c9427;">Turbonomic</span></span>
+</div>
+</div>  
+</body>
+</html>

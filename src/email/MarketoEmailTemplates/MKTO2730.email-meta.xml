@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic Cloud Readiness Follow Up  (1497445346.0)</name>
+    <style>none</style>
+    <subject>Turbonomic Cloud Readiness Follow Up  (1497445346.0)</subject>
+    <textOnly>-     
+	- 
+	-   90 Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    
+Hi Regina,
+Thank you for completing the Turbonomic Cloud Readiness Survey. You should receive your Amazon Gift Card shortly.
+Although you stated you’re not currently planning for a cloud migration, I can offer you another $100 Amazon Gift Card if I can schedule 30 minutes between you and a Turbonomic Engineer for a brief introduction. You indicated on your survey several Cloud Readiness challenges that Turbonomic directly addresses, specifically:
+	- Reduce capital expenditures - Turbonomic has been proven to reduce infrastructure requirements by 30% or more through intelligent consolidation	- Reduce operational expenditures - Turbonomic has been proven to decrease performance alerts by 80% or more through its patented automation engine	- Cloud cost forecasting - Turbonomic projects future monthly AWS and Azure bills so your teams can accurately plan and budget	- Anti-affinity enforcement - Turbonomic imports existing affinity and anti-affinity policies from your on-prem environment, while also extending this capability to the public cloud to ensure applications are distributed among availability zones, regions, or any other required permutation across the hybrid infrastructure
+
+Although it seems that the cloud migration project is something that is an initiative for further in the future, I’d still be happy to set up a 30 minute educational overview discussion to show you how Turbo solves the challenges you mentioned above. 
+Do you have 30 minutes over the next couple of weeks for a quick introduction? If, after our call, you decide to evaluate Turbonomic as a solution, we will make a donation in your name of $1,000 to any charity of your choice.Best regards, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

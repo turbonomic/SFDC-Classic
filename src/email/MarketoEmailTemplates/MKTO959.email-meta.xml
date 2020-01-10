@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>02_11_15 5.1 Invitation.5.1 Webinar Invite</name>
+    <style>none</style>
+    <subject>Have You Heard About Our Latest Release?</subject>
+    <textOnly>Hi {{lead.First Name:default=VMT Champion}}, 
+Yesterday we announced our latest release: VMTurbo Operations Manager 5.1 &lt;http://vmturbo.com/blog/operations-manager-v5-1?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021115&gt;. This release marks another step in enabling customers like yourself to assure application performance while maximizing efficiency of the underlying infrastructure. The same mission we’ve been on since 2009. 
+Worried about QoS for your Java® Apps? Stop living in the past; live in the now. The Application Control Module &lt;http://info.vmturbo.com/SI0H1g0bg010ZZV0200qptB?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021115&gt; will autoscale up or out based on real-time application demand, allowing you to assure application performance without over provisioning.
+What about self-service scaling? Covered. VMTurbo&apos;s Cloud Control Module &lt;http://info.vmturbo.com/dg0gV2CZqp0Hb00I1u010Z0?http://info.vmturbo.com/SI0H1g0bg010ZZV0200qptB?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021115&gt; provides your users with self-service scaling without sacrificing application performance.
+I/O intensive apps forcing you to overprovision? Not anymore. The Storage Control Module &lt;http://info.vmturbo.com/lqIpv000g2bV0H1g10Z0D0Z?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021115&gt; - now integrated with HP 3PAR and Pure Storage ensures your most demanding apps get the resources they need while maximizing the efficient use of your storage infrastructure, preventing over provisioning.
+Ready to learn more? Join us for our webinar February, 19th at 1:30 PM EST &lt;http://vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=021115&gt;
+Besides this do you have any questions? Are there any issues? Are you using the Green Circle Community? Would you like to throw some time on the calendar for a complimentary healthcheck? The Customer Experience Team is here to serve your needs – TAKE ADVANTAGE OF US!! 
+Feel free to reply here. 
+Best,
+Your Dedicated Customer Experience Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

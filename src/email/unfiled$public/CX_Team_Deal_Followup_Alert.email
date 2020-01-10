@@ -1,0 +1,8 @@
+Hello CX Team,
+
+{!Opportunity.Account} has just signed up as a customer - a {!Opportunity.Amount} deal.
+
+Please follow-up and schedule training and services as necessary.
+
+Link to the Opportunity: {!Opportunity.Link}
+Link to the Account: https://eu4.salesforce.com/{!Opportunity.AccountId}

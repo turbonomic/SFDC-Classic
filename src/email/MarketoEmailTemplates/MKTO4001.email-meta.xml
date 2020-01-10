@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-08-23 Non-MQL Geico eBlast.ES-2018-08-15 Non-MQL Geico eBlast</name>
+    <style>none</style>
+    <subject>3 Hours Could Save You 30% On Your Cloud Bill</subject>
+    <textOnly>&lt;[[https://turbonomic.com/product-3/why-turbonomic]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Recently, I learned that in one hour, Turbonomic found $2M worth of additional savings annually in the AWS environment of a long-time CloudHealth customer – along with over 500 performance critical risks due to inadequate resources.
+
+Turbonomic also recently uncovered:
+
+
+
+	- 30% additional monthly savings in a CloudCheckr (AWS) environment 
+
+	- 40% additional monthly savings in a Cloudyn (Azure) environment
+
+	- 74% additional monthly savings in a highly-advanced custom tooling (AWS) environment
+
+
+
+
+Would it be worth three hours of your time for Turbonomic to save you at least 30% off your annual cloud bill – and identify hidden performance risks before your customers do?
+
+Let&apos;s chat. &lt;[[https://turbonomic.com/request-a-demo/?nab=1]]&gt;
+
+
+Regards,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

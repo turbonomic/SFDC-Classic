@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-07-18-Storage-Performance-Demo.WBN-2018-07-18-Storage-Performance-Webin</name>
+    <style>none</style>
+    <subject>[Last Chance] Will you join us tomorrow?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/storage-performance-automation-webinar/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+The storage world is all about a software-defined approach, but the real win comes when you bring storage performance, compliance, and efficiency automation together across your hybrid environment with Turbonomic.
+
+
+Please join us for a live demo tomorrow illustrating everything from storage migrations and movement, to in-guest storage features, cloud storage automation, and even on-prem infrastructure capabilities. 
+
+
+ &lt;[[https://turbonomic.com/resources/storage-performance-automation-webinar/]]&gt;
+
+In this 30-minute live demo, Director of Technical Marketing and Technology Evangelist, Eric Wright will take you from zero to hero with your storage team and everyone across the IT organization.
+
+
+We hope to see you there!
+
+
+Regards,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2019-03-28 -Greg O&apos;neil.Email from Steve final</name>
+    <style>none</style>
+    <subject>Executive Order 19: Cloud Service Utilization and Readiness with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+
+
+
+With the recent announcement of Executive Order 19 &lt;[[https://www.governor.virginia.gov/media/governorvirginiagov/executive-actions/EO-19-Cloud-Service-Utilization-And-Readiness.pdf]]&gt;, directing all IT organizations under the Commonwealth to evaluate and incorporate cloud technologies into their service delivery models, I thought it would be appropriate to set up some time discuss your Hybrid Cloud Strategy at your 
+company and introduce you to the Turbonomic platform.
+ 
+I read through the document and outlined following Directives which Turbonomic can help your organization achieve in the table below.
+ 
+In a nut shell, Turbonomic is a Hybrid Cloud Management platform, with investments from AWS and Azure, that changes Cloud IT operations by allowing organizations to Safely accelerate cloud migrations, Drastically reduce cloud and Infrastructure costs, Build and run apps faster, and Maintain compliance 
+automatically.
+ 
+Turbonomic has received the AWS Cloud Migration &amp; Management Tool Competency, check out the article here &lt;[[https://hello.turbonomic.com/t/10712/c/9939c175-b2d9-41a3-b80f-09d14a234559/NB2HI4DTHIXS64TFONXXK4TDMVZS45DVOJRG63TPNVUWGLTDN5WS65DVOJRG63TPNVUWGLLDNRXXKZBNMFXGILLWNFZHI5LBNRUXUYLUNFXW4LLCNRXWOLLUOVZGE33ON5WWSYZNGIXXI5LSMJXW433NNFRS2YLDNBUWK5TFOMWWC53TFVRWY33VMQWW2YLOMFTWK3LFNZ2C25DPN5WHGLLDN5WXAZLUMVXGG6JNNFXC22LOMF2WO5LSMFWC23DBOVXGG2A=/resources-turbonomic-com-turbonomic-cloud-and-virtualization-blog-turbonomi/true]]&gt; and Microsoft Co-Sell Ready status which you can view here. &lt;[[https://hello.turbonomic.com/t/10712/c/9939c175-b2d9-41a3-b80f-09d14a234559/NB2HI4DTHIXS64TFONXXK4TDMVZS45DVOJRG63TPNVUWGLTDN5WS63LJMNZG643PMZ2C2YLOMQWXI5LSMJXW433NNFRS65DVOJRG63TPNVUWGLLFMFZG44ZNNVUWG4TPONXWM5BNMNXS243FNRWC24TFMFSHSLLTORQXI5LTFV2W4ZDFOJZWG33SNFXGOLLJORZS2ZLYOBSXE5DJONSS2YLOMQWXMYLMOVSS2YLEMQWWS3RNMF5HK4TFFVYHKYTMNFRS2Y3MN52WILLFNZ3GS4TPNZWWK3TUOM======/resources-turbonomic-com-microsoft-and-turbonomic-turbonomic-earns-microsof/true]]&gt;
+ 
+Simply respond to this email with available times and I’ll set up a call for a 1-hour introduction.
+ 
+Best,
+Steve 
+ 
+
+
+
+
+Directive from Executive Order 19
+
+
+How Turbonomic Can Help
+
+
+
+
+Speed up delivery of business solutions through faster paths to production
+
+
+Turbonomic enables customers to plan and deploy apps faster without compromising performance or efficiency (on-prem or in the cloud)
+
+
+
+
+Provide flexible solutions capable of quickly adapting to new and changing business solutions
+
+
+Turbonomic is a heterogeneous solution that manages physical, virtual, cloud, containers, IOT, edge computing
+
+
+
+
+Reduce operations and maintenance requirements for basic needs such as power and space
+
+
+Turbonomic enables customers to safely consolidate data centers and existing infrastructure (reducing hardware, licensing, power, cooling, space etc.)
+
+
+
+
+Provide transparency so that customers are more aware of what they get for their money
+
+
+Turbonomic’s platform shows resource consumption on-prem and in the public cloud with associated cost to run workloads
+
+
+
+
+Provide service elasticity to support increased citizen needs at peak times
+
+
+Turbonomic automates real-time resource allocation decisions so applications that need resources get them instantly and on-demand during peak times (pay for what you consume not what you allocate)
+
+
+
+
+Provide a structure that allows for a more resilient environment in the case of a disaster or service outage
+
+
+Turbonomic continuously and automatically enforces business continuity, high-availability, data sovereignty and compliance policies.
+
+
+
+
+ 
+
+
+
+Sincerely, 
+
+Steve
+
+
+General Manager and Vice President
+Commercial Sales, Americas
+Email: steve@turbonomic.com &lt;[[mailto:steve@turbonomic.com]]&gt;
+ &lt;[[mailto:steve@turbonomic.com]]&gt;Cell: 774-273-0056
+Office: 781-418-5232
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+ contact us &lt;[[http://go.vmturbo.com/contact-us.html?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker]]&gt; | website &lt;[[http://www.turbonomic.com?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker]]&gt; | privacy policy &lt;[[http://www.turbonomic.com/privacy-policy?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+*** Training has been completed ***
+
+Account: {!Account.Name}
+
+Account Owner: {!Account.OwnerFullName}
+
+Asset: {!Training_Services__c.Asset__c}
+
+Location: {!Training_Services__c.Location__c}
+
+Trainer: {!Training_Services__c.Delivered_By__c}
+
+Date Completed: {!Training_Services__c.Delivery_Date__c}
+
+-------------------------------------------------------------------------------------------------------
+
+Please click the following link for more details:
+
+{!Training_Services__c.Link}

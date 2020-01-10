@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: Turbonomic IT Maturity Survey Response  (1496163961.0)</name>
+    <style>none</style>
+    <subject>RE: Turbonomic IT Maturity Survey Response  (1496163961.0)</subject>
+    <textOnly>-     
+	- 
+	-   90 Clean DocumentEmail      false false false  EN-US X-NONE X-NONE             MicrosoftInternetExplorer4                                                                                                                                                                                                                                                                                                                                                                                                            Hi Colin, Thank you again for completing the Turbonomic IT Maturity Survey. By now, you should have received your $25 Amazon Gift Card via email. I am reaching out again because I wanted to follow up on my previous note; based upon your answers to our survey, I believe Turbonomic could provide tremendous value to your organization, and I’d like to show you why.   Furthermore, we are offering a $100 gift card or a $100 donation to a charity of your choice, in your name, if you choose to engage in a 30-minute consultation with us to learn about Turbonomic. However, in order to receive this gift card or have the donation made, you must schedule this meeting before the end of this week and complete it before June 16th (you will receive the second gift card via email within 48 hours of meeting completion). Are you available for a 30 minute intro call this week? If you agree to engage in a proof of value with us after this initial introduction, we are also offering to make an additional $1,000 donation in your name to a charity of your choice. Best regards, James From: James Wilcox 
+Sent: Wednesday, May 24, 2017 10:48 AM
+To: &apos;colin.bitterfield@blackboard.com&apos; &lt;colin.bitterfield@blackboard.com&gt;
+Subject: Turbonomic IT Maturity Survey Response  
+Hi Colin,
+Thank you for completing the Turbonomic IT Maturity Survey. You should receive your Amazon Gift Card shortly.
+I can offer you another $100 Amazon Gift Card if I can schedule 30 minutes between you and a Turbonomic Engineer. Furthermore, if after our 30 minute call you decided to engage in an evaluation of Turbonomic, we will make a donation in your name of $1,000 to a 503c charity of your choice.. You indicated on your survey several challenges that Turbonomic directly addresses, specifically:
+	- Troubleshooting/Proactive Monitoring - Turbonomic has been proven to decrease performance alerts by 80% or more through its patented automation engine	- Growth in Environment Complexity - Turbonomic’s vendor-agnostic, patented analytics have been proven to reduce infrastructure requirements by 30% or more through intelligent automation	- Properly Utilizing Automation - Turbonomic’s patented algorithm automates the right workload placement, sizing, and scaling decisions for you in real-time, reducing the need for manual management. For enterprises leveraging a self-service model, Turbonomic integrates with all major cloud management tools to support continuous integration and continuous deployment for seamless workload provisioning.
+
+Do you have 30 minutes to jump on a quick intro call over the next couple of weeks to address these challenges?
+ 
+Thank you, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-06-15-5.6 Release Webinar.ES-06-13-2016-Customer Webinar Invite.Send</name>
+    <style>none</style>
+    <subject>VMTurbo 5.6 Now Available! - ServiceNow Integration, JVM, Improved UCS Performance &amp; More</subject>
+    <textOnly>&lt;[[http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-6Cust&amp;utm_content=06142016]]&gt;
+Hi {{lead.First Name:default=There}},
+
+We are happy to announce that VMTurbo 5.6 is now generally available. As with all releases, VMTurbo 5.6 adds more proof points in our journey towards controlling any workload on any infrastructure at any time. To get started with the new bits, simply update your VMTurbo appliance:
+
+
+ - Update VMTurbo software online &lt;[[https://greencircle.vmturbo.com/docs/DOC-1561?mkt_tok=3RkMMJWWfF9wsRomrfCcI63Em2iQPJWpsrB0B/DC18kX3RUrJrSffkz6htBZF5s8TM3DUlJDXqpI6EEOSbA=]]&gt;
+ - Update VMTurbo software offline &lt;[[https://greencircle.vmturbo.com/docs/DOC-1292?mkt_tok=3RkMMJWWfF9wsRomrfCcI63Em2iQPJWpsrB0B%2FDC18kX3RUrJrSffkz6htBZF5s8TM3DUlJDXqpI6EEOSbA%3D]]&gt;
+
+
+Whats new:
+
+
+
+ - Private Cloud Control: Turn-key Integration with ServiceNow  
+Real-time placement decisions for your ServiceNow environment and workload provisioning enable you to guarantee application performance and accelerate your private cloud initiatives.
+
+
+ - Java Virtual Machine Integration 
+Extended control to any JVM format, including: Apache, Storm, Jetty and Tomcat.
+
+
+ - UCS Improved Performance 
+Enhanced fabric market abstraction leads to improved system performance and reduced fabric utilization. Enabling enhanced management of your port throughput and blade usage.
+
+
+ - Deeper visibility into CloudStack
+Reach your desired system state faster, by managing your CloudStack environment with improved data consistency and compliance control.
+
+ - and more...
+
+
+Join us for our release webinar this Wednesday at 1:00 PM EST where we will discuss whats new in 5.6! You can register for the webinar below.
+
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

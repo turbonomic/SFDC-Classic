@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: Gartner Event - December 2018.004 Gartner Event - Follow Up 1</name>
+    <style>none</style>
+    <subject>Gartner Cloud Strategies Conference 2018 Takeaways</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Thanks for visiting us last week during Gartner’s Infrastructure, Operations and Cloud Strategies Conference! In case you missed any key learnings or sessions, Turbonomic has your back.
+
+
+Join our webinar, Gartner Infrastructure, Operations, and Cloud Strategies Conference 2018 Takeaways &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/]]&gt; on January 9, 2019, at 11:00 am EST, where event attendee and Vice President of Product Marketing, Bob Wambach, will share his post-event recap. 
+
+
+ &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/]]&gt;
+
+
+You will hear about key calls to action from the event, what they mean for you and your team, and what to expect in 2019. All registered guests will be entered to win a $100 Amazon gift card.
+
+
+We hope to see you there!
+ 
+
+Best,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

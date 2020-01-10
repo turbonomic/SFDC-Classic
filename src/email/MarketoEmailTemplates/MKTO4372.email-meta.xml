@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-11-29 AWS eBook Second Send - US.ES-2018-11-29 AWS eBook Send 2</name>
+    <style>none</style>
+    <subject>Everything you wanted to know about AWS IaaS but were too afraid to ask</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Are you and your team planning to design and deploy IaaS solutions in the cloud using AWS? Don&apos;t tackle that project alone. Turbonomic can help. 
+
+
+Check out our latest eBook &lt;[[https://turbonomic.com/aws-iaas-solutions/?utm_campaign=70157000001eTw7AAE]]&gt; in which Eric Wright, technology evangelist at Turbonomic, explores core AWS IaaS solutions for computing, database storage, networking, and more.
+
+
+ &lt;[[https://turbonomic.com/aws-iaas-solutions/?utm_campaign=70157000001eTw7AAE]]&gt; 
+
+By the end of this ebook, you’ll master AWS core components and how to design for resiliency. You’ll even be able to launch and manage your cloud solution using either the AWS command-line interface or the AWS web console.
+
+
+I hope you find it helpful!
+
+
+Best,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

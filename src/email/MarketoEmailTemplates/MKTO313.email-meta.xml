@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Netapp Follow up - Reminder to Reg.NonReg..Registrant Reminder</name>
+    <style>none</style>
+    <subject>Webinar Reminder Tomorrow: NetApp ONTAP and VMTurbo: Aligning Virtualization with Storage – Live Demo</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+We look forward to having you join us tomorrow for the webinar, NetApp ONTAP and VMTurbo: Aligning Virtualization with Storage – Live Demo.The link to the meeting in your preferred timezone appears below. In advance of the session, feel free to contact us http://bit.ly/1gGVikz with any questions you’d like addressed. There will also be a live Q&amp;A session following the presentation.
+
+Link to the meeting at your preferred time:
+
+Tuesday, November 19, 10:00 AM EST http://bit.ly/17vxGfW
+Tuesday, November 19, 12:00 PM EST http://bit.ly/HfqeZX     
+
+Sincerely, 
+ Jonathan Reeve 
+ VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

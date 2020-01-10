@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-03-09-Turbofest-Silicon-Valley.Email-Thank You Survey</name>
+    <style>none</style>
+    <subject>Take Our #VMTurbofest Survey For A Green Circle T-Shirt</subject>
+    <textOnly>&lt;[[https://www.surveymonkey.com/r/turbofest-sv-2016]]&gt;
+Hi {{Lead.First Name}}, 
+
+Thank you immensely for joining us yesterday at Turbofest Silicon Valley. Please take this 2-minute survey &lt;[[https://www.surveymonkey.com/r/turbofest-sv-2016]]&gt; to provide feedback on how we can improve future Turbofests for you and your colleagues.
+
+For your time, you will receive 1,000 Green Circle Community Points, redeemable for Green Circle Community T-Shirt!
+
+Questions, comments, concerns, or control - just let us know. See you next year.
+
+Sincerely,
+The VMTurbo Team
+
+#VMTurbofest
+It&apos;s A Bird.
+It&apos;s a Plane.
+It&apos;s Your Shirt.
+
+ &lt;[[https://www.surveymonkey.com/r/turbofest-sv-2016]]&gt;
+
+Give Us Feedback &lt;[[https://www.surveymonkey.com/r/turbofest-sv-2016]]&gt;
+
+Get This T-Shirt</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

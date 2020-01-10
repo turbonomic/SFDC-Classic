@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-01-23-Field-East-RD-Sponsored-Montreal.ES-2017-12-14-Montreal-03.Send -</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Montreal Executive Networking Game</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+In my years of experience at Turbonomic, I have experienced the digital transformation of IT to an automated, hybrid cloud world. I&apos;d love to discuss this new wave of IT with you and your technology peers.
+
+I&apos;ll be hosting an exclusive event in your area and would like cordially invite you to join myself and dozens of our fellow IT leaders in Montreal for the upcoming Montreal Executive Networking Game &lt;[[https://turbonomic.com/vip-montreal/]]&gt; on Tuesday, January 23rd 2017 at the Centre Bell Arena where the Canadiens will take on the Avalanche, at 6:30PM. 
+
+
+While the hybrid cloud presents boundless opportunities, the IT operations and management risks are formidable and oversights are expensive. The reality is, we end up paying for what we think we&apos;ll use, and many workloads in the cloud are just as over-provisioned as their on-premises counterparts, leading enterprises to overspend on idle resources, this time, paying AWS or Azure by the hour or even the second. 
+
+
+This event is a great opportunity to meet with peers, share challenges, and discuss trends heading into the new year. It is my goal and hope that this networking 
+opportunity will be intellectually stimulating and fun for all.
+
+I look forward to meeting you. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/vip-montreal/]]&gt; as soon as possible.
+
+
+
+Yours sincerely,
+JR Butler
+
+
+
+
+JR Butler
+Regional Vice President
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

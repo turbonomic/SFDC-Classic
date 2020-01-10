@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-08-Field-East-RD-Sponsored-New-York.ES-2018-2-28-MR Invite.EMAIL - E</name>
+    <style>none</style>
+    <subject>You&apos;re Invited - Ai Fiori Customer Appreciation Dinner</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+
+
+As a special thank you for being a valued customer, we want to invite you to an exclusive Turbonomic Champions Dinner at Ai Fiori on March 8th. During this time, you will have an opportunity to dine with fellow Turbonomic customers and speak with Dave Kranowitz, GM of Enterprise Sales, about the future of Turbonomic and your unique experience as a Turbonomic customer. We hope that you will join us for this exclusive experience at Michelin restaurant Ai Fiori, to discuss the exciting new frontiers of the 
+hybrid cloud as we share the latest and greatest of the Turbonomic platform.
+
+
+
+
+
+
+
+Turbonomic Customer Dinner New York City &lt;[[https://turbonomic.com/vip-newyork/]]&gt;
+
+Where: Ai Fiori
+400 5th Ave #2, New York, NY 10018
+Thursday, March 8th 5:30pm
+ &lt;[[https://turbonomic.com/vip-newyork/]]&gt;
+RSVP: https://turbonomic.com/vip-newyork/ &lt;[[https://turbonomic.com/vip-newyork/]]&gt;
+
+
+
+
+
+
+Please note that slots for this event are limited and filling up fast.
+
+We hope to see you there!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

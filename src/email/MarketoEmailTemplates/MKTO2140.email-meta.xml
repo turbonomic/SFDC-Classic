@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Info on Turbonomic  (1493123043.0)</name>
+    <style>none</style>
+    <subject>Info on Turbonomic  (1493123043.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Alex,I wanted to send over some info about Turbonomic as a refresher before we meet in Mid May: Turbonomic is also enabling customers to support and safely migrate across multi hypervisor environments (VMWare, Openstack etc) and new PaaS technologies, Containers, and Cloud Enablement.   Some Key value points of the Turbonomic solution
+	- Turbonomic sits on top of your virtualization platform (VMWare, HyperV, OpenStack, etc) It automates the workload placement, sizing, and capacity decisions for you to improve performance and drive efficiency of your cloud infrastructure. 	- Hybrid Cloud Management- Turbonomic intelligently determines which workloads to burst where and when to assure performance and maximize efficiency 	- Increase density by 20%-40% with intelligent placement actions (better utilization of existing infrastructure to lower CapX &amp; OppX)	- Reduce and control software licensing (CapX &amp; OppX savings)	- Accurately plan for the future and understand when you need to buy new hardware and where you need to put it.	- Turbonomic installs in under an hour and will be providing immediate value within the first day.
+Below are links to data sheets with information on what our software does and the problem we solve.  Turbonomic Overiew  &lt;[[http://t.sidekickopen69.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJN7t5XYgdVn3dW8qSQCx76hVPRN72kTf31sBwYf7xKJSz03?t=http%3A%2F%2Fcdn.vmturbo.com%2Fwp-content%2Fuploads%2F2016%2F03%2FVMTurbo-Operations-Manager-Data-Sheet.pdf&amp;si=6013571735748608&amp;pi=506778dc-f66c-4c92-a181-578bc0c9b471]]&gt; Turbonomic Control For Any Cloud  &lt;[[http://t.sidekickopen69.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJN7t5XYgdVn3dW8qSQCx76hVPRN72kTf31sBwYf7xKJSz03?t=http%3A%2F%2Fvmturbo.com%2Fwp-content%2Fuploads%2F2016%2F01%2FVMT-CTRL-for-Any-Cloud-Jan-2016.pdf&amp;si=6013571735748608&amp;pi=506778dc-f66c-4c92-a181-578bc0c9b471]]&gt; Hope this information is a good refresher and I look forward to talking on May 19.                     Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,8 @@
+Sales just denied a registration. Please see below: 
+
+Partner Account: {!VartopiaDRS__Registration__c.VartopiaDRS__Partner_Account__c} 
+Partner Manager: {!VartopiaDRS__Registration__c.Partner_Manager__c} 
+Customer: {!VartopiaDRS__Registration__c.VartopiaDRS__Customer_Name__c} 
+Amount: {!VartopiaDRS__Registration__c.VartopiaDRS__Expected_Revenue__c} 
+Registration Sales Rep: {!VartopiaDRS__Registration__c.VartopiaDRS__Sales_Rep__c} 
+Registration Link: {!VartopiaDRS__Registration__c.Link}

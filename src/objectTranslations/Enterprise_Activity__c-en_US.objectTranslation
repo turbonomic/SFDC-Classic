@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enterprise Activity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enterprise Activities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Enterprise Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin --></label>
+        <name>Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIO/CTO --></label>
+        <name>CIO_CTO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director --></label>
+        <name>Director__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engineer --></label>
+        <name>Engineer__c</name>
+        <picklistValues>
+            <masterLabel>Alec Kemp</masterLabel>
+            <translation><!-- Alec Kemp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allen Patterson</masterLabel>
+            <translation><!-- Allen Patterson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anson McCook</masterLabel>
+            <translation><!-- Anson McCook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aseem Anwar</masterLabel>
+            <translation><!-- Aseem Anwar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barry Howard</masterLabel>
+            <translation><!-- Barry Howard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brad Blogett</masterLabel>
+            <translation><!-- Brad Blogett --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charles Russell</masterLabel>
+            <translation><!-- Charles Russell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chris Rauch</masterLabel>
+            <translation><!-- Chris Rauch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chris Williamson</masterLabel>
+            <translation><!-- Chris Williamson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daniel Butzer</masterLabel>
+            <translation><!-- Daniel Butzer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Don McKeith</masterLabel>
+            <translation><!-- Don McKeith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eric Horsman</masterLabel>
+            <translation><!-- Eric Horsman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Francois Guillaume</masterLabel>
+            <translation><!-- Francois Guillaume --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hillel Adler</masterLabel>
+            <translation><!-- Hillel Adler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iddo Avneri</masterLabel>
+            <translation><!-- Iddo Avneri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacob Ben-David</masterLabel>
+            <translation><!-- Jacob Ben-David --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>James Dyckowski</masterLabel>
+            <translation><!-- James Dyckowski --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamie Hodge</masterLabel>
+            <translation><!-- Jamie Hodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Beaudette</masterLabel>
+            <translation><!-- Jason Beaudette --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Howard</masterLabel>
+            <translation><!-- Jason Howard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Huff</masterLabel>
+            <translation><!-- Jason Huff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeremy Levenson</masterLabel>
+            <translation><!-- Jeremy Levenson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jerome Papazian</masterLabel>
+            <translation><!-- Jerome Papazian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jimmy Herbert</masterLabel>
+            <translation><!-- Jimmy Herbert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joe Burke</masterLabel>
+            <translation><!-- Joe Burke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juan Santos</masterLabel>
+            <translation><!-- Juan Santos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jules Albin</masterLabel>
+            <translation><!-- Jules Albin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kent Nierendorf</masterLabel>
+            <translation><!-- Kent Nierendorf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kevin Lamb</masterLabel>
+            <translation><!-- Kevin Lamb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luis DaSilva</masterLabel>
+            <translation><!-- Luis DaSilva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masa Kawano</masterLabel>
+            <translation><!-- Masa Kawano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Ray</masterLabel>
+            <translation><!-- Matt Ray --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Vetter</masterLabel>
+            <translation><!-- Matt Vetter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matthew Harcourt</masterLabel>
+            <translation><!-- Matthew Harcourt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Isaia</masterLabel>
+            <translation><!-- Michael Isaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Nagar</masterLabel>
+            <translation><!-- Michael Nagar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Saville</masterLabel>
+            <translation><!-- Michael Saville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nick Joseph</masterLabel>
+            <translation><!-- Nick Joseph --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Engineer</masterLabel>
+            <translation><!-- No Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paul Mallick</masterLabel>
+            <translation><!-- Paul Mallick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paul Zychowicz</masterLabel>
+            <translation><!-- Paul Zychowicz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richard Stinton</masterLabel>
+            <translation><!-- Richard Stinton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richard Trickey</masterLabel>
+            <translation><!-- Richard Trickey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robert Coppersmith</masterLabel>
+            <translation><!-- Robert Coppersmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ryan DeWaele</masterLabel>
+            <translation><!-- Ryan DeWaele --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ryan Strehlke</masterLabel>
+            <translation><!-- Ryan Strehlke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sergey Omelaenko</masterLabel>
+            <translation><!-- Sergey Omelaenko --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stephan Wagner</masterLabel>
+            <translation><!-- Stephan Wagner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suky Bains</masterLabel>
+            <translation><!-- Suky Bains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vijay Tolani</masterLabel>
+            <translation><!-- Vijay Tolani --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vytas Januskis</masterLabel>
+            <translation><!-- Vytas Januskis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will Searle</masterLabel>
+            <translation><!-- Will Searle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Executive Sponsor --></label>
+        <name>Executive_Sponsor__c</name>
+        <relationshipLabel><!-- Enterprise Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Date --></label>
+        <name>Meeting_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Summary --></label>
+        <name>Meeting_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Objective --></label>
+        <name>Primary_Objective__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity --></label>
+        <name>Related_Opportunity__c</name>
+        <relationshipLabel><!-- Enterprise Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SE Assigned --></label>
+        <name>SE_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- SVP --></label>
+        <name>SVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VP --></label>
+        <name>VP__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

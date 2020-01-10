@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-11-02-TurboShot.(f)ES-2016-10-05-TurboShotExecutiveDashboards</name>
+    <style>none</style>
+    <subject>TurboShot|Learn How To Make Executive Dashboards &amp; More</subject>
+    <textOnly>Greetings from Turbonomic, {{lead.First Name:default=}}
+
+Here&apos;s your monthly dose of Turbonomic. Want to speak about your experience as a customer?
+
+Sign up for a confidential Customer Feedback Interview &lt;[[mailto:Murphy.Vandervelde@Turbonomic.com?Subject=Customer Feedback Interview]]&gt; and receive a $25 Amazon Gift card!
+&lt;[[https://greencircle.vmturbo.com/videos/1214?utm_source=turbonomic&amp;amp;amp;utm_medium=email&amp;amp;amp;utm_campaign=customer-newsletter&amp;amp;amp;utm_content=11022016]]&gt;
+&lt;[[https://greencircle.vmturbo.com/docs/DOC-3870?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=11022016#whatsHappening]]&gt;
+&lt;[[https://greencircle.vmturbo.com/docs/DOC-3870?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=11022016#tipsTricks]]&gt;
+Featured Customer
+Amy Manley &amp; University of Chicago Medical Center
+This month we are excited to feature Amy Manley from University of Chicago Medical Center. Amy championed Turbonomic to her boss as a necessity for the next generation infrastructure they were building at the time. With automation fully enabled they were able to drive vm densities from 8:1 to 30:1, cut the time in half to deliver the new infrastructure, and help intelligently place new vms with our integration into VRA/VRO!
+Read More » &lt;[[https://greencircle.vmturbo.com/docs/DOC-3870?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=10052016#featuredCustomer]]&gt;
+Featured Technology
+Serverless Computing: Oxymoron or the Next Big Cloud Play?
+By now we are all familiar with the terms SaaS, IaaS and PaaS but prepare yourself for a new wave of offerings “as a service”. Serverless computing, Event Driven Computing or Function as a Service (FaaS for short) is an emerging trend that cloud providers are offering to their clientele. While it sounds like an oxy moron, serverless computing could be the new frontier for cloud solutions.
+Read More » &lt;[[https://turbonomic.com/blog/on-technology/serverless-computing-oxy-moron-or-the-next-big-cloud-play/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=11022016#featuredTech]]&gt;
+
+How likely are you to recommend Turbonomic to a colleague?      Not at all likely
+  Extremely likely   
+         1  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=1]]&gt;          2  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=2]]&gt;           3  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=3]]&gt;          4  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=4]]&gt;          5  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=5]]&gt;          6  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=6]]&gt;          7  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=7]]&gt;          8  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=8]]&gt;          9  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=9]]&gt;          10  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=10]]&gt;
+© Turbonomic, Inc. 500 Boylston Street, 7th Floor
+Boston, MA 02116
+&lt;[[https://twitter.com/turbonomic]]&gt;  &lt;[[https://www.linkedin.com/company/turbonomic]]&gt;  &lt;[[https://www.youtube.com/user/myVMTurboTV?gl=CO&amp;hl=es-419]]&gt;  &lt;[[https://www.facebook.com/turbonomic]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

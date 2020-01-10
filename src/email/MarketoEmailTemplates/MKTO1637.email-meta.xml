@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_09_2014 EA Program - Customers.EA Program - Email</name>
+    <style>none</style>
+    <subject>Go to VMworld with VMTurbo Early Access | Join the Circle of Trust</subject>
+    <textOnly>Announcing the VMTurbo® Early Access Incentive Program!
+
+Dear {{Lead.First Name:default=}}
+
+You heard it first during our Octurbofest VMTurbo User Group meeting in Boston, MA on October 8, and now read about it in the Green Circle &lt;https://greencircle.vmturbo.com/community/products/blog/2014/10/08/the-early-access-incentive-program-announcement/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=eaprogram&amp;utm_content=100914&gt;.
+
+Green Circle VMTurbo Customers are invited to participate in a great incentive program to recognize the support we have received from our Valuable Contributors and give you the opportunity to receive some Recognition and Reward!
+
+The Participant – Green Level
+
+
+ - Who?  Any customer! Unlimited numbers of participants
+
+ - What do you have to do?   
+
+
+ - Participate &amp; Provide feedback
+
+
+
+
+ - What do you get?   
+
+
+ - Bragging rights Special icon in your name &amp; points
+ - Reward: Limited Edition T–Shirt
+
+
+
+
+
+
+The Consultant / Circle of Trust – Platinum Level
+
+
+ - Who?  Any customer!  Will be limited to our Top 10 Contributors (one per Company)
+
+ - What do you have to do?   
+
+
+ - Participate &amp; Provide feedback 
+
+
+
+
+ - What do you get?   
+
+
+ - Even more bragging rights Plus a Very Special icon in your name &amp; points
+ - Reward: VMWorld 2015 Conference Pass
+
+
+
+
+
+
+For more details on the program and how to get in, visit the VMTurbo Green Circle’s Announcement here &lt;https://greencircle.vmturbo.com/community/products/blog/2014/10/08/the-early-access-incentive-program-announcement/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=eaprogram&amp;utm_content=100914&gt;.  A VMTurbo Customer but not a member of the Green Circle yet? Start here &lt;https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=eaprogram&amp;utm_content=100914&gt;.
+
+Any questions, contact Eva Tuczai &lt;mailto:eva.tuczai@vmturbo.com&amp;subject=VMTurbo EA Program&gt;, VMTurbo Product Management.
+
+ 
+
+Stay Green,
+
+Shmuel Kliger
+Founder, President &amp; CTO
+VMTurbo, Inc.
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

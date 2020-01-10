@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-10-18-Cloud Expo Asia Follow-Up.Send</name>
+    <style>none</style>
+    <subject>CLOUD EXPO ASIA 2017 - Turbonomic: Thank You</subject>
+    <textOnly>Dear {{Lead.First Name}},
+ 
+Thank-you for visiting the Turbonomic stand at Cloud Expo Asia 2017.
+ 
+Please find below an email that encapsulates the benefits of Turbonomic. 
+ 
+Would you like further information? 
+ 
+If so, we would be happy to put you in touch with one of our Asia based partners, or we can arrange a remote webex session.
+ 
+Please do let me know if you would like to further investigate the possible benefits of Turbonomic to your organisation?
+ 
+We look forward to hearing from you.
+ 
+Regards,
+Greg
+ 
+Greg Beale
+Region Director |APAC|
+Turbonomic
+567 Collins Street
+Melbourne, Australia 3000.
+Office:   +61 3 86209030
+ 
+What is Turbonomic? http://www.turbonomic.com/ &lt;[[http://www.turbonomic.com/?utm_source=turbonomic&amp;utm_medium=email]]&gt;
+ 
+*****************************************************************************************************************
+               
+To re-cap our brief conversation at Cloud Expo Asia 2017 regarding Turbonomic:-
+       
+Turbonomic is the only Hybrid Cloud Management Platform that continuously analyzes application consumption, costs and compliance constraints and automatically allocates resources in real-time. 
+It assures application performance by giving workloads the resources they need when they need them.
+         
+A good analogy is Auto-Pilot on an aircraft.  Essentially, Software is controlling the plane in a desired state, with over 500 lives at stake.  And importantly, it is trusted!  Why then, don&apos;t we use the same autonomic method to assess and deliver resources to the applications that require them in the Data Centre or Cloud?  This is the problem that Turbonomic has uniquely solved.
+ 
+You can also think of this as QoS for Applications.
+ 
+Turbonomic has transformed the way IT has delivered Application Assurance for the past four decades.  As such the value proposition is compelling:
+           
+30% increase in Application Performance whilst unlocking 30% more VM headroom in private cloud, and reducing public cloud costs by minimum 30% as well. 91% of customers surveyed receive full ROI within 100 days
+ 
+The software is unique because it uses economic principles of supply and demand to continuously match workload demand to infrastructure supply, to bring and keep the environment in a &quot;desired state&quot;. A state where application QoS is assured while utilization is maximized.
+       
+This is in stark contrast to the monitoring and alerting products that are on the market today.  They present alerts and reports, but a human still must decide &quot;is this smoke or fire?&quot; and &quot;if I have guessed right, what do I now have to do to attempt remediation?&quot;. 
+ 
+Turbonomic prevents the problem from occurring in the first place
+The software is so advanced that major corporations worldwide are quarter by quarter increasingly trusting it to ensure Application Performance AND Infrastructure efficiency are delivered in Real Time. 1800 customers as we write and counting
+       
+The solution works in any Virtualised environment, and covers on-premise, hybrid and public cloud implementations, including AWS, Azure, IBM Softlayer with Google Cloud support imminent.
+           
+Leveraging Turbonomic, our customers, including AT&amp;T, Verizon, Cisco, Fujitsu, Dimension Data, Barclays Bank, JP Morgan Chase Bank, Credit Suisse, HP, Nike, Coca Cola, GE, CSC, PWC, Telstra, RDB, AVIS, AGL Energy, Mitre10 and Westrac assure that applications get the resources they need to operate reliably, while utilizing their most valuable infrastructure and human resources, most efficiently.
+            
+Details can be found at: https://turbonomic.com/customers/ &lt;[[https://turbonomic.com/customers/?utm_source=turbonomic&amp;utm_medium=email]]&gt;
+           
+This clip provides a good illustration: https://turbonomic.wistia.com/medias/o8llmeuitc &lt;[[https://vmturbo.wistia.com/medias/o8llmeuitc/??utm_source=turbonomic&amp;utm_medium=email]]&gt;
+ 
+This clip shows the benefits BMC received: https://turbonomic.com/resources/videos/cloud-economics-on-prem-or-off-with-turbonomic-bmc/ &lt;[[https://turbonomic.com/resources/videos/cloud-economics-on-prem-or-off-with-turbonomic-bmc/?utm_source=turbonomic&amp;utm_medium=email]]&gt;
+       
+Apart from the performance and cost saving benefits, Turbonomic also provides significant value with its scenario modelling and capacity planning capability.
+          
+For example, customers can run the planning tool and Turbonomic provides the ability to model any number of scenario&apos;s, including the effect of increasing workloads, which may show that existing infrastructure can more than adequately handle an increase, negating the need for budgeting for more hardware (and commissioning lead time).  
+Alternatively, do you know which workloads are the best candidates to move to the cloud, which cloud provider, and what size templates should be acquired?
+ 
+Turbonomic provides these answers in a matter of minutes, and then continues to ensure the environment is optimised from a performance and cost perspective on an ongoing basis.
+       
+**************************************************************************</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>4/30/2014 Everbank Webcast.DELETE</name>
+    <style>none</style>
+    <subject>LEGO X-Wing vs. Millennium Falcon | Register &amp; Vote to Win</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+A VMTurbo Webinar Invitation
+Best Practices for Virtualization Management:
+How Everbank Leverages VMTurbo to Reduce
+CapEx and OpEx While Driving Innovation
+WHAT: Webinar, followed by a LEGO Star WarsTM Raffle
+WHEN: Wednesday, April 30, 2014, 9 am PDT / Noon EDT / 5 pm GMT 
+FEATURING: Roger Bowen, Manager IT Data Center Operations, Everbank
+Steve Corndell, Solutions Director, VMTurbo
+
+Everbank is one of the fastest-growing regional banks in the United States. From award-winning banking products to unique, sophisticated investing opportunities backed by precious metals, Everbank is a distinguished innovator in retail banking.
+Join us on this webinar where you&apos;ll learn firsthand:
+
+ - How you, like Everbank, can leverage technology to power your innovation-driven strategy
+ - The specific, increasingly complex technology challenges caused by Everbank&apos;s rapid business growth
+ - The virtualization performance issues that threatened Everbank&apos;s ability to innovate
+ - How Everbank overcame these challenges while reducing capital and operational expenses with VMTurbo
+ - And much more
+
+All webinar registrants will be entered to win a LEGOTM Star WarsTM X-Wing or LEGOTM Star WarsTM Millennium Falcon - you vote and decide!
+Register Now &lt;http://bit.ly/QecPGi&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-14 Webinar Invite (5/16).ES-2018-05-14-Webinar-Attendee-Promo1</name>
+    <style>none</style>
+    <subject>Delivering on the Promise of Application-Aware Infrastructure</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Can you imagine if your Application Performance Management solution detected a problem and the infrastructure automatically responded in real-time? If so, you should join our webinar this Wednesday morning at 11 am EST.
+
+
+ &lt;[[https://turbonomic.com/resources/true-application-aware-infrastructure/]]&gt;
+
+
+During this live demo, Director of Technical Marketing and Technology Evangelist, Eric Wright will take you through a live tour of Turbonomic 6.1, with a focus on the impact of our deep integration with Gartner APM Magic Quadrant 2018 Leader, Cisco AppDynamics.
+
+
+I hope you can join us &lt;[[https://turbonomic.com/resources/true-application-aware-infrastructure/]]&gt;!
+
+
+
+Best,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

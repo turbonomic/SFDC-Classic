@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Perpetual License</fullName>
+        <default>false</default>
+        <label>Perpetual License</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintenance</fullName>
+        <default>false</default>
+        <label>Maintenance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Subscription License</fullName>
+        <default>false</default>
+        <label>Subscription License</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RAPID Success</fullName>
+        <default>false</default>
+        <label>RAPID Success</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintenance (Legacy)</fullName>
+        <default>false</default>
+        <label>Maintenance (Legacy)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SaaS Subscription</fullName>
+        <default>false</default>
+        <label>SaaS Subscription</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SaaS Hosting</fullName>
+        <default>false</default>
+        <label>SaaS Hosting</label>
+    </standardValue>
+</StandardValueSet>

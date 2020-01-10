@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>WP - CIO guide to autonomic IT</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Commercial_Financial Services_Cold_Nurture.FinancialServices_Cold_Nurture_Com</name>
+    <style>none</style>
+    <subject>Free CIO Guide to Autonomic IT</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/template/turbonomic-cio-guide-to-autonomic-it]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Are you seeking to transform your business while delivering predictable performance AND minimizing costs? No matter what stage your organization is in today, an autonomic approach that allows workloads to self-manage on any infrastructure or cloud can help.
+
+
+Today, organizations 
+such as Barclays, Merck, JPMorgan Chase, and Travelport achieve their goals through Turbonomic&apos;s AI-powered automation. Our software provides all workloads the exact resources they need, at the right time, and always in accordance with policies.
+
+
+Check out this 
+free &quot;CIO Guide to Autonomic IT&quot; &lt;[[https://resources.turbonomic.com/template/turbonomic-cio-guide-to-autonomic-it]]&gt; to benchmark your organization against the 5 Stages of IT Maturity, compare challenges based on your current stage, and discover how an autonomic 
+solution can enable you to meet your goals.
+
+
+
+
+
+
+
+
+
+Regards, 
+
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!-- Copyright (C) 2017 Perkuto Solutions Inc - All Rights Reserved. You may use and modify this code under the terms of the Perkuto Template license available here: http://perkuto.com/terms-and-conditions  -->
+<head> 
+<!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml><![endif]--> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta name="format-detection" content="telephone=no" /> 
+<title>Allegro</title> 
+<!-- Start Marketo Variable Definitions -->                                      
+<!-- Start Marketo Variable Definitions --> 
+<style type="text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; background-color:#e7e9e4; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; margin:0!important;padding:0!important;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+
+        body,
+        #body_style {background-color:#e7e9e4; width:100%; min-width:100%!important;}
+        
+        a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration:none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+
+        #MainContainer a,
+        #MainContainer a:link,
+        #MainContainer a:visited,
+        #MainContainer a:active {color:#30a4dc; text-decoration:none;}
+        
+        #footer a,
+        #footer a:link,
+        #footer a:visited,
+        #footer a:active {color:#ffffff; text-decoration:none;}
+
+        @media only screen and (max-width:600px) {
+            body {min-width:100%!important;}
+            table.button {width:100%!important;}
+            p {padding-left:0; padding-right:0!important;}
+            table.hideTable {display:none!important;}
+            table.tableCollapse {width:100%!important;}
+            td.mobCenter {text-align:center!important;}
+            td.mobCenter2 {text-align:center!important; padding-right:25px!important;}
+            tr.hideTr {display:none!important;}
+            td.w25 {width:25px!important;}
+            img.w100 {width:100%!important; height:auto!important;}
+        }
+    </style> 
+<!--[if mso]>
+    <style>
+    * {
+      font-family: Helvetica, Arial, sans-serif!important;
+    }
+    </style>
+    <![endif]--> 
+<!--[if !mso]><!--> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" /> 
+<!--<![endif]--> 
+</head> 
+<body bgcolor="#e7e9e4"> 
+<div id="body_style" style="background-color:#e7e9e4;"> 
+<table width="100%" bgcolor="#e7e9e4" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody>
+<tr> 
+<td> 
+<table bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" width="600" class="tableCollapse" align="center" style="margin:0px auto; width:600px;"> 
+<tbody>
+<tr> 
+<td class="mktoContainer" id="MainContainer" bgcolor="#ffffff" align="center" valign="top">
+<table bgcolor="#e7e9e4" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse hideTable" id="BGSpacerModule" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="HeroBannerModule" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td valign="top" style="line-height:1px;"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left" style="line-height:1px;"> 
+<div style="display:inline-block" class="mktoImg" id="HeroBanner" mktolockimgsize="false" mktolockimgstyle="false"> 
+<img class="w100" width="600" border="0" src="http://go.Turbonomic.com/rs/303-ZIH-630/images/Customer Newsletter Email.png" style="width:600px; height:auto!important; display:inline-block; -ms-interpolation-mode: bicubic; border:none; outline: none; text-decoration:none; vertical-align:middle;" height="200" /> 
+</div> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule00" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleWBg5aee3057-0e56-41ed-a905-defe5d826c7d" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="BlueTitleWBG5aee3057-0e56-41ed-a905-defe5d826c7d" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-align:left; line-height: 42px; font-weight: lighter;"><p><span style="font-size: 22px;">Message from Turbonomic's Chief Customer Officer:</span><br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBg4e5196be-d962-4251-a576-2d656f7077bf" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBG4e5196be-d962-4251-a576-2d656f7077bf" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div>
+ Now that we are into May, and it feels like Spring is finally arriving in the Northeast, we wanted to take a moment and thank you, our Turbonomic customers, for your business, partnership and commitment throughout our Q1! Our fiscal year, which began February 1st, has been truly monumental and customer-centric – and not just because of the business we transacted. 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div>
+ Turbonomic customers are at the core of our ethos and influenced so many aspects of our go to market since we kicked off our new year: 
+<br /> 
+</div> 
+<ul> 
+<li> 
+<div>
+ We had a customer feedback session at our Sales Kickoff in February 
+</div> </li> 
+<li> 
+<div>
+ We held our Customer Advisory Board in March with global representation across 6 different industries 
+</div> </li> 
+<li> 
+<div>
+ We had a customer panel at our Engineering Kickoff in April 
+</div> </li> 
+<li> 
+<div>
+ We had dozens of customers participate in our 6.1 Early Adopter Program 
+</div> </li> 
+</ul> 
+<div>
+ Thanks to you, we have never been in a better position to deliver game-changing Workload Automation capability with an incredible user experience. We’re looking forward to engaging with each of you this year and are excited about introducing you the latest Turbonomic features! 
+</div> <p>- Alex <br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule03" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleBG" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td align="left" class="mktEditable" id="MainTitleBgColor" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-align:left; line-height: 42px; font-weight: lighter;"><p>Got Automation? Announcing: Turbonomic 6.1<br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule01d1c6dacb-2a41-4edb-bd99-a73cbb65dbb6" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleBG" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextBG1" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div>
+ Did you know that Turbonomic Workload Automation can automatically optimize your application workloads both on-premises and in the cloud (AWS &amp; Azure) to drive significant improvements in performance, compliance &amp; cost? 
+<br /> 
+<br />When our customers take advantage of Turbonomic’s AI-powered decision engine, they typically see a 35% reduction in application response-time, as Turbonomic eliminates the infrastructure contention that threatens every application workload. Customers that take advantage of the full spectrum of automation Turbonomic offers also: 
+</div> 
+<div> 
+<ul> 
+<li>increase their datacenter utilization by 30% on average with Turbonomic placement automation;<br /></li> 
+<li>gain another 20% efficiency with Turbonomic sizing automation;<br /></li> 
+<li>and save up to 40% on cloud bills with Turbonomic cloud cost optimization and automation.<br /></li> 
+</ul> 
+</div> 
+<div>
+ No other workload automation platform in the industry can do this. Think about the power at your fingertips! 
+<br /> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div>
+ Have you taken advantage of Turbonomic’s automation capabilities? If not, Turbonomic 6.1 represents the perfect opportunity to trust Turbonomic with Workload Automation at scale. Turbonomic 6.1 is loaded with new capabilities that not only take advantage of the elasticity of the public cloud, including reserved 
+<g class="gr_ gr_46 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-del replaceWithoutSep" id="46" data-gr-id="46">
+ instances, 
+</g> but also give you greater control over the decisions Turbonomic makes in all environments, so you can automate with confidence! 
+</div> 
+<div>
+ &nbsp; 
+<br /> 
+<span style="text-decoration: underline;">Turbonomic's 6.1 Highlights: </span> 
+</div> 
+<div> 
+<ul> 
+<li><strong>Maximize public cloud savings</strong>: Optimize your AWS Reserved Instance utilization, in concert with workload resizing automation.</li> 
+<li><strong>Realize the promise of true Application-Aware Infrastructure</strong>: Through deep integration with leading Application Performance Management (APM) technology, Cisco AppDynamics, Turbonomic makes better workload sizing and placement decisions that both your applications and operations teams can trust to automate.</li> 
+<li><strong>Safely automate scaling actions</strong>: With fine control over Turbonomic scaling decisions –specifying which resources to scale, scaling limits, scaling direction, etc. – you can unlock on average a 20% increase in your workload density.</li> 
+<li><strong>Automate container platforms</strong>: Cloud-hosted container platforms can be a huge driver of run-away cloud costs, while early adopters of container platforms on-premises are already reporting overwhelming management complexity. Get on top of both with Turbonomic container platform automation.</li> 
+</ul> 
+</div> 
+<div>
+ To learn more, check out our 6.1 announcement 
+<a href="https://turbonomic.com/blog/on-turbonomic/whats-new-in-turbonomic-6-1/?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=6-1-release&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">blog post</a> and join one of our live 6.1 events: 
+<br /> 
+<ul> 
+<li>Wed. May 9th @ 11 a.m. EST <span style="font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman',serif;">– </span> Live Group Demo: <a href="https://turbonomic.com/resources/continuous-aws-ri-consumption/?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=6-1-release&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Turbonomic 6.1 - Featuring New Continuous AWS Reserved Instance Consumption</a><br /></li> 
+<li>Wed. May 16th @ 11 a.m. EST <span style="font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman',serif;">– </span> Live Group Demo: <a href="https://turbonomic.com/resources/true-application-aware-infrastructure/?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=6-1-release&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Turbonomic 6.1&nbsp;and the Promise of True Application-Aware Infrastructure</a><br /></li> 
+<li>Wed. May 23rd @ 1 p.m. EST<span>&nbsp;</span><span style="font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman',serif;">–<span>&nbsp;</span></span>Webinar:&nbsp;<a href="https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=6-1-release&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Using Artificial Intelligence to Continuously Maximize Cloud Cost Savings</a> <br /></li> 
+<li>Wed. May 30th @<a href="https://turbonomic.com/resources/using-ai-to-optimize-kubernetes-clusters/" target="_blank" style="text-decoration: none;"> </a>11 a.m. EST&nbsp;<span style="font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman',serif;">– </span> Webinar: <a href="https://turbonomic.com/resources/using-ai-to-optimize-kubernetes-clusters/?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=6-1-release&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Self-Managing Kubernetes with Turbonomic 6.1</a></li> 
+</ul> 
+<p>Catch a glimpse of the new release here:<br /></p> 
+<p><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/6.1 Screenshot.PNG" alt="6.1 Screenshot.PNG" height="490" width="560" constrain="true" imagepreview="false" /><br /></p> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule039f7910a7-e8ae-4c82-a1ca-c70c46e0435a" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleWBg5aee3057-0e56-41ed-a905-defe5d826c7d6cb5270f-fe11-4c13-8f83-eaa8ee4f7931" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="BlueTitleWBG5aee3057-0e56-41ed-a905-defe5d826c7d6cb5270f-fe11-4c13-8f83-eaa8ee4f7931" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-align:left; line-height: 42px; font-weight: lighter;"><p>Industry News and Customer Success<br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule06" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBg" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBG" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div>
+ Gartner forecasts that 
+<a href="https://turbonomic.com/resources/intelligent-data-center/?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">intelligent data centers will be part of the mainstream</a> by the mid-2020s. Additionally, Gartner expects that CIOs who feel they can get by with the current level of data center intelligence, in 2023 will no longer be at their posts and the survival of their business cannot be guaranteed.&nbsp; 
+<br /> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div></div> 
+<div>
+ MetroStar Systems&nbsp; 
+<a href="https://resources.turbonomic.com/accelerate-cloud-migration-projects/metrostar-case-study?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">continuously optimizes AWS cost AND performance</a> with Turbonomic. In their own words: "Turbonomic is absolutely one of our mission-critical tools, and I would definitely recommend this product to anyone – on premises, in the cloud, or in a hybrid environment. It works in the background, sometimes taking 15-20 actions a day - sometimes less - and sometimes a lot more, depending on demand. It saves us thousands of dollars in the cloud every month and saves us hundreds of hours of labor a year." 
+<strong> </strong> 
+<br /> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div></div> 
+<div>
+ How does Turbonomic enable organizations to activate their AWS strategy in the most performant and efficient manner?&nbsp;In this&nbsp; 
+<a href="https://resources.turbonomic.com/accelerate-cloud-migration-projects/turbonomic-aws-demo?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">five-minute video</a>, Turbonomic Cloud CTO Mor Tal Cohen explains all. 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div></div> 
+<div>
+ 70% of Turbonomic customers report that they have overspent on their cloud budget by 40% or more.&nbsp;This&nbsp; 
+<a href="https://resources.turbonomic.com/accelerate-cloud-migration-projects/turbonomic-azure-demo?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">three-minute video</a> walks you through how Turbonomic delivers on the cloud promise of paying for what you use, instead of paying for what you allocate. 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div></div> 
+<div>
+ If you have a cloud case study you'd like to share, 
+<a href="mailto:cxteam@turbonomic.com" target="_blank" style="color: #2c9427; text-decoration: none;">please reach out</a>! We'd love to hear more. 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule052e5ee2ab-16ad-4d57-b94c-ccd4e5fbb370" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleBG2be15b14-1f29-44df-b364-5bfcf9622e6b" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td align="left" class="mktEditable" id="MainTitleBgColor2be15b14-1f29-44df-b364-5bfcf9622e6b" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-align:left; line-height: 42px; font-weight: lighter;"><p>Events<br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule01" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleBG7a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextBG17a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div> 
+<strong>Turbonomic is coming to a city near you! </strong> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div>
+ Register to join us today: 
+<br /> 
+<ul> 
+<li><a href="https://www.eventbrite.com/e/washington-dc-it-networking-dinner-tickets-45390638622?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Washington, D.C. IT Networking Dinner</a> – May 15, 2018&nbsp;<br /></li> 
+<li><a href="https://www.eventbrite.com/e/turbonomic-it-networking-event-denver-top-golf-tickets-45434714454?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Denver IT Networking Event </a>– May 24, 2018&nbsp;<br /></li> 
+<li><a href="https://www.eventbrite.com/e/reston-it-networking-luncheon-tickets-45563663143?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Reston, VA IT Networking Luncheon</a> – June 5, 2018&nbsp;<br /></li> 
+<li><a href="https://www.eventbrite.com/e/atlanta-turbonomic-user-group-tickets-44746324461?utm_source=email&amp;utm_medium=customer-newsletter&amp;utm_campaign=&amp;utm_term=&amp;utm_content=" target="_blank" style="color: #2c9427; text-decoration: none;">Atlanta Turbonomic User Group</a> – June 11, 2018&nbsp;<br /></li> 
+</ul> 
+</div> 
+<div>
+ Don't see your city here? Contact 
+<a href="mailto:events@turbonomic.com" target="_blank" style="color: #2c9427; text-decoration: none;">events@turbonomic.com</a> for more information on Turbonomic events. 
+<br /> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule07" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule01" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule02" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="StayConnected" style="text-align:center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; font-weight:lighter;"><p><img src="http://go.turbonomic.com/rs/303-ZIH-630/images/turbonomic-customer-newsletter-logo.png" alt="" width="132" height="44" constrain="true" imagepreview="false" border="" /><br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule05" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule06" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="Footer" style="text-align:center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size:12px; color:#ffffff; line-height:18px;"> 
+<div>
+ ©&nbsp; Turbonomic, Inc. 
+</div> 
+<div> 
+<a href="https://turbonomic.com/company/contact-us/" target="_blank" style="color: #2c9427; text-decoration: none;">Contact Us</a>&nbsp; 
+<span style="color: #2c9427;">|</span>&nbsp; 
+<span style="text-decoration: none;"><a href="{{system.unsubscribeLink}}" target="_blank" style="color: #2c9427; text-decoration: none;">Unsubscribe</a> </span> 
+</div></td> 
+<td width="25" style="font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule04" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="SocialIcons" style="text-align:center; line-height:1px;"> 
+<div> 
+<a target="_blank" href="https://twitter.com/turbonomic"> <img width="24" height="24" border="0" alt="Twitter" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-twitter.png" /></a>&nbsp; &nbsp; 
+<a target="_blank" href="https://www.youtube.com/user/myVMTurboTV"><img width="24" height="24" border="0" alt="Youtube" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-youtube.png" /></a>&nbsp; &nbsp;&nbsp; 
+<a target="_blank" href="https://www.linkedin.com/company/turbonomic/"><img width="24" height="24" border="0" alt="LinkedIn" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-linkedin.png" /></a>&nbsp;&nbsp; 
+<a target="_blank" href="https://www.facebook.com/turbonomic/"><img width="24" height="24" border="0" alt="Facebook" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-facebook.png" /></a>&nbsp;&nbsp; 
+<a target="_blank" href="https://www.instagram.com/turbonomic/"><img width="24" height="24" border="0" alt="Instagram" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-instagram.png" /><strong></strong></a> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule07" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#e7e9e4" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse hideTable" id="BGSpacerModule2" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td valign="top"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table></td> 
+</tr> 
+</tbody>
+</table> </td> 
+</tr> 
+</tbody>
+</table> 
+</div>  
+</body>
+</html>

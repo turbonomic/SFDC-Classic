@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-09-19 Reserved Instances AWS Webinar.ES-2018-09-13 Reserved Instances A</name>
+    <style>none</style>
+    <subject>Live Demo: RI Optimization in AWS</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/reserved-instances-aws/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+By investing in AWS Reserved Instances you have the best intentions to shrink your cloud bill, but then you don&apos;t use what you&apos;ve paid for and the guilt sets in - like that unused gym membership. It doesn&apos;t have to be this way; we have your back.
+
+ &lt;[[https://turbonomic.com/resources/reserved-instances-aws/]]&gt;
+
+Join this live demo on September 19 at 11 a.m. ET &lt;[[https://turbonomic.com/resources/reserved-instances-aws/]]&gt; to see how software can accurately and continuously apply RIs, so you get all the cost benefits and none of the guilt with Turbonomic RI optimization in AWS.
+
+
+
+
+Regards,
+Megan
+
+
+
+
+
+PS - If you can&apos;t join the live webinar, feel free to sign up anyways &lt;[[https://turbonomic.com/resources/reserved-instances-aws/]]&gt;, and we&apos;ll send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

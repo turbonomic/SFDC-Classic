@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMworld Europe 2014 VIP Party.Maybe Confirmation</name>
+    <style>none</style>
+    <subject>We Hope You&apos;ll Join Us: VMTurbo VMworld Europe VIP Cocktail Reception</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+We hope we&apos;ll see you at the reception on Tuesday, 14 October after a lightspeed day at VMworld.
+
+When your schedule is set, feel free to revisit the invitation page and confirm your registration &lt;http://go.vmturbo.com/vmworld-europe-2014-VIP-cocktail-party-rsvp.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vipinvite&gt;. 
+
+We&apos;ll send you a reminder a few days before.
+
+This VMworld is going to be huge, as we introduce A New Hope for the Datacenter.
+
+From the Rebellion Vanguard,
+Team Turbo
+
+
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Syntax Solution Conference invite.Invitation</name>
+    <style>none</style>
+    <subject>Hope to see you at the 5th Annual Syntax Solution Conference</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+I’m very excited to be speaking at the 5th Annual Syntax Solution Conference on May 30 in Minneapolis, which centers around fully implementing virtualization with ease and efficiency. 
+
+I’m writing to invite you to join my breakout session, Stop Guessing and Start Automating: How to Guarantee VM Performance and Maximize Utilization. In this session, we’ll discuss how you can eliminate the guesswork in optimizing or maintaining the health of your virtual environment and reduce complexity by: 
+
+• Assuring that applications have the physical and virtual resources they need
+• Maximizing resource utilization—and your infrastructure investment
+• Intelligently planning for new workloads and growth in your environment
+• Driving down costs, productivity losses and the risk of missing your SLAs
+
+When you register &lt;http://syntaxsolutionconference.com/Register/Register_form.htm&gt; for the conference, please also be sure to pre-register for my breakout in Session 4 from 2:00PM - 2:45 PM. 
+
+In advance of the conference, you can learn more about this topic here. &lt;http://www.vmturbo.com/the-new-normal?source=email&gt;
+
+I look forward to seeing you at the conference.
+
+Oved Louri
+ Director Systems Engineering - North America</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

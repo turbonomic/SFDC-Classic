@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject Turbonomic - {!Alliance_Registration__c.Customer_Account_Name__c} Registration Follow-up</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Alliance_Letterhead</letterhead>
+    <name>Alliance Reg Status Pending Email</name>
+    <style>freeForm</style>
+    <subject>Turbonomic - {!Alliance_Registration__c.Customer_Account_Name__c} Registration Follow-up</subject>
+    <textOnly>{!Alliance_Registration__c.Partner_First_Name_Capitalized__c},
+ 
+The Turbonomic registration that you submitted has been reviewed by the Turbo Alliances team. We are now working to set up a meeting with your respective counterparts on the account:
+ 
+Account Name: {!Alliance_Registration__c.Customer_Account_Name__c}
+Opportunity Description: {!Alliance_Registration__c.Project_Opportunity_Description__c}
+ 
+Turbo Manager: {!Alliance_Registration__c.Sales_Manager__c}
+Turbo Rep: {!Alliance_Registration__c.Sales_Rep__c}
+ 
+You should expect a meeting invite within the week to review the opportunity in greater detail, so we can discuss next steps and either approve or deny the registration.
+ 
+Looking forward to speaking with you soon.
+ 
+Regards,
+The Turbo Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

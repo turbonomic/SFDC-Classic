@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-04-12-AWS-vs-Azure-Webinar-Prospects1.Prospect Send</name>
+    <style>none</style>
+    <subject>Choosing Between AWS and Azure? Learn How Turbonomic Enables a Data-Driven Decision</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/choosing-between-aws-and-azure-webinar/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+We have daily conversations with teams who are struggling to figure out which cloud is the best fit for their applications – AWS or Azure – and how much it would cost if they migrated.
+
+Turbonomic Cloud Migration planning is fast and accurate, enabling you to run intelligent, data-backed analysis of which cloud (or clouds) fits your applications best, while also considering your existing licensing arrangements.
+
+To learn how you can choose the best cloud for your applications, register for our upcoming Live Webinar scheduled for Thursday, April 26th at 11am ET.
+
+ &lt;[[https://turbonomic.com/resources/choosing-between-aws-and-azure-webinar/]]&gt;
+
+Can you imagine if, in a matter of days, you could clearly compare your true application costs across:
+
+
+	- AWS On Demand or Reserved Instances (RIs)
+	- Azure On Demand or Reserved Instances (RIs)
+	- AWS Dedicated Instances (leverage many existing licenses)
+	- Azure Hybrid Benefit (leverage existing Microsoft licenses)
+
+
+
+Once you register for the webinar, check out the blog post we just published &lt;[[https://turbonomic.com/blog/on-turbonomic/choosing-between-aws-and-azure/]]&gt; on this very topic.
+
+We look forward to seeing you on the webinar!
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

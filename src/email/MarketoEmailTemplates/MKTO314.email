@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Dear {{lead.First Name:default=Sir/Madam}},</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">I&rsquo;m writing to invite you to join me for a live demonstration of VMTurbo Operations Manager with ONTAP cluster mode support. I&rsquo;m looking forward to sharing with you the many ways this solution will enable you to help your customers scale out virtualization and assure workload application performance at the virtualization layer and underlying storage infrastructure.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">In this session, my colleague Jim O&rsquo;Donnell and I will address how this combined solution will enable NetApp customers achieve the following:</span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Prevent I/O performance issues in NetApp environments&nbsp;</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Align virtualization and storage disk space management, including thin provisioning, deduplication and compression</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Plan and enable the deployment of key initiatives such as VDI and IO-intensive applications</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Adopt advanced NetApp features including ONTAP cluster mode</span></li>
+</ul>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Sign up for the demo at your preferred time:</span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><a href="https://www3.gotomeeting.com/register/861381406">Tuesday, November 19, 10:00 AM&nbsp;EST&nbsp;</a></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><a href="https://www3.gotomeeting.com/register/382621894">Tuesday, November 19, 12:00 PM EST</a></span></li>
+</ul>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Sincerely,</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Jonathan Reeve</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">VMTurbo</span></div></div>
+</div>
+</body>
+</html>

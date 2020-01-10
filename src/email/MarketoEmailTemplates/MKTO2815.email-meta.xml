@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Personal invite from Ben Nye for July 19 Exec Dinner Dallas</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-06-21-Dallas-Nye.EM-2017-06-21-Dallas-Nye</name>
+    <style>none</style>
+    <subject>Dallas Executive Networking Lunch: The Journey to Hybrid Cloud</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+In my more than 20 years both investing in and running enterprise IT companies, I have had the privilege of watching IT go through waves of transformation from a birds-eye view. All previous waves pale in comparison to that which we observe today.
+
+
+Enterprises are facing incredible pressure to modernize and transform IT to become a digital business, leading many organizations to reinvent their hybrid cloud strategy. Determining which workloads go on-premises, which go in the cloud, and how to manage the transition is challenging – mistakes are costly. This is exacerbated once customers get to the cloud and need to manage complexities across cloud and on-premises simultaneously.
+
+I cordially invite you to join myself and a dozen of your fellow IT leaders in Dallas on July 19th at Fearing&apos;s Ritz Carlton for an Executive Networking Dinner &lt;[[https://turbonomic.com/learn-dallas]]&gt; from 7:00 p.m. until 9:00 p.m. We will discuss this unprecedented shift our industry currently faces and how we as the stewards of our generation can lead the innovation charge. It is my goal and hope that this networking opportunity will be intellectually stimulating and beneficial for all.
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/learn-dallas]]&gt; as soon as possible.
+
+
+
+Yours sincerely,
+Ben
+
+ &lt;[[https://turbonomic.com/learn-dallas]]&gt;
+
+Ben Nye
+Chief Executive Officer
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-02-HA Storage.01.01_19_2016-HAStorage-Q1-Invite 2.01.Invite 01_19_2016-</name>
+    <style>none</style>
+    <subject>Technical Workshop: Application Performance Control</subject>
+    <textOnly>Hi {{lead.First Name:default=Partner}}, 
+
+We would like to invite you to a technical Workshop &lt;[[https://www.eventbrite.com/e/ha-storage-technical-workshop-vmturbo-tickets-20946330037]]&gt; we are are co-hosting with H.A. Storage next month! Here&apos;s what you need to know: 
+
+What: A free, hands-on lab to learn about an application performance control system that can help you achieve a 30% improvement on response time, number of transactions, and infrastructure within 30 days.
+When: Friday, March 
+4, 2016 from 11:30 AM to 4:00 PM EST 
+Where: H.A. Storage Systems, Inc. - 820 Adams Avenue. #200. Audubon, PA 19403 
+How: Click here to register for the event &lt;[[https://www.eventbrite.com/e/ha-storage-technical-workshop-vmturbo-tickets-20946330037]]&gt;
+
+
+Interested in learning more about this technology? Click here to learn more &lt;[[http://vmturbo.com/partners/h.a.storage/]]&gt;.
+Hope to see you there! 
+The Channel Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

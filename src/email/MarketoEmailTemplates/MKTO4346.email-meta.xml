@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-12-05 Takeways on AWS ReInvent.ES-20181119-Invite Send 1.ES 1 - HTML In</name>
+    <style>none</style>
+    <subject>Webinar Invitation | Top 5 Takeaways from AWS Re:Invent</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-aws-reinvent-takeaways/]]&gt; 
+ 
+  
+ 
+ 
+ Register Now and Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/aws-reinvent-wbn/]]&gt;
+Hi {{lead.First Name:default=there}},
+Next week, AWS re:Invent is taking over the Las Vegas strip and the tradeshow is on track to be the largest cloud event in our industry this year. There will be key learnings you won&apos;t want to miss. Whether or not you can make it to the event this year, Turbonomic has your back.
+ Join our webinar, Top 5 Takeaways from AWS re:Invent 2018 &lt;[[https://turbonomic.com/resources/wbn-aws-reinvent-takeaways/]]&gt;, on Wednesday, December 5th at 11 a.m. ET, where event attendee and community blogger, Eric Wright, will share a post-event recap of AWS re:Invent. 
+
+
+
+
+Reserve Your Seat &lt;[[https://turbonomic.com/resources/wbn-aws-reinvent-takeaways/]]&gt;
+
+
+
+In this live 30-minute live webinar &lt;[[https://turbonomic.com/resources/wbn-aws-reinvent-takeaways/]]&gt;, you will find out:
+
+
+	- Top announcements from AWS re:Invent 
+	- What to expect in 2019
+	- How organizations are benefitting from AWS
+	- and more!
+
+
+All registered guests will be entered to win a $100 Amazon Gift Card. I hope to see you there!
+Regards,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMUG London follow up.Email</name>
+    <style>none</style>
+    <subject>Follow-up to meeting at London VMUG</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+It was a pleasure to meet you at the London VMUG on 25th April. As our founder, Shmuel Kliger, outlined during his talk, VMTurbo reduces the costs and risks associated with virtualization / cloud initiatives by delivering a different approach &lt;http://www.vmturbo.com/gain-control-cloud-virtualized-environments/?source=email&gt; to managing virtualized IT.
+
+Our philosophy is focused on achieving software-defined control to maintain the environment in an optimal state, think of it like a virtual health check, so that you can experience fewer incidents, achieve higher density, and deliver projects in less time and with better certainty of performance and efficiency.  You can check out this paper &lt;http://go.vmturbo.com/wp-improved-approach-to-virtualization-management-download.html?source=email&gt; for more detail, you can also download our free edition here &lt;http://go.vmturbo.com/cloud-edition-download.html?source=email&gt; or we’d be happy to arrange a 1:1 webinar with you, just let us know!
+
+Kind regards
+
+The VMTurbo Team
+Phone: (+44) 1252.761.368</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>(1494869728.0)</name>
+    <style>none</style>
+    <subject>(1494869728.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Jeff, I’m reaching out with a special offer for State and Local Government organizations as we approach the summer months. I’ve worked with a number of governmental institutions including the Department of Energy – Energy Information Administration, and National Science Foundation to alleviate their IT infrastructure management challenges. They generally run within a July budget cycle and occasionally have remaining funds towards the end of their fiscal year. I typically find these customers bear one of two prevalent problems:
+	- Their IT environments are highly fragmented, marked by high inefficiency and/or Their staff is limited, thinly spread and under-resources.	- Their staff is limited, thinly spread and under-resources.
+Turbonomic directly addresses both of these challenges. With that in mind, we’d like to offer a $15,000 discount for any deal with us, if you install Turbonomic’s autonomic performance platform before the end of May. 
+Do you have 30 minutes for my team and I to provide an introduction to you and the team at Metropolitan Washington Airports Authority over the next couple of weeks?  Best regards,  James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

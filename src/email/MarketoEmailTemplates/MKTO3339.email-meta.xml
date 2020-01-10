@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-12-21-Field-East-ESB-Boston.ES-2017-11-20-Boston-2.EMAIL - Marketing In</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Boston Executive Networking Event</subject>
+    <textOnly>&lt;[[turbonomic.com/learn-boston]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+We are pleased to invite you to an exclusive event on December 21st, as the Boston Bruins take on the Winnipeg Jets.
+We&apos;re expecting a fantastic evening filled with food, drinks, and of course, hockey. We hope you will accept this invitation to join us, learn more about Turbonomic, and network with your peers in the technology industry.
+
+Executive Reception followed by 
+*Boston Bruins vs Winnipeg Jets
+
+Where: TD Garden, Boston MA
+Thursday, December 21nd 5:30pm
+ &lt;[[https://turbonomic.com/vip-tampabay]]&gt;
+
+
+
+
+
+We hope to see you there,
+
+
+- The Turbonomic Team
+
+
+
+
+
+*Must attend reception for admittance to the game</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

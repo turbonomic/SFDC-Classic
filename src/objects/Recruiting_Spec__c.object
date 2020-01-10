@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Admin_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Admin Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Agency_Involved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Agency Involved</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Approved_Budget_for_Recruiter__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved Budget for Recruiter</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales: BDR General</fullName>
+                    <default>false</default>
+                    <label>Sales: BDR General</label>
+                </value>
+                <value>
+                    <fullName>Sales: BDR EMEA</fullName>
+                    <default>false</default>
+                    <label>Sales: BDR EMEA</label>
+                </value>
+                <value>
+                    <fullName>Sales: Velocity</fullName>
+                    <default>false</default>
+                    <label>Sales: Velocity</label>
+                </value>
+                <value>
+                    <fullName>Sales: Enterprise</fullName>
+                    <default>false</default>
+                    <label>Sales: Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Sales: Globals</fullName>
+                    <default>false</default>
+                    <label>Sales: Globals</label>
+                </value>
+                <value>
+                    <fullName>Sales: Sales Engineer</fullName>
+                    <default>false</default>
+                    <label>Sales: Sales Engineer</label>
+                </value>
+                <value>
+                    <fullName>Engineer</fullName>
+                    <default>false</default>
+                    <label>Engineer</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Customer Success</fullName>
+                    <default>false</default>
+                    <label>Customer Success</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>G&amp;A: Strategy &amp; Ops</fullName>
+                    <default>false</default>
+                    <label>G&amp;A: Strategy &amp; Ops</label>
+                </value>
+                <value>
+                    <fullName>G&amp;A: Finance</fullName>
+                    <default>false</default>
+                    <label>G&amp;A: Finance</label>
+                </value>
+                <value>
+                    <fullName>G&amp;A: HR &amp; Recruiting</fullName>
+                    <default>false</default>
+                    <label>G&amp;A: HR &amp; Recruiting</label>
+                </value>
+                <value>
+                    <fullName>G&amp;A: Misc</fullName>
+                    <default>false</default>
+                    <label>G&amp;A: Misc</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Candidate_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Candidate Start Date</label>
+        <summarizedField>Recruiting_Candidate__c.Start_Date__c</summarizedField>
+        <summaryForeignKey>Recruiting_Candidate__c.Recruiting_Spec__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Expired</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Coordinator__c</fullName>
+        <externalId>false</externalId>
+        <label>Coordinator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adam Pasti</fullName>
+                    <default>false</default>
+                    <label>Adam Pasti</label>
+                </value>
+                <value>
+                    <fullName>Andrew Lane</fullName>
+                    <default>false</default>
+                    <label>Andrew Lane</label>
+                </value>
+                <value>
+                    <fullName>Brigid Doulin</fullName>
+                    <default>false</default>
+                    <label>Brigid Doulin</label>
+                </value>
+                <value>
+                    <fullName>Federika Cariati</fullName>
+                    <default>false</default>
+                    <label>Federika Cariati</label>
+                </value>
+                <value>
+                    <fullName>Lila Haffey</fullName>
+                    <default>false</default>
+                    <label>Lila Haffey</label>
+                </value>
+                <value>
+                    <fullName>Megan Griffin</fullName>
+                    <default>false</default>
+                    <label>Megan Griffin</label>
+                </value>
+                <value>
+                    <fullName>Michelle Tuzio</fullName>
+                    <default>false</default>
+                    <label>Michelle Tuzio</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Rachel Murray</fullName>
+                    <default>false</default>
+                    <label>Rachel Murray</label>
+                </value>
+                <value>
+                    <fullName>Veronica Curran</fullName>
+                    <default>false</default>
+                    <label>Veronica Curran</label>
+                </value>
+                <value>
+                    <fullName>Zach Choquette</fullName>
+                    <default>false</default>
+                    <label>Zach Choquette</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Filled__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Filled</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Days_Open__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( CONTAINS(Status__c,&quot;Open&quot;),TODAY()- Open_Date__c , 
+IF( CONTAINS(Status__c,&quot;Filled&quot;), Date_Filled__c - Open_Date__c , 
+Close_Date__c - Open_Date__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deadline_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(MONTH(TODAY())=MONTH( Deadline__c ),1,
+IF(AND(MONTH(TODAY())!=MONTH( Deadline__c ), Quarter_of_Deadline__c = Today_Quarter__c ),2,
+IF(AND(Quarter_of_Deadline__c != Today_Quarter__c ,YEAR(TODAY())=YEAR( Deadline__c )),3,
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deadline Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deadline__c</fullName>
+        <externalId>false</externalId>
+        <label>Deadline</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Experience_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Experience Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Entry</fullName>
+                    <default>false</default>
+                    <label>Entry</label>
+                </value>
+                <value>
+                    <fullName>Mid</fullName>
+                    <default>false</default>
+                    <label>Mid</label>
+                </value>
+                <value>
+                    <fullName>Senior</fullName>
+                    <default>false</default>
+                    <label>Senior</label>
+                </value>
+                <value>
+                    <fullName>Executive</fullName>
+                    <default>false</default>
+                    <label>Executive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hiring_Manager__c</fullName>
+        <externalId>false</externalId>
+        <label>Hiring Manager</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Interview_Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Interview Team</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Boston</fullName>
+                    <default>false</default>
+                    <label>Boston</label>
+                </value>
+                <value>
+                    <fullName>White Plains</fullName>
+                    <default>false</default>
+                    <label>White Plains</label>
+                </value>
+                <value>
+                    <fullName>NYC</fullName>
+                    <default>false</default>
+                    <label>NYC</label>
+                </value>
+                <value>
+                    <fullName>UK (Reading)</fullName>
+                    <default>false</default>
+                    <label>UK (Reading)</label>
+                </value>
+                <value>
+                    <fullName>Toronto</fullName>
+                    <default>false</default>
+                    <label>Toronto</label>
+                </value>
+                <value>
+                    <fullName>Other (NorthAm)</fullName>
+                    <default>false</default>
+                    <label>Other (NorthAm)</label>
+                </value>
+                <value>
+                    <fullName>Other (EMEA)</fullName>
+                    <default>false</default>
+                    <label>Other (EMEA)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Number_of_Candidates_Hired__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Candidates Hired</label>
+        <summaryFilterItems>
+            <field>Recruiting_Candidate__c.Status__c</field>
+            <operation>equals</operation>
+            <value>7 - Offer Accepted</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Recruiting_Candidate__c.Recruiting_Spec__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Hires_to_Target__c</fullName>
+        <externalId>false</externalId>
+        <formula>Target_Hires__c  - Number_of_Candidates_Hired__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of Hires to Target</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>On_Hold_Date__c</fullName>
+        <description>To identify the date that the business decided to pause on a headcount req</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To identify the date that the business decided to pause on a headcount req</inlineHelpText>
+        <label>On Hold Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Open_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Open Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Quarter_of_Deadline__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(MONTH( Deadline__c ),1,1,2,1,3,1,4,2,5,2,6,2,7,3,8,3,9,3,10,4,11,4,12,4,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quarter of Deadline</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recruiter_Credit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Recruiter Credit</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Recruiter__c</fullName>
+        <externalId>false</externalId>
+        <label>Recruiter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adam Pasti</fullName>
+                    <default>false</default>
+                    <label>Adam Pasti</label>
+                </value>
+                <value>
+                    <fullName>Brigid Doulin</fullName>
+                    <default>false</default>
+                    <label>Brigid Doulin</label>
+                </value>
+                <value>
+                    <fullName>Ed Morris</fullName>
+                    <default>false</default>
+                    <label>Ed Morris</label>
+                </value>
+                <value>
+                    <fullName>External</fullName>
+                    <default>false</default>
+                    <label>External</label>
+                </value>
+                <value>
+                    <fullName>Jen Russell</fullName>
+                    <default>false</default>
+                    <label>Jen Russell</label>
+                </value>
+                <value>
+                    <fullName>Kara Gilbert</fullName>
+                    <default>false</default>
+                    <label>Kara Gilbert</label>
+                </value>
+                <value>
+                    <fullName>Larry Jacobson</fullName>
+                    <default>false</default>
+                    <label>Larry Jacobson</label>
+                </value>
+                <value>
+                    <fullName>Lila Haffey</fullName>
+                    <default>false</default>
+                    <label>Lila Haffey</label>
+                </value>
+                <value>
+                    <fullName>Nick Picardi</fullName>
+                    <default>false</default>
+                    <label>Nick Picardi</label>
+                </value>
+                <value>
+                    <fullName>Stacey Schmidt</fullName>
+                    <default>false</default>
+                    <label>Stacey Schmidt</label>
+                </value>
+                <value>
+                    <fullName>Zach Choquette</fullName>
+                    <default>false</default>
+                    <label>Zach Choquette</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Recruiting_Spec_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Recruiting Spec Safe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_To__c</fullName>
+        <externalId>false</externalId>
+        <label>Report To</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Researcher__c</fullName>
+        <externalId>false</externalId>
+        <label>Researcher</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adam Pasti</fullName>
+                    <default>false</default>
+                    <label>Adam Pasti</label>
+                </value>
+                <value>
+                    <fullName>Andrew Lane</fullName>
+                    <default>false</default>
+                    <label>Andrew Lane</label>
+                </value>
+                <value>
+                    <fullName>Brigid Doulin</fullName>
+                    <default>false</default>
+                    <label>Brigid Doulin</label>
+                </value>
+                <value>
+                    <fullName>Federika Cariati</fullName>
+                    <default>false</default>
+                    <label>Federika Cariati</label>
+                </value>
+                <value>
+                    <fullName>Kara Gilbert</fullName>
+                    <default>false</default>
+                    <label>Kara Gilbert</label>
+                </value>
+                <value>
+                    <fullName>Lila Haffey</fullName>
+                    <default>false</default>
+                    <label>Lila Haffey</label>
+                </value>
+                <value>
+                    <fullName>Megan Griffin</fullName>
+                    <default>false</default>
+                    <label>Megan Griffin</label>
+                </value>
+                <value>
+                    <fullName>Michelle Tuzio</fullName>
+                    <default>false</default>
+                    <label>Michelle Tuzio</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Rachel Murray</fullName>
+                    <default>false</default>
+                    <label>Rachel Murray</label>
+                </value>
+                <value>
+                    <fullName>Veronica Curran</fullName>
+                    <default>false</default>
+                    <label>Veronica Curran</label>
+                </value>
+                <value>
+                    <fullName>Zach Choquette</fullName>
+                    <default>false</default>
+                    <label>Zach Choquette</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Resume_Date__c</fullName>
+        <description>To identify the date that the business decided to resume a paused headcount req</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To identify the date that the business decided to resume a paused headcount req</inlineHelpText>
+        <label>Resume Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Salary_Guideline__c</fullName>
+        <externalId>false</externalId>
+        <label>Salary Guideline</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Sourcer__c</fullName>
+        <externalId>false</externalId>
+        <label>Sourcer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adam Pasti</fullName>
+                    <default>false</default>
+                    <label>Adam Pasti</label>
+                </value>
+                <value>
+                    <fullName>Andrew Lane</fullName>
+                    <default>false</default>
+                    <label>Andrew Lane</label>
+                </value>
+                <value>
+                    <fullName>Brigid Doulin</fullName>
+                    <default>false</default>
+                    <label>Brigid Doulin</label>
+                </value>
+                <value>
+                    <fullName>Federika Cariati</fullName>
+                    <default>false</default>
+                    <label>Federika Cariati</label>
+                </value>
+                <value>
+                    <fullName>Lila Haffey</fullName>
+                    <default>false</default>
+                    <label>Lila Haffey</label>
+                </value>
+                <value>
+                    <fullName>Megan Griffin</fullName>
+                    <default>false</default>
+                    <label>Megan Griffin</label>
+                </value>
+                <value>
+                    <fullName>Michelle Tuzio</fullName>
+                    <default>false</default>
+                    <label>Michelle Tuzio</label>
+                </value>
+                <value>
+                    <fullName>Rachel Murray</fullName>
+                    <default>false</default>
+                    <label>Rachel Murray</label>
+                </value>
+                <value>
+                    <fullName>Veronica Curran</fullName>
+                    <default>false</default>
+                    <label>Veronica Curran</label>
+                </value>
+                <value>
+                    <fullName>Zach Choquette</fullName>
+                    <default>false</default>
+                    <label>Zach Choquette</label>
+                </value>
+                <value>
+                    <fullName>BDR Team</fullName>
+                    <default>false</default>
+                    <label>BDR Team</label>
+                </value>
+                <value>
+                    <fullName>External</fullName>
+                    <default>false</default>
+                    <label>External</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <description>Reflects date by which offer should be accepted, not date by which hired candidate should begin</description>
+        <externalId>false</externalId>
+        <label>Fill Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Open_Date__c &gt; TODAY(),&quot;Planned&quot;,
+IF( Number_of_Hires_to_Target__c &lt;=0,&quot;Closed - Filled&quot;,
+IF(Close_Date__c &lt;= TODAY(),&quot;Closed - Expired&quot;,
+IF(AND( Number_of_Hires_to_Target__c &gt;0,   Start_Date__c &gt;= TODAY()),&quot;Open - On Schedule&quot;,
+IF(AND( Number_of_Hires_to_Target__c &gt;0, Start_Date__c &lt; TODAY()),&quot;Open - Overdue&quot;,&quot;Open - On Schedule&quot;)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_Hires__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Target Hires</label>
+        <precision>4</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Today_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(MONTH(TODAY()),1,1,2,1,3,1,4,2,5,2,6,2,7,3,8,3,9,3,10,4,11,4,12,4,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Today Quarter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Recruiting Spec</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Business_Unit__c</columns>
+        <columns>Hiring_Manager__c</columns>
+        <columns>Report_To__c</columns>
+        <columns>Location__c</columns>
+        <columns>Target_Hires__c</columns>
+        <columns>Start_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Recruiting Spec Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Recruiting Specs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Only_VMT_Admins_Can_Make_Changes</fullName>
+        <active>false</active>
+        <description>Only HR or SF Admins may this record.</description>
+        <errorConditionFormula>OR($UserRole.Name &lt;&gt; &quot;VMT SF admin&quot;,
+ $User.Full_Name__c &lt;&gt; &quot;Chris McMahon&quot;)</errorConditionFormula>
+        <errorMessage>Only Sales Ops or HR  may edit Recruiting Specs. Email salesops@vmturbo.com for questions.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

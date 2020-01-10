@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>turbonomic meeting and MLB all-star game raffle (1495551185.0)</name>
+    <style>none</style>
+    <subject>turbonomic meeting and MLB all-star game raffle (1495551185.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Sherman, I wanted to let you know that we are running a special promotion for meeting with us over the next month. If you complete an introductory meeting with Turbonomic before June 23rd, we will enter you in a raffle to win a trip for two (2) to the 2017 MLB All-Star Game in Miami, Florida from July 9 - 12, 2017.  Turbonomic is an autonomic workload management platform which frees up operations, infrastructure, architecture and engineering teams from manual management and planning within any cloud or on-prem environment, enabling you to work more effectively together as you pursue strategic initiatives. We’d like to show you how - and give you an opportunity to watch the best baseball players in the league come together for an unforgettable event.  If you’d like to be entered, you can visit this page &lt;[[https://turbonomic.com/mlb-all-star-experience-giveaway/]]&gt;, or just let me know and I will work with you directly to schedule our meeting and put you into the raffle.  Best,Maggie Margaret Schroeder - Turbonomic
+Sales Development Representative 
+O: 857.305.4608  C: 802.440.2128 
+500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

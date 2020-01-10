@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2017-06-01-Q1-5.9 Channel Webinar.EMAIL- Invite</name>
+    <style>none</style>
+    <subject>Turbonomic 5.9 Release Webinar | Register Today!</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/turbonomic-5-9-release-channel-webinar/]]&gt;
+Dear {{lead.First Name:default=Partner}}, 
+With Turbonomic 5.9, your customers can unleash the power of the hybrid cloud.
+Join us for our biggest release &lt;[[https://turbonomic.com/resources/turbonomic-5-9-release-channel-webinar/]]&gt; yet on June 1st at 11am EST. We will showcase the new enhancements available with Turbonomic 5.9. During this webinar, you will learn how you can provide your customers with a blueprint for safely accelerating their journey to the public cloud.
+Your customers are faced with incredible pressure to modernize and public cloud is central to their transformation. According to a JPMorgan survey of CIO’s, more than 40% of workloads could shift to the public cloud and the greater cloud market is forecasted by IDC to be $500B by 2020. Customers have more questions than answers when it comes to assuring performance, lowering cost, and ensuring compliance in the cloud.
+What’s New with Turbonomic 5.9: 
+
+
+	- Cloud Migration Planning: Accurately match what customers consume on premises to what they need to consume in public cloud to assure performance while lowering cloud costs
+	- Lower Cloud Costs: Automatically scale down or suspend workloads reducing costs without impacting performance
+	- Budget Control: Cloud bills are aggregated across services, regions, accounts and lines of business and tracked in a single view against defined budget
+	- Workload Specific Cost: Workload specific costs, within the cloud, are continuously tracked and reported by regions, tags or custom groups
+	- Cloud Cost Forecasting: Project future monthly cloud bills to accurately plan and budget
+	- Hybrid Cloud Visibility: Single pane of glass for resource consumption across on-premises data centers and cloud services.
+	- Anti-Affinity Enforcement: Designated HA workloads are spread across multiple cloud regions and availability zones or data center, cluster and hosts on-premises complying with risk management specifications for mission critical applications
+
+
+This webinar will be approximately an hour. Register Here &lt;[[https://turbonomic.com/resources/turbonomic-5-9-release-channel-webinar/]]&gt;!
+We hope you can make it!
+Best,
+- the Turbonomic Partner team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

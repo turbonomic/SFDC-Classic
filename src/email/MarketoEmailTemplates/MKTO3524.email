@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;"> 
+<div>
+<span style="font-family: arial, helvetica, sans-serif;">Dear {{lead.First Name:default=Friend}},</span>
+</div> 
+<div> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: arial, 
+helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: arial, 
+helvetica, sans-serif;">I am pleased to invite you to attend the <a href="https://turbonomic.com/exec-nashville/" target="_blank" id="">Nashville Executive Networking Event</a> on March 27<sup>th</sup>&nbsp;alongside your fellow IT leaders. As Field CTO at Turbonomic, I find that the best ideas stem from conversations and meetings with others who are dealing with the challenges posed by the current paradigm shift of the public cloud, containers and edge computing. That is why I hope that you will join us on the 27<sup>th</sup>&nbsp;for an afternoon of networking and thought leadership.</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: arial, 
+helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: arial, 
+helvetica, sans-serif;">Following our discussion, we will head to the Turbonomic Suite at Bridgestone Arena to watch the Nashville Predators take on the Minnesota Wild.</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: arial, 
+helvetica, sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: arial, 
+helvetica, sans-serif;">I hope to see you there!</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: 'Calibri 
+Light', sans-serif;">&nbsp;</span></p> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><span style="font-size: 11pt; font-family: 'Calibri 
+Light', sans-serif;"></span><br /></p> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<span style="color: #000000; font-size: 14px;"><strong>Executive Networking Series Nashville</strong></span>
+<span style="color: #000000; font-size: 14px;"><strong>&nbsp;</strong></span>
+</div> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<strong><span style="color: #2c9427; font-size: 18px;">Workload Automation for Your Hybrid Cloud</span></strong>
+</div> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<strong><span style="color: #2c9427; font-size: 18px;">Nashville Predators&nbsp;vs Minnesota Wild</span></strong>
+</div> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<span style="color: #000000;"><strong>Tuesday,&nbsp;March 27th |&nbsp;Bridgestone Arena&nbsp;| 5:00 p.m.</strong></span>
+</div> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<span style="color: #000000;"><strong></strong></span>
+<br />
+</div> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<span style="color: #000000;"><strong><a href="https://turbonomic.com/exec-nashville" target="_blank" id="">Register Here!</a></strong></span>
+</div> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<span style="color: #000000;"><strong></strong></span>
+<br />
+</div> 
+<div style="color: #505050; font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+text-decoration-color: initial; background-color: #ffffff;">
+<span style="color: #000000;"><strong></strong></span>
+<br />
+</div> 
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: Calibri, sans-serif; color: #000000; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;"><br /></p> 
+</div> 
+<div>
+Yours sincerely,
+</div> 
+<div>
+Oved
+</div> 
+<p><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;"><em></em></span><br /></p> 
+<p><span style="font-size: 12px;"><em><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/oved.jpg" alt="oved.jpg" height="91" width="91" /></em></span></p> 
+<p><span style="font-size: 12px;"><em>Oved Lourie<br /></em></span><span style="font-size: 12px;"><em>Field CTO<br />Turbonomic<br /></em></span></p> 
+<p><br /></p> 
+</div>  
+</body>
+</html>

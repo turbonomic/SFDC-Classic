@@ -1,0 +1,5 @@
+Congratulations!
+
+Your quote {!SBQQ__Quote__c.Name} has been approved.
+
+Detail Link: {!SBQQ__Quote__c.Link}

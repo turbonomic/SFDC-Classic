@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-06-15-5.6 Release Webinar.EMAIL-Follow Up Attended</name>
+    <style>none</style>
+    <subject>Thank You For Attending The VMTurbo 5.6 Release Webinar!</subject>
+    <textOnly>Hi {{Lead.First Name}},
+Thank you for attending the VMTurbo 5.5 Release Webinar. We hope you left with some useful takeaways!
+
+Please feel free to watch the webinar on demand at your convenience! You can find the recording here &lt;[[http://vmturbo.com/thx-wbnr-recrd-vmturbo-5-6-release-webinar/]]&gt;.
+
+You can also download and follow along with the slides here &lt;[[http://vmturbo.com/wp-content/uploads/2016/06/5.6-Webinar.pdf]]&gt;.
+
+ If you have not already please take 30 seconds to fill out our brief webinar survey &lt;[[https://www.surveymonkey.com/r/MSMDTT6]]&gt; and let us know what you thought!
+
+If you have any 
+questions about the webinar please reach out to your account representative or our Evaluation Team &lt;[[mailto:evalteam@vmturbo.com]]&gt;.
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

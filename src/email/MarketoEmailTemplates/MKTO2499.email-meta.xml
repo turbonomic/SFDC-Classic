@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: Conversation Follow Up  - Turbonomic (VMTurbo) Overview  (1494949585.0)</name>
+    <style>none</style>
+    <subject>RE: Conversation Follow Up  - Turbonomic (VMTurbo) Overview  (1494949585.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   Clean DocumentEmail     false false false  EN-US X-NONE X-NONE       MicrosoftInternetExplorer4                                                                                                                                                                                                                                                                                                                                                                                                         Hi Fidel, Hope everything is going well with you. I wanted to circle back and see if now would be a better time to provide the introduction to Turbonomic. Last time we spoke you mentioned that you had a storage implementation project going on and the timing was off but was hoping now would be a better time to sink up. Below are some brief details as to how our customers see value just a quick reminder:  ·         Alleviating constrained resources – preventing the risk of slowness for each application all in real time. ·         Realize the true capacity of the underlying infrastructure allowing you to defer hardware out of the infrastructure. ·         Creating proper capacity planning scenarios within the environment so that you and the team can onboard workloads properly, as well as not over spend on hardware.  Do you have any time over the next few weeks for a brief introduction to Turbonomic? 
+Best, James  From: Fidel Michieli [mailto:FMichieli@chewy.com] 
+Sent: Thursday, December 1, 2016 1:54 PM
+To: James Wilcox &lt;james.wilcox@turbonomic.com&gt;
+Subject: Re: Conversation Follow Up - Turbonomic (VMTurbo) Overview  Hello James, Good to talk to you as well. As I mentioned, let me get familiar with the new product offerings and we can circle back in a couple of months. Kind Regards, Fidel From: James Wilcox &lt;james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;&gt;
+Date: Thursday, December 1, 2016 at 1:41 PM
+To: Fidel Michieli &lt;FMichieli@chewy.com &lt;[[mailto:FMichieli@chewy.com]]&gt;&gt;
+Subject: Conversation Follow Up - Turbonomic (VMTurbo) Overview  Hi Fidel, Thanks for taking the time to speak with me today. As discussed, below are some materials for you to read up on Turbonomic and see some of the new features that we’ve added.   In short, our control platform’s mantra is still the same from when you used it. Turbonomic’s control platform helps customers increase application performance by 37% on 30% less infrastructure. This means better QoS and a decrease in spending on storage, licensing, servers and time spent firefighting in the environment. Turbonomic Application Edition &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic-Application-Edition.pdf]]&gt;Autonomic Platform for Any Cloud  &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic-for-Any-Cloud-Data-Sheet.pdf]]&gt; Turbonomic ROI &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic_ROI.pdf]]&gt;  Don’t hesitate to reach out if you have any questions about the platform.  Best regards, James     James Wilcox Sales Representative – Southeast C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;    This message and its attachments are intended only for the designated recipient(s). It may contain confidential or proprietary information and may be subject to legal or other confidentiality protections. If you are not a designated recipient, you may not review, copy or distribute this message. If you receive this in error, please notify the sender by reply e-mail and delete this message. Thank you. &lt;/sp</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

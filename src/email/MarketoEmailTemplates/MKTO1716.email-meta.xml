@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>07_11_2014 Madison Logic VDI.Email_use</name>
+    <style>none</style>
+    <subject>VDI Deployments Are Easier Than You&apos;d Think, {{lead.First Name:default=Now}}. Read this Whitepaper.</subject>
+    <textOnly>Assuring Performance in VDI Deployments
+A Free VMTurbo Whitepaper
+
+ Download Now: &lt;bit.ly/TV4QiL&gt;
+46% of VDI projects are halted due to cost and performance issues. They shouldn&apos;t be.
+Read this whitepaper for these 3 takeaways: &lt;http://bit.ly/TV4QiL&gt;
+
+
+ - Why so many VDI projects are invariably stalled
+ - How to assure VDI performance through intelligent resource allocation and placement
+ - How to control storage I/O and minimize latency in the virtualization and storage layers with the storage infrastructure you have in place
+Get Free Paper &lt;http://bit.ly/TV4QiL&gt;
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

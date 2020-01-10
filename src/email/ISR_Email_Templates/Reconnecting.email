@@ -1,0 +1,22 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+I hope this note finds you well!<br /><br />
+
+I was hoping we could reconnect as we wind down a fantastic year here at VMTurbo. Since we last spoke we have seen amazing momentum in the market as customers from 3 hosts to 20,000 hosts all experience huge efficiency gains from our improved approach to operations management. <br />
+<a href="http://www.eweek.com/c/a/Virtualization/Virtual-Cloud-Workload-Management-10-Clues-Its-Time-for-a-System-Overhaul-783433/">http://www.eweek.com/c/a/Virtualization/Virtual-Cloud-Workload-Management-10-Clues-Its-Time-for-a-System-Overhaul-783433/</a><br /><br />
+
+In the last 60 days we signed on our 250th customer, closed a $1M deal with VMware’s largest customer (JPMorgan), and partnered with CSC to be the intelligent planning and optimization engine for their BizCloud infrastructure. <br /><br />
+
+I know we stalled out on our previous engagement earlier this year – but I’m confident your team will see immediate improvements in running your virtual environment with our solution in place. Whether it’s vSphere or any other virtual platform (Citrix uses us internally to control their production XenServer environment), our ability to identify specific actions you should take to maintain workload performance and improve utilization will absolutely save you time and avoid costly outages.<br /><br />
+
+I wanted to reach out to see if there was any interest in taking advantage of any of our end of year specials.<br /><br />
+
+Please let me if you would like to go over some possibilities. <br /><br />
+
+Happy Holidays,
+<br /><br / >
+
+{!Lead.OwnerFullName} {!Contact.OwnerFullName}<br /><br />
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br />
+<a href="www.vmturbo.com/esevideo ">How does VMTurbo work?</a> <br />

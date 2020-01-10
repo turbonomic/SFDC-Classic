@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Accelerate_Cloud_Migration.Accelerate_Cloud_Migration_Nurture_5_Turbo Value Prop</name>
+    <style>none</style>
+    <subject>Accelerate and De-risk your Cloud Migration</subject>
+    <textOnly>Let us Help you with your Cloud Migration
+Hi {{lead.First Name:default=there}},
+
+If you&apos;re struggling to figure out how to accelerate and de-risk your cloud migration, we can help.
+
+Turbonomic software provides real-time resource allocation that assures performance, lowers cost, and maintains compliance. It empowers Infrastructure and Operations teams to be the drivers of successful public cloud strategies, not bottle-necks.
+
+ &lt;[[https://turbonomic.com/resources-b/cloud-migration-evaluation/]]&gt;
+
+If you&apos;re ready, we&apos;d love to learn more about the challenges you face and to show you how we can help. Please sign up for your complimentary cloud migration evaluation &lt;[[https://turbonomic.com/resources-b/cloud-migration-evaluation/]]&gt; today.
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

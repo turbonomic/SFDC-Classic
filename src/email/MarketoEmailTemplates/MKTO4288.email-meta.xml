@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-10-25 MSFT Workshops Follow Up Email.ES-2018-10-25 MSFT Workshops Follow</name>
+    <style>none</style>
+    <subject>Thanks for Attending our Azure Assessment Workshop</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Thank you for attending the Turbonomic/Azure Assessment workshop this month! We appreciate the time you took out of your day to learn about the Turbonomic platform and hope that you found the content valuable. We are very excited about the opportunity to partner with you and Microsoft to deliver cloud assessment and optimization plans to customers as they embark on their journey to the Cloud. 
+
+As a follow-up, we wanted to ensure you have access to all the tools and resources we discussed throughout the day. The below materials can be found on the partner portal &lt;[[https://turbonomic.webinfinity.com/]]&gt;: 
+
+
+
+	- Presentations
+
+	- Labs Guide
+
+	- SOW Tech Specs Template
+
+	- Pre-Engagement Checklist
+
+	- Delivery Output Templates
+
+	- Battlecard
+
+	- Ideal Customer Profile
+
+	- Customer Wins
+
+
+
+If you did not already have access to the portal, we have proactively set you up (you should have received an activation email from Turbonomic over the last 24 hours). If you have any trouble accessing the portal or did not receive the activation email, please contact PartnerDesk@Turbonomic.com &lt;[[mailto:PartnerDesk@Turbonomic.com]]&gt;.
+
+Thank you for your continued partnership!
+
+Best Regards,
+Your Turbonomic Partner Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

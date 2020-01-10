@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>3PT - Blog Post</name>
+    <style>none</style>
+    <subject>What Is The Bane Of The Software Defined Universe?</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Software Defined Latency
+Gilt Group in New York
+Dear {{lead.First Name:default=Sir/Madam}},
+We are entering a very exciting and progressive time. It seems we are moving away from hardware to a fully software defined universe, opening the door for new levels of innovation. With this change however, comes a large growing pain, namely software defined latency.
+In this blog post our founder Shmuel Kliger addresses this growing pain, including how we can confront the feeling that &quot;IT is in chaos.&quot;
+Read Here! &lt;http://vmturbo.com/blog/bane-software-defined-universe-software-defined-latency/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=3pt_love&amp;utm_content=blog&gt;
+&lt;http://www.vmturbo.com/downloads?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=3pt_love&amp;utm_content=blog&gt;
+Downloads
+&lt;http://www.vmturbo.com/resources/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=3pt_love&amp;utm_content=blog&gt;
+White Papers
+&lt;https://greencircle.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=3pt_love&amp;utm_content=blog&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

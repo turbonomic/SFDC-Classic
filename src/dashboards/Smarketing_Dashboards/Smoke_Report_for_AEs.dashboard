@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY19</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>30</maxValuesDisplayed>
+            <report>unfiled$public/MQL_SLAs_Not_Touched_ENT_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>MQL SLAs Not Touched Once - ENT West</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY19</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>25</maxValuesDisplayed>
+            <report>unfiled$public/MQL_SLAs_Not_Touched_US_Comm_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>MQL SLAs Not Touched Once - ENT Central</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY19</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>30</maxValuesDisplayed>
+            <report>unfiled$public/MQL_SLAs_Not_Touched_EMEA_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>MQL SLAs Not Touched Once - ENT East</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY19</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>28</maxValuesDisplayed>
+            <report>unfiled$public/Responses_for_Smoke_Report_ENT_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Campaign Responders - ENT West</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY19</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>22</maxValuesDisplayed>
+            <report>unfiled$public/Responses_for_Smoke_Report_US_Comm_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Campaign Responders - ENT Central</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY19</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>25</maxValuesDisplayed>
+            <report>unfiled$public/Responses_for_Smoke_Report_EMEA_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Campaign Responders - ENT East</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY17</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>30</maxValuesDisplayed>
+            <report>unfiled$public/Opp_Report_for_Smoke_Report_ENT_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Closed Lost Opps to Re-Open - ENT West</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY17</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>25</maxValuesDisplayed>
+            <report>unfiled$public/Opp_View_for_Smoke_Report_US_Comm_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Closed Lost Opps to Re-Open -ENT Central</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>FY17</footer>
+            <groupingSortProperties/>
+            <header>Smoke Report</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>30</maxValuesDisplayed>
+            <report>unfiled$public/Opp_Report_for_Smoke_Report_EMEA_AEs</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Closed Lost Opps to Re-Open - ENT East</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </rightSection>
+    <runningUser>elizabeth.sheehan@vmturbo.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Smoke Report for Enterprise AEs</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>18</titleSize>
+</Dashboard>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMEA- App D Paris 5/21 - Marketo.5/21 First Send</name>
+    <style>none</style>
+    <subject>Rendez-vous à l’AppD Global Tour Paris</subject>
+    <textOnly>Bonjour,
+ &lt;[[http://appdglobaltourparis2019.splashthat.com/Turbonomic]]&gt;
+
+Turbonomic sponsorisent le AppDynamics Global Tour Paris &lt;[[http://info.turbonomic.com/Xgg00wI0Z000HR00001vZg0]]&gt; réunira les professionnels de l’IT, les leaders du numérique et les partenaires qui sont 
+intéressés par la maîtrise des performances applicatives et métiers.
+ 
+Découvrez comment AppDynamics et Turbonomic transforme la façon dont les entreprises modernes sont gérées, en fournissant des informations automatisées pour créer de nouvelles opportunités pour les Agents de Transformation, réduire les risques et 
+obtenir de meilleurs résultats financiers.
+ 
+Inscrivez-vous dès aujourd&apos;hui &lt;[[http://info.turbonomic.com/Xgg00wI0Z000HR00001vZg0]]&gt; pour apprendre, partager, échanger et être inspiré par les clients d&apos;AppDynamics qui sont les moteurs de la transformation.
+ 
+Date : Mardi 21 Mai à partir de 9h00
+Lieu : Pullman Paris Tour Eiffel</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

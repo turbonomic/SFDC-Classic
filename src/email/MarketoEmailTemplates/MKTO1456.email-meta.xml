@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>07_27_2015 Stencils Send.Send</name>
+    <style>none</style>
+    <subject>{{Lead.First Name:default=Awesomely}}: VMTurbo Topology Stencils Are Here | for MS Visio &amp; OmniGraffle</subject>
+    <textOnly>&lt;http://vmturbo.com/resources/datacenter-stencils/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=stencils&amp;utm_content=050415&gt;
+{{lead.First Name:default=}}:
+VMTurbo&apos;s FREE downloadable topology stencils &lt;http://vmturbo.com/resources/datacenter-stencils/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=stencils&amp;utm_content=061715&gt; are just our latest way of giving back to the IT community. These HD icons download in both .vssx and .gstencil formats, for use with Microsoft Visio® and OmniGraffle.
+Clouds, VDCs, Hosts, Arrays, VDI groups: all in dazzling HD. If you&apos;d like a stencil that we haven&apos;t designed, simply visit The Green Circle Community &lt;https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=stencils&amp;utm_content=061715&gt; and submit a request!
+ &lt;http://vmturbo.com/resources/datacenter-stencils/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=stencils&amp;utm_content=061715&gt;
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

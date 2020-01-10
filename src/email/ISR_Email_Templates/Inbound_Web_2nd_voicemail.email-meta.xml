@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Checking in from VMTurbo</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Inbound Web 2nd voicemail</name>
+    <style>none</style>
+    <subject>Checking in from VMTurbo</subject>
+    <textOnly>Hi {!Lead.FirstName}, 
+ 
+I just wanted to check in to make sure you are finding VMTurbo&apos;s virtual appliance useful.
+
+If you have any questions or feedback, please let me know. We really appreciate your interest in VMTurbo, and we hope to hear from you.
+
+Thanks, 
+
+{!User.FirstName}{!User.LastName}
+        
+Phone: 781.373.3540 ~ Fax: 781.373.3257 
+Top 10 Reasons to Choose VMTurbo - http://tiny.cc/4kmu4</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

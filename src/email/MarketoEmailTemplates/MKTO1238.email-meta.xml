@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_13_2015 VIP Dinner Reminder.Dinner Reminder</name>
+    <style>none</style>
+    <subject>It&apos;s Time To Party!</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+Get ready the VMTurbo VIP Dinner Reception is tonight!
+Remember to bring your VMworld badge as all who attend will automatically be entered into our VMworld drawing for the chance to win a Samsung Gear VR headset and accompanying Galaxy S6 phone!
+Tuesday, October 13th 2015 21:30 - 00:00 AM
+The Silvestre &lt;http://restaurante-silvestre.com/en/&gt;
+Carrer de Santalo, 101
+08021 Barcelona
+
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

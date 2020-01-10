@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p class="style9"><font face="Arial, sans-serif">The opportunity&nbsp;{!Opportunity.Name}&nbsp;for account&nbsp;{!Opportunity.Account}&nbsp;will be unqualified in two weeks due to inactivity.</font></p><p class="style9"><font face="Arial, sans-serif"><br>To view the full record follow:&nbsp;{!Opportunity.Link}</font></p>]]></td>
+</tr>
+</table>

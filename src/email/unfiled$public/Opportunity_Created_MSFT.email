@@ -1,0 +1,13 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > 
+
+A New Opportunity for Microsoft Deal has been created for {!Opportunity.Account}: 
+
+To view the full record follow: 
+
+https://eu4.salesforce.com//{!Opportunity.Id} 
+
+{!Opportunity.Name} 
+{!Opportunity.Type} 
+
+Thank you! 
+SF Admin

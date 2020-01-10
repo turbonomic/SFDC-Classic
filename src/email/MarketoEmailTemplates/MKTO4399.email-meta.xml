@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2019-12-2019 IT Predictions - Thank You.Completed Survey Thank You - Complete</name>
+    <style>none</style>
+    <subject>Your reward for completing a meeting with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Thank you for completing our 2019 IT Predictions Survey and meeting with a Turbonomic engineer. We hope you enjoyed your personalized demonstration! As a gift for your time, your $50.00 Amazon.com gift card is enclosed below.
+
+For a bit more context, check out:
+
+
+	- The Forrester Wave TM, Cloud Cost Monitoring and Optimization, Q2 2018 &lt;[[https://turbonomic.com/resources/forrester-cloud-cost-monitoring-and-optimization/?utm_campaign=70157000001j4faAAA]]&gt;
+	- The Gartner Research Note, How to Build An Intelligent Data Center &lt;[[https://turbonomic.com/resources/intelligent-data-center/?utm_campaign=70157000001j4ffAAA]]&gt;
+	- AWS or Azure? How Turbonomic Enables Data-Driven Decisions &lt;[[https://resources.turbonomic.com/on-demand-webinars/which-cloud-webinar-v-1/?utm_campaign=70157000001j4fkAAA]]&gt;
+
+
+
+I hope you find this information helpful as you continue your optimization journey in 2019.
+{{my.Gift 50:default=}}
+
+
+Regards,
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,672 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=ProgId content=Word.Document><meta name=Generator content="Microsoft Word 15"><meta name=Originator content="Microsoft Word 15"><link rel=File-List href="cid:filelist.xml@01D2CD5C.CF879420"><link rel=Edit-Time-Data href="cid:editdata.mso"><!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+</o:OfficeDocumentSettings>
+</xml><![endif]--><link rel=themeData href="~~themedata~~"><link rel=colorSchemeMapping href="~~colorschememapping~~"><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:SpellingState>Clean</w:SpellingState>
+<w:DocumentKind>DocumentEmail</w:DocumentKind>
+<w:TrackMoves/>
+<w:TrackFormatting/>
+<w:EnvelopeVis/>
+<w:PunctuationKerning/>
+<w:ValidateAgainstSchemas/>
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF/>
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:DoNotExpandShiftReturn/>
+<w:BreakWrappedTables/>
+<w:SnapToGridInCell/>
+<w:WrapTextWithPunct/>
+<w:UseAsianBreakRules/>
+<w:DontGrowAutofit/>
+<w:SplitPgBreakAndParaMark/>
+<w:EnableOpenTypeKerning/>
+<w:DontFlipMirrorIndents/>
+<w:OverrideTableStyleHps/>
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math"/>
+<m:brkBin m:val="before"/>
+<m:brkBinSub m:val="&#45;-"/>
+<m:smallFrac m:val="off"/>
+<m:dispDef/>
+<m:lMargin m:val="0"/>
+<m:rMargin m:val="0"/>
+<m:defJc m:val="centerGroup"/>
+<m:wrapIndent m:val="1440"/>
+<m:intLim m:val="subSup"/>
+<m:naryLim m:val="undOvr"/>
+</m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false" DefSemiHidden="false" DefQFormat="false" DefPriority="99" LatentStyleCount="374">
+<w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+<w:LsdException Locked="false" Priority="9" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 5"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 6"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 7"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 8"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index 9"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 1"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 2"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 3"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 4"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 5"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 6"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 7"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 8"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" Name="toc 9"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Normal Indent"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="footnote text"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="annotation text"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="header"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="footer"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="index heading"/>
+<w:LsdException Locked="false" Priority="35" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="table of figures"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="envelope address"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="envelope return"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="footnote reference"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="annotation reference"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="line number"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="page number"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="endnote reference"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="endnote text"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="table of authorities"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="macro"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="toa heading"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Bullet"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Number"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List 5"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Bullet 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Bullet 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Bullet 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Bullet 5"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Number 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Number 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Number 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Number 5"/>
+<w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Closing"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Signature"/>
+<w:LsdException Locked="false" Priority="1" SemiHidden="true" UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text Indent"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="List Continue 5"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Message Header"/>
+<w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Salutation"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Date"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text First Indent"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text First Indent 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Note Heading"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text Indent 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Body Text Indent 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Block Text"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Hyperlink"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="FollowedHyperlink"/>
+<w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+<w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Document Map"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Plain Text"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="E-mail Signature"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Top of Form"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Bottom of Form"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Normal (Web)"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Acronym"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Address"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Cite"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Code"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Definition"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Keyboard"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Preformatted"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Sample"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Typewriter"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="HTML Variable"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Normal Table"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="annotation subject"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="No List"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Outline List 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Outline List 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Outline List 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Simple 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Simple 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Simple 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Classic 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Classic 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Classic 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Classic 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Colorful 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Colorful 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Colorful 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Columns 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Columns 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Columns 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Columns 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Columns 5"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 5"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 6"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 7"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Grid 8"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 4"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 5"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 6"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 7"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table List 8"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table 3D effects 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table 3D effects 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table 3D effects 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Contemporary"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Elegant"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Professional"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Subtle 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Subtle 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Web 1"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Web 2"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Web 3"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Balloon Text"/>
+<w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Table Theme"/>
+<w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+<w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+<w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+<w:LsdException Locked="false" Priority="61" Name="Light List"/>
+<w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+<w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+<w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+<w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+<w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+<w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+<w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+<w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+<w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+<w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+<w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+<w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+<w:LsdException Locked="false" Priority="34" QFormat="true" Name="List Paragraph"/>
+<w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+<w:LsdException Locked="false" Priority="30" QFormat="true" Name="Intense Quote"/>
+<w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+<w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+<w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+<w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+<w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+<w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+<w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+<w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+<w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+<w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+<w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+<w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+<w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+<w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+<w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+<w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+<w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+<w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+<w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+<w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+<w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+<w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+<w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+<w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+<w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+<w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+<w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+<w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+<w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+<w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+<w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+<w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+<w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+<w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+<w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+<w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+<w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+<w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+<w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+<w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+<w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+<w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+<w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+<w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+<w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+<w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+<w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+<w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+<w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+<w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+<w:LsdException Locked="false" Priority="19" QFormat="true" Name="Subtle Emphasis"/>
+<w:LsdException Locked="false" Priority="21" QFormat="true" Name="Intense Emphasis"/>
+<w:LsdException Locked="false" Priority="31" QFormat="true" Name="Subtle Reference"/>
+<w:LsdException Locked="false" Priority="32" QFormat="true" Name="Intense Reference"/>
+<w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+<w:LsdException Locked="false" Priority="37" SemiHidden="true" UnhideWhenUsed="true" Name="Bibliography"/>
+<w:LsdException Locked="false" Priority="39" SemiHidden="true" UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+<w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+<w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+<w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+<w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+<w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+<w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+<w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+<w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+<w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent 1"/>
+<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 1"/>
+<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 1"/>
+<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent 2"/>
+<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 2"/>
+<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 2"/>
+<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent 3"/>
+<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 3"/>
+<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 3"/>
+<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent 4"/>
+<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 4"/>
+<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 4"/>
+<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent 5"/>
+<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 5"/>
+<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 5"/>
+<w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light Accent 6"/>
+<w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+<w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+<w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+<w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+<w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful Accent 6"/>
+<w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful Accent 6"/>
+<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+<w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+<w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+<w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light Accent 1"/>
+<w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+<w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful Accent 1"/>
+<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful Accent 1"/>
+<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light Accent 2"/>
+<w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+<w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful Accent 2"/>
+<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful Accent 2"/>
+<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light Accent 3"/>
+<w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+<w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful Accent 3"/>
+<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful Accent 3"/>
+<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light Accent 4"/>
+<w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+<w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful Accent 4"/>
+<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful Accent 4"/>
+<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light Accent 5"/>
+<w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+<w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful Accent 5"/>
+<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful Accent 5"/>
+<w:LsdException Locked="false" Priority="46" Name="List Table 1 Light Accent 6"/>
+<w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+<w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+<w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+<w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+<w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful Accent 6"/>
+<w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful Accent 6"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Mention"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Smart Hyperlink"/>
+<w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true" Name="Hashtag"/>
+</w:LatentStyles>
+</xml><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-alt:"Calisto MT";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-alt:"Arial Rounded MT Bold";
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073732485 9 0 511 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#0563C1;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.EmailStyle20
+	{mso-style-type:personal;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:windowtext;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;
+	mso-style-unhide:no;}
+span.EmailStyle22
+	{mso-style-type:personal;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:windowtext;}
+span.EmailStyle23
+	{mso-style-type:personal-compose;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:windowtext;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:941841341;
+	mso-list-template-ids:-1709548042;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 10]><style>/* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style><![endif]--><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]--></head><body lang=EN-US link="#0563C1" vlink="#954F72" style='tab-interval:.5in'><div class=WordSection1><p class=MsoNormal>David,<o:p></o:p></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><p class=MsoNormal>Thank you for taking the time to speak with me today. Below is a summary of a special offer we are doing at Turbonomic and the information that you requested. I wanted to include the City of Garland because it is a great use case around how we were able to defer hardware out of their infrastructure while also still allowing them to deliver a high level of performance. <o:p></o:p></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><p style='margin:0in;margin-bottom:.0001pt;background:white;vertical-align:baseline'><a href="http://info.turbonomic.com/ol/jEtWdsbOI1xQsRpg5uiMMKvivTDUe5u9qKgwWbq2n59ziQVuYOPLdRGphcBWFZZvNa%2DaCAZNQsIylEpLFL3FOoVJ%5FqhRDkK6Vj7tlIHKbJ5MP7th24d09qz4iCYAssmQkwHhPWIXRllCfT%5FPZbQQsBS1HYonBwGw3GvDEosorBwMjJAO58eFSYaj10eO%5FGqUxSGgE2QtyeLK4nGICJNGr%5F0IhUwe438SerPYsRyU7591sAgx2L9xqiZ29K4iechlxgezZgn24N30XNE8G%2DGDuNCjv%5FADeRw60pEvTEPEEAnqG4ywV3NI%5FBzVoxAWBQpnBAReIcUmljezs3ptWuw7YTi8miABzG0s5K9v9r%5FhiCLIfXq4bjDHtk32lknmbw%2C%2C/j0FVcsLGLllNoVdlsbPWJbvomjvDc4qrt7kzH%5Fryx9081gZ9feGAPVn7jcFfHZ5%5FaeCQCkwaAIBgnxlKFr2daJRQ6bAOKgTgfn6tprXPfY9Bf7t%2D1cIv%5FKeonTIjvc3PkVPCHUoAVDQ%2DQhONZbAhgC6iYrYXShGF9XXOOI4g0RsrtY5J5Yeofran6D6T4UvU9XueMFc76cqP1UizB8Q4g%2DIglHsuy1R3T%2DHg1jndh%2D4HrC9u2P1lyE5N%2DMRkEMhCpUGvfXTn3bfBGrpDV56EpfHrlcgORh87voJrKEqUen8%2C" target="_blank"><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#3778C7;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Seminole County Public Schools:</span></a><span class=apple-converted-space><span style='font-family:"Calibri",sans-serif;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>&nbsp;</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>With <span class=SpellE>Turbonomic&#8217;s</span> real-time capacity management to simulate a&nbsp;migration&nbsp;from old Dell hosts to new Cisco UCS blades, the team learned they could consolidate from 12 hosts down to 3, enabling them to save nearly $80,000. These funds can now be reallocated to new projects focused on innovation, such as collapsing and centralizing much of their remote site infrastructure to enable more unified IT management.&nbsp;</span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#3D3D3D'><o:p></o:p></span></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><p class=MsoNormal><a href="http://info.turbonomic.com/ol/jE5TdcPNL1xQsRpg5uiMMKvivTDUe5u9qKgwWbq2n59ziQVuYOPLdRGphcBWFZZvNa%2DaCAZNQsIylEpLFL3FOoVJ%5FqhWGUCnSzj6oKLVY4FHdKZg38lu8KS2lmMKp5uXm1iRWQkLWGV%2DZVuwXY5yghXJKalxUwi3zlKTGJ0nxCo%5Fo60G8Z6gTYSZrl2U003o2AyXGGZYt%5FiB30iSKKxyteRQtnsuxloKSs792mftzoUvhHMB%2DMVvoBU%5F79J4DZpuxymQXHazvY71afxUepinlLD%2Dr8R7NkoGo7d%5FeGP7P1m%2DVp6ZTg9kyEHVgjMQH2pXKz8DPOQbxDmjl3dget0XRS2SiwAE%5FnYjh%5Fhe74TeqCycXijuHALTmCf%2DxQzzG5cAy1WGsvkStCnaGxXs8rZ3UHKMCauZ6gg%2C/j0xQcMDII1lNoVdlsbPWNrz%5FnTrOdZWhuPJ%2DBvqpxd9z2kdwZunBLA76mN9eHZYhKt2LEwAfHZ9syQ8VOemBZadB6PlcBUX%5Fay78g6TJfMB9ZbthxY9x%2D6761WsRlcmNmQGeEXova0tmRwW4R4Yvog%2D2Z4Q6Xi%2DGwnPNP6MQnRIdgqko%2DIqMb724qHCKwFffxQCpHVBx0cbeuXj5X70%2C">Garland, Texas Saves More Than $200,000 with Turbonomic</a> (not a Florida use case but I thought you&#8217;d find it interesting)<o:p></o:p></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><p class=MsoNormal>Please let me know if there is interest in hearing more, I&#8217;d be happy to set up the introduction call. <o:p></o:p></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><p class=MsoNormal>Best regards,<o:p></o:p></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><p class=MsoNormal>James<o:p></o:p></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><div><div style='border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in'><p class=MsoNormal><a name="_MailOriginal"><b><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri'>From:</span></b></a><span style='mso-bookmark:_MailOriginal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri'> James Wilcox <br><b>Sent:</b> Thursday, May 11, 2017 3:55 PM<br><b>To:</b> 'david.mclean@stpete.org' &lt;david.mclean@stpete.org&gt;<br><b>Subject:</b> $15,000 Off Turbonomic for State &amp; Local Institutions<o:p></o:p></span></span></p></div></div><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal style='background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Hi David,<o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><o:p>&nbsp;</o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>I&#8217;m reaching out with a special offer for<span class=apple-converted-space>&nbsp;</span></span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>State and Local <span style='color:#3D3D3D'>organizations as we approach the summer months. I&#8217;ve worked with a </span>number of<span class=apple-converted-space>&nbsp;</span>cities including<span class=apple-converted-space>&nbsp;</span>City of Miami, <span style='color:#3D3D3D'>and Orange County (to name local Florida customers) to alleviate their IT management challenges. They generally run within </span>a<span class=apple-converted-space>&nbsp;</span>June or July<span class=apple-converted-space>&nbsp;</span>budget <span style='color:#3D3D3D'>cycle and occasionally have remaining funds towards the end of their fiscal year.</span></span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;min-height: 8pt;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'>&nbsp;<o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>I typically find these customers bear one of two prevalent problems:</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal style='margin-left:0in;text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><![if !supportLists]><span style='font-size:11.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:#3D3D3D'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p>&nbsp;</o:p></span></span></p><p class=MsoListParagraph style='text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><![if !supportLists]><span style='font-size:11.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:#3D3D3D'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Their IT environments are highly fragmented, marked by high inefficiency and/or</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoListParagraph style='text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><![if !supportLists]><span style='font-size:11.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:#3D3D3D'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Their staff is limited, thinly spread and under-resourced.</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p style='margin:0in;margin-bottom:.0001pt;background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>&nbsp;</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p style='margin:0in;margin-bottom:.0001pt;background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Turbonomic directly addresses both of these challenges.</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>&nbsp;</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>With that in mind, we&#8217;d like to offer a $15,000 discount for any deal with us, if you install Turbonomic&#8217;s autonomic performance platform before the end of May. You can find the<span class=apple-converted-space>&nbsp;</span></span></span><a href="http://mkto-sjp0104.com/ol/jE5Sd8XLKlxQsRpg5uiMMKvivTDUe5u9qKgwWbq2n59ziQVuYOPLdRGphcBWFZZvNa%2DaCAZNQsIylEpLFL3FOoVJ%5FqhZCle7XHXyg63fboNuYqBj2dVksae33yYQo9nfwhrJEVscQSxBUDOFb5cOnQS1PJsTayrV12HFbYUUujgKorEP5qWGZ5250XuOwXXcwAK7YX5K1dW1zlemI7o7k%5Fk2jlgI3HU%5FUPrHsg%5FNwe0Low9o2%5FUnlDJl2690B%5FNx4kHZByXuwpvCd8V7Rue%2Dg9ug5akYRyxmiIgEbWzccE%2DyOKeNQHAo5RWkuGQBPDQ3DBR%5FWMMKsweonllqTeY3QRacrjAayTY01%5FoIzrDhkyKTO1HtCnPMqRSM%5FgiKIKMvwCa8k90DxwDVPy2%2D%5FtdRAEGGAuDdomPtG9aL%5FQ%2C%2C/j09UcszOKllNoVdlsbPWJbvomjvDc4qrt7kzH%5Fryx9081gZ9feGAPVn7jcFfHZ5%5FaeCQCkwaAIBgnxlKFr2daJRQ6bAOKgTgfn6tprXPfY9Bf7t%2D1cIv%5FKeonTIjrtKVnFDDCEsdBSNKcBOPa7AuizDuM91wD06D%2D2KMIZUqnSRN15tC25m%5FQqe78C7y7XHnxw%2DEF1csxvGNz3HoWY8vyfU3lRcu4kY%5Ff9X382ef1KoPsAF%2Dp8pUoAlEwMlhOeBdxzqIUhHkodzcCrtK" target="_blank"><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3778C7;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>free 30-day trial here</span></span><span style='mso-bookmark:_MailOriginal'></span></a><span style='mso-bookmark:_MailOriginal'><span class=apple-converted-space><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>&nbsp;</span></span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>or by visiting turbonomic.com/downloads/turbonomic-30-day-trial/.</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>&nbsp;</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Do you have time in the coming month or so for a quick discussion around the benefits that you and the team at City of St. Petersburg could see after installing Turbonomic into your environment. <o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>&nbsp;</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal style='background:white;vertical-align:baseline;word-wrap: break-word;font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;text-decoration-color: initial;word-spacing:0px'><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Best,</span></span><span style='mso-bookmark:_MailOriginal'><span style='font-size:11.5pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#3D3D3D'><o:p></o:p></span></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><b style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></b></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><b style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'>James Wilcox <o:p></o:p></span></b></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'></span><a href="http://mkto-sjp0104.com/ol/jE5Sd8XLKlxQsRpg5uiMMKvivTDUe5u9qKgwWbq2n59ziQVuYOPLdRGphcBWFZZvNa%2DaCAZNQsIylEpLFL3FOoVJ%5FqhZCle7XHXyg63fboNuYqBj2dVksae33yYQo9nfwhrJEVscQSxBUDOFb5cOnQS1PJsTayrV12HFbYUUujgKorEP5qWGZ5250XuOwXXcwAK7YX5K1dW1zlemI7o7k%5Fk2jlgI3HU%5FUPrHsg%5FNwe0Low9o2%5FUnlDJl2690B%5FNx4kHZByXuwpvCd8V7Rue%2Dg9ug5akYRyxmiIgEbWzccE%2DyOKeNQHAo5RWkuGQBPDQ3DBR%5FWMMKsweonllqTeY3QRacrjAayTY01%5FoIzrDhkyKTO1HtCnPMqRSM%5FgiKIKMvwCa8k90DxwDVPy2%2D%5FtdRAEGGAuDdomPtG9aL%5FQ%2C%2C/j0lZdcLKKFlNoVdlsbPWNrz%5FnTrOdZWhuPJ%2DBvqpwt0x3V19ZqOQNUr7t8deF89gfdy%5FKjgaMJYw4jxOP83BKZYFqNdrIRe4Ui3mgpTbf98WZ6JZxeYkrY6G9XUunOiRi3X5LmYPTERrIVW5LOwExzHoJ5UxEgqJ%5FGnAJpMxiSsckK8Bm5Gkbqen"><span style='mso-bookmark:_MailOriginal'><b style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;color:#0563C1;mso-no-proof:yes'>Turbonomic</span></b></span><span style='mso-bookmark:_MailOriginal'></span></a><span style='mso-bookmark:_MailOriginal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'><o:p></o:p></span></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'>C: (508) 479 7516 <o:p></o:p></span></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'>Email: </span></span><a href="http://mkto-sjp0104.com/ol/jE5Sd8XLKlxQsRpg5uiMMKvivTDUe5u9qKgwWbq2n59ziQVuYOPLdRGphcBWFZZvNa%2DaCAZNQsIylEpLFL3FOoVJ%5FqhZCle7XHXyg63fboNuYqBj2dVksae33yYQo9nfwhrJEVscQSxBUDOFb5cOnQS1PJsTayrV12HFbYUUujgKorEP5qWGZ5250XuOwXXcwAK7YX5K1dW1zlemI7o7k%5Fk2jlgI3HU%5FUPrHsg%5FNwe0Low9o2%5FUnlDJl2690B%5FNx4kHZByXuwpvCd8V7Rue%2Dg9ug5akYRyxmiIgEbWzccE%2DyOKeNQHAo5RWkuGQBPDQ3DBR%5FWMMKsweonllqTeY3QRacrjAayTY01%5FoIzrDhkyKTO1HtCnPMqRSM%5FgiKIKMvwCa8k90DxwDVPy2%2D%5FtdRAEGGAuDdomPtG9aL%5FQ%2C%2C/h01QccLHdlBQuVN5sfaYL6z%2D0SLJdpuno5xpHOXk3cEx1EF9PO%5FANR7ig8duCJ05OLuGNCM7KZpCxl16KvawUdQV7LAPKXeYDjH1lrjYWoxeI%2Dxlyut42O33%5FkMov%5Fa0p0%5FVIHopaXBgUQHYOptl1xk%2C"><span style='mso-bookmark:_MailOriginal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:#0563C1;mso-no-proof:yes'>james.wilcox@turbonomic.com</span></span><span style='mso-bookmark:_MailOriginal'></span></a><span style='mso-bookmark:_MailOriginal'><span style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:yes'> <o:p></o:p></span></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal><span style='mso-bookmark:_MailOriginal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><img border=0 width=1 height=1 id="_x0000_i1025" src="http://mkto-sjp0104.com/track?t=o&amp;enid=bWlkPXZtdHVyYm9CZXRhY3VzdC0wLTAtMC0wLXByb2QtMCZtc2dpZD0wJmRpZD0xMjM0JnNuPTAmZWlkPWRhdmlkLm1jbGVhbkBzdHBldGUub3JnJnVpZD0wJmV4dHJhPU1UVXhmSE55WTJsa1BUSTJNemQ4YldGcGJHbGtQV016Tm1KaE5UUXpMV1U1T1dRdE5Ea3pPQzFoTldReUxURXlNelExWmpjMU5qSTNOeTB5TmpNM2ZHWnliMjA5YW1GdFpYTXVkMmxzWTI5NFFIUjFjbUp2Ym05dGFXTXVZMjl0ZkhOMVltbzlKREUxTERBd01DQlBabVlnVkhWeVltOXViMjFwWXlCbWIzSWdVM1JoZEdVZ0ppQk1iMk5oYkNCSmJuTjBhWFIxZEdsdmJuTT09JiYm"></span></span><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></p></div></body></html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Destination Object FieldID --></label>
+        <name>VartopiaDRS__Destination_Object_FieldID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Object FieldName --></label>
+        <name>VartopiaDRS__Destination_Object_FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Object FieldType --></label>
+        <name>VartopiaDRS__Destination_Object_FieldType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Object Name --></label>
+        <name>VartopiaDRS__Destination_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration FieldName --></label>
+        <name>VartopiaDRS__Registration_FieldName__c</name>
+    </fields>
+</CustomObjectTranslation>

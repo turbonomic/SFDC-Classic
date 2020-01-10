@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WC-2016-07-Cloud Cost Calculator.EMAIL-Promotion Email</name>
+    <style>none</style>
+    <subject>Cloud Cost Compare | Find the Right Cloud at the Right Price</subject>
+    <textOnly>&lt;[[https://c3.turbonomic.com/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=c3&amp;utm_content=10272016]]&gt;
+Hi {{Lead.First Name:default=}},
+Turbonomic is excited to introduce Cloud Cost Compare (C3)! C3 provides you with real-time decisions trading off public cloud performance and cost. Simply profile your app workload and the service decides on the best cloud and template. 
+Click below and see how C3:
+
+
+	- Solves for the performance and cost tradeoff
+	- Provides real-time placement decisions
+	- Is cloud agnostic
+	- Is free!
+
+
+It’s a multi-cloud world and we’ve got you covered!
+
+
+ &lt;[[https://c3.turbonomic.com/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=c3&amp;utm_content=10272016]]&gt;
+-The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

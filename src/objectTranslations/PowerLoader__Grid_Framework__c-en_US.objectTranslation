@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enable the classic Grid view, pre Spring 2016 --></help>
+        <label><!-- Classic View --></label>
+        <name>PowerLoader__Classic_View__c</name>
+    </fields>
+    <fields>
+        <help><!-- Content Background color. HEX value. --></help>
+        <label><!-- Content Background Color --></label>
+        <name>PowerLoader__Content_Background_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Content Text Color. HEX value. --></help>
+        <label><!-- Content Text Color --></label>
+        <name>PowerLoader__Content_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Form Header Text Color. HEX value. --></help>
+        <label><!-- Form Header Text Color --></label>
+        <name>PowerLoader__Form_Header_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Grid components (headers and borders) color. HEX value. --></help>
+        <label><!-- Grid Components Main Color --></label>
+        <name>PowerLoader__Grid_Components_Main_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Header text Color. HEX value. --></help>
+        <label><!-- Header Text Color --></label>
+        <name>PowerLoader__Header_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Menu and Toolbar Text Color. HEX value. --></help>
+        <label><!-- Menu and Toolbar Text Color --></label>
+        <name>PowerLoader__Menu_and_Toolbar_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Page Background color. HEX value. --></help>
+        <label><!-- Page Background Color --></label>
+        <name>PowerLoader__Page_Background_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Selection color. HEX value. --></help>
+        <label><!-- Selection Color --></label>
+        <name>PowerLoader__Selection_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Selection Text Color. HEX value. --></help>
+        <label><!-- Selection Text Color --></label>
+        <name>PowerLoader__Selection_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Toolbar Background color. HEX value. --></help>
+        <label><!-- Toolbar Background Color --></label>
+        <name>PowerLoader__Toolbar_Background_Color__c</name>
+    </fields>
+</CustomObjectTranslation>

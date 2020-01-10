@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic in Q2 (1495465664.0)</name>
+    <style>none</style>
+    <subject>Turbonomic in Q2 (1495465664.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Dave,Hope all is well with you! I wanted to touch base to see if now is a better time to connect with Turbonomic. Last we talked you said the best time to connect was during summer 2017 so I just wanted to get on your calendar before it starts to fill up! It has been a while since we last spoke so here is a refresher of what we do: Conventional wisdom has said that IT Operations needs more monitoring, smarter alerts and more data to help assure application performance—the problem is that it only makes IT faster at responding to issues, it’ doesn’t prevent them. It’s still a manual process to do root-cause analysis. Our core business value is that we are able to identify performance risk and provide proactive, actionable recommendations (not more alerts) which can be automated to fix problems initially and then prevent performance issues from happening.  Turbonomic dynamically allocates resources based on what your applications demand, at any given time— not more, not less. This could help your team better support the business as it will make sure that mission critical applications get the resources that they need, when they need them— but not by over provisioning and being inefficient.   Do you have time next week to connect? Best,Katie                      Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

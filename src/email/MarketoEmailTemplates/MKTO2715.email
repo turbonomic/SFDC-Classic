@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title></title> 
+</head> 
+<body> 
+<div> 
+<div class="mktEditable" id="edit_text_1">
+<p>Hi {{lead.First Name:default=There}},</p> 
+<p>We wanted to follow up with you in regards to our upcoming 5.9 Release Webinar. We recognize that GoToWebinar had a production outage during the time of your registration and your confirmation email with the link to join may not have been sent to you. Below is all the information you need for the webinar.</p> 
+<p>The webinar will be hosted on June 13th from 10am-11am EST. <a href="https://applauncher.gotowebinar.com/#notStarted/3056089653795720961/en_US" target="_blank" id="">Join here</a>. If you plan on using your phone here are the Access Code and the Webinar ID:</p> 
+<p>ID Access Code: 684-129-819</p> 
+<p>Webinar ID: 834-616-931</p> 
+<p>We look forward to sharing our enhanced hybrid cloud abilities with you. If you have any questions please feel free to reach out to marketing@turbonomic.com</p> 
+<p>Best,</p> 
+<p>The <span style="color: #339966;">Turbonomic</span> Team</p>
+</div> 
+</div>  
+<!--start footer--> 
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="footer" style="border-collapse: collapse; line-height: 18px;"> 
+<tbody>
+<tr> 
+<td height="20" align="center" id="content14" class="footer-td mktEditable" style="font-weight: 400; font-size: 11px; -webkit-text-size-adjust: none; border-collapse: collapse; line-height: 16px; font-family: Tahoma,'Helvetica Neue',Arial,sans-serif; color: #444; padding: 10px 10px 20px;"><span class="footer-title" style="font-weight: normal !important; font-size: 10px; -webkit-text-size-adjust: none; text-transform: uppercase; line-height: 16px; color: #222;">500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087</span><br> <span class="h6" style="font-weight: normal !important; font-size: 10px; -webkit-text-size-adjust: none; text-transform: uppercase; 
+line-height: 16px; color: #252525;"><a href="http://go.vmturbo.com/contact-us.html?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker" target="_blank" style="outline: none; text-decoration: none; color: #7c74e1 !important;">contact us</a> | <a href="http://www.turbonomic.com?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker" style="outline: none; text-decoration: 
+none; color: #7c74e1 !important;">website</a> | <a href="http://www.turbonomic.com/privacy-policy?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=ticker" target="_blank" style="outline: none; text-decoration: none; color: #7c74e1 !important;">privacy policy</a></span> </td> 
+</tr> 
+</tbody>
+</table> 
+<!--end footer--> 
+</body>
+</html>

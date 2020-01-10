@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMTurbo v4.5 Prospect 1_28_2014.Email</name>
+    <style>none</style>
+    <subject>VMTurbo v4.5 - NetApp &amp; UCS Support</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+
+
+VMTurbo just released &lt;http://www.vmturbo.com/?p=10092&gt; v4.5. We are extending our control system beyond the hypervisor into the converged fabric and deeper into storage.
+
+
+ - VMTurbo resolves virtualization performance issues with one click. It tells you the specific actions to take to resolve the issue – which VMs to move, and which hosts to move them to. It will even execute those actions for you.
+
+
+
+ - VMTurbo will now calculate actions for NetApp and Cisco UCS &lt;http://bit.ly/1lilXre&gt; such as provisioning new storage controllers, new ports, or spinning up a new blade – all automatically, all optimally.
+
+
+
+Attend our webinars to learn more
+
+
+ - Thursday, January 30th 8:00AM - 9:00AM EST http://bit.ly/1eKySg2 
+ - Thursday, January 30th 12:00PM - 1:00PM EST http://bit.ly/1gMwpBa
+
+
+
+Best regards,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

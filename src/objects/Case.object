@@ -1,0 +1,3835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Case App Support</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>2L Enhancement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backlog</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Solution Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Response</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Case Implementation Service</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>2L Enhancement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backlog</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Solution Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Response</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Case Process</fullName>
+        <description>default process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Case default</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Affected_Users__c</fullName>
+        <externalId>false</externalId>
+        <label>Affected Users</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>true</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2-20</fullName>
+                    <default>false</default>
+                    <label>2-20</label>
+                </value>
+                <value>
+                    <fullName>21-50</fullName>
+                    <default>false</default>
+                    <label>21-50</label>
+                </value>
+                <value>
+                    <fullName>&gt;50</fullName>
+                    <default>false</default>
+                    <label>&gt;50</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Aged__c</fullName>
+        <externalId>false</externalId>
+        <formula>NOW() - CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Aged</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assigned_to__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Assign a user</description>
+        <externalId>false</externalId>
+        <label>Assigned to</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BusinessHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Case_Number__c</fullName>
+        <displayFormat>Case-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Case Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Case_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please select the closest value that represents the issue</inlineHelpText>
+        <label>Case Type</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Creation</fullName>
+                    <color>#CC33CC</color>
+                    <default>true</default>
+                    <label>Account Creation</label>
+                </value>
+                <value>
+                    <fullName>Bug</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Bug</label>
+                </value>
+                <value>
+                    <fullName>Data Change</fullName>
+                    <color>#33CCFF</color>
+                    <default>false</default>
+                    <label>Data Change</label>
+                </value>
+                <value>
+                    <fullName>Enhancement Request</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                    <label>Enhancement Request</label>
+                </value>
+                <value>
+                    <fullName>Information</fullName>
+                    <color>#990000</color>
+                    <default>false</default>
+                    <label>Information</label>
+                </value>
+                <value>
+                    <fullName>New User</fullName>
+                    <color>#FF9900</color>
+                    <default>false</default>
+                    <label>New User</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Record Merge</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                    <label>Record Merge</label>
+                </value>
+                <value>
+                    <fullName>Reports and Dashboards</fullName>
+                    <color>#6666CC</color>
+                    <default>false</default>
+                    <label>Reports and Dashboards</label>
+                </value>
+                <value>
+                    <fullName>Termination</fullName>
+                    <color>#333333</color>
+                    <default>false</default>
+                    <label>Termination</label>
+                </value>
+                <value>
+                    <fullName>Training Issue</fullName>
+                    <color>#FFFF66</color>
+                    <default>false</default>
+                    <label>Training Issue</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Performance/Scalability</fullName>
+                    <default>false</default>
+                    <label>Performance/Scalability</label>
+                </value>
+                <value>
+                    <fullName>Exception</fullName>
+                    <default>false</default>
+                    <label>Exception</label>
+                </value>
+                <value>
+                    <fullName>Memory Leaks</fullName>
+                    <default>false</default>
+                    <label>Memory Leaks</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Behavior</fullName>
+                    <default>false</default>
+                    <label>Incorrect Behavior</label>
+                </value>
+                <value>
+                    <fullName>User Experience</fullName>
+                    <default>false</default>
+                    <label>User Experience</label>
+                </value>
+                <value>
+                    <fullName>Malfunction</fullName>
+                    <default>false</default>
+                    <label>Malfunction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClosedDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Component__c</fullName>
+        <externalId>false</externalId>
+        <label>Component/Product</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discovery</fullName>
+                    <default>false</default>
+                    <label>Discovery</label>
+                </value>
+                <value>
+                    <fullName>Market</fullName>
+                    <default>false</default>
+                    <label>Market</label>
+                </value>
+                <value>
+                    <fullName>Presentation</fullName>
+                    <default>false</default>
+                    <label>Presentation</label>
+                </value>
+                <value>
+                    <fullName>Persistence</fullName>
+                    <default>false</default>
+                    <label>Persistence</label>
+                </value>
+                <value>
+                    <fullName>Monitoring</fullName>
+                    <default>false</default>
+                    <label>Monitoring</label>
+                </value>
+                <value>
+                    <fullName>Reporter</fullName>
+                    <default>false</default>
+                    <label>Reporter</label>
+                </value>
+                <value>
+                    <fullName>Planner</fullName>
+                    <default>false</default>
+                    <label>Planner</label>
+                </value>
+                <value>
+                    <fullName>Resolver</fullName>
+                    <default>false</default>
+                    <label>Resolver</label>
+                </value>
+                <value>
+                    <fullName>Delivery</fullName>
+                    <default>false</default>
+                    <label>Delivery</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContactEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactFax</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactMobile</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Date_Delivered__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Delivered</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Describe_Your_Problem_Question_del__c</fullName>
+        <externalId>false</externalId>
+        <label>Describe Your Problem/Question</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Description_About_Fix__c</fullName>
+        <description>This field contains description about fix of the issue.</description>
+        <externalId>false</externalId>
+        <label>Description About Fix</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Discover_Org_Seats__c</fullName>
+        <defaultValue>117</defaultValue>
+        <externalId>false</externalId>
+        <label>Discover Org Seats</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discover_Org__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;https://go.discoverydb.com/eui/#/login&quot;+&quot;  &quot;+&quot;(117 Total seats)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Discover Org</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discover_Org_no__c</fullName>
+        <description>This number will be decremented from the total number of seats in Discover Org</description>
+        <externalId>false</externalId>
+        <label>Discover Org #</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Engineer__c</fullName>
+        <externalId>false</externalId>
+        <label>Engineer</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Benjamin, Shai</fullName>
+                    <default>false</default>
+                    <label>Benjamin, Shai</label>
+                </value>
+                <value>
+                    <fullName>Florissi, Danilo</fullName>
+                    <default>false</default>
+                    <label>Florissi, Danilo</label>
+                </value>
+                <value>
+                    <fullName>Katki, Navaz</fullName>
+                    <default>false</default>
+                    <label>Katki, Navaz</label>
+                </value>
+                <value>
+                    <fullName>Miller, Christine</fullName>
+                    <default>false</default>
+                    <label>Miller, Christine</label>
+                </value>
+                <value>
+                    <fullName>Sara, Endre</fullName>
+                    <default>false</default>
+                    <label>Sara, Endre</label>
+                </value>
+                <value>
+                    <fullName>Tal, Ariel</fullName>
+                    <default>false</default>
+                    <label>Tal, Ariel</label>
+                </value>
+                <value>
+                    <fullName>Vyas, Nitya</fullName>
+                    <default>false</default>
+                    <label>Vyas, Nitya</label>
+                </value>
+                <value>
+                    <fullName>Wild, Fred</fullName>
+                    <default>false</default>
+                    <label>Wild, Fred</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Go_Live_Date__c</fullName>
+        <defaultValue>TODAY () + (24/24)</defaultValue>
+        <description>The Date that the enhancement is active in Production Environment</description>
+        <externalId>false</externalId>
+        <label>Go-Live Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Integrated_Applications__c</fullName>
+        <description>The role-based third-party apps that need to be assigned for each user.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+      CONTAINS(Title__c, &quot;SDR&quot;),
+   &quot;DiscoverOrg, LinkedIn Navigator&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;Commercial&quot;), 
+      CONTAINS(Title__c, &quot;Enterprise&quot;)),
+   &quot;LinkedIn Navigator&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;Customer Account&quot;), 
+      CONTAINS(Title__c, &quot;xxx&quot;)),
+   &quot;GainSight&quot;,
+
+&quot;None&quot;
+
+)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Integrated Applications</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsClosedOnCreate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsEscalated</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsSelfServiceClosed</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>LinkedIn_Nav__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;https://www.linkedin.com&quot;+&quot;  &quot;+&quot;(175 Total seats)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LinkedIn_Nav</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LinkedIn_Nav_no__c</fullName>
+        <externalId>false</externalId>
+        <label>LinkedIn_Nav #</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_User_Name__c</fullName>
+        <description>The name of the New Turbo SF User</description>
+        <externalId>false</externalId>
+        <label>New User Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_User_Start_Date__c</fullName>
+        <description>The date the New User needs to be set up in Salesforce</description>
+        <externalId>false</externalId>
+        <label>New User Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportunities__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Opps_open_Pipe__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Origin</fullName>
+        <inlineHelpText>In Person</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Provisioning_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checked by a WFR/FU:New User / Application Provisioning (ID: 01Q570000003Vn1)</description>
+        <externalId>false</externalId>
+        <label>Provisioning Complete</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Reported_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Reported By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Request_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Data Change</fullName>
+                    <color>#3366FF</color>
+                    <default>false</default>
+                    <label>Data Change</label>
+                </value>
+                <value>
+                    <fullName>Enhancement</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Enhancement</label>
+                </value>
+                <value>
+                    <fullName>Issue/Bug</fullName>
+                    <color>#FF9900</color>
+                    <default>false</default>
+                    <label>Issue/Bug</label>
+                </value>
+                <value>
+                    <fullName>New User</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>New User</label>
+                </value>
+                <value>
+                    <fullName>Question/Information</fullName>
+                    <color>#CC33CC</color>
+                    <default>false</default>
+                    <label>Question/Information</label>
+                </value>
+                <value>
+                    <fullName>Reports and Dashboards</fullName>
+                    <color>#9999FF</color>
+                    <default>false</default>
+                    <label>Reports and Dashboards</label>
+                </value>
+                <value>
+                    <fullName>Termination</fullName>
+                    <color>#FF6666</color>
+                    <default>false</default>
+                    <label>Termination</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Requested_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Review_Date__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <description>The date that the modification is ready for review to the primary Contact
+(in the case of New User this will be the Start Date)</description>
+        <externalId>false</externalId>
+        <label>Review Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Salesforce_Permission_Sets__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(
+      CONTAINS(Title__c, &quot;Rep&quot;), 
+      CONTAINS(Title__c, &quot;Standard (Sales)&quot;)),
+   &quot;BrainShark Coaching Permissions, Standard Enterprise AE&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;SDR&quot;), 
+      CONTAINS(Title__c, &quot;Sales Development&quot;)),
+   &quot;BrainShark Coaching Permissions, Standard SDR, Access to Discover Org&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;Professional Services&quot;), 
+      CONTAINS(Title__c, &quot;Technical Account Manager&quot;)),
+   &quot;Customer Success Manager&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;Customer Support Engineer&quot;), 
+      CONTAINS(Title__c, &quot;Support&quot;)),
+   &quot;Support&quot;,
+
+&quot;None Needed&quot;
+
+))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Salesforce Permission Sets</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Salesforce_Profile__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(
+      CONTAINS(Title__c, &quot;Enterprise&quot;), 
+      CONTAINS(Title__c, &quot;Commercial&quot;)),
+   &quot;Standard (Sales)&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;Professional Services&quot;), 
+      CONTAINS(Title__c, &quot;Technical Account Manager&quot;)),
+   &quot;Engineer&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;Customer Support Engineer&quot;), 
+      CONTAINS(Title__c, &quot;Support&quot;)),
+   &quot;Support&quot;,
+
+IF(OR(
+      CONTAINS(Title__c, &quot;General Counsel&quot;), 
+      CONTAINS(Title__c, &quot;Controller&quot;)),
+   &quot;Finance User&quot;,
+
+NULL)
+)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Salesforce Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Salesforce_Role__c</fullName>
+        <description>The Salesforce Role is derived from the HR Title</description>
+        <externalId>false</externalId>
+        <label>Salesforce Role</label>
+        <length>65</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Solution_Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This will be checked when testing has been completed and approved by the end user.</description>
+        <externalId>false</externalId>
+        <label>Solution Approved</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <description>Any case must be in one of these states</description>
+        <externalId>false</externalId>
+        <label>State</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Investigate</fullName>
+                    <default>true</default>
+                    <label>Investigate</label>
+                </value>
+                <value>
+                    <fullName>Implement</fullName>
+                    <default>false</default>
+                    <label>Implement</label>
+                </value>
+                <value>
+                    <fullName>Verify</fullName>
+                    <default>false</default>
+                    <label>Verify</label>
+                </value>
+                <value>
+                    <fullName>Resolved</fullName>
+                    <default>false</default>
+                    <label>Resolved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <inlineHelpText>Re-Opened
+Closed
+Hold Deferred
+Project
+In Progress
+Waiting on Response (Users)
+Vendor Help needed</inlineHelpText>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedCompany</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedName</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Team_Affected__c</fullName>
+        <description>To record which Department is seeking solutions</description>
+        <externalId>false</externalId>
+        <label>Team Affected</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Turbonomic_Departments</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>The title of the new user as defined by Human Resources this will be translated with a formula to generate a Sf Role and Profile on the Case to aid in User record creation.</description>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>65</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <inlineHelpText>Enhancement
+Training request
+User error</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>User_License__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;Salesforce&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User License</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value_Sets_to_update__c</fullName>
+        <defaultValue>&quot;None&quot;</defaultValue>
+        <description>Any Global value sets that this user will be needed on.</description>
+        <externalId>false</externalId>
+        <label>Value Sets to update</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zendesk__Created_At__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created At</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Zendesk__Initially_Assigned_At__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Initially Assigned At</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Zendesk__Resolution_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Resolution Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zendesk__Solved_At__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Solved At</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Zendesk__Updated_At__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Updated At</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Zendesk__Zendesk_Ticket_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Zendesk Support Ticket ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zoom_Info__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;https://www.zoominfo.com/login&quot;+&quot;  &quot;+&quot;(150 Total seats)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Zoom Info</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zoom_Info_no__c</fullName>
+        <externalId>false</externalId>
+        <label>Zoom Info #</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Ad_Campaign_Name_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ad Campaign Name (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Ad_Campaign_Name_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ad Campaign Name (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Landing_Page_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Landing Page (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Landing_Page_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Landing Page (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Marketing_Channel_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of marketing activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of marketing activity</inlineHelpText>
+        <label>Marketing Channel (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Marketing_Channel_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of marketing activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of marketing activity</inlineHelpText>
+        <label>Marketing Channel (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Touchpoint_Date_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date that the session activity occurred</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date that the session activity occurred</inlineHelpText>
+        <label>Touchpoint Date (FT)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>bizible2__Touchpoint_Date_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date that the session activity occurred</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date that the session activity occurred</inlineHelpText>
+        <label>Touchpoint Date (LC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>bizible2__Touchpoint_Source_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the referrer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the referrer</inlineHelpText>
+        <label>Touchpoint Source (FT)</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2__Touchpoint_Source_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the referrer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the referrer</inlineHelpText>
+        <label>Touchpoint Source (LC)</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Ad_Content_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The title, copy, and display URL from the ad</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The title, copy, and display URL from the ad</inlineHelpText>
+        <label>Ad Content (FT)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Ad_Content_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The title, copy, and display URL from the ad</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The title, copy, and display URL from the ad</inlineHelpText>
+        <label>Ad Content (LC)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Ad_Destination_URL_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ad Destination URL (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Ad_Destination_URL_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ad Destination URL (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Ad_Group_Name_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ad Group Name (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Ad_Group_Name_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ad Group Name (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Device_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The device that the user is using while engaged in the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The device that the user is using while engaged in the activity</inlineHelpText>
+        <label>Device (FT)</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Device_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The device that the user is using while engaged in the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The device that the user is using while engaged in the activity</inlineHelpText>
+        <label>Device (LC)</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Geo_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The country, region, city that the user is located in while engaged in the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The country, region, city that the user is located in while engaged in the activity</inlineHelpText>
+        <label>Geo (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Geo_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The country, region, city that the user is located in while engaged in the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The country, region, city that the user is located in while engaged in the activity</inlineHelpText>
+        <label>Geo (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Keyword_Text_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Keywords chosen by the advertiser that match the user&apos;s search results</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Keywords chosen by the advertiser that match the user&apos;s search results</inlineHelpText>
+        <label>Keyword Text (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Keyword_Text_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Keywords chosen by the advertiser that match the user&apos;s search results</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Keywords chosen by the advertiser that match the user&apos;s search results</inlineHelpText>
+        <label>Keyword Text (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Landing_Page_Raw_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Landing Page - Raw (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Landing_Page_Raw_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Landing Page - Raw (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Marketing_Channel_Path_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The whole path of the Marketing Channel including any custom Sub Channels</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The whole path of the Marketing Channel including any custom Sub Channels</inlineHelpText>
+        <label>Marketing Channel - Path (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Marketing_Channel_Path_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The whole path of the Marketing Channel including any custom Sub Channels</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The whole path of the Marketing Channel including any custom Sub Channels</inlineHelpText>
+        <label>Marketing Channel - Path (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Medium_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The channel being used (ex. web, search, email), set within the UTM parameter</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The channel being used (ex. web, search, email), set within the UTM parameter</inlineHelpText>
+        <label>Medium (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Medium_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The channel being used (ex. web, search, email), set within the UTM parameter</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The channel being used (ex. web, search, email), set within the UTM parameter</inlineHelpText>
+        <label>Medium (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Placement_Id_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Placement Id (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Placement_Id_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Placement Id (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Placement_Name_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Placement Name (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Placement_Name_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Placement Name (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Platform_Browser_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The operating system and browser that the user is on while engaged in the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The operating system and browser that the user is on while engaged in the activity</inlineHelpText>
+        <label>Platform / Browser (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Platform_Browser_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The operating system and browser that the user is on while engaged in the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The operating system and browser that the user is on while engaged in the activity</inlineHelpText>
+        <label>Platform / Browser (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Referrer_Page_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Referrer Page (FT)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Referrer_Page_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Referrer Page (LC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Referrer_Page_Raw_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The URL of the referring website</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The URL of the referring website</inlineHelpText>
+        <label>Referrer Page - Raw (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Referrer_Page_Raw_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The URL of the referring website</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The URL of the referring website</inlineHelpText>
+        <label>Referrer Page - Raw (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Search_Phrase_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The term(s) that the user entered to view the search results</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The term(s) that the user entered to view the search results</inlineHelpText>
+        <label>Search Phrase (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Search_Phrase_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The term(s) that the user entered to view the search results</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The term(s) that the user entered to view the search results</inlineHelpText>
+        <label>Search Phrase (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Site_Id_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Site Id (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Site_Id_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Site Id (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Site_Name_FT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Site Name (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible2_ext__Site_Name_LC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Site Name (LC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible__AdWords_Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Campaign (FT)</label>
+        <referenceTo>bizible__AdWords_Campaign__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>bizible__Ad_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Ad Group (FT)</label>
+        <referenceTo>bizible__Ad_Group__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>bizible__City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible City (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Country (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible__Data__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Attribution</label>
+        <referenceTo>bizible__Bizible_Data__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>bizible__Device__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Device (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible__Keyword__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Keyword (FT)</label>
+        <referenceTo>bizible__Keyword__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>bizible__LandingPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Bizible Landing Page</description>
+        <externalId>false</externalId>
+        <label>Bizible Landing Page (FT)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>bizible__Medium__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Medium (FT)</label>
+        <referenceTo>bizible__Medium__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>bizible__ReferrerPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Bizible Referrer Page</description>
+        <externalId>false</externalId>
+        <label>Bizible Referrer Page (FT)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>bizible__Region__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Region (FT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bizible__Search_Phrase__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Search Phrase (FT)</label>
+        <referenceTo>bizible__Search_Phrase__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>bizible__Text_Ad__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible Ad Content (FT)</label>
+        <referenceTo>bizible__Text_Ad__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>bizible__WebSource__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bizible WebSource (FT)</label>
+        <referenceTo>bizible__WebSource__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>AllOpenCases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>OWNER_NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>Case_Type__c</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>NAME</columns>
+        <columns>Assigned_to__c</columns>
+        <columns>Team_Affected__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Backlog,Closed</value>
+        </filters>
+        <label>All Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>AllOpsOpenCases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>Category__c</columns>
+        <columns>State__c</columns>
+        <columns>Component__c</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>OWNER_NAME</columns>
+        <columns>NAME</columns>
+        <filterScope>Queue</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Ops Open Cases</label>
+        <queue>Case_SalesOps_Queue</queue>
+    </listViews>
+    <listViews>
+        <fullName>AllSupportOpenCases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>Category__c</columns>
+        <columns>State__c</columns>
+        <columns>Component__c</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>OWNER_NAME</columns>
+        <columns>NAME</columns>
+        <filterScope>Queue</filterScope>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed,On Hold,Solution Approved,2L Enhancement</value>
+        </filters>
+        <label>All Support Open Cases</label>
+        <queue>Case_Apps_Support_Queue</queue>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Cases_Investigate_Only</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>Category__c</columns>
+        <columns>State__c</columns>
+        <columns>Component__c</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>OWNER_NAME</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>State__c</field>
+            <operation>notEqual</operation>
+            <value>Implement,Verify,Resolved</value>
+        </filters>
+        <label>All Open Cases-Investigate Only</label>
+    </listViews>
+    <listViews>
+        <fullName>Case_Apps_Support_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Case Apps Support Queue</label>
+        <queue>Case_Apps_Support_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Case_Operations_Queue_Case</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Assigned_to__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <filters>
+            <field>CASES.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Case.Case_App_Support</value>
+        </filters>
+        <filters>
+            <field>OWNER_NAME</field>
+            <operation>equals</operation>
+            <value>Case Apps Support Queue,Ops Support Queue</value>
+        </filters>
+        <label>Ops Open Support Queue</label>
+    </listViews>
+    <listViews>
+        <fullName>Cases_by_urgency_after_September_1_2011</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>State__c</columns>
+        <columns>CASES.REASON</columns>
+        <columns>Category__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CASES.SUBJECT</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Problem</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <filters>
+            <field>CASES.CREATED_DATE_DATE_ONLY</field>
+            <operation>greaterThan</operation>
+            <value>8/31/2011 12:00 AM</value>
+        </filters>
+        <label>Cases by urgency after September 1, 2011</label>
+    </listViews>
+    <listViews>
+        <fullName>Feature_Requests_from_Cases</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>NAME</columns>
+        <columns>CASES.EMAIL</columns>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>State__c</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Feature Request</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Feature Requests from Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>Internal_Salesforce_Cases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Assigned_to__c</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>NAME</columns>
+        <columns>Team_Affected__c</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>New_User_Name__c</columns>
+        <columns>New_User_Start_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Case.Case_App_Support,Case.Case_Implementation_Service</value>
+        </filters>
+        <label>Internal Salesforce Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>MyCases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CASES.RECORDTYPE</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpenCases</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Cases_By_Urgency1</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>State__c</columns>
+        <columns>CASES.REASON</columns>
+        <columns>Category__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CASES.SUBJECT</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Problem</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <label>Open Cases - By Urgency</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Cases_Investigate_ONLY1</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>State__c</columns>
+        <columns>CASES.REASON</columns>
+        <columns>Category__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Problem</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <filters>
+            <field>State__c</field>
+            <operation>notEqual</operation>
+            <value>Implement,Verify,Resolved</value>
+        </filters>
+        <label>Open Cases - Investigate ONLY</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Cases_Investigate_ONLY_0_Urgency</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>State__c</columns>
+        <columns>CASES.REASON</columns>
+        <columns>Category__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Problem</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <filters>
+            <field>State__c</field>
+            <operation>notEqual</operation>
+            <value>Implement,Verify,Resolved</value>
+        </filters>
+        <label>Open Cases - Investigate ONLY- 0 Urgency</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Cases_Investigate_ONLY_after92011</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>State__c</columns>
+        <columns>CASES.REASON</columns>
+        <columns>Category__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Problem</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <filters>
+            <field>State__c</field>
+            <operation>notEqual</operation>
+            <value>Implement,Verify,Resolved</value>
+        </filters>
+        <filters>
+            <field>CASES.CREATED_DATE_DATE_ONLY</field>
+            <operation>greaterThan</operation>
+            <value>8/31/2011 12:00 AM</value>
+        </filters>
+        <label>Open Cases - Investigate ONLY after92011</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Case_App_Support</fullName>
+        <active>true</active>
+        <businessProcess>Case App Support</businessProcess>
+        <description>Application Support for internal Users</description>
+        <label>Ops App Support</label>
+        <picklistValues>
+            <picklist>Affected_Users__c</picklist>
+            <values>
+                <fullName>%3E50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2-20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>21-50</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Type__c</picklist>
+            <values>
+                <fullName>Account Creation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bug</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Data Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enhancement Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Record Merge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Exception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incorrect Behavior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Malfunction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memory Leaks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance%2FScalability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Experience</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Component__c</picklist>
+            <values>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Market</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Persistence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Benjamin%2C Shai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Florissi%2C Danilo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Katki%2C Navaz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miller%2C Christine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sara%2C Endre</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tal%2C Ariel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vyas%2C Nitya</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wild%2C Fred</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Discussions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>Data Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enhancement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue%2FBug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question%2FInformation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>Implement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Investigate</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verify</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team_Affected__c</picklist>
+            <values>
+                <fullName>Alliance Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Channel Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Executive Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Council</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre Sales Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product_Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Enablement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training %26 Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turbo Technical Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Various Users</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Case_Implementation_Service</fullName>
+        <active>true</active>
+        <businessProcess>Case Implementation Service</businessProcess>
+        <label>Case Implementation Service</label>
+        <picklistValues>
+            <picklist>Affected_Users__c</picklist>
+            <values>
+                <fullName>%3E50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2-20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>21-50</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Type__c</picklist>
+            <values>
+                <fullName>Account Creation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enhancement Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Record Merge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Exception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incorrect Behavior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Malfunction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memory Leaks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance%2FScalability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Experience</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Component__c</picklist>
+            <values>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Market</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Persistence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Benjamin%2C Shai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Florissi%2C Danilo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Katki%2C Navaz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miller%2C Christine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sara%2C Endre</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tal%2C Ariel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vyas%2C Nitya</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wild%2C Fred</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Discussions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>Data Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enhancement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue%2FBug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question%2FInformation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>Implement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Investigate</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verify</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team_Affected__c</picklist>
+            <values>
+                <fullName>Alliance Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Channel Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Executive Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Council</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre Sales Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product_Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Enablement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training %26 Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turbo Technical Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Various Users</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Case_default</fullName>
+        <active>true</active>
+        <businessProcess>Case default</businessProcess>
+        <label>Case default</label>
+        <picklistValues>
+            <picklist>Affected_Users__c</picklist>
+            <values>
+                <fullName>%3E50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2-20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>21-50</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Type__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Enhancement Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Exception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incorrect Behavior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Malfunction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memory Leaks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance%2FScalability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Experience</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Component__c</picklist>
+            <values>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Market</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Persistence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Engineer__c</picklist>
+            <values>
+                <fullName>Benjamin%2C Shai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Florissi%2C Danilo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Katki%2C Navaz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miller%2C Christine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sara%2C Endre</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tal%2C Ariel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vyas%2C Nitya</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wild%2C Fred</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>Data Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enhancement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue%2FBug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question%2FInformation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>Implement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Investigate</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verify</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team_Affected__c</picklist>
+            <values>
+                <fullName>Alliance Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Channel Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Executive Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Council</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre Sales Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product_Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Enablement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training %26 Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turbo Technical Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Various Users</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <webLinks>
+        <fullName>MA_MapIt_a2T57000002VnvxEAC</fullName>
+        <availability>online</availability>
+        <description>Maps this Case with selected tooltips</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Map It</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/sma__mapanything?recordId={!Case.Id}&amp;baseObjectId=a2T57000002VnvxEAC&amp;tooltipField=Subject&amp;tooltipField2=Status&amp;tooltipField3=ContactId&amp;tooltipField4=AccountId&amp;tooltipField5=Origin&amp;tooltipField6=Priority&amp;color=%2366FF00</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)}
+
+var records = {!GETRECORDIDS(  $ObjectType.Case  )};
+
+if (records[0] == null) {
+alert(&quot;Please select at least one record.&quot;) }
+else {
+
+var errors = [];
+var result = sforce.connection.deleteIds(records);
+if (result &amp;&amp; result.length){
+var numFailed = 0;
+var numSucceeded = 0;
+for (var i = 0; i &lt; result.length; i++){
+var res = result[i];
+if (res &amp;&amp; res.success == &apos;true&apos;){
+numSucceeded++;
+} else {
+var es = res.getArray(&quot;errors&quot;);
+if (es.length &gt; 0) {
+errors.push(es[0].message);
+}
+numFailed++;
+}
+}
+if (numFailed &gt; 0){
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;));
+} else {
+alert(&quot;Number of records deleted: &quot; + numSucceeded);
+}
+}
+window.location.reload();
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Edit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Edit</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassEditCase</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Update</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassUpdateCase</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Zendesk__Zendesk_Ticket_View_Link</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Zendesk Support Ticket View Link</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/apex.js&quot;)}
+
+var pageUrl = sforce.apex.execute(&quot;Zendesk.ZendeskPageURL&quot;, &quot;getPageUrl&quot;, {ticketid:&quot;{!Case.Zendesk__Zendesk_Ticket_ID__c}&quot;});
+window.location.href =  pageUrl;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>activities__Create_Tasks_Cases</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Tasks</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/38.0/connection.js&quot;)}
+var records = {!GETRECORDIDS( $ObjectType.Case)};
+var returnURL = window.location.href;
+if(records != null &amp;&amp; records != &apos;&apos;){
+mywin = window.open(&apos;/apex/activities__createTasks?Ids=&apos;+records+&apos;&amp;retURL=&apos;+returnURL+&apos;&amp;type=whatId&apos; , &apos;_top&apos;,
+&apos;height=400,width=600,status=yes,toolbar=no,menubar=no,location=no,center=yes,resizable=no&apos;);
+mywin.focus();
+}else{
+alert(&apos;Please select atleast one record.&apos;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>bizible__UpsellCrosssellOpportunity</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Bizible Case Support</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://support.bizible.com/support/home</url>
+    </webLinks>
+    <webLinks>
+        <fullName>dsfs__Send_with_DocuSign</fullName>
+        <availability>online</availability>
+        <description>This button will initiate a DocuSign Envelope that is linked to the Case</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send with DocuSign</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/apex/dsfs__DocuSign_JavaScript&quot;)}
+DocuSign_CreateEnvelope();</url>
+    </webLinks>
+</CustomObject>

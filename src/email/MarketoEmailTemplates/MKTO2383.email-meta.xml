@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2017-04-12-Cloud Secrets Webinar Series-Defogging the Public Cloud.EMAIL-Fol</name>
+    <style>none</style>
+    <subject>Thank You For Attending Cloud $ecrets: De-Fogging the Public Cloud</subject>
+    <textOnly>Hi {{Lead.First Name}},
+Thank you for attending our Cloud $ecrets Webinar: De-Fogging the Public Cloud. 
+Please feel free to watch the webinar on demand at your convenience! You can find the recording here &lt;[[{{my.Email-Recording_URL:default=edit me}}]]&gt;.
+If you have any questions about the webinar please reach out to your account representative or Marketing@Turbonomic.com.
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

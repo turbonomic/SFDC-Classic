@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-04-11-Q2 Town Hall Meeting.EMAIL-Invite</name>
+    <style>none</style>
+    <subject>Upcoming Partner Town Hall Meeting- Register today</subject>
+    <textOnly>Dear {{lead.First Name:default=Partner}}, 
+
+Last week we announced our new partner initiatives for 2016 at our Company Kickoff! Special thanks to our partners who were able to attend.
+
+Starting in 2016 it is our priority to support the channel&apos;s success. As a valued partner, we would like to invite you to join us for our Partner Town Hall Meeting &lt;[[https://attendee.gotowebinar.com/register/8824097955124867329]]&gt;. 
+
+This webcast is designed to give you a quarterly check-in to ensure you are aware of all the most current resources and updates. We will be going through the following agenda:
+
+
+ - Company Momentum - Kickoff 2016
+ - Partner Program Update
+ - VMTurbo App
+ - New Sales &amp; Technical Resources
+ - Partner Wins &amp; Awards
+ - Green Circle Community 
+ - Upcoming Events &amp; Webcasts 
+
+
+
+Click here &lt;[[https://attendee.gotowebinar.com/register/8824097955124867329]]&gt; to join us on Wednesday, January 20, 2016 at 12:00 PM EST.  
+
+Hope to see you there! 
+Sean
+
+Sean Finnegan 
+Director of Channel Sales</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

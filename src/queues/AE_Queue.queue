@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>AE Queue</name>
+    <queueMembers>
+        <users>
+            <user>chris.gallamore@vmturbo.com</user>
+            <user>connor.haylock@vmturbo.com</user>
+            <user>daniel.charland@vmturbo.com</user>
+            <user>eric.daisay@vmturbo.com</user>
+            <user>jennifer.clark@vmturbo.com</user>
+            <user>jera.kosta@vmturbo.com</user>
+            <user>john.rudden@vmturbo.com</user>
+            <user>melissa.lyons@vmturbo.com</user>
+            <user>michael.smith@vmturbo.com</user>
+            <user>nick.saunders@vmturbo.com</user>
+            <user>patrick.mccreight@vmturbo.com</user>
+            <user>rick.razaq@vmturbo.com</user>
+            <user>stephen.porter@vmturbo.com</user>
+            <user>suky.bains@vmturbo.com</user>
+            <user>xavier.tournadre@vmturbo.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

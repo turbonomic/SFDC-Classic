@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Subject: We Want to Donate $1,000 to a Charity of Your Choice (1494947347.0)</name>
+    <style>none</style>
+    <subject>Subject: We Want to Donate $1,000 to a Charity of Your Choice (1494947347.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Sebastian,
+Thank you for completing the Turbonomic IT Maturity Survey! You should receive your Amazon Gift Card shortly.
+I can offer you another $100 Amazon Gift Card if I can schedule 30 minutes between you and a Turbonomic Engineer. Furthermore, if after our 30 minute call you decided to engage in an evaluation of Turbonomic, we will make a donation in your name of $1,000 to a 503c charity of your choice.. You indicated on your survey several challenges that Turbonomic directly addresses, specifically:
+	- Overprovisioned Infrastructure and Inefficiency - Turbonomic has been proven to reduce infrastructure requirements by 30% or more through intelligent consolidation	- Administrative Costs (High Admin:Workload Ratio) - Turbonomic has been proven to empower organizations to manage 10x more workloads with the same headcount through its intelligent automation	- Growth in Environment Complexity - Turbonomic’s vendor-agnostic, patented analytics have been proven to reduce infrastructure requirements by 30% or more through intelligent automation	- Properly Utilizing Automation - Turbonomic’s patented algorithm automates the right workload placement, sizing, and scaling decisions for you in real-time, reducing the need for manual management. For enterprises leveraging a self-service model, Turbonomic integrates with all major cloud management tools to support continuous integration and continuous deployment for seamless workload provisioning.
+
+Do you have some time to speak in the next couple of weeks? To receive your gift card, you must schedule your consultation within the next 7 days and complete it within the next 14 days. Best,  Going to Cisco Live? Meet with a Turbonomic Executive &lt;[[https://turbonomic.com/leadership-meetings]]&gt; James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

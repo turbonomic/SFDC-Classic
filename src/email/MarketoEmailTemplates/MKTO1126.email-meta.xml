@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>06_19_2015 App QoS Send.Send</name>
+    <style>none</style>
+    <subject>Scale Your Datacenter With Arista &amp; VMTurbo</subject>
+    <textOnly>&lt;http://vmturbo.com/resources/assuring-application-performance-at-scale-with-arista-networks-and-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Aristawp&amp;utm_content=06192015&gt;
+Hi {{lead.First Name:default=edit me}},
+
+Assuring Application Quality of Service is an elusive goal and difficult task, workloads are no longer restricted to a host, cluster or even an individual data center, and north-south network traffic has given way to east-west or inter server traffic flow.
+
+This significantly increases potential bottlenecks degrading application performance – making assuring application quality of service impossible.
+
+Learn how VMTurbo has been working hand-in-hand with Arista Networks to develop The Arista Network Control Module. The Arista Network Control module increases workload mobility and mitigates buffer overflow risk using the Arista Latency Analyser (LANZ) to monitor network latency and assure application performance while utilizing your infrastructure as efficiently as possible.
+
+ &lt;http://vmturbo.com/resources/assuring-application-performance-at-scale-with-arista-networks-and-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Aristawp&amp;utm_content=06192015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

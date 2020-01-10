@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-07-08-Cloudstack.Send</name>
+    <style>none</style>
+    <subject>Win a TurboStack Cloud Lab! Drawing August 1st</subject>
+    <textOnly>&lt;[[http://vmturbo.com/turbostack-giveaway?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbostack&amp;utm_content=03182016]]&gt;
+Hi {{lead.First Name:default=There}},
+
+Sometimes when it comes time to elevating IT, we first have to elevate ourselves. During this month&apos;s TurboStack giveaway that is exactly what we&apos;re helping you to do, not only can you win a really cool home lab, but you’ll get to extend your lab all the way to the public cloud.
+The TurboStack Cloud Lab is an expertly crafted hardware and software bundle packaged with AWS components that allows you to prepare for the challenge of cloud adoption.
+Click below, watch the video, answer the question and be entered to win!
+ &lt;[[http://vmturbo.com/turbostack-giveaway?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbostack&amp;utm_content=04082016]]&gt;
+Enter for a chance to win!
+VMTurboStack Homelab
+Valued over USD $1300.
+What&apos;s in the VMTurboStack Home Lab?
+
+
+
+ - (1) Intel NUC NUC6i5SYK
+
+
+ - (1) 32 GB of DDR4 RAM
+
+
+ - (1) 128 GB os mStata SSD Storage
+
+
+ - (1) $250 USD of Amazon Web Services Credits
+
+
+ - (1) $120 USD towards your AWS Solutions Architect Associate certification, or towards more AWS credits
+
+
+ - (1) VMTurbo License with Hybrid Cloud Control for managing up to 50 EC2 Instances
+
+
+ - (1) Access to recipes for building Cloud, PaaS, Container, and other virtualized infrastructure in your lab
+
+
+
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-VDI Campaign Q417.01-VDI Campaign Q417-Solving The Right Problem WP.Send</name>
+    <style>none</style>
+    <subject>When It Comes To Your VDI, Are You Solving The Right Problem in Your Datacenter?</subject>
+    <textOnly>&lt;[[http://turbonomic.com/thx-wp-how-vmturbo-solves-the-right-problem-in-the-data-center?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=right-problem-e-book&amp;utm_content=11022016]]&gt;
+Hi {{lead.First Name:default=There}}, For decades IT has been trying to solve the wrong problem, operating under the assumption that systems will break and IT will then fix them. When IT is bogged down with alerts, firefighting, and troubleshooting, there is no possibility of smarter, leaner growth. This e-Book outlines a new approach that enables IT to operate outside of the break-fix loop, preventing degradation in the environment before it even begins.  &lt;[[http://turbonomic.com/thx-wp-how-vmturbo-solves-the-right-problem-in-the-data-center?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=right-problem-e-book&amp;utm_content=11022016]]&gt; - The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

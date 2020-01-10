@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webcast - Case Study Offer</name>
+    <style>none</style>
+    <subject>Case Study: Canon USA Fully Automates with VMTurbo</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Click below to learn how you, like Canon® U.S.A. could fully automate your datacenter to maximize performance and efficiency!
+ &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/11/VMTurbo-Canon-USA-Success-Story-FINAL1.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wcast_stencil_love&amp;utm_content=cs_offer&gt;
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+There are many case studies out there, but every once in a great while, a case study is written that changes the face of case study history. This is that case study.
+&quot;VMTurbo allowed us to completely automate our vMotions and storage vMotions&quot;
+This case study shows just how VMTurbo will maximize performance and utilization in your datacenter just as it does for Canon® U.S.A.
+As Data Center Operations Manager, Sean Hendershot, explains, Canon® was able to safely accommodate 108% YoY workload growth levering VMTurbo&apos;s out-of-the-box decision automation. Read now to learn the whole story.
+Your IT control system,
+VMTurbo
+
+ &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/11/VMTurbo-Canon-USA-Success-Story-FINAL1.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wcast_stencil_love&amp;utm_content=cs_offer&gt;
+
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

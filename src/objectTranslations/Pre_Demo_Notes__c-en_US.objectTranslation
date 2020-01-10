@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pre Demo Notes</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pre Demo Notes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Overview - Industry --></label>
+        <name>Company_Overview_Industry__c</name>
+    </fields>
+    <fields>
+        <help><!-- List any LinkedIn connections between the prospect and any customers we have. --></help>
+        <label><!-- Connections to Customers --></label>
+        <name>Connections_to_Customers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact LinkedIn URL --></label>
+        <name>Contact_LinkedIn_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Pre Demo Notes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current IT Environment --></label>
+        <name>Current_Environment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Approved By --></label>
+        <name>Demo_Approved_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Demo Approved/Denied by Manager --></help>
+        <label><!-- Demo Approved/Denied --></label>
+        <name>Demo_Approved_Denied__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Approved by Manager --></label>
+        <name>Demo_Approved_by_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Date/Time --></label>
+        <name>Demo_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Score (Calculated) --></label>
+        <name>Demo_Score_Calculated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Score --></label>
+        <name>Demo_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Org-Chart URL --></label>
+        <name>DiscoverOrg_Org_Chart_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter in the name of the contact and the Turbo exec they are connected to. --></help>
+        <label><!-- Exec Level Connections --></label>
+        <name>Exec_Level_Connections__c</name>
+    </fields>
+    <fields>
+        <help><!-- How Do They See VMTurbo Providing Value? --></help>
+        <label><!-- Expectations for Call --></label>
+        <name>Expectations_for_Call__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compelling Reason Today --></help>
+        <label><!-- Process for Solving Pain/Project --></label>
+        <name>How_do_they_deal_with_the_pain__c</name>
+    </fields>
+    <fields>
+        <help><!-- How Is That Measured? --></help>
+        <label><!-- Impact Pain/Reason to Meet has on them --></label>
+        <name>How_is_the_business_affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Notes --></label>
+        <name>Other_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Relevant Contacts-Role/Background --></label>
+        <name>Other_Relevant_Contacts_Role_Background__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Account 1 --></label>
+        <name>Partner_Account_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact - Title/Role/Background --></label>
+        <name>Primary_Contact_Role_Background__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for approval/denial --></label>
+        <name>Reason_for_approval_denial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pain/Compelling Reason for Meeting --></label>
+        <name>Reason_for_taking_meeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recent News --></label>
+        <name>Recent_News__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity --></label>
+        <name>Related_Opportunity__c</name>
+        <relationshipLabel><!-- Pre Demo Notes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Opportunities for Improvement --></help>
+        <label><!-- Technical Pain Points --></label>
+        <name>Technical_Pain_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- VMTurbo History with Account --></label>
+        <name>VMTurbo_History_with_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- We want to get a better understanding of --></label>
+        <name>We_want_to_get_a_better_understanding_of__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Only SDM may approve demos --></errorMessage>
+        <name>Only_Manager_may_approve_Pre_Demo_Notes</name>
+    </validationRules>
+</CustomObjectTranslation>

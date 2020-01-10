@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-12-Kubecon Follow-Up.send</name>
+    <style>none</style>
+    <subject>How will you make cloud native “boring”?</subject>
+    <textOnly>&lt;[[https://cdn.turbonomic.com/wp-content/uploads/Turbonomic-for-Kubernetes.pdf]]&gt;
+Hi {{Lead.First Name}},
+
+
+Great seeing you at KubeCon/CloudNativeCon last week. This year many of the customer sessions focused on how to be successful with Kubernetes. If, as Kelsey Hightower put it, we’re successful in making cloud native boring, next year the success stories will focus on what Kubernetes enabled for the business. Will you be one of them?
+
+
+We believe an important part of that is giving Kubernetes the ability to self-manage, driving continuous health in your environment and freeing you and your teams to focus on the problems you’re solving for the business.
+
+
+Interested in joining our Early Access program? Reply to this email and I’ll be in touch.
+
+
+You’ll get direct engagement with Turbonomic engineers and the opportunity to work with us to extend Kubernetes use cases, including storage, network and application performance (Istio).
+
+
+Looking forward to hearing from you!
+
+
+Best,
+Eva
+Learn more about self-managing Kubernetes here. &lt;[[https://cdn.turbonomic.com/wp-content/uploads/Turbonomic-for-Kubernetes.pdf]]&gt;
+--
+Eva Tuczai
+Product Management, Cloud Native
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PL1 - Consumerbase - Subject B.Email B - blank template</name>
+    <style>none</style>
+    <subject>Virtualization Best Practices: Free Tool to Integrate Capacity Analysis and Planning with Day-to-day Operations</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+Capacity planning in  your virtual data center is no longer an exercise that can be performed  every six months. It needs to be an iterative analysis done hand-in-hand  with your operations team to allow you to maximize utilization while  accommodating your growing workload demands.
+
+Stop using  spreadsheets and tools that take a “fill the slot” approach and fail to  focus on meeting actual workload requirements. Save time and money with  our Free Capacity Optimization &amp; Planning Tool.  &lt;http://go.vmturbo.com/capacity-planner-download.html&gt;
+
+Done  right, capacity planning will reduce performance problems in the short  term and save you significant hardware and software licensing fees down  the road. For a limited time, we are offering a 30-day trial of our  capacity planning and optimization product. The virtual appliance  requires less than 30 minutes of your time to get running. Download it  here &lt;http://go.vmturbo.com/capacity-planner-download.html&gt; for  free.
+
+Derek Slayton,
+VP of Marketing</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

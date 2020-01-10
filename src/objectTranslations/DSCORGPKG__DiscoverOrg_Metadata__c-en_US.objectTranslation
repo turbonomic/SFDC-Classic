@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Id --></label>
+        <name>DSCORGPKG__Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>DSCORGPKG__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>DSCORGPKG__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- groupId --></label>
+        <name>DSCORGPKG__groupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- group --></label>
+        <name>DSCORGPKG__group__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLegacy --></label>
+        <name>DSCORGPKG__isLegacy__c</name>
+    </fields>
+</CustomObjectTranslation>

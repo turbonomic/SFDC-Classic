@@ -1,0 +1,17 @@
+Congratulations, the following deal registration has  been reviewed & approved! 
+
+Registration Status: {!VartopiaDRS__Registration__c.VartopiaDRS__Vendor_Status__c} 
+Deal Registration Approval Number: {!VartopiaDRS__Registration__c.VartopiaDRS__Vendor_Approval_ID__c} 
+Deal Registration Number: {!VartopiaDRS__Registration__c.VartopiaDRS__Vendor_Deal_ID__c} 
+Submitted Date: {!VartopiaDRS__Registration__c.VartopiaDRS__Date_Submitted__c} 
+
+Partner Name: {!VartopiaDRS__Registration__c.VartopiaDRS__Partner_Account__c} 
+Submitted By: {!VartopiaDRS__Registration__c.VartopiaDRS__Submitted_By_FirstName__c}{!VartopiaDRS__Registration__c.VartopiaDRS__Submitted_By_LastName__c} 
+Primary Sales Rep: {!VartopiaDRS__Registration__c.VartopiaDRS__Primary_Salesrep_FirstName__c} {!VartopiaDRS__Registration__c.VartopiaDRS__Primary_Salesrep_LastName__c} 
+Approved By: {!VartopiaDRS__Registration__c.Approved_By__c}
+
+End Customer Name: {!VartopiaDRS__Registration__c.VartopiaDRS__Customer_Name__c} 
+Deal Name: {!VartopiaDRS__Registration__c.VartopiaDRS__Deal_Name__c} 
+Deal Amount: {!VartopiaDRS__Registration__c.VartopiaDRS__Expected_Revenue__c} 
+Expected Close Date: {!VartopiaDRS__Registration__c.VartopiaDRS__Expected_Close_Date__c} 
+Expiration Date: {!VartopiaDRS__Registration__c.VartopiaDRS__Expiration_Date__c}

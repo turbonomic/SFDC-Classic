@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Increase_Utilization.Increase_Utilization_Nurture_2_Whitepaper</name>
+    <style>none</style>
+    <subject>Do you have capacity to support your current and future workloads?</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization/capacity-management-in-the-modern-data-center]]&gt;
+Hi {{lead.First Name:default=there}},
+
+As the data center has evolved from mainframes to midrange computing and from client server to virtualized, the demand for capacity management tools has evolved as well.  Over time, the Intelligent Workload Management (IWM) problem has emerged: capacity management is no longer a sufficient solution to assure application performance. Turbonomic can help.
+
+ &lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization/capacity-management-in-the-modern-data-center]]&gt;
+
+Check out our free guide &lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization/capacity-management-in-the-modern-data-center]]&gt; to learn more about how Turbonomic guarantees application performance through its patented decision engine which dynamically analyzes application demand and automatically allocates shared resources to all applications. 
+
+We hope you find it helpful!
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

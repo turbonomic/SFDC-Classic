@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6_1_Cold_Nurture_US_Enterprise.6_1_Cold_Nurture_US_Enterprise_Email_6</name>
+    <style>none</style>
+    <subject>Assure Performance. Lower Cost. Ensure Compliance.</subject>
+    <textOnly>&lt;[[https://turbonomic.com/request-a-demo]]&gt;
+Hi {{lead.First Name:default=there}},
+Cloud providers offer customers on-demand infrastructure, however, the performance, cost, and compliance tradeoffs that existed on-premises continue to exist in the cloud.
+
+ &lt;[[https://turbonomic.com/request-a-demo]]&gt;
+Turbonomic software manages these tradeoffs providing real-time resource allocation that assures performance, lowers cost, and maintains compliance. It empowers Infrastructure and Operations teams to be the drivers of successful public cloud strategies, not bottle-necks.
+
+
+If you&apos;re ready, we&apos;d love to learn more about the challenges you face and to show you how we can help. Please schedule a meeting &lt;[[https://turbonomic.com/request-a-demo/]]&gt; with us today.
+
+
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

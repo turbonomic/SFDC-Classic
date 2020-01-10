@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_21_2016 January/February TurboStack.Send</name>
+    <style>none</style>
+    <subject>A New Year A New Chance To Win a TurboStack Homelab!</subject>
+    <textOnly>&lt;http://vmturbo.com/data-center-control?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=5-2-webinar&amp;utm_content=05072015&gt;
+Hi {{lead.First Name:default=There}},
+As workloads proliferate and IT scales to meet the demands of business, organizations must increase focus on maintaining software and server licensing compliance, or else pay unexpected (and often unaffordable) vendor penalties. How can we as an industry reduce or even eliminate these licensing costs?
+The last chance of 2015 to win a VMTurbo TurboStack Homelab. Click below to see if you can reduce these licensing costs, and be entered to win a VMTurbo TurboStack home lab.
+The winner will be announced at the end of the month!
+ &lt;http://vmturbo.com/turbostack-giveaway?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbostack&amp;utm_content=12042015&gt;
+Enter for a chance to win!
+VMTurboStack Homelab
+Valued over USD $1300.
+What&apos;s in the VMTurboStack Home Lab?
+
+
+ - Intel NUC with Intel Core i5-4250U
+ - G.SKILL Ripjaws Series 16GB (2x8G) 204-Pin DDR3 Memory
+ - SAMSUNG 840 EVO 250GB SATA III TLC Internal Solid State Drive
+ - Synology DS415+ Diskless System DiskStation 4-Bay NAS
+ - 2x Dell 1TB 7200 RPM SATA 3.0Gb/s 3.5&quot; Hard Drive
+ - Cisco SG300-10 10-port Gigabit Managed Switch
+ - Rosewill 7ft. Cat 6 Network Cable
+ - VMTurbo Operations Manager 5.1
+ - OpenStack
+
+
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

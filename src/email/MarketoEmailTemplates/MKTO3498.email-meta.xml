@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-06-Field-East-ESB-DC.Marketing Invite 3 - 2-28-18.EM-2018-02-13 ESB-</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Wizards vs. Heat March 6th 2018</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+We would like to invite you to join us and dozens of your fellow IT leaders in Washington DC for an upcoming DC Area IT Networking Event &lt;[[http://info.turbonomic.com/m000Zj10000ghg00I440ZH0]]&gt; on Tuesday, March 6th 2018 at the home of the Washington Wizards, the Capital One Arena at 5:30PM. 
+
+ 
+This event is a great opportunity to meet with peers, share challenges, and discuss trends. It is our goal and hope that this networking opportunity will be intellectually stimulating and beneficial for all. We hope that you will join us in the Turbonomic Suite to cheer on Bradley Beal and the Wizards as they take on Dwyane Wade and the Miami Heat.
+
+We look forward to meeting you, and participating in an engaging conversation. As space is limited, we do ask that you please register here &lt;[[https://turbonomic.com/exec-district]]&gt; as soon as possible.
+ 
+Sincerely,
+Your friends at Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

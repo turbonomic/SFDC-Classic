@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-01-20-Manage Software Defined Networks.Send</name>
+    <style>none</style>
+    <subject>Augment Software-Defined Network with Autonomic IT</subject>
+    <textOnly>&lt;[[https://turbonomic.com/thx-wp-network-flow-and-application-performance?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=wp-SDN-network-flow-and-application-performance&amp;utm_content=01202017]]&gt;
+Hi {{lead.First Name:default=There}},
+Network-heavy, scale-out workloads place considerable stress on today’s rapidly growing virtualized and cloud datacenters. Emerging software-defined networking (SDN) technologies aim to mitigate the potential bottlenecks that can precipitate at the network layer in such environments, as well as simplify network design.
+Despite advances in both hardware and software, there remain significant challenges, as well as optimization opportunities, at the network layer. Specifically, incorporating topological and traffic-matrix awareness to VM placement decisions holds tremendous promise for increasing application performance.
+This whitepaper explores the benefits of incorporating network topology and traffic-matrix information in VM placement decisions, as well as challenges preventing organizations from doing so today.
+ &lt;[[https://turbonomic.com/thx-wp-network-flow-and-application-performance?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=wp-SDN-network-flow-and-application-performance&amp;utm_content=01202017]]&gt;
+
+
+
+
+Want to see Turbonomic in action? Download our 30-Day Free Trial &lt;[[https://turbonomic.com/downloads/turbonomic-30-day-trial?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=30-dai&amp;utm_content=01202017]]&gt;.
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

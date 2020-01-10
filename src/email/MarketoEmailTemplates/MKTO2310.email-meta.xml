@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>1 on 1 with Turbonomic Execs (1494446030.0)</name>
+    <style>none</style>
+    <subject>1 on 1 with Turbonomic Execs (1494446030.0)</subject>
+    <textOnly>Dear Patrick,This summer, Turbonomic’s executive chairman Bill Veghte (former COO of HP), CTO Charles Crouchman (formerly Head of Development/Ops at Cirba) and CEO Ben Nye (Bain Capital Ventures, Solarwinds, VERITAS and Precise) will be at the following events, eager to hear and share stories regarding hybrid IT.
+ 	-  HPE Discover (June 5-8) 	-  Cisco Live! (June 25-29) 	-  VMworld US (August 27-31) 	-  Microsoft Ignite (September 25-29) 	-  AWS re:Invent (November 27 – December 1) 	-  Gartner Data Center Infrastructure &amp; Operations (December 4-7) 
+Happy to facilitate a conversation with one of our executives if you’re planning on attending any of these events. You may also request to meet with them here &lt;[[https://turbonomic.com/leadership-meetings?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=sb-exec-meeting&amp;utm_content=1]]&gt;.Thanks,Cherlyn 857.305.5730 I www.turbonomic.com &lt;[[http://www.turbonomic.com/]]&gt; Going to Cisco Live? Meet with a Turbonomic Executive &lt;[[https://turbonomic.com/leadership-meetings]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

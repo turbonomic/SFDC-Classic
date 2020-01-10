@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choices>
+        <name>Other</name>
+        <choiceText>Other</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>Perm_with_1_2_years_Maintenance</name>
+        <choiceText>Perm with 1-2 years Maintenance</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>Term</name>
+        <choiceText>Term</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <interviewLabel>Opportunity Creation Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity Creation Flow</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Opportunity_Creation</name>
+        <label>Opportunity Creation</label>
+        <locationX>96</locationX>
+        <locationY>102</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Number_of_Sockets</name>
+            <dataType>Number</dataType>
+            <fieldText>Number of Sockets</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+            <validationRule>
+                <errorMessage>Please enter in a number divisble by 2 and greater than 0.</errorMessage>
+                <formulaExpression>OR(
+Number_of_Sockets__c &lt;= 0,
+MOD(Number_of_Sockets__c,2)&lt;&gt;0)</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>Number_of_Cores</name>
+            <dataType>Number</dataType>
+            <fieldText>Number of Cores</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+            <validationRule>
+                <errorMessage>Please enter in a number greater than 0 and divisble by 2.</errorMessage>
+                <formulaExpression>OR(
+Number_of_Cores__c &lt;=0,
+MOD(Number_of_Cores__c,2)&lt;&gt;0)</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>Expected_Revenue_Type</name>
+            <choiceReferences>Perm_with_1_2_years_Maintenance</choiceReferences>
+            <choiceReferences>Term</choiceReferences>
+            <choiceReferences>Other</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Expected Revenue Type</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <status>InvalidDraft</status>
+</Flow>

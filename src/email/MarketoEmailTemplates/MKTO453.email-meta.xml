@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM-Appliance-Nurture3.Email</name>
+    <style>none</style>
+    <subject>Reminder: Activate VMTurbo Virtual Health Monitor</subject>
+    <textOnly>   
+Did We Mention It&apos;s FREE?
+Activate Virtual Health Monitor Today.
+Dear {{lead.First Name:default=Sir/Madam}},
+
+A few days back, you downloaded the VMTurbo Virtual Health Monitor (VHM), but it probably feels like forever ago, because you haven’t yet activated your appliance.
+
+Activate now, and within minutes you’ll gain mountaintop visibility into your virtual environment, wielding the power to identify problems in real time. Performance reports? All yours. In perpetuity. Forever.
+
+Once you&apos;ve deployed VHM, the initial credentials are administrator for username and password. The setup wizard will handle the rest.
+
+Ready for the big leagues? Download a full-featured 30-day trial of &lt;http://bit.ly/1k61Zyy&gt; VMTurbo Operations Manager, the world’s most advanced virtualization management platform.
+
+
+
+In good health,
+VMTurbo
+
+Need help? Call us at (877) 978 8818.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

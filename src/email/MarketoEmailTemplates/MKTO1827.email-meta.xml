@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>12_9_2015 OpenStack Liberty Webinar.Follow Up Missed.Follow Up Email</name>
+    <style>none</style>
+    <subject>Sorry We Missed You! Watch the OpenStack Liberty: 2015 Updates and 2016 Challenges Recording</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Sorry we missed you at our Containers, Microservices and Latency, Oh My! webinar last Thursday! We get it, things come up and days get busy. Fear not though, for there is a recording of the webinar that you can view at your leisure.
+
+You can find the recording here
+
+You can also find the slide deck here &lt;http://vmturbo.com/wp-content/uploads/2015/07/ContainersMicroservicesAndLatency.pdf&gt;.
+Please reach out to your account representative or our Evaluation Team &lt;mailto: evalteam@vmturbo.com&gt; if you have any questions!
+
+
+ -The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

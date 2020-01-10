@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body><div style="font-size:12px; font-family: "Times New Roman";"><div id="body" class="mktoText">
+<p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 12px; font-family: 'times new roman', times;">Hi&nbsp;{{lead.First Name:default=edit me}},</span></p> 
+<p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 12px; font-family: 'times new roman', times;">I hope this note finds you well! My name is Brendan Booth and I’m reaching out because I understand your organization is focused on improving efficiency and reducing over-provisioning. I'd like to see if you would be open to a conversation about how Turbonomic’s technology can address some of the challenges specific to infrastructure projects such as this for ***COMPANY***.</span></p> 
+<p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 12px; font-family: 'times new roman', times;">As you’re aware, virtualized infrastructures typically end up being over-provisioned to meet QoS requirements, all too often to the detriment of efficient IT management. This is largely due to labor-intensive planning methods and an inability to manually respond to rapidly fluctuating workload demands.</span></p> 
+<p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 12px; font-family: 'times new roman', times;">I’d like to spend some time sharing with you how we‘ve helped organizations like <strong>JP Morgan Chase and IDEXX Laboratories </strong>&nbsp;overcome their infrastructure efficiency challenges and reduce over-provisioning with success.</span></p> 
+<p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 12px; font-family: 'times new roman', times;">Would you be open to a conversation at ***INSERT DATE*** at ***INSERT TIME***or ***INSERT TIME***? </span></p> 
+<div style="font-family: Helvetica, Arial, sans-serif;">
+<span style="font-size: 12px; font-family: 'times new roman', times;">Best,</span>
+</div> 
+<div><font face="times new roman, times">Brendan</font></div>
+</div>  
+</div></body>
+</html>

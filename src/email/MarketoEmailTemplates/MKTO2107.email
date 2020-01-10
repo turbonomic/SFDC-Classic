@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body><div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif;">
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;">Hi {{lead.First Name:default=edit me}},</span></span></span>
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;"><br />Given (INSERT CURRENT PROJECT OR INSIGHT ON ACCOUNT), I’m confident a meeting between yourself and Turbonomic’s founder Dr. Shmuel Kliger, will be an interesting proposition.<br /></span></span></span>
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;"></span></span></span>
+<br />
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;"></span></span></span>
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;">Our technology enables all application workloads residing on cloud and virtual environments, to get the resources they need from the underlying infrastructure in real time, to assure end user QoS and safely drive densities across your platforms (significantly reducing CAPEX, OPEX and time).</span></span></span>
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;"></span></span></span>
+<br />
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;">Since 2015 deployment, Ian Penny of Barclays (CTO) has leveraged our platform to great effect:</span></span></span>
+</div> 
+<div style="font-family: 'times new roman', times;"> 
+<ul> 
+<li><span style="font-size: 12px;">$12M savings in CapEx deferment over 12 months through infrastructure purchase avoidance</span><br /></li> 
+<li><span style="font-size: 12px;">33% workload density increase across 100,000+ workloads, all running under full Turbonomic automation</span><br /></li> 
+<li><span style="font-size: 12px;">20% reduction in workload provision time through deployment integration</span><br /></li> 
+<li><span style="font-size: 12px;">10,000:1 Workload:FTE ratio, increasing employee productivity 400%</span><br /></li> 
+</ul> 
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;"></span></span></span>
+<br />
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;">At JPMC, we delivered George Sherman (Managing Director):</span></span></span>
+</div> 
+<div style="font-family: 'times new roman', times;"> 
+<ul> 
+<li><span style="font-size: 12px;">$3.9M immediate CapEx deferment, adding 3,000+ additional VMs without additional infrastructure</span><br /></li> 
+<li><span style="font-size: 12px;">6,500 ESX host environment identified over provisioned by 1,950 hosts</span><br /></li> 
+<li><span style="font-size: 12px;">40,000+ VDI workloads - 35,000 initial performance assurance actions, and ongoing performance assurance for all workloads across on-premises IaaS environment</span><br /></li> 
+</ul> 
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;"></span></span></span>
+<br />
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;">I appreciate you are very busy, but Shmuel would be happy to come and visit you at your offices in (LOCATION), should you have availability on (DATE OPTION 1) or (DATE OPTION 2).</span></span></span>
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;"></span></span></span>
+<br />
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-size: 12px;"><span style="font-size: 12px;"><span style="font-family: 'times new roman', times;">Looking forward to your thoughts and availability.</span></span></span> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-family: 'times new roman', times; font-size: 12px;"></span>
+<br />
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-family: 'times new roman', times; font-size: 12px;">Kind Regards,</span>
+</div> 
+<div style="font-family: 'times new roman', times;">
+<span style="font-family: 'times new roman', times; font-size: 12px;">{{company.Territory Owner:default=edit me}}</span>
+</div> 
+<p><br /><br /> <br /></p> 
+<div>
+<br />
+</div> 
+</div>
+</div>  
+</body>
+</html>

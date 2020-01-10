@@ -1,0 +1,5 @@
+<apex:page standardController="Turbonomic_License__c">
+    <br/>
+    <apex:outputText value="Please create Turbonomic Licenses from the Generate License tab. This button/tab only exists to allow for searching for licenses using the search bar at the top of the screen and setting up License views." style="font-size:36px;line-height:40px">
+    </apex:outputTExt>
+</apex:page>

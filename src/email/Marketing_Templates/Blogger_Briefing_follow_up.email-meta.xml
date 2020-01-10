@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Blogger Briefing follow up</name>
+    <style>none</style>
+    <subject>since you missed it…</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Sorry that we missed you at our recent update briefing. Just in case you need to catch up on what we&apos;re doing or want a glimpse of what we&apos;re working on, I&apos;m including a link to the webcast playback &lt;http://bit.ly/13JSltc&gt;. Skip around or watch it end-to-end … I&apos;d love to get your feedback.
+
+Thanks
+Lauren
+
+Lauren Whitehouse
+Director, Product Marketing | VMTurbo
+email: lauren.whitehouse@vmturbo.com
+office: 781-418-5237 | skype: laurenwhitehouse
+
+Follow me on Twitter @lauwhitehouse
+Connect with me on LinkedIn &lt;http://linkd.in/XXWndz&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-03-16-Nike Webinar.ES-2016-03-04-Webinar Invite.Send</name>
+    <style>none</style>
+    <subject>Webinar: Nike &amp; VMTurbo - How Nike Maintains VDI Performance and Health Across Continents</subject>
+    <textOnly>&lt;[[http://vmturbo.com/resources/vmturbo-webinar-series-nike-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=webinar-Nike-VMTurbo&amp;utm_content=03042016]]&gt;
+Hi {{lead.First Name:default=There}},
+What if you had to maintain the health and availability of a VDI environment serving employees on the other side of the country? That may be doable, but what if those employees are now in India, across time zones, country lines and even continents?
+Join us on March 16th at 2:00 PM ET as we learn how Nike assures performance for mission-critical applications, including VDI, maximizes efficiency of their environment and delivers the highest quality services possible!
+During the webinar, we’ll cover:
+
+
+ - The challenges driven by managing a large and rapidly growing VDI environment
+ - Unique challenges of maintaining uptime across time zones, 24 hours a day, 7 days a week
+ - How Nike uses VMTurbo to alleviate contention performance issues, maximize uptime and maintain a healthy data center
+ - How Nike uses VMTurbo to manage the health and availability of their VDI instances
+
+
+
+
+All attendees will be entered to win a TurboStack Home Lab, including native OpenStack Juno, valued at over $1,400 USD!
+
+
+
+ &lt;[[http://vmturbo.com/resources/vmturbo-webinar-series-nike-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=webinar-Nike-VMTurbo&amp;utm_content=03042016]]&gt;
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

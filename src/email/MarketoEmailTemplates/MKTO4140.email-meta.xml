@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DM-2018-09-EMEA-PFL-Coffee and Mug Kits-French.ES 2 - MetroStar Case Study Video</name>
+    <style>none</style>
+    <subject>Comment MetroStar Optimise Sans Arrêts Leurs Environnements AWS grâce à Turbonomic</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/videos/the-smart-workload-v3]]&gt;
+Bonjour {{lead.PFLTitle:default=}} {{lead.Last Name:default=}},
+ 
+En utilisant Turbonomic, MetroStar Systems ont rapidement amélioré leurs environnements IT sans y prêter attention et simultanément réduit leur facture mensuelle AWS de 25%. Qui plus est, quand l’équipe avait besoin d’effectuer des analyses de migrations potentielles, Turbonomic retirait de l’équation les problèmes de temps, d’incertitude, et de risques.
+
+
+
+ &lt;[[https://resources.turbonomic.com/accelerate-cloud-migration-projects/metrostar-success-story]]&gt;
+
+
+
+&quot;Cela nous a économisé des milliers de dollars dans le cloud tous les mois, et nous a épargné des centaines d’heures de travail à tous les niveaux de notre IT&quot; - John Belcher, Principal Infrastructure Engineer, MetroStar Systems
+
+
+
+Quand vous serez prêt, nous serions ravis de vous montrer comment Turbonomic peut identifier et retirer les risques de performance avant que vos clients n’en fasse l’expérience, tout en vous économisant au moins 30% sur votre facture 
+Cloud annuelle.
+ 
+Bien à vous,
+Megan
+ 
+PS : Dans l’intervalle, nous espérons que le café vous plaira, c’est la maison qui régale. Soyez à l’affut du colis postal ! </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

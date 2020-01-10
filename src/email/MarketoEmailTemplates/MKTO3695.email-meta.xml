@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-16 Turbo 6-1 Prospects 3.Prospect Send</name>
+    <style>none</style>
+    <subject>Using Artificial Intelligence to Continuously Maximize Cloud Cost Savings</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/?mkt_tok=eyJpIjoiTm1abFpqWXdaVFl3WVRrMyIsInQiOiJkUXJWemFHKzd0QUdDQWJpanRsMytKZGg3c2ltNVBHaVdhZDl0bEJ3QlwvdGM3ZmtNN2V4M2wwRlhMeERVM2RnNVpIOUt1MFFOYitKRFNJdm9nVjFlWmc9PSJ9]]&gt;
+Hi {{lead.First Name:default=There}},
+
+With the release of Turbonomic 6.1, our AI-powered decision engine now extends the power of workload automation to the cloud, the datacenter, and even to containers.
+
+To celebrate, you are invited to join our webinar, Using Artificial Intelligence to Continuously Maximize Cloud Cost Savings, which will take place on Wednesday, May 23rd at 1pm ET.
+ &lt;[[https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/]]&gt;
+
+Listen to Rick Ochs, Senior Product Manager at Turbonomic as he explains how to drive elasticity and cost savings in the cloud.  Previous to Turbonomic, Rick was at Microsoft where he worked as the program owner for their internal cloud cost optimization tooling.  While at Microsoft, Rick also helped lead the program for Microsoft IT&apos;s migration to Azure. 
+
+We hope to see you there!
+
+Regards, 
+Team Turbonomic
+
+
+
+
+PS - If you can&apos;t join the live webinar, feel free to sign up anyway &lt;[[https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/]]&gt;, and we&apos;ll email you the recording afterwards.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

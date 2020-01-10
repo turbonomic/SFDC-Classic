@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!-- Copyright (C) 2017 Perkuto Solutions Inc - All Rights Reserved. You may use and modify this code under the terms of the Perkuto Template license available here: http://perkuto.com/terms-and-conditions  -->
+<head> 
+<!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml><![endif]--> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta name="format-detection" content="telephone=no" /> 
+<title>Allegro</title> 
+<!-- Start Marketo Variable Definitions -->                                      
+<!-- Start Marketo Variable Definitions --> 
+<style type="text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; background-color:#e7e9e4; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; margin:0!important;padding:0!important;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+
+        body,
+        #body_style {background-color:#e7e9e4; width:100%; min-width:100%!important;}
+        
+        a[x-apple-data-detectors] {n
+        color: inherit !important;
+        text-decoration:none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+
+        #MainContainer a,
+        #MainContainer a:link,
+        #MainContainer a:visited,
+        #MainContainer a:active {color:#30a4dc; text-decoration:none;}
+        
+        #footer a,
+        #footer a:link,
+        #footer a:visited,
+        #footer a:active {color:#ffffff; text-decoration:none;}
+
+        @media only screen and (max-width:600px) {
+            body {min-width:100%!important;}
+            table.button {width:100%!important;}
+            p {padding-left:0; padding-right:0!important;}
+            table.hideTable {display:none!important;}
+            table.tableCollapse {width:100%!important;}
+            td.mobCenter {text-align:center!important;}
+            td.mobCenter2 {text-align:center!important; padding-right:25px!important;}
+            tr.hideTr {display:none!important;}
+            td.w25 {width:25px!important;}
+            img.w100 {width:100%!important; height:auto!important;}
+        }
+    </style> 
+<!--[if mso]>
+    <style>
+    * {
+      font-family: Helvetica, Arial, sans-serif!important;
+    }
+    </style>
+    <![endif]--> 
+<!--[if !mso]><!--> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" /> 
+<!--<![endif]--> 
+</head> 
+<body bgcolor="#e7e9e4"> 
+<div id="body_style" style="background-color:#e7e9e4;"> 
+<table width="100%" bgcolor="#e7e9e4" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" width="600" class="tableCollapse" align="center" style="margin:0px auto; width:600px;"> 
+<tbody> 
+<tr> 
+<td class="mktoContainer" id="MainContainer" bgcolor="#ffffff" align="center" valign="top">
+<table bgcolor="#e7e9e4" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse hideTable" id="BGSpacerModule" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="HeroBannerModule" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td valign="top" style="line-height:1px;"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left" style="line-height:1px;"> 
+<div style="display:inline-block" class="mktoImg" id="HeroBanner" mktolockimgsize="false" mktolockimgstyle="false"> 
+<img class="w100" width="600" border="0" src="http://go.Turbonomic.com/rs/303-ZIH-630/images/LouLou_GCA_Newsletter_Header.png" style="width:600px; height:auto!important; display:inline-block; -ms-interpolation-mode: bicubic; border:none; outline: none; text-decoration:none; vertical-align:middle;" height="200" /> 
+</div> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBg4e5196be-d962-4251-a576-2d656f7077bf" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBG4e5196be-d962-4251-a576-2d656f7077bf" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div></div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#232222" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBg" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBG" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #FAFAFA; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<table width="551" height="230" style="height: 176px;"> 
+<tbody> 
+<tr> 
+<td style="text-align: left; padding-left: 30px;"> 
+<div> 
+<span style="font-size: 26px; color: #ffffff;">In This Issue</span> 
+</div> </td> 
+<td style="text-align: left; padding-left: 30px;"> 
+<div> 
+<span style="font-size: 26px; color: #ffffff;">Resources</span> 
+</div> </td> 
+</tr> 
+<tr> 
+<td style="text-align: left; padding-left: 30px;"> 
+<ul> 
+<li><span style="font-size: 16px;"><a href="#Section1" target="_blank" style="color: #ffffff; text-decoration: none;">Accreditation</a></span><br /></li> 
+<li><span style="font-size: 16px;"><a href="#Section2" target="_blank" style="color: #ffffff; text-decoration: none;">News &amp; Announcements</a></span><br /></li> 
+<li><span style="font-size: 16px;"><a href="#Section4" target="_blank" style="color: #ffffff; text-decoration: none;">Promotions</a></span><br /></li> 
+<li><span style="font-size: 16px;"><a href="#Section3" target="_blank" style="color: #ffffff; text-decoration: none;">Events</a></span><br /></li> 
+</ul> </td> 
+<td style="text-align: left;"> 
+<ul> 
+<li><span style="font-size: 16px;"><a href="https://turbonomic.webinfinity.com/" target="_blank" style="color: #fafafa; text-decoration: none;">Partner Portal</a></span></li> 
+<li><span style="font-size: 16px;"><a href="https://turbonomic.webinfinity.com/" target="_blank" style="color: #fafafa; text-decoration: none;">Deal Registration</a></span></li> 
+<li><span style="font-size: 16px;"><a href="https://turbonomic.webinfinity.com/" target="_blank" style="color: #fafafa; text-decoration: none;">Enablement</a></span></li> 
+<li><span style="font-size: 16px;"><a href="https://turbonomic.webinfinity.com/" target="_blank" style="color: #fafafa; text-decoration: none;">Marketing Tools &amp; Resources</a></span></li> 
+</ul> </td> 
+</tr> 
+</tbody> 
+</table></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule039f7910a7-e8ae-4c82-a1ca-c70c46e0435a5a85ac15-49b1-45d5-9136-38d4fef95954" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleBG11e0c3aa-a7bb-4710-9b50-04208164e461" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td align="left" class="mktEditable" id="MainTitleBgColor11e0c3aa-a7bb-4710-9b50-04208164e461" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-align:left; line-height: 42px; font-weight: lighter;"><p style="text-align: left;"><a name="Section1"></a><span style="font-size: 24px;">Accreditation</span><br /></p></td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule01d1c6dacb-2a41-4edb-bd99-a73cbb65dbb6" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleBG7a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextBG17a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div> 
+<strong></strong> 
+<strong>Earn Your Turbonomic Accreditation TODAY!</strong> 
+</div> 
+<div>
+ Take Turbonomic Sales and Technical Accreditation anytime, anywhere, with our new online training courses. Whether you’re a Sales Consultant, Sales Engineer, or Systems Architect, we have a track that will quickly help you sell, position and deploy Turbonomic. 
+<a href="https://turbonomic.webinfinity.com/" target="_blank" style="color: #2c9427; text-decoration: none;">Visit our Partner Portal to learn more!</a> 
+<br /> 
+<br />Platinum Partners – if you are one of the first 50 individuals to take the Sales Engineer Accreditation Course, you will receive a $100 Amazon Gift Card.&nbsp; 
+<br /> 
+<br /> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleBG" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextBG1" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div></div> 
+<div></div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule039f7910a7-e8ae-4c82-a1ca-c70c46e0435a5a85ac15-49b1-45d5-9136-38d4fef95954732501e4-86ab-4f39-b353-bbd0df9e4670" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleWBg5aee3057-0e56-41ed-a905-defe5d826c7d6cb5270f-fe11-4c13-8f83-eaa8ee4f7931b2b79993-bdde-4b6d-bb3f-92ab9433ccd5" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="BlueTitleWBG5aee3057-0e56-41ed-a905-defe5d826c7d6cb5270f-fe11-4c13-8f83-eaa8ee4f7931b2b79993-bdde-4b6d-bb3f-92ab9433ccd5" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-align:left; line-height: 42px; font-weight: lighter;"><p style="text-align: left;"><span style="font-size: 36px;"><a name="Section2"></a><span style="font-size: 24px;">News and&nbsp;Announcements</span></span></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule06be6f8aec-7ed2-4e25-b658-13c4e113ae69" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBge005976a-ef59-4784-bd94-b0c5d22814ab0f510b6a-064f-41a1-8f0e-4f2d6e59c9cc" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBGe005976a-ef59-4784-bd94-b0c5d22814ab0f510b6a-064f-41a1-8f0e-4f2d6e59c9cc" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div> 
+<strong>Partners Can Now Dramatically Accelerate Microsoft Azure Adoption with Turbonomic&nbsp;</strong> 
+</div> 
+<div>
+ Learn how you can leverage Turbonomic’s AI-powered decision engine to deliver fast and accurate assessment for Azure migrations, enabling continuous optimization of a hybrid cloud estate.&nbsp; The software automatically determines the exact CPU, memory 
+<g class="gr_ gr_8 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" id="8" data-gr-id="8">
+ and 
+</g> storage required by leveraging a holistic understanding of the resource needs of the entire IT environment, from the application down to the underlying infrastructure. 
+<a href="https://turbonomic.com/press-releases/microsoft-azure/" target="_blank" style="color: #2c9427; text-decoration: none;">Learn More</a> 
+<br /> 
+<br /> 
+<strong></strong> 
+</div> 
+<div> 
+<a href="https://vimeo.com/280446264#t=928s" target="_blank" style="color: #2c9427; text-decoration: none;">Watch Gavriella Schuster, Microsoft Corporate Vice President and Commercial Partner of Channels &amp; Programs, Discuss&nbsp;Turbonomic's Mission at Microsoft Inspire 2018</a> 
+<br /> 
+<br /> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule052e5ee2ab-16ad-4d57-b94c-ccd4e5fbb37088377425-7311-4486-9631-67dad1ab6b0987705fd0-f4b5-488b-ae29-a1bbdc27e420" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleBG2be15b14-1f29-44df-b364-5bfcf9622e6b" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td align="left" class="mktEditable" id="MainTitleBgColor2be15b14-1f29-44df-b364-5bfcf9622e6b" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-ealign:left; line-height: 42px; font-weight: lighter;"><p style="text-align: left;"><span style="font-size: 30px;"><span style="font-size: 24px;"><a name="Section4"></a>Promotions</span></span><br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule01" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FAFAFA" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleBG7a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082d6b71fbb-83ca-41f4-a383-376614a2ebc72438e610-b2df-48f4-b0b6-897857caf8b1" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextBG17a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082d6b71fbb-83ca-41f4-a383-376614a2ebc72438e610-b2df-48f4-b0b6-897857caf8b1" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"> 
+<div> 
+<strong><strong>Limited Time Offer – Q3 TurboBoost Campaign!<br /></strong></strong>Calling All Turbo Platinum Partners – earn a $100 Amazon Gift Card for every new customer meeting and a $300 Amazon Gift Card for every POV during the months of August, September and October*. Contact your Partner Director for additional details on this program and how you can sign up to participate! 
+<br /> 
+<br /> 
+<em>*Rules and regulations apply. This program is only applicable for Platinum Partners.</em> 
+<strong><strong><br /></strong></strong> 
+</div> 
+<div> 
+<em></em> 
+<br /> 
+</div> 
+<div> 
+<strong>Get $500 (USD) for Any New Logo You Bring to Turbonomic!</strong> 
+<br />We want to reward you, our partners, for your on-going support and commitment to Turbonomic with a new logo reward incentive. If you are a Gold or Platinum Partner, you are eligible to earn $500 for every new logo you close with Turbonomic. Below are the qualifications: 
+<br /> 
+<ul> 
+<li>Only partners with Gold or Platinum designation can participate in the program<br /></li> 
+<li>Deal size must be a minimum of $50,000 (USD)<br /></li> 
+<li>The opportunity must have an approved deal registration and close within 6 months of target 
+<g class="gr_ gr_26 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling multiReplace" id="26" data-gr-id="26">
+ closed 
+</g> date<br /></li> 
+<li>Opportunities with Special Pricing over 50% do not qualify<br /></li> 
+<li>New logos are defined as a company that has not purchased anything from Turbonomic in the last 2 
+<g class="gr_ gr_25 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-del replaceWithoutSep" id="25" data-gr-id="25">
+ years, 
+</g> and does not have an active user license with us today.&nbsp;<br /></li> 
+</ul> To learn if your opportunity applies for this reward, please reach out to your Turbonomic Account Rep, Partner Director or simply email 
+<a href="mailto:PartnerDesk@Turbonomic.com" target="_blank" id="" style="color: #2c9427; text-decoration: none;">PartnerDesk@Turbonomic.com</a>. 
+<em> <br /></em> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#fafafa" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule07" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="MainTitleModuleBG2be15b14-1f29-44df-b364-5bfcf9622e6bb1b0c8d0-23f7-477f-97da-62c0d3c4d962" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td align="left" class="mktEditable" id="MainTitleBgColor2be15b14-1f29-44df-b364-5bfcf9622e6bb1b0c8d0-23f7-477f-97da-62c0d3c4d962" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 28px; color:#2C9427; text-ealign:left; line-height: 42px; font-weight: lighter;"><p style="text-align: left;"><span style="font-size: 30px;"><a name="Section3"></a><span style="font-size: 24px;">Events</span></span></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="LightGraySpacerModule01970e1b87-b549-42ec-9c06-d5546881f5e5" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleBG7a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082d6b71fbb-83ca-41f4-a383-376614a2ebc72438e610-b2df-48f4-b0b6-897857caf8b12048f9fc-4a68-4a14-8992-dcc68de1a23f" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextBG17a1fee67-75be-4e17-996d-7e194df238aaadfa7f1d-0d1f-4f2e-ae23-b79d3425e082d6b71fbb-83ca-41f4-a383-376614a2ebc72438e610-b2df-48f4-b0b6-897857caf8b12048f9fc-4a68-4a14-8992-dcc68de1a23f" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; 
+font-weight:normal; text-transform: none;"> 
+<div> 
+<strong>July 25 Webinar: Turbonomic and Azure</strong> 
+<br />Join us for a presentation and demo of Turbomonic’s fast, accurate AI-powered migration assessments and continuous optimization for Azure. By first optimizing workloads prior to migrating them to Azure, and then continuously optimizing compute, storage, and Azure SQL, Turbomonic assures that cloud applications get the resources they need to perform, at the optimal cost, and in compliance with policies. 
+<a href="https://turbonomic.com/resources/wbn-azure/" target="_blank" style="color: #2c9427; text-decoration: none;">Register Here</a>. 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div> 
+<strong>July 31 – Aug 2 | CompTIA ChannelCon 2018</strong> 
+<br />We are exhibiting at CompTIA ChannelCon in Washington, D.C., from July 31-August 2. Be our complimentary guest (a value of $1200) by 
+<a href="https://cc18.snoball.events/e/turbonomic" target="_blank" style="color: #2c9427; text-decoration: none;"> registering here</a>! If your business builds, sells, influences or drives the adoption of technology, ChannelCon is the one event you don’t want to miss this year. 
+<br /> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div> 
+<strong>August 1 Webinar: Cloud Native, Kubernetes, Istio...Is the Hypervisor Irrelevant?</strong> 
+<br />Is the hypervisor irrelevant? Of course not. The hypervisor will continue to be a critical component in hybrid and 
+<g class="gr_ gr_57 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" id="57" data-gr-id="57">
+ multicloud. But, with the growing adoption of 
+<g class="gr_ gr_31 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" id="31" data-gr-id="31">
+ cloud native 
+</g> and distributed architectures, more and more organizations are focused on services and applications in their quest to digitally transform. How will this impact you? 
+<a href="https://turbonomic.com/resources/cloud-native-hypervisor-webinar/" target="_blank" style="color: #2c9427; text-decoration: none;">Register Here</a> 
+</g> 
+</div> 
+<div> 
+<br /> 
+</div> 
+<div> 
+<strong>Visit us at these upcoming events:</strong> 
+<br /> 
+<ul> 
+<li>August 2: AWS Summit Chicago<br /></li> 
+<li>August 26-30: 
+<g class="gr_ gr_29 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" id="29" data-gr-id="29">
+ VMWorld 
+</g> 2018<br /></li> 
+<li>September 13: AWS Summit Atlanta<br /></li> 
+</ul> 
+</div> 
+<div>
+ For a complete listing of upcoming Turbonomic events, 
+<a href="https://turbonomic.com/resources/events/" target="_blank" style="color: #2c9427; text-decoration: none;">please click here</a>. 
+<br /> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule052e5ee2ab-16ad-4d57-b94c-ccd4e5fbb37088377425-7311-4486-9631-67dad1ab6b09" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#FFFFFF" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mktoModule tableCollapse" id="TextModuleWBge005976a-ef59-4784-bd94-b0c5d22814ab" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="MainTextWBGe005976a-ef59-4784-bd94-b0c5d22814ab" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; color: #666666; text-align:left; line-height: 25px; font-weight:normal; text-transform: none;"><p style="text-align: center;"><span style="font-size: 18px; color: #2c9427;"><a href="https://turbonomic.webinfinity.com/" target="_blank" style="color: #2c9427; text-decoration: none;">Please visit the Partner Portal</a>.</span><br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="WhiteSpacerModule052e5ee2ab-16ad-4d57-b94c-ccd4e5fbb37088377425-7311-4486-9631-67dad1ab6b098ad59a3b-13bc-4764-a33a-5cb5e8105832" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule01" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="10" style="height:10px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule02" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="StayConnected" style="text-align:center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; font-weight:lighter;"><p><img src="http://go.turbonomic.com/rs/303-ZIH-630/images/turbonomic-customer-newsletter-logo.png" alt="" width="132" height="44" constrain="true" imagepreview="false" border="" /><br /></p></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule05" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="20" style="height:20px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule06" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="Footer" style="text-align:center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size:12px; color:#ffffff; line-height:18px;"> 
+<div>
+ ©&nbsp; Turbonomic, Inc. 
+</div> 
+<div> 
+<a href="https://turbonomic.com/company/contact-us/" target="_blank" style="color: #2c9427; text-decoration: none;">Contact Us</a>&nbsp; 
+<span style="color: #2c9427;">|</span>&nbsp; 
+<span style="text-decoration: none;"><a href="{{system.unsubscribeLink}}" target="_blank" style="color: #2c9427; text-decoration: none;">Unsubscribe</a> </span> 
+</div></td> 
+<td width="25" style="font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule04" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td align="left"> 
+<table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" style="width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+<td class="mktEditable" id="SocialIcons" style="text-align:center; line-height:1px;"> 
+<div> 
+<a target="_blank" href="https://twitter.com/turbonomic"> <img width="24" height="24" border="0" alt="Twitter" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-twitter.png" /></a>&nbsp; &nbsp; 
+<a target="_blank" href="https://www.youtube.com/user/myVMTurboTV"><img width="24" height="24" border="0" alt="Youtube" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-youtube.png" /></a>&nbsp; &nbsp;&nbsp; 
+<a target="_blank" href="https://www.linkedin.com/company/turbonomic/"><img width="24" height="24" border="0" alt="LinkedIn" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-linkedin.png" /></a>&nbsp;&nbsp; 
+<a target="_blank" href="https://www.facebook.com/turbonomic/"><img width="24" height="24" border="0" alt="Facebook" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-facebook.png" /></a>&nbsp;&nbsp; 
+<a target="_blank" href="https://www.instagram.com/turbonomic/"><img width="24" height="24" border="0" alt="Instagram" style="width: 16px; height: 16px; display: inline-block; border: none; outline: none; text-decoration: none; vertical-align: middle;" src="http://static.perkuto.com/template/allegro/Allegro-instagram.png" /><strong></strong></a> 
+</div></td> 
+<td width="25" style="width:25px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#222222" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse" id="FooterModule07" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table>
+<table bgcolor="#e7e9e4" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="mktoModule tableCollapse hideTable" id="BGSpacerModule2" style="margin:0px auto; width:100%!important; min-width:100%!important;"> 
+<tbody> 
+<tr> 
+<td valign="top"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="tableCollapse" align="center"> 
+<tbody> 
+<tr> 
+<td height="30" style="height:30px; font-size:1px; line-height:1px;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table> 
+</div>  
+</body>
+</html>

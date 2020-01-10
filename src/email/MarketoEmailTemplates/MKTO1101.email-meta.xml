@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>05_28_15 VMWorld Winner #1.Send</name>
+    <style>none</style>
+    <subject>And The Winner Is...</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmworld-sweeps-2015&amp;utm_content=05202015&gt;
+Hi {{Lead.First Name}},
+Are you one of the lucky winners of the VMTurbo VMWorld 2015 Sweepstakes? Well, there&apos;s only one way to find out, click below...
+ &lt;http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmworld-sweeps-Winner1&amp;utm_content=05292015&gt;
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

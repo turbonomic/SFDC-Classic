@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6_1_Cold_Nurture_US_Commercial.6_1_Cold_Nurture_US_Commercial_Email_3</name>
+    <style>none</style>
+    <subject>Real-Time, All the Time</subject>
+    <textOnly>&lt;[[https://turbonomic.com/blog/on-turbonomic/reserved-instance-rightsizing-with-turbonomic-6-1/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Don’t get caught using legacy approaches and stale information when making decisions on your cloud and on-premises environment. 
+
+Turbonomic ensures performance without sacrificing your cloud budgets. It drives the most effective use of both on-demand and Reserved Instance for cloud computing without compromising performance.
+
+Please check out this blog post &lt;[[https://turbonomic.com/blog/on-turbonomic/reserved-instance-rightsizing-with-turbonomic-6-1/]]&gt; to learn more about how we can help.
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

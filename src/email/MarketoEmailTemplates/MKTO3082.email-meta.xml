@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-09-12-Seattle-Veghte</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-09-20-Seattle ESB-Don Graves Email.EM-2017-09-20-Seattle-Graves</name>
+    <style>none</style>
+    <subject>Join Bill Veghte at Canlis - Turbonomic Executive Networking Dinner</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+
+I’d like to follow up on Bill&apos;s previous invitation and remind you of our Executive Networking Dinner &lt;[[https://turbonomic.com/learn-seattle/]]&gt; with Turbonomic Executive Chairman Bill Veghte on October 12th at Canlis, where we will discuss the challenges and benefits of operating in a hybrid cloud model as well as how Turbonomic customers are leveraging our hybrid cloud management platform to assure performance, enforce compliance and economize their human, operational and capital expenses on their cloud journeys. 
+
+
+During dinner there will be ample time to socialize with some of the brightest IT minds in Seattle and exchange ideas on how to solve the complex issues you face today. In addition to networking, Bill will discuss the landscape surrounding the cloud and provide an overview of the Turbonomic platform and how organizations including HP, Cisco, DellEMC and BMC have transformed their IT strategy leveraging Turbonomic’s patented analytics. All our VIPs in attendance will receive a special bottle of wine from Canlis at the conclusion of the event.
+
+
+When: Thursday October 12th 2017, 7:00 PM
+
+
+Where: Canlis
+
+
+Address: 2576 Aurora Ave. N, Seattle, WA 98109
+
+
+RSVP: https://turbonomic.com/learn-seattle &lt;[[https://turbonomic.com/learn-seattle]]&gt;
+
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/learn-seattle]]&gt; as soon as possible.
+
+
+Yours Sincerely,
+Don Graves
+
+
+Don Graves
+Seattle Client Engagement
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

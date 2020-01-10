@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-VDI Campaign Q417.02-VDI Campaign Q417-Principled Tech.Send</name>
+    <style>none</style>
+    <subject>Improve VDI Performance by 37% &amp; Do More With Less</subject>
+    <textOnly>&lt;[[http://cdn.turbonomic.com/wp-content/uploads/2014/04/Principled-Tech_Study_VMTurbo_performance_0315.pdf?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=eng-hc&amp;utm_content=Bus05]]&gt;
+Hi {{lead.First Name:default=There}}, Maximizing performance is vital to the success of hosted virtual applications. Overtax your resources and users will have a degraded experience and underutilizing those resources will lead to wasting money on unnecessary severs. Turbonomic matches real-time application workload demand to infrastructure supply to continuously assure performance, allowing you to do more with less. A recent analysis by Principled Technologies found that by executing Turbonomic’s recommendations, such as reallocation of memory and vCPU, and migrating mission-critical VMs to more efficiently leverage available storage resources, orders per minute completed by the application in Principled Technologies’ virtual test environment increased by 23.7%. Click below to see what Turbonomic&apos;s Autonomic Platform can do for you. 
+  &lt;[[http://cdn.turbonomic.com/wp-content/uploads/2014/04/Principled-Tech_Study_VMTurbo_performance_0315.pdf?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=eng-hc&amp;utm_content=Bus05]]&gt; 
+ 
+ - The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>How to deploy the 30-day trial</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>30-Day Deploy</name>
+    <style>none</style>
+    <subject>Deploying and Configuring Your 30-Day VMTurbo Control Trial</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+&lt;http://vmturbo.com/resources/vmturbo-quick-start-guide?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=30day_deploy&gt;
+
+Hi {{Lead.First Name:default=}},
+Thank you for downloading VMTurbo Operations Manager – the world’s only unified demand-driven control platform. Setup takes just 15 minutes – literally 15 minutes – and you’ll begin receiving specific performance and efficiency-maximizing actions to take within the first hour. Watch this 3-minute setup video &lt;http://vmturbo.com/resources/vmturbo-quick-start-guide?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=30day_deploy&gt;, or follow the instructions below, to get started.
+
+
+ - Deploy VMTurbo through your hypervisor console
+
+ - Configure the IP address &amp; time zone
+
+ - DHCP: automatically configures
+ - Static IP username/password: ipsetup/ipsetup
+
+ - Setting time username/password: root/vmturbo
+
+ - Enter command yast timezone
+
+
+ - Web appliance login username/password: administrator/administrator
+
+ 
+
+ - Apply a license key (delivered in a separate email) &amp; add hypervisor targets
+ 
+
+
+
+Once you&apos;ve added targets, VMTurbo will discover your entire environment and begin offering specific actions which you can execute via single-click API call. Ever wonder just how awesome your infrastructure could perform? How efficiently it could run? You&apos;re almost there.
+ 
+This is the start of a beautiful thing.
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

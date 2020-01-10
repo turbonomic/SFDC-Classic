@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6_1_Cold_Nurture_US_Enterprise.6_1_Cold_Nurture_US_Enterprise_Email_4 [ARCHIVE]</name>
+    <style>none</style>
+    <subject>Continuous Cloud Optimization Saves 40%</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1/fortune-500-oil-and-gas-success-story]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Are you struggling to manage your cloud spend? You&apos;re not alone.
+
+A Fortune 500 Oil &amp; Gas company faced the same challenge in 2017. 
+
+Early that year, the Director of IT was told by leadership to stop all cloud migrations immediately. The first batch of VMs they had migrated to AWS was on track to far exceed their annual budget in only a matter of months. They needed to make a change. They turned to Turbonomic.
+
+ &lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1/fortune-500-oil-and-gas-success-story]]&gt;
+
+Turbonomic&apos;s continuous optimization ultimately reduced their cloud bill by 40%.
+
+&quot;Turbonomic is different from any other tool with their ability to provide a single control plane across the entire hybrid cloud estate. Their automatable actions assure performance while enabling us to run our data center and our public cloud at the lowest possible cost.&quot; - IT Director, Fortune 500 Oil &amp; Gas Company
+
+Interested in learning more? See how over 1,900 of our customers &lt;[[https://resources.turbonomic.com/case-studies]]&gt; leverage workload automation to optimize performance, cost and policy compliance in real-time.
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

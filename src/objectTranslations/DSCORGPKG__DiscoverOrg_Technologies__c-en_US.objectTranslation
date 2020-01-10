@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>DSCORGPKG__Account__c</name>
+        <relationshipLabel><!-- DiscoverOrg Technologies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>DSCORGPKG__Contact__c</name>
+        <relationshipLabel><!-- DiscoverOrg Technologies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg ID --></label>
+        <name>DSCORGPKG__DiscoverOrg_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>DSCORGPKG__Lead__c</name>
+        <relationshipLabel><!-- DiscoverOrg Technologies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Technology Category --></label>
+        <name>DSCORGPKG__Technology_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technology Status --></label>
+        <name>DSCORGPKG__Technology_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Technology Vendor --></label>
+        <name>DSCORGPKG__Technology_Vendor__c</name>
+    </fields>
+</CustomObjectTranslation>

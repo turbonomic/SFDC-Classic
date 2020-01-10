@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_ProfessionalServices_Cold_Nurture.ProfessionalServices_Nurture_Ent</name>
+    <style>none</style>
+    <subject>What Does Your Path to Cloud Look Like?</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/template/turbonomic-path-to-hybrid-cloud]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+As your organization strives for increased agility and elasticity, cloud adoption is imminent. However, a fundamental question remains: What, when, and where should you run workloads to assure performance at the lowest possible cost?
+
+
+ &lt;[[https://resources.turbonomic.com/template/turbonomic-path-to-hybrid-cloud]]&gt;
+
+
+This challenge is beyond human scale. Through AI-powered automation, Turbonomic makes the performance-cost driving placement, sizing and auto-scaling decisions across clouds.
+
+Check out this white paper &lt;[[https://resources.turbonomic.com/template/turbonomic-path-to-hybrid-cloud]]&gt; to learn more about navigating the challenges of cloud adoption at scale and how we can help you with intelligent migration to AWS and Azure.
+
+
+
+
+Regards,
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Multi-Download Mailing.Email</name>
+    <style>none</style>
+    <subject>Treasure Trove of Virtualization Downloads</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Along with the problems virtualization is meant to solve comes an added layer of complexity that leads to your team spending lots of time analyzing data from monitoring tools and trying to figure out how to fix application performance problems. And today’s solutions will not address tomorrow’s problems. The added costs challenge your ability to grow your virtualization and cloud environments.
+
+Download these complimentary assets to find out how you can increase resource utilization and staff productivity by 20%, reduce operational expense, and defer IT infrastructure spend until you absolutely need it. You’ll learn about a new approach to virtualization management that deploys intelligent workload management to optimize configurations and maximize resource efficiency, preventing performance risks from manifesting, giving you the control.
+
+ 
+
+White Paper: Workload Rightsizing http://bit.ly/1iRVqdK
+
+White Paper: Accelerating Virtualization Initiatives http://bit.ly/1bKxhU5
+
+Free Trial: VMTurbo Virtual Health Monitor http://bit.ly/11Fx7NP
+
+Free Trial: VMTurbo Operations Manager http://bit.ly/S1EyVj
+
+ 
+Sincerely,
+VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

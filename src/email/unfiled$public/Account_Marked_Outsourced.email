@@ -1,0 +1,10 @@
+Account Name: {!Account.Name}
+Account Owner: {!Account.OwnerFullName}
+Territory Owner: {!Account.Territory_Owner_Display__c}
+Account Status: {!Account.Status__c}
+Outsourced To: {!Account.Outsourced_To__c}
+Reason for Flag: {!Account.Reason_for_Flag__c}
+Revisit Reason: {!Account.Unqualified_Revisit_Reason__c}
+Next Steps: {!Account.Next_Steps__c}
+
+Account URL: {!Account.Link}

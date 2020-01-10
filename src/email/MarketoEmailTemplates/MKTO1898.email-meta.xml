@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-07-26-VMworld GC Droid Giveaway.Send</name>
+    <style>none</style>
+    <subject>Enter to Win a BB-8 Sphero Droid</subject>
+    <textOnly>Hi {{lead.First Name:default=}},
+You may remember around this time last year stopping by our booth at VMworld in the hopes of a free t-shirt, or a chance to win $10,000 in our Find Your Desired State contest. You may also remember that grand prize eluding you and all you left with was some swag and a scanned badge.
+Well, we still feel terrible about that, and we’d like to make it up to you.
+At our VMworld booth (1139) this year, we’ll be giving away top dollar swag. Things like a TurboStack Home Lab, an Oculus Rift and more. All you have to do is join our Green Circle Community, complete missions to earn points, then cash them in at our booth.
+No luck of the draw. No gimmicks. Just earn points and spend them like cash. What could be easier?
+How about a flash giveaway? Sign up for the Green Circle Community now to enter to win a BB-8 Sphero Droid.
+
+ &lt;[[http://signup.greencirclecommunity.com/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=desired-swag-2016&amp;utm_content=vmworld-booth-scans-7-26-16]]&gt;
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

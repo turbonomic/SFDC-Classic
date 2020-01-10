@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_06_2016 Holiday Send Thank You.Send</name>
+    <style>none</style>
+    <subject>Thank You For Being A Green Circle Guardian | vColoring Book Donates $2,000 To EWB</subject>
+    <textOnly>Thank You For Being A Green Circle Guardian. Because You Downloaded, We Donated Over $2,000 To Engineers Without Borders
+&lt;[[http://vmturbo.com/resources/thx-holiday2015-the-vmturbo-vcoloring-book-thank-you/?utm_medium=email&amp;utm_campaign=vcoloring-book-2015&amp;utm_content=01062016]]&gt;
+Hi {{lead.First Name:default=edit me}},
+Last month, we invited you to enjoy our vColoring Book, The Adventures of The Green Circle Guardians  &lt;[[http://vmturbo.com/resources/thx-holiday2015-the-vmturbo-vcoloring-book-thank-you/?utm_medium=email&amp;utm_campaign=vcoloring-book-2015&amp;utm_content=01062016]]&gt;and pledged to donate $1 per download from December 17th to December 30th. Thanks to your download and of several thousand others, we just sent a check to Engineers Without Borders for more than $2000.
+Thank you for being a Green Circle Guardian. We invite you to join The Green Circle Community &lt;[[http://greencircle.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vcoloring-book-2015&amp;utm_content=01062016]]&gt;, VMTurbo&apos;s online community of virtualization &amp; cloud experts and forward-thinking IT Pros, completely free, for more tips, tools, and content.
+Happy New Year and THANK YOU,
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

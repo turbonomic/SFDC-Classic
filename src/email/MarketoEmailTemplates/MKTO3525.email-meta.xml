@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-04-15-Field-East-RD-Sponsored-Philadelphia.ES-2018-03-14 Exec 1 Dave.EM</name>
+    <style>none</style>
+    <subject>Flyers vs Hurricanes?</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+ 
+I am pleased to invite you to attend the Philadelphia IT Networking Event &lt;[[https://turbonomic.com/vip-philadelphia/]]&gt; on April 5th the Turbonomic private suite at the Wells Fargo Center as we watch the Philadelphia Flyers take on the Carolina Hurricane. As GM of Enterprise Sales, I find that the best ideas stem from conversations and meetings with others who are dealing with the challenges posed by the current paradigm shift of the public cloud, containers and edge computing. That is why I hope that you will join us on the 27th for an afternoon of networking and thought leadership.
+ 
+I hope to see you there!
+
+ 
+
+Philadelphia Executive Networking Event  
+Philadelphia Flyers vs Carolina Hurricanes
+Thursday, April 5th | Wells Fargo Center | 6:30 p.m.
+
+
+Register here! &lt;[[https://turbonomic.com/vip-philadelphia/]]&gt;
+
+
+
+
+
+
+
+ 
+Yours sincerely,
+Dave Kranowitz
+
+
+
+
+
+
+
+
+Dave Kranowitz
+Vice President - Enterprise Sales
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,9 @@
+Hi,
+
+Thank you for your deal registration submission for {!Lead.Company}. Unfortunately, we are unable to approve your registration at this time. For more details, please contact your Turbonomic Sales Rep:
+
+{!Lead.Territory_Owner_Lead__c} 
+{!Lead.Territory_Owner_Lead_Email__c}
+
+Best Regards,
+Turbonomic

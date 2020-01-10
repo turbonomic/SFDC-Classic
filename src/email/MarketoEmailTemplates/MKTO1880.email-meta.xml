@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-07-01-VMworld Giveaway.Send</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=Hey}}, Last Chance to Win Two Tickets to VMworld 2016!</subject>
+    <textOnly>&lt;[[http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=VMworldSweeps&amp;utm_content=07012016]]&gt;
+Hi {{lead.First Name:default=}},
+Our 2nd round winner has been chosen! There is now only 1 
+chance left to win 2 Full Conference Passes to VMworld 2016 in fabulous Las Vegas! The epicenter of all things virtual, VMworld is our industry&apos;s biggest stage and we want to see you there. The final drawing will be on July 15th. Enter today for your chance to win!
+
+ &lt;[[http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=VMworldSweeps&amp;utm_content=07012016&quot; target=&quot;_blank&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;img src=]]&gt;
+Good Luck!
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account_Territory_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Territory Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Training_Services4</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Training &amp; Services</relationshipLabel>
+        <relationshipName>Training_Services</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Additional_Services_Rep_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Additional Services Rep 1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Training_Services2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Additional_Services_Rep_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Additional Services Rep 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Training_Services3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Purchase_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Asset__r.PurchaseDate</formula>
+        <label>Asset Purchase Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Asset__r.Asset_Safe_ID__c</formula>
+        <label>Asset Safe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Asset</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Training &amp; Services</relationshipLabel>
+        <relationshipName>Training_Services</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Automation_Coverage__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How much and what of the customer&apos;s environment did we automate? If there parts of the environment we did not automate, what is the reason?</inlineHelpText>
+        <label>Automation Coverage</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Billable__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK( Asset__c )),&quot;Billable&quot;,&quot;Non-Billable&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billable</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Courseware_Effectiveness__c</fullName>
+        <externalId>false</externalId>
+        <label>Courseware Effectiveness</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <label>Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Deliverables_Training__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please list any deliverables resulting from this training session for which the customer is responsible.</inlineHelpText>
+        <label>Customer Deliverables</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Experience_Notes__c</fullName>
+        <description>Notes field for use by Customer Experience team to capture general, non-training, non-services specific notes.</description>
+        <externalId>false</externalId>
+        <label>Customer Experience Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Experience_Owner__c</fullName>
+        <description>This value will be populated by a formula pulling the entry from the Account Record - ccm</description>
+        <externalId>false</externalId>
+        <formula>Account__r.Customer_Experience_Owner3__r.Full_Name__c</formula>
+        <label>Customer Experience Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Quotes__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Quotes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Strategy_Training__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please describe any insights into what the business strategy of the customer is moving forward. This will help position future customer touchpoints and sales campaigns.</inlineHelpText>
+        <label>Customer Strategy</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Use_Cases__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Use Cases</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_s_Likelihood_of_Renewing__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer&apos;s Likelihood of Renewing</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5 - Extremely Likely</fullName>
+                    <default>false</default>
+                    <label>5 - Extremely Likely</label>
+                </value>
+                <value>
+                    <fullName>4 - Likely</fullName>
+                    <default>false</default>
+                    <label>4 - Likely</label>
+                </value>
+                <value>
+                    <fullName>3 - Can&apos;t Say</fullName>
+                    <default>false</default>
+                    <label>3 - Can&apos;t Say</label>
+                </value>
+                <value>
+                    <fullName>2 - Unlikely</fullName>
+                    <default>false</default>
+                    <label>2 - Unlikely</label>
+                </value>
+                <value>
+                    <fullName>1 - Extremely Unlikely</fullName>
+                    <default>false</default>
+                    <label>1 - Extremely Unlikely</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Scheduled__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Scheduled</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_Kickoff__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of Kickoff</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_to_Re_engage__c</fullName>
+        <externalId>false</externalId>
+        <label>Date to Re-engage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Days_to_Delivery__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( AND( NOT( ISBLANK( Asset_Purchase_Date__c )) , NOT( ISBLANK( Delivery_Date__c ))), Delivery_Date__c - Asset_Purchase_Date__c , Delivery_Date__c -  DATEVALUE( CreatedDate ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days to Delivery</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_to_Schedule_Alt__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISBLANK( Date_Scheduled__c ) ), Date_Scheduled__c - DATEVALUE( CreatedDate ), TODAY() - DATEVALUE( CreatedDate ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days to Schedule (Alt)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_to_Schedule__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISBLANK( Date_Scheduled__c ) ), Date_Scheduled__c - Date_of_Kickoff__c , TODAY() - Date_of_Kickoff__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days to Schedule</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delivered_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivered By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Abbas Syed</fullName>
+                    <default>false</default>
+                    <label>Abbas Syed</label>
+                </value>
+                <value>
+                    <fullName>Alec Kemp</fullName>
+                    <default>false</default>
+                    <label>Alec Kemp</label>
+                </value>
+                <value>
+                    <fullName>Alexey Stokes</fullName>
+                    <default>false</default>
+                    <label>Alexey Stokes</label>
+                </value>
+                <value>
+                    <fullName>Artem Artyunov</fullName>
+                    <default>false</default>
+                    <label>Artem Artyunov</label>
+                </value>
+                <value>
+                    <fullName>Austin Portal</fullName>
+                    <default>false</default>
+                    <label>Austin Portal</label>
+                </value>
+                <value>
+                    <fullName>Ayodele Spencer</fullName>
+                    <default>false</default>
+                    <label>Ayodele Spencer</label>
+                </value>
+                <value>
+                    <fullName>Bill Sanders</fullName>
+                    <default>false</default>
+                    <label>Bill Sanders</label>
+                </value>
+                <value>
+                    <fullName>Bosheng Song</fullName>
+                    <default>false</default>
+                    <label>Bosheng Song</label>
+                </value>
+                <value>
+                    <fullName>Brandon Combs</fullName>
+                    <default>false</default>
+                    <label>Brandon Combs</label>
+                </value>
+                <value>
+                    <fullName>Cameron Baker</fullName>
+                    <default>false</default>
+                    <label>Cameron Baker</label>
+                </value>
+                <value>
+                    <fullName>Carlos Castellanos</fullName>
+                    <default>false</default>
+                    <label>Carlos Castellanos</label>
+                </value>
+                <value>
+                    <fullName>Carl Snider</fullName>
+                    <default>false</default>
+                    <label>Carl Snider</label>
+                </value>
+                <value>
+                    <fullName>Chris Despopoulos</fullName>
+                    <default>false</default>
+                    <label>Chris Despopoulos</label>
+                </value>
+                <value>
+                    <fullName>Chris Lowth</fullName>
+                    <default>false</default>
+                    <label>Chris Lowth</label>
+                </value>
+                <value>
+                    <fullName>Chris Sawtelle</fullName>
+                    <default>false</default>
+                    <label>Chris Sawtelle</label>
+                </value>
+                <value>
+                    <fullName>Christophe Sperandio</fullName>
+                    <default>false</default>
+                    <label>Christophe Sperandio</label>
+                </value>
+                <value>
+                    <fullName>Cindy Reese</fullName>
+                    <default>false</default>
+                    <label>Cindy Reese</label>
+                </value>
+                <value>
+                    <fullName>Danisue Gilpin</fullName>
+                    <default>false</default>
+                    <label>Danisue Gilpin</label>
+                </value>
+                <value>
+                    <fullName>David Fiore</fullName>
+                    <default>false</default>
+                    <label>David Fiore</label>
+                </value>
+                <value>
+                    <fullName>Divya Singal</fullName>
+                    <default>false</default>
+                    <label>Divya Singal</label>
+                </value>
+                <value>
+                    <fullName>Dmitri Pappa</fullName>
+                    <default>false</default>
+                    <label>Dmitri Pappa</label>
+                </value>
+                <value>
+                    <fullName>Donald Gheen</fullName>
+                    <default>false</default>
+                    <label>Donald Gheen</label>
+                </value>
+                <value>
+                    <fullName>Don McKeith</fullName>
+                    <default>false</default>
+                    <label>Don McKeith</label>
+                </value>
+                <value>
+                    <fullName>Dor Juravski</fullName>
+                    <default>false</default>
+                    <label>Dor Juravski</label>
+                </value>
+                <value>
+                    <fullName>Geva Assayag</fullName>
+                    <default>false</default>
+                    <label>Geva Assayag</label>
+                </value>
+                <value>
+                    <fullName>Greg Pires</fullName>
+                    <default>false</default>
+                    <label>Greg Pires</label>
+                </value>
+                <value>
+                    <fullName>Iddo Avneri</fullName>
+                    <default>false</default>
+                    <label>Iddo Avneri</label>
+                </value>
+                <value>
+                    <fullName>Jason Shaw</fullName>
+                    <default>false</default>
+                    <label>Jason Shaw</label>
+                </value>
+                <value>
+                    <fullName>Jennifer Swannie</fullName>
+                    <default>false</default>
+                    <label>Jennifer Swannie</label>
+                </value>
+                <value>
+                    <fullName>Jet Khargi</fullName>
+                    <default>false</default>
+                    <label>Jet Khargi</label>
+                </value>
+                <value>
+                    <fullName>Joe Fontenot</fullName>
+                    <default>false</default>
+                    <label>Joe Fontenot</label>
+                </value>
+                <value>
+                    <fullName>John Montelongo</fullName>
+                    <default>false</default>
+                    <label>John Montelongo</label>
+                </value>
+                <value>
+                    <fullName>JP Sepulveres</fullName>
+                    <default>false</default>
+                    <label>JP Sepulveres</label>
+                </value>
+                <value>
+                    <fullName>Jules Albin</fullName>
+                    <default>false</default>
+                    <label>Jules Albin</label>
+                </value>
+                <value>
+                    <fullName>Kaitlyn McGillycuddy</fullName>
+                    <default>false</default>
+                    <label>Kaitlyn McGillycuddy</label>
+                </value>
+                <value>
+                    <fullName>Kaman Ng</fullName>
+                    <default>false</default>
+                    <label>Kaman Ng</label>
+                </value>
+                <value>
+                    <fullName>Kevin Walsh</fullName>
+                    <default>false</default>
+                    <label>Kevin Walsh</label>
+                </value>
+                <value>
+                    <fullName>Kyle Rapson</fullName>
+                    <default>false</default>
+                    <label>Kyle Rapson</label>
+                </value>
+                <value>
+                    <fullName>Luis DaSilva</fullName>
+                    <default>false</default>
+                    <label>Luis DaSilva</label>
+                </value>
+                <value>
+                    <fullName>Luke Tilja</fullName>
+                    <default>false</default>
+                    <label>Luke Tilja</label>
+                </value>
+                <value>
+                    <fullName>Marc Beckert</fullName>
+                    <default>false</default>
+                    <label>Marc Beckert</label>
+                </value>
+                <value>
+                    <fullName>Marc Jenkins</fullName>
+                    <default>false</default>
+                    <label>Marc Jenkins</label>
+                </value>
+                <value>
+                    <fullName>Mark Hastings</fullName>
+                    <default>false</default>
+                    <label>Mark Hastings</label>
+                </value>
+                <value>
+                    <fullName>Martha Kramer</fullName>
+                    <default>false</default>
+                    <label>Martha Kramer</label>
+                </value>
+                <value>
+                    <fullName>Matt Grimes</fullName>
+                    <default>false</default>
+                    <label>Matt Grimes</label>
+                </value>
+                <value>
+                    <fullName>Matthew Barto</fullName>
+                    <default>false</default>
+                    <label>Matthew Barto</label>
+                </value>
+                <value>
+                    <fullName>Melissa Gibbons</fullName>
+                    <default>false</default>
+                    <label>Melissa Gibbons</label>
+                </value>
+                <value>
+                    <fullName>Melissa Poirier</fullName>
+                    <default>false</default>
+                    <label>Melissa Poirier</label>
+                </value>
+                <value>
+                    <fullName>Mike Martinelli</fullName>
+                    <default>false</default>
+                    <label>Mike Martinelli</label>
+                </value>
+                <value>
+                    <fullName>Mohamed el Sherif</fullName>
+                    <default>false</default>
+                    <label>Mohamed el Sherif</label>
+                </value>
+                <value>
+                    <fullName>Nick Malovich</fullName>
+                    <default>false</default>
+                    <label>Nick Malovich</label>
+                </value>
+                <value>
+                    <fullName>Orna Kliger</fullName>
+                    <default>false</default>
+                    <label>Orna Kliger</label>
+                </value>
+                <value>
+                    <fullName>Patrick Nganga</fullName>
+                    <default>false</default>
+                    <label>Patrick Nganga</label>
+                </value>
+                <value>
+                    <fullName>Philomena Kiernan</fullName>
+                    <default>false</default>
+                    <label>Philomena Kiernan</label>
+                </value>
+                <value>
+                    <fullName>Ray Mileo</fullName>
+                    <default>false</default>
+                    <label>Ray Mileo</label>
+                </value>
+                <value>
+                    <fullName>Renee Donado</fullName>
+                    <default>false</default>
+                    <label>Renee Donado</label>
+                </value>
+                <value>
+                    <fullName>Richard Drolet</fullName>
+                    <default>false</default>
+                    <label>Richard Drolet</label>
+                </value>
+                <value>
+                    <fullName>Richard Stern</fullName>
+                    <default>false</default>
+                    <label>Richard Stern</label>
+                </value>
+                <value>
+                    <fullName>Richard Trickey</fullName>
+                    <default>false</default>
+                    <label>Richard Trickey</label>
+                </value>
+                <value>
+                    <fullName>Rich Carlisi</fullName>
+                    <default>false</default>
+                    <label>Rich Carlisi</label>
+                </value>
+                <value>
+                    <fullName>Rick McTague</fullName>
+                    <default>false</default>
+                    <label>Rick McTague</label>
+                </value>
+                <value>
+                    <fullName>Rob Cooper</fullName>
+                    <default>false</default>
+                    <label>Rob Cooper</label>
+                </value>
+                <value>
+                    <fullName>Russ Erbe</fullName>
+                    <default>false</default>
+                    <label>Russ Erbe</label>
+                </value>
+                <value>
+                    <fullName>Ryan Cheddie</fullName>
+                    <default>false</default>
+                    <label>Ryan Cheddie</label>
+                </value>
+                <value>
+                    <fullName>Simon Clews</fullName>
+                    <default>false</default>
+                    <label>Simon Clews</label>
+                </value>
+                <value>
+                    <fullName>Stuart Saward</fullName>
+                    <default>false</default>
+                    <label>Stuart Saward</label>
+                </value>
+                <value>
+                    <fullName>Stuart Swaffer</fullName>
+                    <default>false</default>
+                    <label>Stuart Swaffer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Delivered_by_current_user__c</fullName>
+        <description>For use in Training and Services reports to filter on trainings delivered by the currently logged in user</description>
+        <externalId>false</externalId>
+        <formula>Text(Delivered_By__c) = $User.Full_Name__c</formula>
+        <label>Delivered by current user</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Describe_Upsell_Opps_Identified_If_Any__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the customer working on other initiatives? Is there any land-and-expand opportunity? Are there environments that we aren&apos;t connected to? Please include as much detail as possible.</inlineHelpText>
+        <label>Describe Upsell Opps Identified</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Enhancement_Requests__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please list and describe any requests submitted by the customer regarding product enhancements.</inlineHelpText>
+        <label>Enhancement Requests</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Enthusiasm_for_Our_Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Enthusiasm for Our Products</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5 - Excellent</fullName>
+                    <default>false</default>
+                    <label>5 - Excellent</label>
+                </value>
+                <value>
+                    <fullName>4 - Very Good</fullName>
+                    <default>false</default>
+                    <label>4 - Very Good</label>
+                </value>
+                <value>
+                    <fullName>3 - Good</fullName>
+                    <default>false</default>
+                    <label>3 - Good</label>
+                </value>
+                <value>
+                    <fullName>2 - Fair</fullName>
+                    <default>false</default>
+                    <label>2 - Fair</label>
+                </value>
+                <value>
+                    <fullName>1 - Poor</fullName>
+                    <default>false</default>
+                    <label>1 - Poor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>First__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>First</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Follow_Up_Activities__c</fullName>
+        <externalId>false</externalId>
+        <label>Follow-Up Activities</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Form_Filled_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Form Filled Out</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Hours</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Issues_or_Bugs_Identified_If_Any__c</fullName>
+        <externalId>false</externalId>
+        <label>Issues or Bugs Identified (If Any)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Level_of_Understanding_of_Our_Technology__c</fullName>
+        <externalId>false</externalId>
+        <label>Level of Understanding of Our Technology</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5 - Excellent</fullName>
+                    <default>false</default>
+                    <label>5 - Excellent</label>
+                </value>
+                <value>
+                    <fullName>4 - Very Good</fullName>
+                    <default>false</default>
+                    <label>4 - Very Good</label>
+                </value>
+                <value>
+                    <fullName>3 - Good</fullName>
+                    <default>false</default>
+                    <label>3 - Good</label>
+                </value>
+                <value>
+                    <fullName>2 - Fair</fullName>
+                    <default>false</default>
+                    <label>2 - Fair</label>
+                </value>
+                <value>
+                    <fullName>1 - Poor</fullName>
+                    <default>false</default>
+                    <label>1 - Poor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Remote</fullName>
+                    <default>false</default>
+                    <label>Remote</label>
+                </value>
+                <value>
+                    <fullName>Onsite</fullName>
+                    <default>false</default>
+                    <label>Onsite</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>New__c</fullName>
+        <externalId>false</externalId>
+        <label>New?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other_Observations_If_Any__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Observations (If Any)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other_Projects__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Projects</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ACE Certification</fullName>
+                    <default>false</default>
+                    <label>ACE Certification</label>
+                </value>
+                <value>
+                    <fullName>ACE Champ</fullName>
+                    <default>false</default>
+                    <label>ACE Champ</label>
+                </value>
+                <value>
+                    <fullName>ACE Pro Development</fullName>
+                    <default>false</default>
+                    <label>ACE Pro Development</label>
+                </value>
+                <value>
+                    <fullName>Ask ED</fullName>
+                    <default>false</default>
+                    <label>Ask ED</label>
+                </value>
+                <value>
+                    <fullName>Certification Testing</fullName>
+                    <default>false</default>
+                    <label>Certification Testing</label>
+                </value>
+                <value>
+                    <fullName>Course Prep/Control Modules</fullName>
+                    <default>false</default>
+                    <label>Course Prep/Control Modules</label>
+                </value>
+                <value>
+                    <fullName>Course Prep/Core</fullName>
+                    <default>false</default>
+                    <label>Course Prep/Core</label>
+                </value>
+                <value>
+                    <fullName>Green Circle</fullName>
+                    <default>false</default>
+                    <label>Green Circle</label>
+                </value>
+                <value>
+                    <fullName>Online Learning Development</fullName>
+                    <default>false</default>
+                    <label>Online Learning Development</label>
+                </value>
+                <value>
+                    <fullName>Training Follow-Up</fullName>
+                    <default>false</default>
+                    <label>Training Follow-Up</label>
+                </value>
+                <value>
+                    <fullName>VMTurbo.com/Education Website</fullName>
+                    <default>false</default>
+                    <label>VMTurbo.com/Education Website</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Overall_Training_Experience__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall Training Experience</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5 - Excellent</fullName>
+                    <default>false</default>
+                    <label>5 - Excellent</label>
+                </value>
+                <value>
+                    <fullName>4 - Very Good</fullName>
+                    <default>false</default>
+                    <label>4 - Very Good</label>
+                </value>
+                <value>
+                    <fullName>3 - Good</fullName>
+                    <default>false</default>
+                    <label>3 - Good</label>
+                </value>
+                <value>
+                    <fullName>2 - Fair</fullName>
+                    <default>false</default>
+                    <label>2 - Fair</label>
+                </value>
+                <value>
+                    <fullName>1 - Poor</fullName>
+                    <default>false</default>
+                    <label>1 - Poor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Package_Required_for_New_Customers__c</fullName>
+        <externalId>false</externalId>
+        <label>Package Required (for New Customers)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Remote</fullName>
+                    <default>false</default>
+                    <label>Remote</label>
+                </value>
+                <value>
+                    <fullName>Onsite</fullName>
+                    <default>false</default>
+                    <label>Onsite</label>
+                </value>
+                <value>
+                    <fullName>RSE</fullName>
+                    <default>false</default>
+                    <label>RSE</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Enhancement_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Enhancement Requests</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product_Name_from_Asset__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Asset__r.Id),NULL,Asset__r.Product2.Name)</formula>
+        <label>Product Name (from Asset)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_Reference__c</fullName>
+        <externalId>false</externalId>
+        <formula>Asset__r.Project_Reference__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Project Reference</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_Subreference__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Subreference</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Quantity_from_Asset__c</fullName>
+        <externalId>false</externalId>
+        <formula>Asset__r.Quantity</formula>
+        <label>Quantity (from Asset)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reason_Training_Was_Not_Sold__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason Training Was Not Sold</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Sales_Rep_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.AE_Rep__r.Email</formula>
+        <label>Sales Rep Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Rep_Team__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Sales_Rep__r.Team__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Rep Team</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Rep__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sales Rep</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Training_Services1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Services_Delivered_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Services Delivered ByOLD</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Training_Services</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Services_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Services Delivery DateOLD</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Services_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Services HoursOLD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Services_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Services NotesOLD</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Services_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Services StatusOLD</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Waiting on Dates</fullName>
+                    <default>false</default>
+                    <label>Waiting on Dates</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Delivered</fullName>
+                    <default>false</default>
+                    <label>Delivered</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>true</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>In Review</fullName>
+                    <default>false</default>
+                    <label>In Review</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>State_Province__c</fullName>
+        <externalId>false</externalId>
+        <label>State/Province</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-Kickoff</fullName>
+                    <default>true</default>
+                    <label>Pre-Kickoff</label>
+                </value>
+                <value>
+                    <fullName>Waiting on Dates</fullName>
+                    <default>false</default>
+                    <label>Waiting on Dates</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Street</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Engagement__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Engagement</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5 - Excellent</fullName>
+                    <default>false</default>
+                    <label>5 - Excellent</label>
+                </value>
+                <value>
+                    <fullName>4 - Very Good</fullName>
+                    <default>false</default>
+                    <label>4 - Very Good</label>
+                </value>
+                <value>
+                    <fullName>3 - Good</fullName>
+                    <default>false</default>
+                    <label>3 - Good</label>
+                </value>
+                <value>
+                    <fullName>2 - Fair</fullName>
+                    <default>false</default>
+                    <label>2 - Fair</label>
+                </value>
+                <value>
+                    <fullName>1 - Poor</fullName>
+                    <default>false</default>
+                    <label>1 - Poor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Students_in_Attendance_In_Person__c</fullName>
+        <externalId>false</externalId>
+        <label>Attendees with Titles (In Person)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Students_in_Attendance_Remote__c</fullName>
+        <externalId>false</externalId>
+        <label>Attendees with Titles (Remote)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>T_S_Delivered_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose a member from the following roles: Sales Engineers, Customer Success, Customer Education, Training</inlineHelpText>
+        <label>T&amp;S Delivered By:</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10</booleanFilter>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001bnAm</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001bgDc</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001bnAr</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001RWzK</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001RjXX</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001RI8P</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001RI8U</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00E570000028QMJ</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001bnAh</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>00ED0000001bCuf</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Training_Services5</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>T_S_Modified_Closed_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Status__c,&quot;Completed&quot;),
+IF(OR(Asset__r.of_Services__c &lt;&gt;0,Asset__r.of_Trainings__c&lt;&gt;0, Asset__r.of_TAMs__c&lt;&gt;0),Asset__r.Price/(Asset__r.of_Services__c + Asset__r.of_Trainings__c+ Asset__r.of_TAMs__c),null)
+,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>T&amp;S Modified Closed Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>T_S_Modified_Revenue__c</fullName>
+        <description>Asset Price divided by the total number of trainings and services attached to the asset.</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(Asset__r.of_Services__c &lt;&gt;0,Asset__r.of_Trainings__c&lt;&gt;0, Asset__r.of_TAMs__c&lt;&gt;0),Asset__r.Price/(Asset__r.of_Services__c + Asset__r.of_Trainings__c+ Asset__r.of_TAMs__c),null)</formula>
+        <label>T&amp;S Modified Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Territory_Owner_Email__c</fullName>
+        <description>Territory Owner&apos;s Email for Training Completed E-mail alert</description>
+        <externalId>false</externalId>
+        <label>Territory Owner Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Thoughtful_Questions__c</fullName>
+        <externalId>false</externalId>
+        <label>Thoughtful Questions</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5 - Excellent</fullName>
+                    <default>false</default>
+                    <label>5 - Excellent</label>
+                </value>
+                <value>
+                    <fullName>4 - Very Good</fullName>
+                    <default>false</default>
+                    <label>4 - Very Good</label>
+                </value>
+                <value>
+                    <fullName>3 - Good</fullName>
+                    <default>false</default>
+                    <label>3 - Good</label>
+                </value>
+                <value>
+                    <fullName>2 - Fair</fullName>
+                    <default>false</default>
+                    <label>2 - Fair</label>
+                </value>
+                <value>
+                    <fullName>1 - Poor</fullName>
+                    <default>false</default>
+                    <label>1 - Poor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Topics_Covered_Training__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please list all topics covered during this training session.</inlineHelpText>
+        <label>Topics Covered</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Training_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Training HoursOLD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Training_Services_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID( Id )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Training &amp; Services Safe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Training_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Training StatusOLD</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Waiting on Dates</fullName>
+                    <default>false</default>
+                    <label>Waiting on Dates</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>TAM</fullName>
+                    <default>false</default>
+                    <label>TAM</label>
+                </value>
+                <value>
+                    <fullName>ACE Certification</fullName>
+                    <default>false</default>
+                    <label>ACE Certification</label>
+                </value>
+                <value>
+                    <fullName>Other (Training)</fullName>
+                    <default>false</default>
+                    <label>Other (Training)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Zip_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Zip/Postal Code</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Training &amp; Services</label>
+    <listViews>
+        <fullName>All_Training_and_Services_Records</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Delivered_By__c</columns>
+        <columns>Date_Scheduled__c</columns>
+        <columns>Sales_Rep__c</columns>
+        <columns>Notes__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Training and Services Records</label>
+    </listViews>
+    <listViews>
+        <fullName>Waiting_on_Dates_T_S_Records</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Delivered_By__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Date_Scheduled__c</columns>
+        <columns>Sales_Rep__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Waiting on Dates</value>
+        </filters>
+        <label>&apos;Waiting On Dates&apos; T&amp;S Records</label>
+    </listViews>
+    <nameField>
+        <displayFormat>TS-{00000000}</displayFormat>
+        <label>Training &amp; Services Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Training &amp; Services</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Require_Reason_if_no_Asset</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISBLANK( Asset__c ), ISBLANK( Reason_Training_Was_Not_Sold__c ), $UserRole.Name &lt;&gt; &quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Reason_Training_Was_Not_Sold__c</errorDisplayField>
+        <errorMessage>Please fill in reason training was not sold if no asset is involved.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_training_fields_when_completed</fullName>
+        <active>false</active>
+        <description>All fields in &apos;Training-Specific&apos; section are required when training is marked as completed.</description>
+        <errorConditionFormula>AND(ISCHANGED(Status__c),
+TEXT(Type__c) = &quot;Training&quot;,
+ISPICKVAL(Status__c,&quot;Completed&quot;), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+OR(ISBLANK( Topics_Covered_Training__c ),
+ISBLANK( Customer_Use_Cases__c ),
+ISBLANK( Customer_Strategy_Training__c ),
+ISBLANK( Describe_Upsell_Opps_Identified_If_Any__c ),
+ISBLANK( Automation_Coverage__c ),
+ISBLANK( Follow_Up_Activities__c ),
+ISBLANK( Customer_Deliverables_Training__c )
+))</errorConditionFormula>
+        <errorMessage>Please make sure the following fields are filled in before marking as complete: Topic Covered, Customer Use Cases, Customer Strategy, Describe Upsell Opps Identified, Automation Coverage, Follow Up Activities, and Customer Deliverables.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_who_delivered_services</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISCHANGED(Services_Status__c),
+ISPICKVAL(Services_Status__c,&quot;Completed&quot;),
+ISBLANK(Services_Delivered_By__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Services_Delivered_By__c</errorDisplayField>
+        <errorMessage>Please specify who delivered the services</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_who_delivered_training</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISCHANGED(Training_Status__c),
+ISPICKVAL(Training_Status__c,&quot;Completed&quot;),
+TEXT(Delivered_By__c)=&quot;&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Delivered_By__c</errorDisplayField>
+        <errorMessage>Please specify who delivered the training</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>SuperClone_T_S_Record</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>SuperClone T&amp;S Record</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/dh_superclone__superclone?cfg=TSClone&amp;rid={!Training_Services__c.Id}</url>
+    </webLinks>
+</CustomObject>

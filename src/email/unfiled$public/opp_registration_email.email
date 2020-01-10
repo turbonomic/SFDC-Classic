@@ -1,0 +1,2 @@
+{!User.FirstName} {!User.LastName} has registered the Opportunity {!Opportunity.Name}, Opportunity ID {!Opportunity.Opportunity_ID__c} for {!Opportunity.Account}, Amount {!Opportunity.Amount}. 
+To approve or reject the opportunity go to: https://eu1.salesforce.com/04i

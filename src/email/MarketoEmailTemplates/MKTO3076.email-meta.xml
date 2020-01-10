@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-09-18 CWOM Webinar Invite (Target Accounts).sendwbanner</name>
+    <style>none</style>
+    <subject>[Webinar] Tomorrow! Cisco Workload Optimization Powered by Turbonomic</subject>
+    <textOnly>&lt;[[https://cisco.webex.com/mw3200/mywebex/default.do?nomenu=true&amp;siteurl=cisco&amp;service=6&amp;rnd=0.7576131536681954&amp;main_url=https%3A%2F%2Fcisco.webex.com%2Fec3200%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004c5aa7674d1ac086f64a74383c04751ed21121f962720121e8037383e029a8dd4%26siteurl%3Dcisco%26confViewID%3D71078191781949769%26encryptTicket%3DSDJTSwAAAARE1iuDx1fxiYXBYQNWwKvWAi9CzPO4ljawCrhbYiRNUg2%26]]&gt;
+Hi {{Lead.First Name}},
+
+Do you wish your data center would manage itself? Now, with Cisco and Turbonomic, it can.
+
+Join our webinar &lt;[[https://cisco.webex.com/mw3200/mywebex/default.do?nomenu=true&amp;siteurl=cisco&amp;service=6&amp;rnd=0.7576131536681954&amp;main_url=https%3A%2F%2Fcisco.webex.com%2Fec3200%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004c5aa7674d1ac086f64a74383c04751ed21121f962720121e8037383e029a8dd4%26siteurl%3Dcisco%26confViewID%3D71078191781949769%26encryptTicket%3DSDJTSwAAAARE1iuDx1fxiYXBYQNWwKvWAi9CzPO4ljawCrhbYiRNUg2%26]]&gt; on Thursday, September 21, 2017 12:00pm EDT to learn how Cisco Workload Optimization Manager, powered by Turbonomic, safely increases the performance and utilization of your UCS-based data center. You will learn how to increase workload response time by 37%, increase workload density by 25% and reduce trouble tickets by 50%.
+ &lt;[[tion.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004c5aa7674d1ac086f64a74383c04751ed21121f962720121e8037383e029a8dd4%26siteurl%3Dcisco%26confViewID%3D71078191781949769%26encryptTicket%3DSDJTSwAAAARE1iuDx1fxiYXBYQNWwKvWAi9CzPO4ljawCrhbYiRNUg2%26]]&gt;
+Like funny videos with robots? Check out this blog for a great video on why customers want self-managing data centers &lt;[[https://blogs.cisco.com/datacenter/real-time-optimization-ensures-workload-performance]]&gt;.
+
+
+Best,
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

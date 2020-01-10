@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <assignments>
+        <name>Assign_Name</name>
+        <label>Assign Name</label>
+        <locationX>53</locationX>
+        <locationY>130</locationY>
+        <assignmentItems>
+            <assignToReference>Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>{!Licensee_First_Name} {!Licensee_Last_Name}</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_License_Record</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>Cores</name>
+        <choiceText>Cores</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Cores</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Downgrading_to_VHM</name>
+        <choiceText>Downgrading to VHM</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Downgrading to VHM</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_Advanced_Edition</name>
+        <choiceText>Eval - Advanced Edition</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - Advanced Edition</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_Application_Edition</name>
+        <choiceText>Eval - Application Edition</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - Application Edition</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_Cloud_Native_Edition</name>
+        <choiceText>Eval - Cloud Native Edition</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - Cloud Native Edition</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_Essentials_Edition</name>
+        <choiceText>Eval - Essentials Edition</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - Essentials Edition</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_no_planner</name>
+        <choiceText>Eval - no planner</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - no planner</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_Premier_Edition</name>
+        <choiceText>Eval - Premier Edition</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - Premier Edition</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_with_planner</name>
+        <choiceText>Eval - with planner</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - with planner</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Eval_Workload_Edition</name>
+        <choiceText>Eval - Workload Edition</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Eval - Workload Edition</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Freemium</name>
+        <choiceText>Freemium</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Freemium</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Internal_Use</name>
+        <choiceText>Internal Use</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Internal Use</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>License_Extension_Sales</name>
+        <choiceText>License Extension (Sales)</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>License Extension (Sales)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>License_Extension_Technical_Issues</name>
+        <choiceText>License Extension (Technical Issues)</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>License Extension (Technical Issues)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>License_Not_Sent_to_Customer_from_Download_Form</name>
+        <choiceText>License Not Sent to Customer from Download Form</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>License Not Sent to Customer from Download Form</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>NFR_License</name>
+        <choiceText>NFR License</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>NFR License</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Other</name>
+        <choiceText>Other</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Other</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Sockets</name>
+        <choiceText>Sockets</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Sockets</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Updating_Prospect_Contact_Info</name>
+        <choiceText>Updating Prospect Contact Info</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Updating Prospect Contact Info</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Updating_Socket_Core_Count</name>
+        <choiceText>Updating Socket/Core Count</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Updating Socket/Core Count</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Upgrading_Feature_Set</name>
+        <choiceText>Upgrading Feature-Set</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Upgrading Feature-Set</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Upgrading_VHM_to_Eval</name>
+        <choiceText>Upgrading VHM to Eval</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Upgrading VHM to Eval</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VHM</name>
+        <choiceText>VHM</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>VHM</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Workloads</name>
+        <choiceText>Workloads</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Workloads</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>License_Creation_Outcome</name>
+        <label>License Creation Outcome</label>
+        <locationX>53</locationX>
+        <locationY>351</locationY>
+        <defaultConnector>
+            <targetReference>Failure_Message</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>Success</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>NewLicenseId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Finish_Page_and_Link</targetReference>
+            </connector>
+            <label>Success</label>
+        </rules>
+    </decisions>
+    <description>New Manual License Creation Flow for 6.0
+New in this version:
+Number of Cores &amp; Number of Sockets are not required.</description>
+    <dynamicChoiceSets>
+        <name>AdditionalFeaturePicklist</name>
+        <dataType>Multipicklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Control_Module_License_Features__c</picklistField>
+        <picklistObject>Opportunity</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>LicenseEntity</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>License_Entity__c</picklistField>
+        <picklistObject>Turbonomic_License__c</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>New Manual License Creation Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>New Manual License Creation Flow v2</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_License_Record</name>
+        <label>Create License Record</label>
+        <locationX>53</locationX>
+        <locationY>237</locationY>
+        <assignRecordIdToReference>NewLicenseId</assignRecordIdToReference>
+        <connector>
+            <targetReference>License_Creation_Outcome</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>LicenseCreationFailMessage</targetReference>
+        </faultConnector>
+        <inputAssignments>
+            <field>License_Creation_Use_Cases__c</field>
+            <value>
+                <elementReference>License_Creation_Use_Case_s</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>License_End_Date__c</field>
+            <value>
+                <elementReference>License_End_Date</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>License_Entity__c</field>
+            <value>
+                <elementReference>License_Entity</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>License_Type__c</field>
+            <value>
+                <elementReference>License_Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Licensee_Email__c</field>
+            <value>
+                <elementReference>Licensee_Email</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Licensee_Name__c</field>
+            <value>
+                <elementReference>Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <elementReference>DefaultStatus</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Temp_Insert_Features__c</field>
+            <value>
+                <elementReference>Additional_Features</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Total_Licensed_Cores__c</field>
+            <value>
+                <elementReference>Number_of_Cores</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Total_Licensed_Sockets__c</field>
+            <value>
+                <elementReference>Number_of_Sockets</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Total_Licensed_Workloads__c</field>
+            <value>
+                <elementReference>Number_of_Workloads</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Use_Case_Other_Reason__c</field>
+            <value>
+                <elementReference>Other_Reason</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Turbonomic_License__c</object>
+    </recordCreates>
+    <screens>
+        <name>Failure_Message</name>
+        <label>Failure Message</label>
+        <locationX>266</locationX>
+        <locationY>355</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Error</name>
+            <fieldText>Error: Your License failed to create. Please contact Sales Ops for assistance.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Finish_Page_and_Link</name>
+        <label>Finish Page and Link</label>
+        <locationX>54</locationX>
+        <locationY>486</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>RedirectNewRecord</name>
+            <fieldText>&lt;a href=&quot;https://eu4.salesforce.com/{!NewLicenseId}&quot;&gt;View the Record&lt;/a&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>Form for license field input</description>
+        <name>License_Creation_Form</name>
+        <label>License Creation Form</label>
+        <locationX>52</locationX>
+        <locationY>29</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Assign_Name</targetReference>
+        </connector>
+        <fields>
+            <name>Licensee_First_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Licensee First Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Licensee_Last_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Licensee Last Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Licensee_Email</name>
+            <dataType>String</dataType>
+            <fieldText>Licensee Email</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <validationRule>
+                <errorMessage>The email must have an @ within it.</errorMessage>
+                <formulaExpression>CONTAINS(Licensee_Email,&quot;@&quot;)</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>License_End_Date</name>
+            <dataType>Date</dataType>
+            <fieldText>License End Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <validationRule>
+                <errorMessage>The License End Date must not fall within 1 day of today or greater than a year from now. Eval licenses are limited to 90 days.</errorMessage>
+                <formulaExpression>OR(
+	AND(
+	OR(License_Type = &quot;Freemium&quot;,License_Type = &quot;VHM&quot;),
+	License_End_Date - TODAY() &gt; 1,
+	License_End_Date - TODAY() &lt; 370),
+	AND(
+	CONTAINS(License_Type,&quot;Eval&quot;),
+	OR(CONTAINS(License_Creation_Use_Case_s,&quot;NFR License&quot;),CONTAINS(License_Creation_Use_Case_s,&quot;Internal Use&quot;)),
+	License_End_Date - TODAY() &gt; 1,
+	License_End_Date - TODAY() &lt; 370),
+	AND(
+	CONTAINS(License_Type ,&quot;Eval&quot;),
+	NOT(CONTAINS(License_Creation_Use_Case_s,&quot;NFR License&quot;)),
+	NOT(CONTAINS(License_Creation_Use_Case_s,&quot;Internal Use&quot;)),
+	License_End_Date - TODAY() &gt; 1,
+	License_End_Date - TODAY() &lt; 90))</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>Number_of_Sockets</name>
+            <dataType>Number</dataType>
+            <fieldText>Number of Sockets</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+            <validationRule>
+                <errorMessage>Number of Sockets must be divisble by 2 and greater than 0</errorMessage>
+                <formulaExpression>AND(
+Number_of_Sockets&gt;0,
+Mod(Number_of_Sockets,2)=0
+)</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>Number_of_Cores</name>
+            <dataType>Number</dataType>
+            <fieldText>Number of Cores</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+            <validationRule>
+                <errorMessage>Number of Cores must be divisble by 2 and greater than 0</errorMessage>
+                <formulaExpression>AND(
+Number_of_Cores&gt;0,
+Mod(Number_of_Cores,2)=0
+)</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>Number_of_Workloads</name>
+            <dataType>Number</dataType>
+            <fieldText>Number of Workloads</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+            <validationRule>
+                <errorMessage>Number of Workloads must be divisble by 2 and greater than 0</errorMessage>
+                <formulaExpression>AND(
+Number_of_Workloads&gt;0,
+Mod(Number_of_Workloads,2)=0
+)</formulaExpression>
+            </validationRule>
+        </fields>
+        <fields>
+            <name>License_Entity</name>
+            <choiceReferences>Workloads</choiceReferences>
+            <choiceReferences>Sockets</choiceReferences>
+            <choiceReferences>Cores</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>License Entity</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>License_Type</name>
+            <choiceReferences>Eval_no_planner</choiceReferences>
+            <choiceReferences>Eval_with_planner</choiceReferences>
+            <choiceReferences>Eval_Premier_Edition</choiceReferences>
+            <choiceReferences>Eval_Advanced_Edition</choiceReferences>
+            <choiceReferences>Eval_Essentials_Edition</choiceReferences>
+            <choiceReferences>Freemium</choiceReferences>
+            <choiceReferences>VHM</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>License Type</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <helpText>Select the type of license you will be generating.</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>License_Creation_Use_Case_s</name>
+            <choiceReferences>License_Extension_Technical_Issues</choiceReferences>
+            <choiceReferences>License_Extension_Sales</choiceReferences>
+            <choiceReferences>License_Not_Sent_to_Customer_from_Download_Form</choiceReferences>
+            <choiceReferences>Upgrading_VHM_to_Eval</choiceReferences>
+            <choiceReferences>Upgrading_Feature_Set</choiceReferences>
+            <choiceReferences>Downgrading_to_VHM</choiceReferences>
+            <choiceReferences>Updating_Prospect_Contact_Info</choiceReferences>
+            <choiceReferences>Updating_Socket_Core_Count</choiceReferences>
+            <choiceReferences>NFR_License</choiceReferences>
+            <choiceReferences>Internal_Use</choiceReferences>
+            <choiceReferences>Other</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>License Creation Use Case(s)</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Other_Reason</name>
+            <dataType>String</dataType>
+            <fieldText>Other Reason</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>Please fill out an Other reason if you choose &quot;Other&quot; as a use case for creating the license.</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Additional_Features</name>
+            <choiceReferences>AdditionalFeaturePicklist</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Additional Features</fieldText>
+            <fieldType>MultiSelectPicklist</fieldType>
+            <helpText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Please select any number of extra features to add. Note that the features will ONLY be added IF the license type you choose is EVAL. The features relate to the sales packages as described below:&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Workload Edition - Storage; Fabric&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Application Edition - Storage; Fabric; Network_Control; App_Control&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Cloud Native Edition - Storage; Fabric; Network_Control; App_Control; Container; Public_Cloud&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>FeaturesHelp</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;Please select any number of extra features above to add. Note that the features will ONLY be added IF the license type you choose is EVAL. The features relate to the sales packages as described below:&lt;/FONT&gt;&lt;/DIV&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;Essential Edition - historical_data; custom_reports; planner; optimizer; multiple_vc; scoped_user_view; customized_views; group_editor; automated_actions; active_directory; full_policy; action_script; applications; app_control; loadbalancer; deploy; aggregation; cloud_targets; cluster_flattening; public_cloud; vdi_control&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;Advanced Edition - historical_data; custom_reports; planner; optimizer; multiple_vc; scoped_user_view; customized_views; group_editor; vmturbo_api; automated_actions; active_directory; full_policy; action_script; applications; app_control; loadbalancer; deploy; aggregation; fabric; storage; cloud_targets; cluster_flattening; network_control; container_control; public_cloud; vdi_control; custom_policies&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;Premier Edition - historical_data; custom_reports; planner; optimizer; multiple_vc; scoped_user_view; customized_views; group_editor; vmturbo_api; automated_actions; active_directory; full_policy; action_script; applications; app_control; loadbalancer; deploy; aggregation; fabric; storage; cloud_targets; cluster_flattening; network_control; container_control; public_cloud; vdi_control; scaling; custom_policies; SLA; cpu_speeds&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>LicenseCreationFailMessage</name>
+        <label>LicenseCreationFailMessage</label>
+        <locationX>265</locationX>
+        <locationY>236</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>RecordCreationFailureMessage</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;The License failed to generate. This typically happens because of the following cases:&lt;/FONT&gt;&lt;/DIV&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Email address is invalid.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Other Reason is required if you choose Other as a Use Case&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;You cannot choose to Upgrade to Eval if you select VHM as your license type&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;You cannot choose Downgrade to VHM if you select Eval as your license type&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>License_Creation_Form</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>DefaultStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>Open</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>LicensePlainText</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>Name</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!Licensee_First_Name} + &quot; &quot; + {!Licensee_Last_Name}</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>NewLicenseFields</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Turbonomic_License__c</objectType>
+    </variables>
+    <variables>
+        <name>NewLicenseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

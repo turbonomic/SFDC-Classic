@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Syntax Solution Conference follow up.Email</name>
+    <style>none</style>
+    <subject>Syntax Solutions Conference Follow up</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for visiting the VMTurbo booth or attending the VMTurbo breakout session “Stop Guessing and Start Automating: How to Guarantee VM Performance and Maximize Utilization” at the 2013 Syntax Customer Conference on May 30th.  If you haven’t already done so, we invite you to download a complimentary 30 day trial of VMTurbo Operations Manager here &lt;http://go.vmturbo.com/cloud-edition-download.html?source=email&gt;.
+
+VMTurbo is agentless and installs in only a few minutes. Immediately after installation, VMTurbo becomes aware of not only the real-time storage, compute and network resources available to your applications across your entire environment, but it will also know exactly how much of it every VM needs to perform properly and then determine the steps that need to be taken to align the two, effectively bringing the entire environment and the applications running on it back to the state it was designed to be in.  Actionable steps to be taken to get there are presented and available to be implemented manually or automatically; your choice. When the desired state is achieved, recommendations become preventive and future problems are avoided before they ever occur.
+
+After you install your trial copy of VMTurbo, your Syntax rep. will contact you to schedule a web call with you and a VMTurbo engineer to conduct an analysis of your own environment. In only a few minutes, you’ll see how VMTurbo has identified issues and presented a list of action items to resolve them and prevent them from coming back. We’ll also show you another great feature of VMTurbo, the ability to do scenario-based change planning. You won’t want to miss that.  
+
+Feel free to contact me or your Syntax rep. for more information.
+Best Regards
+Bernie Hannon
+Director of Channels &amp; Alliances
+VMTurbo, Inc. 
+phone:  1-781-418-5226
+
+P.S. Don’t forget to download your complimentary 30 day trial of VMTurbo Operations Manager here &lt;http://go.vmturbo.com/cloud-edition-download.html?source=email&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

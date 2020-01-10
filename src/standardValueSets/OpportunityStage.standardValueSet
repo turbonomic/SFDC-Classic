@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Identify</fullName>
+        <default>false</default>
+        <description>This is where a customer identifies an idea for changing or improving a situation that is good enough to warrant investigation.</description>
+        <label>Identify</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Pipeline</fullName>
+        <default>false</default>
+        <label>Pipeline</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>1</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Upside</fullName>
+        <default>false</default>
+        <label>Upside</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>25</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Strong Upside</fullName>
+        <default>false</default>
+        <label>Strong Upside</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Commit</fullName>
+        <default>false</default>
+        <label>Commit</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>PO received</fullName>
+        <default>false</default>
+        <description>PO Received</description>
+        <label>PO received</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>99</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+        <label>Closed Won</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+        <label>Closed Lost</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Unqualified</fullName>
+        <default>false</default>
+        <label>Unqualified</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal</fullName>
+        <default>false</default>
+        <label>Renewal</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Fully Onboarded</fullName>
+        <default>false</default>
+        <label>Fully Onboarded</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Debooked</fullName>
+        <default>false</default>
+        <label>Debooked</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>

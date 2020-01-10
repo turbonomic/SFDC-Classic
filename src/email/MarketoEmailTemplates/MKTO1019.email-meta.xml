@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webcast - 30-Day Trial New</name>
+    <style>none</style>
+    <subject>{{Lead.First Name}}, Are You Ready To Control?</subject>
+    <textOnly>Dear {{Lead.First Name}},
+
+With VMTurbo virtual and cloud environments aren’t a struggle. They’re an opportunity for you to step out from the shadows, be the IT genius you’ve always wanted to be—not bogged down with dashboards and reports, but working on game-changing projects with your ever innovative team.
+
+Are you ready to see all that VMTurbo has to offer you? Give the free trial a shot &lt;http://vmturbo.com/download-vmturbo-operations-manager-direct?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wcast_love&amp;utm_content=30_day_offer&gt; and see just how VMTurbo will drive your environment to perpetual health.
+ &lt;http://vmturbo.com/download-vmturbo-operations-manager-direct?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wcast_love&amp;utm_content=30_day_offer&gt;
+VMTurbo Operations Manager
+
+
+ - Installs in just 15 minutes as a VM appliance, requiring only 20GB storage, 16GB memory, and 4vCPUs
+ - Deploys on any hypervisor, collecting the necessary metrics in just 10 minutes
+
+ - Single instance manages 10,000 VMs
+
+ - Provides its first specific actionable recommendations in under 1 hour: resize VMs, move VMs, deploy VMs, decommission VMs.
+
+
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

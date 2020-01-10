@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-03-18-Turbostack.Send</name>
+    <style>none</style>
+    <subject>Win a TurboStack Homelab! Drawing April 1st</subject>
+    <textOnly>&lt;[[http://vmturbo.com/turbostack-giveaway?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbostack&amp;utm_content=03182016]]&gt;
+Hi {{lead.First Name:default=There}},
+
+Don&apos;t miss your last chance to enter to win this month&apos;s TurboStack home lab, the drawing will be April 1st.
+Hybrid cloud deployments offer the promise of endless resources to assure application performance without wasting money on needless compute, storage or network.
+Multiple vendors now offer solutions to ease the adoption of a hybrid cloud model. With these advances and the ability to choose between a local data center and multiple public cloud offerings, one fundamental question must still be answered: What, when and where to run workloads to assure performance while maximizing efficiency?
+Click below to see if you can solve this problem, and be entered to win a VMTurbo TurboStack home lab.
+ &lt;[[http://vmturbo.com/turbostack-giveaway?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbostack&amp;utm_content=03182016]]&gt;
+Enter for a chance to win!
+VMTurboStack Homelab
+Valued over USD $1300.
+What&apos;s in the VMTurboStack Home Lab?
+
+
+
+ - (1) Intel NUC NUC5i5RYK
+
+
+ - (2) Crucial 8GB DDR3 RAM
+
+
+ - (1) Synology DS415 4-Bay NAS
+
+
+ - (1) Samsung 850 EVO 250GB SATA III TLC Internal Solid State Drive
+
+
+ - (2) Western Digital 1TB 3.5″ SATA Drives
+
+
+ - (1) Cisco SG300 10-Port Gigabit Managed Switch
+
+
+ - (3) Ethernet Cables
+
+
+
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

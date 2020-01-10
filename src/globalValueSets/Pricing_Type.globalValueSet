@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Workloads</fullName>
+        <default>false</default>
+        <label>Workloads</label>
+    </customValue>
+    <customValue>
+        <fullName>Cores</fullName>
+        <default>false</default>
+        <label>Cores</label>
+    </customValue>
+    <customValue>
+        <fullName>Sockets</fullName>
+        <default>false</default>
+        <label>Sockets</label>
+    </customValue>
+    <masterLabel>License Entity</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

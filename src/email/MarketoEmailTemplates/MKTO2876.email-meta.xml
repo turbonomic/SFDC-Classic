@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-07-01-SoCal TUG Invite.Email-Invite</name>
+    <style>none</style>
+    <subject>7/27 Southern California Turbonomic User Group</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+Come join us on Thursday, July 27th at WeWork Culver City for our Southern California Turbonomic User Group!
+All attendees will receive Turbonomic swag packs and will get to hear our experts discuss our new 5.9 release and all our enhanced hybrid-cloud capabilities. Make sure to RSVP by clicking on the link below to save your seat, as space is limited.
+RSVP Here &lt;[[https://www.meetup.com/Turbonomic-SoCal-Meetup/events/240417971/]]&gt;
+See you there!
+Murphy Vandervelde
+Marketing Program Manager
+Cell: 339-225-2502</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Reminder: Ovum Layered Tech webinar.Invitation</name>
+    <style>none</style>
+    <subject>Join us tomorrow – VMTurbo webinar</subject>
+    <textOnly>   
+
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+There are still a few spots left for tomorrow&apos;s webinar! VMTurbo is hosting an expert discussion. Get an industry analyst&apos;s and a cloud service provider&apos;s point of view regarding &quot;Overcoming Key Challenges in Operating Cloud Environments&quot;.
+
+Register now! &lt;https://www3.gotomeeting.com/register/393344606&gt;
+
+DATE: Tuesday, January 22, 2103
+TIME: 12 pm ET
+PRESENTERS: Kevin Van Mondfrans from Layered Tech &amp; Roy Illsley from Ovum
+
+Learn more. &lt;https://www3.gotomeeting.com/register/393344606&gt;
+
+We hope you will join us!
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

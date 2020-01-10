@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Survey Invite</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2018-07-Cloud Migration Survey.ES-2018-07-16-Survey Invite 2.Email</name>
+    <style>none</style>
+    <subject>$100 Amazon Gift Card | Cloud Migration Survey</subject>
+    <textOnly>&lt;[[http://bit.ly/2KQU2Sd]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+It&apos;s no secret that organizations worldwide are lifting and shifting workloads to the cloud each day. What&apos;s surprising is the percentage of organizations that are realizing cost-overruns and performance problems once the migration is complete.
+
+
+At Turbonomic, we&apos;re focused on finding out ways to help organizations reach their goals most efficiently on-premise and in the cloud. To do that, we&apos;d like to learn more about the challenges you are facing. We&apos;re hoping that you&apos;ll take 3-5 minutes of your time to share your experiences with us. As a thank you for your time, those who complete this survey &lt;[[http://bit.ly/2KQU2Sd]]&gt; will receive a $10 Amazon Gift Card.
+
+
+ &lt;[[http://bit.ly/2KQU2Sd]]&gt;
+
+
+
+
+
+We look forward to learning more about how we can help. 
+
+
+Thank you, 
+Team Turbonomic
+
+
+
+
+
+P.S. At the end of the survey, you will have the opportunity to earn an additional $100 Amazon Gift Card</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

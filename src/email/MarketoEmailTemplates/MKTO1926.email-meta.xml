@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-08-17-Turbonomic.EMAIL-Turbonomic</name>
+    <style>none</style>
+    <subject>VMTurbo is Now Turbonomic!</subject>
+    <textOnly>&lt;[[http://turbonomic.com/turbonomic?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=turbonomic-release&amp;utm_conten=08172016]]&gt;
+Hi {{Lead.First Name}},
+Our company was founded on the vision of assuring the performance of any workload, on any infrastructure, anywhere at anytime. Over the past few years, we’ve delivered a platform that empowers over 1,500 customers to deliver better application performance, agility, and efficiency.
+Today, our customers are moving beyond VMs to leverage containers and public clouds as they transition from monolithic to cloud-native applications.
+We are thrilled to enable this journey for our customers while remaining true to the core vision of the company. Given this transformation, we know there is an opportunity to truly capture this movement and take customers anywhere they want to go.
+With that said, we are pleased to announce that VMTurbo is now Turbonomic!
+Click below to learn more about our new name and continued mission!
+ &lt;[[http://turbonomic.com/turbonomic?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=turbonomic-release&amp;utm_conten=08172016]]&gt;
+-The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

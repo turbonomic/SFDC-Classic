@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>4_20_2015 April Turboticker.Newsletter</name>
+    <style>none</style>
+    <subject>The Turboticker: Cloud &amp; Virtualization Lessons You&apos;ll Love</subject>
+    <textOnly>Cloud &amp; Virtualization Lessons You’ll Love
+Take control of your cloud and virtual environments
+Best Practices for vCPU to CPU Ratio Management
+Matt Ray, Sales Engineer at VMTurbo, discusses what is the best vCPU to CPU ratio to assure performance in your environment—he asks, “What’s the real goal here?”
+Read More... &lt;http://vmturbo.com/blog/vcpu-to-cpu-ratio-management?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerapril&amp;utm_content=042415&gt;
+
+
+How to Successfully Virtualize Business Critical Applications
+Mastering the intricacies of virtualizing business-critical applications is crucial to today’s IT organizations. This whitepaper explores key issues, practical barriers, and offers best practices for teams taking on this task.
+Read More... &lt;http://vmturbo.com/wp-virtualize-critical-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=tickerapril&amp;utm_content=042415&gt;
+
+Planting a Tree for Every Demo
+Data centers consume more energy than ever before. You can change that. Maximizing efficiency in virtual and cloud environments saves energy: the more efficiently you use your infrastructure, the less energy you need to keep things running. For the month following Earth Day, VMTurbo pledges to plant a tree for each product demo completed. Schedule a demo today!
+Watch the Video to Learn More... &lt;http://vmturbo.com/earthday?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=earthday-2015&amp;utm_content=042215&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

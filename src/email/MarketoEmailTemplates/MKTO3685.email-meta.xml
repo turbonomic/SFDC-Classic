@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WC-2012-07-Become a Partner.Becoming a Partner - Thank You 051518</name>
+    <style>none</style>
+    <subject>Welcome To The Turbonomic Partner Program</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+Thank you for your interest in joining the Turbonomic Partner Program. We are reviewing your application and will be in touch with you shortly to further discuss your business and determine what opportunities there are for us to partner together.
+If you have any questions in the meantime, please contact PartnerDesk@Turbonomic.com &lt;[[mailto: PartnerDesk@Turbonomic.com]]&gt;.
+Best Regards,
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

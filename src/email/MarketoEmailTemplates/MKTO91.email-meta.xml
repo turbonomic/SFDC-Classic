@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Customer Holiday Mailer.Holiday Mailer</name>
+    <style>none</style>
+    <subject>Season&apos;s Greetings from your friends at VMTurbo</subject>
+    <textOnly>With an enormously successful 2012 coming to a close and the New Year approaching, I am truly excited about building on our collective accomplishments as we head into 2013.
+ 
+
+Through the course of this year, we have seen virtualization and cloud initiatives continuing to accelerate, with many of you on the path to realizing your 80 to 100 percent virtualization goal. For most of you, this forced a fresh look at requirements, existing processes and tools, and operational staff skill sets, leading you to engage with VMTurbo for the first time—or expand on our existing relationship. Whichever the case, we thank you for your business.
+ 
+
+The successes we’ve witnessed from your implementations of Operations Manager have been remarkable. Across the board, we’ve seen utilization gains, reduction in infrastructure issues and overall operational efficiencies realized from our improved approach to operations management—one that offloads decision-making instead of just providing alerts.
+ 
+
+Our successes are pretty exciting as well.  In the last few months, we signed our 250th customer, hired our 75th employee, initiated one of our largest deployments (50,000 VMs), and partnered with 7 of the top 10 hosting providers to be 
+the intelligent planning and optimization engine for their business cloud infrastructure. In 2012, we launched three product revisions, expanded our virtualization and cloud platform support with XenServer, RHEV and CloudStack, and certified our solution with VCE Vblock systems. We expanded geographically into Central Europe and Asia-Pacific, and more than tripled our revenues. And, we’ve had a lot of fun getting it all done.
+ 
+
+On behalf of VMTurbo, the warmest holiday wishes to you and your families. I know we are all looking forward to an exciting and prosperous 2013.
+ 
+
+Warm regards,
+
+N. Louis Shipley, CEO</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

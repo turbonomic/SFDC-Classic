@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2016-04-12-Silicon Valley VMUG.EMAIL-Cocktail Invite</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Silicon Valley VMUG Cocktail Hour</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Sed vulputate rutrum faucibus. Curabitur posuere sodales auctor. Maecenas eu ligula nibh. Duis suscipit leo et eros molestie, at mattis elit blandit. Integer ut orci eu metus finibus tempor. Aliquam pretium nunc sit amet ante laoreet, eu placerat quam fringilla. Vivamus auctor sollicitudin purus nec accumsan. Etiam metus augue, porta non tortor a, commodo dignissim arcu. Proin in sapien erat. Vivamus vel neque a tortor laoreet varius. In non pharetra mauris. Suspendisse potenti.
+
+Nulla ac felis sollicitudin, sodales nisi vel, interdum tellus. Proin viverra felis id pulvinar aliquet. Fusce venenatis orci felis, eget faucibus mauris consectetur quis. Integer nec nunc a magna efficitur semper ut id ipsum. Ut vestibulum pulvinar mi id tempor. Praesent mattis laoreet tellus, vel molestie ipsum consectetur vel. Nullam justo magna, fermentum et porta id, vestibulum non enim. Morbi consectetur malesuada diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

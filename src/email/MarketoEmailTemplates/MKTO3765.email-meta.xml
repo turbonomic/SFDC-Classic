@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-06-07-Product-Release-6-1-EMEA.ES-2018-06-06-Product-Release-6-1-Email-</name>
+    <style>none</style>
+    <subject>Last Chance to Register | Using AI to Maximize Cloud Cost Savings</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/using-ai-to-cut-cloud-costs/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+This is your last chance! Don&apos;t miss our live webinar on Thursday, June 7 at 2pm GMT.  Join Mor Cohen-Tal, our Cloud CTO, as she discusses Using AI to Continuously Maximize Cloud Cost Savings.
+ &lt;[[https://turbonomic.com/resources/using-ai-to-cut-cloud-costs/]]&gt;
+
+During the webinar, you will learn how to continuously optimize reserved instance utilization in concert with resizing automation – to drive the elasticity AND cost savings you want and expect from the cloud.
+
+Regards, 
+Graeme
+
+
+
+
+PS - If you can&apos;t join the live webinar, feel free to sign up anyway &lt;[[https://turbonomic.com/resources/using-ai-to-cut-cloud-costs/]]&gt;, and we&apos;ll email you the recording afterwards.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

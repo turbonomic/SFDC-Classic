@@ -1,0 +1,14 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+
+I'm trying to reach you to discuss your company's management strategy in regards to the virtualized data center. Virtualization requires ROI-centric, proactive, scalable and unified resource and performance management. VMTurbo dramatically improves resource utilization and enables the flexible scaling of resources and workloads using patented Intelligent Workload Management. Using a unique mathematical approach developed by a team of five PhD's, our software operates both in real-time and proactively to holistically maximize infrastructure utilization and properly configure VM resources to accommodate workload requirements. Our customers are able to ensure that applications get the computer and storage resources they need to operate reliably, while continuously utilizing their infrastructure and human resources in the most efficient way. <br/ ><br/ >
+
+I'm very interested in spending a minute with you to understand what part virtualization management plays in your organization's strategy to minimize capital and operational expenses related to the data center. Please let me know the best way to reach you, or who may be a more appropriate person to contact at your organization. <br/ ><br/ >
+
+
+Best regards, <br/ ><br/ >
+
+{!User.FirstName} {!User.LastName}<br/ ><br/ >
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br/ >
+<a href="http://tiny.cc/4kmu4">Top 10 Reasons to Choose VMTurbo</a> <br />

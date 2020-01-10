@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>07_30_2014 vCloud Director WP.Email_use</name>
+    <style>none</style>
+    <subject>Whitepaper: Maximize Your vCloud Director Lifecycle</subject>
+    <textOnly>Whether you&apos;re a SP running vCD, or an Enterprise who purchased before the split, vCloud Director has a lot of fight left.
+VMware&apos;s 2013 announcement &lt;http://blogs.vmware.com/vsphere/2013/09/vcloud-director-convergence-and-transition-plan-whats-the-scoop.html&gt; of vCloud Director&apos;s fusion with vCAC and vSphere left many purchasers puzzled: why was I sold this tool that I now have to trade-in (and pay-up) for a newer model with less functionality?
+
+vCloud Director created tremendous potential for Service Providers and Enterprises to deliver agile and cost effective Infrastructure as a Service (IaaS) to clients. Its dismantling among enterprises was a blow to many organizations.
+
+Good news: vCD has a lot of fight left. Read this whitepaper and learn how to maximize return on your investment in vCloud Director &lt;http://go.vmturbo.com/wp-reducing-costs-in-vcloud-environments.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vcd&gt;.
+Get Free Whitepaper &lt;http://go.vmturbo.com/wp-reducing-costs-in-vcloud-environments.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vcd&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

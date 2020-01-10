@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>04_30_2014 EMC vHaiku.Email</name>
+    <style>none</style>
+    <subject>Get Your VMT-Shirt at EMC World | May 5-8, 2014 | #vHaiku</subject>
+    <textOnly>EMC WORLD - Las Vegas 2014 &lt;http://bit.ly/1m0UZkh&gt;
+#vHaiku
+
+EMC World soon.
+VMTurbo will be there.
+Giving out t-shirts.
+
+&lt;http://bit.ly/1hHMdrK&gt;
+May 5-8, 2014 | Booth #830 | The Venetian
+{{lead.first name:default=Winner Winner Chicken Dinner}}!
+
+Next week, what happens in Vegas stays in Vegas*. We&apos;re going to make it Rain, Man. The don&apos;t call it &quot;The City of Angels&quot; for nothing. Or something like that.
+
+EMC World is arguably our industry&apos;s largest event, and this year, VMTurbo will be on premise in the New Innovators block. We&apos;ll be unveiling several exciting new features and compatibilities of VMTurbo Operations Manager, so stop by Booth 830, catch a demo, and snag your very own Limited Edition VMT-Shirt.
+
+See you in Vegas.
+
+*VMT-Shirt recipients will not, strictly speaking, be required to leave their VMT-Shirt in Vegas.
+See the T-Shirt &lt;bit.ly/1hHMdrK&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

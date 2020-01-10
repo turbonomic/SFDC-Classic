@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Azure_Cold_Nurture.Azure_Cold_Nurture_Email_6</name>
+    <style>none</style>
+    <subject>Activate Your Azure Strategy</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Wherever you are in your journey to Azure, Turbonomic can help. By first optimizing workloads before migrating them to Azure, and then continuously optimizing compute, storage, and Azure SQL, Turbomonic assures that cloud applications get the resources they need to perform, at the optimal cost, and in compliance with policies.
+
+
+Check out our webinar &lt;[[https://resources.turbonomic.com/microsoft-and-turbonomic/webinar-turbonomic-and-azure?utm_campaign=70157000001bY5vAAE]]&gt; to learn more about Turbomonic’s fast, accurate AI-powered migration assessments and continuous optimization for Azure.
+
+
+ &lt;[[https://resources.turbonomic.com/microsoft-and-turbonomic/webinar-turbonomic-and-azure?utm_campaign=70157000001bY5vAAE]]&gt;
+
+We hope you find it helpful!
+
+
+Best,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-30-Day Trial Nurture.04-Workload Chart.Send</name>
+    <style>none</style>
+    <subject>VMTurbo Top Ten Features #4: Workload Chart</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Here&apos;s your fourth of ten VMTurbo Top Features. Of course, if at any time you want to accelerate your learning, you can visit the Green Circle Community &lt;[[https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-HybridCloud&amp;utm_content=Mid04]]&gt; and gain tips and tricks from real VMTurbo customers and evaluators just like you.
+Feature #4: Workload Chart
+
+The Workload Chart is the place in VMTurbo that answers the following question:
+
+ - What is the state of my entire virtual and physical infrastructure?
+
+Step-By-Step: Workload Chart
+
+The following steps will guide you through the Workload Chart:
+
+ - Rings on the Workload Chart represent groups of VMs across the environment whose Host and Datastore utilizations correspond to the position of each ring relative to the X and Y axes (in the Workload Chart, X and Y should both be considered Independent Variables). Colored arcs represent the utilization levels of the most constraining resource on subsets of VMs in each ring: Red = Critically Overutilized, Yellow = Overutilized, Green = Desired Utilization, and Blue = Underutilized. It is important to understand that although these VMs are grouped together on the Workload Chart, they do not necessarily reside close together within the environment.
+ - Use the Gear Icon to change the Workload Chart axes
+ - Draw a box around any of the rings in the Workload Chart to display the specific VMs, Hosts, and Datastores contained in the ring, as well as Actions associated with these entities
+ - Click the name of any entity in the Selected VMs window to view additional detail on utilization, resources, related entities, Actions, and the Audit Log - which will show any Actions that have been taken on the selected entity
+
+Next Feature: Supply Chain</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

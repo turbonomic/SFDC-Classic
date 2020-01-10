@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Cloud Edition Download.Follow Up Email - Download</name>
+    <style>none</style>
+    <subject>VMTurbo Operations Manager</subject>
+    <textOnly>   
+Thank you for downloading
+VMTurbo Operations Manager
+Click here to download &lt;http://bit.ly/Mes4wz&gt; the trial.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

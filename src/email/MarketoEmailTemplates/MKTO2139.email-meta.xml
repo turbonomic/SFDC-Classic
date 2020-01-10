@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Dan - Controlling costs of both on premise and public cloud investments (1493122</name>
+    <style>none</style>
+    <subject>Dan - Controlling costs of both on premise and public cloud investments (1493122513.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Dan – With a hybrid cloud environment I know it can be difficult to not overspend on template sizes for the public cloud while still trying to maintain and optimize an on premise infrastructure as well. It’s a lot to manage.  As you know, with all the SAAS offerings that The Advisory Board Company offers to its customers, it is important to be agile and you must be able to spin up VMs quickly to the DevOps team which is why I assume you and the team chose to go with AWS to support the non-legacy applications. What I’d like to show you is how Turbonomic allows for our customers to spend less on template sizing in the cloud, while still assuring the performance and increasing the efficiency of their on-premise environment.  Autonomic Platform for AWS &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic-for-AWS-Data-Sheet.pdf]]&gt; Do you have 30 minutes for my team and I to provide an introduction as to exactly how this is possible?  Best, James</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

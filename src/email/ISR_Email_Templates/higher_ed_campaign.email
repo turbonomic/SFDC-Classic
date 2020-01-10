@@ -1,0 +1,11 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hello {!Lead.FirstName},<br /><br />
+Given your role in managing a virtualized environment in a Higher Education institution, I wanted to share with you a virtualization management approach other universities have chosen to assure application performance AND maximize infrastructure efficiency.<br/ ><br/ >
+
+Of particular interest may be some of the examples attached that highlight the successes of <a href="http://www.vmturbo.com/customers/education">the largest universities using VMTurbo</a>. I don’t know if we are in a position to help you in the same way that we have at London School of Economics, Indiana University and others, but I would certainly welcome the opportunity for a brief discussion to better understand your virtualization goals.<br/ ><br/ >
+
+I know this is a busy time of year for you, and I promise to keep the conversation brief.  I will follow up with you within the next couple of days.<br/ ><br/ >
+
+Sincerely,<br /><br />
+{!Lead.OwnerFirstName} {!Lead.OwnerLastName}<br />
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br/ >
+<a href="http://tiny.cc/4kmu4">Top 10 Reasons to Choose VMTurbo</a> <br />

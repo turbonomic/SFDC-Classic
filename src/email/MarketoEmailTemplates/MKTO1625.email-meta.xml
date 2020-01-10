@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-03-04-March-Partner Newsletter.March 2016 Newsletter</name>
+    <style>none</style>
+    <subject>March Partner Newsletter</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Sed vulputate rutrum faucibus. Curabitur posuere sodales auctor. Maecenas eu ligula nibh. Duis suscipit leo et eros molestie, at mattis elit blandit. Integer ut orci eu metus finibus tempor. Aliquam pretium nunc sit amet ante laoreet, eu placerat quam fringilla. Vivamus auctor sollicitudin purus nec accumsan. Etiam metus augue, porta non tortor a, commodo dignissim arcu. Proin in sapien erat. Vivamus vel neque a tortor laoreet varius. In non pharetra mauris. Suspendisse potenti.
+
+Nulla ac felis sollicitudin, sodales nisi vel, interdum tellus. Proin viverra felis id pulvinar aliquet. Fusce venenatis orci felis, eget faucibus mauris consectetur quis. Integer nec nunc a magna efficitur semper ut id ipsum. Ut vestibulum pulvinar mi id tempor. Praesent mattis laoreet tellus, vel molestie ipsum consectetur vel. Nullam justo magna, fermentum et porta id, vestibulum non enim. Morbi consectetur malesuada diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Welcome New Customers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Download the VMTurbo App! 
+
+To download your app you can search VMTurbo Sales in your iTunes or Google Play Store.
+
+
+
+
+ &lt;[[https://itunes.apple.com/us/app/vmturbo-sales-ready/id1070007765?ls=1&amp;mt=8]]&gt;    &lt;[[https://play.google.com/store/search?q=vmturbo&amp;c=apps&amp;hl=en]]&gt;
+
+
+
+
+ &lt;[[https://itunes.apple.com/us/app/vmturbo-sales-ready/id1070007765?ls=1&amp;mt=8]]&gt;
+
+Join the Green Circle!
+
+The Green Circle is our online community where you can access all resources, like training materials, industry insight, informative forums and make the most of your partnership with VMTurbo. Click here to join now » &lt;[[https://greencircle.vmturbo.com/welcome?inviteID=12005]]&gt;
+ &lt;[[https://greencircle.vmturbo.com/welcome?inviteID=12005]]&gt;
+
+
+Upcoming Webcasts
+
+
+April 9, 2016 at 12 PM ET
+Q2 Partner Town Hall Meeting &lt;[[https://attendee.gotowebinar.com/register/844254877771303169]]&gt;
+New Content 
+
+Case Study: VMTurbo Enables Greater Performance for Larger Virtual Environments
+Download Now (PDF) &lt;[[http://vmturbo.com/wp-content/uploads/2016/01/VMTurbo_large_environment_0116.pdf]]&gt;
+
+Press Release: VMTurbo Named on List of America&apos;s Fastest-Growing Private Companies 
+Click here to view &lt;[[http://vmturbo.com/press-releases/vmturbo-named-to-inc-magazines-list-of-americas-fastest-growing-private-companies/]]&gt;
+
+Customer Success: Blackbaud Makes An Impact and Gives Back with VMTurbo
+Download Now (PDF) &lt;[[http://vmturbo.com/wp-content/uploads/2016/01/VMTurbo-Blackbaud-Success-Story.pdf]]&gt;
+
+
+
+Visit the Partner Portal 
+
+Click here &lt;[[https://vmturbo.partnerprm.com/]]&gt; to search for key collateral, local partner contacts, register new opportunities and more. 
+
+
+
+Questions?
+
+
+If you have any questions please email us at partners@vmturbo.com &lt;[[mailto:partners@vmturbo.com]]&gt;. We always appreciate your feedback so feel free to send us suggestions on how to improve our partner program or request resources that you would like to see.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

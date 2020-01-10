@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>04_30_2014 MSFT TechEd.Email</name>
+    <style>none</style>
+    <subject>Going to TechEd North America {{lead.first name:default=May 12-15}}? | Respond for a VMT-Shirt!</subject>
+    <textOnly>VMTurbo will be at Booth #1347. And we want to see you {{lead.first name:default=}}.
+TechEd North America 2014 is SOLD OUT, but if you&apos;ll be there, we want to see you and talk about all of the exciting ways that VMTurbo is innovating to drive control of Microsoft Hyper-V &lt;http://bit.ly/1iMAnwA&gt;.
+
+If you&apos;ll be there, be among the first 10 IT Pros to email VMTurbo&apos;s very own Ally House &lt;mailto: ally.house@vmturbo.com&gt;, and when we pack our bags, we will provision a highly-prized VMT-Shirt just for you:
+
+
+Yes, these VMTees are 100% awesome, and yes, Ally is a real person.
+Email Ally &lt;mailto: ally.house@vmturbo.com&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

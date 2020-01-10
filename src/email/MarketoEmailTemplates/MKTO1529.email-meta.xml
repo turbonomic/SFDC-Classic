@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New - WP - AV Offer</name>
+    <style>none</style>
+    <subject>Everything You Should Know About: Virtualization</subject>
+    <textOnly>Dear {{Lead.First Name}},
+
+Love all things virtualization? Whether you’re a data center titan or just getting started, About: Virtualization &lt;https://vmturbo.com/about-virtualization/&gt; has something for you. This blog covers the latest news and virtualization challenges from some of the best experts in the industry. Topics include Virtualization, Cloud, SDx, Performance, DevOps, and Best Practices.
+
+Check it out. About: Virtualization &lt;https://vmturbo.com/about-virtualization/&gt;
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

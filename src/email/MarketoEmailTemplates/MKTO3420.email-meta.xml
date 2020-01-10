@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-01-17-Meltdown Spectre Webinar Send 1.Send 1</name>
+    <style>none</style>
+    <subject>[Live Webinar] How Spectre &amp; Meltdown impacts your application performance</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/spectre-and-meltdown-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=spectre_meltdown_webinar]]&gt;
+Hi {{Lead.First Name}},
+
+
+Spectre and Meltdown are currently consuming an enormous amount of IT cycles to patch and test. But the security risk is only the beginning of this headache – Spectre and Meltdown patches are often shown to have significant and unpredictable application performance impacts as well.
+
+
+
+If you’re struggling to get on top of Spectre and Meltdown, and what implications these patches will have for your application performance, you are certainly not alone. 
+
+
+
+Join us on Wednesday, January 31 at 1PM ET &lt;[[https://turbonomic.com/resources/spectre-and-meltdown-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=spectre_meltdown_webinar]]&gt; as we discuss how to mitigate the performance impact of Spectre and Meltdown.
+
+
+
+
+
+
+ &lt;[[https://turbonomic.com/resources/spectre-and-meltdown-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=spectre_meltdown_webinar]]&gt;
+
+
+
+
+
+
+We hope to see you there!
+
+
+Best,
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

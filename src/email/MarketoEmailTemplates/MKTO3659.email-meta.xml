@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-02-Turbonomic-6-1-Prospects-1.Prospect Send</name>
+    <style>none</style>
+    <subject>Got Automation? Announcing Turbonomic 6.1</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+What would it mean for your career if you could deliver:
+
+
+	- Application response time improvements of 35%
+	- While increasing datacenter utilization by at least 30%
+	- While simultaneously saving up to 40% on your cloud bills?
+
+
+
+These results aren’t magic – they’re AI-powered automation. Our new release, Turbonomic 6.1 &lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1]]&gt;, is loaded with features that not only enhance workload efficiency and performance but also make it easier to get started on your automation journey.
+
+To learn more, please check out our 6.1 Learning Center &lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1]]&gt; and join one or more of our “6.1 LIVE” events:
+
+
+	- Wed. 5/9: Live Demo: Automating AWS Reserved Instance Utilization &lt;[[https://turbonomic.com/resources/continuous-aws-ri-consumption/]]&gt; (15 min)
+	- Wed. 5/16: Live Demo: Delivering Application-Aware Infrastructure &lt;[[https://turbonomic.com/resources/true-application-aware-infrastructure/]]&gt; (15 min)
+	- Wed. 5/23: Live Webinar: Using AI to Maximize Cloud Savings &lt;[[https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/]]&gt; (60 min)
+	- Wed. 5/30: Live Webinar: Self-Managing Kubernetes with Turbonomic 6.1 &lt;[[https://turbonomic.com/resources/using-ai-to-optimize-kubernetes-clusters]]&gt; (60 min)
+
+
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

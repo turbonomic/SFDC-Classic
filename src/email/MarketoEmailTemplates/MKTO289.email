@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#dfdfdf; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; " align="center" valign="top" ><table style="text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding-top:10px; " ><table style="width:600px; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-grey.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-grey.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; background-color:#FFFFFF; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="padding:20px; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#45555f; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" >Sub title:</div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" >Title of Email</div>
+</div>
+<br>
+<table style="width:100%; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; line-height:20px; font-family:Tahoma,Helvetica; width:300px; font-size:12px; " ><div class="mktEditable" id="main_text" >Hello {{lead.First Name:default=Sir/Madam}},<br> <br>my test content</div>
+</td>
+<td style="width: 20px;">&nbsp;</td>
+<td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#004E91; vertical-align:top"><img src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" height="21" width="9" alt=""><br>
+<br></td>
+<td style="padding-left:5px; background-color:#004E91; font-family:'trebuchet ms'; font-size:17px; font-weight:bold; color:#ffffff; " width="100%" ><div class="mktEditable" id="column_title" >Column&nbsp;Title</div>
+</td>
+<td style="background-color:#004E91; vertical-align:top"><img src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" height="21" width="9" alt="" align="right"><br>
+<br></td>
+</tr>
+<tr ><td colspan="3" style="padding:14px; background-color:#f1f1f1; font-size:11px; font-family:Tahoma,Helvetica; color:#45555f; " ><div style="font-weight:bold; color:#45555f; " ><div class="mktEditable" id="column_subtitle" >SubTitle Goes here. It can be fancy.</div>
+</div>
+<br>
+<div class="mktEditable" id="column_text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">Some Link</a>.</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="background-color: #f1f1f1;"><img src="http://go.vmturbo.com/rs/vmturbo/images/colCornerSE.png" align="right" height="7" width="7" alt=""> <img src="http://go.vmturbo.com/rs/vmturbo/images/colCornerSW.png" align="left" height="7" width="7" alt=""></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="border-collapse:collapse;"><img src="http://go.vmturbo.com/rs/vmturbo/images/cornerSW-grey.png" border="0" height="10" width="10" alt="" align="absbottom" style="margin:0px; padding:0px;"><br></td>
+<td style="width: 100%; line-height: 0px;"><br></td>
+<td style="border-collapse:collapse;"><img src="http://go.vmturbo.com/rs/vmturbo/images/cornerSE-grey.png" border="0" height="10" width="10" alt="" align="absbottom" style="margin:0px; padding:0px;"><br></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 20px; vertical-align: top;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="color: #45555f; font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top;" align="center"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

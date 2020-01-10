@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-09-07-Customer Delight August 2016.9/7/2016 TurboShot Final Edit</name>
+    <style>none</style>
+    <subject>Customer Newsletter|Tips &amp; Tricks, Updates &amp; More</subject>
+    <textOnly>Greetings from Turbonomic, {{lead.First Name:default=}}
+
+The Offical Newsletter of Turbonomic Customers. Want to be featured? Let us know! &lt;[[mailto:Murphy.Vandervelde@VMTurbo.com?Subject=Featured Customer]]&gt;
+
+&lt;[[https://greencircle.vmturbo.com/docs/DOC-3558?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=09072016#whatsHappening]]&gt;
+&lt;[[https://greencircle.vmturbo.com/docs/DOC-3558?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=09072016#productUpdates]]&gt;
+&lt;[[https://greencircle.vmturbo.com/docs/DOC-3558?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=09072016#tipsTricks]]&gt;
+Featured Customer
+Meet Jesse Kozikowski from Aspirus Hospital
+In our first TurboShot we would like to recognize and thank Jesse Kozikowski from Aspirus Hospital. Jesse was an early adopter beginning his evaluation of Turbonomic in October of 2012. He became a customer months later. Since purchasing Jesse has had a wonderful impact on our company and many individuals here are lucky to call him a friend.
+Read More in the Green Circle » &lt;[[https://greencircle.vmturbo.com/docs/DOC-3558?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=09072016#featuredCustomer]]&gt;
+Featured Technology
+In-memory databases and Under Armour&apos;s use of SAP HANA
+In the new IT stack your application is only as fast as the slowest component. An unsung hero of this new IT stack is in-memory databases. While utilizing memory to increase speed at the database level is not new, advancements in the technology are making it more feasible for companies to adopt. In-memory databases are becoming so popular that Under Armour decided to make a national advertisement campaign about their success with SAP HANA.
+Read More » &lt;[[http://turbonomic.com/blog/on-technology/in-memory-databases-their-rising-popularity-and-under-armours-use-of-sap-hana/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=customer-newsletter&amp;utm_content=09072016#featuredTechnology]]&gt;
+
+How likely are you to recommend Turbonomic to a colleague?      Not at all likely
+  Extremely likely   
+         1  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=1]]&gt;          2  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=2]]&gt;           3  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=3]]&gt;          4  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=4]]&gt;          5  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=5]]&gt;          6  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=6]]&gt;          7  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=7]]&gt;          8  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=8]]&gt;          9  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=9]]&gt;          10  &lt;[[https://www.trustradius.com/static/rate?pid=52df0585ae8a36020000195e&amp;p=turbonomic&amp;o=amzn25&amp;r=10]]&gt;
+© Turbonomic, Inc. 500 Boylston Street, 7th Floor
+Boston, MA 02116
+&lt;[[https://twitter.com/turbonomic]]&gt;  &lt;[[https://www.linkedin.com/company/turbonomic]]&gt;  &lt;[[https://www.youtube.com/user/myVMTurboTV?gl=CO&amp;hl=es-419]]&gt;  &lt;[[https://www.facebook.com/turbonomic]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

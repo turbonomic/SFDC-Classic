@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p class="p1">Dear {{lead.First Name:default=Sir/Madam}},<br /><br />Thank you for your purchase of VMTurbo Operations Manager. To ensure the most successful outcome of using our solution, VMTurbo Educational Services is offering a <a href="https://www3.gotomeeting.com/register/778930174">Jumpstart Training session</a> on October 25th, 2012 from 12pm to 1:30pm ET. The session will introduce you to the breakthrough technology that drives VMTurbo Operations Manager, and demonstrate how it assures application performance while utilizing virtualized and cloud infrastructure resources as efficiently as possible.<br /><br />Who will Benefit: enterprise and virtualization architects, capacity planners, system administrators, and IT and support personnel. There is no limit to who can participate from your organization.<br /><br />Some of the key lessons they will take away include:</p>
+<ul>
+<li>Preventing problems in your virtual environment before they occur</li>
+<li>Using VMTurbo recommendations for workload placement to maximize efficiency</li>
+<li>Exploring the wealth of information to gain visibility and insight into your virtual environment</li>
+<li>Using VMTurbo to analyze historical trends</li>
+<li>Customizing the VMTurbo dashboards</li>
+<li>Planning for projected workload fluctuations and hardware migrations</li>
+<li>Investigating how infrastructure changes would affect performance and efficiency</li>
+</ul>
+<p class="p1"><br /><a href="https://www3.gotomeeting.com/register/778930174">Register here!</a><br /><br />VMTurbo Jumpstart Training<br />Thursday, October 25th, 2012<br />12:00 pm &ndash; 1:30 pm ET<br /><br />We hope you can join us! If you need more information, please contact education@vmturbo.com.</p>
+<p class="p1">VMTurbo Educational Services<br /> <br /></p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

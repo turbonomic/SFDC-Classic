@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2017-06-13-5.9 Release Webinar.EMAIL-Follow Up Missed</name>
+    <style>none</style>
+    <subject>Sorry We Missed You! Catch the Turbonomic 5.9 Release Recording Today</subject>
+    <textOnly>Hi {{Lead.First Name}},
+Sorry we missed you at our Quarterly Partner Town Hall Meeting! We get it, things come up and days get busy. 
+Please feel free to watch the webinar on demand at your convenience! You can find the recording here &lt;[[https://greencircle.vmturbo.com/community/partner-portal/overview]]&gt;
+If you have any questions about the webinar please reach out to your account representative or email partners@turbonomic.com &lt;[[mailto:partners@turbonomic.com]]&gt;.
+Best,
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

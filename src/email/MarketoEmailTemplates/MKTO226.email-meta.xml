@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VOM 4.0 Release - Prospect mailing.Email</name>
+    <style>none</style>
+    <subject>Announcing New Storage and Cloud Features For Virtual Datacenter Control</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Today, VMTurbo announced the latest release of VMTurbo Operations Manager—version 4.0. New enhancements will even further extend your ability to control your virtual datacenter with our approach to software-defined control, which yields improvements to performance and reduction and/or deferral of infrastructure expense. 
+
+Check it out for yourself. Download the trial here &lt;http://bit.ly/QzvQgM&gt;. 
+
+New and enhanced feature offerings include:
+
+ - Data Storage - Enablements for new add-on modules to control storage resources supporting your virtual environment
+ - Cloud Infrastructure - New add-on module for extending workloads to public cloud infrastructure, such as Amazon Web Services and Microsoft Azure
+
+
+Learn more about these exciting new capabilities:
+
+ - Join our Webinar on June 18 &lt;http://bit.ly/108Ukqz&gt;
+ - Read the Press Release &lt;http://bit.ly/11da07n&gt; and announcing version 4.0
+
+ 
+
+Kind Regards
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

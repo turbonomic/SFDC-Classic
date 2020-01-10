@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Thank You - Meeting Follow Up (1490644721.0)</name>
+    <style>none</style>
+    <subject>Thank You - Meeting Follow Up (1490644721.0)</subject>
+    <textOnly>{{lead.First Name:default=edit me}},
+ 
+Thank you for your time and insight today. We look forward to hearing from you and hope that we were able to highlight key benefits of our Control Platform to drive Performance and Efficiency.
+
+   Enterprises are starting to realize that managing environments reactively with monitoring, alerting, reporting solutions and humans does not scale, is not cost efficient and ultimately does not assure performance.
+
+   Turbonomic’s goal is to help assure performance without the need to chase alerts and be reactive. 
+   
+   
+ 	- Quick Time to Value – from Install (15-min) to Value (60-min) 
+ 	- Deployed at Credit Suisse globally during one 60-min maintenance window 
+	- Further enabled automation over the next 60-min maintenance window
+
+ 
+ 	- Understand Application Demand and automatically match that Demand with the Supply (infrastructure) 
+ 
+	- Real-time size up and down recommendations
+
+ 
+ 	- Identify Risks present – and provide actions (not alerts) to drive environment to a better state – via one click Automation 
+ 
+	- Actions with the ultimate goal of avoiding problems to begin with
+
+ 
+ 
+	- No thresholds needed to be setup
+
+ 	- On average 20% - 40% increase in density (avoiding the need to buy unnecessary hardware) 
+ 	- Barclays has avoided buying servers for 2-years+ 
+	- Ability to eliminate and avoid licensing (Windows, Linux, SQL, Oracle, etc)
+
+ 
+ 
+	- What runs where and reduce licensing costs
+
+ 
+	- Powerful Planning capabilities to help with planning, forecasting and numerous what-if scenarios (around HW refresh, DC migrations and Consolidations)
+
+ 
+	- Multi-hypervisor support – enabling Wyndham to have a stronger negotiation position
+
+ 	- Ability to consider Fabric, Storage, Hyper converged environments into consideration when driving actions 
+ 	- Cisco UCS, NetApp Flexpod, VCE Vblock, EMC, Pure and Nutanix  
+ 
+   Below are a couple of data points from a recent customer engagement that can be achieved with a 15-min install and no agents or human involvement.    
+      Thank you,   {{company.Territory Owner:default=edit me}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VOM 4.0 Release - Customer mailing.Email</name>
+    <style>none</style>
+    <subject>Exciting new features in VMTurbo Operations Manager 4.0!</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+VMTurbo is pleased to announce the latest release of VMTurbo Operations Manager—version 4.0. The release contains enhancements in the base product, as well as enablements for new add-on modules to control storage resources supporting your virtual environment; and a new add-on module for extending workloads to public cloud infrastructure, such as Amazon Web Services and Microsoft Azure. Learn more about what&apos;s new in our press release &lt;http://bit.ly/11da07n&gt; or the release notes on the support site.
+ 
+Due to the significant changes in this release, the upgrade process has changed. We highly recommend that all customers read this article &lt;http://bit.ly/11sZM1E&gt; on our support site before upgrading. Customers who do not have maintenance agreements and who are interested in benefiting from the new features should contact us &lt;mailto:sales@vmturbo.com&gt; to learn more.
+ 
+As a reminder, VMTurbo offers comprehensive training programs &lt;http://bit.ly/WbucrR&gt; to meet your organization&apos;s specific needs. Our FREE JumpStart training is offered monthly and is available to all customers. The next session is scheduled for Thursday, June 13 &lt;http://bit.ly/12iNAXm&gt; at 12pm ET and Thursday, July 11 &lt;http://bit.ly/16ZXxMk&gt; at 12pm ET.
+Please contact me if you have any questions 
+regarding the update.
+
+
+Best regards,
+
+Steve Gorman
+Director, Customer Support
+781-418-5244
+steve.gorman@vmturbo.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

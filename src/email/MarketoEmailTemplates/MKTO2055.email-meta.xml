@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-1-23-January Partner Newsletter.November 2016 Newsletter</name>
+    <style>none</style>
+    <subject>January Partner Newsletter</subject>
+    <textOnly>In This Issue:
+
+
+	- The Former CIO of GE Just Led a $50M Bet on Turbonomic
+	- Turbonomic User Groups
+	- 2017 IT Industry Predictions: A Look At What&apos;s To Come
+	- Quarterly Town Hall: February 15th
+
+
+
+Former CIO of GE Just Led a $50M Bet on Turbonomic 
+
+We are pleased to share an exciting piece of news regarding Turbonomic&apos;s growth. On Monday morning, Turbonomic announced &lt;[[https://turbonomic.com/press-releases/former-ge-cio-gary-reiner-joins-turbonomic-board/]]&gt; that it has secured $50 million in additional funding, led by General Atlantic, a leading global growth equity investment firm, as well as the addition of Gary Reiner &lt;[[http://www.generalatlantic.com/people/gary-reiner/]]&gt;, former CIO of GE and current Operating Partner at General Atlantic, to the company&apos;s Board of Directors. 
+
+Mr. Reiner, who says Turbonomic is &quot;on the right side of history,&quot; brings with him a deep understanding of the challenges faced by CIOs in assuring application performance and maintaining a competitive advantage through implementing innovating IT strategies. Turbonomic plans to invest a significant portion of this funding in product development, particularly around hybrid and public cloud management capabilities.
+Both the fundraising and growth of Turbonomic&apos;s Board were profiled in Forbes &lt;[[https://www.forbes.com/sites/alexkonrad/2017/01/23/turbonomic-raises-50-mil-from-general-atlantic/#535571ea6755]]&gt; as one of &quot;Today&apos;s Top Stories&quot; on Monday. 
+Turbonomic User Groups 
+
+Give your Turbonomic clients an opportunity to network and learn from other Turbonomic users! The Turbonomic User Groups &lt;[[https://greencircle.vmturbo.com/community/turbonomic-user-groups]]&gt; are customer-led communities, serving as a place for IT professionals to network, share best practices, and engage in constructive conversations on cutting edge technology trends with their peers. Our goal is to foster a community benefitting existing Turbonomic customers, thus enhancing the user experience, and enabling users to strengthen their existing relationship with and understanding of Turboonmic&apos;s technology. 
+
+Your Turbonomic clients can sign up here &lt;[[https://www.meetup.com/Chicago-Turbonomic-User-Group/events/236802639/]]&gt; today for the User Group in Chicago, IL on Thursday, February 16th!  
+2017 IT Industry Predictions: A Look At What&apos;s To Come
+
+Through our friends at VMBlog.com we presented our 2016 predictions &lt;[[https://turbonomic.com/blog/on-turbonomic/2016-it-industry-predictions-a-look-at-whats-to-come/]]&gt;, and this year we also welcomed the same team to give their thoughts on what&apos;s coming in 2017. How will Turbonomic fit in to your 2017 solutions for your clients based off of these 2017 IT Industry Predictions &lt;[[https://turbonomic.com/blog/on-turbonomic/2017-it-industry-predictions/]]&gt;?
+Join Us for Our Quarterly Town Hall!
+
+Our upcoming Partner Town Hall &lt;[[https://turbonomic.com/q1-17-partner-town-hall-meeting/]]&gt; meeting will take place on Wednesday, February 15th at 11:00AM EST. These Quarterly Town Hall Meetings are an opportunity to voice questions, concerns and feedback but also discuss the following topics:
+
+
+	- New $50M Investment
+	- Gary Reiner Joining Our Board of Directors
+	- Upcoming Events
+	- Q&amp;A
+
+
+
+Reserve &lt;[[https://turbonomic.com/q1-17-partner-town-hall-meeting/]]&gt; your spot today and stay informed about the various resources available to partners and future initiatives to support the partner community.
+Welcome New Customers
+
+
+
+    
+
+
+
+
+
+
+
+
+
+ Join the Green Circle
+
+
+Join the Green Circle Today &lt;[[https://greencircle.vmturbo.com/welcome?inviteID=12005]]&gt;! The Green Circle is our online community where you can access all resources, like training materials, industry insight, informative forums and make the most of your partnership with Turbonomic. 
+New Content 
+Blog Post &lt;[[https://turbonomic.com/blog/on-technology/3-ways-to-avoid-overspending-on-cloud-infrastructure-and-waking-up-in-cloud-jail/]]&gt;: 3 Ways to Avoid Overspending on Cloud Infrastructure and Waking Up in Cloud Jail
+
+
+Press Release &lt;[[https://turbonomic.com/press-releases/former-ge-cio-gary-reiner-joins-turbonomic-board/]]&gt;: Former GE CIO Joins Turbonomic Board of Directors
+
+In the News &lt;[[http://www.businessinsider.com/51-enterprise-startups-to-bet-your-career-on-in-2017-2016-11/#wavefront-making-things-simpler-for-software-developers-17]]&gt;: 51 Enterprise Startups to Bet Your Career on in 2017
+
+Whitepaper &lt;[[https://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/]]&gt;: The Path to Hybrid Cloud: Intelligent Bursting to Amazon Web Services &amp; Microsoft Azure
+
+
+
+
+
+
+Visit the Partner Portal 
+
+Click here &lt;[[https://greencircle.vmturbo.com/community/partner-portal]]&gt; to search for key collateral, local partner contacts, register new opportunities and more. 
+
+
+
+	- Onboarding &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bpathway-to-partnership%5D]]&gt;
+
+	- Technical Training &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bmission-tech-accreditation%5D]]&gt;
+
+	- Sales Training &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bmission-sales-accreditation%5D]]&gt;
+
+
+
+
+
+
+Questions?
+
+
+If you have any questions please email us at partners@turbonomic.com &lt;[[mailto:partners@turbonomic.com]]&gt;. We always appreciate your feedback so feel free to send us suggestions on how to improve our partner program or request resources that you would like to see.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

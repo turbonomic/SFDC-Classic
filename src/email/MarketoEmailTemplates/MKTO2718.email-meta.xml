@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-06-09-MLB Allstar Game Send ENT.Send</name>
+    <style>none</style>
+    <subject>Win a VIP Pass to The 2017 MLB All-Star Game in Miami | All Teams, All Clouds, All Stars</subject>
+    <textOnly>&lt;https://turbonomic.com/mlb-star-experience-giveaway/&gt;
+Hi {{lead.First Name:default=there}},
+At Turbonomic, we understand the importance of some quality time off, just as we understand how critical it is to unite IT teams to achieve their common goal: assure application performance while maximizing efficiency, maintaining compliance, and enabling agility for any workload on any cloud. That is why we are excited to announce our MLB All Star Game VIP Experience giveaway.
+If you schedule a 30 minute meeting with a Turbonomic engineer, we will enter you to win a trip for two (2) to watch the most talented players in baseball play in one stadium in the highest octane baseball event of the season, the All-Star game on July 12, 2017 in Miami, Florida. This VIP package includes:
+
+
+	- 4 days/3 nights (July 9-12) accommodations at the Hyatt Regency Miami (standard room)
+	- Lower level infield tickets to the 2017 MLB All Star Game
+	- Lower level infield tickets to the 2017 All Star Monday, including Home Run Derby
+	- Lower level infield tickets to the 2017 All Star Sunday
+	- Tickets to the MLB All-Star Fan Fest
+
+
+Schedule Meeting Here &lt;[[https://turbonomic.com/mlb-star-experience-giveaway/]]&gt;
+The Giveaway will end on Monday, June 22nd (which means your meeting will need to be completed), so make sure you schedule your meeting today! for a chance to win the VIP package.
+ &lt;[[https://turbonomic.com/mlb-star-experience-giveaway/]]&gt;
+-The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

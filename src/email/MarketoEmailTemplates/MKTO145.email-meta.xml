@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Blogger Briefing 2_5_2013.Email</name>
+    <style>none</style>
+    <subject>Join Us: VMTurbo Industry Influencer Briefing</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+The successes we’ve seen with our customers’ implementations of VMTurbo Operations Manager have been stellar, contributing to huge efficiency gains in time and costs. Our successes &lt;http://bit.ly/101v6ZT&gt; in 2012 are pretty exciting as well—and we’ve kicked off 2013 with a new product revision &lt;http://bit.ly/12IPhNr&gt; and being named to Forbes’ list &lt;http://bit.ly/12vYR6c&gt; of America’s Most Promising Companies.
+
+As it’s been a while since we caught you up on VMTurbo news, we’d like to invite you to attend our quarterly briefing &lt;http://bit.ly/YTGq4F&gt; for industry influencers on Tuesday, March 5th at 12:00 pm ET.  Why should you attend? We’re really keen to start a dialog with you—share what we are doing now and in the near future, 
+and get your feedback regarding how we extend our product into the fabric and storage layers of the infrastructure, either during the briefing or separately afterward.
+
+At VMTurbo, it’s our belief that IT operations management needs to be fundamentally changed &lt;http://bit.ly/126IaiC&gt; to allow companies to unlock the full value of virtualized infrastructure and cloud services. As virtualization and cloud adoption grows, these complex environments require a new approach to controlling the infrastructure and maintaining the desired state—one that offloads and automates decision-making instead of just providing alerts. Our founder and CTO Shmuel Kliger and co-founder and VP of product strategy Yuri Rabover will provide an overview of our Software-Defined Control system that delivers on this new approach.
+
+We hope you will join us and are looking forward to starting, and continuing, our dialog with you.  Please register now &lt;http://bit.ly/YTGq4F&gt;.
+
+Best regards,
+
+Lauren Whitehouse
+Director, Product Marketing</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

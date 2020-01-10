@@ -1,0 +1,3305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Anticipated_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Anticipated Start</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spring 2015</fullName>
+                    <default>false</default>
+                    <label>Spring 2015</label>
+                </value>
+                <value>
+                    <fullName>Summer 2015</fullName>
+                    <default>false</default>
+                    <label>Summer 2015</label>
+                </value>
+                <value>
+                    <fullName>Fall 2015</fullName>
+                    <default>false</default>
+                    <label>Fall 2015</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Business_Unit_Manual_Override__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit (Manual Override)</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Unit_With_Sales_Detail__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Business_Unit_Manual_Override__c),TEXT(Recruiting_Spec__r.Business_Unit__c),Business_Unit_Manual_Override__c)</formula>
+        <label>Business Unit (With Sales Detail)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounting/Finance</fullName>
+                    <default>false</default>
+                    <label>Accounting/Finance</label>
+                </value>
+                <value>
+                    <fullName>Engineering</fullName>
+                    <default>false</default>
+                    <label>Engineering</label>
+                </value>
+                <value>
+                    <fullName>General &amp; Administrative</fullName>
+                    <default>false</default>
+                    <label>General &amp; Administrative</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Candidate_Highest_Status_Recruiter__c</fullName>
+        <externalId>false</externalId>
+        <formula>First_Name__c&amp;&quot; &quot;&amp;Last_NameOLD__c&amp;&quot; (&quot;&amp;RIGHT(Highest_Status_Reached__c,LEN(Highest_Status_Reached__c)-4)&amp;&quot;, &quot;&amp;TEXT(Recruiter__c)&amp;&quot;)&quot;</formula>
+        <label>Candidate (Highest Status, Recruiter)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Candidate_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Candidate Source</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>RFL: Internal Referral</fullName>
+                    <default>false</default>
+                    <label>RFL: Internal Referral</label>
+                </value>
+                <value>
+                    <fullName>RFL: Internal Referral SPIFF</fullName>
+                    <default>false</default>
+                    <label>RFL: Internal Referral SPIFF</label>
+                </value>
+                <value>
+                    <fullName>RFL: External Referral</fullName>
+                    <default>false</default>
+                    <label>RFL: External Referral</label>
+                </value>
+                <value>
+                    <fullName>RFL: College Ambassador</fullName>
+                    <default>false</default>
+                    <label>RFL: College Ambassador</label>
+                </value>
+                <value>
+                    <fullName>INB: VMT Career Site</fullName>
+                    <default>false</default>
+                    <label>INB: VMT Career Site</label>
+                </value>
+                <value>
+                    <fullName>INB: Social Media</fullName>
+                    <default>false</default>
+                    <label>INB: Social Media</label>
+                </value>
+                <value>
+                    <fullName>SRC: LinkedIn (Sourced)</fullName>
+                    <default>false</default>
+                    <label>SRC: LinkedIn (Sourced)</label>
+                </value>
+                <value>
+                    <fullName>SRC: Cold Outreach</fullName>
+                    <default>false</default>
+                    <label>SRC: Cold Outreach</label>
+                </value>
+                <value>
+                    <fullName>JBD: Indeed.com</fullName>
+                    <default>false</default>
+                    <label>JBD: Indeed.com</label>
+                </value>
+                <value>
+                    <fullName>JBD: Monster.com</fullName>
+                    <default>false</default>
+                    <label>JBD: Monster.com</label>
+                </value>
+                <value>
+                    <fullName>JBD: LinkedIn Job Post</fullName>
+                    <default>false</default>
+                    <label>JBD: LinkedIn Job Post</label>
+                </value>
+                <value>
+                    <fullName>JBD: Glassdoor</fullName>
+                    <default>false</default>
+                    <label>JBD: Glassdoor</label>
+                </value>
+                <value>
+                    <fullName>JBD: VentureFizz</fullName>
+                    <default>false</default>
+                    <label>JBD: VentureFizz</label>
+                </value>
+                <value>
+                    <fullName>JBD: Craigslist</fullName>
+                    <default>false</default>
+                    <label>JBD: Craigslist</label>
+                </value>
+                <value>
+                    <fullName>JBD: Reed.co.uk</fullName>
+                    <default>false</default>
+                    <label>JBD: Reed.co.uk</label>
+                </value>
+                <value>
+                    <fullName>JBD: Milkround</fullName>
+                    <default>false</default>
+                    <label>JBD: Milkround</label>
+                </value>
+                <value>
+                    <fullName>EVT: Recruiting Event</fullName>
+                    <default>false</default>
+                    <label>EVT: Recruiting Event</label>
+                </value>
+                <value>
+                    <fullName>EVT: Career Fair</fullName>
+                    <default>false</default>
+                    <label>EVT: Career Fair</label>
+                </value>
+                <value>
+                    <fullName>CLG: College Recruiting</fullName>
+                    <default>false</default>
+                    <label>CLG: College Recruiting</label>
+                </value>
+                <value>
+                    <fullName>HDH: Headhunter</fullName>
+                    <default>false</default>
+                    <label>HDH: Headhunter</label>
+                </value>
+                <value>
+                    <fullName>HDH: Launchsource</fullName>
+                    <default>false</default>
+                    <label>HDH: Launchsource</label>
+                </value>
+                <value>
+                    <fullName>INT: Internal Move</fullName>
+                    <default>false</default>
+                    <label>INT: Internal Move</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Created_Date_Adj__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Created_Date_Manual__c),DATEVALUE(CreatedDate),Created_Date_Manual__c)</formula>
+        <label>Created Date (Adj)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Created_Date_Manual__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Date (Manual)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Created_Period_for_TVs__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Created_Date_Adj__c =TODAY(),1, 
+IF(Created_Date_Adj__c &gt;=TODAY()-MOD(TODAY()-DATE(1900, 1, 7), 7),2, 
+IF(Created_Date_Adj__c &gt;=DATE(YEAR(TODAY()),MONTH(TODAY()),1),3, 
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Created Period for TVs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( AND( Created_Date_Adj__c &gt;= DATE(2014,1,1), Created_Date_Adj__c &lt; DATE(2014,4,1)),&quot;FY14Q1&quot;,
+IF( AND( Created_Date_Adj__c &gt;= DATE(2014,4,1), Created_Date_Adj__c &lt; DATE(2014,7,1)),&quot;FY14Q2&quot;,
+IF( AND( Created_Date_Adj__c &gt;= DATE(2014,7,1), Created_Date_Adj__c &lt; DATE(2014,10,1)),&quot;FY14Q3&quot;,
+IF( AND( Created_Date_Adj__c &gt;= DATE(2014,10,1), Created_Date_Adj__c &lt; DATE(2015,1,1)),&quot;FY14Q4&quot;,
+IF( AND( Created_Date_Adj__c &gt;= DATE(2015,1,1), Created_Date_Adj__c &lt; DATE(2015,4,1)),&quot;FY15Q1&quot;,
+IF( AND( Created_Date_Adj__c &gt;= DATE(2015,4,1), Created_Date_Adj__c &lt; DATE(2015,7,1)),&quot;FY15Q2&quot;,
+IF( AND( Created_Date_Adj__c &gt;= DATE(2015,7,1), Created_Date_Adj__c &lt; DATE(2015,10,1)),&quot;FY15Q3&quot;,
+IF( AND( Created_Date_Adj__c &gt;= DATE(2015,10,1), Created_Date_Adj__c &lt; DATE(2016,1,1)),&quot;FY15Q4&quot;,
+&quot;N/A&quot;))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Created Quarter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Date_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(MONTH(TODAY())&gt;=1,MONTH(TODAY())&lt;4),1, 
+IF(AND(MONTH(TODAY())&gt;3,MONTH(TODAY())&lt;7),2, 
+IF(AND(MONTH(TODAY())&gt;6,MONTH(TODAY())&lt;10),3, 
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current Date Quarter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Title__c</fullName>
+        <description>Current Job Title (outside VMTurbo)</description>
+        <externalId>false</externalId>
+        <label>Current Title</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cycle_Time_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK( Start_Date__c )), Start_Date__c - Created_Date_Adj__c ,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cycle Time (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Screen_to_Hire__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK( Offer_Accepted_On__c )), Offer_Accepted_On__c - Screen_Completed_On__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Screen to Hire</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Eligible_for_referral_bonus__c</fullName>
+        <description>Indicates whether the employee that referred the candidate is ‘eligible for referral bonus’ per the policy ofr internally referred candidates</description>
+        <externalId>false</externalId>
+        <label>Eligible for referral bonus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Candidate_Source__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>RFL: Internal Referral</controllingFieldValue>
+                <controllingFieldValue>RFL: Internal Referral SPIFF</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RFL: Internal Referral</controllingFieldValue>
+                <controllingFieldValue>RFL: Internal Referral SPIFF</controllingFieldValue>
+                <valueName>No</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Experience_Level__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Entry level - BDRs, SE, entry level candidates
+Mid level - Account Executive or equivalent
+Manager - Bus Driver or equivalent
+Director - Regional Director or equivalent
+Executive - C-level or equivalent</inlineHelpText>
+        <label>Experience Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Entry Level</fullName>
+                    <default>false</default>
+                    <label>Entry Level</label>
+                </value>
+                <value>
+                    <fullName>Mid Level</fullName>
+                    <default>false</default>
+                    <label>Mid Level</label>
+                </value>
+                <value>
+                    <fullName>Manager</fullName>
+                    <default>false</default>
+                    <label>Manager</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>Executive</fullName>
+                    <default>false</default>
+                    <label>Executive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>First Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Full_Name_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>First_Name__c &amp; &quot; &quot; &amp; Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full Name (Text)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot;&amp;Id,IF(ISBLANK(First_Name__c),Name,First_Name__c&amp;&quot; &quot;&amp;Name))</formula>
+        <label>Full Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Has_Non_Compete_Non_Solicit_Agreement__c</fullName>
+        <externalId>false</externalId>
+        <label>Has Non-Compete/Non-Solicit Agreement</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Highest_Status_Reached_Ordered__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Highest_Status_Reached__c,
+&quot;Applicant Submitted&quot;,&quot;(a) Applicant Submitted&quot;,
+&quot;Initial Outreach Completed&quot;,&quot;(b) Initial Outreach Completed&quot;,
+&quot;Screen Completed&quot;,&quot;(c) Screen Completed&quot;,
+&quot;Screen 1 Completed&quot;,&quot;(c1) Screen 1 Completed&quot;,
+&quot;Screen 2 Completed&quot;,&quot;(c2) Screen 2 Completed&quot;,
+&quot;R&amp;D Test Administered&quot;,&quot;(c3) R&amp;D Test Administered&quot;,
+&quot;Onsite Interview 1 Completed&quot;,&quot;(d) Onsite Interview 1 Completed&quot;,
+&quot;Onsite Interview 2 Completed&quot;,&quot;(e) Onsite Interview 2 Completed&quot;,
+&quot;Offer Extended&quot;,&quot;(f) Offer Extended&quot;,
+&quot;Offer Accepted&quot;,&quot;(g) Offer Accepted&quot;,
+NULL)</formula>
+        <label>Highest Status Reached (Ordered)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Highest_Status_Reached__c</fullName>
+        <externalId>false</externalId>
+        <label>Highest Status Reached</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hire_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Current_Date_Quarter__c != Start_Date_Quarter__c ,5,
+IF(Start_Date__c = TODAY(),1, 
+IF(AND(Start_Date__c&gt;=TODAY()-MOD(TODAY()-DATE(1900, 1, 7),7),Start_Date__c&lt;=(TODAY()+7-MOD(TODAY()-DATE(1900, 1, 7),7))),2, 
+IF(AND(Start_Date__c&gt;=DATE(YEAR(TODAY()),MONTH(TODAY()),1),Start_Date__c&lt;=DATE(YEAR(TODAY()),MONTH(TODAY())+1,1)),3, 
+4))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hire Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Home_Address_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Address (City)</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Home_Address_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Address (Country)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>United States</fullName>
+                    <default>true</default>
+                    <label>United States</label>
+                </value>
+                <value>
+                    <fullName>Afghanistan</fullName>
+                    <default>false</default>
+                    <label>Afghanistan</label>
+                </value>
+                <value>
+                    <fullName>Albania</fullName>
+                    <default>false</default>
+                    <label>Albania</label>
+                </value>
+                <value>
+                    <fullName>Algeria</fullName>
+                    <default>false</default>
+                    <label>Algeria</label>
+                </value>
+                <value>
+                    <fullName>Andorra</fullName>
+                    <default>false</default>
+                    <label>Andorra</label>
+                </value>
+                <value>
+                    <fullName>Angola</fullName>
+                    <default>false</default>
+                    <label>Angola</label>
+                </value>
+                <value>
+                    <fullName>Antigua &amp; Deps</fullName>
+                    <default>false</default>
+                    <label>Antigua &amp; Deps</label>
+                </value>
+                <value>
+                    <fullName>Argentina</fullName>
+                    <default>false</default>
+                    <label>Argentina</label>
+                </value>
+                <value>
+                    <fullName>Armenia</fullName>
+                    <default>false</default>
+                    <label>Armenia</label>
+                </value>
+                <value>
+                    <fullName>Australia</fullName>
+                    <default>false</default>
+                    <label>Australia</label>
+                </value>
+                <value>
+                    <fullName>Austria</fullName>
+                    <default>false</default>
+                    <label>Austria</label>
+                </value>
+                <value>
+                    <fullName>Azerbaijan</fullName>
+                    <default>false</default>
+                    <label>Azerbaijan</label>
+                </value>
+                <value>
+                    <fullName>Bahamas</fullName>
+                    <default>false</default>
+                    <label>Bahamas</label>
+                </value>
+                <value>
+                    <fullName>Bahrain</fullName>
+                    <default>false</default>
+                    <label>Bahrain</label>
+                </value>
+                <value>
+                    <fullName>Bangladesh</fullName>
+                    <default>false</default>
+                    <label>Bangladesh</label>
+                </value>
+                <value>
+                    <fullName>Barbados</fullName>
+                    <default>false</default>
+                    <label>Barbados</label>
+                </value>
+                <value>
+                    <fullName>Belarus</fullName>
+                    <default>false</default>
+                    <label>Belarus</label>
+                </value>
+                <value>
+                    <fullName>Belgium</fullName>
+                    <default>false</default>
+                    <label>Belgium</label>
+                </value>
+                <value>
+                    <fullName>Belize</fullName>
+                    <default>false</default>
+                    <label>Belize</label>
+                </value>
+                <value>
+                    <fullName>Benin</fullName>
+                    <default>false</default>
+                    <label>Benin</label>
+                </value>
+                <value>
+                    <fullName>Bhutan</fullName>
+                    <default>false</default>
+                    <label>Bhutan</label>
+                </value>
+                <value>
+                    <fullName>Bolivia</fullName>
+                    <default>false</default>
+                    <label>Bolivia</label>
+                </value>
+                <value>
+                    <fullName>Bosnia Herzegovina</fullName>
+                    <default>false</default>
+                    <label>Bosnia Herzegovina</label>
+                </value>
+                <value>
+                    <fullName>Botswana</fullName>
+                    <default>false</default>
+                    <label>Botswana</label>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Brunei</fullName>
+                    <default>false</default>
+                    <label>Brunei</label>
+                </value>
+                <value>
+                    <fullName>Bulgaria</fullName>
+                    <default>false</default>
+                    <label>Bulgaria</label>
+                </value>
+                <value>
+                    <fullName>Burkina</fullName>
+                    <default>false</default>
+                    <label>Burkina</label>
+                </value>
+                <value>
+                    <fullName>Burundi</fullName>
+                    <default>false</default>
+                    <label>Burundi</label>
+                </value>
+                <value>
+                    <fullName>Cambodia</fullName>
+                    <default>false</default>
+                    <label>Cambodia</label>
+                </value>
+                <value>
+                    <fullName>Cameroon</fullName>
+                    <default>false</default>
+                    <label>Cameroon</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>Cape Verde</fullName>
+                    <default>false</default>
+                    <label>Cape Verde</label>
+                </value>
+                <value>
+                    <fullName>Central African Rep</fullName>
+                    <default>false</default>
+                    <label>Central African Rep</label>
+                </value>
+                <value>
+                    <fullName>Chad</fullName>
+                    <default>false</default>
+                    <label>Chad</label>
+                </value>
+                <value>
+                    <fullName>Chile</fullName>
+                    <default>false</default>
+                    <label>Chile</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <label>China</label>
+                </value>
+                <value>
+                    <fullName>Colombia</fullName>
+                    <default>false</default>
+                    <label>Colombia</label>
+                </value>
+                <value>
+                    <fullName>Comoros</fullName>
+                    <default>false</default>
+                    <label>Comoros</label>
+                </value>
+                <value>
+                    <fullName>Congo</fullName>
+                    <default>false</default>
+                    <label>Congo</label>
+                </value>
+                <value>
+                    <fullName>Congo {Democratic Rep}</fullName>
+                    <default>false</default>
+                    <label>Congo {Democratic Rep}</label>
+                </value>
+                <value>
+                    <fullName>Costa Rica</fullName>
+                    <default>false</default>
+                    <label>Costa Rica</label>
+                </value>
+                <value>
+                    <fullName>Croatia</fullName>
+                    <default>false</default>
+                    <label>Croatia</label>
+                </value>
+                <value>
+                    <fullName>Cuba</fullName>
+                    <default>false</default>
+                    <label>Cuba</label>
+                </value>
+                <value>
+                    <fullName>Cyprus</fullName>
+                    <default>false</default>
+                    <label>Cyprus</label>
+                </value>
+                <value>
+                    <fullName>Czech Republic</fullName>
+                    <default>false</default>
+                    <label>Czech Republic</label>
+                </value>
+                <value>
+                    <fullName>Denmark</fullName>
+                    <default>false</default>
+                    <label>Denmark</label>
+                </value>
+                <value>
+                    <fullName>Djibouti</fullName>
+                    <default>false</default>
+                    <label>Djibouti</label>
+                </value>
+                <value>
+                    <fullName>Dominica</fullName>
+                    <default>false</default>
+                    <label>Dominica</label>
+                </value>
+                <value>
+                    <fullName>Dominican Republic</fullName>
+                    <default>false</default>
+                    <label>Dominican Republic</label>
+                </value>
+                <value>
+                    <fullName>East Timor</fullName>
+                    <default>false</default>
+                    <label>East Timor</label>
+                </value>
+                <value>
+                    <fullName>Ecuador</fullName>
+                    <default>false</default>
+                    <label>Ecuador</label>
+                </value>
+                <value>
+                    <fullName>Egypt</fullName>
+                    <default>false</default>
+                    <label>Egypt</label>
+                </value>
+                <value>
+                    <fullName>El Salvador</fullName>
+                    <default>false</default>
+                    <label>El Salvador</label>
+                </value>
+                <value>
+                    <fullName>Equatorial Guinea</fullName>
+                    <default>false</default>
+                    <label>Equatorial Guinea</label>
+                </value>
+                <value>
+                    <fullName>Eritrea</fullName>
+                    <default>false</default>
+                    <label>Eritrea</label>
+                </value>
+                <value>
+                    <fullName>Estonia</fullName>
+                    <default>false</default>
+                    <label>Estonia</label>
+                </value>
+                <value>
+                    <fullName>Ethiopia</fullName>
+                    <default>false</default>
+                    <label>Ethiopia</label>
+                </value>
+                <value>
+                    <fullName>Fiji</fullName>
+                    <default>false</default>
+                    <label>Fiji</label>
+                </value>
+                <value>
+                    <fullName>Finland</fullName>
+                    <default>false</default>
+                    <label>Finland</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>Gabon</fullName>
+                    <default>false</default>
+                    <label>Gabon</label>
+                </value>
+                <value>
+                    <fullName>Gambia</fullName>
+                    <default>false</default>
+                    <label>Gambia</label>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                    <label>Georgia</label>
+                </value>
+                <value>
+                    <fullName>Germany</fullName>
+                    <default>false</default>
+                    <label>Germany</label>
+                </value>
+                <value>
+                    <fullName>Ghana</fullName>
+                    <default>false</default>
+                    <label>Ghana</label>
+                </value>
+                <value>
+                    <fullName>Greece</fullName>
+                    <default>false</default>
+                    <label>Greece</label>
+                </value>
+                <value>
+                    <fullName>Grenada</fullName>
+                    <default>false</default>
+                    <label>Grenada</label>
+                </value>
+                <value>
+                    <fullName>Guatemala</fullName>
+                    <default>false</default>
+                    <label>Guatemala</label>
+                </value>
+                <value>
+                    <fullName>Guinea</fullName>
+                    <default>false</default>
+                    <label>Guinea</label>
+                </value>
+                <value>
+                    <fullName>Guinea-Bissau</fullName>
+                    <default>false</default>
+                    <label>Guinea-Bissau</label>
+                </value>
+                <value>
+                    <fullName>Guyana</fullName>
+                    <default>false</default>
+                    <label>Guyana</label>
+                </value>
+                <value>
+                    <fullName>Haiti</fullName>
+                    <default>false</default>
+                    <label>Haiti</label>
+                </value>
+                <value>
+                    <fullName>Honduras</fullName>
+                    <default>false</default>
+                    <label>Honduras</label>
+                </value>
+                <value>
+                    <fullName>Hungary</fullName>
+                    <default>false</default>
+                    <label>Hungary</label>
+                </value>
+                <value>
+                    <fullName>Iceland</fullName>
+                    <default>false</default>
+                    <label>Iceland</label>
+                </value>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Indonesia</fullName>
+                    <default>false</default>
+                    <label>Indonesia</label>
+                </value>
+                <value>
+                    <fullName>Iran</fullName>
+                    <default>false</default>
+                    <label>Iran</label>
+                </value>
+                <value>
+                    <fullName>Iraq</fullName>
+                    <default>false</default>
+                    <label>Iraq</label>
+                </value>
+                <value>
+                    <fullName>Ireland {Republic}</fullName>
+                    <default>false</default>
+                    <label>Ireland {Republic}</label>
+                </value>
+                <value>
+                    <fullName>Israel</fullName>
+                    <default>false</default>
+                    <label>Israel</label>
+                </value>
+                <value>
+                    <fullName>Italy</fullName>
+                    <default>false</default>
+                    <label>Italy</label>
+                </value>
+                <value>
+                    <fullName>Ivory Coast</fullName>
+                    <default>false</default>
+                    <label>Ivory Coast</label>
+                </value>
+                <value>
+                    <fullName>Jamaica</fullName>
+                    <default>false</default>
+                    <label>Jamaica</label>
+                </value>
+                <value>
+                    <fullName>Japan</fullName>
+                    <default>false</default>
+                    <label>Japan</label>
+                </value>
+                <value>
+                    <fullName>Jordan</fullName>
+                    <default>false</default>
+                    <label>Jordan</label>
+                </value>
+                <value>
+                    <fullName>Kazakhstan</fullName>
+                    <default>false</default>
+                    <label>Kazakhstan</label>
+                </value>
+                <value>
+                    <fullName>Kenya</fullName>
+                    <default>false</default>
+                    <label>Kenya</label>
+                </value>
+                <value>
+                    <fullName>Kiribati</fullName>
+                    <default>false</default>
+                    <label>Kiribati</label>
+                </value>
+                <value>
+                    <fullName>Korea North</fullName>
+                    <default>false</default>
+                    <label>Korea North</label>
+                </value>
+                <value>
+                    <fullName>Korea South</fullName>
+                    <default>false</default>
+                    <label>Korea South</label>
+                </value>
+                <value>
+                    <fullName>Kosovo</fullName>
+                    <default>false</default>
+                    <label>Kosovo</label>
+                </value>
+                <value>
+                    <fullName>Kuwait</fullName>
+                    <default>false</default>
+                    <label>Kuwait</label>
+                </value>
+                <value>
+                    <fullName>Kyrgyzstan</fullName>
+                    <default>false</default>
+                    <label>Kyrgyzstan</label>
+                </value>
+                <value>
+                    <fullName>Laos</fullName>
+                    <default>false</default>
+                    <label>Laos</label>
+                </value>
+                <value>
+                    <fullName>Latvia</fullName>
+                    <default>false</default>
+                    <label>Latvia</label>
+                </value>
+                <value>
+                    <fullName>Lebanon</fullName>
+                    <default>false</default>
+                    <label>Lebanon</label>
+                </value>
+                <value>
+                    <fullName>Lesotho</fullName>
+                    <default>false</default>
+                    <label>Lesotho</label>
+                </value>
+                <value>
+                    <fullName>Liberia</fullName>
+                    <default>false</default>
+                    <label>Liberia</label>
+                </value>
+                <value>
+                    <fullName>Libya</fullName>
+                    <default>false</default>
+                    <label>Libya</label>
+                </value>
+                <value>
+                    <fullName>Liechtenstein</fullName>
+                    <default>false</default>
+                    <label>Liechtenstein</label>
+                </value>
+                <value>
+                    <fullName>Lithuania</fullName>
+                    <default>false</default>
+                    <label>Lithuania</label>
+                </value>
+                <value>
+                    <fullName>Luxembourg</fullName>
+                    <default>false</default>
+                    <label>Luxembourg</label>
+                </value>
+                <value>
+                    <fullName>Macedonia</fullName>
+                    <default>false</default>
+                    <label>Macedonia</label>
+                </value>
+                <value>
+                    <fullName>Madagascar</fullName>
+                    <default>false</default>
+                    <label>Madagascar</label>
+                </value>
+                <value>
+                    <fullName>Malawi</fullName>
+                    <default>false</default>
+                    <label>Malawi</label>
+                </value>
+                <value>
+                    <fullName>Malaysia</fullName>
+                    <default>false</default>
+                    <label>Malaysia</label>
+                </value>
+                <value>
+                    <fullName>Maldives</fullName>
+                    <default>false</default>
+                    <label>Maldives</label>
+                </value>
+                <value>
+                    <fullName>Mali</fullName>
+                    <default>false</default>
+                    <label>Mali</label>
+                </value>
+                <value>
+                    <fullName>Malta</fullName>
+                    <default>false</default>
+                    <label>Malta</label>
+                </value>
+                <value>
+                    <fullName>Marshall Islands</fullName>
+                    <default>false</default>
+                    <label>Marshall Islands</label>
+                </value>
+                <value>
+                    <fullName>Mauritania</fullName>
+                    <default>false</default>
+                    <label>Mauritania</label>
+                </value>
+                <value>
+                    <fullName>Mauritius</fullName>
+                    <default>false</default>
+                    <label>Mauritius</label>
+                </value>
+                <value>
+                    <fullName>Mexico</fullName>
+                    <default>false</default>
+                    <label>Mexico</label>
+                </value>
+                <value>
+                    <fullName>Micronesia</fullName>
+                    <default>false</default>
+                    <label>Micronesia</label>
+                </value>
+                <value>
+                    <fullName>Moldova</fullName>
+                    <default>false</default>
+                    <label>Moldova</label>
+                </value>
+                <value>
+                    <fullName>Monaco</fullName>
+                    <default>false</default>
+                    <label>Monaco</label>
+                </value>
+                <value>
+                    <fullName>Mongolia</fullName>
+                    <default>false</default>
+                    <label>Mongolia</label>
+                </value>
+                <value>
+                    <fullName>Montenegro</fullName>
+                    <default>false</default>
+                    <label>Montenegro</label>
+                </value>
+                <value>
+                    <fullName>Morocco</fullName>
+                    <default>false</default>
+                    <label>Morocco</label>
+                </value>
+                <value>
+                    <fullName>Mozambique</fullName>
+                    <default>false</default>
+                    <label>Mozambique</label>
+                </value>
+                <value>
+                    <fullName>Myanmar, {Burma}</fullName>
+                    <default>false</default>
+                    <label>Myanmar, {Burma}</label>
+                </value>
+                <value>
+                    <fullName>Namibia</fullName>
+                    <default>false</default>
+                    <label>Namibia</label>
+                </value>
+                <value>
+                    <fullName>Nauru</fullName>
+                    <default>false</default>
+                    <label>Nauru</label>
+                </value>
+                <value>
+                    <fullName>Nepal</fullName>
+                    <default>false</default>
+                    <label>Nepal</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>New Zealand</fullName>
+                    <default>false</default>
+                    <label>New Zealand</label>
+                </value>
+                <value>
+                    <fullName>Nicaragua</fullName>
+                    <default>false</default>
+                    <label>Nicaragua</label>
+                </value>
+                <value>
+                    <fullName>Niger</fullName>
+                    <default>false</default>
+                    <label>Niger</label>
+                </value>
+                <value>
+                    <fullName>Nigeria</fullName>
+                    <default>false</default>
+                    <label>Nigeria</label>
+                </value>
+                <value>
+                    <fullName>Norway</fullName>
+                    <default>false</default>
+                    <label>Norway</label>
+                </value>
+                <value>
+                    <fullName>Oman</fullName>
+                    <default>false</default>
+                    <label>Oman</label>
+                </value>
+                <value>
+                    <fullName>Pakistan</fullName>
+                    <default>false</default>
+                    <label>Pakistan</label>
+                </value>
+                <value>
+                    <fullName>Palau</fullName>
+                    <default>false</default>
+                    <label>Palau</label>
+                </value>
+                <value>
+                    <fullName>Panama</fullName>
+                    <default>false</default>
+                    <label>Panama</label>
+                </value>
+                <value>
+                    <fullName>Papua New Guinea</fullName>
+                    <default>false</default>
+                    <label>Papua New Guinea</label>
+                </value>
+                <value>
+                    <fullName>Paraguay</fullName>
+                    <default>false</default>
+                    <label>Paraguay</label>
+                </value>
+                <value>
+                    <fullName>Peru</fullName>
+                    <default>false</default>
+                    <label>Peru</label>
+                </value>
+                <value>
+                    <fullName>Philippines</fullName>
+                    <default>false</default>
+                    <label>Philippines</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+                <value>
+                    <fullName>Portugal</fullName>
+                    <default>false</default>
+                    <label>Portugal</label>
+                </value>
+                <value>
+                    <fullName>Qatar</fullName>
+                    <default>false</default>
+                    <label>Qatar</label>
+                </value>
+                <value>
+                    <fullName>Romania</fullName>
+                    <default>false</default>
+                    <label>Romania</label>
+                </value>
+                <value>
+                    <fullName>Russian Federation</fullName>
+                    <default>false</default>
+                    <label>Russian Federation</label>
+                </value>
+                <value>
+                    <fullName>Rwanda</fullName>
+                    <default>false</default>
+                    <label>Rwanda</label>
+                </value>
+                <value>
+                    <fullName>St Kitts &amp; Nevis</fullName>
+                    <default>false</default>
+                    <label>St Kitts &amp; Nevis</label>
+                </value>
+                <value>
+                    <fullName>St Lucia</fullName>
+                    <default>false</default>
+                    <label>St Lucia</label>
+                </value>
+                <value>
+                    <fullName>Saint Vincent &amp; the Grenadines</fullName>
+                    <default>false</default>
+                    <label>Saint Vincent &amp; the Grenadines</label>
+                </value>
+                <value>
+                    <fullName>Samoa</fullName>
+                    <default>false</default>
+                    <label>Samoa</label>
+                </value>
+                <value>
+                    <fullName>San Marino</fullName>
+                    <default>false</default>
+                    <label>San Marino</label>
+                </value>
+                <value>
+                    <fullName>Sao Tome &amp; Principe</fullName>
+                    <default>false</default>
+                    <label>Sao Tome &amp; Principe</label>
+                </value>
+                <value>
+                    <fullName>Saudi Arabia</fullName>
+                    <default>false</default>
+                    <label>Saudi Arabia</label>
+                </value>
+                <value>
+                    <fullName>Senegal</fullName>
+                    <default>false</default>
+                    <label>Senegal</label>
+                </value>
+                <value>
+                    <fullName>Serbia</fullName>
+                    <default>false</default>
+                    <label>Serbia</label>
+                </value>
+                <value>
+                    <fullName>Seychelles</fullName>
+                    <default>false</default>
+                    <label>Seychelles</label>
+                </value>
+                <value>
+                    <fullName>Sierra Leone</fullName>
+                    <default>false</default>
+                    <label>Sierra Leone</label>
+                </value>
+                <value>
+                    <fullName>Singapore</fullName>
+                    <default>false</default>
+                    <label>Singapore</label>
+                </value>
+                <value>
+                    <fullName>Slovakia</fullName>
+                    <default>false</default>
+                    <label>Slovakia</label>
+                </value>
+                <value>
+                    <fullName>Slovenia</fullName>
+                    <default>false</default>
+                    <label>Slovenia</label>
+                </value>
+                <value>
+                    <fullName>Solomon Islands</fullName>
+                    <default>false</default>
+                    <label>Solomon Islands</label>
+                </value>
+                <value>
+                    <fullName>Somalia</fullName>
+                    <default>false</default>
+                    <label>Somalia</label>
+                </value>
+                <value>
+                    <fullName>South Africa</fullName>
+                    <default>false</default>
+                    <label>South Africa</label>
+                </value>
+                <value>
+                    <fullName>South Sudan</fullName>
+                    <default>false</default>
+                    <label>South Sudan</label>
+                </value>
+                <value>
+                    <fullName>Spain</fullName>
+                    <default>false</default>
+                    <label>Spain</label>
+                </value>
+                <value>
+                    <fullName>Sri Lanka</fullName>
+                    <default>false</default>
+                    <label>Sri Lanka</label>
+                </value>
+                <value>
+                    <fullName>Sudan</fullName>
+                    <default>false</default>
+                    <label>Sudan</label>
+                </value>
+                <value>
+                    <fullName>Suriname</fullName>
+                    <default>false</default>
+                    <label>Suriname</label>
+                </value>
+                <value>
+                    <fullName>Swaziland</fullName>
+                    <default>false</default>
+                    <label>Swaziland</label>
+                </value>
+                <value>
+                    <fullName>Sweden</fullName>
+                    <default>false</default>
+                    <label>Sweden</label>
+                </value>
+                <value>
+                    <fullName>Switzerland</fullName>
+                    <default>false</default>
+                    <label>Switzerland</label>
+                </value>
+                <value>
+                    <fullName>Syria</fullName>
+                    <default>false</default>
+                    <label>Syria</label>
+                </value>
+                <value>
+                    <fullName>Taiwan</fullName>
+                    <default>false</default>
+                    <label>Taiwan</label>
+                </value>
+                <value>
+                    <fullName>Tajikistan</fullName>
+                    <default>false</default>
+                    <label>Tajikistan</label>
+                </value>
+                <value>
+                    <fullName>Tanzania</fullName>
+                    <default>false</default>
+                    <label>Tanzania</label>
+                </value>
+                <value>
+                    <fullName>Thailand</fullName>
+                    <default>false</default>
+                    <label>Thailand</label>
+                </value>
+                <value>
+                    <fullName>Togo</fullName>
+                    <default>false</default>
+                    <label>Togo</label>
+                </value>
+                <value>
+                    <fullName>Tonga</fullName>
+                    <default>false</default>
+                    <label>Tonga</label>
+                </value>
+                <value>
+                    <fullName>Trinidad &amp; Tobago</fullName>
+                    <default>false</default>
+                    <label>Trinidad &amp; Tobago</label>
+                </value>
+                <value>
+                    <fullName>Tunisia</fullName>
+                    <default>false</default>
+                    <label>Tunisia</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Turkmenistan</fullName>
+                    <default>false</default>
+                    <label>Turkmenistan</label>
+                </value>
+                <value>
+                    <fullName>Tuvalu</fullName>
+                    <default>false</default>
+                    <label>Tuvalu</label>
+                </value>
+                <value>
+                    <fullName>Uganda</fullName>
+                    <default>false</default>
+                    <label>Uganda</label>
+                </value>
+                <value>
+                    <fullName>Ukraine</fullName>
+                    <default>false</default>
+                    <label>Ukraine</label>
+                </value>
+                <value>
+                    <fullName>United Arab Emirates</fullName>
+                    <default>false</default>
+                    <label>United Arab Emirates</label>
+                </value>
+                <value>
+                    <fullName>United Kingdom</fullName>
+                    <default>false</default>
+                    <label>United Kingdom</label>
+                </value>
+                <value>
+                    <fullName>Uruguay</fullName>
+                    <default>false</default>
+                    <label>Uruguay</label>
+                </value>
+                <value>
+                    <fullName>Uzbekistan</fullName>
+                    <default>false</default>
+                    <label>Uzbekistan</label>
+                </value>
+                <value>
+                    <fullName>Vanuatu</fullName>
+                    <default>false</default>
+                    <label>Vanuatu</label>
+                </value>
+                <value>
+                    <fullName>Vatican City</fullName>
+                    <default>false</default>
+                    <label>Vatican City</label>
+                </value>
+                <value>
+                    <fullName>Venezuela</fullName>
+                    <default>false</default>
+                    <label>Venezuela</label>
+                </value>
+                <value>
+                    <fullName>Vietnam</fullName>
+                    <default>false</default>
+                    <label>Vietnam</label>
+                </value>
+                <value>
+                    <fullName>Yemen</fullName>
+                    <default>false</default>
+                    <label>Yemen</label>
+                </value>
+                <value>
+                    <fullName>Zambia</fullName>
+                    <default>false</default>
+                    <label>Zambia</label>
+                </value>
+                <value>
+                    <fullName>Zimbabwe</fullName>
+                    <default>false</default>
+                    <label>Zimbabwe</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Home_Address_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Address (State)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AK</fullName>
+                    <default>false</default>
+                    <label>AK</label>
+                </value>
+                <value>
+                    <fullName>AL</fullName>
+                    <default>false</default>
+                    <label>AL</label>
+                </value>
+                <value>
+                    <fullName>AR</fullName>
+                    <default>false</default>
+                    <label>AR</label>
+                </value>
+                <value>
+                    <fullName>AZ</fullName>
+                    <default>false</default>
+                    <label>AZ</label>
+                </value>
+                <value>
+                    <fullName>CA</fullName>
+                    <default>false</default>
+                    <label>CA</label>
+                </value>
+                <value>
+                    <fullName>CO</fullName>
+                    <default>false</default>
+                    <label>CO</label>
+                </value>
+                <value>
+                    <fullName>CT</fullName>
+                    <default>false</default>
+                    <label>CT</label>
+                </value>
+                <value>
+                    <fullName>DC</fullName>
+                    <default>false</default>
+                    <label>DC</label>
+                </value>
+                <value>
+                    <fullName>DE</fullName>
+                    <default>false</default>
+                    <label>DE</label>
+                </value>
+                <value>
+                    <fullName>FL</fullName>
+                    <default>false</default>
+                    <label>FL</label>
+                </value>
+                <value>
+                    <fullName>GA</fullName>
+                    <default>false</default>
+                    <label>GA</label>
+                </value>
+                <value>
+                    <fullName>HI</fullName>
+                    <default>false</default>
+                    <label>HI</label>
+                </value>
+                <value>
+                    <fullName>IA</fullName>
+                    <default>false</default>
+                    <label>IA</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+                <value>
+                    <fullName>IL</fullName>
+                    <default>false</default>
+                    <label>IL</label>
+                </value>
+                <value>
+                    <fullName>IN</fullName>
+                    <default>false</default>
+                    <label>IN</label>
+                </value>
+                <value>
+                    <fullName>KS</fullName>
+                    <default>false</default>
+                    <label>KS</label>
+                </value>
+                <value>
+                    <fullName>KY</fullName>
+                    <default>false</default>
+                    <label>KY</label>
+                </value>
+                <value>
+                    <fullName>LA</fullName>
+                    <default>false</default>
+                    <label>LA</label>
+                </value>
+                <value>
+                    <fullName>MA</fullName>
+                    <default>false</default>
+                    <label>MA</label>
+                </value>
+                <value>
+                    <fullName>MD</fullName>
+                    <default>false</default>
+                    <label>MD</label>
+                </value>
+                <value>
+                    <fullName>ME</fullName>
+                    <default>false</default>
+                    <label>ME</label>
+                </value>
+                <value>
+                    <fullName>MI</fullName>
+                    <default>false</default>
+                    <label>MI</label>
+                </value>
+                <value>
+                    <fullName>MN</fullName>
+                    <default>false</default>
+                    <label>MN</label>
+                </value>
+                <value>
+                    <fullName>MO</fullName>
+                    <default>false</default>
+                    <label>MO</label>
+                </value>
+                <value>
+                    <fullName>MS</fullName>
+                    <default>false</default>
+                    <label>MS</label>
+                </value>
+                <value>
+                    <fullName>MT</fullName>
+                    <default>false</default>
+                    <label>MT</label>
+                </value>
+                <value>
+                    <fullName>NC</fullName>
+                    <default>false</default>
+                    <label>NC</label>
+                </value>
+                <value>
+                    <fullName>ND</fullName>
+                    <default>false</default>
+                    <label>ND</label>
+                </value>
+                <value>
+                    <fullName>NE</fullName>
+                    <default>false</default>
+                    <label>NE</label>
+                </value>
+                <value>
+                    <fullName>NH</fullName>
+                    <default>false</default>
+                    <label>NH</label>
+                </value>
+                <value>
+                    <fullName>NJ</fullName>
+                    <default>false</default>
+                    <label>NJ</label>
+                </value>
+                <value>
+                    <fullName>NM</fullName>
+                    <default>false</default>
+                    <label>NM</label>
+                </value>
+                <value>
+                    <fullName>NV</fullName>
+                    <default>false</default>
+                    <label>NV</label>
+                </value>
+                <value>
+                    <fullName>NY</fullName>
+                    <default>false</default>
+                    <label>NY</label>
+                </value>
+                <value>
+                    <fullName>OH</fullName>
+                    <default>false</default>
+                    <label>OH</label>
+                </value>
+                <value>
+                    <fullName>OK</fullName>
+                    <default>false</default>
+                    <label>OK</label>
+                </value>
+                <value>
+                    <fullName>OR</fullName>
+                    <default>false</default>
+                    <label>OR</label>
+                </value>
+                <value>
+                    <fullName>PA</fullName>
+                    <default>false</default>
+                    <label>PA</label>
+                </value>
+                <value>
+                    <fullName>RI</fullName>
+                    <default>false</default>
+                    <label>RI</label>
+                </value>
+                <value>
+                    <fullName>SC</fullName>
+                    <default>false</default>
+                    <label>SC</label>
+                </value>
+                <value>
+                    <fullName>SD</fullName>
+                    <default>false</default>
+                    <label>SD</label>
+                </value>
+                <value>
+                    <fullName>TN</fullName>
+                    <default>false</default>
+                    <label>TN</label>
+                </value>
+                <value>
+                    <fullName>TX</fullName>
+                    <default>false</default>
+                    <label>TX</label>
+                </value>
+                <value>
+                    <fullName>UT</fullName>
+                    <default>false</default>
+                    <label>UT</label>
+                </value>
+                <value>
+                    <fullName>VA</fullName>
+                    <default>false</default>
+                    <label>VA</label>
+                </value>
+                <value>
+                    <fullName>VT</fullName>
+                    <default>false</default>
+                    <label>VT</label>
+                </value>
+                <value>
+                    <fullName>WA</fullName>
+                    <default>false</default>
+                    <label>WA</label>
+                </value>
+                <value>
+                    <fullName>WI</fullName>
+                    <default>false</default>
+                    <label>WI</label>
+                </value>
+                <value>
+                    <fullName>WV</fullName>
+                    <default>false</default>
+                    <label>WV</label>
+                </value>
+                <value>
+                    <fullName>WY</fullName>
+                    <default>false</default>
+                    <label>WY</label>
+                </value>
+                <value>
+                    <fullName>Other (Non-US location)</fullName>
+                    <default>false</default>
+                    <label>Other (Non-US location)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Home_Address_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Address (Street)</label>
+        <length>75</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Home_Address_Zip__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Address (Zip)</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Modified_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>LastModifiedBy.Full_Name__c</formula>
+        <label>Last Modified By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Modified_Date_Adj__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Manual_Last_Modified_Date__c),LastModifiedDate,Manual_Last_Modified_Date__c)</formula>
+        <label>Last Modified Date (Adj)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Modified_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>LastModifiedDate</formula>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_NameOLD__c</fullName>
+        <externalId>false</externalId>
+        <label>Last NameOLD</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LinkedIn_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>LinkedIn URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Manual_Last_Modified_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Manual Last Modified Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Manual_Report_To__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this if the candidate will not report to the default &quot;Report To&quot; manager for the Recruiting Spec the candidate is attached to.</inlineHelpText>
+        <label>Manual Report To</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Next_Steps__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Steps</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Offer_Accepted_On__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Accepted On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Offer_Accepted_on_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(    Offer_Accepted_On__c = TODAY(),1, 
+IF(Offer_Accepted_On__c&gt;=TODAY()-MOD(TODAY()-DATE(1900, 1, 7), 7),2, 
+IF(Offer_Accepted_On__c&gt;=DATE(YEAR(TODAY()),MONTH(TODAY()),1),3, 
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Offer Accepted on Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Extended_On_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Offer_Extended_On__c =TODAY(),1, 
+IF(Offer_Extended_On__c &gt;=TODAY()-MOD(TODAY()-DATE(1900, 1, 7), 7),2, 
+IF(Offer_Extended_On__c &gt;=DATE(YEAR(TODAY()),MONTH(TODAY()),1),3, 
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Offer Extended On Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Extended_On__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Extended On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OnSite_1_Period_for_TVs__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Onsite_Interview_Completed_On__c =TODAY(),1, 
+IF(Onsite_Interview_Completed_On__c &gt;=TODAY()-MOD(TODAY()-DATE(1900, 1, 7), 7),2, 
+IF(Onsite_Interview_Completed_On__c &gt;=DATE(YEAR(TODAY()),MONTH(TODAY()),1),3, 
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OnSite 1 Period for TVs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>One_Recruiting_Candidate__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>One (Recruiting Candidate)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Onsite_2_Completed_On__c</fullName>
+        <externalId>false</externalId>
+        <label>Onsite Interview 2 Completed On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Onsite_2_Period_for_TVs__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Onsite_2_Completed_On__c =TODAY(),1, 
+IF(Onsite_2_Completed_On__c &gt;=TODAY()-MOD(TODAY()-DATE(1900, 1, 7), 7),2, 
+IF(Onsite_2_Completed_On__c &gt;=DATE(YEAR(TODAY()),MONTH(TODAY()),1),3, 
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Onsite 2 Period for TVs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Onsite_Interview_Completed_On__c</fullName>
+        <externalId>false</externalId>
+        <label>Onsite Interview 1 Completed On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reason_Candidate_Withdrew__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason Candidate Withdrew</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Recruiter__c</fullName>
+        <externalId>false</externalId>
+        <label>Recruiter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adam Pasti</fullName>
+                    <color>#FFCC33</color>
+                    <default>false</default>
+                    <label>Adam Pasti</label>
+                </value>
+                <value>
+                    <fullName>Andrew Lane</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                    <label>Andrew Lane</label>
+                </value>
+                <value>
+                    <fullName>Brigid Doulin</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Brigid Doulin</label>
+                </value>
+                <value>
+                    <fullName>Chris McMahon</fullName>
+                    <default>false</default>
+                    <label>Chris McMahon</label>
+                </value>
+                <value>
+                    <fullName>Ed Morris</fullName>
+                    <default>false</default>
+                    <label>Ed Morris</label>
+                </value>
+                <value>
+                    <fullName>Jennifer Russell</fullName>
+                    <default>false</default>
+                    <label>Jennifer Russell</label>
+                </value>
+                <value>
+                    <fullName>Larry Jacobson</fullName>
+                    <default>false</default>
+                    <label>Larry Jacobson</label>
+                </value>
+                <value>
+                    <fullName>Lauren Cobb</fullName>
+                    <default>false</default>
+                    <label>Lauren Cobb</label>
+                </value>
+                <value>
+                    <fullName>Lila Haffey</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                    <label>Lila Haffey</label>
+                </value>
+                <value>
+                    <fullName>Nick Picardi</fullName>
+                    <default>false</default>
+                    <label>Nick Picardi</label>
+                </value>
+                <value>
+                    <fullName>Stacey Schmidt</fullName>
+                    <default>false</default>
+                    <label>Stacey Schmidt</label>
+                </value>
+                <value>
+                    <fullName>Zach Choquette</fullName>
+                    <color>#990000</color>
+                    <default>false</default>
+                    <label>Zach Choquette</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Recruiting_Candidate_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <label>Recruiting Candidate Safe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recruiting_Organization_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recruiting Organization 2</label>
+        <referenceTo>Recruiting_Organization__c</referenceTo>
+        <relationshipLabel>Recruiting Candidates (Recruiting Organization 2)</relationshipLabel>
+        <relationshipName>Recruiting_Candidates1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Recruiting_Organization__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recruiting Organization 1</label>
+        <referenceTo>Recruiting_Organization__c</referenceTo>
+        <relationshipLabel>Recruiting Candidates</relationshipLabel>
+        <relationshipName>Recruiting_Candidates</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Recruiting_Spec__c</fullName>
+        <externalId>false</externalId>
+        <label>Recruiting Spec</label>
+        <referenceTo>Recruiting_Spec__c</referenceTo>
+        <relationshipLabel>Recruiting Candidates</relationshipLabel>
+        <relationshipName>Recruiting_Candidates</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Report_To__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Recruiting_Spec__r.Report_To__c),Manual_Report_To__c,Recruiting_Spec__r.Report_To__c)</formula>
+        <label>Report To</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resume_Attached__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Resume Attached</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Role_Interviewed_ForOLD__c</fullName>
+        <externalId>false</externalId>
+        <label>Role Interviewed ForOLD</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role_Interviewed_For_NEW__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(Recruiting_Spec__r.Name,&quot; - &quot;),Substitute(Recruiting_Spec__r.Name,RIGHT(Recruiting_Spec__r.Name,11),&quot;&quot;),Recruiting_Spec__r.Name)</formula>
+        <label>Role Interviewed For</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role_Interviewed_For__c</fullName>
+        <externalId>false</externalId>
+        <label>Role Interviewed For OLD</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BDR US</fullName>
+                    <default>false</default>
+                    <label>BDR US</label>
+                </value>
+                <value>
+                    <fullName>BDR EMEA</fullName>
+                    <default>false</default>
+                    <label>BDR EMEA</label>
+                </value>
+                <value>
+                    <fullName>Inside Account Executive US</fullName>
+                    <default>false</default>
+                    <label>Inside Account Executive US</label>
+                </value>
+                <value>
+                    <fullName>Inside Account Executive EMEA</fullName>
+                    <default>false</default>
+                    <label>Inside Account Executive EMEA</label>
+                </value>
+                <value>
+                    <fullName>Partner Manager</fullName>
+                    <default>false</default>
+                    <label>Partner Manager</label>
+                </value>
+                <value>
+                    <fullName>Channel Manager EMEA</fullName>
+                    <default>false</default>
+                    <label>Channel Manager EMEA</label>
+                </value>
+                <value>
+                    <fullName>Sales Engineer US</fullName>
+                    <default>false</default>
+                    <label>Sales Engineer US</label>
+                </value>
+                <value>
+                    <fullName>Sales Engineer EMEA</fullName>
+                    <default>false</default>
+                    <label>Sales Engineer EMEA</label>
+                </value>
+                <value>
+                    <fullName>Global Account Director EMEA</fullName>
+                    <default>false</default>
+                    <label>Global Account Director EMEA</label>
+                </value>
+                <value>
+                    <fullName>VP Strategic Alliances</fullName>
+                    <default>false</default>
+                    <label>VP Strategic Alliances</label>
+                </value>
+                <value>
+                    <fullName>Office Manager</fullName>
+                    <default>false</default>
+                    <label>Office Manager</label>
+                </value>
+                <value>
+                    <fullName>Customer Education Specialist</fullName>
+                    <default>false</default>
+                    <label>Customer Education Specialist</label>
+                </value>
+                <value>
+                    <fullName>Software Engineer</fullName>
+                    <default>false</default>
+                    <label>Software Engineer</label>
+                </value>
+                <value>
+                    <fullName>Software Test Engineer</fullName>
+                    <default>false</default>
+                    <label>Software Test Engineer</label>
+                </value>
+                <value>
+                    <fullName>UI Engineer</fullName>
+                    <default>false</default>
+                    <label>UI Engineer</label>
+                </value>
+                <value>
+                    <fullName>Web Developer</fullName>
+                    <default>false</default>
+                    <label>Web Developer</label>
+                </value>
+                <value>
+                    <fullName>Recruiting Associate</fullName>
+                    <default>false</default>
+                    <label>Recruiting Associate</label>
+                </value>
+                <value>
+                    <fullName>Strategy &amp; Operations Analyst</fullName>
+                    <default>false</default>
+                    <label>Strategy &amp; Operations Analyst</label>
+                </value>
+                <value>
+                    <fullName>Assistant Controller</fullName>
+                    <default>false</default>
+                    <label>Assistant Controller</label>
+                </value>
+                <value>
+                    <fullName>Technical Recruiter</fullName>
+                    <default>false</default>
+                    <label>Technical Recruiter</label>
+                </value>
+                <value>
+                    <fullName>Software Development Engineer in Test</fullName>
+                    <default>false</default>
+                    <label>Software Development Engineer in Test</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Account Executive EMEA</fullName>
+                    <default>false</default>
+                    <label>Enterprise Account Executive EMEA</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Account Executive US</fullName>
+                    <default>false</default>
+                    <label>Enterprise Account Executive US</label>
+                </value>
+                <value>
+                    <fullName>Search Marketing Analyst</fullName>
+                    <default>false</default>
+                    <label>Search Marketing Analyst</label>
+                </value>
+                <value>
+                    <fullName>Global Account Executive US</fullName>
+                    <default>false</default>
+                    <label>Global Account Executive US</label>
+                </value>
+                <value>
+                    <fullName>Product Marketing Manager</fullName>
+                    <default>false</default>
+                    <label>Product Marketing Manager</label>
+                </value>
+                <value>
+                    <fullName>EMEA Recruiter</fullName>
+                    <default>false</default>
+                    <label>EMEA Recruiter</label>
+                </value>
+                <value>
+                    <fullName>Recruiter EMEA</fullName>
+                    <default>false</default>
+                    <label>Recruiter EMEA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Role_Interviewed_For__c)=&quot;Other&quot;,Specify_Role_if_Other__c,TEXT(Role_Interviewed_For__c))</formula>
+        <label>Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Screen_2_Completed_On__c</fullName>
+        <externalId>false</externalId>
+        <label>Screen 2 Completed On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Screen_Completed_On__c</fullName>
+        <externalId>false</externalId>
+        <label>Screen 1 Completed On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Screen_Completed_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Screen_Completed_On__c =TODAY(),1, 
+IF(Screen_Completed_On__c &gt;=TODAY()-MOD(TODAY()-DATE(1900, 1, 7), 7),2, 
+IF(Screen_Completed_On__c &gt;=DATE(YEAR(TODAY()),MONTH(TODAY()),1),3, 
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Screen Completed Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Secondary_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Secondary Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Secondary_Recruiter__c</fullName>
+        <externalId>false</externalId>
+        <label>Secondary Recruiter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rachel Murray</fullName>
+                    <default>false</default>
+                    <label>Rachel Murray</label>
+                </value>
+                <value>
+                    <fullName>Michelle Tuzio</fullName>
+                    <default>false</default>
+                    <label>Michelle Tuzio</label>
+                </value>
+                <value>
+                    <fullName>Lila Haffey</fullName>
+                    <default>false</default>
+                    <label>Lila Haffey</label>
+                </value>
+                <value>
+                    <fullName>Veronica Curran</fullName>
+                    <default>false</default>
+                    <label>Veronica Curran</label>
+                </value>
+                <value>
+                    <fullName>Andrew Lane</fullName>
+                    <default>false</default>
+                    <label>Andrew Lane</label>
+                </value>
+                <value>
+                    <fullName>Brigid Doulin</fullName>
+                    <default>false</default>
+                    <label>Brigid Doulin</label>
+                </value>
+                <value>
+                    <fullName>Zach Choquette</fullName>
+                    <default>false</default>
+                    <label>Zach Choquette</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Source_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Candidate_Source__c)=&quot;LinkedIn Recruiter&quot;,&quot;(b) Sourcing&quot;,
+CASE(LEFT(TEXT(Candidate_Source__c),4),
+&quot;RFL:&quot;,&quot;(a) Referral&quot;,
+&quot;INB:&quot;,&quot;(b) Inbound&quot;,
+&quot;SRC:&quot;,&quot;(c) Sourcing&quot;,
+&quot;JBD:&quot;,&quot;(d) Job Board&quot;,
+&quot;EVT:&quot;,&quot;(h) Event&quot;,
+&quot;CLG:&quot;,&quot;(e) College Recruiting&quot;,
+&quot;HDH:&quot;,&quot;(f) Headhunter&quot;,
+&quot;OTH:&quot;,&quot;(g) Other&quot;,
+&quot;N/A&quot;))</formula>
+        <label>Source Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sourced_By__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Only required for sourced candidates (e.g., not required for candidates from job boards)</inlineHelpText>
+        <label>Sourcer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Brigid Doulin</fullName>
+                    <default>false</default>
+                    <label>Brigid Doulin</label>
+                </value>
+                <value>
+                    <fullName>Lila Haffey</fullName>
+                    <default>false</default>
+                    <label>Lila Haffey</label>
+                </value>
+                <value>
+                    <fullName>Andrew Lane</fullName>
+                    <default>false</default>
+                    <label>Andrew Lane</label>
+                </value>
+                <value>
+                    <fullName>Adam Pasti</fullName>
+                    <default>false</default>
+                    <label>Adam Pasti</label>
+                </value>
+                <value>
+                    <fullName>Zach Choquette</fullName>
+                    <default>false</default>
+                    <label>Zach Choquette</label>
+                </value>
+                <value>
+                    <fullName>Megan Griffin</fullName>
+                    <default>false</default>
+                    <label>Megan Griffin</label>
+                </value>
+                <value>
+                    <fullName>Michelle Tuzio</fullName>
+                    <default>false</default>
+                    <label>Michelle Tuzio</label>
+                </value>
+                <value>
+                    <fullName>Rachel Murray</fullName>
+                    <default>false</default>
+                    <label>Rachel Murray</label>
+                </value>
+                <value>
+                    <fullName>Veronica Curran</fullName>
+                    <default>false</default>
+                    <label>Veronica Curran</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Specify_Role_if_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Specify Role if Other</label>
+        <length>75</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Specify_Source_If_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Referred By</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(MONTH( Start_Date__c )&gt;=1,MONTH( Start_Date__c )&lt;4),1,
+IF(AND(MONTH( Start_Date__c )&gt;3,MONTH( Start_Date__c )&lt;7),2,
+IF(AND(MONTH( Start_Date__c )&gt;6,MONTH( Start_Date__c )&lt;10),3,
+4)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date Quarter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status_From_iCIMS__c</fullName>
+        <externalId>false</externalId>
+        <label>Status (From iCIMS)</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - Applicant Submitted</fullName>
+                    <default>true</default>
+                    <label>1 - Applicant Submitted</label>
+                </value>
+                <value>
+                    <fullName>2 - Initial Outreach Completed</fullName>
+                    <default>false</default>
+                    <label>2 - Initial Outreach Completed</label>
+                </value>
+                <value>
+                    <fullName>3 - Screen 1 Completed</fullName>
+                    <default>false</default>
+                    <label>3 - Screen 1 Completed</label>
+                </value>
+                <value>
+                    <fullName>3a - R&amp;D Test Administered</fullName>
+                    <default>false</default>
+                    <label>3a - R&amp;D Test Administered</label>
+                </value>
+                <value>
+                    <fullName>3b - Screen 2 Completed</fullName>
+                    <default>false</default>
+                    <label>3b - Screen 2 Completed</label>
+                </value>
+                <value>
+                    <fullName>4 - Onsite Interview 1 Completed</fullName>
+                    <default>false</default>
+                    <label>4 - Onsite Interview 1 Completed</label>
+                </value>
+                <value>
+                    <fullName>5 - Onsite Interview 2 Completed</fullName>
+                    <default>false</default>
+                    <label>5 - Onsite Interview 2 Completed</label>
+                </value>
+                <value>
+                    <fullName>6 - Offer Extended</fullName>
+                    <default>false</default>
+                    <label>6 - Offer Extended</label>
+                </value>
+                <value>
+                    <fullName>7 - Offer Accepted</fullName>
+                    <default>false</default>
+                    <label>7 - Offer Accepted</label>
+                </value>
+                <value>
+                    <fullName>Did Not Pass - VMT Rejected</fullName>
+                    <default>false</default>
+                    <label>Did Not Pass - VMT Rejected</label>
+                </value>
+                <value>
+                    <fullName>Did Not Pass - Candidate Withdrew</fullName>
+                    <default>false</default>
+                    <label>Did Not Pass - Candidate Withdrew</label>
+                </value>
+                <value>
+                    <fullName>Non-Responsive</fullName>
+                    <default>false</default>
+                    <label>Non-Responsive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Trigger_Workflow_Rules__c</fullName>
+        <externalId>false</externalId>
+        <label>Trigger Workflow Rules</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visa_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Visa_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Has Visa – H1B</fullName>
+                    <default>false</default>
+                    <label>Has Visa – H1B</label>
+                </value>
+                <value>
+                    <fullName>Has Visa – OPT</fullName>
+                    <default>false</default>
+                    <label>Has Visa – OPT</label>
+                </value>
+                <value>
+                    <fullName>Has Visa – Other</fullName>
+                    <default>false</default>
+                    <label>Has Visa – Other</label>
+                </value>
+                <value>
+                    <fullName>No Visa – US Citizen</fullName>
+                    <default>false</default>
+                    <label>No Visa – US Citizen</label>
+                </value>
+                <value>
+                    <fullName>No Visa – Perm Resident</fullName>
+                    <default>false</default>
+                    <label>No Visa – Perm Resident</label>
+                </value>
+                <value>
+                    <fullName>No Visa – Non US Hire</fullName>
+                    <default>false</default>
+                    <label>No Visa – Non US Hire</label>
+                </value>
+                <value>
+                    <fullName>No Visa – Other</fullName>
+                    <default>false</default>
+                    <label>No Visa – Other</label>
+                </value>
+                <value>
+                    <fullName>Does not have visa</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Does not have visa</label>
+                </value>
+                <value>
+                    <fullName>Has visa</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Has visa</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Working_Office__c</fullName>
+        <externalId>false</externalId>
+        <label>Working Office</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Boston</fullName>
+                    <default>false</default>
+                    <label>Boston</label>
+                </value>
+                <value>
+                    <fullName>NYC</fullName>
+                    <default>false</default>
+                    <label>NYC</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>Home (other)</fullName>
+                    <default>false</default>
+                    <label>Home (other)</label>
+                </value>
+                <value>
+                    <fullName>White Plains</fullName>
+                    <default>false</default>
+                    <label>White Plains</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Recruiting Candidate</label>
+    <nameField>
+        <label>Last Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Recruiting Candidates</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>First_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Business_Unit__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Created_Date_Adj__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Role__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Recruiter__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Candidate_Source__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Notes__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>First_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Business_Unit__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Role__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Recruiter__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Candidate_Source__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Created_Date_Adj__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Notes__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>First_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Business_Unit__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Created_Date_Adj__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Role__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Recruiter__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Candidate_Source__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Notes__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>First_Name__c</searchFilterFields>
+        <searchFilterFields>Business_Unit__c</searchFilterFields>
+        <searchFilterFields>Created_Date_Adj__c</searchFilterFields>
+        <searchFilterFields>Role__c</searchFilterFields>
+        <searchFilterFields>Recruiter__c</searchFilterFields>
+        <searchFilterFields>Candidate_Source__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>First_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Business_Unit__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Role__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Recruiter__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Candidate_Source__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Created_Date_Adj__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Notes__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Cant_edit_created_date_manual</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Created_Date_Manual__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Created_Date_Manual__c</errorDisplayField>
+        <errorMessage>You need admin permissions to edit this field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>New_records_must_have_open_status</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISNEW(),NOT(ISNUMBER(LEFT(TEXT(Status__c),1))))</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>Please select a status starting with a number for new records</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Contact_Info_for_New_Hires</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+TEXT(Status__c)=&quot;7 - Offer Accepted&quot;,
+OR(
+ISBLANK(Home_Address_City__c),
+TEXT(Home_Address_State__c)=&quot;&quot;,
+ISBLANK(Home_Address_Zip__c),
+ISBLANK(Home_Address_Street__c),
+ISBLANK(Phone__c),
+ISBLANK(Email__c),
+ISBLANK(Start_Date__c)),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>You must fill in home address information, phone, email and start date in order to put a candidate in &quot;Offer Accepted&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Home_Address_State</fullName>
+        <active>true</active>
+        <description>Require the Home Address State for Recruiting Candidates</description>
+        <errorConditionFormula>ISPICKVAL(Home_Address_State__c,&quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>Home_Address_State__c</errorDisplayField>
+        <errorMessage>Home Address (State) is a required field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Offer_Accepted_On</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+TEXT(Status__c)=&quot;7 - Offer Accepted&quot;,
+OR(ISBLANK(Offer_Accepted_On__c),
+ISBLANK(Start_Date__c),
+ISBLANK(Email__c),
+ISBLANK(Phone__c)), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>You must fill out the Offer Accepted On date, Email and Primary Phone if status is now &quot;Offer Accepted&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Office_Location</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+ISCHANGED(Status__c), 
+TEXT(Status__c)=&quot;7 - Offer Accepted&quot;, 
+OR( 
+TEXT( Working_Office__c )=&quot;&quot;), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>You must enter the new hire&apos;s office location if status is &quot;Offer Accepted.&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Recruiting_Org</fullName>
+        <active>false</active>
+        <description>Require recruiting org if status is offer accepted</description>
+        <errorConditionFormula>AND( 
+ISCHANGED(Status__c), 
+TEXT(Status__c)=&quot;7 - Offer Accepted&quot;, 
+OR( Recruiting_Organization__c =&quot;&quot;), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>Please fill in a recruiting org for this candidate.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Resume_to_be_Attached</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+Resume_Attached__c=FALSE, 
+OR(ISCHANGED(Status__c),ISNEW()),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Resume_Attached__c</errorDisplayField>
+        <errorMessage>Please attach a resume to this candidate and check the Resume Attached checkbox</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Sourced_By_field_for_SRC_RC</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+TEXT(Candidate_Source__c)=&quot;SRC: LinkedIn (Sourced)&quot;,
+TEXT(Sourced_By__c)=&quot;&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Sourced_By__c</errorDisplayField>
+        <errorMessage>Please fill in the Sourced By person if this Candidate was sourced through LinkedIn</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Visa_Status</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISNEW(),TEXT(Visa_Status__c)=&quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>Visa_Status__c</errorDisplayField>
+        <errorMessage>Please provide a visa status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_offer_extended_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+CONTAINS(TEXT(Status__c),&quot;Offer Extend&quot;),
+ISBLANK(Offer_Extended_On__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Offer_Extended_On__c</errorDisplayField>
+        <errorMessage>Please specify when the offer was extended</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_onsite_interview_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+CONTAINS(TEXT(Status__c),&quot;Onsite Interview Complete&quot;),
+ISBLANK(Onsite_Interview_Completed_On__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Onsite_Interview_Completed_On__c</errorDisplayField>
+        <errorMessage>Please specify when the onsite interview took place</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_reason_candidate_withdrew</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISCHANGED(Status__c),
+CONTAINS(TEXT(Status__c),&quot;Candidate Withdrew&quot;),
+NOT(CONTAINS(Highest_Status_Reached__c,&quot;Applicant Submitted&quot;)),
+NOT(CONTAINS(Highest_Status_Reached__c,&quot;Outreach Completed&quot;)),
+ISBLANK(Reason_Candidate_Withdrew__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Reason_Candidate_Withdrew__c</errorDisplayField>
+        <errorMessage>Please specify why the candidate withdrew</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_screen_2_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISCHANGED(Status__c), 
+CONTAINS(TEXT(Status__c),&quot;Screen 2 Complete&quot;), 
+ISBLANK(Screen_2_Completed_On__c), 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>Please specify when screen 2 took place</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_screen_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+CONTAINS(TEXT(Status__c),&quot;Phone Screen Complete&quot;),
+ISBLANK(Screen_Completed_On__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Screen_Completed_On__c</errorDisplayField>
+        <errorMessage>Please specify when the screen took place</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_sourced_by</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+LEFT(TEXT(Candidate_Source__c),4)=&quot;SRC:&quot;,
+TEXT(Sourced_By__c)=&quot;&quot;, 
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Sourced_By__c</errorDisplayField>
+        <errorMessage>Required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_specify_role</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(Role_Interviewed_For__c)=&quot;Other&quot;,
+ISBLANK(Specify_Role_if_Other__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Specify_Role_if_Other__c</errorDisplayField>
+        <errorMessage>You selected &quot;Other&quot;, so please specify the role</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_specify_source</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(CONTAINS(TEXT(Candidate_Source__c),&quot;RFL:&quot;),
+CONTAINS(TEXT(Candidate_Source__c),&quot;HDH:&quot;)),
+ISBLANK(Specify_Source_If_Other__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Specify_Source_If_Other__c</errorDisplayField>
+        <errorMessage>Please specify who referred the candidate</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_start_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+CONTAINS(TEXT(Status__c),&quot;Offer Accepted&quot;),
+ISBLANK(Start_Date__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>Please enter a start date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Specify_role_field_should_be_blank</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(Role_Interviewed_For__c)&lt;&gt;&quot;Other&quot;,
+NOT(ISBLANK(Specify_Role_if_Other__c)),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Specify_Role_if_Other__c</errorDisplayField>
+        <errorMessage>&quot;Other&quot; is not selected as the role interviewed for, so please clear this field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Specify_source_field_should_be_blank</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(TEXT(Candidate_Source__c)&lt;&gt;&quot;OTH: Other&quot;,
+NOT(ISBLANK(Specify_Source_If_Other__c)),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Specify_Source_If_Other__c</errorDisplayField>
+        <errorMessage>&quot;OTH: Other&quot; is not selected as the candidate source, so please clear this field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Track_SEs_in_sales_BU</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(CONTAINS(Role__c,&quot;Sales Engineer&quot;),Role__c=&quot;SE&quot;),
+TEXT(Business_Unit__c)&lt;&gt;&quot;Sales&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>Business_Unit__c</errorDisplayField>
+        <errorMessage>Sales Engineers should be tracked in the Sales business unit (not Engineering)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Visa_End_Date_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+CONTAINS(TEXT(Visa_Status__c),&quot;Has Visa&quot;),
+ISBLANK(Visa_End_Date__c)
+)</errorConditionFormula>
+        <errorDisplayField>Visa_End_Date__c</errorDisplayField>
+        <errorMessage>A Visa End Date is Required for Candidates with a Visa Status containing &quot;Has Visa&quot;.
+
+Either input a Visa End Date or Select a different Visa Status.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

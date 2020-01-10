@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2016-05-10-Philadelphia VMUG.EMAIL-Cocktail Invite</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Philly VMUG Cocktail Hour</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+VMTurbo is sponsoring the upcoming Philly VMUG and will be hosting a happy hour &lt;[[http://attend.com/phillyVMUG2016]]&gt; post VMUG at the The Nosh, Radisson Hotel. 
+Stop by our booth at the VMUG to pick up your ticket or show this email at the door for cocktails and appetizers, on us, from 6:00PM – 8:00PM on 5/10/16.
+We are also presenting in room Laurel East from 10:00 AM – 10:45 AM on best practices and how to manage complex, shared environments more intelligently. Attend our presentation for a chance to win a drone!
+Click here &lt;[[http://attend.com/phillyVMUG2016]]&gt; to save your spot today.
+ &lt;[[http://www.drakesf.com/]]&gt;- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

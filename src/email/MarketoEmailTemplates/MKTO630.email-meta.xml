@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Test Folder.VHM License Email Andrea</name>
+    <style>none</style>
+    <subject>%first%, Welcome to VMTurbo</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Dear %first%, 
+Thank you for your interest in VMTurbo Virtual Health Monitor (VHM). You&apos;re just clicks away from environment enlightenment. 
+ 
+ The license key to enable Virtual Health Monitor is in the attached license.txt file. Cut and paste the contents of the file into the wizard form, and you&apos;re off to the races. Your Virtual Health Monitor will expire six months from the date of this email and require re-licensing for continued use, but don&apos;t worry - we&apos;ll keep the renewals coming. 
+ 
+ The default login credentials are:
+
+ Username: administrator   Password: administrator
+ 
+ 
+ In good health,
+ VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

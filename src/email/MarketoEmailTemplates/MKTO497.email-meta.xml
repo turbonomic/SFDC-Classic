@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CCL3_BoosterShot.Email_wpCTA</name>
+    <style>none</style>
+    <subject>Whitepaper: Successfully Virtualizing Business-Critical Applications</subject>
+    <textOnly>READ THIS FREE VMTurbo WHITEPAPER: Successfully Virtualizing Business-Critical Applications &lt;http://bit.ly/1fjuQrI&gt;
+
+“VMTurbo is delivering today, what is promised in VMware’s future strategy.” - Bernd Herzog, The Virtualization Practice
+
+{{Lead.First Name:default=Sir/Madam}}:
+
+Virtualizing business-critical applications such as Microsoft Exchange, Oracle SQL Server, SAP, and others offers substantial benefits to any organization that can successfully manage its inevitable complexity. Still, most enterprises are reluctant to virtualize beyond 50-60%, forced to make the efficiency-defeating choice between hardware overprovisioning and poor application performance.
+
+Good news. There’s a new kid on the block. Read VMTurbo’s Whitepaper, Successfully Virtualizing Business-Critical Applications, and discover how you can drive an additional 30% in VM density across your datacenter, while still assuring application performance. Virtualization wasn’t our idea. We just made it smarter.
+
+The new kid,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

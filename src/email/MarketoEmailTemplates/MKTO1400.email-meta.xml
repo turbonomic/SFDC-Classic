@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Partner Newsletters.February 2016 Newsletter</name>
+    <style>none</style>
+    <subject>February Partner Newsletter</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Sed vulputate rutrum faucibus. Curabitur posuere sodales auctor. Maecenas eu ligula nibh. Duis suscipit leo et eros molestie, at mattis elit blandit. Integer ut orci eu metus finibus tempor. Aliquam pretium nunc sit amet ante laoreet, eu placerat quam fringilla. Vivamus auctor sollicitudin purus nec accumsan. Etiam metus augue, porta non tortor a, commodo dignissim arcu. Proin in sapien erat. Vivamus vel neque a tortor laoreet varius. In non pharetra mauris. Suspendisse potenti.
+
+Nulla ac felis sollicitudin, sodales nisi vel, interdum tellus. Proin viverra felis id pulvinar aliquet. Fusce venenatis orci felis, eget faucibus mauris consectetur quis. Integer nec nunc a magna efficitur semper ut id ipsum. Ut vestibulum pulvinar mi id tempor. Praesent mattis laoreet tellus, vel molestie ipsum consectetur vel. Nullam justo magna, fermentum et porta id, vestibulum non enim. Morbi consectetur malesuada diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Welcome New Customers
+
+    
+
+
+
+
+
+
+Download the VMTurbo App! 
+       
+
+
+Join the Green Circle!
+
+The Green Circle is our online community where you can access all resources, like training materials, industry insight, informative forums and make the most of your partnership with VMTurbo. Click here to join now » &lt;[[https://greencircle.vmturbo.com/welcome?inviteID=12005]]&gt;
+ &lt;[[https://greencircle.vmturbo.com/welcome?inviteID=12005]]&gt;
+
+
+Upcoming Webcasts
+
+April 9, 2016 at 12 PM ET
+Q2 Partner Town Hall Meeting &lt;[[https://attendee.gotowebinar.com/register/8824097955124867329]]&gt;
+
+
+New Content 
+
+Case Study: VMTurbo Enables Greater Performance for Larger Virtual  &lt;[[http://www.marketwired.com/press-release/-2090139.htm]]&gt;Environments
+Download Now (PDF) &lt;[[http://vmturbo.com/wp-content/uploads/2016/01/VMTurbo_large_environment_0116.pdf]]&gt;
+
+Analyst Report: Boost VM Production Company-Wide
+Download Now (PDF) &lt;[[http://vmturbo.com/wp-content/uploads/2016/01/VMTurbo_large_environment_0116.pdf]]&gt;
+
+Customer Success:Blackbaud Makes An Impact and Gives Back with VMTurbo
+Download Now (PDF) &lt;[[http://vmturbo.com/wp-content/uploads/2016/01/VMTurbo-Blackbaud-Success-Story.pdf]]&gt;
+
+eBook: Performance-Driven Licensing
+ Download Now (PDF) &lt;[[http://vmturbo.com/wp-content/uploads/2016/01/VMTurbo-Blackbaud-Success-Story.pdf]]&gt;
+
+
+Visit the Partner Portal 
+
+      &lt;[[https://vmturbo.partnerprm.com/Microsite/SInfo_Profile.aspx?I=B408CA03CDB2EC990458BF4BC5FB91EA]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

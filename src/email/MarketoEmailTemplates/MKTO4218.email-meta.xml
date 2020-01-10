@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-10-10 Unlock Cloud Elasticity to Lower Cloud Bills - Live Demo.Thanks f</name>
+    <style>none</style>
+    <subject>Thanks for joining {{my.Webinar Title:default=Our Webinar}}</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Thank you for joining our webinar on {{my.Webinar Title:default=The Webinar}}.
+
+You can watch it again on-demand here &lt;[[https://turbonomic.com/thx-cloud-eq/]]&gt;.
+
+If you&apos;d like to learn more about how to unleash cloud elasticity,  check out our newest whitepaper on Deploying and Managing Microsoft Azure IaaS Solutions here &lt;[[https://turbonomic.com/microsoft-azure-iaas-solutions/]]&gt;.
+
+We hope you enjoy the recording!
+-Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

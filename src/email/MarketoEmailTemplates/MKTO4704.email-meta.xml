@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2019-04-29-CiscoCanadaWest-eBlast2.Canada West roadshow invite</name>
+    <style>none</style>
+    <subject>Cisco is coming to your city this spring: Data Center Roadshow</subject>
+    <textOnly>&lt;[[https://cisco.cvent.com/events/data-center-of-the-future-roadshow/event-summary-4d034f98290a47d5bb0b0debaa356a14.aspx]]&gt;
+Data Center of the Future Roadshow
+
+
+
+
+You’re invited! Data Center of the Future Roadshow!
+
+The Data Center is a crucial component of a company’s infrastructure, hosting business-critical data and applications that are required for day to day productivity and efficiency. With Cisco being a named leader in hyperconvergence according to the latest magic quadrant article from Gartner, and with their expertise in networking, endpoints, and data centers, Cisco offers an integrated solution that protects your data and application workloads across public, private, and hybrid clouds.
+
+Join us &lt;[[https://cisco.cvent.com/events/data-center-of-the-future-roadshow/event-summary-4d034f98290a47d5bb0b0debaa356a14.aspx]]&gt;, along with Veeam and Turbonomic, to learn how to automate your Data Center platform leveraging hyperconvergence, and how to simplify your multi-cloud strategy.
+
+Register today to reserve your seat! &lt;[[https://cisco.cvent.com/events/data-center-of-the-future-roadshow/event-summary-4d034f98290a47d5bb0b0debaa356a14.aspx]]&gt;
+
+Agenda Overview: 
+• Opening Remarks
+• Cisco Data Center Platform Overview 
+• Cisco HyperFlex Overview
+• Veeam Overview
+• Cisco Workload Optimization Manager (CWOM) Overview
+• Lunch to be provided at 12:00
+
+Seating will be available on a first come, first served basis - please click REGISTER NOW &lt;[[https://cisco.cvent.com/events/data-center-of-the-future-roadshow/event-summary-4d034f98290a47d5bb0b0debaa356a14.aspx]]&gt; to reserve your place. If you know who your Cisco or Turbonomic account manager is, please reach out to them with any questions you may have. Otherwise, just reply to this email. 
+
+Edmonton – April 30th, 2019 - 8:30am – 12:30pm MST
+Calgary – May 2nd, 2019 - 8:30am – 12:30pm MST
+Winnipeg – May 8th, 2019 - 8:30am – 12:30pm CST
+Vancouver – May 14th, 2019 - 8:30am – 12:30pm PST
+Victoria – May 16th, 2019 - 8:30am – 12:30pm PST
+Toronto – May 29th, 2019 - 8:30am – 12:30pm EST
+
+
+
+
+ &lt;[[https://cisco.cvent.com/events/data-center-of-the-future-roadshow/event-summary-4d034f98290a47d5bb0b0debaa356a14.aspx]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

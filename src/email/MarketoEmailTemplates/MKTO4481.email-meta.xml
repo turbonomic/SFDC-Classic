@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-23 Cloud Status Quo.Thanks for joining us</name>
+    <style>none</style>
+    <subject>Thanks for joining {{my.Webinar Title:default=Our Webinar}}</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Thank you for joining our webinar on {{my.Webinar Title:default=The Webinar}}.
+You can watch the webinar on-demand here &lt;[[https://turbonomic.com/thx-cloud-status-quo-wbn/]]&gt;.
+Here are some additional resources you may find helpful:
+
+
+	- Prepare for End of Support: Windows and SQL 2008 &lt;[[https://turbonomic.com/resources/wbn-ms-eos/]]&gt;
+	- Introduction to AWS IaaS Solutions &lt;[[https://turbonomic.com/aws-iaas-solutions/]]&gt;
+	- Freshfields Plans AWS and Azure Migrations and Saves 20% on Azure Bill &lt;[[https://resources.turbonomic.com/case-studies/freshfields-success-story]]&gt;
+
+
+
+We hope you enjoy the recording!
+-Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

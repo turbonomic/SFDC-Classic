@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Follow up from Turbonomic Survey (1494941170.0)</name>
+    <style>none</style>
+    <subject>Follow up from Turbonomic Survey (1494941170.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Neal,Thank you for completing the Turbonomic IT Maturity Survey! You should receive your Amazon Gift Card shortly.I can offer you another $100 Amazon Gift Card or a $100 donation to a charity of your choice if I can schedule 30 minutes between you and a Turbonomic Engineer. You indicated on your survey several challenges that Turbonomic directly addresses, specifically 
+	- Overprovisioned Infrastructure and Inefficiency - Turbonomic has been proven to reduce infrastructure requirements by 30% or more through intelligent consolidation	- Troubleshooting/Proactive Monitoring - Turbonomic has been proven to decrease performance alerts by 80% or more through its patented automation engine	- Service Degradation/Downtime - Turbonomic has been proven to increase application performance by 37% while eliminating 80% of tickets	- Growth in Environment Complexity - Turbonomic’s vendor-agnostic, patented analytics have been proven to reduce infrastructure requirements by 30% or more through intelligent automation
+Do you have some time to speak today? To receive your gift card or donation, you must schedule your consultation within the next 7 days and complete it within the next 14 days. Thank you,Katie                    Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

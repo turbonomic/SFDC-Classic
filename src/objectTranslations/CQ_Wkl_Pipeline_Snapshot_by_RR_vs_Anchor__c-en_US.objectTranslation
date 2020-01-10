@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CQ Wkl Pipeline Snapshot by RR vs Anchor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CQ Wkl Pipeline Snapshot by RR vs Anchor</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Time --></label>
+        <name>Execution_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group^Owner Team --></label>
+        <name>Group_Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Records --></label>
+        <name>Number_of_Records__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Team (Group Buckets) --></label>
+        <name>Owner_Team_Group_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Team --></label>
+        <name>Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run-Rate (Yes / No) 250K --></label>
+        <name>Run_Rate_Yes_No_250K__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighted Forecast --></label>
+        <name>Weighted_Forecast__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

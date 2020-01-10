@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_24_2014 VMT-Shirt SAN People.Email_use</name>
+    <style>none</style>
+    <subject>{{Lead.First Name:default=Act Fast}}, Get the Limited Edition Autumn VMT-Shirt</subject>
+    <textOnly>Introducing the Limited Edition Autumn 2014 VMT-Shirt 
+
+I DO NOT FEAR SAN PEOPLE
+{{lead.First Name:default=Turbofriend}},
+VMTurbo&apos;s unified control platform unifies IT teams - server, network, storage, and applications. In celebration of the changing seasons, we invite you to change your ways and embrace the once feared storage group* at {{company.Company Name:default=your company}} by deploying VMTurbo in your environment.
+Click here to start &lt;http://vmturbo.com/request-vmturbo-shirt/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmt-shirt&amp;utm_content=102414&gt;, and get your limited edition VMT-Shirt.
+*We love every layer of the stack, especially storage.
+Get the Best Shirt &lt;http://vmturbo.com/request-vmturbo-shirt/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vmt-shirt&amp;utm_content=102414&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

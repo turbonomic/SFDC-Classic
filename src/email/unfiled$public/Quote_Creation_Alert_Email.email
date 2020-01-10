@@ -1,0 +1,23 @@
+Quote Number {!Quote.QuoteNumber} is greater than $75K.
+
+Quote link: {!Quote.Link}
+
+
+Account Name: {!Quote.Account_Name__c}
+Opportunity Name: {!Quote.Opportunity_Name__c}
+Sales Region: {!Quote.Owner_Team_Group_Buckets__c}
+Close Date: {!Quote.Opportunity_Close_Date__c}
+Partner Account: {!Quote.Partner_Account__c}
+Stage: {!Quote.Opportunity_Stage__c}
+Type: {!Quote.Opportunity_Type__c}
+Expected Revenue Type: {!Quote.Opportunity_Expected_Revenue_Type__c}
+Upfront Revenue Expected?: {!Quote.Opportunity_Upfront_Revenue_Expected__c}
+Expected License Value: {!Quote.Opportunity_Expected_License_Value__c}
+
+
+Currency: {!Quote.Currency__c}
+Total List Price: {!Quote.Total_List_Price_Currency__c}
+Total Sales Price: {!Quote.Total_Sales_Price__c}
+Exchange rate: {!Quote.Exchange_Rate__c}
+
+Notes: {!Quote.Notes__c}

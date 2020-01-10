@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-09-28-NYC Community Appreciation Event.ES-2017-09-25-Confirmation-1.EMA</name>
+    <style>none</style>
+    <subject>See You Soon at Chelsea Piers</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+I hope you are as excited as I am to hang out with the Turbonomic and Presidio crew Thursday evening at the Golf Club at Chelsea Piers. I&apos;m reaching out with final details for Thursday&apos;s event. When you arrive, please check-in in the lobby area under Turbonomic and you will be shown to our reserved pitching bays.
+Thursday, September 28th, 5:30 p.m. EST
+The Golf Club at Chelsea Piers &lt;[[https://www.chelseapiers.com/golf/driving-range/overview/]]&gt;
+59 Chelsea Piers, New York, NY 10011
+
+Click here for additional venue information &lt;[[https://www.chelseapiers.com/golf/]]&gt;
+
+
+
+
+We&apos;re looking forward to seeing you there,
+
+Megan
+
+
+
+
+
+
+
+Megan Gay
+Marketing Program Manager
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

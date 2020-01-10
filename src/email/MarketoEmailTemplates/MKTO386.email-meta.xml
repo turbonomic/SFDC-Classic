@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_30_2014 NII Follow up.Email</name>
+    <style>none</style>
+    <subject>NII Webcast Recording</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thanks for registering for the webcast &quot;How VMTurbo Helped NII Better Protect Operations, Manage Capacity and Plan for the Future&quot; on Wednesday, January 22nd. As a follow-up, we&apos;ve provided the recording in addition to a few of the many resources designed to dive deeper into the ways VMTurbo will dramatically improve how you control and automate your virtual data center.
+
+
+ - Webcast recording &lt;http://bit.ly/1d89xYY&gt;
+ - Trial Download &lt;http://bit.ly/1doILvj&gt; check out VMTurbo in your environment, absolutely free
+ - Whitepaper &lt;http://bit.ly/1cvctTY&gt; on reducing compute costs in VMware vCloud Director Environments
+
+
+
+
+
+
+
+We will be following up with you shortly to understand your priorities and interest in learning more about VMTurbo.
+
+Kind regards
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

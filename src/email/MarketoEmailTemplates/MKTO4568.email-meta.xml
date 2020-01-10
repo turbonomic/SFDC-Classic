@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Last Last Chance 6.3 Invite.Email A</name>
+    <style>none</style>
+    <subject>See You in 2 Hours!</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+This week, we&apos;re excited to share with you our new AI-powered capabilities that further empower customers to continuously manage and optimize hybrid and multi-cloud environments. 
+
+
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;
+
+
+
+
+
+
+Join us today at 11 ET for the &quot;Accelerate and Optimize Your Hybrid and Public Cloud Adoption Strategy &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;&quot; webinar where Alex Hesterberg, Chief Customer Officer, Mor Cohen-Tal, Cloud CTO, and Eric Wright, Director of Technical Marketing will discuss the new features including:
+
+
+
+	- Cloud Autoscaling 
+	- Reserved Instance (RI) Enhancements
+	- Kubernetes
+
+
+Hope to see you there! Register now &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt; and enter to win a $100 Amazon Gift Card. 
+
+ 
+Thanks,
+Andrew
+ 
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt; and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-03-09-Turbofest-Silicon-Valley.ES-2016-02-17-Enterprise Invite.EMAIL-En</name>
+    <style>none</style>
+    <subject>Hang with Kumail Nanjiani at Turbofest Silicon Valley | Guarantee Your Seat Today</subject>
+    <textOnly>&lt;[[http://vmturbo.com/turbofest-silicon-valley?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=Turbofest-SV-Enterprise&amp;amp;utm_content=02172016]]&gt;
+Dear {{lead.First Name:default=Turbofriend}}:
+We are thrilled to announce that Kumail Nanjiani from HBO’s hit show, Silicon Valley will be our celebrity comedian performing the evening of 3/9/16 at the AWS Pop Up Loft in San Francisco!
+Turbofest is a FREE opportunity for you to learn from VMTurbo and its technology partners about the next generation of cloud and virtualization. It features customer success keynotes, product sneak previews, and partner &amp; analyst presentations. It is a chance to network with your peers, explore the next wave of IT innovation, and meet some of the brightest engineers in the world.
+GUARANTEE YOUR SEAT TODAY &lt;[[http://vmturbo.com/turbofest-silicon-valley?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=Turbofest-SV-Enterprise&amp;amp;utm_content=02172016]]&gt; as Turbofest Silicon Valley is limited to the first 100 VIP registrants!
+
+#VMTurbofest
+
+
+ &lt;[[http://vmturbo.com/turbofest-silicon-valley?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=Turbofest-SV-Enterprise&amp;amp;utm_content=02172016]]&gt;
+Kumail Nanjiani
+HBO&apos;s Silicon Valley</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

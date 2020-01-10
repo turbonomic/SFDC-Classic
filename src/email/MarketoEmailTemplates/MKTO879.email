@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Dear {{Lead.First Name:default=Sir or Madam}},</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">I want to personally invite you to the <a href="http://pages.zerto.com/2014HolidayJamboree.html">Tech Disruptors Holiday Jamboree</a> at Dolce Cubano in Stamford, CT on December 10.</span></p>
+<p style="text-align: left;" align="center"><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Join <strong>Pure Storage</strong>,<strong> Zerto</strong>, and <strong>VMTurbo</strong> at Dolce Cubano for a fun holiday networking Jamboree, where we will sip on egg nog, eat great food and entertain you with some great knowledge from these three tech disruptors.</span></p>
+<p style="text-align: left;" align="center"><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;"><a href="http://pages.zerto.com/2014HolidayJamboree.html">Register Here</a>, and feel free to email me with any questions. This event is hosted at no cost to you, so&nbsp;I hope to see you and your colleagues there!</span></p>
+<p style="text-align: left;" align="center"><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Sincerely,</span></p>
+<p style="text-align: left;" align="center"><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;"><strong><span style="color: #008000;">Joey Donato</span></strong><br />VMTurbo</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">857-305-4635 | joey.donato@vmturbo.com</span></p></div>
+</div>
+</body>
+</html>

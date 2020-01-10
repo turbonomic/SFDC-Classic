@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Marketing Qualified Lead notification Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MQL Template</name>
+    <style>none</style>
+    <subject>New MQL in your territory.</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

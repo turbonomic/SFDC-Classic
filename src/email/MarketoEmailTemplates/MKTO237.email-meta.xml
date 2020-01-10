@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NYC Wine Tasting.Thank you email to attendees</name>
+    <style>none</style>
+    <subject>VMTurbo Wine Tasting</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+I hope you enjoyed our wine tasting event as much as I did. It was a pleasure talking with you about your virtualization challenges and I look forward to continuing the conversation. I have asked my team to follow up with you for further technical discussions and to expand on how VMTurbo can partner with you to address these challenges. Meanwhile, please feel free to reach out to me directly at any time.
+
+ 
+
+Sincerely,
+
+Lou Shipley
+lou.shipley@vmturbo.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

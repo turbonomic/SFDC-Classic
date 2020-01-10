@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Revisit Turbonomic (1495028577.0)</name>
+    <style>none</style>
+    <subject>Revisit Turbonomic (1495028577.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi brad,Hope all is well! I wanted to touch base with you to see if now is a better time to look at Turbonommic. I know you were part of the team the evaluated us in the past when we were VMTurbo, so I figured I would reach back out to see if we could reconnect. Let me know what your schedule looks like, I would love to connect over the phone. Best,Katie                      Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

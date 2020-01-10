@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-30 Tackling the Modern IT Ecosystem.ES-2019-01-28 Invite 4.Subject L</name>
+    <style>none</style>
+    <subject>See you tomorrow?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;
+Hi {{lead.First Name:default=there}},
+Did you know that Turbonomic&apos;s decision engine is technology-agnostic, supporting VMware, ServiceNow, PureStorage, RedHat, AWS, Azure, etc. and optimizes at every layer of the stack? 
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;
+
+
+
+Join Eric 
+Wright tomorrow, January 30th at 11 am ET, for the &quot;Tackling the Modern IT Ecosystem &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;&quot; webinar, where you will learn how to enable workloads (applications, VMs, container) to get the resources they need when they need them, on-prem and in the 
+cloud, to ensure you can increase agility - while decreasing human error and time to value. 
+All 
+registered attendees will be entered to win a $100 Amazon Gift Card. I hope to see you there.
+Thanks,
+Andrew
+
+
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-tackling-ecosystem/]]&gt;, and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2019-PAB.Pab Invite 1 020819</name>
+    <style>none</style>
+    <subject>Save the Date! Turbonomic Partner Advisory Board</subject>
+    <textOnly>Good Morning {{lead.First Name:default=edit me}},
+ 
+I’d like to start by thanking you for your partnership, commitment, and support. Our partner ecosystem and strategy have evolved greatly over the last 12 months and we couldn’t have done it without partners like you. I’m extremely excited to announce that we are launching a Turbonomic Partner Advisory Board (PAB) this year. As one of our most trusted partners, I would like to extend this exclusive invite for you to join this community of leaders. This Senior Executive level advisory group will be a crucial part of our company and will provide input to Turbonomic in areas of overall strategy, product roadmap and innovation, marketing, programs, and all aspects of go to market. In addition, we will focus on driving thought leadership to include industry experts focused on current market trends that will help shape our joint business.
+ 
+Our team will be sharing additional details regarding the board and event over the coming weeks, but I wanted to get the dates locked in on your calendar and confirm your participation on the board now to ensure 
+everyone’s opportunity to plan accordingly. 
+ 
+Please let me know if we can expect you to join us in Miami.
+
+
+
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/pab]]&gt;
+
+
+
+
+
+
+If you have any questions or concerns, please let me know as soon as possible.
+ 
+Thank you again and I look forward to seeing you!
+ 
+Chris
+Senior Vice President, Global Channel &amp; Alliances
+Boston, MA USA
+Chris.Sullivan@turbonomic.com &lt;[[mailto:Chris.Sullivan@turbonomic.com]]&gt;
+M: +1 
+978-337-8154
+
+©  Turbonomic, Inc. 
+ 
+ Contact Us &lt;[[https://turbonomic.com/company/contact-us/]]&gt;  |  Unsubscribe &lt;[[{{system.unsubscribeLink}}]]&gt;
+&lt;[[https://twitter.com/turbonomic]]&gt;     &lt;[[https://www.youtube.com/user/myVMTurboTV]]&gt;      &lt;[[https://www.linkedin.com/company/turbonomic/]]&gt;    &lt;[[https://www.facebook.com/turbonomic/]]&gt;    &lt;[[https://www.instagram.com/turbonomic/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

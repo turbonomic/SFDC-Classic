@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6_3_2015 e-commerce Send.Send</name>
+    <style>none</style>
+    <subject>How Will You Meet Black Friday Web Demand?</subject>
+    <textOnly>&lt;http://vmturbo.com/solutions/use-cases/maintain-web-application-performance-demand-peaks?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ecommerceEbook&amp;utm_content=06032015&gt;
+{{lead.First Name:default=edit me}},
+When it comes to consumer goods and services, online shopping is many people’s drink of choice. With online shopping as standard, companies that don’t have a strong online presence or have pages with poor application performance will surely lose patrons to the competition.
+In fact, an online shopper is 40% more likely to leave a site for another if page load time is greater than 2 seconds. During the busy holiday season this 40% can add up to big losses in revenue.
+
+Find out how to prevent these losses in our latest whitepaper; Empowering e-Commerce Against Unpredictable Demand. &lt;http://vmturbo.com/solutions/use-cases/maintain-web-application-performance-demand-peaks?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ecommerceEbook&amp;utm_content=06032015&gt;
+After reading this whitepaper you’ll know:
+
+
+ - Common challenges facing E-commerce platforms and B2C website managers preparing for the holiday shopping rush.
+ - Managing the tradeoffs between application, compute and storage resources, as well as network latency, across the virtual or cloud environment.
+ - VMTurbo’s unique approach to addressing Quality of Service adherence, assuring application performance and providing users with peace of mind.
+
+
+- The VMTurbo Team
+ &lt;http://vmturbo.com/solutions/use-cases/maintain-web-application-performance-demand-peaks?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ecommerceEbook&amp;utm_content=06032015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

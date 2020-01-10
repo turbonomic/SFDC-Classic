@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-06-15-Turbofest Chicago.EMAIL-Reminder Email Agenda</name>
+    <style>none</style>
+    <subject>Turbofest Chicago Agenda! | Register Today</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir or Madam}}:
+We are thrilled to release the agenda &lt;[[http://vmturbo.com/wp-content/uploads/2016/04/TurbofestChicagoAgenda2016.pdf]]&gt; for Turbofest Chicago! 
+Turbofest is an opportunity for you to learn from VMTurbo and its technology partners about the next generation of cloud and virtualization. It features customer success keynotes, product sneak previews and partner presentations. It is a chance to network with your peers, explore the next wave of IT innovation and meet some of the brightest engineers in the world.
+Limited to the first 100 VIP registrants, Turbofest Chicago will feature an evening of baseball and refreshments, after a day of cloud and virtualization thought leadership.
+You can register here &lt;[[http://vmturbo.com/turbofest-chicago/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=TurbofestChicago&amp;utm_content=20160504]]&gt; for this invitation-only event and a VMTurbo representative will contact you to address any question you may have.
+This year, consider spending another two days and become VMTurbo ACE certified &lt;[[https://www.surveymonkey.com/r/VMTACEChic]]&gt; so you can maximize the value of your investment in our Application Performance Control platform.
+#VMTurbofest</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

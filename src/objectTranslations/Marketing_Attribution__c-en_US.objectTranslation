@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marketing Attribution</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marketing Attributions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Ad Campaign Name --></label>
+        <name>Bizible_Ad_Campaign_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Medium --></label>
+        <name>Bizible_Medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Salesforce Campaign Owner --></label>
+        <name>Bizible_Salesforce_Campaign_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Salesforce Campaign --></label>
+        <name>Bizible_Salesforce_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Touchpoint Date --></label>
+        <name>Bizible_Touchpoint_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Touchpoint Source Bucket --></label>
+        <name>Bizible_Touchpoint_Source_Bucket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Touchpoint Source --></label>
+        <name>Bizible_Touchpoint_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Touchpoint --></label>
+        <name>Bizible_Touchpoint__c</name>
+        <relationshipLabel><!-- Marketing Attributions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Safe ID --></label>
+        <name>Contact_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete --></label>
+        <name>Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Safe ID --></label>
+        <name>Lead_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Attribution Safe Id --></label>
+        <name>Marketing_Attribution_Safe_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- adjusted for loss. --></help>
+        <label><!-- Opportunity Close Date --></label>
+        <name>Opportunity_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Created Date --></label>
+        <name>Opportunity_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Highest Stage Reached --></label>
+        <name>Opportunity_Highest_Stage_Reached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ID Date --></label>
+        <name>Opportunity_ID_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Move to Upside Date --></label>
+        <name>Opportunity_Move_to_Upside_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Origination Source --></label>
+        <name>Opportunity_Origination_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner Team (Group Buckets) --></label>
+        <name>Opportunity_Owner_Team_Group_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner Team --></label>
+        <name>Opportunity_Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Safe ID --></label>
+        <name>Opportunity_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage (Ordered) --></label>
+        <name>Opportunity_Stage_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage --></label>
+        <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Marketing Attributions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Person Name --></label>
+        <name>Person_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>Happy Holidays From VMTurbo!</title>
+
+<style type="text/css">
+ 
+#content { text-align: center; }
+ 
+h1 { color: #005aa9; font-size: 30px;  font-family: MyriadProBold,Arial,Helvetica,sans-serif;}
+ 
+p { color: #4f4e4c; font-size: 14px;  font-family: MyriadProBold,Arial,Helvetica,sans-serif;line-height: 19px;}
+ 
+ 
+.holidaybanner {
+                background-image: url(http://www.vmturbo.com/wp-content/uploads/2013/12/Holiday-Email-Letterhead-Draft-1.png);
+                background-repeat: no-repeat;
+}
+</style>
+</head>
+<body ><table width="660" border="0" align="center" cellpadding="100" cellspacing="0" ><tr ><td width="660" height="650" align="center" class="holidaybanner" ><div class="mktEditable" id="new_editable_1" ><p><br /> <br /> <br /></p>
+<p><br /> <br /> <br /></p>
+<p>&nbsp;</p>
+<div style="color: #4f4e4c; font-size: 23px; font-weight: bold; line-height: 26px;">
+<div style="text-align: left;"><span style="font-family: MyriadProBold, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19px; font-weight: normal; text-align: left;">Dear&nbsp;</span><span style="font-family: MyriadProBold, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19px; font-weight: normal; text-align: left;">{{lead.First Name:default=edit me}}</span></div>
+</div>
+<p style="color: #000000; font-family: 'Times New Roman'; font-size: 16px; font-weight: normal; line-height: normal; text-align: left;"><span style="color: #4f4e4c; font-family: MyriadProBold, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19px;">Innovation in our industry challenges each of us to stay current while doing our day jobs. In talking with you, 2013 was no exception.</span></p>
+<ul>
+<li style="text-align: left;"><span style="color: #4f4e4c; font-family: MyriadProBold, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19px;"><strong>This might actually have been the year of the VDI</strong>, with software and hardware innovations that solve boot storms and alleviate IOPS bottlenecks.</span></li>
+<li style="text-align: left;"><span style="color: #4f4e4c; font-family: MyriadProBold, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19px;"><strong>The private cloud became less...how should I say it, nebulous,</strong> with the OpenStack specification and Citrix's open source CloudStack.</span></li>
+<li style="text-align: left;"><span style="color: #4f4e4c; font-family: MyriadProBold, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19px;"><strong>Software defined data center took center stage,</strong> at least in pundits' minds, with different solutions that define, through code, the structure of the storage, the network, and the compute layers.&nbsp;</span></li>
+</ul>
+<p style="text-align: left;"><span style="color: #4f4e4c; font-family: MyriadProBold, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19px;">Driven by innovation, VMTurbo&nbsp;<span>doubled revenues and doubled the number of customers. <strong>JPMorgan inducted us into their Hall of Innovation</strong> for technology infrastructure, and we&rsquo;re proud to join companies like FireEye, Palantir, and Tableau on this list. An independent survey found that our customers realize an ROI within 90 days, and the majority of our customers use us for automation. <strong>If you aren&rsquo;t achieving the&nbsp;<strong><span>ROI you expected, or aren&rsquo;t automating, we&rsquo;d love to show you how</span></strong><span> &ndash; there&rsquo;s no added cost.</span></strong></span></span></p>
+<p style="text-align: center;"><a href="mailto:Customer.Success@vmturbo.com"><img src="http://go.vmturbo.com/rs/vmturbo/images/GreenCTAHelpMeGetMore.jpg" alt="Help Me Get More Out of VMTurbo" width="194" height="52" align="middle" /></a></p>
+<p style="text-align: left;"><span>In the new year, we will debut our biggest innovations yet. </span><span>We&rsquo;re extending our groundbreaking approach to the rest of the datacenter</span><span>.&nbsp;<strong>We will add and enhance control modules for NetApp, EMC, and Cisco UCS that will allow you to manage and control your fabric and storage</strong> in the same way VMTurbo allows you to manage compute: light touch. </span><span>At the same time, we&rsquo;re working with customers to <strong>eliminate artificial cluster boundaries</strong> and distribute loads across all hosts in your environment&nbsp;&ndash; allowing for even greater utilization and&nbsp;densities&nbsp;while assuring VM performance. </span><strong><span>VMTurbo will allow you to control your software-defined datacenter.</span></strong><span>&nbsp;</span><span>(Let me know if you want a sneak peek) I think 2014 will be just as amazing.</span></p>
+<p style="text-align: center;"><span><a href="http://go.vmturbo.com/sneak_preview_request.html"><img src="http://go.vmturbo.com/rs/vmturbo/images/GreenCTASneakPeek.jpg" alt="Sneak Peek" width="200" height="52" align="middle" /></a><br /></span></p>
+<p style="text-align: left;"><span>I hope that everyone enjoys a couple of restful days over the next few weeks with your families.</span><span style="text-align: -webkit-center;">&nbsp;</span></p>
+<div style="text-align: left;"><span style="text-align: -webkit-center; font-family: helvetica; font-size: 14px; color: #808080; background-color: #ffffff;">Ben Nye </span></div>
+<div style="text-align: left;"><span style="text-align: -webkit-center; font-family: helvetica; font-size: 14px; color: #808080; background-color: #ffffff;">CEO, VMTurbo</span></div></div>
+</td>
+</tr>
+</table>
+</body>
+</html>

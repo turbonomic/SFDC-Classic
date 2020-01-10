@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-06-14-RD-Sponsored-Los-Angeles.ES-2018-06-06-LA-Invite-1.ES-2018-06-06-</name>
+    <style>none</style>
+    <subject>Join me for dinner on June 14 in Los Angeles?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+
+
+
+In my years as CIO, I have been faced with many challenges and questions regarding the future of the IT industry. How can we deliver more value to our business, where are the best opportunities for innovation and how can we move beyond simply “keeping the lights on?” I’ve always remained on the lookout for new technologies and strategies that could influence business growth, improve our customers’ experience and enable our team to innovate.
+ 
+In 2014 I was introduced to Turbonomic, a platform directly in line with my vision of what modern CIOs need to have a tangible impact on their organizations, so IT teams can shift from operating to innovating. I have since been a repeat customer, first at EMC and then again at Verizon. I’ve helped mold Turbonomic’s roadmap as a member of the Technology Steering Council, alongside other IT leaders including Bill Veghte, and I can say with confidence the future is bright.
+ 
+At Turbonomic, we are developing a concept we call “adaptive IT” - making your applications intelligent through SMART (Self-Managing, Anywhere, Real-Time) workload automation. Our platform allows your workloads to be “self-healing” when resources fail it, and as far as I have seen, there is nothing in the market like it.
+ 
+I hope you will be able to join me for an executive dinner &lt;[[https://www.eventbrite.com/e/turbonomic-los-angeles-champions-dinner-tickets-45912580765]]&gt; on Thursday, June 14 in Los Angeles. During dinner, I’d love to hear your vision for your organization, and share some of the experiences I’ve had along the way.
+ 
+I look forward to seeing you!
+ 
+Best,
+Vic
+ 
+
+
+Vic Bhagat
+Senior Advisor, Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

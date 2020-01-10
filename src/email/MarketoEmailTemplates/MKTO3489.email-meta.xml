@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-27-Field-East-ESB-Nashville.ES-2018-02-22 Exec 1 Oved.EM-2018-02-22</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Nashville Executive Networking Reception and Predators Game</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+
+
+
+I cordially invite you to join myself and dozens of our fellow IT leaders in Nashville for the upcoming   &lt;[[https://turbonomic.com/exec-newyork/]]&gt;Nashville Executive Networking 
+Event: Workload Automation for Your Hybrid Cloud  &lt;[[https://turbonomic.com/exec-nashville/]]&gt; &lt;[[https://turbonomic.com/vip-losangeles/]]&gt;hosted by Turbonomic and Cisco, on Tuesday, March 27th 2018 at the Bridgestone Arena for a presentation and reception at 5:00 p.m., followed by a Nashville Predators Game in the Turbonomic Suite.
+
+
+This event is a great opportunity to meet with peers, share challenges, and discuss trends. Data center and cloud advancements are happening at an unprecedented rate, creating new 
+challenges each day. It is my goal and hope that this networking opportunity will be intellectually stimulating and beneficial for all. Following our reception, myself and your technology peers will take our seats in the Turbonomic Suite for a game of hockey and to cheer on 
+the Predators as they take on the Minnesota Wild.
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here  &lt;[[https://turbonomic.com/exec-nashville/]]&gt;as soon as possible.
+
+
+
+Yours sincerely,
+Oved
+
+
+
+
+
+
+Oved Lourie
+Field CTO
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

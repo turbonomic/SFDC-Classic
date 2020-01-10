@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_SaaS_LeadSpace_Container_Nurture.Cloud_Native_Commercial_Campaigns_Nurture_1</name>
+    <style>none</style>
+    <subject>Containers and the Rise of Microservices</subject>
+    <textOnly>&lt;[[https://turbonomic.com/blog/on-turbonomic/self-managing-openshift-turbonomic/]]&gt;
+Hi {{lead.First Name:default=there}},
+Do you need to deliver better services faster via rapid, iterative application development? Containers and microservices make it possible, but compared to a virtualized IT environment, a containerized 
+environment is highly dynamic with greater density and more layers to manage. 
+ 
+ &lt;[[https://turbonomic.com/blog/on-turbonomic/self-managing-openshift-turbonomic/]]&gt;
+
+
+
+While the artifacts have changed the challenges are the same – just more complex. How do you ensure workloads get the resources they need when they need them?
+ 
+Please let us know &lt;[[https://turbonomic.com/request-a-demo-container-platforms/]]&gt; if you would like to learn more about how we can help your organization.
+ 
+
+Cheers,
+ 
+Asena Woodward
+Sr. Product Marketing Manager, Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

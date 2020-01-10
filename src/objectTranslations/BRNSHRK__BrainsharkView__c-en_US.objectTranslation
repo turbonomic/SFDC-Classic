@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activity Record Id --></label>
+        <name>BRNSHRK__ActivityRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>BRNSHRK__Activity__c</name>
+        <relationshipLabel><!-- Brainshark Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Brainshark View Key --></label>
+        <name>BRNSHRK__BrainsharkViewKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>BRNSHRK__Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Company --></label>
+        <name>BRNSHRK__GuestbookCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 01 --></label>
+        <name>BRNSHRK__GuestbookCustom01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 02 --></label>
+        <name>BRNSHRK__GuestbookCustom02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 03 --></label>
+        <name>BRNSHRK__GuestbookCustom03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 04 --></label>
+        <name>BRNSHRK__GuestbookCustom04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 05 --></label>
+        <name>BRNSHRK__GuestbookCustom05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 06 --></label>
+        <name>BRNSHRK__GuestbookCustom06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 07 --></label>
+        <name>BRNSHRK__GuestbookCustom07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 08 --></label>
+        <name>BRNSHRK__GuestbookCustom08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 09 --></label>
+        <name>BRNSHRK__GuestbookCustom09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Custom 10 --></label>
+        <name>BRNSHRK__GuestbookCustom10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Dept --></label>
+        <name>BRNSHRK__GuestbookDept__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Email --></label>
+        <name>BRNSHRK__GuestbookEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook First Name --></label>
+        <name>BRNSHRK__GuestbookFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Last Name --></label>
+        <name>BRNSHRK__GuestbookLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Phone --></label>
+        <name>BRNSHRK__GuestbookPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guestbook Title --></label>
+        <name>BRNSHRK__GuestbookTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitation --></label>
+        <name>BRNSHRK__Invitation__c</name>
+        <relationshipLabel><!-- Brainshark Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Internal --></label>
+        <name>BRNSHRK__IsInternal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Public View --></label>
+        <name>BRNSHRK__IsPublic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Slides --></label>
+        <name>BRNSHRK__NumberOfSlides__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage Viewed --></label>
+        <name>BRNSHRK__OpportunityStage__c</name>
+    </fields>
+    <fields>
+        <label><!-- % of Audio Viewed --></label>
+        <name>BRNSHRK__PercentDurationViewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Slides Viewed --></label>
+        <name>BRNSHRK__PercentSlidesViewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points Scored --></label>
+        <name>BRNSHRK__PointsScored__c</name>
+    </fields>
+    <fields>
+        <label><!-- Possible Points --></label>
+        <name>BRNSHRK__PossiblePoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>BRNSHRK__Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Slides Viewed --></label>
+        <name>BRNSHRK__SlidesViewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Code --></label>
+        <name>BRNSHRK__TrackingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- View IP Address City --></label>
+        <name>BRNSHRK__ViewIPAddressCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- View IP Address Country --></label>
+        <name>BRNSHRK__ViewIPAddressCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- View IP Address Region --></label>
+        <name>BRNSHRK__ViewIPAddressRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Is Mobile --></label>
+        <name>BRNSHRK__ViewIsMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Source --></label>
+        <name>BRNSHRK__ViewSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viewed By --></label>
+        <name>BRNSHRK__ViewedBy__c</name>
+        <relationshipLabel><!-- Brainshark Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Viewed Date/Time --></label>
+        <name>BRNSHRK__ViewedDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viewer Name --></label>
+        <name>BRNSHRK__ViewerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viewing Time --></label>
+        <name>BRNSHRK__ViewingTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viewing Minutes --></label>
+        <name>BRNSHRK__Viewing_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viewing Seconds --></label>
+        <name>BRNSHRK__Viewing_Seconds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viewing Time MM:SS --></label>
+        <name>BRNSHRK__Viewing_Time_MM_SS__c</name>
+    </fields>
+</CustomObjectTranslation>

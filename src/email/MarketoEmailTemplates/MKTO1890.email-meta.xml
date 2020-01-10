@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-07-20-AWS-Price-Performance Webinar.ES-2016-07-18-AWS Webinar.Send</name>
+    <style>none</style>
+    <subject>VMTurbo Webinar Series: Navigating AWS Performance and Price</subject>
+    <textOnly>&lt;[[http://vmturbo.com/resources/vmturbo-webinar-series-aws-performance-price?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=AWSWebinar&amp;utm_content=07182016]]&gt;
+Hi {{lead.First Name:default=There}},
+
+Public cloud is no longer a side project. In fact, many enterprises are moving from a virtualization-first to a cloud-first policy for all applications.
+
+As operations teams receive this charge to “Move to The Cloud,” they are faced with a multitude of architectural, operational and budgetary decisions to migrate and deliver services. Make the right decisions and you’ll get to application scaling and service delivery nirvana. Make the wrong ones and you may be looking for your next IT gig.
+
+VMTurbo offers a solution to accelerate your journey to the cloud – whatever form it might take – and continuously guarantee both performance and maximum cost efficiency in the process.
+
+Join us on July 20th &lt;[[http://vmturbo.com/resources/vmturbo-webinar-series-aws-performance-price?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=AWSWebinar&amp;amp;utm_content=07182016]]&gt; to learn:
+
+
+
+ - How to identify over-sized AWS EC2 instances and makes specific downsize decisions to save you time and money without sacrificing application performance.
+ - How to continuously analyzes the resources your applications are consuming, access the data and decide on instance sizing, provisioning and placement.
+ - How more intelligent approach to auto-scaling enables you to spend less time worrying about the performance of your apps and run-away bills and more time building and deploying your applications.
+
+
+ Our webinar will feature a full demo of the above scenarios, as well as a live Q&amp;A with the engineers who developed this solution. One lucky attendee will receive a $250 Amazon Web Services Credit. Fill out the form to register now!
+
+
+
+
+
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

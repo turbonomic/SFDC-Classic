@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Increase_Utilization.Increase_Utilization_Nurture_5_CTA</name>
+    <style>none</style>
+    <subject>Assure Performance. Lower Cost. Ensure Compliance.</subject>
+    <textOnly>&lt;[[https://turbonomic.com/request-a-demo]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Too many IT teams rely on manual processes and overprovisioning to assure performance. This makes it extremely difficult to manage IT spend and it leaves the team very little time to focus on digital innovation. Turbonomic can help. 
+
+
+ &lt;[[https://turbonomic.com/request-a-demo]]&gt;
+
+
+Turbonomic software manages key tradeoffs providing real-time resource allocation that assures performance, lowers cost, and maintains compliance. It empowers Infrastructure and Operations teams to be the drivers of successful public cloud strategies, not bottle-necks.
+
+
+If you&apos;re ready, we&apos;d love to learn more about the challenges you face and to show you how we can help. Please schedule a meeting &lt;[[https://turbonomic.com/request-a-demo/]]&gt; with us today.
+
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

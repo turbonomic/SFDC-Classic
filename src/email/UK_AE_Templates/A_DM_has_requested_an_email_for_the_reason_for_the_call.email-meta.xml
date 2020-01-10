@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>After or during you intro the DM has cut you short and said they will not speak to you unless they receive an email outlining the reason for your call</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>A DM has requested an email with the reason for the call</name>
+    <style>none</style>
+    <subject>{!Account.Name} and VMTurbo EMEA HQ</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

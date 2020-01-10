@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Quote Note Change</name>
+    <style>none</style>
+    <subject>NOTICE: [{!Quote.Sales_Region__c}] Quote Notes Changed for Quote Number {!Quote.QuoteNumber} for {!Quote.Account_Name__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

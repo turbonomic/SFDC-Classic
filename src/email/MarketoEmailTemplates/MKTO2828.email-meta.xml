@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-10-12-Bridging The Gap in IT Webinar.EMAIL-Invitation</name>
+    <style>none</style>
+    <subject>In 1 Hour - What You Need To Know About OpenStack, Containers and the Future</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/bridging-the-gap-to-the-next-gen-of-it?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=bridging-it-gap-wbnr&amp;utm_content=10122016]]&gt;
+Hi {{lead.First Name:default=There}},
+
+As we begin to move into new ways of delivering and consuming services in IT, the bridge is being built for platforms like OpenStack, containers and others. All of these share the goal of solving problems we have in today’s IT and business organizations.
+These waves are not without implications for your professional path and career. In the same way Cisco and VMware command their own gamut of industry certifications and merits, so too with the next crest of technologies require that you adapt to meet the changing demand of the IT tool belt.
+Join us tomorrow as we cover:
+
+
+	- How to lead your own journey and adapt to the quickly changing IT landscape
+	- Where to start on the path to containers and private clouds, and the obstacles you may face along the way
+	- How to approach the dev ops mentality, and how to turn that mentality into actuality
+	- And much more...
+
+
+
+ &lt;[[https://turbonomic.com/resources/bridging-the-gap-to-the-next-gen-of-it?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=bridging-it-gap-wbnr&amp;utm_content=10122016]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

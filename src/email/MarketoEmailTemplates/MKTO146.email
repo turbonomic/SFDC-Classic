@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" >
+<p>Dear {{lead.First Name:default=Sir/Madam}},</p>
+<p><br />OOZ is VMTurbo's acronym for the Optimal Operating Zone, the state in which application performance is assured while resources are utilized as efficiently as possible.
+        To achieve it, VMTurbo Operations Manager continuously adjusts and tunes the managed entities across the virtual environment to reduce contention and ensure resources are available.
+        How do we do it and, more importantly, how can you do it? Watch this <a href="http://www.vmturbo.com/esevideo">video</a> to learn more.
+        <br /><br />If you&rsquo;re ready to Converge your environment to the OOZ, let&rsquo;s get going!&nbsp; First, check out the <a href="http://www.vmturbo.com/eval-tutorial-converge/">"Achieving OOZ" video</a><span style="color: #339966;"> </span>for a demonstration regarding reviewing and   
+ following recommendations to improve performance and     efficiency.
+        Then, check out the ToDos in the Home Tab to see the specific recommendation proposed by the product, following the top recommendations and reviewing performance improvements.
+        The ToDos in the Home Tab for Improve Efficiency prescribe actions to improve utilization and other inefficiencies.<br /><br />You can always schedule a <a href="http://go.vmturbo.com/request-a-demo.html">demo</a> with a VMTurbo support engineer, if  you&rsquo;d prefer one of us to walk 
+you      through it.
+        And <a href="http://support.vmturbo.com/home">support</a> is just a phone call or email away.<br /><br />I&rsquo;ll check back in with you soon.</p>
+<p>Thank you,<br /><br />{{lead.Lead Owner First Name:default=VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}<br />phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}<br />email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}<br /><br /> <br /></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

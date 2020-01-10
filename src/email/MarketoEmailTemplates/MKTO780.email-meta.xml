@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM-Appliance-Nurture6.Email_use</name>
+    <style>none</style>
+    <subject>Reminder: Activate VMTurbo Virtual Health Monitor | Or Keep Paying for Monitoring Tools</subject>
+    <textOnly>NO MATTER YOUR HYPERVISOR
+We Want You to Be Healthy.
+ 
+Forever and Free, As Monitoring Should Be.
+
+We’re out to do good in the world, and our free and unlimited VMTurbo Virtual Health Monitor is just one of the ways we’re doing it. No SMB, Enterprise, or Lemonade Stand should ever have to pay for a virtual monitoring tool.
+
+You haven&apos;t yet activated your FREE and UNLIMITED instance of VHM. Request your license key here &lt;http://bit.ly/1gpucA3&gt;.
+
+Need help installing? Contact us &lt;mailto:sales@vmturbo.com&gt;. We want you to be healthy.
+
+Thank you for downloading,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

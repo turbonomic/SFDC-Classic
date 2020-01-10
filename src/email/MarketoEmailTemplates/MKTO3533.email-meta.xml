@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-03-20-CloudMigrationWebinar-LastChance.Prospect Send</name>
+    <style>none</style>
+    <subject>[Last Chance to Register]  Webinar: How to Accelerate and De-Risk Your Cloud Migration</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+This is your last chance to register for tomorrow&apos;s webinar: 3 Ways to Accelerate and De-Risk Your Cloud Migration.
+
+
+
+ &lt;[[https://turbonomic.com/resources/cloud-migration-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=cloud_migration_webinar]]&gt;
+
+
+
+
+
+
+
+
+
+
+Turbonomic delivers Workload Automation for Hybrid Cloud environments by simultaneously optimizing performance, cost, and compliance in real-time.
+
+Join our live webinar on Thursday, March 22nd at 1PM ET &lt;[[https://turbonomic.com/resources/cloud-migration-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=cloud_migration_webinar]]&gt; to learn how customers are radically accelerating and de-risking their cloud migrations while driving continuous optimization.
+
+We look forward to seeing you on the webinar!
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

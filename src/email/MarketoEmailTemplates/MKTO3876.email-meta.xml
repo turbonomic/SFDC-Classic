@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-07-17-RD-Sponsored-Seattle.ES-2018-06-Seattle Invite 3.Invite</name>
+    <style>none</style>
+    <subject>[Exclusive Invitation] – Dinner on Turbonomic with Vic Bhagat</subject>
+    <textOnly>&lt;[[https://www.eventbrite.com/e/seattle-executive-networking-dinner-tickets-45999432541]]&gt;
+Hi {{lead.First Name:default=there}},
+
+It’s no secret that our industry is experiencing a tectonic shift – businesses are being asked to do more with less, become more agile, more resilient, more innovative. It is this environment in which Vic Bhagat has led IT revolutions at Fortune 500 companies, including Verizon, EMC and GE - adapting and maturing their strategies and processes to meet the needs of their customers and employees.
+ 
+We’d like to invite you to join Vic and your fellow IT leaders from companies like PACCAR, MOZ and AppDynamics for dinner on Tuesday, July 17th at Canlis &lt;[[https://www.eventbrite.com/e/seattle-executive-networking-dinner-tickets-45999432541]]&gt; – and we have a special message from Vic himself.
+
+
+ &lt;[[https://vmturbo.wistia.com/medias/twj6olytt1]]&gt;
+RSVP to reserve your spot today! &lt;[[https://www.eventbrite.com/e/seattle-executive-networking-dinner-tickets-45999432541]]&gt;
+ &lt;[[https://www.eventbrite.com/e/seattle-executive-networking-dinner-tickets-45999432541]]&gt;
+
+We look forward to seeing you there!
+
+
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

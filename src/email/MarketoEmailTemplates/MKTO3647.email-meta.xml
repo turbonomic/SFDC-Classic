@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Orphaned Lead Nurture.Tier3_Cold_Unassigned_Lead_Nurture_Email3</name>
+    <style>none</style>
+    <subject>How Cisco Achieves Success at Scale with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Using Turbonomic, Cisco was able to improve VM performance by reducing resource contention by 80%, as well as become more efficient, avoiding the build-out of a new data center, saving Cisco nearly $20 Million in the process.
+
+ &lt;[[https://turbonomic.com/resources/videos/cisco-turbonomic-success-scale-turbonomic-customer-success-story/]]&gt;
+
+&quot;Turbonomic saved us 54 terabytes of memory. It saved us 4800 virtual CPU cores. And so we could add, after that reboot, another 2200 servers, for free, to the environment.&quot; - Mike Myers, Sr. Director of Cloud Orchestration &amp; Platform Services at Cisco
+
+Schedule a Demo &lt;[[https://turbonomic.com/request-a-demo/]]&gt; and learn how Turbonomic can help your IT organization optimize for performance, cost, and compliance in real-time.
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

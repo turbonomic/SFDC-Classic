@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pre-VMworld EU inhouse mailing.Email</name>
+    <style>none</style>
+    <subject>Complimentary Downloads: Drive Down the Cost of Virtualisation Control</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Welcome to virtualisation paradise, where you can relax with the peace of mind that your workloads are being managed efficiently and your virtual data centre is under control.
+
+As you prepare for VMworld 2013 Barcelona — and even if you are not planning to attend - we’re excited to offer you this complimentary ParadisePack &lt;http://bit.ly/16xSxdh&gt;, which contains the essentials for learning about a new approach to managing your virtual infrastructure that will allow you to ride the wave of data centre control. 
+
+Best Regards,
+VMTurbo Team
+
+Headed to VMworld 2013? Come visit us at Booth #B412 
+
+VMTurbo was named a CRN Emerging Vendor &lt;http://bit.ly/17E5wvN&gt;  for 2013.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

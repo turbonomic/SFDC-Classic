@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>01_20_2016 Performance Driven Licensing.Send</name>
+    <style>none</style>
+    <subject>e-Book - Minimize License Spend While Assuring Compliance</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+As workloads proliferate and IT scales to meet the demands of business, organizations must increase focus on maintaining software and server licensing compliance, or else pay unexpected (and often unaffordable) vendor penalties.
+VMTurbo recently surveyed over 1400 Enterprise IT and datacenter professionals to uncover the communal experience of vendors&apos; licensing structures, and how organizations like yours are fighting back.
+Some of the key findings include:
+
+
+
+
+ - 51% of respondents check to ensure license compliance just once per year OR only when audited by the vendor
+ - 41% of respondents find that visibility into license consumption is their greatest challenge in maintaining license compliance
+
+
+
+
+ &lt;http://vmturbo.com/resources/performance-driven-server-licensing?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Licenseebook&amp;utm_content=10302015&gt;
+Learn more about how the industry is fighting to maintain compliance and avoid unexpected server licensing fees here &lt;http://vmturbo.com/resources/performance-driven-server-licensing?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Licenseebook&amp;utm_content=10302015&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

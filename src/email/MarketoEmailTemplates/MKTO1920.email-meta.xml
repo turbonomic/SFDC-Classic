@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03_26_2014 Haiku.Email_Img</name>
+    <style>none</style>
+    <subject>Virtualization Haiku: Ballooning #vHaiku</subject>
+    <textOnly>#vHaiku
+
+Server room drama.
+VMs ballooning again.
+Try VMTurbo.
+
+&lt;http://bit.ly/1dulNnX&gt;
+
+{{lead.First Name:default=Namaste}}.
+
+We&apos;re different. If our perfect 5-7-5 syllabication doesn&apos;t convince you, try our free, fully-functional 30-day trial of VMTurbo Operations Manager &lt;http://bit.ly/1hhBiRj&gt;, the only virtualization management platform that assures application performance while utilizing your infrastructure as efficiently as possible.
+
+Alerts, tickets, and downtime don&apos;t exist with VMTurbo. Sound peaceful enough?
+
+Also, rock your 5-7-5 on Twitter with #vHaiku.
+
+With great tranquility,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

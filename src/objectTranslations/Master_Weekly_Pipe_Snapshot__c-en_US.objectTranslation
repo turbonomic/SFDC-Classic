@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Master Weekly Pipe Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Master Weekly Pipe Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cloud Oppty Type Master wkly Snapshot --></label>
+        <name>Cloud_Oppty_Type_Master_wkly_Snapshot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engineer Assigned --></label>
+        <name>Engineer_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eval Completion Date --></label>
+        <name>Eval_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eval Start Date --></label>
+        <name>Eval_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Time --></label>
+        <name>Execution_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Snapshot of Month --></label>
+        <name>First_Snapshot_of_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Opportunity --></label>
+        <name>Forecast_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecasted Custom Integration Amount --></label>
+        <name>Forecasted_Custom_Integration_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecasted Services Amount --></label>
+        <name>Forecasted_Services_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecasted TAM Amount --></label>
+        <name>Forecasted_TAM_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecasted Training Amount --></label>
+        <name>Forecasted_Training_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mo&apos;s Forecasted Bookings --></label>
+        <name>Mo_s_Forecasted_Bookings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Move to Upside Date --></label>
+        <name>Move_to_Upside_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Steps --></label>
+        <name>Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ID Date --></label>
+        <name>Opportunity_ID_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Safe ID --></label>
+        <name>Opportunity_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Split Safe ID --></label>
+        <name>Opportunity_Split_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origination Source --></label>
+        <name>Origination_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Split Amount --></label>
+        <name>Split_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Split Owner Team (Static) Group Buckets --></label>
+        <name>Split_Owner_Team_Static_Group_Buckets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Split Owner Team (Static) --></label>
+        <name>Split_Owner_Team_Static__c</name>
+    </fields>
+    <fields>
+        <label><!-- Split Owner --></label>
+        <name>Split_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Split Percentage --></label>
+        <name>Split_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Win --></label>
+        <name>Technical_Win__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Bookings --></label>
+        <name>Total_Bookings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

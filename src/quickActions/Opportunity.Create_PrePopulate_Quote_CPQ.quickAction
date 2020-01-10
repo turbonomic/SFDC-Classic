@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create CPQ Quote with prefilled Opportunity info</description>
+    <fieldOverrides>
+        <field>License_Entity__c</field>
+        <literalValue>Workloads</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__Account__c</field>
+        <formula>Opportunity.AccountId</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__BillingCity__c</field>
+        <formula>IF(
+ NOT(ISBLANK(Opportunity.Partner_Account__c)),
+ Opportunity.Partner_Account__r.BillingCity,
+ Opportunity.Account.BillingCity
+)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__BillingCountry__c</field>
+        <formula>IF( 
+NOT(ISBLANK(Opportunity.Partner_Account__c)), 
+Opportunity.Partner_Account__r.BillingCountry, 
+Opportunity.Account.BillingCountry 
+)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__BillingPostalCode__c</field>
+        <formula>IF( 
+NOT(ISBLANK(Opportunity.Partner_Account__c)), 
+Opportunity.Partner_Account__r.BillingPostalCode, 
+Opportunity.Account.BillingPostalCode
+)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__BillingState__c</field>
+        <formula>IF( 
+NOT(ISBLANK(Opportunity.Partner_Account__c)), 
+Opportunity.Partner_Account__r.BillingState, 
+Opportunity.Account.BillingState
+)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__BillingStreet__c</field>
+        <formula>IF( 
+NOT(ISBLANK(Opportunity.Partner_Account__c)), 
+Opportunity.Partner_Account__r.BillingStreet, 
+Opportunity.Account.BillingStreet
+)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__ExpirationDate__c</field>
+        <formula>TODAY()+30</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__Opportunity2__c</field>
+        <formula>Opportunity.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__Partner__c</field>
+        <formula>Opportunity.Partner_Account__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__PrimaryContact__c</field>
+        <formula>IF(
+NOT(ISBLANK(Opportunity.Channel_Primary_Contact__c)),
+Opportunity.Channel_Primary_Contact__c,
+IF(
+NOT(ISBLANK( Opportunity.Champion__c )),
+Opportunity.Champion__c,
+null
+))</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__SalesRep__c</field>
+        <formula>Opportunity.OwnerId</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__ShippingCity__c</field>
+        <formula>Opportunity.Account.BillingCity</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__ShippingCountry__c</field>
+        <formula>Opportunity.Account.BillingCountry</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__ShippingPostalCode__c</field>
+        <formula>Opportunity.Account.BillingPostalCode</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__ShippingState__c</field>
+        <formula>Opportunity.Account.BillingState</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__ShippingStreet__c</field>
+        <formula>Opportunity.Account.BillingStreet</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__StartDate__c</field>
+        <formula>Opportunity.CloseDate</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Draft</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__WatermarkShown__c</field>
+        <formula>true</formula>
+    </fieldOverrides>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>SBQQ__Opportunity2__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>SBQQ__Account__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>SBQQ__Partner__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>SBQQ__Primary__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>SBQQ__Type__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Deal_Structure__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <standardLabel>New</standardLabel>
+    <successMessage>New Quote Successfully Created</successMessage>
+    <targetObject>SBQQ__Quote__c</targetObject>
+    <targetParentField>SBQQ__Opportunity2__c</targetParentField>
+    <type>Create</type>
+</QuickAction>

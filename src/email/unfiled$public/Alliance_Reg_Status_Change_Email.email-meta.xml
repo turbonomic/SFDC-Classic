@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject: Subject {!Alliance_Registration__c.Customer_Account_Name__c}&apos;s Registration Status Updated to {!Alliance_Registration__c.Registration_Status__c}</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alliance Reg Status Change Email</name>
+    <style>none</style>
+    <subject>{!Alliance_Registration__c.Customer_Account_Name__c}&apos;s Registration Status Updated to {!Alliance_Registration__c.Registration_Status__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

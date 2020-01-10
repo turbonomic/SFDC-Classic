@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2014 SDDC Mailer 2.Email</name>
+    <style>none</style>
+    <subject>From vMotion to Software Defined Datacenter</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+We&apos;re tired of marketing-speak explanations of a &apos;software defined datacenter&apos; that come with equally ambiguous graphics.
+
+Virtualization brought radical change in the datacenter by decoupling the logical from the physical. New control points allow software to manipulate the infrastructure. Examples in the compute and storage stacks would be vMotion and Storage vMotion, which enable VMs to be moved across physical hosts and datastores respectively. The “software defined datacenter” is the just next step in virtualization. 
+
+Check out our SDDC whitepaper http://bit.ly/1daAiS2
+ 
+
+VMTurbo in Boston, Mass.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

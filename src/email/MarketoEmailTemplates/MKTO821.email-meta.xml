@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_02_2014 Xccelerator Newsletter.Xccelerator October</name>
+    <style>none</style>
+    <subject>VMTurbo Partner Newsletter September 2014</subject>
+    <textOnly>&lt;http://vmturbo.com/company/partners/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=xccelerator&amp;utm_content=100214&gt;
+VMTurbo Partner Portal &lt;http://vmturbo.com/company/partners/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=xccelerator&amp;utm_content=100214&gt;
+We are very excited to invite our partners to the new VMTurbo Partner Portal &lt;http://vmturbo.com/company/partners/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=xccelerator&amp;utm_content=100214&gt;.  If you have not yet joined, please go to:
+
+
+ - Learn about VMTurbo, the pain your customers are feeling and how you can help
+ - Find opportunities in your accounts and position VMTurbo
+ - Register your new Opportunities
+ - Request a quote
+ - Get pre &amp; post sales help
+ - Find your sales and technical counterparts
+ - Request NFR Licenses for your demo lab
+
+
+
+For any questions regarding VMTurbo, the Portal or our Partner Program, please contact partners@vmturbo.com &lt;mailto:partners@vmturbo.com&gt;
+Octurbofest 2014
+
+On October 8th, VMTurbo will be holding it’s First Annual Octurbofest in Boston, MA. Octurbofest is an exclusive event featuring a program of cloud and virtualization thought leadership discussions, two VMTurbo customer keynotes, and an inside look at the 2015 VMTurbo Roadmap – including ventures into holistic control for Application Performance Management, Container Control, Hybrid Cloud, and Software-Defined Networking (SDN) Control – from founder Shmuel Kliger and the VMTurbo engineering team.
+The Green Circle Community &lt;http://greencircle.vmturbo.com/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=xccelerator&amp;utm_content=100214&gt;
+
+VMTurbo also recently launched the Green Circle – an online community for customers and partners to discuss all things virtual,  share success stories and best practices.  As a partner of VMTurbo, you have access to this community.  Please log in &lt;http://greencircle.vmturbo.com/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=xccelerator&amp;utm_content=100214&gt; and join the group!
+Webinar: Unearthing a Dev Lab, VDI, &amp; $200K in Savings in Garland, Texas &lt;http://vmturbo.com/vmturbo-webinar-garland-texas/?utm_source=vmturbo&amp;utm_source=email&amp;utm_campaign=xccelerator&amp;utm_content=100214&gt;
+
+Unearthing a Dev Lab, VDI, &amp; $200K in Savings is the compelling story of how one man’s hunch turned into a movement that transformed a city’s IT infrastructure. Hear from Garland’s Senior System Engineer Dammions Darden on how Garland combated both performance issues and inflated hardware over provisioning ratios across the city’s siloed departments. Mr. Darden consolidated and automated his workloads, re-purposing the freed-up hardware for a VDI deployment and development lab. All told, his consolidation projects saved the City of Garland a conservative $200K in licensing and hardware costs.
+ABOUT:VIRTUALIZATION is VMTurbo&apos;s virtualization blog. Cloud, SDx, DevOps, &amp; more!
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+ contacts &lt;http://vmturbo.com/company/contact-vmturbo/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | website &lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | privacy policy &lt;http://www.vmturbo.com/privacy-policy?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | forward &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

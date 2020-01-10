@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Territory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Territories</value>
+    </caseValues>
+    <fields>
+        <label><!-- City Defined --></label>
+        <name>City_Defined__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Defined --></label>
+        <name>Country_Defined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latitude/Longitude Defined --></label>
+        <name>Latitude_Longitude_Defined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Latitude --></label>
+        <name>Max_Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Longitude --></label>
+        <name>Max_Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Latitude --></label>
+        <name>Min_Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Longitude --></label>
+        <name>Min_Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rep Is Active --></label>
+        <name>Rep_Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rep Name --></label>
+        <name>Rep_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rep Team --></label>
+        <name>Rep_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rep --></label>
+        <name>Rep__c</name>
+        <relationshipLabel><!-- Territories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Round Robin Defined --></label>
+        <name>Round_Robin_Defined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round Robin Number --></label>
+        <name>Round_Robin_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Defined --></label>
+        <name>State_Defined__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Definition --></label>
+        <name>Territory_Definition__c</name>
+        <picklistValues>
+            <masterLabel>City__c</masterLabel>
+            <translation><!-- City__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latitude_Longitude__c</masterLabel>
+            <translation><!-- Latitude_Longitude__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round_Robin__c</masterLabel>
+            <translation><!-- Round_Robin__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Territory Geo --></label>
+        <name>Territory_Geo__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATAM</masterLabel>
+            <translation><!-- LATAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

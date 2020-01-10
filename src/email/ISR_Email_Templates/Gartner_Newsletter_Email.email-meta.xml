@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Gartner Newsletter Email</name>
+    <style>none</style>
+    <subject>Enable Virtual Data Center Control</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+What if the days were longer?
+What percentage of your day do you spend drilling into large amounts of data and troubleshooting issues with your virtual datacenter? Since you can’t add hours to the day (and why would you want to?), it’d be great to have that time back to spend on other important elements of your job. The unfortunate reality is that managing the virtual infrastructure is chewing up even more of your cycles as you expand virtualization and adopt cloud services.
+
+Gartner gets it.
+I’m writing today with some very compelling research by Gartner on 3 best practices for managing your virtualized environment. Download this complementary Gartner report &lt;http://gtnr.it/107S7Ya&gt; to learn about a unique approach to operations management, which is built on a software defined control platform. That&apos;s just a fancy way of saying that software like ours makes IT operations straightforward, automated, and predictable.
+
+Even better.
+In a quick call, I can share with you how others, like BT, Colgate-Palmolive, London School of Economics, and CSC, quickly and easily implemented our virtualization management technology to optimize their IT environments and save time. It really is that simple. I look forward to talking with you. Please let me know when you&apos;d like to chat. 
+
+Best Regards,
+
+{!Lead.OwnerFullName}{!Contact.OwnerFullName}
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257
+How does VMTurbo work?</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

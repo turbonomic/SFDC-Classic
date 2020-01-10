@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMware Forum Den Bosch follow up.Email</name>
+    <style>none</style>
+    <subject>VMware Forum Follow up</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+It was great to meet and spend some time with you at the VMware Forum on 4th of June – thanks for taking the time to come by and see us.   As a follow-up to the show, I wanted to point you at several resources designed to dive deeper into the ways VMTurbo will dramatically improve how you control and automate your virtual data center.
+
+
+ - Our Trial Download &lt;http://bit.ly/QzvQgM&gt;
+ - Our online Evaluation Resource Center &lt;http://bit.ly/Yz66Yv&gt;
+ - This technical whitepaper &lt;http://bit.ly/10xbpFp&gt;
+
+
+We will be following up with you shortly to understand your priorities and interest in learning more about VMTurbo. If you would like to set up some time to get a more in-depth, tailored demonstration of our solution, please let us know here &lt;http://bit.ly/145VraT&gt;. 
+
+Kind regards
+
+Craig Rowland 
+Sales Director</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>3_17_2015 Air Medical Group Webinar.03_11_15 Email #1</name>
+    <style>none</style>
+    <subject>Take To The Skies And Win A Drone With Demand-Driven Control For UCS and VNX</subject>
+    <textOnly>&lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinarr&amp;utm_content=031115&gt;
+Demand-Driven Control At Air Medical Group Holdings
+Fly With Us As We Discuss How AMGH Leverages VMTurbo To Control Their IT Backbone
+&lt;http://vmturbo.com/webinar-demand-driven-control-air-medical-group-holdings-llc?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+Holistic Control Of Cisco UCS, EMC VNX And A Suite Of Dell Compute And Storage
+Texas-based Air Medical Group Holdings LLC is the largest independent provider of air medical services in the world, operating through six subsidiaries. AMGH collaborates with leading hospital systems, medical centers and EMS agencies to offer improved access to emergency medical care.
+Join us March 17th at 1:30 PM EST &lt;http://vmturbo.com/webinar-demand-driven-control-air-medical-group-holdings-llc?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amghwebinar&amp;utm_content=031115&gt; as we hear from Christopher Pritchard, Director of Information Technology, how AMGH leverages VMTurbo’s Demand-Driven Control to minimize latency, assure performance, and maximize utilization in its virtual ITbackbone – including holistic control of Cisco Unified Computing System (UCS), EMC VNX, and a suite of Dell compute and storage.
+Ready to learn more? Join us for our webinar where we will be giving away a free 6 Axis Gyro RC Quadcopter with Camera! 
+March, 17th at 1:30 PM EST &lt;http://vmturbo.com/webinar-demand-driven-control-air-medical-group-holdings-llc?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+Register Now! &lt;http://vmturbo.com/webinar-demand-driven-control-air-medical-group-holdings-llc?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+Downloads
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+White Papers
+&lt;https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

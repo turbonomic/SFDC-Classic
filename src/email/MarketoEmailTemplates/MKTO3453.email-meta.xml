@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-03-Field-West-RD-Sponsored-Portland.Marketing Invitation 1.EMAIL - M</name>
+    <style>none</style>
+    <subject>SAVE THE DATE: Portland Trailblazers vs Houston Rockets</subject>
+    <textOnly>&lt;[[https://turbonomic.com/vip-portland/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+
+Enterprises are facing incredible pressure to modernize and transform their IT to become a digital business, 
+leading many organizations to reimagine their hybrid cloud strategy. Determining which workloads go on-premises, which go in the cloud, and how to manage the transition is challenging – and mistakes are costly. This is exacerbated even further once customers get to the cloud and need to manage its complexity.
+We&apos;re getting ready to host an exciting event of to discuss these challenges and enjoy, food, drinks, and of course basketball as the Los Angeles Kings take on the Montreal Canadiens.
+
+
+
+Portland Executive Networking event 
+Portland Trailblazers vs Houston Rockets
+Tuesday, March 20th | Moda Center | 7:00 p.m.
+
+
+
+Save the date for March 6th at 5:30 PM by registering at the following link: http://turbonomic.com/vip-portland &lt;[[https://turbonomic.com/vip-portland/]]&gt;
+
+
+
+
+
+
+We hope you&apos;ll be able join us,
+
+
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

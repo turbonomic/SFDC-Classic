@@ -1,0 +1,5 @@
+{!Opportunity.OwnerFirstName},
+
+Your Opportunity in {!Opportunity.Account} has been approved by the operations team. You may now make edits to it.
+
+Please go here to access the Opportunity: {!Opportunity.Link}

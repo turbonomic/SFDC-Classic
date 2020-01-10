@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-04-06-Pure Storage Webinar.EMAIL-Pure Invite</name>
+    <style>none</style>
+    <subject>Pure Storage &amp; VMTurbo Webinar - Beyond The Array: Full Stack QoS</subject>
+    <textOnly>&lt;[[http://www.purestorage.com/resources/type-b/beyond-the-array-full-stack-qos-on-pure-storage-with-vmturbo.html?utm_source=vmturbo]]&gt;
+Register Now! &lt;[[http://www.purestorage.com/resources/type-b/beyond-the-array-full-stack-qos-on-pure-storage-with-vmturbo.html?utm_source=vmturbo]]&gt;
+
+
+
+
+Date: Thursday, April 14th
+ Time: 9 AM PT / 12 PM ET
+
+
+Pure Storage FlashArrays have revolutionized the performance and cost economies of the enterprise storage tier. As the ever-increasingly complex waves of virtualization and private cloud abstract the upper layers of the stack, resource alignment in compute and network- in addition to storage- are imperative to guaranteeing consistent Quality of Service to business and users.
+ 
+ View this webinar to hear experts from Pure Storage and VMTurbo discuss the benefits that numerous customers have reaped from combining the two technologies to guarantee full-stack QoS adherence.
+ 
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+REGISTER NOW &lt;[[http://www.purestorage.com/resources/type-b/beyond-the-array-full-stack-qos-on-pure-storage-with-vmturbo.html?utm_source=vmturbo]]&gt;
+&lt;[[http://twitter.com/#!/purestorage]]&gt;
+ &lt;[[http://www.linkedin.com/company/pure-storage]]&gt;
+ &lt;[[http://www.facebook.com/PureStorage]]&gt;
+ &lt;[[http://www.youtube.com/user/purestorage]]&gt;
+ &lt;[[https://plus.google.com/104856539646760720998/]]&gt;
+ &lt;[[http://www.purestorage.com/blog/feed/rss/]]&gt;
+Contact Us &lt;[[http://info.purestorage.com/ContactSales.html]]&gt; | Privacy Policy &lt;[[http://www.purestorage.com/privacy/]]&gt; | Unsubscribe &lt;[[http://info.purestorage.com/UnsubscribePage.html?mkt_unsubscribe=1&amp;mkt_tok=]]&gt;
+Pure Storage: 650 Castro Street, Suite #260 Mountain View, CA 94041</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

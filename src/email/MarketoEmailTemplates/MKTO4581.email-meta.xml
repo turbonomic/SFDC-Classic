@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-03-27 Multicloud.ES- 3/27/2019 WB- Invite 1.Email A</name>
+    <style>none</style>
+    <subject>Which cloud should you use?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/turbonomic-containers-multicloud-beyond/]]&gt;  
+
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/turbonomic-containers-multicloud-beyond/]]&gt;
+Hi {{lead.First Name:default=there}}, 
+ 
+  
+ 
+ 
+ With the increasing emphasis on digital applications and services to stay competitive, many organizations are adopting multiple clouds.  
+ We recently surveyed our customers to examine the current and future states of  multicloud  adoption. The findings point to a  multicloud  future, one with exponential IT requiring a new approach to AI. Is your organization prepared for a  multicloud  world? 
+ 
+ 
+    Register Now &lt;[[https://turbonomic.com/resources/turbonomic-containers-multicloud-beyond/]]&gt;    
+ 
+  
+ 
+ 
+ Join us on Wednesday, March 27 at 11 AM ET as we reveal the research and answer questions that you’re likely already facing in your organization: 
+ 	- Why multicloud? 	- How do we get there? (Spoiler alert: Containers) 	- What are the challenges along the way? 
+ Hope to see you there! Register now &lt;[[https://turbonomic.com/resources/turbonomic-containers-multicloud-beyond/]]&gt; and enter to win a $100 Amazon Gift Card.  
+      Thanks,   Andrew       PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/turbonomic-containers-multicloud-beyond/]]&gt; and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VHM-Appliance-Nurture0.Email</name>
+    <style>none</style>
+    <subject>VMTurbo Virtual Health Monitor Download … What’s Next?</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Congratulations! You’ve successfully downloaded the VMTurbo Virtual Health Monitor software.
+
+To activate the solution, please take these steps:
+
+ 1) First, install the appliance. If you need assistance with installation, you can refer to the installation guide &lt;http://www.vmturbo.com/resources/documentation/&gt;. Your default login credentials are: Username: administrator ; Password: administrator
+
+ 2) Next, the setup wizard will step you through the process of requesting and installing the license key to activate Virtual Health Monitor for the term of your license. 
+
+ 
+3) The setup wizard will guide you through setting up the target configuration.
+
+Once setup is complete, you can begin exploring VMTurbo Virtual Health Monitor and seeing the value its monitoring and reporting provide for your virtual environment.
+
+
+Best regards,
+
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

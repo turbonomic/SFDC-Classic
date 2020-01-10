@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-09 Takeaways on Gartner Conference 2018.ES-2018-12-29 Non MQL WBN In</name>
+    <style>none</style>
+    <subject>Win a $100 Amazon Gift Card - Gartner Cloud Strategies Webinar</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j4wvAAA]]&gt;
+Join Turbonomic for our Gartner IOCS 2018 Takeaways Webinar &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j4wvAAA]]&gt; on Wednesday, January 9th at 11 a.m. ET. You&apos;ll receive a concise summary of megatrends discussed at the conference, cloud-related calls to action, and recommendations for Gartner research articles that will help you formulate and drive your cloud strategies.
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j4wvAAA]]&gt;
+
+
+
+During the 30-minute live webinar, we&apos;ll discuss:
+
+
+	- Top learnings from Gartner IOCS
+	- What they mean for you and your team
+	- What to expect in 2019
+
+
+See you there!
+Regards,
+Andrew
+PS. If you can&apos;t make it live, sign up anyways. &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j4wvAAA]]&gt; You&apos;ll be entered to win a $100 Amazon Gift Card and I&apos;ll send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

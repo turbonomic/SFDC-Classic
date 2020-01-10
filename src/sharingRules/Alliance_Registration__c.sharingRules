@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>LATAM_BMC_Registrations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allow Luis DaSilva access to LATAM BMC Registrations</description>
+        <label>LATAM BMC Registrations</label>
+        <sharedTo>
+            <role>Sales_Engineer_International</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Sales_Rep__c</field>
+            <operation>equals</operation>
+            <value>Luis DaSilva,FJ Gould,David Serna</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Admin_Share_with_CTO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Admin Share with CTO</label>
+        <sharedTo>
+            <role>CTO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>VMT_SF_admin</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Manually_Created_Share_with_CTO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Manually Created Share with CTO</label>
+        <sharedTo>
+            <role>CTO</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>VP_of_LATAM_Sales_and_Global_Accounts_US</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Reg_Transparency_for_Alliance_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Reg Transparency for Alliance Team</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_of_LATAM_Sales_and_Global_Accounts_US</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>VP_of_LATAM_Sales_and_Global_Accounts_US</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_with_Charles</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with Charles</label>
+        <sharedTo>
+            <role>CTO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>MarketingManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>VMT_SF_admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>VMT SF admin</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_of_LATAM_Sales_and_Global_Accounts_US</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>VMT_SF_admin</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Visibility_to_FJs_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Visibility to FJs Team</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_of_LATAM_Sales_and_Global_Accounts_US</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>MarketingManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

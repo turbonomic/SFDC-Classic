@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-08-29-Solving The Right Problem e-Book.EMAIL-Right Problem e-Book</name>
+    <style>none</style>
+    <subject>Are You Solving The Right Problem In Your Datacenter?</subject>
+    <textOnly>&lt;[[http://turbonomic.com/thx-wp-how-vmturbo-solves-the-right-problem-in-the-data-center?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=right-problem-e-book&amp;utm_content=08292016]]&gt;
+Hi {{lead.First Name:default=There}},
+For decades IT has been trying to solve the wrong problem, operating under the assumption that systems will break and IT will then fix them. When IT is bogged down with alerts, firefighting, and troubleshooting, there is no possibility of smarter, leaner growth.
+This e-Book outlines a new approach that enables IT to operate outside of the break-fix loop, preventing degradation in the environment before it even begins.
+ &lt;[[http://turbonomic.com/thx-wp-how-vmturbo-solves-the-right-problem-in-the-data-center?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=right-problem-e-book&amp;utm_content=08292016]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

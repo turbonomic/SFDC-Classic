@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Executive Briefing New York.Invite</name>
+    <style>none</style>
+    <subject>Your Invitation to Chill: VIP Cocktail Reception with VMTurbo Following VMworld</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+You’re Invited!
+
+Please join us to discuss how VMTurbo is transforming IT delivery. We will address driving cost down and increasing value to the business. Topics will include software-defined networking and storage; public, private, and hybrid cloud; and the challenge of improving agility while containing costs in this fast-changing landscape.
+
+VMTurbo&apos;s patented Software Defined Control for Virtualized Data Centers allows you to run your environment more efficiently. On average, our customers increase VM density by 20%, saving millions of dollars in opex/capex without degrading performance.
+
+We will be raffling an Xbox One and a PlayStation 4 as a thank you for participating. Please RSVP &lt;http://bit.ly/1hkhpeh&gt; before Thursday, February 13th and look forward to seeing you there.
+
+
+Sincerely,
+
+{{lead.Lead Owner First Name:default=VMTurbo}}{{lead.Lead Owner Last Name:default=edit me}}
+
+
+-----------------------------------------------------------------
+
+VMTurbo VIP Cocktail Reception
+ Thursday, February 20
+ 5:30 PM-7:30 PM
+ 230 Fifth Bar - 230 Fifth Ave, Corner of 27th St on 5th Ave, New York</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

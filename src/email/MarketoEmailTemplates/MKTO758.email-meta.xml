@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>3.2 webinar reminder.3.2 Webinar reminder</name>
+    <style>none</style>
+    <subject>Join our webinar introducing Operations Manager 3.2</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Act fast and grab your spot at our webinar &lt;http://bit.ly/OX2Cbg&gt; tomorrow!
+
+On Tuesday, September 25th at 12 pm EDT, we&apos;ll take you on a quick tour of VMTurbo Operations Manager version 3.2. Your guide is Yuri Rabover, vice president of product strategy, who will review our solution&apos;s core capabilities—including several new and exciting features &lt;http://bit.ly/VxQS2k&gt;—designed to improve the way you control and automate operations in your virtualized cloud environment.
+
+Do you spend too much time chasing performance issues? Would you benefit from a solution that prescribes actions to prevent problems before they occur? Would you like to maximize utilization at the same time? Do you struggle with planning changes to the environment, and deploying new 
+workloads without disrupting existing configurations?
+
+Spend 30 minutes with us to learn how VMTurbo Operations Manager 3.2 can help you drive costs (and frustration) out of your operations process. Register &lt;http://bit.ly/OX2Cbg&gt; now!
+
+See you tomorrow!
+
+
+Lauren Whitehouse
+Director of Product Marketing
+VMTurbo
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

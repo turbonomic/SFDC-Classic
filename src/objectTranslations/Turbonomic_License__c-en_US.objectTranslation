@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Turbonomic License</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Turbonomic Licenses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Turbonomic Licenses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current License Features --></label>
+        <name>Current_License_Features__c</name>
+        <picklistValues>
+            <masterLabel>SLA</masterLabel>
+            <translation><!-- SLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>active_directory</masterLabel>
+            <translation><!-- active_directory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>aggregation</masterLabel>
+            <translation><!-- aggregation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>app_control</masterLabel>
+            <translation><!-- app_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>applications</masterLabel>
+            <translation><!-- applications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>assessment</masterLabel>
+            <translation><!-- assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>automated_actions</masterLabel>
+            <translation><!-- automated_actions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cloud_cost</masterLabel>
+            <translation><!-- cloud_cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cloud_targets</masterLabel>
+            <translation><!-- cloud_targets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cluster_flattening</masterLabel>
+            <translation><!-- cluster_flattening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>community</masterLabel>
+            <translation><!-- community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>container_control</masterLabel>
+            <translation><!-- container_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cost_control</masterLabel>
+            <translation><!-- cost_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>custom_policies</masterLabel>
+            <translation><!-- custom_policies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>custom_reports</masterLabel>
+            <translation><!-- custom_reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>customized_views</masterLabel>
+            <translation><!-- customized_views --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>deploy</masterLabel>
+            <translation><!-- deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fabric</masterLabel>
+            <translation><!-- fabric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>full_policy</masterLabel>
+            <translation><!-- full_policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>group_editor</masterLabel>
+            <translation><!-- group_editor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>historical_data</masterLabel>
+            <translation><!-- historical_data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>loadbalancer</masterLabel>
+            <translation><!-- loadbalancer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>multiple_vc</masterLabel>
+            <translation><!-- multiple_vc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>network_control</masterLabel>
+            <translation><!-- network_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>optimizer</masterLabel>
+            <translation><!-- optimizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>planner</masterLabel>
+            <translation><!-- planner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>public_cloud</masterLabel>
+            <translation><!-- public_cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>scaling</masterLabel>
+            <translation><!-- scaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>scoped_user_view</masterLabel>
+            <translation><!-- scoped_user_view --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>storage</masterLabel>
+            <translation><!-- storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>trial</masterLabel>
+            <translation><!-- trial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vdi_control</masterLabel>
+            <translation><!-- vdi_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vmturbo_api</masterLabel>
+            <translation><!-- vmturbo_api --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- Turbonomic Licenses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- License Creation Use Cases --></label>
+        <name>License_Creation_Use_Cases__c</name>
+    </fields>
+    <fields>
+        <label><!-- License End Date --></label>
+        <name>License_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Entity --></label>
+        <name>License_Entity__c</name>
+        <picklistValues>
+            <masterLabel>Cores</masterLabel>
+            <translation><!-- Cores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sockets</masterLabel>
+            <translation><!-- Sockets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workloads</masterLabel>
+            <translation><!-- Workloads --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- License Key (Plain Text) --></label>
+        <name>License_Key_Plain_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Type --></label>
+        <name>License_Type__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eval</masterLabel>
+            <translation><!-- Eval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freemium</masterLabel>
+            <translation><!-- Freemium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VHM</masterLabel>
+            <translation><!-- VHM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- License Update Use Cases --></label>
+        <name>License_Update_Use_Cases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Licensee Email --></label>
+        <name>Licensee_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Licensee Name --></label>
+        <name>Licensee_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes From Previous License --></label>
+        <name>Notes_From_Previous_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- One (Turbonomic License) --></label>
+        <name>One_Turbonomic_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Turbonomic Licenses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Reason --></label>
+        <name>Other_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Commercial License Key --></label>
+        <name>Primary_License_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Update --></label>
+        <name>Reason_for_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Temp Insert Features --></label>
+        <name>Temp_Insert_Features__c</name>
+        <picklistValues>
+            <masterLabel>SLA</masterLabel>
+            <translation><!-- SLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>app_control</masterLabel>
+            <translation><!-- app_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>assessment</masterLabel>
+            <translation><!-- assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cloud_cost</masterLabel>
+            <translation><!-- cloud_cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>container_control</masterLabel>
+            <translation><!-- container_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>custom_policies</masterLabel>
+            <translation><!-- custom_policies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fabric</masterLabel>
+            <translation><!-- fabric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>network_control</masterLabel>
+            <translation><!-- network_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>planner</masterLabel>
+            <translation><!-- planner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>public_cloud</masterLabel>
+            <translation><!-- public_cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>scaling</masterLabel>
+            <translation><!-- scaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>storage</masterLabel>
+            <translation><!-- storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vdi_control</masterLabel>
+            <translation><!-- vdi_control --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Licensed Cores --></label>
+        <name>Total_Licensed_Cores__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Licensed Sockets --></label>
+        <name>Total_Licensed_Sockets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Licensed Workloads --></label>
+        <name>Total_Licensed_Workloads__c</name>
+    </fields>
+    <fields>
+        <label><!-- Turbonomic Edition --></label>
+        <name>Turbonomic_Edition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Turbonomic License Safe ID --></label>
+        <name>Turbonomic_License_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated Core Count --></label>
+        <name>Updated_Core_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional Features as they relate to the editions we sell:
+
+Workload Edition: storage, fabric
+Application Edition: storage, fabric, network, app
+Cloud Native Edition: storage, fabric, network, app, container, public cloud, cost_control --></help>
+        <label><!-- Additional License Features --></label>
+        <name>Updated_Features__c</name>
+        <picklistValues>
+            <masterLabel>SLA</masterLabel>
+            <translation><!-- SLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>app_control</masterLabel>
+            <translation><!-- app_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>assessment</masterLabel>
+            <translation><!-- assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cloud_cost</masterLabel>
+            <translation><!-- cloud_cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>container_control</masterLabel>
+            <translation><!-- container_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>custom_policies</masterLabel>
+            <translation><!-- custom_policies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fabric</masterLabel>
+            <translation><!-- fabric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>network_control</masterLabel>
+            <translation><!-- network_control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>planner</masterLabel>
+            <translation><!-- planner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>public_cloud</masterLabel>
+            <translation><!-- public_cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>scaling</masterLabel>
+            <translation><!-- scaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>storage</masterLabel>
+            <translation><!-- storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vdi_control</masterLabel>
+            <translation><!-- vdi_control --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Updated License End Date --></label>
+        <name>Updated_License_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated License Entity --></label>
+        <name>Updated_License_Entity__c</name>
+        <picklistValues>
+            <masterLabel>Cores</masterLabel>
+            <translation><!-- Cores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sockets</masterLabel>
+            <translation><!-- Sockets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workloads</masterLabel>
+            <translation><!-- Workloads --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Updated License ID --></label>
+        <name>Updated_License_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated Socket Count --></label>
+        <name>Updated_Socket_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated Turbonomic Edition --></label>
+        <name>Updated_Turbonomic_Edition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated Workload Count --></label>
+        <name>Updated_Workload_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrade from VHM to Eval --></label>
+        <name>Upgrade_from_VHM_to_Eval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial License Creation --></label>
+        <name>Use_Case_Commercial_License_Creation__c</name>
+    </fields>
+    <fields>
+        <label><!-- DL Form Fail to Send License to Customer --></label>
+        <name>Use_Case_DL_Form_Fail_to_Send__c</name>
+    </fields>
+    <fields>
+        <label><!-- Downgrade to VHM --></label>
+        <name>Use_Case_Downgrade_to_VHM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Download --></label>
+        <name>Use_Case_Form_Download__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Use --></label>
+        <name>Use_Case_Internal_Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Extension (Sales) --></label>
+        <name>Use_Case_License_Extension_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Extension (Technical Issues) --></label>
+        <name>Use_Case_License_Extension_Technical__c</name>
+    </fields>
+    <fields>
+        <label><!-- NFR License --></label>
+        <name>Use_Case_NFR_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Reason --></label>
+        <name>Use_Case_Other_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Use_Case_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Prospect Contact Info --></label>
+        <name>Use_Case_Update_Prospect_Contact_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Workload/Socket/Core Count --></label>
+        <name>Use_Case_Update_Socket_Core_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrade Feature Set --></label>
+        <name>Use_Case_Upgrade_Feature_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrade from VHM to Eval --></label>
+        <name>Use_Case_Upgrade_from_VHM_to_Eval__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Eval license updates may not exceed 90 days from today or fall within 2 days of today. --></errorMessage>
+        <name>Eval_Date_Validations</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When downgrading to VHM, you may not set the updated license end date more than 400 days or within 2 days of today --></errorMessage>
+        <name>Eval_Downgrade_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not have updated features if downgrading from VHM in your use cases. Please empty the Updated Features field or remove the Downgrading to VHM use case in the License Update Use Cases field. --></errorMessage>
+        <name>Eval_Downgrade_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only finance can denote the primary license key --></errorMessage>
+        <name>Finance_Only_Primary_Com_Key_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only finance can denote a commercial license type --></errorMessage>
+        <name>Finance_Only_Primary_Com_Key_Change2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure this License has an Opportunity and Account associated. --></errorMessage>
+        <name>Require_Opportunity_And_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the Other Reason field in order to choose Other as a License Creation/Update Use Case. --></errorMessage>
+        <name>Require_Other_Reason_for_Other_Use_Case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Finance/Admins can choose Form Download or Commercial License Creation as a use case when creating licenses. --></errorMessage>
+        <name>Restrict_Use_Cases</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot upgrade a non-VHM license to an Eval license. --></errorMessage>
+        <name>Upgrade_from_VHM_to_Eval_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- VHM/Freemium updates may not exceed 370 days from today or within 2 days of today. --></errorMessage>
+        <name>VHM_Date_Validations</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Upgrading from VHM to Eval, the updated license end date may not exceed 90 days or fall within 2 days of today. --></errorMessage>
+        <name>VHM_Upgrade_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not add features to VHM without upgrading to an Eval License. --></errorMessage>
+        <name>VHM_no_new_features</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generate_Updated_License --></label>
+        <name>Generate_Updated_License</name>
+    </webLinks>
+</CustomObjectTranslation>

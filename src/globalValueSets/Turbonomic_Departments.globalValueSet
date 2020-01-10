@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Alliance Sales</fullName>
+        <default>false</default>
+        <label>Alliance Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Channel Sales</fullName>
+        <default>false</default>
+        <label>Channel Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Sales</fullName>
+        <default>false</default>
+        <label>Commercial Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Experience</fullName>
+        <default>false</default>
+        <label>Customer Experience</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Training</fullName>
+        <default>false</default>
+        <label>Customer Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise Sales</fullName>
+        <default>false</default>
+        <label>Enterprise Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Team</fullName>
+        <default>false</default>
+        <label>Executive Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>General Council</fullName>
+        <default>false</default>
+        <label>General Council</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Resources</fullName>
+        <default>false</default>
+        <label>Human Resources</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre Sales Engineer</fullName>
+        <default>false</default>
+        <label>Pre Sales Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>Product_Support</fullName>
+        <default>false</default>
+        <label>Product Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Team</fullName>
+        <default>false</default>
+        <label>Product Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Services</fullName>
+        <default>false</default>
+        <label>Professional Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Enablement</fullName>
+        <default>false</default>
+        <label>Sales Enablement</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Operations</fullName>
+        <default>false</default>
+        <label>Sales Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Support</fullName>
+        <default>false</default>
+        <label>Sales Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Services Sales</fullName>
+        <default>false</default>
+        <label>Services Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Training &amp; Services</fullName>
+        <default>false</default>
+        <label>Training &amp; Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Turbo Technical Team</fullName>
+        <default>false</default>
+        <label>Turbo Technical Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Various Users</fullName>
+        <default>false</default>
+        <label>Various Users</label>
+    </customValue>
+    <description>A list of internal departments to which users belong</description>
+    <masterLabel>Turbonomic Departments</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

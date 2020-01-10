@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Touch base w/ Turbonomic (1495035704.0)</name>
+    <style>none</style>
+    <subject>Touch base w/ Turbonomic (1495035704.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Tracey- I feel short emails are most effective so I will keep it quick for you. I noticed our team has reached out to your organization in the past, however they appeared to be very brief and high level conversations.   What we do:Assure application performance while cutting costs associated with managing the virtual environment. We allow companies to deliver reliable IT services at the lowest possible cost. How we do it:  &lt;[[http://t.signaleuna.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJN7t5XYgdntBMW2BV-YF1px66vW4Y95BM56dQXwf1T-dyl02?t=http%3a%2f%2fyoutu.be%2fdd2VDWiUSUc&amp;si=6024827084210176&amp;pi=6da24dfc1ecf421aa270ba6859672163]]&gt; Results:·         -increase vm density (25-50%) ex. Fareportal &lt;[[http://cdn.vmturbo.com/wp-content/uploads/2014/04/VMTurbo-Fareportal-Success-Story1.pdf]]&gt;·         -reduce future server spend (30-40%) ex. BT Global &lt;[[http://cdn.vmturbo.com/wp-content/uploads/2013/04/VMTurbo-BT-Success-Story.pdf]]&gt;·         -reduce performance related incidents and alerts ex. Boston College &lt;[[http://cdn.vmturbo.com/wp-content/uploads/2015/02/BostonCollegeSuccessStory.pdf]]&gt;·         -reduce time spent manually troubleshooting and planning ex. Colgate - Palmolive &lt;[[http://cdn.vmturbo.com/wp-content/uploads/2013/04/VMTurbo-Colgate-Palmolive-Success-Story.pdf]]&gt; Do you have 5 minutes at some point this week to see if Turbonomic might align with your initiatives for 2017/18?                    Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

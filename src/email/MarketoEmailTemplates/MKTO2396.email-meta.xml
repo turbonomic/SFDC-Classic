@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-06-15-London Ben Nye Lunch.EMAIL-Confirmation Email</name>
+    <style>none</style>
+    <subject>London Lunch with Ben nye - June 15, 2017</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Thank you registering to attend the executive lunch with Ian Penny and Ben Nye in London on Thursday, June 15th, 2017 at The Mercer at 12:00 PM. We look forward to seeing you there!
+
+Please reach out to zoe.nageotte@turbonomic.com or your account executives for any further questions.
+
+Best,
+
+Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

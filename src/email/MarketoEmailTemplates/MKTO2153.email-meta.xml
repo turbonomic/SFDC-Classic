@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PCSB Strategic Plan and Turbonomic  (1493208115.0)</name>
+    <style>none</style>
+    <subject>PCSB Strategic Plan and Turbonomic  (1493208115.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Rob – After looking through Pinellas County Public Schools website I can see that you and the infrastructure team at Pinellas County Public Schools made a significant investment to virtualize servers to save as you scale and grow. I was hoping that you and the team might have some time to over the next few weeks to have a fifteen minute conversation around Turbonomic’s control platform and how it helps our customers capitalize on the investment they made in virtualization. In short, Turbonomic allows our customers like Orange County School District, the City of Miami and Everbank (to name local customers) to increase application performance by taking a different approach &lt;[[https://turbonomic.com/product/differentiation/]]&gt;, allowing the applications to dictate the resources they need in real time automation. With this, our customers are able to also increase VM to host density, allowing them to spend less on hardware saving them hundreds of thousands.  Rob, do you have time this week to discuss further? Both our Thursday and Friday are open between 2-4 pm EST, let me know if that will work for you or feel free to propose another time.  Best, James</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

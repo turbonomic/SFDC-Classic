@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-08-01-Cloud-Native-Hypervisor.ES-2018-07-31-Cloud-Native-Hypervisor-Pro</name>
+    <style>none</style>
+    <subject>Last Chance | Webinar Invitation | It’s a Multicloud World, Are You Ready?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/cloud-native-hypervisor-webinar/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+This is your last chance to join us on August 1st, at 11am ET. Cloud native and containerization isn’t just revolutionizing applications… it’s transforming the way we need to think about infrastructure, specifically &quot;multicloud.&quot; How will this evolution impact you?
+ &lt;[[https://turbonomic.com/resources/cloud-native-hypervisor-webinar//]]&gt;
+
+In this live, 60-minute discussion and demo session &lt;[[https://turbonomic.com/resources/cloud-native-hypervisor-webinar/]]&gt;, you will learn:
+
+
+	- Trends in cloud-native &amp; multicloud
+
+	- Multicloud drivers &amp; “ingredients”
+
+	- Adoption patterns &amp; best practices
+
+	- How to leverage a true multicloud world
+
+
+
+
+See you there!
+
+Regards, 
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

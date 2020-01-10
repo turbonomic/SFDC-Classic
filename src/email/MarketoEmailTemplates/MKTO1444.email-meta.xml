@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2016-01-20 5 IT Predictions For 2016.01_19_2016 Invite #4.Send</name>
+    <style>none</style>
+    <subject>5 IT Predictions for 2016 Webinar Tomorrow! | Start The Year With An OpenStack Home Lab</subject>
+    <textOnly>&lt;http://vmturbo.com/resources/5-it-predictions-2016/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=webinar-predictions-2016&amp;utm_content=01062016&gt;
+Hi {{lead.First Name:default=There}},
+
+IT Predictions are easy to make. The industry is rife with change, and much of the change is marked by high profile technologies with a lot of press coverage. It is the rate of change that makes it difficult for these predictions to be fulfilled. How quickly will the world adopt new technologies and practices? Which of these will continue winning, and which will fall behind?
+VMTurbo made 5 IT Predictions for 2015, and most of them have come true (or are in the process of coming true). Join us for a new set of predictions looking into 2016, featuring VMTurbo’s experts Yechiam “Y.Y.” Yemini, Yuri Rabover, and Eric Wright!
+A look back at 2015…
+
+ - Containers are Here to Stay
+ - Azure Will Toyota the Public Cloud
+ - Applications Will Take Control
+ - Storage Gets Flashy
+ - The OpenStack Inflection Point
+
+For a full look at last year’s predictions, take a look here &lt;[[http://vmturbo.com/blog/looking-back-on-our-2015-predictions-in-technology]]&gt;.
+
+All attendees will be entered to win a TurboStack Home Lab, including native OpenStack Juno, valued at over $1,400 USD!
+
+ &lt;[[http://vmturbo.com/resources/5-it-predictions-2016/?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=webinar-predictions-2016&amp;utm_content=01062016]]&gt;
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

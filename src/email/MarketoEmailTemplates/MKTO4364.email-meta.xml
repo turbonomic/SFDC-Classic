@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: KubeCon + CloudNativeCon NA - 12_10_18.001 KubeCon Invite 2</name>
+    <style>none</style>
+    <subject>Going to KubeCon Seattle?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Are you going to KubeCon in December? You’re building the new frontier, but cloud native at scale makes for highly complex infrastructure. How will you ensure your organization’s success?
+
+
+Meet with our engineering executives to discuss:
+
+
+
+	- Your 2019 roadmap to making Kubernetes standard across your organization
+
+	- Best practices for managing complexity as you scale Kubernetes deployments 
+
+	- How to leverage Istio, Prometheus, and Knative as you build next-gen platforms that self-manage
+
+	- Your feedback on our roadmap as we extend our AI engine to serverless and beyond
+
+
+
+
+ &lt;[[https://turbonomic.com/upcoming-events/]]&gt;
+
+Turbonomic was founded on the idea that software should manage IT resources, not people. If having platforms self-manage to deliver SLOs while you focus on what matters sounds good, let’s talk. 
+ 
+Best,
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Appliance-Nurture0.Email</name>
+    <style>none</style>
+    <subject>VMTurbo Download … What’s Next?</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Congratulations! You’ve successfully downloaded the VMTurbo Operations Manager trial software.
+
+To activate the solution, you need to take these steps:
+
+
+ - First, install the appliance. If you need assistance with installation, you can refer to the installation guide &lt;http://bit.ly/170DBGg&gt;. Your default login credentials are:
+Username: administrator ; Password: administrator
+ - Next, the setup wizard will step you through the process of requesting and installing the license key &lt;http://bit.ly/16Yb2cq&gt; to activate Operations Manager for the term of your license.
+ - And then the setup wizard will guide you through setting up the target configuration. 
+
+
+
+After, you should be all set to begin exploring VMTurbo Operations Manager and seeing the value it provides you in controlling your virtual or cloud environment.
+
+Best regards,
+
+{{lead.Lead Owner First Name:default=VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}
+ phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+ email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>blank template</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Virtual Health Monitor.Email</name>
+    <style>none</style>
+    <subject>Free Whitepaper-Managing Virtual IT is a Bitter Pill. There’s a Better Way.</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+Up until now, managing virtual IT has been a pain in the you-know-where. VMTurbo offers a different approach—one that allows you to maintain proactive control and address potential problems before they become full-blown headaches. The result: peace of mind that you are maintaining your virtual environment in a healthy state and are driving down the costs of troubleshooting. 
+
+Our solution acts as a full time doctor, continuously performing this health check on your virtual data center, allowing you to take necessary action now. 
+
+With VMTurbo, you don’t even need an appointment. Our solution conducts this health check continuously, and its value is revealed almost immediately.  And while we’re at it, our solution saves customers 30-40% in associated “treatments” related to constant troubleshooting.  
+
+Check out this free white paper &lt;http://bit.ly/TnOKan&gt;, in which we explain how our solution  automates the decision-making process for your 
+IT ops team and prescribes intelligent actions that maintain your virtual environment in a healthy state. We’re so confident in this approach that we’re offering you an initial health check absolutely free.  Download the tool now &lt;http://bit.ly/16EwPYr&gt;, and start seeing its value in less than 30 minutes. 
+
+To Your Virtual Health,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

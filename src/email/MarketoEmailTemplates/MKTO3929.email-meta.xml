@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WC-2018-06-Request-a-Demo-Cloud-Native.Confirmation Email</name>
+    <style>none</style>
+    <subject>Thank You for Requesting a Turbonomic Demo</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Thank you for requesting a demo with Turbonomic. Your request is being processed and a Turbonomic representative will be reaching out to schedule a time to meet.
+
+We look forward to learning more about the challenges you are facing and discussing how we can help you deliver self-managing container platforms. If you have any questions in the meantime please reach out to asena.woodward@turbonomic.com &lt;[[mailto:asena.woodward@turbonomic.com]]&gt; or check out our latest content on container platform optimization here &lt;[[https://resources.turbonomic.com/container-platforms.]]&gt;. 
+
+Sincerely,
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

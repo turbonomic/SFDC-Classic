@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2016-03-09-Turbofest-Silicon-Valley.ES-2016-03-08 Final Reminder.EMAIL-Final</name>
+    <style>none</style>
+    <subject>{{lead.first name}}&apos;s Turbofest Details | Comedian T.J. Miller Announced</subject>
+    <textOnly>&lt;[[https://greencircle.vmturbo.com/groups/turbofest-silicon-valley-2016?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Turbofest-SV&amp;utm_content=030816]]&gt;
+Hi {{Lead.First Name}}, 
+
+Tomorrow is the day. Visit the #VMTurbofest Silicon Valley 2016 &lt;[[https://greencircle.vmturbo.com/groups/turbofest-silicon-valley-2016?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Turbofest-SV&amp;utm_content=030816]]&gt; Green Circle Community group and take the pre-event poll, 
+enter our Best TurboTweet Contest, and get a sneak-preview of some of the awesomeness to come.
+
+#VMTurbofest Details | Agenda &lt;[[https://greencircle.vmturbo.com/docs/DOC-2293?utm_source=vmturbo&amp;amp;utm_medium=email&amp;amp;utm_campaign=Turbofest-SV&amp;amp;utm_content=030816]]&gt;
+Wednesday March, 9, 2016
+{{my.Turbofest Silicon Valley:default=Save The Date}}
+Amazon Web Services Pop-Up Loft
+925 Market Street, San Francisco, CA 94103
+
+
+
+ - From 8:00AM to 12:00PM at the Hilton Union Square we are hosting meetings with our executives. If you would like to schedule a meeting, please contact Kelsey Hill, kelsey.hill@vmturbo.com &lt;[[mailto:kelsey.hill@vmturbo.com]]&gt;
+
+ - Registration begins at 12:15 PM on Floor 3 of the Amazon Web Services Loft where all registered guests will receive a commemorative Turbofest Silicon 
+Valley 2016 messenger bag
+
+ - Turbofest will start promptly at 1:00 PM and full agenda can be 
+accessed in the Green Circle
+ - Presentations end at 6:00 PM, followed by networking and cocktails
+ - Everyone is asked to meet on Floor 3 at 7:45 PM to reserve your seat for T.J. Miller&apos;s performance at 8:00 PM
+
+
+
+Please do not hesitate to reach out to us with any and all questions; our contact information can be found below.
+
+
+We look forward to seeing you tomorrow!
+
+
+Jillian Fiumara 
+Corporate Event Manager, VMTurbo
+Cell: 860.305.1239
+
+
+Kelsey Hill
+Executive Assistant, VMTurbo
+Cell: 914.330.4210
+Data Centers Change.
+So Do Comedians.
+We Keep Both Awesome.
+
+ &lt;[[https://greencircle.vmturbo.com/groups/turbofest-silicon-valley-2016?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=Turbofest-SV&amp;utm_content=030816]]&gt;
+
+T.J. Miller
+Comedian Extraordinaire
+HBO&apos;s Silicon Valley &amp; DEADPOOL</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

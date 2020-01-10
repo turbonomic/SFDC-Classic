@@ -1,0 +1,7 @@
+Your request to move the Opportunity {!Opportunity.Name} to Closed Lost was approved. You may now move the Opportunity to Closed Lost.
+
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Owner Team: {!Opportunity.Owner_Team__c}
+
+
+Opportunity Link: {!Opportunity.Link}

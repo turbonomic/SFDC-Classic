@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Appliance-Nurture0.Email_use</name>
+    <style>none</style>
+    <subject>Thank You for Downloading. Now Let&apos;s Party.</subject>
+    <textOnly>ACTIVATE YOUR LICENSE
+&amp; OWN YOUR ENVIRONMENT
+
+ Get Activation Key: &lt;http://bit.ly/1o95lOP&gt;
+
+You&apos;ve just downloaded the world&apos;s most advanced virtualization management software, VMTurbo Operations Manager. You&apos;re on your way to ramping-up VM density and achieving previously impossible utilization rates, all while assuring application performance like never before. Think your environment is too complex? VMTurbo thrives on complexity.
+
+ - Start by deploying the self-contained instance. Your username and password is &quot;administrator&quot;. Our Installation Video &lt;http://bit.ly/1kawumm&gt; will usher you straight to the promised land.
+ 
+ - Snag your License Key &lt;http://bit.ly/1o95lOP&gt;, or as we like to call it, the “Life before VMTurbo was so much worse” key.
+ 
+Life is about the change. CapEx and OpEx are going down, along with your frustrations. Like we said, you’re a genius. It’s time to own your environment.
+
+Looking forward to your success,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

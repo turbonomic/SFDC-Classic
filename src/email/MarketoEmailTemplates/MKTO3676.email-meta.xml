@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Smart Workload Video</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_Manufacturing_Cold_Nurture.Manufacturing_Cold_Nurture_Enterprise_E</name>
+    <style>none</style>
+    <subject>Introducing the SMART Workload, Self-Managing and Real-Time</subject>
+    <textOnly>SMART Workload Automation for Hybrid Cloud
+&lt;[[https://turbonomic.com/resources/videos/smart-workload-automation-for-hybrid-cloud-with-turbonomic/]]&gt;
+
+
+
+
+
+
+
+
+Hi {{lead.First Name:default=there}},
+
+
+
+Over the years, the workload needed to become SMART, self-managing and real-time, in order to manage the complexity of modern infrastructures. In this video, we dive into the evolution of the workload and learn how workload automation can transform your business into the platforms of tomorrow. 
+
+
+Watch now &lt;[[https://turbonomic.com/resources/videos/smart-workload-automation-for-hybrid-cloud-with-turbonomic/]]&gt; to see how you can enable your most important resource - your people - to create, innovate, and drive greater value to the business or check out this blog on approaching true elasticity &lt;[[https://turbonomic.com/blog/on-technology/the-manual-approach-to-cloud-management/]]&gt; to learn more.
+
+
+
+
+
+
+
+
+
+
+
+Regards,
+
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

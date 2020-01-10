@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-05-12-HPE Dinner Invite.Send</name>
+    <style>none</style>
+    <subject>Join Turbonomic CTO Charles Crouchman for Sushi at HPE</subject>
+    <textOnly>&lt;[[https://turbonomic.com/hpe-discover-turbonomic-dinner/]]&gt;
+Hi {{lead.First Name:default=there}},
+At Turbonomic, customers are the core of our organization. They drive the evolution of our technology, shape our company culture, and even inspired our name change from VMTurbo to Turbonomic last August.
+Join us during HPE Discover at Sushisamba in Las Vegas &lt;[[https://turbonomic.com/hpe-discover-turbonomic-dinner/]]&gt; to learn about our product capabilities and roadmap, including a sneak-peek at our upcoming Version 5.9 Release.
+Whether you are a customer today or are still considering becoming a part of the Turbonomic family, we hope you will join Turbonomic CTO Charles Crouchman on Wednesday, June 7th, to get to know our community. This exclusive event is limited to the first 10 RSVPs.
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

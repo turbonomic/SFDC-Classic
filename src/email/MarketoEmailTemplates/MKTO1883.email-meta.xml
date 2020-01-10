@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-07-07-Channel e-Commerce.Send</name>
+    <style>none</style>
+    <subject>VMTurbo Summer Deal Discount</subject>
+    <textOnly>Hi {{lead.First Name:default=Valued Partner}},
+As a valued VMTurbo partner, we want to make you are aware of a great promotion we are running through the end of August. We’ve recently begun a campaign targeting E-Commerce and Consumer organizations across the United States, and are offering partners who introduce VMTurbo into an E-Commerce/Consumer account an additional 15% discount off their transfer price.
+With the holiday season less than four months away, Black Friday planning is underway – making it the ideal time to present solutions that will improve the performance of their mission-critical applications, efficiency of their infrastructure and general peace of mind during their busiest time of the year.
+To lock in this promotion, simply register your opportunity on the Partner Portal. &lt;[[https://greencircle.vmturbo.com/community/partner-portal]]&gt;
+Thank you!
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

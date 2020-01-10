@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>VOM 3.2 webinar follow up.Thank you Email</name>
+    <style>none</style>
+    <subject>Thank you for attending VMTurbo&apos;s webcast</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for attending the VMTurbo webcast on September 25, 2012. We hope you found the overview and demo highlighting the new enhancements to Operations Manager 3.2 helpful and compelling. If you would like to revisit the information shared in this session, you can review the presentation &lt;http://www.slideshare.net/vmturbo/vmturbo-operations-manager-32-webcast-sep-2012-14459567&gt; or listen to the playback &lt;http://www.youtube.com/watch?v=-om3bI1dhmk&amp;feature=youtu.be&gt;.
+
+For those of you not already using Operations Manager, you can download a trial &lt;http://go.vmturbo.com/cloud-edition-download.html&gt; and visit our Evaluation Resource Center &lt;http://www.vmturbo.com/eval-tutorial-discover/&gt; to learn more.  If you&apos;re a current customer and you&apos;re interested in updating from your current version to the latest revision, you can update online right from the Admin Tab in Operations Manager or 
+follow the instructions &lt;http://support.vmturbo.com/entries/21378687-vmturbo-operations-manager-current-release-offline-update&gt; on our support site for an offline update.
+
+We look forward to seeing you at another of our upcoming events soon.
+
+Sincerely,
+Lauren Whitehouse
+Director of Product Marketing
+VMTurbo
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

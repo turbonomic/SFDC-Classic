@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Search Filters --></label>
+        <name>SBQQ__SearchFilters</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Search Results --></label>
+        <name>SBQQ__SearchResults</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AccountOwner --></label>
+        <name>AccountOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Safe ID --></label>
+        <name>Account_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Completion Progress (Definite) --></label>
+        <name>Asset_Completion_Progress_Definite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Completion Progress (Indefinite) --></label>
+        <name>Asset_Completion_Progress_Indefinite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Safe ID --></label>
+        <name>Asset_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select &quot;Definite&quot; for Assets with a set number of T&amp;S to be delivered. Select &quot;Indefinite&quot; for time-based Assets without a set number of T&amp;S to be delivered. --></help>
+        <label><!-- Asset Type --></label>
+        <name>Asset_Type__c</name>
+        <picklistValues>
+            <masterLabel>Definite</masterLabel>
+            <translation><!-- Definite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indefinite</masterLabel>
+            <translation><!-- Indefinite --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed T&amp;S Hours --></label>
+        <name>Completed_T_S_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Safe ID --></label>
+        <name>Contact_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Converted Asset --></label>
+        <name>Converted_Asset__c</name>
+    </fields>
+    <fields>
+        <help><!-- Are there additional modules that we should develop based on this class? --></help>
+        <label><!-- Courseware Effectiveness --></label>
+        <name>Courseware_Effectiveness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Use Cases --></label>
+        <name>Customer_Use_Cases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer&apos;s Likelihood of Renewing --></label>
+        <name>Customer_s_Likelihood_of_Renewing__c</name>
+        <picklistValues>
+            <masterLabel>1 - Extremely Unlikely</masterLabel>
+            <translation><!-- 1 - Extremely Unlikely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Unlikely</masterLabel>
+            <translation><!-- 2 - Unlikely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Can&apos;t Say</masterLabel>
+            <translation><!-- 3 - Can&apos;t Say --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Likely</masterLabel>
+            <translation><!-- 4 - Likely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Likely</masterLabel>
+            <translation><!-- 5 - Extremely Likely --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Days completed so far --></help>
+        <label><!-- Days Completed --></label>
+        <name>Days_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Days remaining for the Asset Usage End Date --></help>
+        <label><!-- Days Remaining --></label>
+        <name>Days_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default PO Number --></label>
+        <name>Default_PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe Upsell Opps Identified (If Any) --></label>
+        <name>Describe_Upsell_Opps_Identified_If_Any__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enthusiasm for Our Products --></label>
+        <name>Enthusiasm_for_Our_Products__c</name>
+        <picklistValues>
+            <masterLabel>1 - Poor</masterLabel>
+            <translation><!-- 1 - Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Fair</masterLabel>
+            <translation><!-- 2 - Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Good</masterLabel>
+            <translation><!-- 3 - Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Good</masterLabel>
+            <translation><!-- 4 - Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Excellent</masterLabel>
+            <translation><!-- 5 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Follow-Up Activities --></label>
+        <name>Follow_Up_Activities__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if dates will need to be added or modified once new information/paperwork arrives --></help>
+        <label><!-- Incomplete Dates --></label>
+        <name>Incomplete_Dates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issues or Bugs Identified (If Any) --></label>
+        <name>Issues_or_Bugs_Identified_If_Any__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level of Understanding of Our Technology --></label>
+        <name>Level_of_Understanding_of_Our_Technology__c</name>
+        <picklistValues>
+            <masterLabel>1 - Poor</masterLabel>
+            <translation><!-- 1 - Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Fair</masterLabel>
+            <translation><!-- 2 - Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Good</masterLabel>
+            <translation><!-- 3 - Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Good</masterLabel>
+            <translation><!-- 4 - Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Excellent</masterLabel>
+            <translation><!-- 5 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use this field in case it does not match the default PO number from the Opportunity attached. --></help>
+        <label><!-- Manual PO Number --></label>
+        <name>Manual_PO_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opportunity that created the asset --></help>
+        <label><!-- Opportunity2 --></label>
+        <name>Opportunity2__c</name>
+        <relationshipLabel><!-- Assets2 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Observations (If Any) --></label>
+        <name>Other_Observations_If_Any__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Training Experience --></label>
+        <name>Overall_Training_Experience__c</name>
+        <picklistValues>
+            <masterLabel>1 - Poor</masterLabel>
+            <translation><!-- 1 - Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Fair</masterLabel>
+            <translation><!-- 2 - Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Good</masterLabel>
+            <translation><!-- 3 - Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Good</masterLabel>
+            <translation><!-- 4 - Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Excellent</masterLabel>
+            <translation><!-- 5 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Contact --></label>
+        <name>Partner_Contact__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner --></label>
+        <name>Partner__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Per Unit --></label>
+        <name>Price_Per_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Category --></label>
+        <name>Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Enhancement Requests --></label>
+        <name>Product_Enhancement_Requests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family (from Product) --></label>
+        <name>Product_Family_from_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Safe ID --></label>
+        <name>Product_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Reference --></label>
+        <name>Project_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Opportunity Safe ID --></label>
+        <name>Purchase_Opportunity_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Opportunity --></label>
+        <name>Purchase_Opportunity__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Type --></label>
+        <name>Quantity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cores</masterLabel>
+            <translation><!-- Cores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sockets</masterLabel>
+            <translation><!-- Sockets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VMs</masterLabel>
+            <translation><!-- VMs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Remote T/S? --></label>
+        <name>Remote_T_S__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Opportunity --></label>
+        <name>Renewal_Opportunity__c</name>
+        <relationshipLabel><!-- Assets (Renewal Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to calculate a reverse catch-up (used mostly for deals through April 2012) --></help>
+        <label><!-- Revenue End Date (Early) --></label>
+        <name>Revenue_End_Date_Early__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue End Date --></label>
+        <name>Revenue_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to track when revenue should actually start accounting for delays (e.g., acceptance language).  This allows us to calculate the catch-up. --></help>
+        <label><!-- Revenue Start Date (Delayed) --></label>
+        <name>Revenue_Start_Date_Delayed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Start Date --></label>
+        <name>Revenue_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Remise supplémentaire pour cette ressource, si elle est exprimée avec un montant</help>
+        <label><!-- Additional Disc. (Amt) --></label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Définit la fréquence de facturation.</help>
+        <label><!-- Billing Frequency --></label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help>Type de facturation qui définit à quel moment la facturation doit avoir lieu. La facturation anticipée vous permet de facturer vos clients avant de livrer les produits ou services commandés ; la facturation différée vous permet de facturer vos clients après avoir livré les produits ou services.</help>
+        <label><!-- Billing Type --></label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help>Indique si cet élément de ligne représente un package, ce qui signifie qu&apos;il inclut d&apos;autres éléments de ligne dans ce devis.</help>
+        <label><!-- Package --></label>
+        <name>SBQQ__Bundle__c</name>
+    </fields>
+    <fields>
+        <help>Pour les éléments qui ont des quantités calculées, ce champ contient la quantité d&apos;origine saisie par l&apos;utilisateur.</help>
+        <label><!-- Original Quantity --></label>
+        <name>SBQQ__BundledQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Indique que le produit de cet élément de ligne est groupé (inclus) à un autre produit de ce devis. Les éléments de ligne d&apos;offres groupées ont un prix nul et n&apos;autorisent pas la modification du prix ou de la quantité.</help>
+        <label><!-- Bundled --></label>
+        <name>SBQQ__Bundled__c</name>
+    </fields>
+    <fields>
+        <help>Type de frais sur les produits. Il s&apos;agit d&apos;un champs du système provenant du produit associé.</help>
+        <label><!-- Charge Type --></label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Combine Key --></label>
+        <name>SBQQ__CombineKey__c</name>
+    </fields>
+    <fields>
+        <help>Corrige la remise supplémentaire pour ce composant dans la remise du package parent.</help>
+        <label><!-- Component Discounted By Package --></label>
+        <name>SBQQ__ComponentDiscountedByPackage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Product Id --></label>
+        <name>SBQQ__CreditProductId__c</name>
+    </fields>
+    <fields>
+        <help>Abonnement qui couvre actuellement cette ressource. Automatiquement renseigné si un seul abonnement couvre cette ressource. Les renouvellements remplacent avec le nouvel abonnement.</help>
+        <label><!-- Current Subscription --></label>
+        <name>SBQQ__CurrentSubscription__c</name>
+        <relationshipLabel><!-- Covered Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nom de la dimension de prix source de cette ressource</help>
+        <label><!-- Price Dimension Name --></label>
+        <name>SBQQ__Dimension__c</name>
+    </fields>
+    <fields>
+        <help>Type de barème de remise. Copié depuis le champ Type du barème de remise associé.</help>
+        <label><!-- Discount Schedule Type --></label>
+        <name>SBQQ__DiscountScheduleType__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation>Plage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation>Par palier</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Spécifiez les remises en pourcentage ou en montant à déduire du prix du produit en utilisant la quantité ou la durée achetée. Définissez des plages de quantité/de durée sur des niveaux avec différents pourcentages de remise. La remise s&apos;applique au prix catalogue et le total qui en résulte est stocké dans le prix normal.</help>
+        <label><!-- Discount Schedule --></label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Remise supplémentaire pour cette ressource, si elle est exprimée en pourcentage</help>
+        <label><!-- Additional Disc. (%) --></label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help>Remise à appliquer en plus de la remise partenaire.</help>
+        <label><!-- Distributor Discount --></label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Identifier la fonctionnalité et l&apos;option dynamique de cette ligne.</help>
+        <label><!-- Dynamic Option ID --></label>
+        <name>SBQQ__DynamicOptionId__c</name>
+    </fields>
+    <fields>
+        <help>Détermine si Service Cloud était activé lorsque cette ressource a été créée.</help>
+        <label><!-- From Service Cloud --></label>
+        <name>SBQQ__FromServiceCloud__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Quote Line --></label>
+        <name>SBQQ__LatestQuoteLine__c</name>
+        <relationshipLabel><!-- Assets (Latest Quote Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Prix catalogue de ce produit Ressource.</help>
+        <label><!-- List Price --></label>
+        <name>SBQQ__ListPrice__c</name>
+    </fields>
+    <fields>
+        <help>Marge pour cette ressource, si elle est exprimée avec un montant</help>
+        <label><!-- Markup (Amt) --></label>
+        <name>SBQQ__MarkupAmount__c</name>
+    </fields>
+    <fields>
+        <help>Marge sur cette ressource, si elle est exprimée en pourcentage</help>
+        <label><!-- Markup (%) --></label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help>Numéro qui indique la position de la ligne dans son groupe ou son devis.</help>
+        <label><!-- Number --></label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help>Remise étendue à ce produit, car il fait partie d&apos;un package.</help>
+        <label><!-- Option Discount (Amt) --></label>
+        <name>SBQQ__OptionDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Si cette ligne correspond à une unité de gestion de stock facultative, ce champ capture toute remise accordée au package et étendue à l&apos;option.</help>
+        <label><!-- Option Discount (%) --></label>
+        <name>SBQQ__OptionDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Indique le niveau d&apos;imbrication de cette option (s&apos;applique uniquement aux lignes générées à partir d&apos;options).</help>
+        <label><!-- Option Level --></label>
+        <name>SBQQ__OptionLevel__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type d&apos;option, copié depuis l&apos;Option produit associée. Détermine le calcul de la quantité.</help>
+        <label><!-- Option Type --></label>
+        <name>SBQQ__OptionType__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation>Accessoire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation>Composant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Product</masterLabel>
+            <translation>Produit associé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Product --></label>
+        <name>SBQQ__OrderProduct__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Coût unitaire d&apos;origine de la ressource au moment de l&apos;achat, avant l&apos;application des barèmes de coût unitaire.</help>
+        <label><!-- Original Unit Cost --></label>
+        <name>SBQQ__OriginalUnitCost__c</name>
+    </fields>
+    <fields>
+        <help>Un code qui énumère chacun des composants de ce package en fonction de leurs codes composant.</help>
+        <label><!-- Package Product Code --></label>
+        <name>SBQQ__PackageProductCode__c</name>
+    </fields>
+    <fields>
+        <help>Une description de chaque composant dans ce package.</help>
+        <label><!-- Package Product Description --></label>
+        <name>SBQQ__PackageProductDescription__c</name>
+    </fields>
+    <fields>
+        <help>Les remises partenaires sont appliquées après toutes les remises automatiques et discrétionnaires. La remise partenaire est prise en compte dans le prix partenaire.</help>
+        <label><!-- Partner Discount --></label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Dimension --></label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indique comment le prix de cet élément de ligne est calculé : « Catalogue » = prix catalogue moins la remise. « Coût » = ajout de la marge au coût.</help>
+        <label><!-- Pricing Method --></label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation>Bloc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation>Coût</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personnalisé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Catalogue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation>Pourcentage du total</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Option produit qui a généré cette ligne (le cas échéant).</help>
+        <label><!-- Product Option --></label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Line --></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Prix normal de cette ressource.</help>
+        <label><!-- Regular Price --></label>
+        <name>SBQQ__RegularPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Uplift (%) --></label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields>
+    <fields>
+        <help>La ressource parente. Si elle est renseignée, cette ressource est un enfant dans une offre groupée.</help>
+        <label><!-- Required By Asset --></label>
+        <name>SBQQ__RequiredByAsset__c</name>
+        <relationshipLabel><!-- Assets (Required By Asset) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>L&apos;ID de l&apos;enregistrement parent qui nécessite cet enregistrement.</help>
+        <label><!-- Required By Id --></label>
+        <name>SBQQ__RequiredById__c</name>
+    </fields>
+    <fields>
+        <help>Produit parent de cette ressource.</help>
+        <label><!-- Parent Product --></label>
+        <name>SBQQ__RequiredByProduct__c</name>
+        <relationshipLabel><!-- Child Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>L&apos;abonnement parent. S&apos;il est renseigné, cette ressource est un enfant dans une offre groupée.</help>
+        <label><!-- Required By Subscription --></label>
+        <name>SBQQ__RequiredBySubscription__c</name>
+        <relationshipLabel><!-- Assets (Required By Subscription) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revised Asset --></label>
+        <name>SBQQ__RevisedAsset__c</name>
+        <relationshipLabel><!-- Revised Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Parent ultime de l&apos;offre groupée de cette ressource</help>
+        <label><!-- Root Asset (CPQ) --></label>
+        <name>SBQQ__RootAsset__c</name>
+        <relationshipLabel><!-- Assets (RootAsset) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>L&apos;ID de la souscription ou de la ressource à la racine du paquet qui contient cette ressource</help>
+        <label><!-- Root Id --></label>
+        <name>SBQQ__RootId__c</name>
+    </fields>
+    <fields>
+        <help>Pour les produits à segments multiples, l&apos;index qui représente la position de cette ligne de devis dans le tableau des segments.</help>
+        <label><!-- Segment Index --></label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment Key --></label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <help>Pour les produits à segments multiples, étiquette de l&apos;en-tête de colonne (par exemple « Année 1 ») associée à cette ligne.</help>
+        <label><!-- Segment Label --></label>
+        <name>SBQQ__SegmentLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription End Date --></label>
+        <name>SBQQ__SubscriptionEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Quote Line --></label>
+        <name>SBQQ__SubscriptionQuoteLine__c</name>
+        <relationshipLabel><!-- Assets (Quote Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription Start Date --></label>
+        <name>SBQQ__SubscriptionStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscribed Product --></label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Barème des remises basées sur la durée de l&apos;abonnement. La valeur « Groupe » applique le taux de remise à la durée du groupe, alors que la valeur « Devis » applique le taux de remise à toute la durée du devis, quelles que soient les différences de durée dans vos groupes.</help>
+        <label><!-- Term Discount Schedule --></label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel><!-- Assets (Term Discouned) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Coût unitaire de cette ressource.</help>
+        <label><!-- Unit Cost --></label>
+        <name>SBQQ__UnitCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Virtual Asset --></label>
+        <name>SBQQ__VirtualAsset__c</name>
+        <relationshipLabel><!-- Assets (Virtual Asset) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SKU Type --></label>
+        <name>SKU_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Delevered By Safe ID --></label>
+        <name>Services_Delevered_By_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Delivered By --></label>
+        <name>Services_Delivered_By__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Services Delivery Date --></label>
+        <name>Services_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Notes --></label>
+        <name>Services_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Revenue --></label>
+        <name>Services_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Status --></label>
+        <name>Services_Status__c</name>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Dates</masterLabel>
+            <translation><!-- Waiting on Dates --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Student Engagement --></label>
+        <name>Student_Engagement__c</name>
+        <picklistValues>
+            <masterLabel>1 - Poor</masterLabel>
+            <translation><!-- 1 - Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Fair</masterLabel>
+            <translation><!-- 2 - Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Good</masterLabel>
+            <translation><!-- 3 - Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Good</masterLabel>
+            <translation><!-- 4 - Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Excellent</masterLabel>
+            <translation><!-- 5 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Students in Attendance (In Person) --></label>
+        <name>Students_in_Attendance_In_Person__c</name>
+    </fields>
+    <fields>
+        <label><!-- Students in Attendance (Remote) --></label>
+        <name>Students_in_Attendance_Remote__c</name>
+    </fields>
+    <fields>
+        <label><!-- T&amp;S Completed --></label>
+        <name>T_S_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- T&amp;S Forecast Date --></label>
+        <name>T_S_Forecast_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- T&amp;S Forecast Notes --></label>
+        <name>T_S_Forecast_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thoughtful Questions --></label>
+        <name>Thoughtful_Questions__c</name>
+        <picklistValues>
+            <masterLabel>1 - Poor</masterLabel>
+            <translation><!-- 1 - Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Fair</masterLabel>
+            <translation><!-- 2 - Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Good</masterLabel>
+            <translation><!-- 3 - Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Good</masterLabel>
+            <translation><!-- 4 - Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Excellent</masterLabel>
+            <translation><!-- 5 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total T&amp;S Hours --></label>
+        <name>Total_T_S_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Delivered By --></label>
+        <name>Training_Delivered_By__c</name>
+        <picklistValues>
+            <masterLabel>Brandon Combs</masterLabel>
+            <translation><!-- Brandon Combs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>David Fiore</masterLabel>
+            <translation><!-- David Fiore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Divya Singal</masterLabel>
+            <translation><!-- Divya Singal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matthew Barto</masterLabel>
+            <translation><!-- Matthew Barto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melissa Poirier</masterLabel>
+            <translation><!-- Melissa Poirier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orna Kliger</masterLabel>
+            <translation><!-- Orna Kliger --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Training Delivery Date --></label>
+        <name>Training_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total length of the asset in days --></help>
+        <label><!-- Training Length (Days) --></label>
+        <name>Training_Length_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Location --></label>
+        <name>Training_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Notes --></label>
+        <name>Training_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Revenue --></label>
+        <name>Training_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training/Services Completed/Expired Date --></label>
+        <name>Training_Services_Completed_Expired_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Status --></label>
+        <name>Training_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Dates</masterLabel>
+            <translation><!-- Waiting on Dates --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usage Start Date --></label>
+        <name>Usage_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 if Training/Services Asset --></label>
+        <name>X1_if_Training_Asset__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Services --></label>
+        <name>of_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of TAMs --></label>
+        <name>of_TAMs__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Trainings --></label>
+        <name>of_Trainings__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Assets for licenses must be linked to a purchase opportunity --></errorMessage>
+        <name>License_asset_must_be_linked_to_opp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Revenue end-date cannot precede either the Revenue Start Date or Revenue Start Date (Delayed) nor can it be in the same month of either the Revenue Start Date or Revenue Start Date (Delayed). --></errorMessage>
+        <name>Limit_Revenue_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Quantity Type for this Asset. --></errorMessage>
+        <name>Require_Quantity_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Finance, Dan Germain, Training Leads, and Ops may edit these opportunities. --></errorMessage>
+        <name>Restrict_Edits_to_Assets</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Finance may edit the Price, Revenue Start Date, Revenue Start Date (Delayed), or Revenue End Date fields. --></errorMessage>
+        <name>Restrict_Finance_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Training/Services Completed/Expired Date must be set within the current month OR within the last 7 days. If the field is already filled in, you must contact Finance (finance@turbonomic.com) to have this data changed. --></errorMessage>
+        <name>Restrict_TS_Comp_Exp_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Reminder: 3.3 Release Webinar.Email 1</name>
+    <style>none</style>
+    <subject>VMTurbo Valentine</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+Happy Valentine&apos;s Day! 
+ 
+I just wanted to personally send a reminder to attend our webinar today at 12pm ET.  You should 
+have already received the webinar URL and access code.
+ 
+I am excited to have our CTO and Founder Shmuel Kliger and our VP of Product Strategy and co-founder Yuri Rabover join us today. Shmuel and Yuri have deep DNA in developing management solutions for large, complex, distributed IT environments. Our founding team, combining their knowledge of the industry and extensive experience dealing with IT solutions, believed there was a better way to control IT operations. The result is VMTurbo Operations Manager.
+ 
+Shmuel and Yuri will discuss Operations Manager 3.3 enhancements and how the product&apos;s software-defined control offloads and automates decision-making from 
+operational staff instead of just collecting data and providing alerts.  With it, our customers are delivering greater control in maintaining a healthy state and consistent service delivery.
+ 
+We 
+carved out a portion of time to address questions.  If you have any questions you&apos;d like to submit beforehand, please send me an email &lt;mailto:lauren.whitehouse@vmturbo.com&gt;.
+ 
+Chat 
+soon.
+ 
+Lauren
+ 
+Lauren Whitehouse
+Director, Product Marketing
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

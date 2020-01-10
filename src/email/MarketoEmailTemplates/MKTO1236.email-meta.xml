@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_09_2015 License Survey.Send</name>
+    <style>none</style>
+    <subject>Licensing Survey – Win a TurboStack Home Lab!</subject>
+    <textOnly>&lt;https://www.surveymonkey.com/r/vmtstateoflicensing&gt;
+Hi {{Lead.First Name}},
+
+As workloads proliferate and IT scales to meet the demands of business, organizations must increase focus on maintaining software licensing compliance, or else pay unexpected (and often unaffordable) vendor penalties.
+
+Our survey aims to uncover the communal experience of vendors&apos; licensing structures, and how organizations like yours are fighting back.
+
+All respondents will be entered to win a TurboStack Home Lab, complete with native OpenStack Juno, valued at over $1,600!
+
+Please take this short survey for a chance to win a TurboStack Home Lab! 
+ &lt;https://www.surveymonkey.com/r/vmtstateoflicensing&gt;
+Survey closes Monday, November 2, 2015 6:00pm EST
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

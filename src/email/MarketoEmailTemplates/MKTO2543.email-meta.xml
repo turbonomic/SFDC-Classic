@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic booth 509 (1495128379.0)</name>
+    <style>none</style>
+    <subject>Turbonomic booth 509 (1495128379.0)</subject>
+    <textOnly>-     
+	- 
+	-   110 Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Aaron, Thanks for taking the time today. I spoke with AJ he will be at our booth #509 for the majority of the week. Please feel free to come by in between sessions to put a face to a name and see what is new with Turbonomic.   Best regards, James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

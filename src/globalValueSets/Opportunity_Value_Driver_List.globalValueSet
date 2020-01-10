@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>None Identified (Too Early)</fullName>
+        <default>false</default>
+        <label>None Identified (Too Early)</label>
+    </customValue>
+    <customValue>
+        <fullName>Accelerate Consolidation &amp; Refresh Projects</fullName>
+        <default>false</default>
+        <label>Accelerate Consolidation &amp; Refresh Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>Accelerate Cloud Migration</fullName>
+        <default>false</default>
+        <label>Accelerate Cloud Migration</label>
+    </customValue>
+    <customValue>
+        <fullName>Optimize Public Cloud Spend</fullName>
+        <default>false</default>
+        <label>Optimize Public Cloud Spend</label>
+    </customValue>
+    <customValue>
+        <fullName>Safely Increase Infrastructure Utilization</fullName>
+        <default>false</default>
+        <label>Safely Increase Infrastructure Utilization</label>
+    </customValue>
+    <customValue>
+        <fullName>Improve IT Staff Productivity</fullName>
+        <default>false</default>
+        <label>Improve IT Staff Productivity</label>
+    </customValue>
+    <customValue>
+        <fullName>Mitigate Risk to Business Critical Applications</fullName>
+        <default>false</default>
+        <label>Mitigate Risk to Business Critical Applications</label>
+    </customValue>
+    <customValue>
+        <fullName>Modernize Data Center Infrastructure Operations</fullName>
+        <default>false</default>
+        <label>Modernize Data Center Infrastructure Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Accelerate Responsible Cloud Strategies</fullName>
+        <default>false</default>
+        <label>Accelerate Responsible Cloud Strategies</label>
+    </customValue>
+    <customValue>
+        <fullName>Increase Agility (Speed of Delivery)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Increase Agility (Speed of Delivery)</label>
+    </customValue>
+    <customValue>
+        <fullName>Differentiate services with defined SLAs (QoS Adherence)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Differentiate services with defined SLAs (QoS Adherence)</label>
+    </customValue>
+    <customValue>
+        <fullName>Reduce and/or Control Infrastructure Costs (HW, SW, Cloud, etc.)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reduce and/or Control Infrastructure Costs (HW, SW, Cloud, etc.)</label>
+    </customValue>
+    <customValue>
+        <fullName>Eliminate Operational Complexities (Performance, Scale, etc.)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Eliminate Operational Complexities (Performance, Scale, etc.)</label>
+    </customValue>
+    <description>Global picklist for Primary and Secondary Value Driver</description>
+    <masterLabel>Opportunity Value Driver List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

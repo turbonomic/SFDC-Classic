@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-20190111-MS EoS.ES - 1a.ES 1 - HTML Invite 1</name>
+    <style>none</style>
+    <subject>=?utf-8?q?=f0=9f=92=B0?= $10 Amazon Gift Card for 2 Minute Survey | Windows &amp; SQL End of Support</subject>
+    <textOnly>&lt;[[http://bit.ly/2AEu8tO]]&gt;
+Hi {{lead.First Name:default=there}},
+
+End of support for SQL Server and Windows Server 2008 is imminent. What will organizations like yours do with their workloads to prevent the tremendous security vulnerability and compliance risk this presents?
+
+Answer our 2-Minute Survey &lt;[[http://bit.ly/2AEu8tO]]&gt; and we&apos;ll share the key takeaways in our upcoming webinar, Prepare for End of Support: Windows and SQL Server 2008 &lt;[[https://turbonomic.com/resources/wbn-ms-eos/?utm_campaign=70157000001j55iAAA]]&gt;, on February 6th.
+
+
+
+Take Survey Now &lt;[[http://bit.ly/2AEu8tO]]&gt;
+
+
+
+To say thanks, you will earn a $10 Amazon Gift Card upon completion of the survey. 
+Furthermore, if you&apos;d like to learn how Turbonomic can help you with your Azure migration, we are offering a $50 Amazon Gift Card for agreeing to a 30-minute meeting with a Turbonomic engineer.
+
+Regards,
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

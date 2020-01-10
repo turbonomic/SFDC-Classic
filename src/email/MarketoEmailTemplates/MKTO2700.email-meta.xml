@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-07-26-MLB Allstar Weekend Experience Giveaway.EMAIL-Confirmation Email</name>
+    <style>none</style>
+    <subject>CONFIRMATION - 2017 Turbonomic MLB All-Star Experience Entry</subject>
+    <textOnly>{{Lead.First Name:default=there}}, I just received a notification that you entered our 2017 Turbonomic MLB All-Star Experience Raffle. In order to remain eligible to win, you must schedule and complete an introductory meeting with Turbonomic prior to June 23rd. Are you available for a conversation this week?  We’ll use this time to review your team’s goals, challenges, and overall objectives, then give you a high-level introduction into Turbonomic’s autonomic workload management platform.  If I don’t hear from you within the next day, I’ll give you a call - looking forward to speaking with you!  Best, {{company.Account Owner First Name:default=Maria Rodriguez}} {{company.Account Owner Last Name:default=}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

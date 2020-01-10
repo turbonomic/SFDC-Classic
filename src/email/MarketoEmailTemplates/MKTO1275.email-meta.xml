@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>11_10_2015 Containers Webinar.Send</name>
+    <style>none</style>
+    <subject>Containers, Microservices &amp; Why They Matter</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-resources/microservices-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=MicroservicesWebinar&amp;utm_content=10262015&gt;
+Hi {{lead.First Name:default=edit me}},
+
+Containers are not new. In fact, their conceptual lineage dates back to the 1970s and chroot jail in UNIX, wherein an application&apos;s processes and dependencies were isolated from the rest of the system.
+In 2014, the genesis of Docker catapulted containers back into the spotlight, as a prospective and seemingly inevitable replacement for their heavier cousins, virtual machines.
+As organizations experiment and eventually transition to technologies such as containers and microservices they will inevitably encounter a new set of challenges – This Thursday we&apos;ll discuss all these and more on our webinar Containers, Microservices &amp; Why They Matter.
+During the webinar, we cover:
+
+
+
+ - 
+Which container standard is winning, and which alternatives you should consider
+
+
+ - 
+How containerization and microservices will impact performance through increased East-West traffic
+
+
+ - 
+How microservices trade code complexity for operational complexity, and why you should care
+
+
+ - 
+What VMTurbo is doing to deliver performance control in virtualized, containerized and microservices environments alike
+
+
+
+ &lt;http://vmturbo.com/vmturbo-resources/microservices-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=MicroservicesWebinar&amp;utm_content=11032015&gt;
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

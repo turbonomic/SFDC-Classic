@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>David | Alex Turbonomic Intro (1493666864.0)</name>
+    <style>none</style>
+    <subject>David | Alex Turbonomic Intro (1493666864.0)</subject>
+    <textOnly>Hi David, 
+Happy Monday, I hope you had a great weekend.  I&apos;m reaching out to see if you would be open to a conversation about how Turbonomic’s technology can help you address some of the problems specific to Education Organization and their IT professionals. 
+Even if you have an Ivy League-sized endowment, I have a feeling you may be under pressure to keep costs at an all-time low. This requirement might seem as if it’s in direct contrast to delivering the highest quality IT services to students, faculty and staff. What if I told you it didn’t have to be? 
+I&apos;d love to learn more about your current approach to these challenges, and share how we’ve helped organizations like Boston College and Georgetown overcome them. Below are the truly compelling results we have driven across all our Education customers: 
+ 
+Would you be open to a conversation next week on Tuesday or Wednesday morning?  Best,   Alex Opiela</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

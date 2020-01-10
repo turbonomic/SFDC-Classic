@@ -1,0 +1,46 @@
+<messaging:emailTemplate subject="Sales Closed - Order Info" recipientType="User" relatedToType="Opportunity">
+<messaging:htmlEmailBody >
+<html>
+<img src="https://c.cs7.content.force.com/servlet/servlet.FileDownload?file=015M00000000mlh"></img><h3>CUSTOMER INFO FORM
+ </h3><h4>I. Details required to generate a license:</h4>
+<ol>
+<apex:repeat var="cx" value="{!relatedTo.Quotes}">
+<li>Customer/End User e-mail: [ {!cx.Bill_to_Email__c} ]   </li>
+<li>Customer/End User Name:  {!cx.Bill_to_Contact__c}</li>
+<li>Company Name:  {!relatedTo.Account.Name}</li>
+  </apex:repeat>
+  
+ <li> Expiration Date of License (term or perpetual) </li>
+<li>Product (Cloud/Enterprise, etc.):<apex:repeat var="cx" value="{!relatedTo.OpportunityLineItems}">
+             <apex:outputPanel rendered="{CONTAINS(!cx.PriceBookEntry.Product2.Family,'Support')}" layout="block"><p>Output</p></apex:outputpanel>
+         
+             
+              {!cx.PriceBookEntry.Product2.Family} 
+</apex:repeat> </li>
+<li># Sockets:  {!relatedTo.of_CPU_Sockets__c} </li>
+
+</ol>
+<h4>II. Details required for Customer Invoicing:</h4>
+<ol>
+<li>“Bill to” address:  
+                        <apex:repeat var="q" value="{!relatedTo.Quotes}">
+                               {!q.Bill_to_Company__c}<br/>
+                               {!q.BillingName}<br/>
+                               {!q.Bill_to_Contact__c}<br/>
+                               {!q.Bill_to_Email__c}<br/>
+                               {!q.BillingStreet} <br/>
+                               {!q.BillingCity}<br/>
+                               {!q.BillingState}<br/>
+                               {!q.BillingPostalCode}<br/>
+                               {!q.BillingCountry}<br/>   
+                              </apex:repeat><br/>
+ 
+                                              
+</li>
+</ol>
+</html>
+
+
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Accepted</fullName>
+        <default>false</default>
+        <label>Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accepted Meeting</fullName>
+        <default>false</default>
+        <label>Accepted Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acquired</fullName>
+        <default>false</default>
+        <label>Acquired</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Actifio</fullName>
+        <default>false</default>
+        <label>Actifio</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Added</fullName>
+        <default>false</default>
+        <label>Added</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Atlantis Computing</fullName>
+        <default>false</default>
+        <label>Atlantis Computing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Atteded</fullName>
+        <default>false</default>
+        <label>Atteded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attendance Confirmed</fullName>
+        <default>false</default>
+        <label>Attendance Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - BMC</fullName>
+        <default>false</default>
+        <label>Attended - BMC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Cisco</fullName>
+        <default>false</default>
+        <label>Attended - Cisco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Dinner</fullName>
+        <default>false</default>
+        <label>Attended Dinner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Evotek</fullName>
+        <default>false</default>
+        <label>Attended - Evotek</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Microsoft</fullName>
+        <default>false</default>
+        <label>Attended - Microsoft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - MSFT</fullName>
+        <default>false</default>
+        <label>Attended - MSFT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended On-demand</fullName>
+        <default>false</default>
+        <label>Attended On-demand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Paid Social</fullName>
+        <default>false</default>
+        <label>Attended - Paid Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Partner</fullName>
+        <default>false</default>
+        <label>Attended - Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Post Event</fullName>
+        <default>false</default>
+        <label>Attended Post Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Session</fullName>
+        <default>false</default>
+        <label>Attended Session</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Show</fullName>
+        <default>false</default>
+        <label>Attended Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Vcore</fullName>
+        <default>false</default>
+        <label>Attended - Vcore</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Webcast</fullName>
+        <default>false</default>
+        <label>Attended Webcast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Atttended</fullName>
+        <default>false</default>
+        <label>Atttended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bad Address</fullName>
+        <default>false</default>
+        <label>Bad Address</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bad Address - No Gift Card Sent</fullName>
+        <default>false</default>
+        <label>Bad Address - No Gift Card Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Book Delivered</fullName>
+        <default>false</default>
+        <label>Book Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Book Sent</fullName>
+        <default>false</default>
+        <label>Book Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Demo</fullName>
+        <default>false</default>
+        <label>Booth Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bounced</fullName>
+        <default>false</default>
+        <label>Bounced</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Campaign Outreach</fullName>
+        <default>false</default>
+        <label>Campaign Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CIO</fullName>
+        <default>false</default>
+        <label>CIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CIO Guide</fullName>
+        <default>false</default>
+        <label>CIO Guide</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked Email Link</fullName>
+        <default>false</default>
+        <label>Clicked Email Link</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Exec Meeting</fullName>
+        <default>false</default>
+        <label>Completed Exec Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Meeting</fullName>
+        <default>false</default>
+        <label>Completed Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Survey</fullName>
+        <default>false</default>
+        <label>Completed Survey</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Survey Declined $100 Meeting</fullName>
+        <default>false</default>
+        <label>Completed Survey Declined $100 Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Survey Declined $250 Meeting</fullName>
+        <default>false</default>
+        <label>Completed Survey Declined $250 Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Survey Declined $50 Meeting</fullName>
+        <default>false</default>
+        <label>Completed Survey Declined $50 Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Survey Declined Meeting</fullName>
+        <default>false</default>
+        <label>Completed Survey Declined Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed</fullName>
+        <default>false</default>
+        <label>Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed - BMC</fullName>
+        <default>false</default>
+        <label>Confirmed - BMC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed - Cisco</fullName>
+        <default>false</default>
+        <label>Confirmed - Cisco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed - Microsoft</fullName>
+        <default>false</default>
+        <label>Confirmed - Microsoft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed - MSFT</fullName>
+        <default>false</default>
+        <label>Confirmed - MSFT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed - Partner</fullName>
+        <default>false</default>
+        <label>Confirmed - Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed - Social</fullName>
+        <default>false</default>
+        <label>Confirmed - Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted</fullName>
+        <default>false</default>
+        <label>Contacted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Control Module License Request</fullName>
+        <default>false</default>
+        <label>Control Module License Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conversation / Visited Booth</fullName>
+        <default>false</default>
+        <label>Conversation / Visited Booth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Coraid</fullName>
+        <default>false</default>
+        <label>Coraid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined Meeting</fullName>
+        <default>false</default>
+        <label>Declined Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined Meeting $10 Sent</fullName>
+        <default>false</default>
+        <label>Declined Meeting $10 Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Completed</fullName>
+        <default>false</default>
+        <label>Demo Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Requested</fullName>
+        <default>false</default>
+        <label>Demo Requested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Set</fullName>
+        <default>false</default>
+        <label>Demo Set</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail Delivered</fullName>
+        <default>false</default>
+        <label>Direct Mail Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail Queued</fullName>
+        <default>false</default>
+        <label>Direct Mail Queued</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dispositioned</fullName>
+        <default>false</default>
+        <label>Dispositioned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded</fullName>
+        <default>false</default>
+        <label>Downloaded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded Trial</fullName>
+        <default>false</default>
+        <label>Downloaded Trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Drive Delivered</fullName>
+        <default>false</default>
+        <label>Drive Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Drive Sent</fullName>
+        <default>false</default>
+        <label>Drive Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Send  Clicked</fullName>
+        <default>false</default>
+        <label>Email Send  Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enabling Data-Driven Decisions - Azure o</fullName>
+        <default>false</default>
+        <label>Enabling Data-Driven Decisions - Azure o</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged</fullName>
+        <default>false</default>
+        <label>Engaged</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluation Completed</fullName>
+        <default>false</default>
+        <label>Evaluation Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluation Request</fullName>
+        <default>false</default>
+        <label>Evaluation Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluation Scheduled</fullName>
+        <default>false</default>
+        <label>Evaluation Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exhausted</fullName>
+        <default>false</default>
+        <label>Exhausted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Falconstor</fullName>
+        <default>false</default>
+        <label>Falconstor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Filled out Form</fullName>
+        <default>false</default>
+        <label>Filled out Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Form Submitted</fullName>
+        <default>false</default>
+        <label>Form Submitted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Greenbytes</fullName>
+        <default>false</default>
+        <label>Greenbytes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Handoff by Executive</fullName>
+        <default>false</default>
+        <label>Handoff by Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High Value Booth Visitor</fullName>
+        <default>false</default>
+        <label>High Value Booth Visitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotlink</fullName>
+        <default>false</default>
+        <label>Hotlink</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inactive</fullName>
+        <default>false</default>
+        <label>Inactive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intelligent Migration To Amazon Web Serv</fullName>
+        <default>false</default>
+        <label>Intelligent Migration To Amazon Web Serv</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Introduction to AWS IaaS Solutions: Depl</fullName>
+        <default>false</default>
+        <label>Introduction to AWS IaaS Solutions: Depl</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>License Not Working</fullName>
+        <default>false</default>
+        <label>License Not Working</label>
+    </standardValue>
+    <standardValue>
+        <fullName>List Swap</fullName>
+        <default>false</default>
+        <label>List Swap</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maybe</fullName>
+        <default>false</default>
+        <label>Maybe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted</fullName>
+        <default>false</default>
+        <label>Meeting Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted $100</fullName>
+        <default>false</default>
+        <label>Meeting Accepted $100</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted $10 Sent</fullName>
+        <default>false</default>
+        <label>Meeting Accepted $10 Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted $250 Donation</fullName>
+        <default>false</default>
+        <label>Meeting Accepted $250 Donation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted $50</fullName>
+        <default>false</default>
+        <label>Meeting Accepted $50</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted -Amazon Giftcard</fullName>
+        <default>false</default>
+        <label>Meeting Accepted -Amazon Giftcard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted - Bose</fullName>
+        <default>false</default>
+        <label>Meeting Accepted - Bose</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Accepted - Nespresso</fullName>
+        <default>false</default>
+        <label>Meeting Accepted - Nespresso</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Booked</fullName>
+        <default>false</default>
+        <label>Meeting Booked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed</fullName>
+        <default>false</default>
+        <label>Meeting Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed, $100 Sent</fullName>
+        <default>false</default>
+        <label>Meeting Completed, $100 Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed, Tickets Sent</fullName>
+        <default>false</default>
+        <label>Meeting Completed, Tickets Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed $100 Charity</fullName>
+        <default>false</default>
+        <label>Meeting Completed $100 Charity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed $100 Individual</fullName>
+        <default>false</default>
+        <label>Meeting Completed $100 Individual</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed $100 Sent</fullName>
+        <default>false</default>
+        <label>Meeting Completed $100 Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed $250 Donated</fullName>
+        <default>false</default>
+        <label>Meeting Completed $250 Donated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed $50</fullName>
+        <default>false</default>
+        <label>Meeting Completed $50</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed $50 Sent</fullName>
+        <default>false</default>
+        <label>Meeting Completed $50 Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed - Amazon Giftcard</fullName>
+        <default>false</default>
+        <label>Meeting Completed - Amazon Giftcard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed - Bose</fullName>
+        <default>false</default>
+        <label>Meeting Completed - Bose</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed - Nespresso</fullName>
+        <default>false</default>
+        <label>Meeting Completed - Nespresso</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Completed - Send GC</fullName>
+        <default>false</default>
+        <label>Meeting Completed - Send GC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Confirmed</fullName>
+        <default>false</default>
+        <label>Meeting Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Declined</fullName>
+        <default>false</default>
+        <label>Meeting Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Declined - Bose</fullName>
+        <default>false</default>
+        <label>Meeting Declined - Bose</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Declined - Nespresso</fullName>
+        <default>false</default>
+        <label>Meeting Declined - Nespresso</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Held</fullName>
+        <default>false</default>
+        <label>Meeting Held</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Scheduled</fullName>
+        <default>false</default>
+        <label>Meeting Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Set</fullName>
+        <default>false</default>
+        <label>Meeting Set</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Set (Exec)</fullName>
+        <default>false</default>
+        <label>Meeting Set (Exec)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Set (Non-exec)</fullName>
+        <default>false</default>
+        <label>Meeting Set (Non-exec)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Met personally</fullName>
+        <default>false</default>
+        <label>Met personally</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Met with Alec</fullName>
+        <default>false</default>
+        <label>Met with Alec</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Met with Andrew</fullName>
+        <default>false</default>
+        <label>Met with Andrew</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Met with Andrew and Alec</fullName>
+        <default>false</default>
+        <label>Met with Andrew and Alec</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Microsoft Azure IaaS Solutions</fullName>
+        <default>false</default>
+        <label>Microsoft Azure IaaS Solutions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No response</fullName>
+        <default>false</default>
+        <label>No response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show</fullName>
+        <default>false</default>
+        <label>No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No-show</fullName>
+        <default>false</default>
+        <label>No-show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show - BMC</fullName>
+        <default>false</default>
+        <label>No Show - BMC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show - Cisco</fullName>
+        <default>false</default>
+        <label>No Show - Cisco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show - Follow Up Meeting Set</fullName>
+        <default>false</default>
+        <label>No Show - Follow Up Meeting Set</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show Meeting</fullName>
+        <default>false</default>
+        <label>No Show Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show - Microsoft</fullName>
+        <default>false</default>
+        <label>No Show - Microsoft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show - MSFT</fullName>
+        <default>false</default>
+        <label>No Show - MSFT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show - Partner</fullName>
+        <default>false</default>
+        <label>No Show - Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show - Social</fullName>
+        <default>false</default>
+        <label>No Show - Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Attended</fullName>
+        <default>false</default>
+        <label>Not Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No to Meeting</fullName>
+        <default>false</default>
+        <label>No to Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-In</fullName>
+        <default>false</default>
+        <label>Opt-In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-Out</fullName>
+        <default>false</default>
+        <label>Opt-Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Package Delivered</fullName>
+        <default>false</default>
+        <label>Package Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Package Sent</fullName>
+        <default>false</default>
+        <label>Package Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Path to Hybrid Cloud</fullName>
+        <default>false</default>
+        <label>Path to Hybrid Cloud</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Approval</fullName>
+        <default>false</default>
+        <label>Pending Approval</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Perhaps, Not Ready to Commit to Meeting</fullName>
+        <default>false</default>
+        <label>Perhaps, Not Ready to Commit to Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>POV Accepted</fullName>
+        <default>false</default>
+        <label>POV Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>POV Accepted $1000 Charity</fullName>
+        <default>false</default>
+        <label>POV Accepted $1000 Charity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PreEvent Survey</fullName>
+        <default>false</default>
+        <label>PreEvent Survey</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Trial</fullName>
+        <default>false</default>
+        <label>Product Trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promotion Accepted</fullName>
+        <default>false</default>
+        <label>Promotion Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promotion Declined</fullName>
+        <default>false</default>
+        <label>Promotion Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospected</fullName>
+        <default>false</default>
+        <label>Prospected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purestorage</fullName>
+        <default>false</default>
+        <label>Purestorage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered Arista</fullName>
+        <default>false</default>
+        <label>Registered Arista</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - BMC</fullName>
+        <default>false</default>
+        <label>Registered - BMC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Cisco</fullName>
+        <default>false</default>
+        <label>Registered - Cisco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Confirmed</fullName>
+        <default>false</default>
+        <label>Registered - Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Email</fullName>
+        <default>false</default>
+        <label>Registered - Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Evotek</fullName>
+        <default>false</default>
+        <label>Registered - Evotek</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Microsoft</fullName>
+        <default>false</default>
+        <label>Registered - Microsoft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - MSFT</fullName>
+        <default>false</default>
+        <label>Registered - MSFT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered Nutanix</fullName>
+        <default>false</default>
+        <label>Registered Nutanix</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Partner</fullName>
+        <default>false</default>
+        <label>Registered - Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered Pure</fullName>
+        <default>false</default>
+        <label>Registered Pure</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Social</fullName>
+        <default>false</default>
+        <label>Registered - Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Strategy Session</fullName>
+        <default>false</default>
+        <label>Registered - Strategy Session</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Training</fullName>
+        <default>false</default>
+        <label>Registered - Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered Training - Confirmed</fullName>
+        <default>false</default>
+        <label>Registered Training - Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Vcore</fullName>
+        <default>false</default>
+        <label>Registered - Vcore</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Waitlist</fullName>
+        <default>false</default>
+        <label>Registered - Waitlist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Waitlist Cisco</fullName>
+        <default>false</default>
+        <label>Registered - Waitlist Cisco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Waitlist Evotek</fullName>
+        <default>false</default>
+        <label>Registered - Waitlist Evotek</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Waitlist Microsoft</fullName>
+        <default>false</default>
+        <label>Registered - Waitlist Microsoft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Waitlist MSFT</fullName>
+        <default>false</default>
+        <label>Registered - Waitlist MSFT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Waitlist Partner</fullName>
+        <default>false</default>
+        <label>Registered - Waitlist Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Waitlist Vcore</fullName>
+        <default>false</default>
+        <label>Registered - Waitlist Vcore</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered With CIO</fullName>
+        <default>false</default>
+        <label>Registered With CIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registration Error</fullName>
+        <default>false</default>
+        <label>Registration Error</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Re-invite</fullName>
+        <default>false</default>
+        <label>Re-invite</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Removed</fullName>
+        <default>false</default>
+        <label>Removed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Removed By Sales</fullName>
+        <default>false</default>
+        <label>Removed By Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Request A Demo</fullName>
+        <default>false</default>
+        <label>Request A Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requested</fullName>
+        <default>false</default>
+        <label>Requested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requested Evaluation</fullName>
+        <default>false</default>
+        <label>Requested Evaluation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requested Exec Meeting</fullName>
+        <default>false</default>
+        <label>Requested Exec Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requested Meeting</fullName>
+        <default>false</default>
+        <label>Requested Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - 7 Days to Azure Video</fullName>
+        <default>false</default>
+        <label>Responded - 7 Days to Azure Video</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - Accepted</fullName>
+        <default>false</default>
+        <label>Responded - Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - Freshfields Case Study</fullName>
+        <default>false</default>
+        <label>Responded - Freshfields Case Study</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - Rejected</fullName>
+        <default>false</default>
+        <label>Responded - Rejected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - Repeat</fullName>
+        <default>false</default>
+        <label>Responded - Repeat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - Which Cloud Webinar</fullName>
+        <default>false</default>
+        <label>Responded - Which Cloud Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - Yes to Meeting</fullName>
+        <default>false</default>
+        <label>Responded - Yes to Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVPd</fullName>
+        <default>false</default>
+        <label>RSVPd</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scanned</fullName>
+        <default>false</default>
+        <label>Scanned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled Meeting</fullName>
+        <default>false</default>
+        <label>Scheduled Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send</fullName>
+        <default>false</default>
+        <label>Send</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Invitation</fullName>
+        <default>false</default>
+        <label>Send Invitation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Invite</fullName>
+        <default>false</default>
+        <label>Send Invite</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent - Bose</fullName>
+        <default>false</default>
+        <label>Sent - Bose</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Email</fullName>
+        <default>false</default>
+        <label>Sent Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent - Nespresso</fullName>
+        <default>false</default>
+        <label>Sent - Nespresso</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Offer</fullName>
+        <default>false</default>
+        <label>Sent Offer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipped Direct Mail</fullName>
+        <default>false</default>
+        <label>Shipped Direct Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Speaker</fullName>
+        <default>false</default>
+        <label>Speaker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Staff</fullName>
+        <default>false</default>
+        <label>Staff</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Syncsort</fullName>
+        <default>false</default>
+        <label>Syncsort</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Target</fullName>
+        <default>false</default>
+        <label>Target</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Targeted</fullName>
+        <default>false</default>
+        <label>Targeted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>The CIO Guide to Autonomic IT</fullName>
+        <default>false</default>
+        <label>The CIO Guide to Autonomic IT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trial License Extension Request</fullName>
+        <default>false</default>
+        <label>Trial License Extension Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Turbonomic &amp; Hyperflex Whitepaper</fullName>
+        <default>false</default>
+        <label>Turbonomic &amp; Hyperflex Whitepaper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unitrends</fullName>
+        <default>false</default>
+        <label>Unitrends</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unsubscribed</fullName>
+        <default>false</default>
+        <label>Unsubscribed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade Accepted</fullName>
+        <default>false</default>
+        <label>Upgrade Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade Declined</fullName>
+        <default>false</default>
+        <label>Upgrade Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Using AI to Continuously Maximize Cloud</fullName>
+        <default>false</default>
+        <label>Using AI to Continuously Maximize Cloud</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viewed Offer</fullName>
+        <default>false</default>
+        <label>Viewed Offer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Virident</fullName>
+        <default>false</default>
+        <label>Virident</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited</fullName>
+        <default>false</default>
+        <label>Visited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited Booth</fullName>
+        <default>false</default>
+        <label>Visited Booth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited Page</fullName>
+        <default>false</default>
+        <label>Visited Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visted</fullName>
+        <default>false</default>
+        <label>Visted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VMTurbo booth visited</fullName>
+        <default>false</default>
+        <label>VMTurbo booth visited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waitlist</fullName>
+        <default>false</default>
+        <label>Waitlist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waitlist - Cisco</fullName>
+        <default>false</default>
+        <label>Waitlist - Cisco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waitlisted</fullName>
+        <default>false</default>
+        <label>Waitlisted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wait Listed</fullName>
+        <default>false</default>
+        <label>Wait Listed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waitlist - Microsoft</fullName>
+        <default>false</default>
+        <label>Waitlist - Microsoft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waitlist - Partner</fullName>
+        <default>false</default>
+        <label>Waitlist - Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WBN - Using AI to Max Cloud Savings</fullName>
+        <default>false</default>
+        <label>WBN - Using AI to Max Cloud Savings</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webhook Failed</fullName>
+        <default>false</default>
+        <label>Webhook Failed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Yes to Meeting</fullName>
+        <default>false</default>
+        <label>Yes to Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zerto</fullName>
+        <default>false</default>
+        <label>Zerto</label>
+    </standardValue>
+</StandardValueSet>

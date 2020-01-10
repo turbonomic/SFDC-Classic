@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2018-10-23-Community Survey - Thank You.Completed Survey Thank You - Survey C</name>
+    <style>none</style>
+    <subject>Your reward for completing Turbonomic&apos;s 2018 Community Survey</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Thank you for completing our 2018 Community Survey, your feedback is greatly appreciated! As a reward for your time, here&apos;s your $10.00 Amazon.com gift card. Please follow the link below to claim this offer.
+
+
+If you&apos;d like to learn how Turbonomic enables workloads to be SMART, to self-manage, anywhere, in real-time to simultaneously optimize performance, cost, and compliance in real-time, watch this video &lt;[[https://resources.turbonomic.com/videos/the-smart-workload-v3]]&gt;.
+
+
+{{my.Gift 10:default=edit me}}
+
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

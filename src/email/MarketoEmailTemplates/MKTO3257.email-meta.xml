@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-09-29 6.0 Release Webinar Prospect Send 2.6.0 Prospect Email</name>
+    <style>none</style>
+    <subject>[Webinar] Turbonomic 6.0 is on its way! Join us for a LIVE Release Webinar!</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/turbonomic-6-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=6_0-Release-General&amp;utm_content=09292017]]&gt;
+Hi {{lead.First Name:default=There}}, 
+On September 27th, Turbonomic will announce major advancements to our hybrid cloud management platform with Turbonomic 6.0, enabling our customers to confidently accelerate their journey to a hybrid cloud model.
+With our previous release, we extended our platform’s on-premises capabilities with new support for Amazon Web Services (AWS) and Microsoft Azure public cloud environments. In Turbonomic 6.0 we are going beyond compute and expanding our support of the public cloud stack, as well as introducing many other new features to deliver the most comprehensive hybrid cloud management platform. 
+
+Join us &lt;[[https://turbonomic.com/resources/turbonomic-6-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=6_0-Release-General&amp;utm_content=09292017]]&gt; on October 4th, 2017 from 11:00 AM – 12:00 PM EST for a live webinar, demo and Q&amp;A about Turbonomic 6.0. During this webinar, our Technology Evangelist, Eric Wright, will provide an in-depth look and demo of the platform’s new capabilities.
+
+
+
+   &lt;[[https://turbonomic.com/resources/turbonomic-6-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=6_0-Release-General&amp;utm_content=09292017]]&gt;
+
+
+
+We hope you can make it!
+- Your Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

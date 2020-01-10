@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cloud Edition Download.license email</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=edit me}}, Welcome to VMTurbo</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for your interest in a VMTurbo Operations Manager trial. Getting started with your trial is just a few clicks (and less than 30 minutes) away. Visit our website to initiate your download &lt;http://www.vmturbo.com/getting-started/&gt;.
+ 
+Use your license key &lt;http://bit.ly/OEoVlL&gt; to enable the features in your trial.  Thirty days from the date on this email, your trial version will expire and 
+Operations Manager will revert back to the free Community Edition. 
+ 
+Once you have installed and configured the VMTurbo appliance in your environment, check out the evaluation resources &lt;http://www.vmturbo.com/resources/evaluation-resource-center/&gt; available and, of course, you can always reach support &lt;http://support.vmturbo.com/home&gt; for assistance.
+ 
+Finally, if you have a few minutes (specifically, 2 minutes and 24 seconds), we invite you to view a fun introductory video &lt;http://www.vmturbo.com/vmtvideo/&gt; about VMTurbo. We look forward to working with you.
+ 
+ -The VMTurbo Team
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

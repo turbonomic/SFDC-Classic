@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-03-13 Turbonomic 6.3.ES-20190226-Invite 1 - Partners.Whole Emails Test</name>
+    <style>none</style>
+    <subject>Introducing Turbonomic 6.3</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Today, we&apos;re excited to announce new AI-powered capabilities with Turbonomic 6.3 that enhance performance, quality, and user experience to further empower customers to continuously manage and optimize their hybrid and multi-cloud environments. We look forward to sharing the details with you!
+
+
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;
+
+
+
+
+
+
+Attend our webinar on March 13, 2019 at 11 ET for the &quot;Accelerate and Optimize Your Hybrid and Public Cloud Adoption Strategy &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt;&quot; where Alex Hesterberg, Chief Customer Officer, and Eric Wright, Director of Technical marketing will explore the key new features including:
+
+
+
+	- Intelligent Cloud Autoscaling
+	- Reserved Instance (RI) Enhancements
+	- Kubernetes Integration Updates
+
+
+I hope you&apos;ll join us! Register now and enter to win a $100 Amazon Gift Card. 
+
+ 
+Thanks,
+Andrew
+ 
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-whats-new/]]&gt; and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

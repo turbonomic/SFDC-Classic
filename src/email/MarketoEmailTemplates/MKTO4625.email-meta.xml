@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Metadata_FY19_Nurture_1.Metadata_FY19_Nurture_1_Email_5</name>
+    <style>none</style>
+    <subject>Workload Automation for the Hybrid Cloud</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization/trustworthy-resizing-automation?utm_campaign=7012o000001oRK8AAM]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+
+Workload management in your hybrid cloud, on-premises, or even just in the public cloud, should be as easy as a few clicks. For too many IT teams, it isn&apos;t that easy. View this live demo &lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization/trustworthy-resizing-automation?utm_campaign=7012o000001oRK8AAM]]&gt; to learn how Turbonomic can help.
+
+
+ &lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization/trustworthy-resizing-automation?utm_campaign=7012o000001oRK8AAM]]&gt;
+
+
+In this 30 minute session, you will learn how to quickly set up workload automation in Turbonomic for scaling resources anywhere in your environment with easy-to-use policies.
+
+
+
+
+We hope you find it helpful!
+
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Product-Nurture23.Email</name>
+    <style>none</style>
+    <subject>VMTurbo Trial: You&apos;re nearing the finish line …</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+
+Congratulations, you’re very close to wrapping up your evaluation of VMTurbo Operations Manager. I hope you’ve had ample time to explore its rich features and are experiencing improved performance and efficiency.
+
+There’s still more to see and explore. Before your trial expires in the next week, I’d like to suggest that you try out some of the historical reports. You can also schedule a demo for one-on-one insight into the solution. Let me know and I&apos;ll make the arrangements.
+
+If you’ve seen enough and are interested in licensing the product, let me know and I will put a quote together.
+
+Please contact me or support &lt;http://support.vmturbo.com/home&gt; if you have any questions or need further assistance.
+
+Thank you,
+
+{{lead.Lead Owner First Name:default=VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}
+phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}
+email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

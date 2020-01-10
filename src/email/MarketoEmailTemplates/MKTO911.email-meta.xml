@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WP - TY/WP Offer</name>
+    <style>none</style>
+    <subject>Your VMTurbo 30 Day Trial Offer: Experience True Control</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+
+Thank you for downloading!
+You&apos;re on your way to enlightenment. 
+That whitepaper you just downloaded is almost guaranteed to increase your IQ, but why let the learning stop there? Check out some of our other resources below, we&apos;re sure you&apos;ll find something to tickle your fancy.  
+Whitepaper:
+Cloud Mechanics: Delivering Performance in Shared Environments &lt;http://vmturbo.com/expedient-cloud-mechanics-delivering-performance?http://vmturbo.com/downloads/vmturbo-virtual-health-monitor?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wp_love&amp;utm_content=ty_wp_offer&gt;
+Expedient Data Centers &lt;http://www.expedient.com/&gt;, a leader in Managed and Data Center Services with locations from Cleveland to Memphis to Boston, unpacks the mechanics of how it consistently meets Service Level Agreements for its customers.
+Case Study:
+Canon U.S.A. Fully Automates vMotion and Storage vMotion with VMTurbo &lt;http://cdn.vmturbo.com/wp-content/uploads/2014/11/VMTurbo-Canon-USA-Success-Story-FINAL1.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wp_love&amp;utm_content=ty_wp_offer&gt;
+With VMTurbo, Canon U.S.A. was able to utilzie their existing hardware to the fullest extentand drastically reduce resource contention.
+Webcast:
+Transforming IT Infrastructure for the Cloud Age &lt;http://vmturbo.com/vmturbo-webcast-opensky-vdi-orchestration?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wp_love&amp;utm_content=ty_wp_offer&gt;
+Hear directly from OpenSky, trusted advisors to the Fortune 500, on how they delivered 1600% growth – with zero downtime – to their client, and how you can do the same.
+Your IT control system,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

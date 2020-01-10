@@ -1,0 +1,8 @@
+*** Big SMB Opp Found ***
+
+Opportunity Name: {!Opportunity.Name}
+Account Name: {!Opportunity.Account}
+Amount: {!Opportunity.Amount}
+Identified By: {!Opportunity.Identified_By__c}
+
+Click here to access the Account: https://eu4.salesforce.com/{!Opportunity.AccountId}

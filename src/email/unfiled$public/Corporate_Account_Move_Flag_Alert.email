@@ -1,0 +1,8 @@
+***Account Move Flag ***
+
+{!Account.Name} has been dispositioned to {!Account.Corporate_Account_Move_Flag__c}.
+Reason for disposition: {!Account.Focus_Account_Disposition_Notes__c}
+
+Please disposition accordingly.
+
+Account link: https://eu4.salesforce.com/{!Account.Account_Safe_ID__c}

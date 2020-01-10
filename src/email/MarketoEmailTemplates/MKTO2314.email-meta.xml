@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Can I Send You a Pair of Rangers Tickets? (1494449267.0)</name>
+    <style>none</style>
+    <subject>Can I Send You a Pair of Rangers Tickets? (1494449267.0)</subject>
+    <textOnly>Hi Eric, 
+ With baseball season underway and summer right around the corner, I want to make sure you have a chance to spend some time cheering on the Rangers in Arlington. 
+ Turbonomic is giving away a pair of Rangers tickets to the game of your choice for simply scheduling a 30-minute meeting with a Turbonomic engineer during the month of May. 
+ Schedule your meeting here &lt;[[https://turbonomic.com/turbonomic-rangers-game-summer-giveaway/]]&gt;, and we will get you over to Globe Life Park! 
+ Best, Catherine  
+ Catherine Kellogg Sr. Marketing Program Manager O: 781.418.5280 | M: 617.306.1485 Catherine.kellogg@turbonomic.com &lt;[[mailto:Catherine.kellogg@turbonomic.com]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

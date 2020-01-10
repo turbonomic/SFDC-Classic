@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Follow up: Turbonomic 60-Day License (1507296392.0)</name>
+    <style>none</style>
+    <subject>Follow up: Turbonomic 60-Day License (1507296392.0)</subject>
+    <textOnly>Dear {{Lead.First Name}},    
+   Thank you for your time today.    
+   Below are some points we discussed on our call that I would like to reaffirm:     
+   At the beginning of the 60-day license:   
+ 	- A representative from your company will attend a Zoom/WebEx meeting for a Turbonomic engineer to apply the license key to your Turbonomic product download. 	- In conjunction with your company rep on the call, we will turn on automated v-motions in Turbonomic – PLEASE NOTE: Turbonomic will respect any existing policies and affinity/anti-affinity rules. 
+   At the end of the 60-day license:   
+ 	- A representative from your company will attend a 30-minute Zoom/WebEx to allow us to capture data on improvements delivered by Turbonomic. 	- A representative from your company will attend a 30-minute Zoom/WebEx to allow us to present back to you and your organisation the improvements that Turbonomic has delivered. 
+   We look forward to working with you during the next two months, whilst you take advantage of our EXCLUSIVE VMWORLD PROMO.    
+   Best regards,   **Ahmed Mohamed**               Turbonomic500 Boylston Street, 8th Floor
+Boston, MA 02116      &lt;[[https://www.youtube.com/user/myTurbonomicTV]]&gt; &lt;[[https://www.linkedin.com/company/turbonomic]]&gt; &lt;[[https://www.twitter.com/turbonomic]]&gt; &lt;[[https://www.facebook.com/turbonomic]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

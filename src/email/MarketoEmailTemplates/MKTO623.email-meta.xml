@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Whitepaper-Nurture1-new.Email_use</name>
+    <style>none</style>
+    <subject>Thanks for Reading Our Whitepaper. We Have More, You Know.</subject>
+    <textOnly>&lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=header&gt;
+Dear {{lead.First Name:default=Sir/Madam}},
+Thanks for downloading a VMTurbo whitepaper. Tired of reading? This video says it all:
+
+ &lt;http://bit.ly/1koFxv9&gt;
+
+VMTurbo has published numerous whitepapers &lt;http://bit.ly/1koFBLr&gt; (with more on the way), covering a broad range of topics that IT pros, like yourself, wrestle with today: 
+
+
+ - Aligning Virtualization and Storage Management &lt;http://bit.ly/1o5AJ1X&gt;
+ - Assuring Performance in VDI Deployments &lt;http://bit.ly/1tWtj4v&gt;
+ - Business Continuity Assurance &lt;http://bit.ly/1iz7wIV&gt;
+ - Capacity Management in the Cloud Era &lt;http://bit.ly/1oCdXCw&gt;
+ - Successfully Virtualizing Business-Critical Applications &lt;http://bit.ly/1lXlTaY&gt;
+
+... and many more.
+
+If you&apos;re intrigued by what you&apos;ve read, contact us for a demo &lt;http://bit.ly/1prbRFy&gt;. We can show you the magic in our environment, or yours.
+
+Your IT control system,
+VMTurbo
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+{!Lead.FirstName},
+
+My name is {!Lead.OwnerFullName}, I am writing to you from VMTurbo's EMEA headquarters in the UK. I understand you are the {!Lead.Title} at {!Lead.Company}.
+
+You attended [EVENT NAME] recently where you visited our stand and I would like to discuss your impressions and any next steps that maybe relevant. 
+
+I have been calling the number you registered with us however I have not been able to get through to you as yet. I will continue trying to contact you on the number you have provided however if there is a different number I should contact you on please let me know. 
+
+I look forward to speaking to you. 
+
+Best regards
+
+{!Lead.OwnerFirstName}.
+
+{!Lead.OwnerFullName}
+VMTurbo

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>VMTurbo_Green</letterhead>
+    <name>Reg Approve Email</name>
+    <style>freeForm</style>
+    <subject>VMTurbo Registration Request</subject>
+    <textOnly>Mark Jenson
+
+
+The following deal registration has been submitted for your review
+
+Please click on the link below to view the record in Salesforce
+
+https://na15.salesforce.com/a01i000000Ua4LQ
+
+
+Registration Information
+
+Date Submitted:3/3/2015
+
+
+Customer Information
+
+Customer Name:Monster Bank
+
+Address:5000 Money Lane
+
+City:Metropolis
+
+State:NY
+
+
+Deal Information
+
+Deal Name:Alert Logic Demo
+
+Expected Revenue: $100,000.00
+
+Expected Close Date:4/30/2015
+
+
+
+Partner Information
+
+Partner Name:Acme Silver Partner
+
+Channel Manager:ChannelManager
+
+Partner Sales Rep Name:Clark  Kent
+
+Partner Sales Rep Email:acmesilverpartner@gmail.com
+
+Partner Sales Rep Phone:555-555-5555
+
+
+Please let me know if you have any questions.
+
+Thank you,
+Sean
+
+Sean Finnegan
+Director, Channel Development | VMTurbo
+sean.finnegan@vmturbo.com
+(781) 343-1116</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

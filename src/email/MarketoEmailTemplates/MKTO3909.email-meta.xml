@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_ProfessionalServices_Cold_Nurture.ProfessionalServices_Nurture_Ent</name>
+    <style>none</style>
+    <subject>Get Back to Innovation with Workload Automation</subject>
+    <textOnly>&lt;[[resources.turbonomic.com/professional-services]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Do you ever feel like you and your IT team are stuck fighting fires and that you have little time left to focus on delivering innovations that will put your Professional Services organization ahead of the pack? Turbonomic can help.
+
+
+
+
+ &lt;[[resources.turbonomic.com/professional-services]]&gt;
+
+
+
+
+
+The dynamic complexity of today&apos;s infrastructure is beyond human scale to manage. Turbonomic&apos;s Workload Automation for Hybrid Cloud environments helps IT organizations across industries to simultaneously optimize performance, cost, and compliance in real-time and get back to innovation. 
+
+Here&apos;s more &lt;[[https://resources.turbonomic.com/professional-services]]&gt; on how we can help.
+
+
+
+
+Regards,
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

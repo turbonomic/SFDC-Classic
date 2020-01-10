@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;">
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Dear&nbsp;{{lead.First Name:default=Friend}},</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">With less than two days until the game I wanted to see if you would join us to celebrate the<strong><span style="color: #339966;">&nbsp;Holiday Season</span>&nbsp;</strong>at our<strong><span style="color: #339966;">&nbsp;VIP executive event</span></strong> with Cisco Thursday night, (12/14) in a luxury suite at the Warriors game. Bill Veghte, our Executive Chairman (ex-EVP/GM Microsoft and HP) will be hosting the event.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Bill helped build Azure for Microsoft and is currently our Executive Chairman and is personally helping to lead our engineering relationship with both AWS and Microsoft. We have 1800+ customers including HP, Cisco, Conoco Phillips, Citi, JPMC, Barclays, Morgan Stanley, BMC and many more worldwide. Bill will lead a brief executive forum on today’s hybrid cloud challenges (how management risks are formidable and oversights are expensive). After which we will watch the Warriors take on the Mavericks.</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">I look forward to meeting you, and participating in an engaging conversation. As space we only have two tickets left, I do ask that you please <a href="https://turbonomic.com/learn-sanfrancisco/" target="_blank" id="">register here</a> as soon as possible or reply to this email confirming your ticket. </span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Please let me know if you can make it!</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Warmly,</span></p> 
+<p><span style="font-size: 12px; font-family: 'times new roman', times;">Judi Feeley</span></p> 
+<p><span style="font-size: 12px;"><em>Judi Feeley<br /></em></span><span style="font-size: 12px;"><em>Regional Vice President<br />Turbonomic, Inc.</em></span></p> 
+<p><br /></p>
+</div>  
+</body>
+</html>

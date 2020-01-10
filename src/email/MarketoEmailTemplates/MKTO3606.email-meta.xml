@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-04-19-AWS-vs-Azure-Webinar-Prospects2.Prospect Send</name>
+    <style>none</style>
+    <subject>Choosing Between AWS and Azure? Learn How Turbonomic Saves Our Customers Millions</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/choosing-between-aws-and-azure-webinar/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+A few weeks ago, we were brought in to help a customer who was struggling to figure out whether to choose AWS or Azure.
+
+Their initial preference was for AWS, but they had a lot of Microsoft licenses and wanted to consider Azure as well. They had taken months to build dozens of spreadsheets and financial models, but were still unable to get a clear picture of what the true cloud costs for their specific applications would be.
+
+In just five days, Turbonomic Cloud Migration Planning provided them with clear, data-driven recommendations that enabled them to answer the “AWS or Azure” question definitively – and saved the company millions of dollars annually in the process.
+
+To learn how you can choose the best cloud for your applications, register for our upcoming Live Webinar scheduled for Thursday, April 26th at 11am ET.
+
+ &lt;[[https://turbonomic.com/resources/choosing-between-aws-and-azure-webinar/]]&gt;
+
+Once you register for the webinar, check out the blog post we just published &lt;[[https://turbonomic.com/blog/on-turbonomic/choosing-between-aws-and-azure/]]&gt; on this very topic.
+
+We look forward to seeing you on the webinar!
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

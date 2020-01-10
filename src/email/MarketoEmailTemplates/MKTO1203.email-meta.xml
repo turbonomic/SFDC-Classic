@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMworld Europe 2015 VIP Dinner.09_10_2015 Invite #1.Invite</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: VIP Dinner Reception with VMTurbo at VMworld</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+You&apos;re invited to unwind with VMTurbo and our partners, Arista Networks, Nutanix &amp;
+Pure Storage at our 3rd annual VMTurbo VIP Cocktail party.
+On top of a memorable night we will be giving one lucky winner an all expense paid trip anywhere in the world so you can reach your desired state. 
+ &lt;http://vmturbo.com/resources/events/vmturbo-2015-vip-cocktail-party?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vipinvite2015&amp;utm_content=08182015&gt;
+Monday, August 30th 2015 6:30 - 9:00 PM
+The Drake &lt;http://www.drakesf.com/&gt;
+508 4th Street
+San Francisco, CA 94107
+ &lt;http://www.drakesf.com/&gt;- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

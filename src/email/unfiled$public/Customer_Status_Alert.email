@@ -1,0 +1,14 @@
+{!Account.Name}'s Customer Churn Risk was updated.
+Account Owner: {!Account.OwnerFullName}
+Parent Account (if filled in): {!Account.Parent}
+Outsourced To (if ITO account): {!Account.Outsourced_To__c}
+
+Account link: https://eu4.salesforce.com/{!Account.Account_Safe_ID__c}
+
+Prior Value: {!Account.Prior_Customer_Status__c}
+Current Value: {!Account.Customer_Status__c}
+Customer Status Details: {!Account.Customer_Status_Details__c}
+
+Customer Attention Reason: {!Account.00ND00000065pOf}
+
+Product Usage: {!Account.Product_Usage__c}

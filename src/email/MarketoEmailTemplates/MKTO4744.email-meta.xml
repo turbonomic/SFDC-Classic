@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Jenna</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FY20_Cold_Nurture.FY20_Cold_Nurture_Email_3_MetroStar</name>
+    <style>none</style>
+    <subject>Is Your Cloud Spend Breaking the Bank?</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+The operations team at MetroStar Systems was under executive direction to reduce their AWS bill. After turning to Turbonomic, the they quickly eliminated 100s of hours of labor and reduced cloud spend by 25%.
+
+Watch the below video to get a closer look at how they optimized their AWS spend while still assuring application performance and maintaining policy compliance.
+
+ &lt;[[https://resources.turbonomic.com/customer-videos/metrostar-success-story]]&gt;
+
+&quot;Turbonomic is absolutely one of our mission-critical tools, and I would definitely recommend this product to anyone - on- premises in the cloud, or in a hybrid environment. It saves us thousands of dollars in the cloud every month.&quot; - John Belcher, Principal Infrastructure Engineer at Metrostar
+
+Click here &lt;[[https://resources.turbonomic.com/case-studies/metrostar-case-study]]&gt; to learn more about how Turbonomic helped Metrostar optimize their AWS performance and cost.
+
+Best,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

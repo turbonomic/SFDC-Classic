@@ -1,0 +1,19 @@
+Hi,
+
+Your Turbonomic Deal Registration for {!Lead.Company} has been approved. Please see the details of your registration below:
+
+Partner Account:	                  {!Lead.wi__Associated_Partner__c} 
+Customer:                                  {!Lead.Company} 
+Deal Reg Approval Date:           {!Lead.Deal_reg_approval_date__c}
+Deal Reg Expiration Date:         {!Lead.Deal_Reg_Expired_date_formula__c}
+Expected Revenue:                   {!Lead.DealRegq15__c}
+Turbonomic Sales Rep:             {!Lead.Territory_Owner_Lead__c}
+Turbonomic Sales Rep Email:   {!Lead.Territory_Owner_Lead_Email__c}
+
+Your registration is valid for 120 days. Please update the status of your deal registration opportunity within the Partner Portal at https://turbonomic.com/partner-portal
+
+If you have any questions, please contact your Turbonomic Sales Rep or email PartnerDesk@turbonomic.com. 
+
+
+Best Regards,
+Turbonomic

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-Multi Hypervisor/Hyper-V-Nurture.ENG-Mult-Hypervisor-Early-04.04-30-Day-Tria</name>
+    <style>none</style>
+    <subject>Be Hypervisor &amp; Vendor Agnostic</subject>
+    <textOnly>&lt;[[http://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=eng-mult&amp;utm_content=earl04]]&gt;
+Hi {{Lead.First Name}},
+We get it. There are numerous reasons why heterogeneous environments exist: financial cost, legacy systems, data center consolidation. These business realities are easily managed with Turbonomic. Just set up your hypervisor targets in Turbonomic—Microsoft Hyper-V, VMware vCenter, Red Hat RHEV-M, or Citrix XenServer—and let our software do the rest.
+Are you ready to see all that Turbonomic has to offer you? Give the free trial a shot &lt;[[http://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=eng-mult&amp;utm_content=earl04]]&gt; and see just how Turbonomic will drive your environment to perpetual health.
+ &lt;[[http://turbonomic.com/downloads/turbonomic-30-day-trial/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=eng-mult&amp;utm_content=earl04]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

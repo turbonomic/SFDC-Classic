@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DM-2018-09-EMEA-PFL-Coffee and Mug Kits-UK.ES-20180914-EMEA-PFL-Coffee and Mug K</name>
+    <style>none</style>
+    <subject>The Cloud Scale Gap</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/videos/the-smart-workload-v3]]&gt;
+Hi {{lead.First Name:default=there}},
+ 
+AWS was developed to help businesses scale and grow, but 
+with 90 different services and 1.7 million configurations in EC2 alone, choosing the right options for your organization manually is impossible. In fact, managing cost and performance in the cloud is beyond human scale.
+
+
+ &lt;[[https://resources.turbonomic.com/videos/the-smart-workload-v3]]&gt;
+View this video &lt;[[https://resources.turbonomic.com/videos/the-smart-workload-v3]]&gt; to see how you can enable your most important resource - your people - to create, innovate, and drive greater value to the business or visit our 
+resource center on accelerating your cloud migration &lt;[[https://resources.turbonomic.com/accelerate-cloud-migration-projects]]&gt; to learn more.
+
+
+
+Regards,
+Megan</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

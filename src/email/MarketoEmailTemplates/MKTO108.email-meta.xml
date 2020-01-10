@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cloud Expo Europe invite.Invitation</name>
+    <style>none</style>
+    <subject>Join us at the Cloud Expo Europe 2013</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Citrix and VMTurbo cordially invite you to join us at Cloud Expo Europe 2013, the National Hall, Olympia, London. 
+
+Cloud Expo Europe 2013 is the single most important event for business and public sector organisations - big or small - wanting to harness the power of the cloud.
+
+Come join Citrix and VMTurbo on our stand (567) to see how your organisation can benefit from our Cloud and Management solutions. Learn about building and delivering clouds as well as control the environment by automating decision-making and keeping it in the optimal state. See how we can help you meet service levels and business goals, preventing performance bottlenecks while maximizing resource efficiency, making you more productive.
+
+At the show you will also be able to hear from: 
+
+
+ - Our Cloud and Networking Product experts – who will be on our stand to provide technical expertise
+ - Shannon Williams VP of Cloud Market Development at Citrix will take to stage in the Virtualisation, Infrastructure and Platforms theatre
+ - Olivier Maes Senior Director of CloudPlatform at Citrix EMEA will be speaking in the Cloud Service Providers and Ecosystems – Business theatre
+
+
+
+To view the full conference programme visit www.cloudexpoeurope.com and to register for your FREE tickets follow www.cloudexpoeurope.com/reg-citrix. &lt;http://www.cloudexpoeurope.com/reg-citrix&gt;
+
+We look forward to seeing you at the event!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

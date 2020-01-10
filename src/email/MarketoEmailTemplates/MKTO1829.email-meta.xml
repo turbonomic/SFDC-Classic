@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2016-06-02-Charlotte NC VMUG &amp; Happy Hour.EMAIL-Cocktail Invite</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Carolina VMUG Cocktail Hour</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+VMTurbo is sponsoring the upcoming Carolina VMUG and will be hosting a happy hour &lt;[[https://events.attend.com/f/1383774725]]&gt; post VMUG at the Mimosa Grill &lt;[[http://www.harpersgroup.com/mimosa.asp]]&gt;. 
+Stop by booth #305 at the VMUG to pick up your ticket or show this email at the door for cocktails and appetizers, on us, from 6:00PM – 8:00PM on 6/2/16.
+Also, Eric Wright, VMTurbo Technology Evangelist is presenting in room 217 BC from 10:00 AM – 10:40 AM on Bridging the Gap to the Next Generation of IT. Attend our presentation for a chance to win an Amazon Fire TV!
+Click here &lt;[[https://events.attend.com/f/1383774725]]&gt; to save your spot today.
+ &lt;[[http://www.drakesf.com/]]&gt;- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

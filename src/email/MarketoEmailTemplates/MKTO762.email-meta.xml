@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pre-VMworld ParadisePack inhouse - unopened.Email</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=edit me}}, Reminder: download your Virtualization ParadisePack</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Welcome to Virtualization paradise, where you can relax with the peace of mind that your workloads are being managed efficiently and your virtual data center is under control.
+
+As you prepare for VMworld 2013—and even if you are not planning to attend-- we’re excited to offer you this complimentary ParadisePack &lt;http://bit.ly/16xSxdh&gt;, which contains the essentials for learning about a new approach to managing your virtual infrastructure that will allow you to ride the wave of datacenter control. 
+
+Best Regards,
+
+
+VMTurbo Team
+Headed to VMworld 2013? Come see us at Booth #611 and check out our surf simulator
+
+VMTurbo, named by EMA as a Vendor to Watch  &lt;http://bit.ly/13RljTL&gt; in 2013</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03_17_2014 MSFT-VMM Webinar Reminder.Email_Img</name>
+    <style>none</style>
+    <subject>Webinar: Register for the Hyper-V Readiness Series | {{lead.First Name:default=&amp;}} Win a LEGO Star Destroyer</subject>
+    <textOnly>Free Webinar: The Hyper-V Readiness Series
+Presented by Virtualization Software &amp; VMTurbo
+March 19th, 2014 | 11am-12pm EST 
+
+REGISTER NOW: &lt;http://bit.ly/1fRRw8i&gt;
+
+Join virtualization experts Scott Lowe &amp; David Davis of Virtualization Software as they discuss the imperative of diversity in tomorrow&apos;s virtual datacenter, and Microsoft&apos;s ready-for-prime time Hyper-V ecosystem. In celebration of the hypervisor wars, all registrants are entered to win a LEGO Imperial Star Destroyer!
+
+REGISTER NOW:
+ &lt;http://bit.ly/1fRRw8i&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

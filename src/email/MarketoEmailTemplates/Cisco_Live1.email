@@ -1,0 +1,45 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="background: white;"><span style="font-size: 10pt;">Hello </span><span style="font-size: 13.3333px;">{!Contact.FirstName}</span><span style="font-size: 10pt;">,</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background: white;"><span style="font-size:10.0pt">Thanks for visiting our booth
+at CiscoLive! &nbsp;Did you have a chance to
+speak with our team? Turbonomic offers a great solution leveraged in the data
+centers of JPMC, PNC, TD Ameritrade, Cisco, HP and more. <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background: white;"><span style="font-size:10.0pt">Application performance is
+vital to your business success. Assuring application performance requires
+that the right amount of infrastructure is delivered to the right workload, at
+the right time.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background: white;"><span style="font-size: 10pt;">So, how do you currently allocate
+resources to assure performance?&nbsp; Do you guess?&nbsp; Overprovision for
+business peaks?&nbsp; Many organizations use both of these methods then rely on
+alerts and thresholds to monitor performance. &nbsp;The cloud and internet of
+things have made these methods obsolete.&nbsp;</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background: white;"><span style="font-size:10.0pt">Here’s how our customers do it automatically:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b><span style="font-size:10.0pt">ACI’s Success Story: &nbsp;</span></b><a href="http://t.sidekickopen68.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg4XXTDjVcW16g3Lr8qvW4XXPpC56dBLpf5ht83q02?t=https%3A%2F%2Fturbonomic.com%2Fresources%2Fvideos%2Fturbonomic-customer-success-story-aci-payment-systems%2F&amp;si=6139400976859136&amp;pi=b5ecb2d8-a867-4931-b12d-f5671e8aa945"><b><span style="font-size:10.0pt">https://turbonomic.com/resources/videos/turbonomic-customer-success-story-aci-payment-systems/</span></b></a><b><span style="font-size: 10pt; background: rgb(244, 244, 244);"> </span></b><b><span style="font-size: 10pt;"><o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b style="font-size: 12pt;"><span style="font-size: 10pt;">Hear Cisco’s success story: </span><a href="https://turbonomic.com/resources/videos/cisco-turbonomic-success-scale-turbonomic-customer-success-story/"><span style="font-size:10.0pt;color:blue">https://turbonomic.com/resources/videos/cisco-turbonomic-success-scale-turbonomic-customer-success-story/</span></a></b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 10pt;">Hear how </span><b style="font-size: 10pt;">Scott Crowder, CIO at BMC</b><span style="font-size: 10pt;"> is leveraging cloud economics in their on
+premise private cloud with Turbonomic.</span></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-left: 0.5in;"><span style="font-size:10.0pt">"Once
+we brought Turbonomic into our infrastructure and turned it on we actually saw
+a 25% increase in overall capacity. Not only that - the performance went
+through the roof." - Scott Crowder&nbsp; </span><a href="https://turbonomic.com/resources/videos/cloud-economics-on-prem-or-off-with-turbonomic-bmc/"><span style="font-size:10.0pt;color:#0563C1;mso-themecolor:hyperlink">https://turbonomic.com/resources/videos/cloud-economics-on-prem-or-off-with-turbonomic-bmc/</span></a><span style="font-size:10.0pt"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background: white;"><span style="font-size:10.0pt">We welcome the opportunity to
+discuss your cloud strategy and sharing use cases with you and your team.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background: white;"><span style="font-size:10.0pt">Best regards,<o:p></o:p></span></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:10.0pt">Cherlyn<o:p></o:p></span></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:10.0pt;color:gray">857.305.5730 I </span><span style="font-size:10.0pt;color:blue"><a href="http://www.turbonomic.com/">www.turbonomic.com</a></span></p><p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b style="font-size: 12pt;"><i><span style="font-size: 10pt; font-family: Corbel, sans-serif; font-variant-numeric: normal; font-variant-caps: small-caps;"><a href="https://turbonomic.com/leadership-meetings"><span style="color:#0563C1">Going
+to VMWorld? Meet with a
+Turbonomic Executive</span></a></span></i></b></p>]]></td>
+</tr>
+</table>

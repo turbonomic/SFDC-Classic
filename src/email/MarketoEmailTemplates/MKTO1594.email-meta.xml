@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-Multi Hypervisor/Hyper-V-Nurture.ENG-Mult-Hypervisor-Early-04.04-30-Day-Tria</name>
+    <style>none</style>
+    <subject>Be Hypervisor &amp; Vendor Agnostic</subject>
+    <textOnly>&lt;[[http://vmturbo.com/download-vmturbo-operations-manager-direct?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-Mult-Hypv&amp;utm_content=Early04]]&gt;
+Hi {{Lead.First Name}},
+We get it. There are numerous reasons why heterogeneous environments exist: financial cost, legacy systems, data center consolidation. These business realities are easily managed with VMTurbo. Just set up your hypervisor targets in VMTurbo—Microsoft Hyper-V, VMware vCenter, Red Hat RHEV-M, or Citrix XenServer—and let our software do the rest.
+Are you ready to see all that VMTurbo has to offer you? Give the free trial a shot &lt;[[http://vmturbo.com/download-vmturbo-operations-manager-direct?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-Mult-Hypv&amp;utm_content=Early04]]&gt; and see just how VMTurbo will drive your environment to perpetual health.
+ &lt;[[http://vmturbo.com/download-vmturbo-operations-manager-direct?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-Mult-Hypv&amp;utm_content=Early04]]&gt;
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Leadspace_ENT_Cold_Nurture_1.Leadspace_ENT_Cold_Nurture_1_Email_2</name>
+    <style>none</style>
+    <subject>How do you assure performance and manage cost?</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/template/turbonomic-cio-guide-to-autonomic-it?utm_source=nurture&amp;utm_campaign=Turbo-intro]]&gt;
+Hi {{lead.First Name:default=there}},
+
+IT teams across industries are constantly being asked to do more with less. It is critical that these organizations innovate rapidly and continuously and that they remain as lean as possible. The right digital strategy is essential; workload automation is key.
+
+Check out our guide to learn about how an autonomic approach can help you and your IT organization assure performance while minimizing cost.
+
+ &lt;[[https://resources.turbonomic.com/template/turbonomic-cio-guide-to-autonomic-it?utm_source=nurture&amp;utm_campaign=Turbo-intro]]&gt;
+
+
+By understanding the full stack, Turbonomic identifies the best configuration for each application component, in real time, or whether the resource is idle and can be removed. Check out this whitepaper &lt;[[https://resources.turbonomic.com/template/turbonomic-cio-guide-to-autonomic-it?utm_source=nurture&amp;utm_campaign=Turbo-intro]]&gt; to learn more about how autonomic technology like Turbonomic can help.
+
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

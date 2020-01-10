@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-12-21 Gartner Last Chance.ES-2018-12-21 Gartner Last Chance</name>
+    <style>none</style>
+    <subject>Last Chance! =?UTF-8?Q?=F0=9F=86=93=F0=9F=93=96?= by Gartner</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Gartner expects that CIOs who believe they can get by with their current level of data center intelligence in 2023 will no longer be at their posts. The survival of their business cannot be guaranteed.* Don&apos;t let this happen to you and your team. 
+
+
+Download a complimentary copy of Gartner&apos;s Research Note &lt;[[https://turbonomic.com/resources/intelligent-data-center/?utm_campaign=70157000001j4nKAAQ]]&gt;, available for a limited time only, to learn how you can build a data center that predicts failures, anticipates service degradation and optimizes efficiencies to bring discipline, automation, efficiency and forecasting to service delivery.
+
+
+
+
+
+
+Download Now &lt;[[https://turbonomic.com/resources/intelligent-data-center/?utm_campaign=70157000001j4nKAAQ]]&gt;
+
+
+
+
+
+
+Curious to also learn Gartner&apos;s perspective on how you can optimize your cloud strategy in 2019? Join our January 9th webinar &lt;[[https://turbonomic.com/resources/wbn-gartner-conference-2018/?utm_campaign=70157000001j4pQAAQ]]&gt; for a post-event recap of Gartner Infrastructure, Operations, and Cloud Strategies Conference 2018.
+
+
+
+Best,
+Andrew 
+
+
+
+*Gartner Research Note, How to Build the Intelligent Data Center, George J. Weiss, 07 March 2018</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

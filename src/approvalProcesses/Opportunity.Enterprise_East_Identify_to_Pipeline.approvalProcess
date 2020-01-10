@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Bus_Driver_Enterprise_East</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Bus_Driver_Enterprise_NY</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Bus_Driver_Enterprise_South_East_ATL</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Approval_Status__c</field>
+        <field>Account_Name__c</field>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Amount</field>
+        <field>CloseDate</field>
+        <field>StageName</field>
+        <field>Primary_Value_Driver__c</field>
+        <field>Metrics_MEDDICC__c</field>
+        <field>Economic_Buyer__c</field>
+        <field>Decision_Criteria__c</field>
+        <field>Decision_Process__c</field>
+        <field>Identified_Pain__c</field>
+        <field>Champion__c</field>
+        <field>of_Virtual_Machines__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>jr.butler@vmturbo.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Enterprise East RVP Approval</label>
+        <name>Enterprise_East_RVP_Approval</name>
+    </approvalStep>
+    <description>Approval process for Enterprise East reps moving oppties from Identify to Pipeline</description>
+    <emailTemplate>Approval_Request_Templates/Enterprise_East_Submission</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND(
+  TEXT(StageName)= &quot;Identify&quot;,
+  OR(
+     Owner.UserRoleId = &quot;00E57000001Jru7&quot; /*US Enterprise Rep - East 1*/,
+     Owner.UserRoleId = &quot;00E57000001jFzk&quot; /*US Enterprise Rep - East 2*/,
+     Owner.UserRoleId = &quot;00E57000001CbWP&quot; /*US Enterprise Rep - East 3*/)
+    )</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Approval_status_to_Pipeline_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Move_Oppty_to_Pipeline_Stage</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_Approval_Notice_to_Owner</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Approval_Status_to_Denied</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_Notice_of_Denial_to_Owner</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Approval_Status_Pending</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Opp_start_date_update</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_Submission_Receipt_to_Oppy_Owner</name>
+            <type>Alert</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Enterprise East Identify to Pipeline</label>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

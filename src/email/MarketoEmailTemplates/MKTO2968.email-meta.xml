@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-08-17-Minneapolis-CAE-Commercial-Send-2.Email-Invite-Marketing-Commercia</name>
+    <style>none</style>
+    <subject>Next Week: Twins vs. Indians on August 17th</subject>
+    <textOnly>&lt;[[https://turbonomic.com/community-appreciation-minnesota-twins/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+We are pleased to invite to you an exclusive event on August 17th, as the Minnesota Twins take on the Cleveland Indians.
+
+
+We are expecting a fantastic summer afternoon filled with food, drinks, and of course, baseball. We hope you will accept this invitation to join us, learn more about Turbonomic, and network with your peers in the technology industry. 
+
+
+Minneapolis Community Appreciation - Twins vs. Indians &lt;[[https://turbonomic.com/community-appreciation-minnesota-twins/]]&gt;
+Where: Target Field 
+1 Twins Way, Minneapolis, MN 55403
+Thursday, August 17th 12:10pm
+ 
+RSVP by August 10th!  &lt;[[https://turbonomic.com/community-appreciation-minnesota-twins/]]&gt;
+ 
+We hope to see you there,
+
+
+
+
+- the Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

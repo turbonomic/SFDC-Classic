@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-08-Field-East-RD-Sponsored-New-York.ES-2018-02-07-Executive Invite 1</name>
+    <style>none</style>
+    <subject>You&apos;re Invited - Turbonomic Customer Appreciation Dinner NYC</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+As a special thank 
+you to our valued customers, we hope you will join us for an evening at Michelin Star restraurant, Ai Fiore, on Thursday March 8th, to discuss the exciting new frontier of hybrid cloud as we share what to expect with the latest release of the Turbonomic platform.
+
+
+
+
+
+
+Turbonomic Customer Dinner New York City &lt;[[https://turbonomic.com/vip-newyork/]]&gt;
+
+Where: Ai Fiore
+400 5th Ave #2, New York, NY 10018
+Thursday, March 8th 5:30pm
+
+
+
+
+ &lt;[[https://turbonomic.com/vip-newyork/]]&gt;
+
+
+
+
+
+Please note that slots for this event are limited and filling up fast. Reserve your spot today! &lt;[[https://turbonomic.com/vip-newyork/]]&gt;
+
+
+
+I hope to see you there,
+
+
+
+Alex Hesterberg
+SVP and Chief Customer Officer at Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

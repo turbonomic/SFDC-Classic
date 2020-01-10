@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>DSCORGPKG__Account__c</name>
+        <relationshipLabel><!-- DiscoverOrg Scoops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Topics --></label>
+        <name>DSCORGPKG__Categories__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>DSCORGPKG__Contact__c</name>
+        <relationshipLabel><!-- DiscoverOrg Scoops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Published --></label>
+        <name>DSCORGPKG__Date_Published__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>DSCORGPKG__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg ID --></label>
+        <name>DSCORGPKG__DiscoverOrg_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>DSCORGPKG__Lead__c</name>
+        <relationshipLabel><!-- DiscoverOrg Scoops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>DSCORGPKG__Scoop_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>DSCORGPKG__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>30-Day GC Invite</name>
+    <style>none</style>
+    <subject>Got Questions? The Green Circle Community Has Answers.</subject>
+    <textOnly>Dear {{Lead.First Name}},
+
+As you’re evaluating VMTurbo Operations Manager, we highly recommend you join the Green Circle Community &lt;https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=gc_inv&gt;.
+
+The Green Circle is your free, online portal to convene, converse, and contribute to the evolution of virtualization and cloud management. VMTurbo users like you contribute personal use cases, get questions answered by the community, share industry observations—you name it. You are a virtual visionary and we want to hear your voice.
+ &lt;https://greencircle.vmturbo.com/create-account.jspa?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=30_day_love&amp;utm_content=gc_inv&gt;
+
+
+In the Green Circle, you&apos;ll earn points for every action you take. Blogging, commenting, voting, and breathing. You can then use these points to get cool stuff like T-shirts and headphones!
+
+So what are you waiting for? Talk. Get points. Get Stuff. Because everyone needs more stuff, except for latency and poor application performance, of course.
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

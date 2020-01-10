@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-09 Customer Invite to May Webinars.ES-05-09-18 Customer Invite to May</name>
+    <style>none</style>
+    <subject>Will you join us May 23rd?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+Have you explored Turbonomic’s automation capabilities? If not, you should join us for our next webinar on May 23rd at 1pm EST!
+
+ &lt;[[https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/]]&gt;
+
+We&apos;re going to discuss our latest release which is loaded with new capabilities that not only take advantage of the elasticity of the public cloud but also give you greater control over the decisions Turbonomic makes in all environments.
+
+We hope you can join us &lt;[[https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/]]&gt;!
+Regards,
+Team Turbonomic
+
+
+PS - If you can&apos;t join the live webinar, please feel free to sign up anyway &lt;[[https://turbonomic.com/resources/using-artificial-intelligence-to-cut-cloud-costs/]]&gt;, and we&apos;ll email you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

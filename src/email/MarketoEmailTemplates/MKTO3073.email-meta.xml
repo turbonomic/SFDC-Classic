@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-09-Burgess Sonoma Speedyway.EMAIL-Invite-AE</name>
+    <style>none</style>
+    <subject>You&apos;re Invited - Executive IT Leadership Offsite</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+Please join us for an exclusive Executive IT Leadership Off-Site &lt;[[https://turbonomic.com/special-invitation-executive-it-leadership-offsite/]]&gt; on Friday, September 22nd. This event is designed to be a small gathering of your peers from the Bay Area. We begin the day at Sonoma Raceway where you will be learning the fundamentals of driving a Lola Formula 3 race car. You will then take what you’ve learned to the track!
+
+After the track, we will go right across the road for a sit-down dinner at Ram’s Gate Winery. A beautiful venue where you can share your racing experiences with the rest of your racing team and learn what they are doing back at the office to drive their organizations faster.
+
+The event is co-sponsored by Kovarus, a Bay Area Systems Integrator that supports global customers and Turbonomic. That said…there won’t be any formal presentations. We would like to build a group that enjoys time with each other in a fun environment where we can also learn a few things.
+
+If you are interested and available, please sign up here &lt;[[https://turbonomic.com/special-invitation-executive-it-leadership-offsite/]]&gt; and reply to this email so I can provide details.
+
+Yours Sincerely,
+
+Shannon Burgess</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>05_09_2014 EDU Webinar Manual #2.Cloned</name>
+    <style>none</style>
+    <subject>Win a LEGO STAR WARS Jabba&apos;s Palace | Exclusive for Higher Ed IT Pros Webinar | Register to Win</subject>
+    <textOnly>A VMTurbo Webinar Invitation
+Best Practices for Smarter Virtualization Management:
+VMTurbo As An IT Control System in Higher Education
+REGISTER TODAY
+&lt;http://bit.ly/StbU6p&gt;
+
+WHAT
+Webinar, followed by a LEGOTM Star WarsTM Raffle
+
+WHEN
+Wednesday, May 14, 2014, 11 am PDT / 2 pm EDT / 7 pm GMT
+FEATURING
+Dan Germain, VP Customer Success, VMTurbo
+ Justin Kutticherry, Education Solutions Director, VMTurbo 
+ 
+ At the core of every educational institution is an IT organization which powers and enables leadership and innovation. You are the enabler. What is running at your core?
+
+Join us next Wednesday, May 14th at 2 pm EDT for a special VMTurbo webinar just for Higher Education IT Pros. We will discuss the four most common virtual infrastructure issues tackled by education IT Pros, who must scale and maintain their environments in support of thousands of users.
+
+ - Storage Control
+ - Accurate Capacity Planning
+ - Automating Healthy Operations
+ - Deploying VDI
+
+All webinar registrants will be entered to win a LEGOTM Star WarsTM Jabba&apos;s PalaceTM - you vote and decide!
+Register Now &lt;http://bit.ly/StbU6p&gt;
+Downloads
+White Papers
+Products
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

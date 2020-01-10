@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2018-01-28-Cisco Live Barcelona.Cisco Live Invite (ENG)</name>
+    <style>none</style>
+    <subject>Are you attending Cisco Live in Barcelona?</subject>
+    <textOnly>Hi {{Lead.First Name}},
+Are you or one of your team attending Cisco Live this year?
+ 
+You may have seen in the news that Cisco have recently released a new product: Cisco Workload Optimization Manager (powered by Turbonomic).
+ 
+Workload Optimization Manager is an intelligent software, designed to automatically manage ANY virtualized infrastructure or cloud environment. The value it brings to customers is as follows:
+
+
+	- Applications can handle 23% more orders per minute
+	- 37% better application response time
+	- 24% higher VM:host density
+	- 80% less tickets and troubleshooting
+
+
+These benefits were achieved in a VMWare optimized environment, despite the existing use of VRops and DRS.
+ 
+Cisco IT has been using this product (Turbonomic) for the past two years in their production data centers. Here &lt;[[https://turbonomic.com/resources/videos/cisco-turbonomic-success-scale-turbonomic-customer-success-story/]]&gt; is a video of Mike Myers, Sr. Director of Cloud &amp; Data Centre talking about its impact. 
+ 
+I will be in Barcelona and would love to meet up to discuss further. Do you have availability?
+ 
+Best Regards
+{{company.Account Owner First Name:default=Graeme}} {{company.Account Owner Last Name:default=Hutchison}}
+{{company.Account Owner Email Address:default=graeme.hutchison@turbonomic.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

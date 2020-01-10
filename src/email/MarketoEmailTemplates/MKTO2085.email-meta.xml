@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-03-17-5.8 Awareness Send.Send</name>
+    <style>none</style>
+    <subject>Turbonomic 5.8 is Live!</subject>
+    <textOnly>&lt;[[https://turbonomic.com/thx-wbnr-recrd-thank-you-turbonomic-5-7-5-8-release-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=wbn-new-product-release&amp;utm_content=03172017]]&gt;
+{{lead.First Name:default=edit me}},
+We’re excited to announce the release of Turbonomic 5.8.
+This version includes our latest and greatest HTML5 user experience, we encourage you to give it a try. We’ve also made significant enhancement to our support for Microsoft Hyper-V and System Center Virtual Machine Manager and certified Turbonomic for vSphere 6.5. Further documentation can be found in the Green Circle Community &lt;[[https://greencircle.vmturbo.com/community/products/pages/documentation]]&gt;.
+The learn more about everything the 5.7 and 5.8 releases have in store watch our latest release webinar.
+ &lt;[[https://turbonomic.com/thx-wbnr-recrd-thank-you-turbonomic-5-7-5-8-release-webinar/?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=wbn-new-product-release&amp;utm_content=03172017]]&gt;
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

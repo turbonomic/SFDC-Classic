@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>short version of: A Better Use of Time</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email 2 - Phase 1.Intro Email</name>
+    <style>none</style>
+    <subject>A Better Use of Time</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+
+ Imagine a scenario where you don’t have to spend your time fighting fires and chasing down issues in your virtualized environment because it’s maintained in an ongoing healthy state. 
+ 
+We offer a better approach than the tools you already have to automate control of your virtualized environment. Check out this short overview &lt;http://bit.ly/XYnaGJ&gt; and this free report from Forrester Research &lt;http://bit.ly/15CFjfs&gt; to learn how easy it can be to gain control –and put down the fire hose.
+
+
+Thank you,
+
+VMTurbo Team
+
+phone: (781) 373-3540
+ email: sales@vmturbo.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: times for conversation on monday (1494880239.0)</name>
+    <style>none</style>
+    <subject>RE: times for conversation on monday (1494880239.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   Clean DocumentEmail false    false false false  EN-US X-NONE X-NONE       MicrosoftInternetExplorer4                                                                                                                                                                                                                                                                                                                                                                                                            Hey David,  I hope your daughter is feeling better!  Would you be available to touch base later this week? Wednesday is looking open on my end if you are available at some point. Let me know either way. Thanks,Maggie From: Margaret Schroeder 
+Sent: Friday, May 12, 2017 11:44 AM
+To: &apos;davidz@edprop.com&apos; &lt;davidz@edprop.com&gt;
+Subject: times for conversation on monday Hi David, Sorry to have caught you at home, hopefully your daughter starts feeling better and you get to enjoy some of your weekend home!  Just looking to reconnect with you and have a quick conversation to see if revisiting Turbonomic makes sense for you at this time.  I am free during these blocks:8am-9am11am-12pm We should need only 15 minutes just to touch base, let me know when works best for you. Thanks,Maggie  Margaret Schroeder - Turbonomic
+Sales Development Representative 
+O: 857.305.4608  C: 802.440.2128 
+500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

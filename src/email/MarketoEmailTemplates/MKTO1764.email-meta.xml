@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Overprovisioning is for Amateurs.Email</name>
+    <style>none</style>
+    <subject>Complimentary Whitepaper: Overprovisioning is for Amateurs</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+You are a professional, however, you are struggling to overcome the shortfalls of amateur tools that lead to over-provisioning or resource shortfalls in the virtual datacenter. This adds cost and complexity that challenges your ability to grow your virtualization and cloud environments.    
+
+ Download this complimentary whitepaper http://bit.ly/1iRVqdK to find out how you can increase resource utilization and staff productivity by 20%, reduce operational expense, and defer IT infrastructure spend until you absolutely need it. You’ll learn about a new approach to virtualization management that deploys intelligent workload management to optimize configurations and maximize resource efficiency, preventing performance risks from manifesting, giving you, the professional, the control.    
+
+ Sincerely, 
+ VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

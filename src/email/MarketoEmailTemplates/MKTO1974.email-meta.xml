@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CHN-2017-02-28-17-Tactical Event.EMAIL-Registration Email</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=}}&apos;s Confirmation to the American Tactical Arms Event| February 28, 2017</subject>
+    <textOnly>Hi {{Lead.First Name:default=}},
+Thank you for registering to attend the Turbonomic, Data Blue, Fuze &amp; Rubrik Sponsored Event! We will be distributing additional details in the weeks to come.
+Event:  American Tactical Arms
+Attending: {{lead.Full Name:default=edit me}}
+Company: {{company.Company Name:default=}}
+Event Time: February 28th at 11:00am
+Event Location: American Tactical Training Arms Center in St. Augustine, FL
+
+If you have any questions or concerns please reach out to Carolyn.Green@turbonomic.com &lt;[[mailto:marketing@turbonomic.com]]&gt;
+-The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

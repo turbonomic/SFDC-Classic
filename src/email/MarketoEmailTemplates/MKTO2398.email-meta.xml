@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-30-Day Trial Nurture.06-Health Chart.Send</name>
+    <style>none</style>
+    <subject>Turbonomic Top Ten Features #6: Health Chart</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Here&apos;s number six of ten Turbonomic Top Features. Of course, if at any time you want to accelerate your learning, you can visit the Green Circle Community &lt;[[https://greencircle.turbonomic.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-HybridCloud&amp;utm_content=Mid06]]&gt; and gain tips and tricks from real Turbonomic customers and evaluators just like you.
+Feature #6: Health Chart
+
+
+The Health Chart within the Assure Service Performance dashboard is the inspiration for Turbonomic&apos;s logo. Under automation, Turbonomic continuously drives Actions that keep the Health Chart 100% Green. The Health Chart helps you answer the following questions:
+
+
+
+	- What is the health of my entire virtual and physical infrastructure?
+
+
+Step-By-Step: Health Chart
+
+
+
+
+
+The following steps will guide you through the Health Chart:
+
+
+
+	- Health Chart is located in the Assure Service Performance dashboard and shows the current status of Hosts, Storage, or Virtual Machines in your environment. Green = Normal, Yellow = Minor, Orange = Major, and Red = Critical
+	- Click on the Red portion of the pie chart to view the most critical issues, and the ! Icon to view the specific resolutions for these issues
+	- For each portion of the pie chart, the ! Icon toggles between the Risk/Opportunity and To Do lists
+
+	- Click the Graph Icon to bring up details information about the target of the recommended Action 
+
+
+
+
+Next Feature: Custom Dashboards &amp; Reports</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p>Dear {{lead.First Name:default=Sir/Madam}},</p>
+<p>Today we are very excited to announce the release of VMTurbo Operations Manager 3.2. There are a number of enhancements and new capabilities included and we are looking forward to seeing them utilized by our rapidly growing customer base.</p>
+<p>Not an email person? Get more detail <a href="http://www.vmturbo.com/blog/intelligent-onboarding?source=email">here on our blog</a>, grab a seat for our <a href="https://www3.gotomeeting.com/register/984672278">release webinar</a> or just go ahead and <a href="http://go.vmturbo.com/cloud-edition-download.html?source=email">download</a> the free trial of the product (highly recommended!).</p>
+<p>So, what's new? A few of the important new features in this release are:</p>
+<ul>
+<li>Intelligent workload onboarding &ndash; close the loop in planning, building and controlling virtual environments by deploying new workloads with the same analytic engine that ensures optimal configuration of the existing virtual infrastructure.</li>
+<li>Java and Linux application integration &ndash; auto-discover and control resource allocation based on application priority for virtualized Windows, Java and Linux applications.</li>
+<li>Which of these virtualization and cloud platforms is new to the table: XenServer, Hyper-V, vSphere, vCloud Director, CloudStack, or RHEV? Either way, they are all supported and controllable from a single VMTurbo Ops Manager virtual appliance.</li>
+</ul>
+<p>Want more detail? Check out our <a href="http://www.vmturbo.com/blog/intelligent-onboarding?source=email">product announcement blog</a>. You can also register to attend our <a href="https://www3.gotomeeting.com/register/984672278">New Release Webinar</a> on September 25th hosted by Yuri Rabover, our VP of Product Strategy, which will run through a quick demonstration of the new functionality.</p>
+<p>Existing users should go ahead and apply the simple upgrade to their environment. And, if you have yet to experience the product, take our <a href="http://go.vmturbo.com/cloud-edition-download.html?source=email">free 30 day trial</a> offer. The product deploys as an easy-to-install virtual appliance and delivers actionable and automatable recommendations to improve performance across your virtual infrastructure&mdash;in less than 30 minutes.</p>
+<p class="p1">Thanks,<br /><br /> Derek Slayton<br /> VP of Marketing, VMTurbo</p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

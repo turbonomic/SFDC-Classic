@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: Microsoft Ignite 09_24_18 - 09_28_18.TSE: Microsoft Ignite 09_24_18 - Follo</name>
+    <style>none</style>
+    <subject>Webinar: 7 Days to Azure</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/turbonomic-6-2/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Windows and SQL 2008 (R2) will go end of service within the next 18 months. While this may sound far off, the time to prepare is now.
+
+As a top Microsoft Partner for assessments, migration, and optimizations, Turbonomic delivers the industry’s fastest, most precise, dynamic, cloud-ready migration plans to ensure a frictionless migration to Azure. 
+
+
+ &lt;[[https://turbonomic.com/resources/turbonomic-6-2/]]&gt;
+
+Join our webinar next Wednesday, October 3rd, at 11 a.m. ET &lt;[[https://turbonomic.com/resources/turbonomic-6-2/]]&gt; where we&apos;ll discuss how a Big 4 Accounting Firm leverages Turbonomic to assess and migrate workloads to Azure and subsequently optimize their entire hybrid estate in Azure.
+Regards,
+Elizabeth
+
+
+
+PS - If you can&apos;t join the live webinar, feel free to sign up anyways &lt;[[https://turbonomic.com/resources/turbonomic-6-2/]]&gt;, and we&apos;ll send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

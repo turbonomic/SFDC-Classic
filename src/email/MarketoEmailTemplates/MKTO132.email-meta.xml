@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ops Manager 3.3 webinar invite.Invitation</name>
+    <style>none</style>
+    <subject>Fall in love with VMTurbo Operations Manager 3.3</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+There’s something big happening on February 14 … and it’s not just a visit from Cupid! VMTurbo is hosting a webinar &lt;https://www3.gotomeeting.com/register/247293470&gt; where we’ll review enhancements to VMTurbo Operations Manager version 3.3. Yuri Rabover, vice president of product strategy, will take you on a tour of our solution’s core capabilities and new features.
+
+Show us some love and register &lt;https://www3.gotomeeting.com/register/247293470&gt; today!
+
+If you’re frustrated due to 
+spending too much time chasing performance issues, planning changes to your environment, or tuning your environment for utilization gains, then spend 30 minutes with us to learn how VMTurbo’s approach to controlling your cloud or virtualized environment helps you maintain a perpetually 
+healthy state and consistent service delivery.
+
+I can’t promise you roses or chocolates, but our customers have realized huge efficiency gains by reducing time spent troubleshooting and maximizing infrastructure utilization by offloading and automating decision-making.
+
+Join us to see how Operations Manager 3.3 drives greater simplicity and control. Register &lt;https://www3.gotomeeting.com/register/247293470&gt; now.
+
+Best Regards
+
+Lauren Whitehouse
+Director of Product Marketing VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

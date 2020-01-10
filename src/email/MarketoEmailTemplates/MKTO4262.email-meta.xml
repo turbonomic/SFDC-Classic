@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-10-24 Maximize Cloud Discounts in AWS &amp; Azure - Live Demo.ES-20181022-I</name>
+    <style>none</style>
+    <subject>Webinar Invitation | Maximize Cloud Spend in AWS &amp; Azure</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;
+
+
+Register Now to Enter to Win - $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+You are invited to join us this Wednesday, October 24th at 11 a.m. &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;, as our team demonstrates how to leverage AI-powered decisions to maximize performance in the cloud at the lowest cost. Register now to enter to win a $100 Amazon card.
+
+
+
+
+Reserve Your Seat &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;
+
+
+
+In this 30-minute demonstration &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt;, you will learn how Turbonomic understands of your entire stack - from the application down to the hardware - to automatically generate a migration assessment that enables IT teams to deliver the best AWS or Azure configuration at the right cost.
+
+See you there!
+Megan
+
+PS. If you can&apos;t make it live, sign up anyways &lt;[[https://turbonomic.com/resources/enterprise-cloud-discounts/]]&gt; and I&apos;ll send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

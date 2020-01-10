@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject:  Turbonomic - {!Alliance_Registration__c.Customer_Account_Name__c} Registration Closed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Alliance_Letterhead</letterhead>
+    <name>Alliance Reg Status Closed Email</name>
+    <style>freeForm</style>
+    <subject>Turbonomic -  {!Alliance_Registration__c.Customer_Account_Name__c} Registration Closed</subject>
+    <textOnly>{!Alliance_Registration__c.Alliance_Partner_First_Name__c},
+
+The registration for {!Alliance_Registration__c.Customer_Account_Name__c} was Closed for the following reason:
+{!Alliance_Registration__c.Closed_Reason__c}
+
+If you have questions, please reach out to:
+sean.casey@turbobnomic.com – VP of Alliances
+justin.kutticherry@turbonomic.com – Alliance Manager
+Charles_Geisler@bmc.com – Business Development Manager
+
+Regards,
+The Turbo Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

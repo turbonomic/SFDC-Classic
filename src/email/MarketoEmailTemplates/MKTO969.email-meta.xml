@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>02_24_2015 Pure Webinar #2.02_24_15 Email #2</name>
+    <style>none</style>
+    <subject>Tomorrow! Join The Flash Revolution With Pure Storage And VMTurbo</subject>
+    <textOnly>&lt;http://vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=purestorage&amp;utm_content=022415&gt;
+Join The Flash Revolution TOMORROW!
+Optimize Virtualization With Pure Storage &amp; VMTurbo
+&lt;http://vmturbo.com/pure-storage-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=purestorage&amp;utm_content=022415&gt;
+Attend this exclusive webinar from Pure Storage &lt;http://purestorage.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=purestorage&amp;utm_content=022415&gt; and VMTurbo to learn about the brand new Pure Storage Control Module.
+Pure’s FlashArray is the world’s first all-flash storage array for the enterprise. Featuring best in breed data reduction (FlashReduce), protection (FlashProtect), recovery (FlashRecover), and IOPS 10x the capacity of spinning disk, FlashArray is purpose-built for enterprise scale virtualization, VDI, and databasing.
+VMTurbo’s Pure Storage Control Module extends control through the virtual datastore and into the volumes of your Pure FlashArray, enabling you to:
+
+
+ - Maximize the value of your Pure Storage investment through proper sizing, placement, and configuration decisions both upstream and downstream of your Pure controllers
+ - Manage heterogeneous flash/legacy storage environments by identifying which workloads require flash and when
+ - Plan for the future to onboard additional FlashArrays with a priori insight of the all-flash impact on performance and efficiency
+
+
+Join the Revolution, and learn about this exciting new solution
+Tomorrow!
+February, 25th at 1:30 PM EST
+Register Now! &lt;http://vmturbo.com/pure-storage-webinar?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=purestorage&amp;utm_content=022415&gt;
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=purestorage&amp;utm_content=022415&gt;
+Downloads
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=purestorage&amp;utm_content=022415&gt;
+White Papers
+&lt;https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=purestorage&amp;utm_content=022415&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

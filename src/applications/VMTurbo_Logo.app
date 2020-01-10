@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Replaces default Salesforce logo with VMTurbo logo.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>VMTurbo Sales</label>
+    <logo>IS2LeadTraj__public/VMT_Logo_small_jpeg.jpg</logo>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>activities__Activities</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>Monthly_Rep_Goals__c</tabs>
+    <tabs>Team_colors_for_TV_dashboard__c</tabs>
+    <tabs>Net_Promoter_Score__c</tabs>
+    <tabs>Recruiting_Candidate__c</tabs>
+    <tabs>InMail__c</tabs>
+    <tabs>BDR_Qualitative_Score__c</tabs>
+    <tabs>Recruiting_Organization__c</tabs>
+    <tabs>Recruiting_Spec__c</tabs>
+    <tabs>Partner_Event__c</tabs>
+    <tabs>Partner_Office__c</tabs>
+    <tabs>Talent_Management__c</tabs>
+    <tabs>PhoneHome_Data__c</tabs>
+    <tabs>Enterprise_SE_Activity__c</tabs>
+    <tabs>SLA__c</tabs>
+    <tabs>Finance_and_Legal_Docs__c</tabs>
+    <tabs>Gsnap</tabs>
+    <tabs>License_Features__c</tabs>
+    <tabs>sma__MAFolder__c</tabs>
+</CustomApplication>

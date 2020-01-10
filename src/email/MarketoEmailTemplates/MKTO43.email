@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p>Dear {{lead.First Name:default=Sir/Madam}},<br /><br />Thank you for downloading the Community version of VMTurbo Operations Manager.<br /><br />As you begin this process, please note that there are three different download packages available. All three represent exactly the same capabilities, the difference being the packaging of the virtual appliance to be deployed on various hypervisor platforms (vSphere, Hyper-V or XenServer). <br /><br />Follow the links below to select the correct VMTurbo Operations Manager package for your virtual environment:</p>
+<ul>
+<li><a href="http://campaigns.vmturbo.com/dowload-vmturbo-for-xenserver-290c4a1a804f429c5abe26032a209356">XenServer</a></li>
+<li><a href="http://campaigns.vmturbo.com/dowload-vmturbo-for-hyperv-82413a8307c34df1826d807e051dd13c">HyperV</a></li>
+<li><a href="http://campaigns.vmturbo.com/dowload-vmturbo-for-esxi-be84b57566988a316c09708fb94bcae4">VMware</a></li>
+</ul>
+<p>The default login for the Operations Manager is:<br /> Username: administrator<br /> Password: administrator<br /> <br /> Regardless of package, <a href="http://go.vmturbo.com/CommunityEditionDownload_License14978235.html">your license key</a> will enable the  Community Edition. The license also provides you with a 30-day trial of  the advanced optimization and automation features included in the  Enterprise and Cloud Editions of VMTurbo Operations Manager.&nbsp; Once your  30 day trial expires the appliance will revert back to the FREE  Community Edition and continue to function with that feature-set.<br /> <br /> We will be following up with you regularly through your trial period to  ensure you get the most out of your evaluation. Thanks again for your  interest in VMTurbo, and please let us know if you have any questions. <br /> <br /> -The VMTurbo Team</p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

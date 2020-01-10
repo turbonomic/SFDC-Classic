@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Commercial_Health Care_Cold_Nurture.Healthcare_Cold_Nurture_Commercial_ES_3</name>
+    <style>none</style>
+    <subject>Cloudwave Guarantees SLAs &amp; Performance for Community Hospitals with Turbonomic</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/videos/cloudwave-turbonomic-customer-case-study]]&gt;
+Hi {{lead.First Name:default=there}},
+
+The primary mission at Cloudwave is to give an provide an advantage to community hospitals in managing patient data and delivering information to clinicians at the point of care through cloud technology. With Turbonomic, Cloudwave is able to meet service level agreements, guarantee performance, and ensure compliance 24/7 required for their customers.
+
+ &lt;[[https://resources.turbonomic.com/videos/cloudwave-turbonomic-customer-case-study]]&gt;
+
+&quot;Turbonomic enabled us to achieve greater density without impacting performance, has minimized the need for additional hardware purchases and provided greater insight into our virtual environment.&quot;
+
+Want to learn how we can help your organization? See how over 1,900 of our customers  &lt;[[https://turbonomic.com/customers/customers-by-industry/]]&gt;leverage workload automation to simultaneously optimize performance, cost and policy compliance in 
+real-time. 
+
+
+ 
+
+Regards,
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

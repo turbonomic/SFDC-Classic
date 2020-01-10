@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;"> 
+<div>
+<span style="font-size: 12px;">Dear {{lead.First Name:default=Friend}},<br /><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I am reaching out to personally invite you to Turbonomic's upcoming executive networking lunch in Indianapolis on July 13th.&nbsp;<br /><br /></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">With nearly three decades of experience in technology, I have had the distinct pleasure of witnessing the myriad ways in which IT has evolved over time, and how this evolution has both solved existing challenges<em> and</em> created new ones for the world's largest enterprises.<br /><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">The pace of change we are witnessing today, however, is unparalleled. I hope you will join myself and a dozen of your fellow IT leaders in Indianapolis for lunch from 12:00 p.m. to 2:00 p.m. at the Capital Grille to discuss the innovation we are seeing in the marketplace today, and how we are embracing it within our own organizations. Attendees will also receive&nbsp;a home automation kit, consisting of either an Amazon Echo or a Nest Home Thermostat.&nbsp;<br /><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">If you would like to attend, please <a href="https://turbonomic.com/learn-indianapolis" target="_blank" id="">RSVP using this link</a> by <strong>no later than noon today</strong> - we are closing registration this afternoon.&nbsp;</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I hope you have a safe and relaxing holiday weekend.&nbsp;</span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;"></span>
+<br />
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,</span>
+</div> 
+<div>
+<span style="font-size: 12px;">Bill</span>
+</div> 
+<p><a href="https://turbonomic.com/learn-phoenix" target="_blank"><span style="font-size: 12px;"><img src="https://cdn.turbonomic.com/wp-content/uploads/bill-veghte.png" width="75" height="75" constrain="true" imagepreview="false" /></span></a></p> 
+<p><span style="font-size: 12px;"><em>Bill Veghte<br />Executive Chairman<br />Turbonomic, Inc.</em></span></p> 
+<p><br /></p> 
+</div>  
+</body>
+</html>

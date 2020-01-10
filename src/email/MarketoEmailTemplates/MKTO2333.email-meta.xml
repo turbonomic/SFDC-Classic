@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2016-10-17-VMworld Europe.EMAIL-VMworld Booth Promo</name>
+    <style>none</style>
+    <subject>Turbonomic at VMworld Europe | Win an Oculus Rift, Nvidia Shield &amp; More</subject>
+    <textOnly>See Turbonomic at VMworld 2016
+Your Chance to Win the Best Swag
+This year at VMworld Europe we will be giving away some of the greatest swag you have ever seen: a BB-8, a NVIDIA Shield and an Oculus Rift each day of the event. Want to increase your chances on winning these top items? Simply join The Green Circle Community &lt;[[http://signup.greencirclecommunity.com?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=desired-swag-eu-2016&amp;utm_content=10132016]]&gt;.
+
+Throughout VMworld, complete Online missions &lt;[[https://greencircle.vmturbo.com/docs/DOC-3267]]&gt; to earn points that you can then redeem for the prizes or extra entries into the daily giveaway.
+
+But why wait until next week, log in &lt;[[http://signup.greencirclecommunity.com?utm_source=turbonomic&amp;utm_medium=email&amp;utm_campaign=desired-swag-eu-2016&amp;utm_content=10132016]]&gt; to the Green Circle Community and start earning points towards your swag today!
+Turbonomic
+
+500 Boylston St, 8th Floor 
+ 
+ Boston, MA 
+ 
+ 02116</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-01-23-Field-East-RD-Sponsored-Montreal.ES-2018-01-17-Montreal-09.EMAIL</name>
+    <style>none</style>
+    <subject>Cisco et Turbonomic Suite Privée au Centre Bell 23Janvier2018</subject>
+    <textOnly>Bonjour {{lead.First Name:default=edit me}},
+ 
+
+
+Nous sommes une semaine à partir du match de hockey entre les Canadiens de Montréal et les Avalanches de Colorado au Centre Bell le 23 Janvier 2018 &lt;[[http://turbonomic.com/vip-montreal]]&gt;. Cet évènement c’est une excellente occasion pour établissez des réseaux et parlez de défis et de solutions avec des collègues
+ 
+L’espace est limitée dans le Cisco et Turbonomic suite privée, s’il vous plait répondre à cet e-mail pour enregistrer.
+ 
+J’ai hâte de vous rencontrent at s’il vous plait n’hésite pas à contacter-moi si vous avez des questions.
+ 
+Cordialement,
+  
+
+
+
+
+Maria Rodriguez
+Sr. Marketing Program Manager, Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

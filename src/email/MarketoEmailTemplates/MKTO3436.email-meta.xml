@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-02-01-Attendee-followup.Send</name>
+    <style>none</style>
+    <subject>Thank you for attending our webinar on Spectre and Meltdown!</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+&lt;p&gt;Thank you for joining today’s webinar. As discussed, Turbonomic can help you get on top of Spectre/Meltdown performance issues by using automation to get the most out of your existing infrastructure.  
+&lt;/p&gt;&lt;br&gt;
+
+&lt;p&gt;To show our appreciation for your attendance, we are offering a complimentary Guided 
+Evaluation of Turbonomic.  Register below, and a technical expert will reach out shortly:
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;
+
+ &lt;[[https://turbonomic.com/spectre-guided-evaluation/]]&gt;
+
+&lt;br&gt;&lt;br&gt;
+&lt;p&gt;Turbonomic provides workload automation for hybrid cloud environments.  Learn why our customers partner with us &lt;[[https://turbonomic.com/resources/#filter=.case-study]]&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Best,
+The Turbonomic Team&lt;/p&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

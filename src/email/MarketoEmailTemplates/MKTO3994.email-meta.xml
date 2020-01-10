@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-09-18-EMEA-Partner-Summit.Invite 1</name>
+    <style>none</style>
+    <subject>You&apos;re invited: Turbonomic Partner Summit (18 September: Park Lane, London)</subject>
+    <textOnly>&lt;[[https://turbonomic.com/emea-partner-summit/#]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+As a strategic Turbonomic partner we would like to invite you to attend our 2018 Partner Summit (co-located with our Customer Summit) on 18th September at the Intercontinental Park Lane, London, UK.
+This event brings together eco-system partners and customers, in the same forum, to learn more about Turbonomics vision and direction from our leadership team. Charles Crouchman, CTO will take you through our product roadmap. Chris Gorecki, VP of Global Channel and Alliances discuss the new Turbonomic partner program and how you can leverage it to accelerate profitability. Lastly you will hear from actual customers who have deployed our workload automation technology to increase efficiency and 
+assure performance in their datacenter and public clouds. We will also have some exciting guest speakers who will be announced soon.
+This event is free to attend and is by invitation only.  Space is limited so we strongly urge you to register as soon as possible to reserve your seat. Refreshments will be provided throughout the day with an exclusive business lunch provided in 
+private at Ella Canta &lt;[[https://www.ellacanta.com]]&gt; by executive chef Martha Ortiz.
+
+
+
+
+2018 Turbonomic Partner Summit
+Where: Intercontinental Park Lane &lt;[[https://www.google.com/maps/place/InterContinental+London+Park+Lane/@51.5039124,-0.1502709,15z/data=!4m2!3m1!1s0x0:0xc31acd183fc31a5f?sa=X&amp;ved=2ahUKEwi03M2v1f3cAhUFWxoKHYkuC6sQ_BIwCnoECAsQCw]]&gt;, London
+Tuesday, 18th September 
+2018
+ &lt;[[https://turbonomic.com/emea-partner-summit/]]&gt;
+ &lt;[[https://www.eventbrite.com/e/aws-summit-vip-dinner-registration-44365454268]]&gt;
+
+ 
+As seats are limited we do ask that you please RSVP here &lt;[[https://turbonomic.com/emea-partner-summit/#]]&gt;.
+
+
+We hope to see you there,  
+
+
+Turbonomic Channel &amp; Alliances Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

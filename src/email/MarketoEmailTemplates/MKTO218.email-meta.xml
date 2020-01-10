@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6/18/2013 - Overbright webinar.Invite</name>
+    <style>none</style>
+    <subject>Complimentary Webinar, Reduce Costs of Your Virtual Infrastructure</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+In less than one hour, you can learn how to save significantly on managing your virtual infrastructure whilst using the equipment and tools you have today. Save the date and join us on June 18th at 10:00AM for a webinar &lt;http://go.vmturbo.com/overbright_vmturbo_webinar_6_18_2013.html&gt; in which Kevin Goodall of OverBright and Andrew Mallaband of VMTurbo will take you through a game-changing and money-saving new approach to controlling and automating your virtual and private cloud infrastructures. 
+
+Discover how this new approach can help you:
+
+
+ - Maximise resource utilisation
+ - Increase virtual machine density
+ - Reduce ongoing cost of compute infrastructure
+
+
+
+..meanwhile preserving application performance. 
+
+Click here &lt;http://go.vmturbo.com/overbright_vmturbo_webinar_6_18_2013.html&gt; to save your seat in this virtual meeting.
+
+Kind Regards,
+ The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

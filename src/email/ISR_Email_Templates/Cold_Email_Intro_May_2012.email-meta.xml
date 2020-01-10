@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cold Email Intro May 2012</name>
+    <style>none</style>
+    <subject>regarding my phone call</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+I was recently asked to follow up with your company about VMTurbo. Please let me know if you&apos;re open to a quick phone call so I can learn about how you&apos;re taking advantage of server virtualization and deploying cloud services.
+
+If you&apos;re unfamiliar with VMTurbo, it&apos;s a workload management platform for virtual / cloud environments that drives and maintains an optimal zone where end user experience is fully guaranteed and physical resources are utilized most efficiently. The result of our technology is substantial cost and resource savings in the ongoing management of a virtual infrastructure, in addition to an unparalleled simulation engine for planning infrastructure refresh, P-to-V, and V-to-V migration projects.
+
+I&apos;ve included a couple of links below, the first is a short clip providing a great high level overview of VMTurbo, the second is to a blog by a leading analyst discussing our product:
+
+Why VMTurbo Exists: www.vmturbo.com/vmtvideo
+The Virtualization Practice: http://bit.ly/JxK3HR
+
+Best,
+{!User.FirstName} {!User.LastName}
+Consultant
+{!User.Phone}
+Download a Free Trial: http://www.vmturbo.com/cloud-edition-download/</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

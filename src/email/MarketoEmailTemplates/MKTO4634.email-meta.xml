@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Benchmarking Container Adoption</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-EMEA-2019-04-11 Container Adoption.ES- 20190220-Invite . 2.Email A</name>
+    <style>none</style>
+    <subject>Webinar: Benchmarking Container Adoption</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+According to Gartner, there’s a 50% chance your organization will be running containerized applications by 2020. How will you and your team overcome the roadblocks you’ll encounter on the way to deployment and management in production?
+
+
+
+
+
+
+Register 
+Now &lt;[[https://turbonomic.com/resources/wbn-container-adoption-2/?utm_campaign=7012o000001oRxj]]&gt;
+
+
+
+
+
+
+
+Join the Benchmarking Your Container Adoption in 2019 &lt;[[https://turbonomic.com/resources/wbn-container-adoption-2/?utm_campaign=7012o000001oRxj]]&gt; webinar on April 18th at 11am BST where Eva Tuczai, Advanced Solutions Manager, Containers at Turbonomic for a discussion around:
+
+
+	- Current adoption trends
+	- Best practices learned from IT pros that are running containers in production today
+	- The implications for multi-cloud deployments
+	- And more!
+
+
+Register now and compare yourself with your industry peers.
+ 
+Thanks,
+Andrew
+
+
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-container-adoption-2/?utm_campaign=7012o000001oRxj]]&gt; and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-12-19 VMware ELA.ES 1 - SL 1</name>
+    <style>none</style>
+    <subject>How to Optimize Your VMware ELA</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4bxAAA]]&gt;
+ 
+
+Register Now and Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4bxAAA]]&gt;
+Hi {{lead.First Name:default=there}},
+You&apos;re invited to join our How to Optimize Your VMware ELA Webinar &lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4bxAAA]]&gt; on Wednesday, December 19th at 11 a.m. ET, as Eric Wright, Director of Technical Marketing, shares how hundreds of VMware customers leverage Turbonomic to optimize their VMware ELA.
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4bxAAA]]&gt;
+
+
+
+In this live 30-minute webinar &lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4bxAAA]]&gt;, you will find out:
+
+
+	- Key capabilities and value of the VMware Portfolio
+	- How to evaluate your cloud migration and investment alongside your VMware ELA
+	- How to optimize your VMware investments and significantly shrink your VMware ELA
+
+
+All registered guests will be entered to win a $100 Amazon Gift Card. I hope to see you there!
+Regards,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Resource Center Announcement A.Resource Center Email A</name>
+    <style>none</style>
+    <subject>New Online Evaluation Resources for VMTurbo</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+The VMTurbo Online Evaluation Resource Center &lt;http://bit.ly/OM1c42&gt; is officially open for business.
+As someone who previously downloaded our Operations Manager product, this site has been designed to give you all the tips and tricks to understanding (and getting immediate value from) all of the capabilities included in our solution – and provide one-click access to experts who can assist you on your way.
+
+If you are currently evaluating the product, take advantage of tutorials &lt;http://bit.ly/OM1c42&gt; that have been organized to help you immediately converge your virtual environment to an optimal state, and control it in the future – ensuring your workloads have the resources they need and  the underlying infrastructure is optimally utilized.
+
+If it has been a while since you gave the product a spin – take this opportunity to download &lt;http://bit.ly/QEctqh&gt; our updated 3.1 virtual appliance today. You’ll have it up and running in less than 30 minutes. Stop reacting to alerts and drilling into data, start preventing problems and maintaining your virtual data center in a healthy state.
+
+We look forward to working with you through your experience with our solution.
+
+Thank you,
+
+ Derek Slayton
+ VP of Marketing, VMTurbo
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

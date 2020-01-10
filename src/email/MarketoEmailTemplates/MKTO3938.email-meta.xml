@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: Microsoft Inspire 07_16_18.Microsoft Inspire Follow Up 2</name>
+    <style>none</style>
+    <subject>Thanks for stopping by!</subject>
+    <textOnly>Hello {{lead.First Name:default=there}},
+It was great to catch up with you at Microsoft Inspire this year! It is an exciting time for the partnership between Turbonomic and Microsoft.
+
+
+As a leading ISV for Azure Assessment, Planning and Optimization engagements, we’d love to share more of our insight with you. Check out our Turbonomic and Microsoft resource center here &lt;[[https://resources.turbonomic.com/microsoft-and-turbonomic]]&gt;. It includes a recent video on how we are delivering on our promise of 7 Days to Azure &lt;[[https://resources.turbonomic.com/videos/7-days-to-azure]]&gt;. 
+ 
+
+If you&apos;re ready, we&apos;d also love to have a one-on-one conversation with you to learn more about your team and your priorities. With your input, we can take you through a customized demo of our platform and show you exactly where we can help. Please schedule a meeting &lt;[[https://turbonomic.com/request-a-demo/]]&gt; with us today.
+
+
+Thank you, 
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

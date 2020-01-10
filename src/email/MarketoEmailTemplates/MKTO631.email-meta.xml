@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Enterprise Blitz Rightsizing.Email_use</name>
+    <style>none</style>
+    <subject>Workload Rightsizing Whitepaper, and setting up time</subject>
+    <textOnly>{{lead.First Name:default=}},
+
+I wanted to share a whitepaper &lt;http://go.vmturbo.com/wp-workload-rightsizing-download.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=rightsizeent&gt; that explores the challenges of workload placement, and how a simple approach can help you increase VM densities by up to 40% (average our customers are seeing). 
+
+Continuous rightsizing of virtual machines remains a significant challenge for administrators (and greatest limitations of traditional operations technologies) in virtualization today.  As you are aware, virtualization without rightsizing degrades the efficiencies garnered by virtualizing in the first place. Improperly-sized VMs erode healthy densities, and mimic (in software) the hardware over provisioning that virtualization aimed to curb.
+
+I’d like to set up an informal discussion on these business challenges (be they rightsizing or otherwise), and whether or not VMTurbo can help you solve them. 
+
+Looking forward to your reply,
+
+{{lead.Lead Owner First Name:default=}} {{lead.Lead Owner Last Name:default=}}
+{{lead.Lead Owner Email Address:default=}} | {{lead.Lead Owner Phone Number:default=}}
+
+
+
+
+
+
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

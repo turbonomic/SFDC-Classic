@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Referral from Marielena Salazar - Turbonomic Intro (1494935103.0)</name>
+    <style>none</style>
+    <subject>Referral from Marielena Salazar - Turbonomic Intro (1494935103.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Jorge, I was sent your direction after briefly speaking with Marielena Salazar about who it would be best to speak with when it comes to virtualization optimization for the Miami-Dade County, FL team.  From my research I know you and the team have invested a large sum in VMware’s hypervisor and that you are looking to continue to virtualize the infrastructure more towards the end of 2017/beginning of 2018. I was hoping that we could show you why other counties/cities like City of Miami have chosen to implement Turbonomic into their infrastructure, enabling them to increase application performance while also increasing their infrastructure efficiency.  I also wanted to make sure you and the team were aware that for the month of May Turbonomic is offering $15,000 off if a team chooses to go through an evaluation during the month of May. Do you have 30 minutes for my team and I to provide an introduction to you and the team over the next couple of weeks?  Best regards,  James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;   Going to Cisco Live? Meet with a Turbonomic Executive &lt;[[https://turbonomic.com/leadership-meetings]]&gt; </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

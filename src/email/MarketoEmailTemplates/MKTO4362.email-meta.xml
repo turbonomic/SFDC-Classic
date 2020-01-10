@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: AWS re:Invent-Las Vegas 11_26_18.004 Pre-Event: Email Invite 3 - 3a: Combin</name>
+    <style>none</style>
+    <subject>Hi {{lead.First Name:default=there}}, see you this week?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}}, 
+ 
+ 
+ 
+ 
+ I’m giving it one last chance to see if we can meet with you at AWS re:Invent. Click here &lt;[[https://turbonomic.jifflenow.com/reinvent2018/external_request/0ce7a1]]&gt; to schedule time to meet with our cloud experts to discuss elevating your AWS projects. 
+ 
+ 
+ 
+ 
+ 
+ Turbonomic Workload Automation is trusted by 2,000+ customers across industries including 100 of the Fortune 500. See a snapshot of our customer community below. Click through to view more. 
+ 
+ 
+ 
+ 
+  &lt;[[https://resources.turbonomic.com/case-studies]]&gt; 
+ 
+ 
+Meet with us for just 30 minutes at AWS re:Invent this week, and walk away prepared to optimize your AWS environment. 
+ 
+ 
+Please request a meeting here &lt;[[https://turbonomic.jifflenow.com/reinvent2018/external_request/0ce7a1]]&gt;. 
+ 
+Best, 
+Catherine</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

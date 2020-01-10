@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Finance_and_Legal_Docs__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>For reporting on Finance and Legal Docs</description>
+    <label>Finance and Legal Docs</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account__c</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Related_Opportunity__c</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Partner_Agreements__c</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Alliance_BD_Opportunity__c</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>One_Finance_and_Legal_Doc__c</field>
+            <table>Finance_and_Legal_Docs__c</table>
+        </columns>
+        <masterLabel>Finance and Legal Docs</masterLabel>
+    </sections>
+</ReportType>

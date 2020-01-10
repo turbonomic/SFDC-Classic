@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS-2017-10-11-Cloud Expo Asia.EMAIL- Booth Promo</name>
+    <style>none</style>
+    <subject>Turbonomic at Cloud Expo Asia | Stand L80</subject>
+    <textOnly>See Turbonomic at Cloud Expo Asia
+Turbonomic is pleased to advise that it will be demonstrating the latest release of its award winning software at
+ 
+Cloud Expo Asia and Data Centre World 2017
+Marina Bay Sands Convention Centre
+10th &amp; 11th of October
+ 
+Please drop by and visit us at Stand L80
+ 
+Turbonomic is the only Hybrid Cloud Management Platform that continuously analyzes application consumption, costs and compliance constraints and automatically allocates resources in real-time. It assures application performance by giving workloads the resources they need when they need them.
+Turbonomic
+Asia Pacific HQ
+567 Collins Street, Level 21
+Melbourne VIC 3000
+Australia</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Unitiv Customer Appreciation Event follow up.Email</name>
+    <style>none</style>
+    <subject>Follow-up to Unitiv&apos;s customer appreciation event</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+On behalf of our strategic reseller-partner, Unitiv, thank you for attending the Studio 54 customer appreciation event on January 25th at the Metropolitan Club. We would especially like to thank you for stopping by and taking in a brief demonstration of VMTurbo Operations Manager where we showed you how fast and easy it is to optimize and automate the management of your virtual infrastructure.
+ 
+We would like to invite you to take a 
+closer look at VMTurbo to see all of the capabilities that it has to offer with a custom overview and demonstration via WebEx to be held at your convenience. From there we can arrange for you to evaluate VMTurbo for yourself in your own virtual environment for 30 days free of charge.
+ 
+If you would like to take advantage of this offer, please call or email me and I will be happy to make the arrangements.  In the meanwhile, please take a moment to check out this brief video &lt;http://www.youtube.com/embed/W1l1O_2_yPg?rel=0&amp;autoplay=1&gt; describing how VMTurbo works.
+ 
+Best Regards,
+
+Dan DiPalma
+ Regional Director</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

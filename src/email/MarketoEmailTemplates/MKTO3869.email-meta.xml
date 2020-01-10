@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-07-08 6.1 Email 3 - Steve Corndell.ES-2018-07-08 6.1 Email 3 - Steve Cor</name>
+    <style>none</style>
+    <subject>Can We Help You Save $1M in the Cloud?</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+As you know, Turbonomic 6.1 is taking the market by storm! This is the fastest growing version amongst our entire customer base—which is now over 2,000 strong. What’s the reason for this rapid growth? It’s simple, really. 6.1 unlocks new capability that isn’t present on any prior Turbo release or 
+anywhere else in the market. A recent customer used the new release to find $2.4M worth of unallocated storage and drop their monthly cloud bill by $1M per month. You can do the same. Here are 5 key benefits our customers are finding to be invaluable to them in version 6.1:
+
+
+	- Turbonomic continuously evaluates cloud costs, so you only end up paying for what you need in the cloud.
+
+	- Turbonomic identifies and suspends ghost and unattached storage instances and unused compute instances.
+
+	- Turbonomic scales compute, storage, and database instances, to reduce costs to the optimal level without impacting performance.
+
+	- Turbonomic now simultaneously incorporates existing and recommended RIs, in order to drive the best possible costs.
+
+	- Turbonomic 6.1 allows you to gain full visibility into where workloads are running and can create policies to ensure compliance with data sovereignty and GDPR.
+
+
+
+Can we set up a meeting to show you the new functionality available in 6.1?
+
+
+Best,
+
+Steve 
+  
+
+ 
+
+ 
+   Steve  Corndell 
+   GM and VP of Commercial Sales
+   Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

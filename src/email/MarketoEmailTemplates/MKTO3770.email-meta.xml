@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-06-13-Policy-Driven-Automation-Demo.ES-2018-06-13_June_Webinar_Email1_0</name>
+    <style>none</style>
+    <subject>Technical Demo | Trustworthy Resizing Automation</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/webinar-policy-driven-automation/]]&gt;
+Hi {{lead.First Name:default=There}},
+
+
+
+
+You are invited to join Technology Evangelist Eric Wright as he demonstrates trustworthy automation with Turbonomic on June 13th at 11am ET.
+
+
+
+ &lt;[[https://turbonomic.com/resources/webinar-policy-driven-automation/]]&gt;
+
+
+
+
+In this 30-minute live demo session, you will learn how to setup automation policies in only a few clicks with the help of Turbonomic.
+
+See you there!
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

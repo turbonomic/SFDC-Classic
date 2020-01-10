@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbofest London 2015.Reminder Email</name>
+    <style>none</style>
+    <subject>Important Information: Turbofest London</subject>
+    <textOnly>&lt;http://vmturbo.com/register-for-turbofest-london?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=turbofest_London&amp;utm_content=invite&gt;
+
+
+
+
+Thursday, March 19th 2015 | 12:30 p.m.
+
+The Andaz Liverpool Street Hotel London
+40 Liverpool Street
+ London, England, EC2M 7QN
+
+{{Lead.First Name:default=}} {{Lead.Last Name:default=}}
+
+We cannot wait to host you and your colleagues at Turbofest London. Our itinerary features presentations from VMTurbo&apos;s founders, executives, and engineers, as well as from companies such as Barclays and SNS Bank.
+The event will begin with lunch at 12:30, we will then move into presentations from 1:30 to 6:00 and wrap up with a cocktail reception, providing ample time to network until 10:00 p.m. We can&apos;t wait to see you there!
+
+Questions Email marketing@vmturbo.com &lt;mailto: marketing@vmturbo.com&amp;subject=Octurbofest Question&gt;
+ 
+
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved.
+  &lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

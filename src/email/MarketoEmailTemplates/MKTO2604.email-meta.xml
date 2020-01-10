@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RE: Lurie Children&apos;s | Turbonomic touchpoint (1495543293.0)</name>
+    <style>none</style>
+    <subject>RE: Lurie Children&apos;s | Turbonomic touchpoint (1495543293.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean DocumentEmail     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                               Hi Ray, No problem. I understand you actually spoke with a few of my colleagues back when we were VMTurbo and I was looking forward to the opportunity to speak with you. In your opinion, considering your new role change, who would be the best contact for me to reach out to? Thanks,Maggie -----Original Appointment-----
+From: Ward, Raymond [mailto:RWard@luriechildrens.org] 
+Sent: Tuesday, May 23, 2017 8:26 AM
+To: Margaret Schroeder
+Subject: Declined: Lurie Children&apos;s | Turbonomic touchpoint
+When: Tuesday, May 23, 2017 10:30 AM-10:45 AM (UTC-05:00) Eastern Time (US &amp; Canada).
+Where: maggie to call Do to job realignments, I am no longer one of the controllers of our VM infrastructure. I am merely a consumer with not influence on purchasing decisions.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

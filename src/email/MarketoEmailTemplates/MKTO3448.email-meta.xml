@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-02-08-CWOM Day Chicago 3 Day Reminder.CWOM Days</name>
+    <style>none</style>
+    <subject>Cisco Workload Optimization Day Chicago Reminder</subject>
+    <textOnly>This is a reminder that you have registered to attend Cisco Workload Optimization Manager (WOM) Day Chicago on February 13 at 9501 Technology Blvd., Rosemont, IL at 3:00 p.m.
+
+ Cisco WOM Day Chicago is a 3-hour planning session with your regional Cisco field reps, Cisco partners and Turbonomic account executives to discuss how to leverage the Cisco WOM solution to more quickly retire sales quotas.  Attend this event to:
+
+
+	- Learn more about the Cisco and Turbonomic Partnership
+
+	- Get an in-depth overview of Cisco Workload Optimization Manager
+
+	- Understand how Cisco WOM compliments and augments Tetration and AppDynamics
+
+	- Participate in discussions with your sales peers on how to engage and position Cisco WOM with customers
+
+
+
+
+ 
+Agenda:
+3:00 Welcome &amp; Introductions
+3:15 Who is Turbonomic? Overview of Turbonomic and Cisco Partnership
+3:45 Cisco Workload Optimization Manager &amp; Product Demo
+4:30 Panel Discussion
+5:00 Wrap-Wp
+5:30 Cocktail Reception: Park Tavern
+Location:
+Cisco WOM Days Meetings - 9501 Technology Blvd, Rosemont, IL 60018
+Cocktail Reception - Park Tavern,  5433 Park Pl, Rosemont, IL 60018 &lt;[[https://www.google.com/maps/place/Fox+%26+Hound/@38.9395,-94.6715547,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0ebb5b0050b9f:0x2deaebc6ee144dda!8m2!3d38.9395!4d-94.669366?hl=en-US]]&gt;
+
+ 
+ 
+I look forward to seeing you at this event! If you have any questions please feel free to reach me at tami.pearlstein@turbonomic.com
+ 
+ 
+Regards, 
+Tami Pearlstein</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

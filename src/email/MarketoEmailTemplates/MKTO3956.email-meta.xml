@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2018-08-08 Performance and Policy for Disaster Recovery.ES-2018-08-07-Perfor</name>
+    <style>none</style>
+    <subject>[Last Chance] Will you join us tomorrow?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/disaster-recovery-live-demo/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+There&apos;s much more to Business Continuity and Disaster Recovery than meets the eye, and that is where Turbonomic comes in. Join us as we explore how Turbonomic delivers both pre and post automation for enterprise disaster recovery both on-premises and in the cloud. 
+
+
+ &lt;[[https://turbonomic.com/resources/disaster-recovery-live-demo/]]&gt;
+
+In this 30-minute live demo led by Eric Wright, Director of Technical Marketing and Technology Evangelist at Turbonomic, see how you go from zero to automation using the power of Turbonomic to meet any of your BCP/DR needs, and all within just a few minutes.
+
+
+We hope to see you there!
+
+
+Regards,
+Elizabeth
+
+
+
+P. S.  If you can&apos;t join us live, please feel free to sign up anyway &lt;[[https://turbonomic.com/resources/disaster-recovery-live-demo/]]&gt; and we&apos;ll email you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

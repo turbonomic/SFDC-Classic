@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-03-05-Field-West-RD-Sponsored-Los-Angeles.ES-2018-02-13 Exec 1.EM-2018-</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Los Angeles Executive Networking Reception and Lakers Game</subject>
+    <textOnly>Dear {{lead.First Name:default=Friend}},
+
+
+
+
+In my more than 25 years of experience in technology and business leadership, I have had the privilege of watching IT go through waves of transformation from a birds-eye view. All previous waves pale in comparison to that which we observe today. Data center and cloud advancements are happening at an unprecedented rate. That means more decisions will have to be made, requiring a broader set of skills to keep your workloads healthy. 
+
+I cordially invite you to join myself and dozens of our fellow IT leaders in Los Angeles for the upcoming Los 
+Angeles Executive Networking Event: Workload Automation for Your Hybrid Cloud  &lt;[[https://turbonomic.com/vip-losangeles/]]&gt;on Monday, March 5th 2018 at the Ritz Carlton LA Live for a cocktail hour at 6:00 p.m., following by a Lakers Game in the Turbonomic Suite at the Staples Center. 
+
+This event is a great opportunity to meet with peers, share challenges, and discuss trends. It is my goal and hope that this networking opportunity will be 
+intellectually stimulating and beneficial for all. Following our reception, myself and your technology peers will take our seats in the Turbonomic Suite to cheer on the LA Lakers as they take on the Portland Trailblazers.
+
+I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please register here &lt;[[https://turbonomic.com/vip-losangeles/]]&gt; as soon as possible.
+
+
+
+Yours sincerely,
+Bill
+
+
+
+
+Bill Veghte
+Executive Chairman
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

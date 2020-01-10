@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active? --></label>
+        <name>VartopiaDRS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter Criteria --></label>
+        <name>VartopiaDRS__Filter_Criteria__c</name>
+    </fields>
+</CustomObjectTranslation>

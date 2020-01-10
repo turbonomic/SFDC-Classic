@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-04-29-GC Survey.GC Survey</name>
+    <style>none</style>
+    <subject>2 Minute Green Circle Survey</subject>
+    <textOnly>Hi {{lead.First Name:default=Valued Customer}},
+Have you checked out the Green Circle lately? We&apos;ve been hard at work improving our online community and want to hear what you think. Whether you&apos;re a Green Circle champion or a one time user we would love to hear your feedback.
+Please fill out this short survey  &lt;[[https://www.surveymonkey.com/r/GreenCircleSurvey]]&gt;it will only take 2-3 minutes.
+Stay Green,
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

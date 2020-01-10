@@ -1,0 +1,638 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+                        /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+                        #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+                        .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+                        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+                        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+                        table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+                        img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+                        /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+                        body{margin:0; padding:0;}
+                        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+                        table{border-collapse:collapse !important;}
+                        body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+                        /* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+                        /* ========== Page Styles ========== */
+
+                        #bodyCell{padding:20px;}
+                        #templateContainer{width:600px;}
+
+                        /**
+                        * @tab Page
+                        * @section background style
+                        * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+                        * @theme page
+                        */
+                        body, #bodyTable{
+                                background-color:#e4e4e4;
+                        }
+
+                        /**
+                        * @tab Page
+                        * @section background style
+                        * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+                        * @theme page
+                        */
+                        #bodyCell{
+                                border-top:4px solid #BBBBBB;
+                        }
+
+                        /**
+                        * @tab Page
+                        * @section email border
+                        * @tip Set the border for your email.
+                        */
+                        #templateContainer{
+                                border:1px solid #BBBBBB;
+                        }
+
+                        /**
+                        * @tab Page
+                        * @section heading 1
+                        * @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+                        * @style heading 1
+                        */
+                        h1{
+                                color:#202020 !important;
+                                display:block;
+                                font-family:Helvetica;
+                                font-size:18px;
+                                font-style:normal;
+                                font-weight:bold;
+                                line-height:100%;
+                                letter-spacing:normal;
+                                margin-top:0;
+                                margin-right:0;
+                                margin-bottom:10px;
+                                margin-left:0;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Page
+                        * @section heading 2
+                        * @tip Set the styling for all second-level headings in your emails.
+                        * @style heading 2
+                        */
+                        h2{
+                                color:#404040 !important;
+                                display:block;
+                                font-family:Helvetica;
+                                font-size:20px;
+                                font-style:normal;
+                                font-weight:bold;
+                                line-height:100%;
+                                letter-spacing:normal;
+                                margin-top:0;
+                                margin-right:0;
+                                margin-bottom:10px;
+                                margin-left:0;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Page
+                        * @section heading 3
+                        * @tip Set the styling for all third-level headings in your emails.
+                        * @style heading 3
+                        */
+                        h3{
+                                color:#606060 !important;
+                                display:block;
+                                font-family:Helvetica;
+                                font-size:16px;
+                                font-style:italic;
+                                font-weight:normal;
+                                line-height:100%;
+                                letter-spacing:normal;
+                                margin-top:0;
+                                margin-right:0;
+                                margin-bottom:10px;
+                                margin-left:0;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Page
+                        * @section heading 4
+                        * @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+                        * @style heading 4
+                        */
+                        h4{
+                                color:#808080 !important;
+                                display:block;
+                                font-family:Helvetica;
+                                font-size:14px;
+                                font-style:italic;
+                                font-weight:normal;
+                                line-height:100%;
+                                letter-spacing:normal;
+                                margin-top:0;
+                                margin-right:0;
+                                margin-bottom:10px;
+                                margin-left:0;
+                                text-align:left;
+                        }
+
+                        /* ========== Header Styles ========== */
+
+                        /**
+                        * @tab Header
+                        * @section preheader style
+                        * @tip Set the background color and bottom border for your email's preheader area.
+                        * @theme header
+                        */
+                        #templatePreheader{
+                                background-color:#fff;
+                        }
+
+                        /**
+                        * @tab Header
+                        * @section preheader text
+                        * @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+                        */
+                        .preheaderContent{
+                                color:#808080;
+                                font-family:Helvetica;
+                                font-size:10px;
+                                line-height:125%;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Header
+                        * @section preheader link
+                        * @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+                        */
+                        .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+                                color:#606060;
+                                font-weight:normal;
+                                text-decoration:underline;
+                        }
+
+                        /**
+                        * @tab Header
+                        * @section header style
+                        * @tip Set the background color and borders for your email's header area.
+                        * @theme header
+                        */
+                        #templateHeader{
+                                background-color:#F4F4F4;
+                                border-top:1px solid #FFFFFF;
+                                border-bottom:1px solid #CCCCCC;
+                        }
+
+                        /**
+                        * @tab Header
+                        * @section header text
+                        * @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+                        */
+                        .headerContent{
+                                color:#505050;
+                                font-family:Helvetica;
+                                font-size:20px;
+                                font-weight:bold;
+                                line-height:100%;
+                                padding-top:0;
+                                padding-right:0;
+                                padding-bottom:0;
+                                padding-left:0;
+                                text-align:left;
+                                vertical-align:middle;
+                        }
+
+                        /**
+                        * @tab Header
+                        * @section header link
+                        * @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+                        */
+                        .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+                                color:#021FEB;
+                                font-weight:normal;
+                                text-decoration:underline;
+                        }
+
+                        #headerImage{
+                                height:auto;
+                                max-width:600px;
+                        }
+
+                        /* ========== Body Styles ========== */
+
+                        /**
+                        * @tab Body
+                        * @section body style
+                        * @tip Set the background color and borders for your email's body area.
+                        */
+                        #templateBody{
+                                background-color:#FFFFFF;
+                                border-top:1px solid #FFFFFF;
+                                border-bottom:1px solid #CCCCCC;
+                        }
+
+                        /**
+                        * @tab Body
+                        * @section body text
+                        * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+                        * @theme main
+                        */
+                        .bodyContent{
+                                color:#505050;
+                                font-family:Helvetica;
+                                font-size:14px;
+                                line-height:150%;
+                                padding-top:20px;
+                                padding-right:20px;
+                                padding-bottom:20px;
+                                padding-left:20px;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Body
+                        * @section body link
+                        * @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+                        */
+                        .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+                                color:#021FEB;
+                                font-weight:normal;
+                                text-decoration:underline;
+                        }
+
+                        .bodyContent img{
+                                display:inline;
+                                height:auto;
+                                max-width:560px;
+                        }
+
+                        /* ========== Column Styles ========== */
+
+                        .templateColumnContainer{width:260px;}
+
+                        /**
+                        * @tab Columns
+                        * @section column style
+                        * @tip Set the background color and borders for your email's column area.
+                        */
+                        #templateColumns{
+                                background-color:#F4F4F4;
+                                border-top:1px solid #FFFFFF;
+                                border-bottom:1px solid #CCCCCC;
+                        }
+
+                        /**
+                        * @tab Columns
+                        * @section left column text
+                        * @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+                        */
+                        .leftColumnContent{
+                                color:#505050;
+                                font-family:Helvetica;
+                                font-size:14px;
+                                line-height:150%;
+                                padding-top:0;
+                                padding-right:20px;
+                                padding-bottom:20px;
+                                padding-left:20px;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Columns
+                        * @section left column link
+                        * @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+                        */
+                        .leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+                                color:#021FEB;
+                                font-weight:normal;
+                                text-decoration:underline;
+                        }
+
+                        /**
+                        * @tab Columns
+                        * @section right column text
+                        * @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+                        */
+                        .rightColumnContent{
+                                color:#505050;
+                                font-family:Helvetica;
+                                font-size:14px;
+                                line-height:150%;
+                                padding-top:0;
+                                padding-right:20px;
+                                padding-bottom:20px;
+                                padding-left:20px;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Columns
+                        * @section right column link
+                        * @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+                        */
+                        .rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+                                color:#021FEB;
+                                font-weight:normal;
+                                text-decoration:underline;
+                        }
+
+                        .leftColumnContent img, .rightColumnContent img{
+                                display:inline;
+                                height:auto;
+                                max-width:260px;
+                        }
+
+                        /* ========== Footer Styles ========== */
+
+                        /**
+                        * @tab Footer
+                        * @section footer style
+                        * @tip Set the background color and borders for your email's footer area.
+                        * @theme footer
+                        */
+                        #templateFooter{
+                                background-color:#F4F4F4;
+                                border-top:1px solid #FFFFFF;
+                        }
+
+                        /**
+                        * @tab Footer
+                        * @section footer text
+                        * @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+                        * @theme footer
+                        */
+                        .footerContent{
+                                color:#808080;
+                                font-family:Helvetica;
+                                font-size:10px;
+                                line-height:150%;
+                                padding-top:20px;
+                                padding-right:20px;
+                                padding-bottom:20px;
+                                padding-left:20px;
+                                text-align:left;
+                        }
+
+                        /**
+                        * @tab Footer
+                        * @section footer link
+                        * @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+                        */
+                        .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+                                color:#606060;
+                                font-weight:normal;
+                                text-decoration:underline;
+                        }
+
+                        /* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+                                /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+                                body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+                                /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+                                #bodyCell{padding:10px !important;}
+
+                                /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+                                /* ======== Page Styles ======== */
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section template width
+                                * @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+                                */
+                                #templateContainer{
+                                        max-width:600px !important;
+                                        width:100% !important;
+                                }
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section heading 1
+                                * @tip Make the first-level headings larger in size for better readability on small screens.
+                                */
+                                h1{
+                                        font-size:24px !important;
+                                        line-height:100% !important;
+                                }
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section heading 2
+                                * @tip Make the second-level headings larger in size for better readability on small screens.
+                                */
+                                h2{
+                                        font-size:20px !important;
+                                        line-height:100% !important;
+                                }
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section heading 3
+                                * @tip Make the third-level headings larger in size for better readability on small screens.
+                                */
+                                h3{
+                                        font-size:18px !important;
+                                        line-height:100% !important;
+                                }
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section heading 4
+                                * @tip Make the fourth-level headings larger in size for better readability on small screens.
+                                */
+                                h4{
+                                        font-size:16px !important;
+                                        line-height:100% !important;
+                                }
+
+                                /* ======== Header Styles ======== */
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section header image
+                                * @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+                                */
+                                #headerImage{
+                                        height:auto !important;
+                                        max-width:600px !important;
+                                        width:100% !important;
+                                }
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section header text
+                                * @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                                */
+                                .headerContent{
+                                        font-size:20px !important;
+                                        line-height:125% !important;
+                                }
+
+                                /* ======== Body Styles ======== */
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section body text
+                                * @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                                */
+                                .bodyContent{
+                                        font-size:18px !important;
+                                        line-height:125% !important;
+                                }
+
+                                /* ======== Column Styles ======== */
+
+                                .templateColumnContainer{display:block !important; width:100% !important;}
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section column image
+                                * @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+                                */
+                                .columnImage{
+                                        height:auto !important;
+                                        max-width:480px !important;
+                                        width:100% !important;
+                                }
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section left column text
+                                * @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                                */
+                                .leftColumnContent{
+                                        font-size:16px !important;
+                                        line-height:125% !important;
+                                }
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section right column text
+                                * @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+                                */
+                                .rightColumnContent{
+                                        font-size:16px !important;
+                                        line-height:125% !important;
+                                }
+
+                                /* ======== Footer Styles ======== */
+
+                                /**
+                                * @tab Mobile Styles
+                                * @section footer text
+                                * @tip Make the body content text larger in size for better readability on small screens.
+                                */
+                                .footerContent{
+                                        font-size:14px !important;
+                                        line-height:115% !important;
+                                }
+
+                                .footerContent a{margin:0 .4em 0 0} /* Place footer social and utility links on their own lines, for easier access */
+                        }
+</style>
+<title></title>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" ><center ><table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" ><tr ><td align="center" valign="top" id="bodyCell" ><table border="0" cellpadding="0" cellspacing="0" id="templateContainer" ><tr>
+<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+<tr>
+<td valign="top" class="preheaderContent" style="padding-top:13px; padding-right:20px; padding-bottom:10px; padding-left:20px;"><img src="http://go.vmturbo.com/rs/vmturbo/images/email-vmt-logo.png" width="100" height="41"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td align="center" valign="top" ><table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader" ><tr ><td valign="top" class="headerContent" ><div id="headerblock" class="mktEditable" ><img src="http://go.vmturbo.com/rs/vmturbo/images/ChannelNewsletterHeader2.png" alt="" width="600" height="207"></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td align="center" valign="top" ><table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" ><tr ><td valign="top" class="bodyContent mktEditable" id="bodyBlock" ><p style="text-align: center;" align="center"><img src="http://go.vmturbo.com/rs/vmturbo/images/PartnerVideoSS.png" alt="PartnerVideoSS.png" width="400" /></p>
+<p style="text-align: center;" align="center"><strong>Check out our new Partner video here:</strong><br /><a href="http://vmturbo.com/company/channel-partners?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615">Watch Here&nbsp;</a></p>
+<h2 style="text-align: center;" align="center"><span style="color: #008000;"> 
+<hr />
+<strong>Resources</strong></span></h2>
+<p style="text-align: center;" align="center"><strong style="text-align: left;"><strong style="text-align: left;"><img style="line-height: 14px;" src="http://go.vmturbo.com/rs/vmturbo/images/MattRay.png" alt="MattRay.png" hspace="20" width="200" align="left" /></strong></strong></p>
+<p style="text-align: left;" align="center"><strong style="text-align: left;"><a href="http://vmturbo.com/blog/vcpu-to-cpu-ratio-management?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong>Best Practices for vCPU to CPU Ratio Management</strong></a></strong></p>
+<p><strong style="text-align: left;"> </strong><strong style="text-align: left;"> </strong></p>
+<p style="text-align: left;" align="center">Matt Ray, Sales Engineer at VMTurbo, discusses what is the best vCPU to CPU ratio to assure performance in your environment&mdash;he asks, &ldquo;What&rsquo;s the real goal here?&rdquo;</p>
+<p style="text-align: left;" align="center">&nbsp;</p>
+<p><strong style="text-align: left;"> </strong><strong style="text-align: left;"> </strong></p>
+<p><strong style="text-align: left;"><a href="http://vmturbo.com/wp-virtualize-critical-apps/"><strong><img style="line-height: 14px;" src="http://go.vmturbo.com/rs/vmturbo/images/NewsletterWP.png" alt="NewsletterWP.png" hspace="20" width="200" align="left" /></strong></a><strong><a href="http://vmturbo.com/wp-virtualize-critical-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong>How&nbsp;to Successfully Virtualize Business Critical Applications</strong></a><a href="http://vmturbo.com/wp-virtualize-critical-apps/"></a></strong><strong>&nbsp;</strong></strong></p>
+<p><strong style="text-align: left;"> </strong></p>
+<p>Mastering the intricacies of virtualizing business-critical applications is crucial to today&rsquo;s IT organizations. This whitepaper explores key issues, practical barriers, and offers best practices for teams taking on this task.</p>
+<p>&nbsp;</p>
+<p><strong style="text-align: left;"> </strong></p>
+<p><strong style="text-align: left;"><strong><a href="http://vmturbo.com/resources/events/webinar-deploying-automating-mission-critical-virtual-desktops-at-atg-freight-llc/"><img style="line-height: 14px;" src="http://go.vmturbo.com/rs/vmturbo/images/ATG_WebinarWhite_Email-min.png" alt="ATG_WebinarWhite_Email-min.png" hspace="20" width="200" align="left" /></a></strong></strong><strong style="text-align: left;"><span><a href="http://vmturbo.com/resources/events/webinar-deploying-automating-mission-critical-virtual-desktops-at-atg-freight-llc?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong>How to Deploy &amp; Automate Mission-Critical Virtual Desktops</strong></a></span></strong></p>
+<p><strong style="text-align: left;"> </strong></p>
+<p><span>ATG Freight, LLC offers extensive transportation services throughout the US, Canada, and Mexico. Watch the webinar to learn how ATG handled an annual workload growth rate of 30%.</span></p>
+<p><strong style="text-align: left;"><strong style="text-align: left;"> <strong> </strong></strong></strong></p>
+<hr />
+<h2 style="text-align: center;"><span style="color: #008000;"><strong style="text-align: left;"><strong style="text-align: left;"><strong>Highlight: Turbofest London</strong></strong></strong></span></h2>
+<p><strong style="text-align: left;"><strong style="text-align: left;"><strong> </strong></strong></strong></p>
+<p style="text-align: center;"><strong style="text-align: left;"><strong style="text-align: left;"><strong><strong><img src="http://go.vmturbo.com/rs/vmturbo/images/TurbofestLondon.png" alt="TurbofestLondon.png" width="300" align="middle" /></strong></strong></strong></strong></p>
+<p><strong style="text-align: left;"><strong style="text-align: left;"><strong> </strong></strong></strong></p>
+<p align="center"><span>On March 19<sup>th</sup>, we hosted our third Turbofest in London, UK. The event was held at the Andaz Hotel with the cocktail hour taking place in their stunning Neoclassic Temple Room (pictured above). Because of the great customer speakers and a growing crowd, which eventually became standing room only, we are currently planning our next Turbofest event in Atlanta, GA on June 17th.</span></p>
+<p><strong style="text-align: left;"><strong style="text-align: left;"><strong> </strong></strong></strong></p>
+<p style="text-align: center;"><strong>If you are interested in attending please contact:</strong><br /><a href="mailto:partners@vmturbo.com"><strong>partners@vmturbo.com</strong></a><strong>&nbsp;<br /></strong></p>
+<hr />
+<h2 style="text-align: center;" align="center"><span style="color: #008000;"><strong style="text-align: left;"><strong style="text-align: left;"><strong><strong>Upcoming Events</strong></strong></strong></strong></span></h2>
+<p><strong style="text-align: left;"><strong style="text-align: left;"><strong> </strong></strong></strong></p>
+<ul>
+<strong style="text-align: left;"><strong style="text-align: left;"><strong>
+<li><a title="Philadelphia VMUG User Conference - May 12, 2015" href="http://vmturbo.com/events/philly-vmug-user-conference-may-2015?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong><span>Philadelphia VMUG User Conference &ndash; May 12, 2015</span></strong></a></li>
+<li><a title="Vancouver OpenStack Summit - May 18-22, 2015" href="http://vmturbo.com/events/openstack-summit-may-2015?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong><span>Vancouver OpenStack Summit &ndash; May 18-22, 2015</span></strong></a></li>
+<li><a title="New York/ New Jersey VMUG User Conference - May 19, 2015" href="http://vmturbo.com/events/new-york-new-jersey-vmug-user-conference-may-2015?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong><span>New York/ New Jersey VMUG User Conference &ndash; May 19, 2015</span></strong></a></li>
+<li><a title="Denver VMUG User Conference - May 27, 2015" href="http://vmturbo.com/events/denver-vmug-user-conference-may-2015?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong><span>Denver VMUG User Conference &ndash; May 27, 2015</span></strong></a></li>
+<li><strong><span>You can view more events here: </span></strong><a href="http://vmturbo.com/resources/events?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong><span>VMTurbo Events</span></strong></a><strong>&nbsp;<br /></strong></li>
+</strong></strong></strong> 
+</ul>
+<p><strong style="text-align: left;"><strong style="text-align: left;"><strong> </strong></strong></strong></p>
+<hr />
+<h2 style="text-align: center;"><span style="color: #008000;"><strong style="text-align: left;"><strong style="text-align: left;"><strong>Recent Awards</strong></strong></strong></span></h2>
+<p><strong style="text-align: left;"><strong style="text-align: left;"><strong> </strong></strong></strong></p>
+<p><strong style="text-align: left;"><strong style="text-align: left;"><strong> </strong></strong></strong><strong style="text-align: left;"><strong style="text-align: left;"> </strong></strong></p>
+<ul>
+<li><strong style="text-align: left;"><strong style="text-align: left;"><strong><img style="line-height: 14px;" src="http://go.vmturbo.com/rs/vmturbo/images/CloudAward.png" alt="CloudAward.png" hspace="20" width="100" align="right" /><a href="http://vmturbo.com/blog/vmturbo-operations-manager-readers-choice-award-winner/?utm_source=twitter&amp;utm_medium=social&amp;utm_campaign=resource-corporateblog&amp;utm_content=vmturbo-operations-manager-readers-choice-award-winner?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=channelnewsmay&amp;utm_content=050615"><strong>VMTurbo Operations Manager Named CloudComputingAdmin.comReaders&rsquo; Choice Award Winner</strong><br /></a></strong></strong></strong><strong style="text-align: left;"><strong style="text-align: left;"><strong><strong><br /><img src="http://go.vmturbo.com/rs/vmturbo/images/BestPlacesToWorkAward.png" alt="BestPlacesToWorkAward.png" hspace="20" width="100" align="right" /></strong></strong></strong></strong></li>
+<li><a href="http://vmturbo.com/press-releases/vmturbo-bbj-best-places-to-work/"><strong>VMTurbo Named To BBJ&rsquo;s &ldquo;Best Places to Work of 2015&rdquo;</strong></a></li>
+</ul></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+<tr>
+<td valign="top" class="footerContent" style="padding-top:20px;padding-bottom:0;">
+<p style="color:#b3b3b3;font-size:11px;line-height:15px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-weight:bold;">VMTurbo</p>
+<p style="color:#b3b3b3;font-size:11px;line-height:15px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-weight:normal;">500 Boylston Street, 8th Floor<br>
+Boston, MA 02116</p>
+</td>
+</tr>
+<tr>
+<td class="footerContent" style="padding-top:20px;"><a href="https://www.youtube.com/user/myVMTurboTV"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-youtube.png" width="32" height="32" alt="Visit us on YouTube"></a><a href="https://www.linkedin.com/company/vmturbo"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-linkedin.png" width="32" height="32" alt="Connect with us on LinkedIn"></a><a href="https://www.twitter.com/vmturbo"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-twitter.png" width="32" height="32" alt="Follow us on Twitter"></a><a href="https://www.facebook.com/vmturbo1"><img border="0" src="http://go.vmturbo.com/rs/vmturbo/images/email-facebook.png" width="32" height="32" alt="Visit us on Facebook"></a></td>
+</tr>
+<tr>
+<td valign="top" class="footerContent" style="padding-top:0px;padding-bottom:20px">
+<p style="text-align:left;color:#b3b3b3;font-size:11px;line-height:15px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-weight:normal;"><a href="{{system.unsubscribeLink}}">Unsubscribe from our e-mails</a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>

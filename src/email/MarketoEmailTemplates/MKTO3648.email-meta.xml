@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-05-04-DXC Quarterly Newsletter Send.Email Final 5318</name>
+    <style>none</style>
+    <subject>DXC Turbonomic Quarterly Newsletter</subject>
+    <textOnly>DXC and Turbonomic are driving game-changing results in the field; having deployed across 55,000+ VMs within DXC customer environments since August 2017.
+ 
+Check out the video below for a look into how Turbonomic is delivering less than 90 day ROI, 40-100% CapEx reduction, and removing thousands of manual daily actions per customer. Below are some specific achievements within a DXC multi-tenant environment:
+
+
+	- Deployed in 3 weeks covering 15,000+ VMs
+
+	- Across 22 sites
+	- Immediately deferred $1.25M in CapEx
+&lt;[[https://resources.turbonomic.com/wistia-customer-videos/turbonomic-amp-dxc-automation-is-the-answer]]&gt;
+This webinar will be held at 9am ET / 3pm CEST / 6:30pm IST.
+Turbonomic DXC Deployments
+
+For more information on account deployments and how best to engage, please reach out to Chris Heppell &lt;[[mailto:chris.heppell@dxc.com]]&gt; to align with the proper DXC Point of Contact.
+ACE Certification Training
+We recently held two ACE Training seminars in Noida and Hyderabad, India. Congratulations to all who passed and look out for announcements about upcoming training. We are looking forward to upcoming ACE seminars.
+The Green Circle Community &lt;[[https://greencircle.vmturbo.com/]]&gt;
+The DXC private portal within the Green Circle provides you with access to exclusive partnership content including recorded training materials, webinars, demos, and more.
+
+REQUEST AN INVITATION &lt;[[mailto:alden.french@turbonomic.com]]&gt;
+Popular Content
+Partnership Press Release &lt;[[https://greencircle.vmturbo.com/groups/dxc/blog/2017/10/18/partnership-press-release-dxc-turbonomic]]&gt;
+Battle Card &lt;[[https://greencircle.vmturbo.com/groups/dxc/blog/2017/09/27/battle-card]]&gt;
+Demo Videos &lt;[[https://greencircle.vmturbo.com/groups/dxc/blog/2017/09/13/dxc-training-videos]]&gt;
+Training Curriculum &lt;[[https://greencircle.vmturbo.com/docs/DOC-5263]]&gt;
+Turbonomic &amp; VMware Webinar &lt;[[https://greencircle.vmturbo.com/groups/dxc/blog/2017/10/14/eric-wright-turbonomic-vmware-webinar]]&gt;
+©  Turbonomic, Inc.
+Contact Us &lt;[[https://turbonomic.com/company/contact-us/]]&gt;  |  Unsubscribe &lt;[[{{system.unsubscribeLink}}]]&gt;
+&lt;[[https://twitter.com/turbonomic]]&gt;     &lt;[[https://www.youtube.com/user/myVMTurboTV]]&gt;      &lt;[[https://www.linkedin.com/company/turbonomic/]]&gt;    &lt;[[https://www.facebook.com/turbonomic/]]&gt;    &lt;[[https://www.instagram.com/turbonomic/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

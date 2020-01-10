@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: KubeCon Barcelona 05_20_19.001 KubeHunt - Invite 1</name>
+    <style>none</style>
+    <subject>Going to KubeCon? Join KubeHunt, a Barcelona Scavenger Hunt for KubeCon Attendees</subject>
+    <textOnly>&lt;[[https://view.ceros.com/turbonomic/kubehunt/p/1?utm_campaign=kubehunt?utm_keyword=Turbonomic]]&gt;
+Hi {{lead.First Name:default=there}},
+ 
+
+Are you going to KubeCon? If so, then join us on Monday, May 20th for an evening scavenger hunt &lt;[[https://view.ceros.com/turbonomic/kubehunt/p/1?utm_campaign=kubehunt?utm_keyword=Turbonomic]]&gt; in Barcelona’s Gothic Quarter—the very first KubeHunt!
+
+
+
+
+
+
+Register Now &lt;[[https://view.ceros.com/turbonomic/kubehunt/p/1?utm_campaign=kubehunt?utm_keyword=Turbonomic]]&gt;
+
+
+
+
+
+There are prizes to be won, free T-shirts to be earned, and friends to be made. Following the hunt, there will be a “Smooth Operators” networking reception at the Ocana Club in the Gothic quarter, sponsored by Red Hat, Turbonomic, NetApp, Planetscale, Twistlock, and DataDog.
+
+
+Don&apos;t miss out! Register now. &lt;[[https://view.ceros.com/turbonomic/kubehunt/p/1?utm_campaign=kubehunt?utm_keyword=Turbonomic]]&gt;
+
+ 
+Thanks,
+Asena</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

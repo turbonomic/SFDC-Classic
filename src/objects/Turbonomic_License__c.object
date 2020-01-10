@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>TurbonomicLicenseErrorMessage</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Turbonomic Licenses</relationshipLabel>
+        <relationshipName>Turbonomic_Licenses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Current_License_Features__c</fullName>
+        <externalId>false</externalId>
+        <label>Current License Features</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>storage</fullName>
+                    <default>false</default>
+                    <label>storage</label>
+                </value>
+                <value>
+                    <fullName>fabric</fullName>
+                    <default>false</default>
+                    <label>fabric</label>
+                </value>
+                <value>
+                    <fullName>network_control</fullName>
+                    <default>false</default>
+                    <label>network_control</label>
+                </value>
+                <value>
+                    <fullName>public_cloud</fullName>
+                    <default>false</default>
+                    <label>public_cloud</label>
+                </value>
+                <value>
+                    <fullName>cloud_cost</fullName>
+                    <default>false</default>
+                    <label>cloud_cost</label>
+                </value>
+                <value>
+                    <fullName>container_control</fullName>
+                    <default>false</default>
+                    <label>container_control</label>
+                </value>
+                <value>
+                    <fullName>app_control</fullName>
+                    <default>false</default>
+                    <label>app_control</label>
+                </value>
+                <value>
+                    <fullName>cost_control</fullName>
+                    <default>false</default>
+                    <label>cost_control</label>
+                </value>
+                <value>
+                    <fullName>vdi_control</fullName>
+                    <default>false</default>
+                    <label>vdi_control</label>
+                </value>
+                <value>
+                    <fullName>applications</fullName>
+                    <default>false</default>
+                    <label>applications</label>
+                </value>
+                <value>
+                    <fullName>historical_data</fullName>
+                    <default>false</default>
+                    <label>historical_data</label>
+                </value>
+                <value>
+                    <fullName>multiple_vc</fullName>
+                    <default>false</default>
+                    <label>multiple_vc</label>
+                </value>
+                <value>
+                    <fullName>scoped_user_view</fullName>
+                    <default>false</default>
+                    <label>scoped_user_view</label>
+                </value>
+                <value>
+                    <fullName>customized_views</fullName>
+                    <default>false</default>
+                    <label>customized_views</label>
+                </value>
+                <value>
+                    <fullName>group_editor</fullName>
+                    <default>false</default>
+                    <label>group_editor</label>
+                </value>
+                <value>
+                    <fullName>vmturbo_api</fullName>
+                    <default>false</default>
+                    <label>vmturbo_api</label>
+                </value>
+                <value>
+                    <fullName>automated_actions</fullName>
+                    <default>false</default>
+                    <label>automated_actions</label>
+                </value>
+                <value>
+                    <fullName>active_directory</fullName>
+                    <default>false</default>
+                    <label>active_directory</label>
+                </value>
+                <value>
+                    <fullName>custom_reports</fullName>
+                    <default>false</default>
+                    <label>custom_reports</label>
+                </value>
+                <value>
+                    <fullName>planner</fullName>
+                    <default>false</default>
+                    <label>planner</label>
+                </value>
+                <value>
+                    <fullName>optimizer</fullName>
+                    <default>false</default>
+                    <label>optimizer</label>
+                </value>
+                <value>
+                    <fullName>full_policy</fullName>
+                    <default>false</default>
+                    <label>full_policy</label>
+                </value>
+                <value>
+                    <fullName>loadbalancer</fullName>
+                    <default>false</default>
+                    <label>loadbalancer</label>
+                </value>
+                <value>
+                    <fullName>deploy</fullName>
+                    <default>false</default>
+                    <label>deploy</label>
+                </value>
+                <value>
+                    <fullName>aggregation</fullName>
+                    <default>false</default>
+                    <label>aggregation</label>
+                </value>
+                <value>
+                    <fullName>cloud_targets</fullName>
+                    <default>false</default>
+                    <label>cloud_targets</label>
+                </value>
+                <value>
+                    <fullName>cluster_flattening</fullName>
+                    <default>false</default>
+                    <label>cluster_flattening</label>
+                </value>
+                <value>
+                    <fullName>community</fullName>
+                    <default>false</default>
+                    <label>community</label>
+                </value>
+                <value>
+                    <fullName>trial</fullName>
+                    <default>false</default>
+                    <label>trial</label>
+                </value>
+                <value>
+                    <fullName>scaling</fullName>
+                    <default>false</default>
+                    <label>scaling</label>
+                </value>
+                <value>
+                    <fullName>custom_policies</fullName>
+                    <default>false</default>
+                    <label>custom_policies</label>
+                </value>
+                <value>
+                    <fullName>SLA</fullName>
+                    <default>false</default>
+                    <label>SLA</label>
+                </value>
+                <value>
+                    <fullName>assessment</fullName>
+                    <default>false</default>
+                    <label>assessment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Turbonomic Licenses</relationshipLabel>
+        <relationshipName>Turbonomic_Licenses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>License_Creation_Use_Cases__c</fullName>
+        <externalId>false</externalId>
+        <label>License Creation Use Cases</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>License_Use_Cases</valueSetName>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>License_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>License End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>License_Entity__c</fullName>
+        <description>License Entity for License Generator</description>
+        <externalId>false</externalId>
+        <label>License Entity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Workloads</fullName>
+                    <default>false</default>
+                    <label>Workloads</label>
+                </value>
+                <value>
+                    <fullName>Sockets</fullName>
+                    <default>false</default>
+                    <label>Sockets</label>
+                </value>
+                <value>
+                    <fullName>Cores</fullName>
+                    <default>false</default>
+                    <label>Cores</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>License_Key_Plain_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>License Key (Plain Text)</label>
+        <length>100000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>20</visibleLines>
+    </fields>
+    <fields>
+        <fullName>License_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>License Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commercial</fullName>
+                    <default>false</default>
+                    <label>Commercial</label>
+                </value>
+                <value>
+                    <fullName>Eval</fullName>
+                    <default>false</default>
+                    <label>Eval</label>
+                </value>
+                <value>
+                    <fullName>VHM</fullName>
+                    <default>false</default>
+                    <label>VHM</label>
+                </value>
+                <value>
+                    <fullName>Freemium</fullName>
+                    <default>false</default>
+                    <label>Freemium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>License_Update_Use_Cases__c</fullName>
+        <externalId>false</externalId>
+        <label>License Update Use Cases</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>License_Use_Cases</valueSetName>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Licensee_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Licensee Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Licensee_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Licensee Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes_From_Previous_License__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes From Previous License</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>One_Turbonomic_License__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>One (Turbonomic License)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Turbonomic Licenses</relationshipLabel>
+        <relationshipName>Turbonomic_Licenses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Other_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Primary_License_Key__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Primary Commercial License Key</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Update__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for Update</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Temp_Insert_Features__c</fullName>
+        <externalId>false</externalId>
+        <label>Temp Insert Features</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>storage</fullName>
+                    <default>false</default>
+                    <label>storage</label>
+                </value>
+                <value>
+                    <fullName>fabric</fullName>
+                    <default>false</default>
+                    <label>fabric</label>
+                </value>
+                <value>
+                    <fullName>network_control</fullName>
+                    <default>false</default>
+                    <label>network_control</label>
+                </value>
+                <value>
+                    <fullName>app_control</fullName>
+                    <default>false</default>
+                    <label>app_control</label>
+                </value>
+                <value>
+                    <fullName>container_control</fullName>
+                    <default>false</default>
+                    <label>container_control</label>
+                </value>
+                <value>
+                    <fullName>public_cloud</fullName>
+                    <default>false</default>
+                    <label>public_cloud</label>
+                </value>
+                <value>
+                    <fullName>cloud_cost</fullName>
+                    <default>false</default>
+                    <label>cloud_cost</label>
+                </value>
+                <value>
+                    <fullName>planner</fullName>
+                    <default>false</default>
+                    <label>planner</label>
+                </value>
+                <value>
+                    <fullName>vdi_control</fullName>
+                    <default>false</default>
+                    <label>vdi_control</label>
+                </value>
+                <value>
+                    <fullName>scaling</fullName>
+                    <default>false</default>
+                    <label>scaling</label>
+                </value>
+                <value>
+                    <fullName>custom_policies</fullName>
+                    <default>false</default>
+                    <label>custom_policies</label>
+                </value>
+                <value>
+                    <fullName>SLA</fullName>
+                    <default>false</default>
+                    <label>SLA</label>
+                </value>
+                <value>
+                    <fullName>assessment</fullName>
+                    <default>false</default>
+                    <label>assessment</label>
+                </value>
+                <value>
+                    <fullName>cost_control</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>cost_control</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Total_Licensed_Cores__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Licensed Cores</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Licensed_Sockets__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Licensed Sockets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Licensed_Workloads__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Licensed Workloads</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Turbonomic_Edition__c</fullName>
+        <externalId>false</externalId>
+        <label>Turbonomic Edition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Turbonomic_Edition</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Turbonomic_License_Safe_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <label>Turbonomic License Safe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Core_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Core Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Features__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional Features as they relate to the editions we sell:
+
+Workload Edition: storage, fabric
+Application Edition: storage, fabric, network, app
+Cloud Native Edition: storage, fabric, network, app, container, public cloud, cost_control</inlineHelpText>
+        <label>Additional License Features</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>storage</fullName>
+                    <default>false</default>
+                    <label>storage</label>
+                </value>
+                <value>
+                    <fullName>fabric</fullName>
+                    <default>false</default>
+                    <label>fabric</label>
+                </value>
+                <value>
+                    <fullName>network_control</fullName>
+                    <default>false</default>
+                    <label>network_control</label>
+                </value>
+                <value>
+                    <fullName>public_cloud</fullName>
+                    <default>false</default>
+                    <label>public_cloud</label>
+                </value>
+                <value>
+                    <fullName>cloud_cost</fullName>
+                    <default>false</default>
+                    <label>cloud_cost</label>
+                </value>
+                <value>
+                    <fullName>container_control</fullName>
+                    <default>false</default>
+                    <label>container_control</label>
+                </value>
+                <value>
+                    <fullName>app_control</fullName>
+                    <default>false</default>
+                    <label>app_control</label>
+                </value>
+                <value>
+                    <fullName>planner</fullName>
+                    <default>false</default>
+                    <label>planner</label>
+                </value>
+                <value>
+                    <fullName>vdi_control</fullName>
+                    <default>false</default>
+                    <label>vdi_control</label>
+                </value>
+                <value>
+                    <fullName>scaling</fullName>
+                    <default>false</default>
+                    <label>scaling</label>
+                </value>
+                <value>
+                    <fullName>custom_policies</fullName>
+                    <default>false</default>
+                    <label>custom_policies</label>
+                </value>
+                <value>
+                    <fullName>SLA</fullName>
+                    <default>false</default>
+                    <label>SLA</label>
+                </value>
+                <value>
+                    <fullName>assessment</fullName>
+                    <default>false</default>
+                    <label>assessment</label>
+                </value>
+                <value>
+                    <fullName>active_directory</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>active_directory</label>
+                </value>
+                <value>
+                    <fullName>aggregation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>aggregation</label>
+                </value>
+                <value>
+                    <fullName>applications</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>applications</label>
+                </value>
+                <value>
+                    <fullName>automated_actions</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>automated_actions</label>
+                </value>
+                <value>
+                    <fullName>cloud_targets</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>cloud_targets</label>
+                </value>
+                <value>
+                    <fullName>cluster_flattening</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>cluster_flattening</label>
+                </value>
+                <value>
+                    <fullName>community</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>community</label>
+                </value>
+                <value>
+                    <fullName>cost_control</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>cost_control</label>
+                </value>
+                <value>
+                    <fullName>custom_reports</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>custom_reports</label>
+                </value>
+                <value>
+                    <fullName>customized_views</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>customized_views</label>
+                </value>
+                <value>
+                    <fullName>deploy</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>deploy</label>
+                </value>
+                <value>
+                    <fullName>full_policy</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>full_policy</label>
+                </value>
+                <value>
+                    <fullName>group_editor</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>group_editor</label>
+                </value>
+                <value>
+                    <fullName>historical_data</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>historical_data</label>
+                </value>
+                <value>
+                    <fullName>loadbalancer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>loadbalancer</label>
+                </value>
+                <value>
+                    <fullName>multiple_vc</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>multiple_vc</label>
+                </value>
+                <value>
+                    <fullName>optimizer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>optimizer</label>
+                </value>
+                <value>
+                    <fullName>scoped_user_view</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>scoped_user_view</label>
+                </value>
+                <value>
+                    <fullName>trial</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>trial</label>
+                </value>
+                <value>
+                    <fullName>vmturbo_api</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>vmturbo_api</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Updated_License_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated License End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Updated_License_Entity__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated License Entity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Workloads</fullName>
+                    <default>false</default>
+                    <label>Workloads</label>
+                </value>
+                <value>
+                    <fullName>Sockets</fullName>
+                    <default>false</default>
+                    <label>Sockets</label>
+                </value>
+                <value>
+                    <fullName>Cores</fullName>
+                    <default>false</default>
+                    <label>Cores</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Updated_License_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated License ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Socket_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Socket Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Turbonomic_Edition__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Turbonomic Edition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>License_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Turbonomic_Edition</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Commercial</controllingFieldValue>
+                <valueName>Essentials</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial</controllingFieldValue>
+                <valueName>Advanced</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial</controllingFieldValue>
+                <valueName>Premier</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial</controllingFieldValue>
+                <valueName>EOM - Legacy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Eval</controllingFieldValue>
+                <controllingFieldValue>VHM</controllingFieldValue>
+                <controllingFieldValue>Freemium</controllingFieldValue>
+                <valueName>Trial</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Updated_Workload_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Workload Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Upgrade_from_VHM_to_Eval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Upgrade from VHM to Eval</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Commercial_License_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Commercial License Creation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_DL_Form_Fail_to_Send__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DL Form Fail to Send License to Customer</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Downgrade_to_VHM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Downgrade to VHM</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Form_Download__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Form Download</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Internal_Use__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Internal Use</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_License_Extension_Sales__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>License Extension (Sales)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_License_Extension_Technical__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>License Extension (Technical Issues)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_NFR_License__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NFR License</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Other_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Other__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Update_Prospect_Contact_Info__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Update Prospect Contact Info</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Update_Socket_Core_Count__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Update Workload/Socket/Core Count</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Upgrade_Feature_Set__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Upgrade Feature Set</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Upgrade_from_VHM_to_Eval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Upgrade from VHM to Eval</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Turbonomic License</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>License Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Turbonomic Licenses</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Licensee_Email__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>License_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>License_End_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Licensed_Cores__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Licensed_Sockets__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER</lookupDialogsAdditionalFields>
+        <searchFilterFields>Licensee_Email__c</searchFilterFields>
+        <searchFilterFields>License_Type__c</searchFilterFields>
+        <searchResultsAdditionalFields>Licensee_Email__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>License_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>License_End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Licensed_Cores__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Licensed_Sockets__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Eval_Date_Validations</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Updated_License_End_Date__c),
+NOT(ISBLANK(Updated_License_End_Date__c)),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Marketing&quot;)),
+OR(TEXT(License_Type__c)=&quot;VHM&quot;,TEXT(License_Type__c)=&quot;Freemium&quot;),
+Updated_License_End_Date__c - TODAY() &gt; 90,
+Updated_License_End_Date__c &gt; TODAY()+2,
+NOT(INCLUDES(License_Update_Use_Cases__c,&quot;Downgrading to VHM&quot;)),
+NOT(INCLUDES(License_Update_Use_Cases__c,&quot;NFR License&quot;)),
+NOT(INCLUDES(License_Update_Use_Cases__c,&quot;Internal Use&quot;)))</errorConditionFormula>
+        <errorDisplayField>Updated_License_End_Date__c</errorDisplayField>
+        <errorMessage>Eval license updates may not exceed 90 days from today or fall within 2 days of today.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Eval_Downgrade_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+ISCHANGED(Updated_License_End_Date__c),
+OR(Updated_License_End_Date__c - TODAY() &gt; 400, Updated_License_End_Date__c &lt; TODAY()+2),
+TEXT(License_Type__c)=&quot;Eval&quot;,
+INCLUDES(License_Update_Use_Cases__c,&quot;Downgrading to VHM&quot;))</errorConditionFormula>
+        <errorDisplayField>Updated_License_End_Date__c</errorDisplayField>
+        <errorMessage>When downgrading to VHM, you may not set the updated license end date more than 400 days or within 2 days of today</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Eval_Downgrade_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+NOT(ISNULL(Updated_Features__c)),
+TEXT(License_Type__c)=&quot;Eval&quot;,
+INCLUDES(License_Update_Use_Cases__c,&quot;Downgrading to VHM&quot;))</errorConditionFormula>
+        <errorMessage>You may not have updated features if downgrading from VHM in your use cases. Please empty the Updated Features field or remove the Downgrading to VHM use case in the License Update Use Cases field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Finance_Only_Primary_Com_Key_Change</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Primary_License_Key__c),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorMessage>Only finance can denote the primary license key</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Finance_Only_Primary_Com_Key_Change2</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(License_Type__c),
+TEXT(License_Type__c)=&quot;Commercial&quot;,
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;)</errorConditionFormula>
+        <errorDisplayField>License_Type__c</errorDisplayField>
+        <errorMessage>Only finance can denote a commercial license type</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Opportunity_And_Account</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISNEW(),
+TEXT(License_Type__c) = &quot;Commercial&quot;,
+ISBLANK(Opportunity__c),
+ISBLANK(Account__c),
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$User.Full_Name__c&lt;&gt;&quot;Gregory Dunn&quot;)</errorConditionFormula>
+        <errorMessage>Please make sure this License has an Opportunity and Account associated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Other_Reason_for_Other_Use_Case</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+OR(
+ISBLANK(Use_Case_Other_Reason__c),
+INCLUDES(License_Creation_Use_Cases__c,&quot;Other&quot;)),
+OR(
+ISBLANK(Other_Reason__c),
+INCLUDES(License_Update_Use_Cases__c,&quot;Other&quot;)))</errorConditionFormula>
+        <errorMessage>Please fill in the Other Reason field in order to choose Other as a License Creation/Update Use Case.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Use_Cases</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$User.Full_Name__c&lt;&gt;&quot;Gregory Dunn&quot;,
+ISNEW(),
+OR(
+INCLUDES(License_Creation_Use_Cases__c,&quot;Form Download&quot;),
+INCLUDES(License_Creation_Use_Cases__c,&quot;Commercial License Creation&quot;)))</errorConditionFormula>
+        <errorDisplayField>License_Creation_Use_Cases__c</errorDisplayField>
+        <errorMessage>Only Finance/Admins can choose Form Download or Commercial License Creation as a use case when creating licenses.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Upgrade_from_VHM_to_Eval_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+INCLUDES(License_Update_Use_Cases__c,&quot;Upgrading VHM to Eval&quot;), 
+TEXT(License_Type__c)&lt;&gt;&quot;VHM&quot;)</errorConditionFormula>
+        <errorMessage>You cannot upgrade a non-VHM license to an Eval license.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VHM_Date_Validations</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Updated_License_End_Date__c),
+NOT(ISBLANK(Updated_License_End_Date__c)),
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+NOT(CONTAINS($UserRole.Name,&quot;Marketing&quot;)),
+OR(TEXT(License_Type__c)=&quot;VHM&quot;,TEXT(License_Type__c)=&quot;Freemium&quot;),
+Updated_License_End_Date__c - TODAY() &gt; 370,
+Updated_License_End_Date__c &gt; TODAY()+2,
+NOT(INCLUDES(License_Update_Use_Cases__c,&quot;Upgrading VHM to Eval&quot;)))</errorConditionFormula>
+        <errorDisplayField>Updated_License_End_Date__c</errorDisplayField>
+        <errorMessage>VHM/Freemium updates may not exceed 370 days from today or within 2 days of today.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VHM_Upgrade_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+OR(TEXT(License_Type__c)=&quot;VHM&quot;,TEXT(License_Type__c)=&quot;Freemium&quot;),
+INCLUDES(License_Update_Use_Cases__c,&quot;Upgrading VHM to Eval&quot;),
+NOT(INCLUDES(License_Update_Use_Cases__c,&quot;NFR License&quot;)),
+OR(Updated_License_End_Date__c - TODAY() &gt; 90, Updated_License_End_Date__c &lt; TODAY()+2)
+)</errorConditionFormula>
+        <errorDisplayField>Updated_License_End_Date__c</errorDisplayField>
+        <errorMessage>When Upgrading from VHM to Eval, the updated license end date may not exceed 90 days or fall within 2 days of today.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VHM_no_new_features</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+$UserRole.Name&lt;&gt;&quot;CFO&quot;,
+$UserRole.Name&lt;&gt;&quot;VMT SF admin&quot;,
+TEXT(License_Type__c)=&quot;VHM&quot;, 
+NOT(ISNULL(Updated_Features__c)), 
+NOT(INCLUDES(License_Update_Use_Cases__c,&quot;Upgrading VHM to Eval&quot;)))</errorConditionFormula>
+        <errorDisplayField>Updated_Features__c</errorDisplayField>
+        <errorMessage>You may not add features to VHM without upgrading to an Eval License.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Generate_Updated_License</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Generate Updated License</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/35.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/35.0/apex.js&quot;)} 
+
+try { 
+  var result = sforce.apex.execute(&quot;LicenseXML&quot;,&quot;updateLicenseXML&quot;,{licenseId:&quot;{!Turbonomic_License__c.Id}&quot;});
+  alert(result);
+
+  var currentLicense = sforce.connection.query(&quot;SELECT Updated_License_ID__c FROM Turbonomic_License__c WHERE Id = &apos;{!Turbonomic_License__c.Id}&apos; limit 1&quot;);
+
+  var records = currentLicense.getArray(&quot;records&quot;);
+
+  var newLicenseId2 = records[0].Updated_License_ID__c;
+
+  if (newLicenseId2 !== null &amp;&amp; newLicenseId2 !== &quot;null&quot;) {
+    var url = &quot;https://eu4.salesforce.com/&quot;+newLicenseId2;
+    window.location = url;
+  } else {
+    window.location.reload();
+  }
+} catch (err) { 
+  var txt = &quot;Error: &quot;; 
+  txt += err.description; 
+  alert(txt); 
+}</url>
+    </webLinks>
+</CustomObject>

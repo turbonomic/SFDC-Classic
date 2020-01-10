@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>08_13_2014 turboticker August.Ticker_August</name>
+    <style>none</style>
+    <subject>VMworld 2014 Announcement | Control for OpenStack | turboticker August 2014</subject>
+    <textOnly>This VMworld
+we&apos;re blowing things
+wide Open
+
+VMTurbo Operations Manager 4.7
+Featuring Control for OpenStack(TM)
+&lt;http://bit.ly/VfkhmS&gt;
+
+OpenStack Control
+Extending its reach to OpenStack, VMTurbo’s cloud management software automatically prevents and corrects performance issues that stem from the increased complexity shared resources and the allocations or limits necessary to manage workloads in resource pools, Virtual Data Centers (VDCs) and Tenants as demand fluctuates.
+&lt;http://bit.ly/VfkhmS&gt;
+
+
+
+
+VMTurbo&apos;s Origin Story
+
+No superhero&apos;s legacy is complete without an Origin Story. Bitten by a radioactive spider / afraid of bats / exiled as a child from a decaying alien planet / born a self-healing mutant with retractable adamantium claws - the list goes on. VMTurbo is no different. Founder Shmuel Kiger discloses the truth behind VMTurbo&apos;s namesake - and the cloud and virtualization control company that almost was...
+ Read More... &lt;http://bit.ly/1oH3uVM&gt;
+
+
+Infographic: Datacenter Energy Efficiency
+
+2.7 Trillion cans of Red Bull. You ought to be ashamed of yourself, IT. In all truth, datacenters do consume massive amounts of energy. Check out this Infographic and learn of the few ways you can curb your consumption.
+ View Infographic... &lt;http://bit.ly/1oH3MMm&gt;
+The virtual revolution is upon us. Will you have a virtual environment, or will you own one?
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+contacts &lt;http://go.vmturbo.com/contact-us.html?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | website &lt;http://www.vmturbo.com?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | privacy policy &lt;http://www.vmturbo.com/privacy-policy?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ticker&gt; | forward &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

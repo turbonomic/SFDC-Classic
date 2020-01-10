@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ENG-Hybrid-Cloud-Nurture.ENG-Hybrid Cloud-Early-01.01-Public-Vs-Private-Cloud</name>
+    <style>none</style>
+    <subject>Public vs Private Clouds - Weighing The Pros &amp; Cons</subject>
+    <textOnly>&lt;[[http://vmturbo.com/blog/public-cloud-vs-private-cloud?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-HybridCloud&amp;utm_content=Early01]]&gt;
+Hi {{lead.First Name:default=There}},
+It seems that every organization today, big or small, is discussing hybrid cloud. Is it expensive? Are there security benefits or detriments from hosting workloads in the cloud? And last but certainly not least, what applications should we run in the cloud vs on premise?
+
+All are valid questions, and as cloud adoption continues to rise these questions are becoming more relevant than ever. In our blog post &apos;Weighing the Pros and Cons of Public vs Private Clouds&apos; our own Ryan Strehlke hopes to shed some light on these issues.
+Click below to learn about:
+
+
+ - Cloud security
+ - Evaluating total cost of ownership in the cloud
+ - Which workloads to burst to the cloud, and which ones you should keep on prem
+
+
+ &lt;[[http://vmturbo.com/blog/public-cloud-vs-private-cloud?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=ENG-HybridCloud&amp;utm_content=Early01]]&gt;
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

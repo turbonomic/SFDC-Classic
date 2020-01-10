@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>VMworld Follow up - Booth visitors.VMworld Thank you Email</name>
+    <style>none</style>
+    <subject>Follow-up to meeting at VMworld</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+It was great to meet and spend some time with you at the VMTurbo booth last week at VMworld San Francisco – thanks for taking the time to come by and see us.
+As a follow-up to the show, I wanted to point you at several resources designed to dive deeper into the ways VMTurbo will dramatically improve how you control and automate your virtual data center.
+
+
+ - Our Trial Download &lt;http://bit.ly/R2TvIO&gt;  gives you a fully-featured, unlimited version of our Operations Manager product, FREE for 30-days. The virtual appliance is easily downloaded and configured – and will be providing value in less than 30 minutes.
+ - Our online Evaluation Resource Center &lt;http://bit.ly/P4LUJq&gt;  is designed to give you all the best practices, educational videos and one-click access to experts who can assist you in getting maximum value from your trial download.
+ - This technical whitepaper &lt;http://bit.ly/RH4YOJ&gt;  goes into detail about how our unique approach to making intelligent resource allocation decisions is designed to ensure your critical workloads perform while utilizing your physical resources as efficiently as possible.
+
+
+We will be following up with you shortly to understand your priorities and interest in learning more about VMTurbo. If you would like to set up some time to get a more in-depth, tailored demonstration of our solution. Please let us know here &lt;http://bit.ly/TZgVwH&gt;.
+
+ Thanks,
+
+ Derek Slayton
+ VP of Marketing, VMTurbo
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

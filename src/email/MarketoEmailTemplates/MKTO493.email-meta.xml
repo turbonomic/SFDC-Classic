@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03_12_2014 March News Mailer.turboticker-S_march</name>
+    <style>none</style>
+    <subject>turboticker for IT Pros | Win A LEGO Star Destroyer | March 2014</subject>
+    <textOnly>{{lead.First Name:default=March 2014}}:
+We&apos;re rewriting the virtualization history books, one VM at a time. We want {{company.Company Name:default=you}} to be a part of the rewrite. turboticker is our way of planning the footnotes.
+Another Success Video &lt;http://bit.ly/MUQcEA&gt;
+
+Hatco Corporation, a leader in foodservice innovation, is the latest installment in VMTurbo&apos;s Customer Success Series. Check out the video &lt;http://bit.ly/MUQcEA&gt; featuring Hatco Systems Administrator Aaron Bolthouse, and learn how Hatco defeated VM sprawl.
+The Hyper-V Readiness Series &lt;http://bit.ly/1eaIu0G&gt;
+
+Join Scott Lowe and David Davis of Virtualization Software &lt;http://bit.ly/1eaIu0G&gt; as they unpack the Hyper-V ecosystem, why it&apos;s ready for prime time, and how to safely diversify your hypervisor mix.
+
+All registrants will be automatically entered to win a LEGO Star Wars Star Destroyer set, valued at $399.
+
+Our Smartest Blog Posts 
+Safely Add Hyper-V Diversity to your IT Environment &lt;http://bit.ly/1g6IPFI&gt;
+Webinar: VirtualizationSoftware.com’s Hyper-V Readiness Series, Episode 1 &lt;http://bit.ly/1eaIu0G&gt;
+Goldilocks &amp; Supply Chains with VMTurbo – Review by Aaron Delp &lt;http://bit.ly/1chED6E&gt;
+VMTurbo Selected as a CRN Data Center Top Virtualization Product &lt;http://bit.ly/1hUOBuL&gt;
+
+Data Center Haiku
+Server room drama.
+VMs ballooning again.
+Try VMTurbo &lt;http://bit.ly/1hUOI9o&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

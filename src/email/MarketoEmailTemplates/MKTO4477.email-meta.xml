@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-01-23 Cloud Status Quo.ES-2019-01-22 Invite 4.ES 4a</name>
+    <style>none</style>
+    <subject>See you today?</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=7012o000001oRH9AAM]]&gt;
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=7012o000001oRH9AAM]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Gartner predicts that by 2020, organizations that lack cost optimization processes will, on average, overspend in the cloud by 40%. It doesn&apos;t have to be this way for you and your 
+team.
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=7012o000001oRH9AAM]]&gt;
+
+
+
+
+
+Join Mor Cohen, CTO of Cloud at Turbonomic, today at 4 PM GMT (11 AM ET) for the “How to Beat the Cloud Status Quo &lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=7012o000001oRH9AAM]]&gt;” webinar, where you will find out the key factors that drive cost optimization, how to quantifiably improve performance, and how to reduce costs in the cloud. 
+
+Register and you&apos;ll be entered to win a $100 Amazon Gift Card. I hope to see you there.
+
+Thanks,
+Andrew
+
+
+PS. If you can&apos;t attend, register anyway &lt;[[https://turbonomic.com/resources/wbn-cloud-status-quo/?utm_campaign=7012o000001oRH9AAM]]&gt; and I&apos;ll send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

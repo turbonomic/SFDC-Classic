@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-10-18-Los Angeles Community Appreciation Event.ES-2017-10-12.EMAIL - Ma</name>
+    <style>none</style>
+    <subject>LAST CALL - Los Angeles Kings vs Canadiens</subject>
+    <textOnly>&lt;[[https://turbonomic.com/los-angeles-community-appreciation-kings-v-canadiens/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+We have a limited number of seats left and we hope you will join us Wednesday, October 18th, as the Kings take on the Canadiens at the Staples Center.
+We&apos;re looking forward to good drinks, great food, and our community of awesome technologists for an evening of hockey and networking. Can you join us?
+Los Angeles Kings vs Montreal Canadiens &lt;[[https://turbonomic.com/los-angeles-community-appreciation-kings-v-canadiens/]]&gt; 
+
+Where: Staples Center
+1111 S. Figueroa, Los Angeles, CA 90015
+Wednesday, October 18th 7:30pm
+ &lt;[[https://turbonomic.com/los-angeles-community-appreciation-kings-v-canadiens/]]&gt;
+
+
+
+
+
+Last call!
+
+We hope to see you there,
+
+
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

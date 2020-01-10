@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Cisco Live!</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Turbonomic_Letterhead</letterhead>
+    <name>Cisco Live!</name>
+    <style>freeForm</style>
+    <subject>Turbonomic &amp; Cisco&apos;s Success Story</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+Thanks for visiting our booth at CiscoLive!  Did you have a chance to speak with our team? Turbonomic offers a great solution leveraged in the data centers of JPMC, PNC, TD Ameritrade, Cisco, HP, BMC and more.
+
+Application performance is vital to your business success.  Assuring application performance requires that the right amount of infrastructure is delivered to the right workload, at the right time.
+
+How do you currently allocate resources to assure performance?  Do you guess?  Overprovision for business peaks?  Many organizations use both of these methods then rely on alerts and thresholds to monitor performance.  The cloud and internet of things have made these methods obsolete. 
+Here’s how:
+
+ACI’s Success Story: https://turbonomic.com/resources/videos/turbonomic-customer-success-story-aci-payment-systems/
+
+Hear Cisco’s success story -- https://turbonomic.com/resources/videos/cisco-turbonomic-success-scale-turbonomic-customer-success-story/
+
+Hear how Scott Crowder, CIO at BMC is leveraging cloud economics in their on premise private cloud with Turbonomic.
+&quot;Once we brought Turbonomic into our infrastructure and turned it on we actually saw a 25% increase in overall capacity. Not only that - the performance went through the roof.&quot; - Scott Crowder -- https://turbonomic.com/resources/videos/cloud-economics-on-prem-or-off-with-turbonomic-bmc/
+
+We welcome the opportunity to discuss your cloud strategy and sharing use cases with you and your team.
+
+Best regards,
+
+Cherlyn
+
+857.305.5730 I www.turbonomic.com
+Going to VMWorld? Meet with a Turbonomic Executive</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

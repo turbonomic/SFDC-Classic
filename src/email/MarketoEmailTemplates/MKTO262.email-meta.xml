@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>9_4_2013 Storage inhouse mailing - NTAP users.Email</name>
+    <style>none</style>
+    <subject>Complimentary Download- Improve NetApp Storage I/O Performance</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Storage I/O performance issues in virtualized data centers are one of the biggest challenges facing Virtualization and Storage. Download this whitepaper &lt;http://bit.ly/15FfdpS&gt; and learn how VMTurbo enables you to control resource allocation across hypervisor and storage domains in your NetApp storage environment through:
+
+ - Intelligent workload placement, taking into account storage aggregate IOPS performance
+ - Accurate dimensioning of storage aggregates to meet IOPS demand
+ - Management of storage controller performance to minimize workload latency 
+
+
+
+Sincerely,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

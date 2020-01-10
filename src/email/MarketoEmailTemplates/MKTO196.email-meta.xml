@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>5/2/2013 - Modern Infrastructure webinar.Invite</name>
+    <style>none</style>
+    <subject>Modern Infrastructure Exclusive- Live Webinar with VMTurbo Founder: The Software-Defined Data Center</subject>
+    <textOnly>   
+
+
+Hi {{lead.First Name:default=Sir/Madam}},
+
+We enjoyed co-sponsoring the Modern Infrastructure Event earlier this month along with CSC and HP. The event’s content was very strong, and we had the pleasure of meeting many of you in person. As a follow-up to the conversations we started with you and to VMTurbo Founder and CTO, Shmuel Kliger’s talk onstage, we invite you to join an exclusive, live webinar &lt;http://bit.ly/ZMW8jk&gt; with Shmuel on May 7th at 12PM EDT. During this interactive session, he will revisit some of his points given at the event and dive into more detail about how the software-defined data center is driving a new and improved approach to IT operations management.
+
+This is not a typical vendor webinar, however. During this 30 minute presentation, we’ll focus on the discussion topics most relevant to you—and most actionable--and we encourage interaction amongst participants. Therefore, we are limiting the audience to those who registered for the event and their teams who are involved in virtual data center operations. We look forward to seeing you online on May 7th.
+
+Kind Regards,
+
+Yotam Yemini
+Regional Director, US-East</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

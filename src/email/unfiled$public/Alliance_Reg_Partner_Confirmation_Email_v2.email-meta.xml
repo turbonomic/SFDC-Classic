@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject:  Thank You for Submitting Your Registration with Turbonomic</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Alliance_Letterhead</letterhead>
+    <name>Alliance Reg Partner Confirmation Email v2</name>
+    <style>freeForm</style>
+    <subject>Thank You for Submitting Your Registration with Turbonomic</subject>
+    <textOnly>{!Alliance_Registration__c.Partner_First_Name_Capitalized__c},
+
+We have received your registration with {!Alliance_Registration__c.Customer_Account_Name__c} and will review it within 2 business days.
+
+As a next step, you will receive an email with details of your Turbonomic counterparts – sales manager and sales rep. From there, an opportunity review call will be setup within 1 week where we will all agree to next steps and either approve or deny the registration.
+
+Please do not reply to this email. If you have questions, reach out to any of the following:
+sean.casey@turbobnomic.com – VP of Alliances
+justin.kutticherry@turbonomic.com – Alliance Manager
+Charles_Geisler@bmc.com – Business Development Manager
+
+Regards,
+The Turbo Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

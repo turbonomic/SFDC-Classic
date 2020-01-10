@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Test email for CNAME</name>
+    <style>none</style>
+    <subject>Test for CNAME</subject>
+    <textOnly>   
+Intro title:
+Title of Email
+Hello {{lead.First Name:default=Sir/Madam}},
+
+
+
+http://www.vmturbo.com/
+
+Marketo, Inc. 901 Mariners Island Blvd., San Francisco, CA, 94404
+
+Contact Us &lt;#&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

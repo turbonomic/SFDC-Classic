@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Automatically Associate UserIds --></label>
+        <name>BRNSHRK__AutomaticallyAssociateUserIds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blind CC --></label>
+        <name>BRNSHRK__Blind_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brainshark Admin Username --></label>
+        <name>BRNSHRK__Brainshark_Admin_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brainshark Company Name --></label>
+        <name>BRNSHRK__Brainshark_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brainshark Common Password --></label>
+        <name>BRNSHRK__Common_Brainshark_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- EnableCRMSend --></label>
+        <name>BRNSHRK__EnableCRMSend__c</name>
+    </fields>
+    <fields>
+        <label><!-- EnableClientSend --></label>
+        <name>BRNSHRK__EnableClientSend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Folder List --></label>
+        <name>BRNSHRK__FolderList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Folder Restrictions --></label>
+        <name>BRNSHRK__FolderRestrictions__c</name>
+        <picklistValues>
+            <masterLabel>ExcludeList</masterLabel>
+            <translation><!-- ExcludeList --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IncludeList</masterLabel>
+            <translation><!-- IncludeList --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hide Private Presentations --></label>
+        <name>BRNSHRK__HidePrivatePresentations__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShowBCCOnForm --></label>
+        <name>BRNSHRK__ShowBCCOnForm__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Authentication Type --></label>
+        <name>BRNSHRK__User_Authentication_Type__c</name>
+        <picklistValues>
+            <masterLabel>Prompt users to enter a username and password</masterLabel>
+            <translation><!-- Prompt users to enter a username and password --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Using a common brainshark user for all sforce</masterLabel>
+            <translation><!-- Using a common brainshark user for all sforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Using a unique brainshark user for each sforce user</masterLabel>
+            <translation><!-- Using a unique brainshark user for each sforce user --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Brainshark Admin Password --></label>
+        <name>BRNSHRK__brainshark_admin_user_password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Synch all viewing data automatically --></label>
+        <name>BRNSHRK__brainshark_automatic_synch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common Brainshark Username --></label>
+        <name>BRNSHRK__brainshark_common_username__c</name>
+    </fields>
+</CustomObjectTranslation>

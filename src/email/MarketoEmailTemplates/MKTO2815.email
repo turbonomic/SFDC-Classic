@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif; padding:10px;"> 
+<div>
+<span style="font-size: 12px;">Dear {{lead.First Name:default=Friend}},<br /><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">In my more than 20 years both investing in and running enterprise IT companies, I have had the privilege of watching IT go through waves of transformation from a birds-eye view. All previous waves pale in comparison to that which we observe&nbsp;today.<br /><br /></span>
+</div> 
+<div>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">Enterprises are facing incredible pressure to modernize and transform IT to become a digital business, leading many organizations to reinvent their&nbsp;hybrid cloud strategy. Determining which workloads go on-premises, which go in the cloud, and how to manage the transition is challenging – mistakes are costly. This is exacerbated once customers get to the cloud and need to manage complexities across cloud and on-premises simultaneously.<br /><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I cordially invite you to join myself&nbsp;and a dozen of your fellow IT leaders in Dallas&nbsp;on July 19<sup>th</sup> at Fearing's Ritz Carlton&nbsp;for an <a href="https://turbonomic.com/learn-dallas" target="_blank">Executive Networking Dinner</a> from 7:00 p.m. until 9:00 p.m. We will discuss this unprecedented shift our industry currently faces and how we as the stewards of our generation&nbsp;can lead the innovation charge. It is my goal and&nbsp;hope that this networking opportunity will be intellectually stimulating and beneficial for all.<br /><br /></span>
+<span style="font-size: 12px; font-family: arial, helvetica, sans-serif; color: #262626;">I look forward to meeting you, and participating in an engaging conversation. As space is limited, I do ask that you please <a href="https://turbonomic.com/learn-dallas" target="_blank">register here</a>&nbsp;as soon as possible.<br /></span>
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,</span>
+</div> 
+<div>
+<span style="font-size: 12px;">Ben</span>
+</div> 
+<p><a href="https://turbonomic.com/learn-dallas" target="_blank"><span style="font-size: 12px;"><img src="https://cdn.turbonomic.com/wp-content/uploads/2014/04/b-nye.png" width="75" height="75" constrain="true" imagepreview="false" /></span></a></p> 
+<p><span style="font-size: 12px;"><em>Ben Nye<br /></em></span><span style="font-size: 12px;"><em>Chief Executive Officer<br />Turbonomic, Inc.</em></span></p> 
+<p><br /></p> 
+</div>  
+</body>
+</html>

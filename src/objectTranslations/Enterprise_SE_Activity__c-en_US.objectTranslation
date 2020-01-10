@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enterprise SE Activity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enterprise SE Activities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activity Date --></label>
+        <name>Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Type --></label>
+        <name>Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Ace Certification (per SE)</masterLabel>
+            <translation><!-- Ace Certification (per SE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ace Pro certification (per SE)</masterLabel>
+            <translation><!-- Ace Pro certification (per SE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application POC</masterLabel>
+            <translation><!-- Application POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blog Post</masterLabel>
+            <translation><!-- Blog Post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud Native POC</masterLabel>
+            <translation><!-- Cloud Native POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create a competitive analysis document</masterLabel>
+            <translation><!-- Create a competitive analysis document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New GC Article</masterLabel>
+            <translation><!-- New GC Article --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presenting a use case at a company lunch</masterLabel>
+            <translation><!-- Presenting a use case at a company lunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruiting (reference) an SE</masterLabel>
+            <translation><!-- Recruiting (reference) an SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruiting (reference) an employee</masterLabel>
+            <translation><!-- Recruiting (reference) an employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE generated Lunch &amp; Learn</masterLabel>
+            <translation><!-- SE generated Lunch &amp; Learn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Put in the URL to your POC opportunities, blog posts, GC Article. For screenshots and attachments, use the notes and attachments section below to attach them. --></help>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points Earned --></label>
+        <name>Points_Earned__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please fill in the type of activity to save this record. --></errorMessage>
+        <name>Require_Activity_Type</name>
+    </validationRules>
+</CustomObjectTranslation>

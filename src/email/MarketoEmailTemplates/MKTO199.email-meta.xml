@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Rainking follow up mailer.Email 2</name>
+    <style>none</style>
+    <subject>A Better Way to Manage &amp; Control Your Virtualized Environment</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Your team probably has plenty of tools that provide visibility to performance and monitoring of your virtualized data center. But most of their time, and yours, is spent drilling into data and troubleshooting potential issues (or real ones) – especially as your virtual environment grows.
+
+Let’s face it, threshold-based reactions eat up too much of your team’s cycles. There has to be a better way to control the environment and maintain health, without all the running around.
+
+Well there is!  Learn &lt;http://bit.ly/XYnaGJ&gt; about a unique approach that controls your virtual infrastructure and can automate decision-making and keeps your environment in the desired state – ensuring workload performance and optimal resource utilization.
+
+Better yet, give it a try &lt;http://bit.ly/QzvQgM&gt; yourself!
+
+
+Best Regards, 
+
+Anoop Dhaliwal
+Business Development Manager EMEA
+Phone: +447795574495</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

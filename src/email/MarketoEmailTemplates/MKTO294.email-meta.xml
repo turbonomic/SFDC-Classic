@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Netapp Insight Follow up Email1.Email plain</name>
+    <style>none</style>
+    <subject>Follow up to NetApp Insight: VMTurbo Cluster Mode Support</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+We hope that you found  NetApp Insight to be a valuable event. We enjoyed being part of it for  the first time this year, having announced our collaboration with NetApp  last week whereby VMTurbo will support clustered Data ONTAP 8.2. 
+
+For  more details on cluster-mode support, check out this short article  &lt;http://bit.ly/175diSJ&gt;, which explains how NetApp customers  benefit from the following features of cluster mode support:
+
+
+ - Maps end-to-end relationships from VMs to Vservers and associated volumes, aggregates and controllers
+ - Enables controlling (or recommending) movement of volumes across aggregates
+ - Enhances storage efficiency and performance across the clustered deployment
+
+
+
+We look forward to staying in touch with you. Please feel free to contact us anytime. 
+
+Sincerely,
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

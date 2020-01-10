@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>short version of: Stop Fighting Fires and Make Better Use of Your Team’s Time</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LR3 - Email 2.Intro Email</name>
+    <style>none</style>
+    <subject>Drop That Fire Hose</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+You’re busy – fighting fires and chasing down issues consumes too much of your team’s time and focus – and it’s becoming more complex as you expand virtualization and adopt cloud services.
+ 
+Rather than seeking a faster way to put out the fires, why not strive to maintain your systems and applications in a healthy state, thus preventing issues from igniting in the first place?
+ 
+We have a better approach to automate control of your virtualized environment. It’s being used by hundreds of other organizations like BT, CSC, Coca-Cola, VeriSign, and Indiana University to drive down costs, improve virtual workload performance and maximize resource utilization. Our Software-Defined Control system automates the decision-making process for your IT ops team and provides intelligent actions that maintain your virtual environment in a healthy state.
+ 
+Want additional info about VMTurbo? Check this out &lt;http://bit.ly/11Thmyk&gt; and see out how easy it can be to gain control – and put down the fire hose.
+
+Thank you,
+
+VMTurbo Team
+
+phone: (781) 373-3540
+ email: sales@vmturbo.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

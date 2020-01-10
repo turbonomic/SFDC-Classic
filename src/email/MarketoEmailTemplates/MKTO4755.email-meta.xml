@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE: KubeHunt 2019.Raffle email</name>
+    <style>none</style>
+    <subject>You did the KubeHunt - Now Do The Raffle</subject>
+    <textOnly>Hi {{Lead.First Name}},
+ 
+Good morning, KubeHunters,
+ 
+Thank you again for joining us yesterday and kicking off the KubeHunt tradition!
+ 
+Today we have another game for you. Anyone that visits all the following KubeHunt sponsor booths can be entered into a raffle to win one of several prizes, including Google Home, Nintendo Switch, and more: that’s PlanetScale, NetApp, Twistlock, DataDog, and Turbonomic. Stop by any one of their booths to get started—they’ll give you your game card—and then you will continue your trek to the others.
+ 
+We’ll raffle off the prizes at the  &lt;[[webextlink://We’ll raffle off the prizes at the ]]&gt;Turbonomic booth at 18:00 (6pm) today &lt;[[webextlink://Turbonomic booth at 18:00 (6pm) today]]&gt;— &lt;[[webextlink://%E2%80%94]]&gt;bring your completed game card to enter into the raffle. &lt;[[webextlink://.]]&gt; Must be present to win.
+ 
+Also, first come first serve, there are extra KubeHunt T-shirts at the Turbonomic booth, if you want to grab one.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

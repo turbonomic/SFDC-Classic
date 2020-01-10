@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title></title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#004E91; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="http://go.vmturbo.com/rs/vmturbo/images/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://go.vmturbo.com/rs/vmturbo/images/emailLogo.png" align="right" border="0" height="54" width="212" alt="vmturbo"><div style="color:#6D6C69; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" ></div>
+</div>
+<div style="color:#4F4E4C; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ></div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" >
+<p>Dear {{lead.First Name:default=Sir/Madam}},</p>
+<p>Managing Storage performance and availability presents a complex set of challenges for virtualization and storage administrators.&nbsp; <br /><br /><em><strong>The challenge is twofold</strong></em><br />On one hand, storage I/O problems can manifest themselves for a number of reasons including 
+   workloads that generate significant amounts of I/O traffic, creating contention between workloads which share the same storage aggregates.
+  Some areas of the storage infrastructure may have over-allocated IOPS capacity.
+    These issues are made more challenging by the dynamic nature of workloads, which makes it difficult to ensure workload performance.<br /><br />The other dimension of complexity is that technologies like thin provisioning and de-duplication obscure administrators' visibility into the  amount of 
+  disk space that is available to support existing and new workload demand.
+    <br /><br /><em><strong>A new way to manage the complexity</strong></em><br />VMTurbo recently created a webinar that explains how IT managers are addressing these issues.
+    <a href="http://go.vmturbo.com/reduce_storage_infrastructure_costs_webcast.html?source=email">Download the webinar</a> and learn how this new method will allow you to:</p>
+<ul>
+<li>Get accurate end-to-end visibility of I/O performance and disk space availability across all layers of the stack&nbsp;&nbsp;</li>
+<li>Control performance of the environment through intelligent workload placement and a broad set of resource allocation decisions</li>
+<li>Accurately plan for future workload demand taking into account storage I/O and disk space</li>
+</ul>
+<p>Sincerely,</p>
+<p>The VMTurbo Team</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " colspan="3" ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="color:#45555f; font-family:Tahoma,Helvetica; font-size:11px; line-height:16px; vertical-align:top; text-align:center; " ><img height="99" width="660" src="http://go.vmturbo.com/rs/vmturbo/images/bottomShadow.png" alt=""><br>
+<div class="mktEditable" id="Contact" ></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

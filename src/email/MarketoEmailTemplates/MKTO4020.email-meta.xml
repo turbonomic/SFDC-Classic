@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN: PKS Live Demo 9-5-18.ES-2018-09-05 PKS Live Demo Invite 2 - September_webin</name>
+    <style>none</style>
+    <subject>[Last Chance] The Non-Elementary Guide to Pivotal Container Service (PKS) Webinar</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/pks/]]&gt;
+Hi {{lead.First Name:default=there}},
+Pivotal offers a faster way to build, deploy, and start managing your Kubernetes clusters on VMware and Google Cloud.  But how do you start?  We’ve got you covered.
+Join us on September 5, 2018, at 11 am EST &lt;[[https://turbonomic.com/resources/pks/]]&gt; as we explore: 
+
+
+
+	- What is Pivotal Container Service (PKS) 
+
+	- What Pivotal Container Service (PKS) is Not 
+
+	- How to Use Workload Automation for PKS (Demo)
+
+
+ &lt;[[https://turbonomic.com/resources/pks/]]&gt;
+We hope to see you there!
+
+
+Regards,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

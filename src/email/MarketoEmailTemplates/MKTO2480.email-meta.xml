@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic IT Maturity Survey - continuing the conversation  (1494938615.0)</name>
+    <style>none</style>
+    <subject>Turbonomic IT Maturity Survey - continuing the conversation  (1494938615.0)</subject>
+    <textOnly>-     
+	- 
+	-   Clean      false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    
+Hi Susan,
+Thank you for completing the Turbonomic IT Maturity Survey! You should receive your Amazon Gift Card shortly.
+I can offer you another $100 Amazon Gift Card or a $100 donation to a charity of your choice if I can schedule 30 minutes between you and a Turbonomic Engineer. You indicated on your survey several challenges for you and the team at Montgomery County Public Schools that Turbonomic directly addresses, specifically:
+	- Troubleshooting/Proactive Monitoring - Turbonomic has been proven to decrease performance alerts by 80% or more through its patented automation engine	- Administrative Costs (High Admin:Workload Ratio) - Turbonomic has been proven to empower organizations to manage 10x more workloads with the same headcount through its intelligent automation	- Growth in Environment Complexity - Turbonomic’s vendor-agnostic, patented analytics have been proven to reduce infrastructure requirements by 30% or more through intelligent
+ Turbonomic can also allow teams to spin up virtual machines quickly because it answers the following questions that usually fall on the shoulders of engineers/administrators: ·         Are the virtual machines properly sized and placed within the infrastructure so we know the applications are getting the right resources they need in order to run optimally? ·         Do we have enough capacity within our existing infrastructure to onboard X numbers of virtual machines? ·         Are the virtual machines onboard and sized properly? And how will they affect every layer of the stack from storage to the applications?
+Do you have some time for my team and I to provide a 30 minute introduction on how Turbonomic addresses these challenges? I am confident you will find it valuable. Best regards,  James Wilcox  Turbonomic &lt;[[https://turbonomic.com/product/#lower-infrastructure-costs]]&gt;C: (508) 479 7516 Email: james.wilcox@turbonomic.com &lt;[[mailto:james.wilcox@turbonomic.com]]&gt;  </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

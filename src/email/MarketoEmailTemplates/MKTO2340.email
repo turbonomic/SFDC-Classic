@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head> 
+</head> 
+<body> 
+<div id="body" class="mktoText" style="font-family: Helvetica, Arial, Sans-Serif;">
+<div>
+<span style="font-size: 12px;">Dear {{lead.First Name:default=Friend}},</span>
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">Turbonomic is in the midst of a remarkable transformation, as more and more of our customers are adopting public cloud at a significantly&nbsp;faster pace than pundits predicted.</span>
+<br />
+</div> 
+<div>
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">I invite and ask that you please take our 5-Minute <strong><span style="text-decoration: underline;"><a href="https://www.surveymonkey.com/r/cloud-readiness-commercial-direct" target="_blank" id="">Cloud Readiness Survey</a></span></strong>&nbsp;in exchange for a $25 Amazon.com gift card, no strings attached. We are simply trying to get a pulse on the market.</span>
+<br />
+<br />
+</div> 
+<div>
+<span style="font-size: 12px;">If you so choose, you may&nbsp;opt-in at the end of the survey for an additional $100 Amazon.com gift card to consult with a Turbonomic engineer and learn about our cloud offerings and how we can help you bridge from on-premises private data center management to the cloud. Thank you in advance for your time.<br /><br /></span>
+</div> 
+<div>
+<span style="font-size: 12px;"><a href="https://www.surveymonkey.com/r/cloud-readiness-commercial-direct" target="_blank"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/Cloud-Readiness-Survey.jpg" width="250" height="84" constrain="true" imagepreview="false" /><br /><br /></a></span>
+</div> 
+<div>
+<span style="font-size: 12px;">Yours sincerely,<br /></span>
+<span style="font-size: 12px;">Chris Graham</span>
+</div> 
+<p><span style="font-size: 12px;"><img src="http://go.Turbonomic.com/rs/303-ZIH-630/images/Screen Shot 2017-04-06 at 8.17.03 AM.png" width="300" height="53" constrain="true" imagepreview="false" /></span></p>
+</div>  
+</body>
+</html>

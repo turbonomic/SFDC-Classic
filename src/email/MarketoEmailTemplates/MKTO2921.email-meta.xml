@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-07-26-Phillies.EMAIL-Reminder Email 2</name>
+    <style>none</style>
+    <subject>Turbonomic Phillies Game - Ticket Info</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

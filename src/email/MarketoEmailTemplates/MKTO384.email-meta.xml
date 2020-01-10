@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2014 Customer 4.5 Launch Webinar - 8:00 am.Pre-event reminder</name>
+    <style>none</style>
+    <subject>Looking forward to tomorrow&apos;s VMTurbo 4.5 Launch Webcast</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for registering to our VMTurbo 4.5 Launch webcast tomorrow at 8:00 am EST.
+
+We&apos;re excited to unveil our new Fabric Control Module, extending our market leading approach to the control and management of the Cisco UCS platform, as well as the 4.5 revision to our flagship VMTurbo Operations Manager product and Storage Control Module.
+ 
+Looking forward to seeing you tomorrow!
+
+Best Regards
+Jonathan Reeve</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>BDR Qualitative Score</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>BDR Qualitative Scores</value>
+    </caseValues>
+    <fields>
+        <help><!-- The ability to actively adapt sales pitch to customer responses and maintain an open dialogue. --></help>
+        <label><!-- Active Listening --></label>
+        <name>Active_Listening__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Demonstrates positive attitude in all aspects of daily duties. Displays leadership desire and ability through daily activities --></help>
+        <label><!-- Attitude --></label>
+        <name>Attitude__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BDR: Active --></label>
+        <name>BDR_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDR: Role --></label>
+        <name>BDR_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDR --></label>
+        <name>BDR__c</name>
+        <relationshipLabel><!-- BDR Qualitative Scores --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ability to discuss and understand prospects business objectives and how they relate to IT --></help>
+        <label><!-- Business Acumen --></label>
+        <name>Business_Acumen__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Demonstrates ability to pull information from others (including managers) and effectively adapt messaging/behavior “on the fly”.  Rarely needs to be reminded of strategy/tactics to improve performance. --></help>
+        <label><!-- Coachability --></label>
+        <name>Coachability__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Understands competitors and capable of positioning VMTurbo against the opposition --></help>
+        <label><!-- Competition --></label>
+        <name>Competition__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Submitted --></label>
+        <name>Date_Submitted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Consistently identifies areas for self-improvement, routinely seeks out others for professional development and productively mentors others --></help>
+        <label><!-- Development/Mentoring --></label>
+        <name>Development_Mentoring__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Developmental Notes --></label>
+        <name>Developmental_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Developmental Score --></label>
+        <name>Developmental_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ability to overcome customer objections on cold calls and discovery calls (competition, no pain, no money, no time) --></help>
+        <label><!-- Objection Handling --></label>
+        <name>Objection_Handling__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Demonstrates velocity activity cadence and organization. Properly utilizes systems and tools as required (in particular, fluency in Salesforce, LinkedIn and other sales enablement tools) --></help>
+        <label><!-- Operations --></label>
+        <name>Operations__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Ability to confidently and professionally articulate themselves in business situations (including over the telephone) --></help>
+        <label><!-- Presentation Skills --></label>
+        <name>Presentation_Skills__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Selling Skills Notes --></label>
+        <name>Selling_Skills_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selling Skills Score --></label>
+        <name>Selling_Skills_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comprehensive understanding and ability to discuss IT landscape (trends, stack, roles, key players in organizations).  Generally converses fluently with IT managers regarding project initiatives and virtual environment management strategies. --></help>
+        <label><!-- Technology --></label>
+        <name>Technology__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tenure --></label>
+        <name>Tenure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total BDR Score --></label>
+        <name>Total_BDR_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ability to sell the demo to different roles and use cases --></help>
+        <label><!-- VMTurbo Product --></label>
+        <name>VMTurbo_Product__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

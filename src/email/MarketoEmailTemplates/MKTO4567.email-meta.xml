@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-201-03-18-LA-Invite.ES-2019-03-18 LA Event invite</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=}} You&apos;re Invited, LA Kings 3/18</subject>
+    <textOnly>Hi {{lead.First Name:default=there}}!
+ 
+We&apos;d like to cordially invite you to join us to watch the LA Kings take on the Winnipeg Jets on Monday, March 18! The event will begin with a welcome cocktail reception and brief presentation at the Luxe City Center Hotel, then we will head to our private suite to watch the game. Complimentary valet parking will be available at the hotel.
+
+
+
+
+Proven Hybrid Cloud Strategies – Los Angeles &lt;[[https://turbonomic.com/vip-kings/]]&gt;
+Luxe City Center Hotel | Staples Center
+
+Monday, March 18, 2019 | 5:30 PM
+ 
+Enterprises are facing incredible pressure to modernize and transform their IT to become a digital business, leading many organizations to reimagine their hybrid cloud strategy. Determining which workloads go on-premises, which go in the cloud, and how to manage the transition is challenging – and mistakes are costly. Join us to learn more!
+  
+Space is limited. Register now &lt;[[https://turbonomic.com/vip-kings/]]&gt; to save your seat!
+ 
+Sincerely,
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

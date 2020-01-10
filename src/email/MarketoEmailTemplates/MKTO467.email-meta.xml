@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CCL1_BoosterShot.Email_OpsMgrCTA</name>
+    <style>none</style>
+    <subject>{{lead.first name:default=VMTurbo}}: Try Virtualization Management from the Future</subject>
+    <textOnly>Dear {{lead.first name:default=Sir/Madam}},
+
+Over 500 forward-thinking organizations trust VMTurbo with their virtual datacenters. They can&apos;t all be wrong: (http://bit.ly/1cqmTk6)
+
+VMTurbo Operations Manager 4.5 is the only virtualization manager that assures application performance while utilizing the underlying infrastructure as efficiently as possible. Check out how we do it: (http://bit.ly/1gFs5Di).
+
+VMTurbo automates Intelligent Workload Management, preventing resource contention problems before they occur, and driving CAPEX and OPEX to rock bottom: (http://bit.ly/1eBaTMC).
+
+Our free 30-day trial (http://bit.ly/OH88EC) deploys on any hypervisor within 30 minutes, makes its first recommendations within 1 hour, and drives your environment to optimal health within 1 week, guaranteed.
+
+It&apos;s a new era in virtual ops management. Own your environment.
+
+In good health,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

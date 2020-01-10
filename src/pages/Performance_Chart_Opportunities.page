@@ -1,0 +1,39 @@
+<apex:page controller="ChartController" sidebar="false">
+	<font size="5">BDR Performance Charts</font>
+	<P><A HREF="/apex/Performance_Chart">Demos</A> | Opportunities</P>
+
+    <apex:chart height="400" width="1200" data="{!Data_OpportunitiesIdentifiedCount}">
+        <apex:legend position="right"/>
+        <apex:axis type="Numeric" position="left" fields="sp1,monthlyMin,monthlyGoal" title="Opportunities Identified - Count" grid="true"/>
+        <apex:axis type="Category" position="bottom" fields="name" title="Day">
+            <apex:chartLabel rotate="315"/>
+        </apex:axis>
+        <apex:lineSeries title="Opportunities Identified - Count" axis="left" xField="name" yField="sp1" fill="true" markerType="cross" markerSize="1" />
+        <apex:lineSeries title="Goal" axis="left" xField="name" yField="monthlyGoal" markerType="circle" markerSize="1"/>
+        <apex:lineSeries title="Minimum" axis="left" xField="name" yField="monthlyMin" markerType="circle" markerSize="1" />
+
+    </apex:chart>
+    <apex:chart height="400" width="1200" data="{!Data_OpportunitiesIdentifiedAmount}">
+        <apex:legend position="right"/>
+        <apex:axis type="Numeric" position="left" fields="sp1,monthlyMin,monthlyGoal" title="Opportunities Identified - Amount" grid="true"/>
+        <apex:axis type="Category" position="bottom" fields="name" title="Day">
+            <apex:chartLabel rotate="315"/>
+        </apex:axis>
+        <apex:lineSeries title="Opportunities Identified - Amount" axis="left" xField="name" yField="sp1" fill="true" markerType="cross" markerSize="1" />
+        <apex:lineSeries title="Goal" axis="left" xField="name" yField="monthlyGoal" markerType="circle" markerSize="1"/>
+        <apex:lineSeries title="Minimum" axis="left" xField="name" yField="monthlyMin" markerType="circle" markerSize="1" />
+
+    </apex:chart>
+
+    <apex:chart height="400" width="1200" data="{!Data_BookingsIdentifiedAmount}">
+        <apex:legend position="right"/>
+        <apex:axis type="Numeric" position="left" fields="sp1,monthlyMin,monthlyGoal" title="Bookings Identified - Amount" grid="true"/>
+        <apex:axis type="Category" position="bottom" fields="name" title="Day">
+            <apex:chartLabel rotate="315"/>
+        </apex:axis>
+        <apex:lineSeries title="Bookings Identified - Amount" axis="left" xField="name" yField="sp1" fill="true" markerType="cross" markerSize="1" />
+        <apex:lineSeries title="Goal" axis="left" xField="name" yField="monthlyGoal" markerType="circle" markerSize="1"/>
+        <apex:lineSeries title="Minimum" axis="left" xField="name" yField="monthlyMin" markerType="circle" markerSize="1" />
+
+    </apex:chart>	
+</apex:page>

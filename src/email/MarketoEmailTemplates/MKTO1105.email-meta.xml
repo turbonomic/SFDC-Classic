@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>06_01_2015 OpenStack Survey Results.Send</name>
+    <style>none</style>
+    <subject>The OpenStack Survey Results Are In!</subject>
+    <textOnly>&lt;http://vmturbo.com/resources/investigating-openstack-survey-methodologies-results?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=openstackresults&amp;utm_content=06022015&gt;
+Hi {{lead.First Name:default=edit me}},
+
+VMTurbo recently surveyed 1284 Enterprise IT and data center professionals on their use of and plans for OpenStack. We’ve collected the data and put the complete results in our report, Investigating OpenStack.
+
+Our hope is that this will inspire a data-driven conversation across the broader virtual and cloud community. This report covers the why and how of our study, as well as the complete results of the survey.
+
+Here are some of the Highlights
+
+
+ - 45% of respondents are interested in OpenStack
+ - 46% of IT professionals investigating OpenStack plan to deploy in production within 12 months 
+
+
+
+ To find out the rest of the results download below!
+- The VMTurbo Team
+ &lt;http://vmturbo.com/solutions/use-cases/openstack?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=openstackebook&amp;utm_content=05012015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

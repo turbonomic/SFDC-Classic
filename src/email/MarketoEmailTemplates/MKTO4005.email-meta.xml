@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2018-06-02 Partner Newsletter.2018 June Partner Newsletter</name>
+    <style>none</style>
+    <subject>Turbonomic Partner Newsletter</subject>
+    <textOnly>In This Issue
+
+
+Resources
+
+
+
+
+
+
+	- Featured &lt;[[#Section1]]&gt;
+
+	- News &amp; Announcements &lt;[[#Section2]]&gt;
+
+	- Promotions &lt;[[#Section4]]&gt;
+
+	- Events &lt;[[#Section3]]&gt;
+
+
+
+
+
+
+
+	- Partner Portal &lt;[[https://turbonomic.webinfinity.com/]]&gt;
+	- Deal Registration &lt;[[https://turbonomic.webinfinity.com/]]&gt;
+	- Enablement &lt;[[https://turbonomic.webinfinity.com/]]&gt;
+	- Marketing Tools &amp; Resources &lt;[[https://turbonomic.webinfinity.com/]]&gt;
+Featured
+New Turbonomic Partner Program Delivers Greater Partner Profitability, Incentives &amp; Robust Accreditation to Accelerate Time-to-Delivery of Services and Support 
+ 
+ Turbonomic announces new partner program aimed at increasing partner profitability through deal protection, margin protection, and incentives for new customers and growth attainment. Partners can now augment their revenue streams with new Turbonomic accreditation to accelerate partner delivery of support and services. 
+ 
+ 
+ 
+ 
+ 
+ Read Press Release &lt;[[https://turbonomic.com/press-releases/partner-program-workload-automation/]]&gt; 
+ Hear What CRN is Saying About Our New Partner Program &lt;[[https://www.crn.com/news/cloud/300103736/crn-exclusive-turbonomic-doubles-down-on-channel-commitment-with-overhauled-hybrid-cloud-focused-program.htm]]&gt; 
+ Learn more about our new program &lt;[[https://turbonomic.com/turbonomic-partner-program/]]&gt; 
+ 
+ 
+  
+ 
+ 
+ Access our New Partner Portal 
+ 
+ As part of our new partner program launch, we’ve introduced a new partner portal to better support and accelerate your enablement, marketing and selling efforts. This new portal is your one-stop-shop for all Turbonomic content, tools, resources, training, Market Development Funds (MDF), and more! 
+ 
+ 
+ 
+ 
+ Don’t have access to the Partner Portal? Request Access Now &lt;[[mailto:PartnerDesk@Turbonomic.com]]&gt;!
+
+News and Announcements
+Turbonomic Releases Major Update to AI-Powered Workload Automation for Hybrid Cloud 
+ 
+ Turbonomic announces a major update to its workload automation software, delivering on the promise of application-aware infrastructure and making any type of workload – virtual, cloud and container – SMART (self-managing, anywhere, in real-time). 
+ 
+ 
+ 
+ 
+ Innovations in Turbonomic v6.1 include continuous usage automation of AWS Reserved Instances, new integration with Cisco AppDynamics, new continuous optimization of container platforms, and a next-generation AI-powered Decision Engine. Learn more &lt;[[https://resources.turbonomic.com/introducing-turbonomic-6-1/6-1-highlight-reel]]&gt;.
+Promotions
+Get $500 (USD) for Any New Logo You Bring to Turbonomic! 
+We want to reward you, our partners, for your on-going support and commitment to Turbonomic with a new logo reward incentive. If you are a Gold or Platinum Partner, you are eligible to earn $500 for every new logo you close with Turbonomic. Below are the qualifications: 
+
+
+
+	- Only partners with Gold or Platinum designation can participate in the program
+
+	- Deal size must be a minimum of $50,000 (USD)
+
+	- The opportunity must have an approved deal registration and close within 6 months of target closed date
+
+	- Opportunities with Special Pricing over 50% do not qualify
+
+	- New logos are defined as a company that has not purchased anything from Turbonomic in the last 2 years, and does not have an active user license with us today. 
+
+
+
+To learn if your opportunity applies for this reward, please reach out to your Turbonomic Account Rep, Partner Director or simply email PartnerDesk@Turbonomic.com &lt;[[mailto:PartnerDesk@Turbonomic.com]]&gt;.
+ 
+
+Sign Up for Upcoming ACE Certification Courses! 
+Below are our upcoming ACE Certification courses.
+
+
+Turbonomic ACE Certification signifies mastery of Turbonomic technology and its autonomic platform, which assures performance while maximizing efficiency and complying with business policies. Those who are ACE certified join a growing community of thought leaders in virtualization and cloud management. 
+
+
+
+Click on the link below for more details or email certification@turbonomic.com &lt;[[mailto:certification@turbonomic.com]]&gt;. 
+
+
+
+
+
+
+Certification
+Date
+Location/Registration
+
+
+ACE
+July 10-12
+Reading (UK) &lt;[[https://www.surveymonkey.com/r/ACE_UK_July2018]]&gt;
+
+
+ACE
+July 10-13*
+White Plains &lt;[[https://www.surveymonkey.com/r/ACE_WP_July2018]]&gt;
+
+
+ACE
+August 7-10
+White Plains &lt;[[https://www.surveymonkey.com/r/ACE_WP_Aug2018]]&gt;
+
+
+ACE Master
+August 21-23
+White Plains &lt;[[https://www.surveymonkey.com/r/ACEMaster_Aug2018]]&gt;
+
+
+ACE PRO
+September 24-28
+White Plains &lt;[[https://www.surveymonkey.com/r/ACEPRO_Sept2018]]&gt;
+
+
+ACE
+October 9-12
+Boston &lt;[[https://www.surveymonkey.com/r/ACE_Boston_Oct2018]]&gt;
+
+
+
+*Starting with this class, ACE will entail three days of instruction and a half-day of testing.
+Events
+June 13, 2018 - 11:00am ET - Webinar: Policy-Driven Automation Demo
+Join Eric Wright, Technology Evangelist, for a fun and informative technical demo session. You will see the difference with trustworthy automation inside Turbonomic by exploring multiple examples in just 30 minutes. This real-time demo features a walkthrough of how to set up automation policies in a matter of a few clicks in any part of your environment. Register Here &lt;[[https://turbonomic.com/resources/webinar-policy-driven-automation-2/]]&gt;
+
+June 20, 2018 - 11:00am ET - Webinar: Turbonomic &amp; Cisco UCS Demo
+Please join us for a live demo featuring Turbonomic automated control and optimization of a Cisco UCS environment. With the powerful combination of Turbonomic and Cisco UCS, we further extend the full stack capabilities of workload automation in your data center. This demo will showcase the complete understanding and control – extending from the physical to the virtual layers of the stack – that Turbonomic brings to a Cisco UCS environment enable. Register Here &lt;[[https://turbonomic.com/resources/webinar-cisco-ucs-demo-2/]]&gt;
+ 
+June 27, 2018 -   11:00am  ET - Webinar: App-Aware, Full-Stack Optimization with Turbonomic, HyperFlex, and AppDynamics
+We all know that apps are the business—but behind every great app is a great data center. And the truth is you need both! Attend this webinar to learn how you can achieve application-aware, full-stack optimization on  hyperconverged ,  multicloud  greatness. We’ll have a panel of experts from Turbonomic and Cisco for a lively discussion (and demos) of the use cases for combining AppDynamics, HyperFlex, and Turbonomic. Register Here &lt;[[https://turbonomic.com/resources/webinar-cisco-hyperflex-appdynamics-2/]]&gt;
+
+For a complete listing of upcoming Turbonomic events, please click here &lt;[[https://turbonomic.com/resources/events/]]&gt;.
+Please visit the Partner Portal &lt;[[https://turbonomic.webinfinity.com/]]&gt;.
+
+©  Turbonomic, Inc. 
+ 
+ Contact Us &lt;[[https://turbonomic.com/company/contact-us/]]&gt;  |  Unsubscribe &lt;[[{{system.unsubscribeLink}}]]&gt;
+&lt;[[https://twitter.com/turbonomic]]&gt;     &lt;[[https://www.youtube.com/user/myVMTurboTV]]&gt;      &lt;[[https://www.linkedin.com/company/turbonomic/]]&gt;    &lt;[[https://www.facebook.com/turbonomic/]]&gt;    &lt;[[https://www.instagram.com/turbonomic/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

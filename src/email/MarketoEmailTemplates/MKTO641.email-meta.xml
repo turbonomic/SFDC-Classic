@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>06_06_2014 VMworld Sweepstakes.Email_use</name>
+    <style>none</style>
+    <subject>Win 2 Passes to VMworld 2014 | Paint the Town Green | August 24-28, 2014</subject>
+    <textOnly>Enter to Win Tickets to VMworld:
+http://bit.ly/1krN3vc
+
+Enter to Win 2 Full Passes to VMworld 2014
+{{lead.First Name:default=}}:
+
+Every Friday until June 27th, VMTurbo is giving away two Full Conference Passes to VMworld 2014 in San Francisco. The epicenter of all things virtual, VMworld is our industry&apos;s biggest stage. We will be there, and we want you there too. Enter to win today, and let&apos;s Paint the Town Green.
+Enter to Win &lt;http://bit.ly/1krN3vc&gt;
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-06-19-RD-Sponsored-Raleigh.Invite 2a.Invite 2</name>
+    <style>none</style>
+    <subject>See you in Raleigh?</subject>
+    <textOnly>&lt;[[https://bit.ly/vip-raleigh]]&gt;
+Hi {{lead.First Name:default=there}}, 
+
+
+
+
+I hope you had a nice weekend - following up on my recent email inviting you to join us for an exclusive networking event in Raleigh on June 19th at Second Empire Restaurant and Tavern.
+ 
+Enterprises are facing incredible pressure to modernize and transform their IT to become a digital business, leading many organizations to reimagine their hybrid cloud strategy. Determining which workloads go on-premises, which go into the cloud, and how to manage the transition is challenging – and mistakes are costly.
+
+
+Raleigh IT Networking Dinner
+Second Empire Restaurant and Tavern
+Tuesday, Jun 19th | 6:00 PM
+
+
+
+
+
+Throughout the evening, you’ll have the chance to share knowledge on tackling these challenges and learn how organizations like yours are adopting workload automation at the scale of the hybrid cloud.
+ 
+We hope you will join us for this discussion by registering via the link below: https://bit.ly/vip-raleigh &lt;[[https://bit.ly/vip-raleigh]]&gt;
+ 
+ Sincerely,
+ 
+The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

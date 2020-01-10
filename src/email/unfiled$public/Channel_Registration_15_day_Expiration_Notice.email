@@ -1,0 +1,3 @@
+Registration {!VartopiaDRS__Registration__c.Name} is expiring in 15 days.
+
+Please follow up here: {!VartopiaDRS__Registration__c.Link}

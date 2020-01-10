@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>VMTurbo_Green</letterhead>
+    <name>CIO/CEO LEAD</name>
+    <style>freeForm</style>
+    <subject>Executive Introduction</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope this email finds you well.
+
+
+Two of the founders of VMTurbo (Shmuel Kliger and Yuri Rabover) would like to know if you would be interested in a philosophical conversation regarding the “Holistic View” management of the DC.  They have a similar, if not mirrored view and were interested in how you formed your theories and a general conversation regarding virtualization.  If you are open to this, please let me know a few times that would work and I will connect you with Shmuel and Yuri.
+
+
+Regards,
+
+
+
+Jacob
+
+
+
+Mobile-845 532 7595</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

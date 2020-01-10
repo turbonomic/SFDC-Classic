@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Q2 Wake The Dead.Send 2</name>
+    <style>none</style>
+    <subject>Don&apos;t Become A Datacenter Zombie</subject>
+    <textOnly>&lt;http://cdn.vmturbo.com/wp-content/uploads/2015/05/GreenDataCenter.pdf?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wakethedead&amp;utm_content=061615&gt;
+Hi {{Lead.First Name}},
+We haven&apos;t heard from you in a while, and we&apos;re starting to think that something terrible may have happened. Please let us know that you haven&apos;t...turned.
+
+Zombie VMs are taking over and it was only a matter of time until those in the datacenter became infected. Fear not though, for there is a cure. VMTurbo is here to stop these Zombie VMs in there tracks; increasing efficiency, reducing latency and overall saving the world.
+
+Find out how in the report below.
+ &lt;http://cdn.vmturbo.com/wp-content/uploads/2015/05/GreenDataCenter.pdf&gt;
+If its too late and there truly is no hope then you can unsubscribe here &lt;http://go.vmturbo.com/UnsubscribePage.html?mkt_unsubscribe&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

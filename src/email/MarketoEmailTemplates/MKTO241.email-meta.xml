@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pre-VMworld Harte Hanks Mailing.Email</name>
+    <style>none</style>
+    <subject>Complimentary Download: Virtual Datacenter Control – Your License to Chill</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+VMTurbo is inviting you to  learn about how you can relax with the peace of mind that your workloads  are being managed efficiently and your virtual data center is under  control. We call this virtualization paradise, and it’s a wonderful  place. To get you started, we’re  offering complementary downloads. As an added bonus, just by  downloading, you will be entered into a drawing for a free pass to  VMWorld 2013. 
+
+Just Click: 
+White Paper Download &lt;http://bit.ly/12s3rhT&gt;: Find out how to reduce future infrastructure costs by 30% while improving customer satisfaction by addressing the significant gaps in the VMware vCloud solution offering. 
+
+Join the Action: Try VMTurbo &lt;http://bit.ly/145okEW&gt; in your environment at no cost. Catch the wave with your license to chill. 
+
+The contest drawing will take place on Jul 26th.
+
+
+Best regards,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

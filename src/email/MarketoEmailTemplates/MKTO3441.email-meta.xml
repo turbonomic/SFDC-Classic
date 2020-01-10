@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-02-06-Ignite the Base Send 1.Ignite the Base Send Enterprise</name>
+    <style>none</style>
+    <subject>Getting the most out of your Turbonomic investment</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+Thank you for being a valued Turbonomic customer! As you set your 2018 plans into motion, I want to make sure you are getting maximum value from our workload automation platform and are taking full advantage of Turbonomic’s latest hybrid cloud capabilities.
+ 
+When used in cloud migration projects, Turbonomic enables you to choose your target cloud resources (instance sizes, storage tiers, database tiers, etc.) based on your workloads’ actual on-premises resource consumption (CPU, Memory, Storage, even Network!). Turbonomic’s real-time understanding of your application workloads’ requirements empowers you to make the most performant and economical decisions for initial placement of your workloads into the public cloud.  Then, once you’ve migrated your workloads to the cloud, Turbonomic can continuously optimize their resource allocation through real-time understanding of workload demand and the supply available in the public cloud.
+ 
+This approach not only assures application performance and compliance, but it can also result in significant savings. For example, in a recent Microsoft Azure migration project, Turbonomic helped a customer save more than $200,000 with their initial placement of workloads in Azure. And with Turbonomic’s continuous cloud optimization capabilities across their Azure deployment, the customer is expecting on-going savings of over $2.6 million.
+ 
+Since you’re already running Turbo in your environment, you can use it to run similar cloud migration analyses. It only requires a couple hours of your team’s time to:
+ 
+
+
+
+	- Identify candidate workloads for migration to the cloud
+	- Run a simulation to show what would happen if you were to lift-and-shift the workloads to AWS and/or Azure
+
+
+
+ 
+The Turbonomic 6.0 Platform will do most of the heavy lifting: 
+ 
+
+
+
+	- Matching each workload’s utilization with the correct instance size across all cloud regions and availability zones
+	- Providing you with a detailed impact analysis for migrating to the cloud both with (consumption-based) and without (allocation-based) Turbonomic’s optimization recommendations.
+	- Showing you the actual costs for both deployment plans
+
+
+
+ 
+As you may have read in my previous Customer Success letter, we have greatly expanded our Turbonomic field organization.  If you would like to explore how Turbonomic can give you greater insight and control over your hybrid cloud strategy, we would be happy to staff an engineer free of charge to walk your team through this process and educate them on our continuous cloud optimization capabilities.  We can also discuss the possibility of providing you with free enrollment into our Early Access program for our upcoming 6.1 release.
+ 
+I’ve asked a member of the Turbonomic team to follow up with you this week to schedule a review. We look forward to speaking with you and helping you maximize your Turbonomic investment!
+ 
+Best regards,
+
+
+
+
+Alex Hesterberg
+Chief Customer Officer
+alex.hesterberg@turbonomic.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

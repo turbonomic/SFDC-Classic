@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" >
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Dear {{lead.First Name:default=Sir/Madam}},</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Happy Valentine's Day! </span><br />&nbsp;<br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">I just wanted to personally send a reminder to attend our webinar today at 12pm ET.&nbsp; You should 
+have already received the webinar URL and access code.</span><br />&nbsp;<br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">I am excited to have our CTO and Founder Shmuel Kliger and our VP of Product Strategy and co-founder Yuri Rabover join us today.
+ Shmuel and Yuri have deep DNA in developing management solutions for large, complex, distributed IT environments.
+ Our founding team, combining their knowledge of the industry and extensive experience dealing with IT solutions, believed there was a better way to control IT operations.
+ The result is VMTurbo Operations Manager.</span><br />&nbsp;<br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Shmuel and Yuri will discuss Operations Manager 3.3 enhancements and how the product's software-defined control offloads and automates decision-making from 
+operational staff instead of just collecting data and providing alerts.&nbsp; With it, our customers are delivering greater control in maintaining a healthy state and consistent service delivery.</span><br />&nbsp;<br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">We 
+carved out a portion of time to address questions.&nbsp; If you have any questions you'd like to submit beforehand, please send me an <a href="mailto:lauren.whitehouse@vmturbo.com">email</a>.</span><br />&nbsp;<br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Chat 
+soon.</span><br />&nbsp;<br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Lauren</span><br />&nbsp;<br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Lauren Whitehouse</span><br /><span style="font-family: arial,helvetica,sans-serif; 
+font-size: 12px;">Director, Product Marketing</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">VMTurbo</span></p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_Container_Platforms_Campaigns_Nurture.Cloud_Native_Enterprise_Camp</name>
+    <style>none</style>
+    <subject>Using AI to Self-Manage OpenShift Environments</subject>
+    <textOnly>&lt;[[https://turbonomic.com/thx-wbn-self-managing-openshift-turbonomic/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Do you ever ask yourself if there is a better way to manage a complex containerized environment, such as OpenShift? With rapid growth and increasing support of production applications in these infrastructures, management, and operational challenges are multiplying.
+
+ &lt;[[https://turbonomic.com/thx-wbn-self-managing-openshift-turbonomic/]]&gt;
+
+
+Turbonomic’s AI-powered decision engine provides substantial value around automating key operations, including re-scheduling, intelligent cluster scaling, and full-stack control of the total environment.
+
+Let us know &lt;[[https://turbonomic.com/request-a-demo-container-platforms/]]&gt; if you would like to learn more.
+
+ 
+
+Cheers,
+Asena Woodward
+Sr. Product Marketing Manager, Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Turbonomic and discounted offer (1495717941.0)</name>
+    <style>none</style>
+    <subject>Turbonomic and discounted offer (1495717941.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Jim, I’m reaching out with a special offer for educational organizations as we approach the summer months. I’ve worked with a number of EDU’s including Boston College &lt;[[https://turbonomic.com/wp-content/uploads/Turbonomic-BostonCollege-Success-Story.pdf]]&gt;, Northeastern University &lt;[[https://www.techvalidate.com/product-research/turbonomic/case-studies/6BD-C39-C87]]&gt;, Princeton University &lt;[[https://www.techvalidate.com/product-research/turbonomic/case-studies/9F0-CAC-B7B]]&gt;, Penn State etc. to alleviate their IT management challenges. They generally run within a July-June budget cycle and occasionally have remaining funds towards the end of their fiscal year. I typically find these customers bear one of two prevalent problems:
+	- Their IT environments are highly fragmented, marked by high inefficiency and/or	- Their staff is limited, thinly spread and under-resourced.
+ Turbonomic directly addresses both of these challenges. With that in mind, we’d like to offer a $15,000 discount for any deal with us, if you install Turbonomic’s autonomic performance platform before mid-June. You can find the free 30-day trial here &lt;[[https://greencircle.vmturbo.com/external-link.jspa?url=https%3A%2F%2Fturbonomic.com%2Fdownloads%2Fturbonomic-30-day-trial%2F]]&gt; or by visiting turbonomic.com/downloads/turbonomic-30-day-trial/. I hope to connect in the coming weeks to discuss Turbo and the different use cases that EDU customers have seen an immediate ROI. Best,Katie                     Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

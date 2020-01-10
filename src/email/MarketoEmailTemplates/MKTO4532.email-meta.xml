@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-02-20 Container Adoption.Sorry we missed you</name>
+    <style>none</style>
+    <subject>[WEBINAR RECORDING] {{my.Webinar Title:default=the webinar}}</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Sorry we missed you for {{my.Webinar Title:default=The Webinar}}.
+
+You can watch the webinar on-demand here &lt;[[https://turbonomic.com/thx-container-adoption-wbn/]]&gt;.
+We hope to see you for our next webinar on March 6th at 11 am ET, &quot;AWS vs Azure&quot;. Register now to save your seat. &lt;[[https://turbonomic.com/resources/wbn-aws-vs-azure/]]&gt;
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-aws-vs-azure/]]&gt;
+
+
+
+
+
+
+Enjoy the recording!
+
+We hope you enjoy the recording!
+
+
+-Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

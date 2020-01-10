@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Marketo_Sync_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Marketo Sync Rule</label>
+        <sharedTo>
+            <role>MarketoProfile</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Sync_To_Marketo__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>APAC_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>APAC Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Bus_Driver_APAC</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CX_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CX Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Customer_Account_Director</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Channel_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Channel Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Channels</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Enterprise_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Enterprise Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>VP_of_Enterprise_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Globals_Acct_Sharing_with_CS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Globals Acct Sharing with CS</label>
+        <sharedTo>
+            <role>Customer_Success_Engineer</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Enterprise_Rep_Global_Accounts</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Globals_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Globals Contact Sharing</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Enterprise_Rep_Global_Accounts</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Enterprise_Rep_Global_Accounts</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Intl_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Intl Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>VP_of_International_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LATAM_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>LATAM Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Account_Executive_LATAM</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Marketing_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Marketing Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>VP_of_Marketing</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Ops_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Ops Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <role>VMT_SF_admin</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Velocity_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Velocity Contact Sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>VP_of_Inside_Sales_North_America</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

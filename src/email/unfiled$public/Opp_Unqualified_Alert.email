@@ -1,0 +1,3 @@
+The following Opportunity has been unqualified for sitting in the Identify stage for 90+ days: {!Opportunity.Name}.
+
+Here is the Opportunity link: {!Opportunity.Link}

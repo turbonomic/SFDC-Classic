@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>6/18/2013 - Overbright webinar.Reminder</name>
+    <style>none</style>
+    <subject>Get the Most From Your Virtual Infrastructure: Free Webinar Reminder</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+ 
+ Just a reminder to reserve your spot today &lt;http://go.vmturbo.com/overbright_vmturbo_webinar_6_18_2013.html&gt; for our free webinar on June 18 at 10AM. In this session, you will learn from OverBright and VMTurbo about a new cost-reducing approach to virtual and cloud infrastructure management.  
+ 
+Want more info on VMTurbo before the webinar? Click here &lt;http://www.vmturbo.com/wp-content/themes/vmturbo/pdf/VMTurbo-Brochure/#/tired&gt; for a brief overview.
+
+Kind Regards 
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

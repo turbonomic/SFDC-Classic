@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2019-02-Container Platforms - Thank You.EMAIL-Thank You</name>
+    <style>none</style>
+    <subject>Your Gift Card for Completing the Container Platforms Survey</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4fVAAQ]]&gt;
+ &lt;[[https://turbonomic.com/resources/wbn-vmware-ela/?utm_campaign=70157000001j4fVAAQ]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Thank you for completing our Container Platforms Survey, your insight is greatly appreciated! As a reward for your time, your $10 gift card is enclosed below.
+
+
+Based on your responses I think you might also like this on-demand webinar, Benchmarking Container Adoption in 2019 &lt;[[https://resources.turbonomic.com/on-demand-webinars/webinar-benchmarking-container-adoption-in-2019]]&gt;. In 30-minutes, you will learn:
+
+
+
+	- Emerging trends
+	- Why the built in knobs are limited
+	- How you can overcome the roadblocks in managing containers across multiple clouds
+
+
+
+
+
+Regards,
+Megan
+
+{{my.Gift 10:default=edit me}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

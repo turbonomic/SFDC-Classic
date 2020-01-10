@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-01-09 Meltdown/Spectre Send to Customers.Alex hesterberg Email 2</name>
+    <style>none</style>
+    <subject>Managing the potential impact of Meltdown and Spectre</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+
+Over the past week, news of the Meltdown and Spectre security threats continue dominating IT headlines around the world. 
+
+While experts agree that the risk of a breach is relatively low and no incursions that exploit Meltdown or Spectre have been recorded to date, these vulnerabilities could expose sensitive data to attack – which is a very real risk.
+
+The Good News: All the major Operating System vendors have provided or will soon provide security patches to deal with 
+the problem.
+
+The Bad News: Patches may cause applications to increase CPU utilization which will likely lead to performance and capacity issues. Questions remain as to which applications will be affected; how significantly they will be impacted; and what can and should be done to limit the impact on end-users. These questions are currently left for you to answer on your own. 
+
+Turbonomic is committed to partnering with you during this time of great uncertainty and risk. For starters, we have published two blog posts on the topic.
+
+
+Part 1 &lt;[[https://turbonomic.com/blog/on-turbonomic/preparing-uncertainty-risk-meltdown-spectre/]]&gt; covers the general issue and what is potentially at stake with regard to potential performance impact.
+
+
+Part 2 &lt;[[https://turbonomic.com/blog/on-turbonomic/turbonomic-and-meltdown-spectre/]]&gt; covers the ways in which Turbonomic can help deal with these potential application performance challenges, specifically:
+
+
+	- Running what-if scenarios with Turbonomic’s planning feature to understand the infrastructure requirements resulting from various levels of CPU degradation 
+	- 
+Leveraging the full set of Turbonomic automation capabilities to mitigate as much of the performance impact as possible
+
+
+
+We will continue to track the situation, and we’ll follow up once details surface on the performance impact from the OS patches.
+
+In the meantime, please don’t hesitate to reach out with performance-related questions. You can send questions directly to your Turbonomic Account Executive, System Engineer, Technical Account Manager or Customer Experience Manager. We are all part of one team ready to work with you!
+
+Thanks,
+Alex
+
+Alex Hesterberg
+SVP &amp; Chief Customer Officer
+Alex.hesterberg@turbonomic.com &lt;mailto:Alex.hesterberg@turbonomic.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

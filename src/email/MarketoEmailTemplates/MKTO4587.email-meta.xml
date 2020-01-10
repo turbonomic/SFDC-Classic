@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WBN-2019-04-03 Cloud Optimization.ES-4/3 Webinar 5 Steps Invite 1.Email A</name>
+    <style>none</style>
+    <subject>=?utf-8?Q?=F0=9F=92=B8_Reduce_Your_Cloud_Bill_in_5_Steps=21?=</subject>
+    <textOnly>&lt;[[https://turbonomic.com/resources/wbn-reduce-cloud-bill/]]&gt; &lt;[[https://turbonomic.com/resources/wbn-reduce-cloud-bill/]]&gt;
+
+
+
+Register &amp; Enter to Win $100 Amazon Gift Card &lt;[[https://turbonomic.com/resources/wbn-reduce-cloud-bill/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+
+With public cloud adoption growing rapidly, it’s becoming increasingly clear that a plan to optimize your existing footprint is no longer a “nice-to-have.”
+
+
+But, while many cloud “best practices” suggest optimizing the “low hanging fruit,” the most advanced cloud organizations are going beyond surface-level optimization and unlocking world-class cost savings in the public cloud.
+
+
+
+
+
+
+
+Register Now &lt;[[https://turbonomic.com/resources/wbn-reduce-cloud-bill/]]&gt;
+
+
+
+
+
+
+
+Join us on April 3rd at 11 am for our webinar where Mor Cohen-Tal, Cloud CTO at Turbonomic, discusses the 5 steps to cloud optimization:
+
+
+	- Understanding your Applications
+	- Understanding the Cloud Catalog
+	- Defining Guardrails &amp; Optimizing Low Hanging Fruit
+	- and more!
+
+
+
+I hope you&apos;ll join us! Register now &lt;[[https://turbonomic.com/resources/wbn-reduce-cloud-bill/]]&gt; and enter to win a $100 Amazon Gift Card. 
+
+ 
+Thanks,
+Andrew
+ 
+PS. If you can&apos;t attend, register anyway  &lt;[[https://turbonomic.com/resources/wbn-reduce-cloud-bill/]]&gt;and we will send you the recording afterward.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

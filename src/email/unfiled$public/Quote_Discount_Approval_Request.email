@@ -1,0 +1,23 @@
+Quote {!SBQQ__Quote__c.Name} is awaiting Approval.
+
+Approval Details:
+
+Discount Approval Required? {!SBQQ__Quote__c.Discount_Approval_Required__c}
+Term Approval Required? {!SBQQ__Quote__c.Term_Approval_Required__c}
+Custom Deal Terms?  {!SBQQ__Quote__c.Custom_Deal_Terms__c}
+Custom Payment Terms? {!SBQQ__Quote__c.Custom_Payment_Terms__c }
+Extended Payment Terms? {!SBQQ__Quote__c.Extended_Payment_Terms__c}
+
+
+Quote Details:
+
+Quote Type: {!SBQQ__Quote__c.SBQQ__Type__c}
+Customer: {!SBQQ__Quote__c.SBQQ__Account__c}
+Opportunity: {!SBQQ__Quote__c.SBQQ__Opportunity2__c }
+Total Deal Amount: {!SBQQ__Quote__c.SBQQ__NetAmount__c}
+Overall Discount: {!SBQQ__Quote__c.SBQQ__CustomerDiscount__c}
+Subscription/Maintenance Term: {!SBQQ__Quote__c.SBQQ__SubscriptionTerm__c} Months
+
+ 
+
+See Details: {!SBQQ__Quote__c.Link}

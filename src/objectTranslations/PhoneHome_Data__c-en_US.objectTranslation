@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PhoneHome Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PhoneHome Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- Host Count --></label>
+        <name>Host_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Diag Upload Date --></label>
+        <name>Last_Diag_Upload_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Type --></label>
+        <name>License_Type__c</name>
+        <picklistValues>
+            <masterLabel>30-Day Trial</masterLabel>
+            <translation><!-- 30-Day Trial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation><!-- Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freemium</masterLabel>
+            <translation><!-- Freemium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VHM</masterLabel>
+            <translation><!-- VHM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Licensee Email --></label>
+        <name>Licensee_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Workflow Rules --></label>
+        <name>Trigger_Workflow_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- VM Count --></label>
+        <name>VM_Count__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

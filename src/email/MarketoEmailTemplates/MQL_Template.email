@@ -1,0 +1,19 @@
+Hi {!SLA__c.Current_Lead_Contact_Owner__c},
+
+Congratuations, you have an MQL!
+
+What account?: {!SLA__c.Company_Account__c} ({!SLA__c.Account_Status_Stamped__c})
+Which person?: {!SLA__c.Lead_Contact_Name__c} ((https://eu4.salesforce.com/{!SLA__c.Lead_Contact_Safe_ID__c})
+What did they do?: {!SLA__c.Campaign__c}
+
+Campaign Detail: {!SLA__c.Campaign__c.Description}
+ 
+INSTRUCTIONS
+1.	Click this Salesforce SLA link:  {!SLA__c.Link}
+2.	Quick research (Salesforce, LinkedIn)
+-EITHER-
+3.	Accept: add the lead (https://eu4.salesforce.com/{!SLA__c.Lead_Contact_Safe_ID__c}) to MQL.All.Cadence SalesLoft cadence and call w/in 5 minutes
+-OR-
+4.	Disposition: select Disposition Reason (manual) and provide detail on the sla page ({!SLA__c.Link})
+ 
+Thank you!

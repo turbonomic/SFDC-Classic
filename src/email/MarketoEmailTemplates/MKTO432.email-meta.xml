@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Whitepaper-Nurture1-new.Email</name>
+    <style>none</style>
+    <subject>Follow-up: VMTurbo white paper</subject>
+    <textOnly>   
+Dear {{lead.First Name:default=Sir/Madam}},
+
+
+Thank you for downloading a VMTurbo white paper. We hope you found it informative and helpful in understanding how VMTurbo assures service performance and improves overall efficiency in virtual and cloud environments.  
+
+Management tools and processes are essential to building a more automated, highly dynamic environment. In a recent ESG survey of IT managers with virtualization deployments (ESG Research Report: The Evolution of Server Virtualization), the most significant management challenges identified were:
+
+
+ - Difficulty in isolating a root cause across a virtualized data center (34%)
+ - Capacity monitoring and planning (32%)
+ - Increased need for collaboration among infrastructure groups (27%)
+ - Difficulty in identifying performance issues (26%)
+
+
+
+Sound familiar? These challenges can be addressed with VMTurbo Operations Manager. How? Check out this quick 2 minute explanatory video &lt;http://www.vmturbo.com/vmtvideo&gt; to learn more.
+
+We also invite you to connect with us!
+
+
+ - Twitter &lt;http://twitter.com/vmturbo&gt;
+ - LinkedIn &lt;http://www.linkedin.com/company/vmturbo&gt;
+ - Facebook &lt;http://www.facebook.com/vmturbo1&gt;
+ - Youtube &lt;http://www.youtube.com/user/myVMTurboTV&gt;
+ - Blog &lt;http://www.vmturbo.com/category/blog/&gt;
+
+
+Thank you,
+
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

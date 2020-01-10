@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Info on Turbonomic leading up to meeting (1494851735.0)</name>
+    <style>none</style>
+    <subject>Info on Turbonomic leading up to meeting (1494851735.0)</subject>
+    <textOnly>- 
+	-     
+	- 
+	-   98 Clean false     false false false  EN-US X-NONE X-NONE                                                                                                                                                                                                                                                                                                                                                                                                                    Hi Terry!I know we have a meeting scheduled this Thursday at 10am but I wanted to touch base prior in case you had any questions leading up to our meeting. We recently released a Video &lt;[[https://www.youtube.com/watch?v=A_IGHTGVR6U&amp;feature=youtu.be&amp;utm_source=linkedin&amp;utm_medium=social-organic&amp;utm_content=Oktopost-007xsnrlpzujk0y&amp;utm_campaign=video-customer-success-bmc&amp;utm_term=Turbonomic+%28Company%29]]&gt; featuring the CIO at BMC and his success story with Turbonomic. 
+Feel free to check that out leading up to the meeting, and I look forward to talking to you Friday. Best,Katie                      Katie NorchiSales Development RepresentativeO: 857.305.4618  C: 440.708.8477500 Boylston Street, Boston, MA 02116 </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

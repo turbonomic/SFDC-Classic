@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>myVariable_waitStartTimeAssignment</name>
+        <label>myVariable_waitStartTimeAssignment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>myVariable_waitStartTimeVariable</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>myDecision</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision3</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_pmetdec</targetReference>
+            </connector>
+            <label>Multi-Year Annual Terms</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision3</name>
+        <label>myDecision3</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision6</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_4</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_4</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_4_pmetdec</targetReference>
+            </connector>
+            <label>Multi-Year Prepaid</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision6</name>
+        <label>myDecision6</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_7</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_7</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_pmetdec</targetReference>
+            </connector>
+            <label>Else Set to Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_1_pmetdec</name>
+        <label>Previously Met Decision</label>
+        <locationX>100</locationX>
+        <locationY>100</locationY>
+        <defaultConnector>
+            <targetReference>myRule_1_A1</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Not Previously Met</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1_pmetnullrule</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Previously Met - Null</label>
+        </rules>
+        <rules>
+            <name>myRule_1_pmetrule</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1_pmetrule</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Previously Met - Prev</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_4_pmetdec</name>
+        <label>Previously Met Decision</label>
+        <locationX>400</locationX>
+        <locationY>100</locationY>
+        <defaultConnector>
+            <targetReference>myRule_4_A1</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Not Previously Met</defaultConnectorLabel>
+        <rules>
+            <name>myRule_4_pmetnullrule</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_4_A1</targetReference>
+            </connector>
+            <label>Previously Met - Null</label>
+        </rules>
+        <rules>
+            <name>myRule_4_pmetrule</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_4_pmetrule</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Previously Met - Prev</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_7_pmetdec</name>
+        <label>Previously Met Decision</label>
+        <locationX>700</locationX>
+        <locationY>100</locationY>
+        <defaultConnector>
+            <targetReference>myRule_7_A1</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Not Previously Met</defaultConnectorLabel>
+        <rules>
+            <name>myRule_7_pmetnullrule</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_A1</targetReference>
+            </connector>
+            <label>Previously Met - Null</label>
+        </rules>
+        <rules>
+            <name>myRule_7_pmetrule</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_7_pmetrule</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Previously Met - Prev</label>
+        </rules>
+    </decisions>
+    <description>Sets payment terms on Quotes for Finance in the Additional Conditions field for multi-year licenses</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>&quot;This order will be billed on the following schedule with NET 30 payment terms, unless different payment terms are agreed to in writing by the parties:  First invoice will include the first year of the term license fee plus all services and training fees and will be sent upon the Effective Date of the order; the annual license fee for subsequent years purchased in this order will be billed in advance and will become due a day after the expiry date of the previous annual term.&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_2_myRule_1_A1_8457179942</name>
+        <dataType>String</dataType>
+        <expression>&quot;This order will be billed on the following schedule with NET 30 payment terms, unless different payment terms are agreed to in writing by the parties:  First invoice will include the first year of the term license fee plus all services and training fees and will be sent upon the Effective Date of the order; the annual license fee for subsequent years purchased in this order will be billed in advance and will become due a day after the expiry date of the previous annual term.&quot;</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>&quot;This order will be billed on the Effective Date of this order with NET 30 payment terms, unless different payment terms are agreed to in writing by the parties.  The discounts included within this quote are contingent on this order being 100% paid upfront.&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_5_myRule_4_A1_8691385129</name>
+        <dataType>String</dataType>
+        <expression>&quot;This order will be billed on the Effective Date of this order with NET 30 payment terms, unless different payment terms are agreed to in writing by the parties.  The discounts included within this quote are contingent on this order being 100% paid upfront.&quot;</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>null</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_8_myRule_7_A1_9977976401</name>
+        <dataType>String</dataType>
+        <expression>null</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+OR(
+ISNEW(),
+ISCHANGED([Quote].Deal_Structure__c)
+),
+ISPICKVAL([Quote].Deal_Structure__c,&quot;Multi-Year Term License, Paid Annually&quot;)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+OR(
+ISNEW(),
+ISCHANGED({!myVariable_current.Deal_Structure__c})
+),
+ISPICKVAL({!myVariable_current.Deal_Structure__c},&quot;Multi-Year Term License, Paid Annually&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+OR(
+ISNEW(),
+ISCHANGED([Quote].Deal_Structure__c)
+),
+ISPICKVAL([Quote].Deal_Structure__c,&quot;Multi-Year Term License, Paid Annually&quot;)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1_pmetrule</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+OR(
+ISNEW(),
+ISCHANGED({!myVariable_old.Deal_Structure__c})
+),
+ISPICKVAL({!myVariable_old.Deal_Structure__c},&quot;Multi-Year Term License, Paid Annually&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+OR(
+ISNEW(),
+ISCHANGED([Quote].Deal_Structure__c)
+),
+ISPICKVAL([Quote].Deal_Structure__c,&quot;Multi-Year Term License, Paid Upfront&quot;)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_4</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+OR(
+ISNEW(),
+ISCHANGED({!myVariable_current.Deal_Structure__c})
+),
+ISPICKVAL({!myVariable_current.Deal_Structure__c},&quot;Multi-Year Term License, Paid Upfront&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+OR(
+ISNEW(),
+ISCHANGED([Quote].Deal_Structure__c)
+),
+ISPICKVAL([Quote].Deal_Structure__c,&quot;Multi-Year Term License, Paid Upfront&quot;)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_4_pmetrule</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+OR(
+ISNEW(),
+ISCHANGED({!myVariable_old.Deal_Structure__c})
+),
+ISPICKVAL({!myVariable_old.Deal_Structure__c},&quot;Multi-Year Term License, Paid Upfront&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>OR(
+ISNEW(),
+ISCHANGED([Quote].Deal_Structure__c)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_7</name>
+        <dataType>Boolean</dataType>
+        <expression>OR(
+ISNEW(),
+ISCHANGED({!myVariable_current.Deal_Structure__c})
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>OR(
+ISNEW(),
+ISCHANGED([Quote].Deal_Structure__c)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_7_pmetrule</name>
+        <dataType>Boolean</dataType>
+        <expression>OR(
+ISNEW(),
+ISCHANGED({!myVariable_old.Deal_Structure__c})
+)</expression>
+    </formulas>
+    <interviewLabel>Set_Payment_Terms_on_Quote-2_InterviewLabel</interviewLabel>
+    <label>Set Payment Terms on Quote</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Quote</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Quote]</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Set Annual Terms</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Additional Conditions</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Additional_Conditions2__c</field>
+            <value>
+                <elementReference>formula_2_myRule_1_A1_8457179942</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Quote</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Quote]</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_4_A1</name>
+        <label>Set Prepaid Terms</label>
+        <locationX>400</locationX>
+        <locationY>200</locationY>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Additional Conditions</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Additional_Conditions2__c</field>
+            <value>
+                <elementReference>formula_5_myRule_4_A1_8691385129</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Quote</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Quote]</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_7_A1</name>
+        <label>Clear Terms</label>
+        <locationX>700</locationX>
+        <locationY>200</locationY>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Additional Conditions</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Additional_Conditions2__c</field>
+            <value>
+                <elementReference>formula_8_myRule_7_A1_9977976401</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Quote</object>
+    </recordUpdates>
+    <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Quote</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Quote</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_waitStartTimeVariable</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentDateTime</elementReference>
+        </value>
+    </variables>
+</Flow>

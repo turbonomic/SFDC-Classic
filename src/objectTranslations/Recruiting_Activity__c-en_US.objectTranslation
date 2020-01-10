@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recruiting Activity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recruiting Activities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Recruiting Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration (in minutes) --></label>
+        <name>Duration_in_minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Prospects --></label>
+        <name>Number_of_Prospects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recruiting Activity Safe ID --></label>
+        <name>Recruiting_Activity_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recruiting Organization --></label>
+        <name>Recruiting_Organization__c</name>
+        <relationshipLabel><!-- Recruiting Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>CA Event</masterLabel>
+            <translation><!-- CA Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA-Initiated Event</masterLabel>
+            <translation><!-- CA-Initiated Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Interviews</masterLabel>
+            <translation><!-- Campus Interviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career Fair</masterLabel>
+            <translation><!-- Career Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career Services Call</masterLabel>
+            <translation><!-- Career Services Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career Services Meeting</masterLabel>
+            <translation><!-- Career Services Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Session</masterLabel>
+            <translation><!-- Info Session --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Networking Event</masterLabel>
+            <translation><!-- Networking Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workshop</masterLabel>
+            <translation><!-- Workshop --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

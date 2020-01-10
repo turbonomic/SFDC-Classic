@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Survey: Gift card in return! (1493399271.0)</name>
+    <style>none</style>
+    <subject>Survey: Gift card in return! (1493399271.0)</subject>
+    <textOnly>Hi Ruth, 
+As VP of Mercy Health System Corporation, you likely make hundreds of decisions each week. That is why I wanted to reach out with the opportunity to make an impactful decision, and offer to partner with you to support a cause that is close to you.  We recently launched our Infrastructure Optimization Survey, and are offering a $25 Amazon gift card for completing the 5 minute survey by April 1st. We are also offering $100 Amazon gift card for agreeing to a 30 minute meeting with a Turbonomic engineer (meeting must complete by May15th). If at the end of the meeting, you choose to engage in a proof of value, we will donate $1,000 to the charity of your choosing. I look forward to the opportunity to speak with you about the benefits Turbonomic can bring to your infrastructure! Would you be open to a conversation the second week of May?  Best,   Kathleen Norchi</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

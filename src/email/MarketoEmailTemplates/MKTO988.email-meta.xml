@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>3_25_2015 Turbostack Giveaway.Send</name>
+    <style>none</style>
+    <subject>First Turbostack Homelab Drawing This Friday With VMTurbo 5.1</subject>
+    <textOnly>&lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=032515&gt;
+First Turbostack Homelab Drawing This Week With VMTurbo 5.1
+Check Out Demand-Driven Control All The Way From The App To The Metal
+&lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=032515&gt;
+Download the VMTurbo 5.1 Webinar For Your Chance To Win
+Hi {{lead.First Name:default=VMT Champion}},
+5.1 is one of our biggest releases yet, it extends demand-driven control all the way from the app to the metal.
+With 5.1 you now have:
+
+
+ - Up or out autoscaling based on real-time application demand, guaranteeing QoS for your Java® Apps.
+ - Full self service scaling for your users without sacrificing application performance.
+ - Complete integration with HP 3PAR and Pure Storage, ensuring your most demanding apps get the resources they need while maximizing the efficient use of your storage infrastructure, preventing over provisioning.
+
+
+And now the time has come...to celebrate 5.1 we are giving away one of our VMTurboStack Home Labs &lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=032515&gt; on March 31st. All you have to do to enter is follow the link below and watch the 5.1 webinar. Its that simple. 
+So what are you waiting for? Learn about 5.1 and register to win a Turbostack Home Lab.
+Watch Webinar Here! &lt;http://www.vmturbo.com/demand-driven-control-for-apps?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=vbossy5-1&amp;utm_content=032315&gt;
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+Downloads
+&lt;http://www.vmturbo.com/resources?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031115&gt;
+White Papers
+&lt;https://greencircle.vmturbo.com/welcome?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=amgh-webinar&amp;utm_content=031615&gt;
+Green Circle
+500 Boylston Street, Eighth Floor, Boston, MA 02116 Tel: 866.634.5087
+
+Copyright © 2014 VMTurbo, Inc. All rights reserved. Share With A Friend &lt;{{system.forwardToFriendLink:default=edit%20me}}&gt;
+&lt;http://www.facebook.com/vmturbo1&gt; &lt;http://www.twitter.com/VMTurbo&gt; &lt;http://www.linkedin.com/company/248491&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

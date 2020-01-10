@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>04_02_2014 VMT Challenge.Email_Img</name>
+    <style>none</style>
+    <subject>{{lead.first name:default=Today}}, Prove You&apos;re {{company.company name:default=Your Company}}&apos;s MVP</subject>
+    <textOnly>30 minutes. 1 hour. 1 day. 1 week.
+
+{{Lead.First Name:default=MVP}}:
+
+Deploy a free 30-day trial of VMTurbo Operations Manager &lt;http://bit.ly/1jxCL8D&gt; side-by-side with any other virtualization management platform on the planet. We guarantee VMTurbo will win out. You&apos;ll observe an 80% decrease in tickets from virtual operations issues.
+
+As one of our smartest customers once said, &quot;For the time it takes to install VMTurbo, how can you afford not to look at it?&quot;
+
+You won&apos;t believe what we can do in: 30 minutes. 1 hour. 1 day. 1 week.
+
+Show {{company.company name:default=your company}} why they hired you in the first place. Click below to learn more.
+ &lt;http://bit.ly/1jxCL8D&gt; 
+
+
+You can&apos;t afford not to look,
+VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

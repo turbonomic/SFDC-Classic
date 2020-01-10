@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notifies lead owner of new whitepaper downloader from 3rd party</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>New Lead Notification - 3rd Party Downloader</name>
+    <style>none</style>
+    <subject>New whitepaper downloader assigned to you: {!Lead.Name} from {!Lead.Company}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

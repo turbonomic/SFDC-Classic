@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" >
+<p style="text-align: left;"><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Dear {{lead.First Name:default=Sir/Madam}},</span><br /> <br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"> <em>&ldquo;With limited staff it was challenging to manage the virtual environment as it   
+grew.&rdquo;</em></span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">&mdash;Robert Reynolds, Indiana University</span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">Sound familiar? This is sentiment we consistently heard from IT 
+  professionals at higher education institutions, such as Northeastern University and Washington University in St.
+   Louis.&nbsp; Virtualized environments require constant&mdash;and often labor-intensive&mdash;management.
+   To continue to scale, these organizations recognized the need for a different approach, one described in this brief <a href="http://go.vmturbo.com/wp-applying-an-economic-model-to-it-management-download.html">white paper</a> and two-minute <a 
+href="http://www.vmturbo.com/esevideo">video</a>.</span></p>
+<p style="text-align: left;"><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">VMTurbo identifies specific actions, that can easily be automated, to optimize your virtual environment and prevent problems.
+   The team at East Carolina University was devoting a lot of cycles to troubleshooting and identifying latency bottlenecks.
+   With VMTurbo, these bottlenecks were remediated before alerts were triggered.</span></p>
+<p style="text-align: left;"><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">I&rsquo;d like to spend 10 minutes with you or someone on your team to provide more details regarding how we have helped customers just like you save time and money with VMTurbo Operations   
+Manager.</span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">{{lead.Lead Owner First Name:default=The VMTurbo Team}}&nbsp; {{lead.Lead Owner Last Name:default=}}</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 
+12px;">email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}</span><br /><br /></p>
+</div>
+</div>
+</body>
+</html>

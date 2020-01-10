@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-04-19 New Learning Center Rollout.ES-2018-04-23 New Learning Center Roll</name>
+    <style>none</style>
+    <subject>Are you under pressure to transform your IT organization?</subject>
+    <textOnly>Hi {{lead.First Name:default=There}},
+
+Many IT organizations strive to optimize performance but struggle to make progress given the many challenges they tackle on a daily basis. Do you grapple with shifting priorities and a seemingly endless backlog of work? We&apos;ve created a new Learning Center to help.
+
+We&apos;ve taken our best educational content and organized it by use-case, making it easier for you to identify new ways to approach the challenges you face and to see where we can support you.
+
+Here are some of the areas in the Learning Center to explore:
+
+
+	- Accelerate your Cloud Migration &lt;[[https://resources.turbonomic.com/accelerate-cloud-migration-projects]]&gt;
+	- Accelerate your Consolidation and Refresh Projects &lt;[[https://resources.turbonomic.com/accelerate-consolidation-refresh-projects]]&gt;
+	- Improve your IT Staff&apos;s Productivity &lt;[[https://resources.turbonomic.com/improve-it-staff-productivity]]&gt;
+	- Optimize your Public Cloud Spend &lt;[[https://resources.turbonomic.com/optimize-public-cloud-spend]]&gt;
+	- Safely Increase your Infrastructure Utilization &lt;[[https://resources.turbonomic.com/safely-increase-infrastructure-utilization]]&gt;
+
+
+
+We hope you find it helpful!
+
+Regards, 
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

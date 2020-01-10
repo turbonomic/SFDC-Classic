@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10_19_2015 Info Operational.Info Operational</name>
+    <style>none</style>
+    <subject>Important: Octurbofest Event Information</subject>
+    <textOnly>Hello {{lead.First Name:default=Sir or Madam}},
+
+We&apos;re very excited to have you join us next week for VMTurbo&apos;s annual Octurbofest event beginning Wednesday, October 21st at 1:00 PM at the VMTurbo 7th Floor Office &lt;https://www.google.com/maps/place/VMTurbo/@42.3505481,-71.0762301,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xad929e0184a10b4f&gt; followed by the Bruins vs. Flyers game at TD Garden &lt;https://www.google.com/maps/place/TD+Garden+address/data=!4m2!3m1!1s0x0:0x32d335fe5ed797a8?sa=X&amp;ved=0CCsQrwswAWoVChMI-o2AuYe9yAIVk_WACh03jQ1V&gt;. Please find information regarding start time, transportation, your hotel stay (if applicable) and additional details below.
+
+Hotel Information
+
+If you have requested a hotel room, you are confirmed at The Boston Park Plaza Hotel &lt;http://www.bostonparkplaza.com/&gt; under the VMTurbo room block. Please use the valet for parking. You will need to present your photo I.D. at registration. Check in is at 3PM but you are welcome to bring your bags when you arrive, they offer complimentary luggage storage. Alternatively, you can bring your bags to our office and we will store them in a secure room.
+Additional Details
+
+Wednesday, October 21st
+
+
+ - The Back Bay Parking Garage is located at 85 St. James Street or 199 Clarendon Street. Please see the reception desk in the lobby of 500 Boylston st. for security clearance to the 7th floor.
+
+ - 
+The Technical Workshop will begin at 9:00AM at the VMT Office, 500 Boylston St., 7th Fl. Please check in at the reception desk beginning at 8:30AM. Lunch will be provided at noon.
+
+
+ - 
+Octurbofest will begin at 1:00PM with registration and light refreshments at the VMT Office, 500 Boylston St., 7th Floor. Registration begins at noon and the meeting itself will kick off promptly at 1:00PM
+
+
+ - 
+Presentations will continue throughout the afternoon, wrapping up at 6:00PM with cocktails and refreshments to follow.
+
+
+ - 
+Everyone is asked to meet in the reception area by 7:00PM to receive your ticket and to meet for prearranged transportation to the hockey game at TD Garden.
+
+
+ - 
+Food and beverage will be supplied in the private suites at TD Garden
+
+
+ - 
+The group will meet outside of the Garden View Suite at TD Garden at 10:00PM to take the buses back to 500 Boylston St
+
+ - The full Agenda for the event can be found here &lt;http://vmturbo.com/wp-content/uploads/2015/10/octurbofest-2015-agenda-v1.pdf&gt;.
+
+
+Please do not hesitate to reach out to myself or Kelsey Hill, CC&apos;d, with any and all questions; our contact information can be found below.
+
+We look forward to seeing you in Boston!
+
+Sincerely,
+Jillian Fiumara
+Event Manager | VMTurbo
+Cell: 860.305.1239
+
+Kelsey Hill
+Executive Assistant | VMTurbo
+Cell: 914.330.4210</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

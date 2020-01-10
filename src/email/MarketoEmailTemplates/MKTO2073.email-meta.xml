@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-10-20-October Partner Newsletter.July 2016 Newsletter</name>
+    <style>none</style>
+    <subject>October Partner Newsletter</subject>
+    <textOnly>In This Issue:
+
+
+	- Partner Discount: Financial Services Sector
+
+	- Partner Town Hall Meeting 
+
+	- BMC Partnership  
+
+
+
+Partner Discount: Financial Services Sector 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Financial Services organizations face a unique set of challenges when it comes to managing their cloud and virtualized infrastructures, and Turbonomic is uniquely outfitted to help them get the most out of their existing investment and deliver the highest quality customer services to improve revenue, customer retention and overall reputation. 
+
+Until October 31st, partners who bring Turbonomic to a Financial Services prospect will receive an additional 15% discount on their Turbonomic transfer price. Simply register your opportunity in the Turbonomic Partner Portal to receive this offer.
+Click here &lt;[[https://greencircle.vmturbo.com/docs/DOC-3786]]&gt; for additional financial services specific collateral and information available in the Partner Portal. 
+Partner Town Hall Meeting 
+
+Our upcoming Partner Town Hall Meeting will take place on November 15th, 2016 at 11 AM EST. Register here &lt;[[https://turbonomic.com/turbonomic-2016-q4-partner-town-hall-meeting/]]&gt; to save your spot. 
+
+These Town Hall meetings are an opportunity to voice questions, concerns and feedback but also discuss the following topics: 
+
+
+	- Vision Partner Summit: NYC
+	- New! VDI Promotion
+	- Upcoming Events
+	- Q &amp; A
+
+
+
+Click here to register &lt;[[https://turbonomic.com/turbonomic-2016-q4-partner-town-hall-meeting/]]&gt; and stay informed about the various resources available to Partners and future initiatives to support the Partner community.
+
+
+BMC and Turbonomic Partner 
+
+BMC and Turbonomic parter to accelerate digital business. Why did Turbonomic and BMC partner and what are the customer benefits to this partnership? Turbonomic CTO, Charles Crouchman, dives into details in his latest blog post &lt;[[https://turbonomic.com/blog/on-turbonomic/bmc-and-turbonomic-partner-to-accelerate-digital-business/]]&gt;.  
+
+For more details, review the press release here &lt;[[https://turbonomic.com/press-releases/bmc-and-turbonomic-partner-to-deliver-agile-application-optimization/]]&gt;.
+Welcome New Customers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upcoming Events
+
+
+VMworld Barcelona
+October 18 - 20, 2016Click here for more information! &lt;[[https://turbonomic.com/resources/events/vmworld-europe-2016/]]&gt;
+
+Boston VMUG
+November 3, 2016Click here for more information! &lt;[[https://turbonomic.com/resources/events/boston-vmug-2/]]&gt;
+
+Vision 
+Partner Summit: NYC
+November 10, 2016Click here for more information! &lt;[[https://turbonomic.com/vision-partner-summit-2016/]]&gt;
+
+
+
+
+Join the Green Circle
+
+The Green Circle is our online community where you can access all resources, like training materials, industry insight, informative forums and make the most of your partnership with Turbonomic. Click here to join now » &lt;[[https://greencircle.vmturbo.com/welcome?inviteID=12005]]&gt;
+
+
+
+New Content 
+
+Blog Post: Introduction to Continuous Delivery and Continuous Deployment
+Click here to view &lt;[[https://turbonomic.com/blog/on-technology/introduction-to-continuous-delivery-and-continuous-deployment/]]&gt;
+
+
+Press Release: Turbonomic Earns Spot in the Inc. 500 for the Second Consecutive Year
+Click here to view &lt;[[https://turbonomic.com/press-releases/turbonomic-earns-spot-in-the-inc-500-for-the-second-consecutive-year/]]&gt;
+
+In the News: CEO Meg Whitman on HPE&apos;s Plans to Spin Off Merge Non-Core Software Assets with Micro Focus
+Click here to view &lt;[[https://www.hpe.com/us/en/newsroom/news-archive/featured-article/2016/09/CEO-Meg-Whitman-on-HPEs-Plans-to-Spin-Off-Merge-Non-Core-Software-Assets-With-Micro-Focus.html]]&gt; 
+
+Whitepaper: Turbonomic ROI: See Capex and Opex Savings with Autonomic ITClick here to view &lt;[[https://cdn.turbonomic.com/wp-content/uploads/Turbonomic_ROI.pdf]]&gt; 
+
+
+
+
+Visit the Partner Portal 
+
+Click here &lt;[[https://greencircle.vmturbo.com/community/partner-portal]]&gt; to search for key collateral, local partner contacts, register new opportunities and more. 
+Onboarding: Click here! &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bpathway-to-partnership%5D]]&gt;
+Technical Training: Click here! &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bmission-tech-accreditation%5D]]&gt;
+Sales Training: Click here! &lt;[[https://greencircle.vmturbo.com/community/partner-portal/content?filterID=contentstatus%5Bpublished%5D~category%5Bmission-sales-accreditation%5D]]&gt; 
+
+
+Questions?
+
+
+If you have any questions please email us at partners@turbonomic.com &lt;[[mailto:partners@turbonomic.com]]&gt;. We always appreciate your feedback so feel free to send us suggestions on how to improve our partner program or request resources that you would like to see.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

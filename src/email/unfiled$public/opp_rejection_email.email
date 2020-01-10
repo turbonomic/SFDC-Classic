@@ -1,0 +1,7 @@
+Dear {!User.FirstName},
+
+Your Opportunity {!Opportunity.Name}, Opportunity ID {!Opportunity.Opportunity_ID__c} for {!Opportunity.Account} with the Amount of {!Opportunity.Amount} has been rejected.
+For any questions regarding the decision being made please contact your VMTurbo Channel Manager.
+
+Thanks & Best Regards
+The VMTurbo Channel Team

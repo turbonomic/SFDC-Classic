@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2019-01-10 MS EOS First Email Send - US.ES-2019-01-10 MS EOS First Email Send</name>
+    <style>none</style>
+    <subject>=?UTF-8?Q?=F0=9F=86=93=F0=9F=93=96?= - Modernize in Azure</subject>
+    <textOnly>&lt;[[https://turbonomic.com/ms-2008-eos/?utm_campaign=70157000001j4lTAAQ]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+Did you know that Windows Server &amp; SQL Server 2008 and 2008 R2 will go end of support in the next 12 months? When they do, Microsoft will no longer issue security updates leaving enterprises such as yours vulnerable to security attacks and out of compliance with business and industry regulations. 
+
+
+How will you ensure you and your team are ready?  Our latest eBook &lt;[[https://turbonomic.com/ms-2008-eos/?utm_campaign=70157000001j4lTAAQ]]&gt; can help!
+
+
+In this eBook, Brien Posey, renowned tech author, Former CIO and 17-time Microsoft MVP, guides you through best practices in advance of Windows 2008 &amp; SQL 2008 End of Support dates. 
+
+
+
+
+
+
+Download Now &lt;[[https://turbonomic.com/ms-2008-eos/?utm_campaign=70157000001j4lTAAQ]]&gt;
+
+
+
+
+
+
+Download our eBook &lt;[[https://turbonomic.com/ms-2008-eos/?utm_campaign=70157000001j4lTAAQ]]&gt; today. Elevate your 2019 IT game through a Windows 2008 and SQL 2008 path to modernization that is best for your workload.
+
+
+I hope you find it helpful! 
+ 
+Best,
+Andrew</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

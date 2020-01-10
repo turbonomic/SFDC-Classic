@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Subject:  New {!Asset.Product_Family_from_Product__c} Booked!</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Training/Services Asset Booked</name>
+    <style>none</style>
+    <subject>New {!Asset.Product_Family_from_Product__c} Booked!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>12_9_2015 OpenStack Liberty Webinar.Follow Up Attended.Follow Up Email</name>
+    <style>none</style>
+    <subject>Thank You For Attending OpenStack Liberty: 2015 Updates and 2016 Challenges</subject>
+    <textOnly>Hi {{Lead.First Name}},
+
+Thank you for attending Containers, Microservices, and Latency, Oh My! Last Thursday. We hope you left with some useful takeaways.
+
+Please feel free to watch the webinar on demand at your convenience! You can find the recording here &lt;http://vmturbo.com/thx-wbnr-recrd-thank-you-containers-microservices-why-they-matter/&gt;. You can also find the slide deck for the presentation here &lt;http://vmturbo.com/wp-content/uploads/2015/07/ContainersMicroservicesAndLatency.pdf&gt;.
+
+If you have any questions about the webinar please reach out to your account representative or our Evaluation Team &lt;mailto:evalteam@vmturbo.com&gt;.
+
+- The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-10-10-Azure-Assessment-JHeard.ES-10-11-2018-JHeard-MSFT</name>
+    <style>none</style>
+    <subject>Important Turbonomic Update ... Azure Assessments</subject>
+    <textOnly>Hi Microsoft team!
+
+Collectively, we have a tremendous opportunity to help customers with their digital transformation while accelerating Azure adoption. The Microsoft and Turbonomic partnership is off to a great start with 23 Azure assessments underway and over 300 submissions now in the queue in the past 2 months. Over this pilot period, we have experienced some exciting outcomes, established some key learnings and built new collateral; reacting in real time to improve our offering!
+
+Exciting outcomes
+
+
+	- IP Co-Sell continues to deliver tremendous value, winning Azure customers together, retiring over $2M ACR quota with 31 wins; one of the top IPCS Partners in the US.
+	- Early Azure Assessments delivered positive outcomes: Zebra Tech, in less than 2 weeks showed moving to Azure from AWS would save 30%; YPF, in less than 30 days, showing $39M in savings, over 3 years, when optimized with Turbonmic and running on Azure.
+	- Excitement from new partners, onboarding 22 partners over the last 45 days, ready to deliver Turbonomic supported Azure Cloud Assessments.
+
+
+
+What’s New
+
+
+	- Turbonomic Product Enhancement: In late September, Microsoft requested Turbonomic support scanning workloads running on physical servers and identifying the specific SQL Server version. We’re excited to share that these capabilities have been enabled and tested within the Turbonomic platform and will ship as part of 6.2.3 on 10/26 with no agents required – so it’s fast, accurate and easy!
+	- Extended Turbonomic Offering: Based upon customer and partner requests, we will now offer the full Azure Migration Plan with ability to run unlimited, real-time plans over the course of the assessment.
+
+
+
+Helping Your Sellers
+
+
+	- Turbonomic/Azure Battlecard: &lt;[[https://turbonomic.com/wp-content/uploads/2018/10/Turbonomic-Azure-Battle-Final-1.pdf]]&gt; This Battlecard provides a foundation for engaging customers and communicating the value of a Turbonomic assessment.
+	- Answers to Frequently Asked Questions: &lt;[[https://turbonomic.com/wp-content/uploads/2018/10/FAQ-for-Turbonomic-Cloud-Migration-Assessments-Final-Candidate-v1-1.pdf]]&gt; This FAQ provides detailed answers to the most commonly asked questions during the Assessment and will be a living document.
+	- Targeting the Ideal Customer Profile (ICP) for a Turbonomic Assessments: &lt;[[https://turbonomic.com/wp-content/uploads/2018/10/Turbonomic-ICP.pdf]]&gt; This ICP highlights the profile of a customer that is an ideal fit for a Turbonomic Assessment; and the customers that are not an ideal fit.
+	- 22 Assessment Partners Ready to Engage: &lt;[[https://turbonomic.com/wp-content/uploads/2018/10/Approved-Cloud-Partners.pdf]]&gt; This is the current partner list, which will continue to expand as we onboard more partners.
+
+
+
+Call To Action
+
+
+	- Forward the announcement to your key stakeholders to promote these exciting updates.
+	- Review your current Assessment targets and secure the limited Pilot funding for your pursuits to leverage Turbonomic
+	- In partnership with Keith White’s organization (Binaka, Richard &amp; Vinoo), we will prepare a 30 day progress report by each area against the 150 Assessment Pilot supporting your IPCS, ACA and ACR goals
+
+
+
+Our momentum is accelerating, we are excited about the product enhancements and the ability to open up the insights to accelerate the Azure Migrations. Thank you for your continued support!
+
+As always, please don’t hesitate to contact the Turbonomic team supporting Microsoft at azure@turbonomic.com &lt;[[mailto:azured@turbonomic.com]]&gt;.
+
+Thank you,
+ Jennifer Heard
+ SVP Cloud Strategic Partners
+ Mobile: +1 425-633-4719 | Email: jennifer.heard@turbonomic.com &lt;[[mailto:jennifer.heard@turbonomic.com]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

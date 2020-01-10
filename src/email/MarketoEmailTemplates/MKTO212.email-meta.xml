@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>blank template</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LR - BT Case study - mailing list 1.Email</name>
+    <style>none</style>
+    <subject>How British Telecom Reduced Expenses with Virtualization Management</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir/Madam}},
+
+Would you like to learn about how a about how BT Global plc deployed   virtualization management across &gt;6300 virtual machines in multiple  distributed data centers, resulting in operational and capital expense  reduction? Check out this brief write-up &lt;http://bit.ly/12pKf4G&gt;.
+ 
+How does VMTurbo’s solution reduce expenses with nearly immediate time-to-value?
+
+ - By increasing VM density and rightsizing clusters, thus reducing the need for unnecessary spend on new hosts 
+ - By significantly reducing the time needed for your IT professionals to route, evaluate, and act on incidents
+
+
+We’ll prove it in less than 4 hours in your environment. Get started with this simple download &lt;http://bit.ly/QzvQgM&gt;.
+
+
+To Your Virtual Health,
+ The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

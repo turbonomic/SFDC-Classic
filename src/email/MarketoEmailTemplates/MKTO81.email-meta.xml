@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Customer Mailer Rel. 3.2.2 update.Email</name>
+    <style>none</style>
+    <subject>New VMTurbo Operations Manager Release</subject>
+    <textOnly>   
+
+
+Hello {{lead.First Name:default=Sir/Madam}},
+
+I just wanted to let you know that Operations Manager 3.2 Update 2 (Build 19954) has been published and it is highly recommended that you implement this latest release. You can find instructions for online and offline updates here &lt;http://bit.ly/YMdFeS&gt;.
+
+We&apos;re also looking for your support.  VMTurbo has been named a finalist &lt;http://bit.ly/WWplvd&gt; for the 2012 Tech Trailblazer awards in the virtualization category. Since you are a current user of Operations Manager, we are shamelessly soliciting your vote. To vote for VMTurbo, click here &lt;http://bit.ly/TfSoHD&gt;. You will receive an email to confirm your selection (so check your SPAM folder in case it gets stuck there). It&apos;s that easy.  Any valid email is eligible, so please pass it on to the rest of your team.
+
+Thanks,
+Steve Gorman
+VMTurbo Support</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

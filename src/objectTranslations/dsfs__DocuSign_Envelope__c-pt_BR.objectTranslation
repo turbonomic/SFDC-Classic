@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Envelope do DocYouSign --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Envelopes do DocYouSign --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Opportunity Safe ID --></label>
+        <name>Opportunity_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Completed Chatter Text --></label>
+        <name>dsfs__ChatterEnvCompletedText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Completed Chatter --></label>
+        <name>dsfs__ChatterEnvCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Declined Chatter Text --></label>
+        <name>dsfs__ChatterEnvDeclinedText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Declined Chatter --></label>
+        <name>dsfs__ChatterEnvDeclined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Delivered Chatter Text --></label>
+        <name>dsfs__ChatterEnvDeliveredText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Delivered Chatter --></label>
+        <name>dsfs__ChatterEnvDelivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Sent Chatter Text --></label>
+        <name>dsfs__ChatterEnvSentText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Sent Chatter --></label>
+        <name>dsfs__ChatterEnvSent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Voided Chatter Text --></label>
+        <name>dsfs__ChatterEnvVoidedText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envelope Voided Chatter --></label>
+        <name>dsfs__ChatterEnvVoided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Completed Chatter Text --></label>
+        <name>dsfs__ChatterRecipCompletedText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Completed Chatter --></label>
+        <name>dsfs__ChatterRecipCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Declined Chatter Text --></label>
+        <name>dsfs__ChatterRecipDeclinedText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Declined Chatter --></label>
+        <name>dsfs__ChatterRecipDeclined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Delivered Chatter Text --></label>
+        <name>dsfs__ChatterRecipDeliveredText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Delivered Chatter --></label>
+        <name>dsfs__ChatterRecipDelivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Sent Chatter Text --></label>
+        <name>dsfs__ChatterRecipSentText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Sent Chatter --></label>
+        <name>dsfs__ChatterRecipSent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Signed Chatter Text --></label>
+        <name>dsfs__ChatterRecipSignedText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Signed Chatter --></label>
+        <name>dsfs__ChatterRecipSigned__c</name>
+    </fields>
+    <fields>
+        <help>Marcar para exibir o Chatter durante o fluxo de trabalho de assinatura do DocuSign.</help>
+        <label><!-- Enable Chatter Status Updates --></label>
+        <name>dsfs__ChatterUpdatesEnabled__c</name>
+    </fields>
+    <fields>
+        <help>Selecionar um Contato do Salesforce para ser um Destinatário/Signatário do DocuSign.  Somente Contatos com endereços de e-mail válidos podem ser utilizados como Destinatários do DocuSign.</help>
+        <label><!-- Contact to eSign Document --></label>
+        <name>dsfs__Contact2eSignDoc01__c</name>
+        <relationshipLabel><!-- DocuSign Envelope01 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Custom Field 1 Name --></label>
+        <name>dsfs__Custom_Field_1_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Field 1 Value --></label>
+        <name>dsfs__Custom_Field_1_Value__c</name>
+    </fields>
+    <fields>
+        <help>Campo Personalizado para transferir dados por Envelope</help>
+        <label><!-- Custom Field 1 --></label>
+        <name>dsfs__Custom_Field_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Field 2 Name --></label>
+        <name>dsfs__Custom_Field_2_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Field 2 Value --></label>
+        <name>dsfs__Custom_Field_2_Value__c</name>
+    </fields>
+    <fields>
+        <help>Campo Personalizado para transferir dados por Envelope</help>
+        <label><!-- Custom Field 2 --></label>
+        <name>dsfs__Custom_Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Field 3 Name --></label>
+        <name>dsfs__Custom_Field_3_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Field 3 Value --></label>
+        <name>dsfs__Custom_Field_3_Value__c</name>
+    </fields>
+    <fields>
+        <help>Campo Personalizado para transferir dados por Envelope</help>
+        <label><!-- Custom Field 3 --></label>
+        <name>dsfs__Custom_Field_3__c</name>
+    </fields>
+    <fields>
+        <help>Indique o número de dias anteriores à expiração com o qual deseja que uma mensagem de e-mail alerte os destinatários sobre a proximidade da conclusão de um prazo. Ela é enviada somente a destinatários que ainda não concluíram a transação.</help>
+        <label><!-- Warn of expiration in N day(s) prior --></label>
+        <name>dsfs__Day_Prior_to_Warn_of_expiration__c</name>
+    </fields>
+    <fields>
+        <help>Indicar o número de dias que antecedem a expiração da transação.</help>
+        <label><!-- Expire/Void Envelope in N day(s) --></label>
+        <name>dsfs__Days_before_Envelope_is_Expired_Voided__c</name>
+    </fields>
+    <fields>
+        <help>Edite o Texto desta Mensagem de E-mail (até 2.000 caracteres) e ele aparecerá na notificação para ser assinado por seu Destinatário do DocuSign.</help>
+        <label><!-- DocuSign Email Message --></label>
+        <name>dsfs__DocuSign_Email_Message__c</name>
+    </fields>
+    <fields>
+        <help>Altere o texto padrão deste Assunto do E-mail e ele aparecerá como a Linha do Assunto na notificação para ser assinado por seus Destinatários do DocuSign.</help>
+        <label><!-- DocuSign Email Subject --></label>
+        <name>dsfs__DocuSign_Email_Subject__c</name>
+    </fields>
+    <fields>
+        <help>ID do Envelope do DocuSign</help>
+        <label><!-- DocuSign Envelope ID --></label>
+        <name>dsfs__DocuSign_Envelope_ID__c</name>
+    </fields>
+    <fields>
+        <help>Envelope do DocuSign Enviado</help>
+        <label><!-- DocuSign Envelope Sent --></label>
+        <name>dsfs__DocuSign_Envelope_Sent__c</name>
+    </fields>
+    <fields>
+        <help>ID do Documento</help>
+        <label><!-- DocumentID --></label>
+        <name>dsfs__DocumentID__c</name>
+    </fields>
+    <fields>
+        <help>Esta é uma lista de Documentos PDF na guia &quot;Documento&quot; do Salesforce de sua Organização. Para enviar pelo DocuSign, adicione um PDF a uma das pastas da guia Documentos no Salesforce. Para Enviar com outros Formatos, clique em &quot;Saiba Mais&quot;.</help>
+        <label><!-- Document Name --></label>
+        <name>dsfs__Document_Name__c</name>
+    </fields>
+    <fields>
+        <help>Às vezes, pode ser necessário incentivar seus destinatários a preencherem um envelope mais rapidamente. Após a expiração de um envelope, o DocuSign para Salesforce anula-o e envia uma notificação tanto ao remetente quanto ao destinatário.</help>
+        <label><!-- Expire/Void Envelope --></label>
+        <name>dsfs__Expire_Void_Envelope__c</name>
+    </fields>
+    <fields>
+        <help>Concordo com os Termos</help>
+        <label><!-- I agree to Terms --></label>
+        <name>dsfs__I_agree_to_Terms__c</name>
+    </fields>
+    <fields>
+        <help>Clique nesta caixa de seleção caso queira ser incluído como um Destinatário/Signatário adicional neste documento.  Caso ela não seja marcada, uma notificação de que o Contato assinou o documento com o DocuSign será exibida, mas você não poderá assiná-lo.</help>
+        <label><!-- I will also Sign --></label>
+        <name>dsfs__I_will_Sign__c</name>
+    </fields>
+    <fields>
+        <help>Rápida Disponibilização para Assinar o Documento Eletronicamente</help>
+        <label><!-- Lead to eSign Document --></label>
+        <name>dsfs__Lead2eSignDoc01__c</name>
+        <relationshipLabel><!-- DocuSign Envelopes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indicar quantos dias passarão antes de o primeiro lembrete ser enviado</help>
+        <label><!-- Send Reminder in N day(s) --></label>
+        <name>dsfs__Reminder_Interval__c</name>
+    </fields>
+    <fields>
+        <help>Indicar com que frequência (em dias) o lembrete deverá ser repetido até que a transação seja concluída.</help>
+        <label><!-- Repeat every N day(s) until complete --></label>
+        <name>dsfs__Reminder_Repeat_Interval_in_Days__c</name>
+    </fields>
+    <fields>
+        <help>Marque esta caixa para enviar um lembrete por e-mail aos destinatários do envelope que ainda não concluíram suas tarefas.</help>
+        <label><!-- Remind signers via email --></label>
+        <name>dsfs__Send_Reminder__c</name>
+    </fields>
+    <fields>
+        <help>Este é o nome do Usuário do Salesforce que criou esta transação do DocuSign.</help>
+        <label><!-- Sender --></label>
+        <name>dsfs__Sender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source_Object_Parent --></label>
+        <name>dsfs__Source_Object_Parent__c</name>
+    </fields>
+    <fields>
+        <help>Objeto de Origem</help>
+        <label><!-- Source Object --></label>
+        <name>dsfs__Source_Object__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- DocuSign Envelope --></nameFieldLabel>
+    <webLinks>
+        <label><!-- Learn_More --></label>
+        <name>dsfs__Learn_More</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resend_This_Envelope --></label>
+        <name>dsfs__Resend_This_Envelope</name>
+    </webLinks>
+</CustomObjectTranslation>

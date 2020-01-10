@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2018-01-23-Field-East-RD-Sponsored-Montreal.ES-2018-01-09-Montreal-07.EMAIL</name>
+    <style>none</style>
+    <subject>See you in January?</subject>
+    <textOnly>Bonjour {{lead.First Name:default=there}},
+
+
+
+
+In case you missed it, we are pleased to reinvite you to a small event we are hosting with Cisco on January 23rd in your area. This will be a great opportunity to meet with your fellow technology leaders, share challenges, and discuss trends heading into the new year. Hope you can make it.
+
+
+
+
+
+
+
+Montreal IT Networking Event: Hosted by Cisco &amp; Turbonomic &lt;[[https://turbonomic.com/vip-montreal/]]&gt;
+Montreal Canadiens vs Colorado Avalanche
+Tuesday, January 23rd 6:30pm
+
+
+
+
+We would love to have you join the conversation. Please let us know if you can make it and RSVP on our registration page here &lt;[[https://turbonomic.com/vip-montreal/]]&gt;.
+
+
+
+
+Merci,
+Your Turbonomic Team
+ &lt;[[https://turbonomic.com/vip-montreal/]]&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

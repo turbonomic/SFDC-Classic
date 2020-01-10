@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VMworld VIP Cocktail Party.Maybe responses</name>
+    <style>none</style>
+    <subject>We Hope to See You at the VMTurbo VIP Cocktail Reception</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+ 
+We do hope to see you at the reception on Monday, August 25.
+ 
+When your schedule becomes established, feel free to revisit &lt;http://bit.ly/1aYROIo&gt; this invitation and click “yes” to register.. We’ll send you a quick reminder in a few days.
+ 
+Meanwhile, download your free  ParadisePack &lt;http://bit.ly/13GZHZ9&gt;, where you’ll 
+learn more about how VMTurbo helps you gain control of your virtual datacenter so that you can relax and focus on other important aspects of your job.
+ 
+Sincerely,
+
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

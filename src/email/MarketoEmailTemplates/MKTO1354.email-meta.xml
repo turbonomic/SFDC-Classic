@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GTC Q1 Tech Briefing 2016.01.01_19_2016-GTC-Q1-Invite.01.Invite 01_19_2016-Invit</name>
+    <style>none</style>
+    <subject>GTC/VMTurbo- Join us tomorrow!</subject>
+    <textOnly>Hello! 
+
+VMTurbo will be attending GTC Systems&apos; Luncheon and IT Forum on Wednesday January 20th and we look forward to seeing you there! This event is an opportunity to mingle with peers in your local IT community and get the latest technology updates. VMTurbo is an application performance control system that can help you achieve the following: 
+
+
+ &lt;[[http://vmturbo.com/partners/gtc-systems/]]&gt;
+Feel free to stop by our booth to learn more about our solutions or click here to get started &lt;[[http://vmturbo.com/partners/gtc-systems/]]&gt;. For more information on the event, click here &lt;[[http://www.gtcsystems.com/events/230/default.asp]]&gt;. 
+Hope to see you there, 
+Sean 
+
+Sean Connelly
+Channel Director- West | VMTurbo</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

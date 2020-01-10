@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Net Promoter Score</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Net Promoter Scores</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account (Contact, Title) --></label>
+        <name>Account_Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Net Promoter Scores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Title --></label>
+        <name>Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Net Promoter Scores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Surveyed --></label>
+        <name>Date_Surveyed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude from Analysis --></label>
+        <name>Exclude_from_Analysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Safe ID --></label>
+        <name>NPS_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score (Value) --></label>
+        <name>Score_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Category --></label>
+        <name>Why_Category__c</name>
+        <picklistValues>
+            <masterLabel>Buggy</masterLabel>
+            <translation><!-- Buggy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Easy to use</masterLabel>
+            <translation><!-- Easy to use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generally happy</masterLabel>
+            <translation><!-- Generally happy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generally unhappy</masterLabel>
+            <translation><!-- Generally unhappy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great visibility</masterLabel>
+            <translation><!-- Great visibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Love control</masterLabel>
+            <translation><!-- Love control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need better reports</masterLabel>
+            <translation><!-- Need better reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor usability</masterLabel>
+            <translation><!-- Poor usability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prefer competing product(s)</masterLabel>
+            <translation><!-- Prefer competing product(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too expensive</masterLabel>
+            <translation><!-- Too expensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value did not materialize</masterLabel>
+            <translation><!-- Value did not materialize --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Why did you give that score? --></help>
+        <label><!-- Why? --></label>
+        <name>Why__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 if 6 or Lower --></label>
+        <name>X1_if_6_or_Lower__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 if 9 or 10 --></label>
+        <name>X1_if_9_or_10__c</name>
+    </fields>
+    <fields>
+        <help><!-- On a scale of 0 to 10, how likely are you to recommend VMTurbo to a friend or colleague? --></help>
+        <label><!-- Score --></label>
+        <name>score__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

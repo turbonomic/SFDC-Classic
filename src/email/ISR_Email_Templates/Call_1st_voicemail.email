@@ -1,0 +1,12 @@
+<p class="style9" style="font-family:Arial; font-weight:normal; font-size:13px;"" > Hi {!Lead.FirstName}, 
+<br /> <br />
+I'm trying to connect with you for a quick second. VMTurbo focuses on proactive resource management for virtualized data centers. Our virtual appliance provides operational management support through continual analysis of workload demands and resource capacities of the entire IT stack. The result of our real-time analytics is that workloads get the resources they need while holistically maximizing the utilization of servers and storage. Our technology has been developed by a team of computer science PhD's with over 100+ combined years of IT experience. <br/ ><br/ >
+
+I'd really appreciate a moment of your time to understand your organization's financial and technical strategies regarding data center virtualization and explore with you whether VMTurbo could be a potential fit.  <br/ ><br/ >
+
+Best regards, <br/ ><br/ >
+
+{!User.FirstName} {!User.LastName}<br/ ><br/ >
+
+Phone: 781.373.3540 ~ Fax: 781.373.3257<br/ >
+<a href="http://tiny.cc/4kmu4">Top 10 Reasons to Choose VMTurbo</a> <br />

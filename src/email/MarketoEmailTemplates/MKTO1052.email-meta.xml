@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New - WP - Case Study Video</name>
+    <style>none</style>
+    <subject>Video: How to Eliminate IT Waste</subject>
+    <textOnly>&lt;http://vmturbo.com/southern-waste-systems-sees-roi-in-less-than-30-days-with-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wp_love&amp;utm_content=case_study_vid&gt;
+Dear {{Lead.First Name}},
+
+Southern Waste Systems is the largest recycler of construction debris in the southeast United States. The industry leader faced the all too common challenge of application performance. The mobile apps its truck drivers used to know where to go ran slowly, causing delays at processing facilities and hampering internal operations.
+
+IT Director, Nick Casagrande, shares how SWS overcame this challenge. Today he and his team are now able to focus on driving a stronger, more responsive business with IT innovation.
+ &lt;http://vmturbo.com/southern-waste-systems-sees-roi-in-less-than-30-days-with-vmturbo?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=wp_love&amp;utm_content=case_study_vid&gt;
+
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

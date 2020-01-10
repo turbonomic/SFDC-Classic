@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM-2017-11-14-Tampa ESB-Dave K Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSE-2017-12-21-Field-East-ESB-Boston.ES-2017-11-30-Boston-1.EM-2017-11-14-Tampa-</name>
+    <style>none</style>
+    <subject>See you in Boston?</subject>
+    <textOnly>Hi {{lead.First Name:default=Friend}},
+
+I wanted to invite you to an exclusive Bruins vs. Jets game for IT executives in the Boston and greater Boston area in partnership with Cisco that we&apos;ll be hosting on December 21st. This is a great opportunity to meet with peers, share challenges, and discuss trends heading into the new year. Hope you can make it.
+
+
+
+
+Boston Executive Networking Bruins Game &lt;[[https://turbonomic.com/learn-boston/]]&gt;
+Thursday, December 21 at 5:30pm
+TD Garden, 100 Legends Way, Boston, MA 02114
+
+
+Our guests include CIOs, CTOs, IT Managers, and Directors in fields such as healthcare, energy, education, financial organizations, and more. We would love to have you join the conversation. If interested, please RSVP here &lt;[[https://turbonomic.com/learn-boston/]]&gt;.
+
+
+
+
+Yours sincerely,
+Dave
+
+ &lt;[[https://turbonomic.com/learn-phoenix]]&gt;
+
+Dave Kranowitz
+Vice President, North America
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

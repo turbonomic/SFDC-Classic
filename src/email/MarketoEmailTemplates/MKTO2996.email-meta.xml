@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-08-22-CAE-Denver-092617-1.EM-2017-08-23-CAE-Denver #1 Metcalf</name>
+    <style>none</style>
+    <subject>You&apos;re Invited: Turbonomic Community Appreciation Rockies vs Marlins</subject>
+    <textOnly>&lt;[[https://turbonomic.com/denver-community-appreciation-rockies-vs-marlins/]]&gt;
+Hi {{lead.First Name:default=there}},
+
+
+We are pleased to invite you to an exclusive event on September 26th, as the Colorado Rockies take on the Miami Marlins.
+We are expecting a fantastic summer evening filled with food, drinks, and of course, baseball. We hope you will accept this invitation to join us, learn more about Turbonomic, and network with your peers in the technology industry.
+Colorado Rockies vs Miami Marlins &lt;[[https://turbonomic.com/denver-community-appreciation-rockies-vs-marlins/]]&gt;
+
+Where: Coors Field
+2001 Blake St., Denver, CO 80205
+Tuesday, September 26th 6:40pm
+
+
+
+
+
+We hope to see you there,
+
+
+- The Turbonomic Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2016-05-06 VMworld Giveaway 2016.Send</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=Hey}}, Win Two Tickets to VMworld 2016!</subject>
+    <textOnly>Take Survey: The State of Enterprise Multi-Cloud II
+Win 1 of 10 $100 Amazon Gift Cards!
+&lt;[[https://www.surveymonkey.com/r/VMT-Vz-state-of-multi-cloud-2]]&gt;
+Hi {{lead.First Name:default=}},
+Back by popular demand, VMTurbo is giving 3 lucky winners 2 Full Conference Passes to VMworld 2016 in fabulous Las Vegas! The epicenter of all things virtual, VMworld is our industry&apos;s biggest stage and we want to see you there. We are giving away a pair of tickets on May 27th, June 17th and July 15th. Enter today for your chance to win!
+
+ &lt;[[http://vmturbo.com/vmturbo-vmworld-sweepstakes?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=VMworldSweeps&amp;utm_content=05062016]]&gt;
+Good Luck!
+-The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

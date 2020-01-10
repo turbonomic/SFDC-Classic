@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Prospect Holiday Mailer.Holiday Mailer</name>
+    <style>none</style>
+    <subject>Season&apos;s Greetings from your friends at VMTurbo</subject>
+    <textOnly>Wishing you health and happiness this holiday season and prosperity in the New Year.
+
+All the best to you and your family,
+The VMTurbo Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

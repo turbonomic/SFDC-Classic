@@ -1,0 +1,10 @@
+*** NEW CISCO OPPORTUNITY IDENTIFIED ***
+
+Opportunity Name: {!Opportunity.Name}
+Account Name: {!Opportunity.Account}
+Account Owner: {!Opportunity.Account_Owner__c}
+Territory Owner: {!Opportunity.Territory_Owner__c}
+
+Created By: {!Opportunity.CreatedBy}
+
+Opportunity link: {!Opportunity.Link}

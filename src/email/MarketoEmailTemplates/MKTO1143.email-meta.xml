@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>07_20_2015 Healthcare Webcast Blast.Send</name>
+    <style>none</style>
+    <subject>Lessons In Maintaining A Healthy Data Center From Healthcare IT</subject>
+    <textOnly>&lt;http://vmturbo.com/vmturbo-webcast-mary-washington-healthcare?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=HealthCare2015&amp;utm_content=07202015&gt;
+{{lead.First Name:default=edit me}},
+
+It’s time to break free from the break-fix cycle in IT operations management. Learn how one leading healthcare provider leveraged VMTurbo’s demand-driven control to do just that, all while saving nearly $200,000.
+
+Join VMTurbo and Mary Washington Healthcare as we discuss challenges faced by healthcare organizations attempting to adhere to regulations while maintaining high-performing and efficient IT operations.
+
+During the webcast, you will learn about:
+
+
+ - Improving application performance with VMTurbo&apos;s economic scheduling engine.
+ - Eliminating contention-based VM outages and failures
+ - Using what-if capacity planning to maximize utilization and grow with precision.
+ -  How MWHC saw more than $180,000 in savings in just one day through intelligent workload management.
+
+
+
+- The VMTurbo Team
+ &lt;http://vmturbo.com/vmturbo-resources/vmturbo-webcast-mary-washington-healthcare?utm_source=vmturbo&amp;utm_medium=email&amp;utm_campaign=HealthCare2015&amp;utm_content=07202015&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

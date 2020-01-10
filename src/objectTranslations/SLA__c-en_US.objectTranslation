@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SLA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SLAs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Billing Country --></label>
+        <name>Account_Billing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Billing State --></label>
+        <name>Account_Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Last Dial / Email Date --></label>
+        <name>Account_Last_Dial_Email_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Lattice Score --></label>
+        <name>Account_Lattice_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Level --></label>
+        <name>Account_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Ops New Segment --></label>
+        <name>Account_Ops_New_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Safe ID --></label>
+        <name>Account_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Status (Stamped) --></label>
+        <name>Account_Status_Stamped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Territory Label --></label>
+        <name>Account_Territory_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Territory Owner Team --></label>
+        <name>Account_Territory_Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Territory Owner --></label>
+        <name>Account_Territory_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account VM Count --></label>
+        <name>Account_VM_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bizible Medium --></label>
+        <name>Bizible_Medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Detail --></label>
+        <name>Campaign_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Type --></label>
+        <name>Campaign_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- SLAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Close Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closers Club RR --></label>
+        <name>Closers_Club_RR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closers Club Territory --></label>
+        <name>Closers_Club_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company/Account --></label>
+        <name>Company_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- SLAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created Day of Week --></label>
+        <name>Created_Day_of_Week__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Lead/Contact Owner Role --></label>
+        <name>Current_Lead_Contact_Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Lead/Contact Owner Team --></label>
+        <name>Current_Lead_Contact_Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Lead/Contact Owner --></label>
+        <name>Current_Lead_Contact_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Lead Score --></label>
+        <name>Current_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days since creation --></label>
+        <name>Days_since_creation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Link --></label>
+        <name>Demo_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo --></label>
+        <name>Demo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dial Count --></label>
+        <name>Dial_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please elaborate on your Disposition Reason --></help>
+        <label><!-- Disposition Detail --></label>
+        <name>Disposition_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition Reason (Manual) --></label>
+        <name>Disposition_Reason_Manual__c</name>
+        <picklistValues>
+            <masterLabel>Bad Data</masterLabel>
+            <translation><!-- Bad Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connected - Declined Meeting</masterLabel>
+            <translation><!-- Connected - Declined Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Directed Lead/Contact to Content</masterLabel>
+            <translation><!-- Directed Lead/Contact to Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead/Contact not relevant to Virtualization</masterLabel>
+            <translation><!-- Lead/Contact not relevant to Virtualization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Additional Opportunity</masterLabel>
+            <translation><!-- No Additional Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recent Meeting</masterLabel>
+            <translation><!-- Recent Meeting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EMEA RR --></label>
+        <name>EMEA_RR__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMEA Territory --></label>
+        <name>EMEA_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hunchbacks RR --></label>
+        <name>Hunchbacks_RR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hunchbacks Territory --></label>
+        <name>Hunchbacks_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Country --></label>
+        <name>Lead_Contact_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Created Date --></label>
+        <name>Lead_Contact_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Last Dial Date --></label>
+        <name>Lead_Contact_Last_Dial_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Name --></label>
+        <name>Lead_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Owner EMail --></label>
+        <name>Lead_Contact_Owner_EMail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Safe ID --></label>
+        <name>Lead_Contact_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact State/Province --></label>
+        <name>Lead_Contact_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Status Reason --></label>
+        <name>Lead_Contact_Status_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Status --></label>
+        <name>Lead_Contact_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Title (Clean) --></label>
+        <name>Lead_Contact_Title_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Website --></label>
+        <name>Lead_Contact_Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Dial Count Since Last Status Change --></label>
+        <name>Lead_Dial_Count_Since_Last_Status_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Email --></label>
+        <name>Lead_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Inbound Qualified By --></label>
+        <name>Lead_Inbound_Qualified_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Inbound Qualified Date --></label>
+        <name>Lead_Inbound_Qualified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Inbound Qualified --></label>
+        <name>Lead_Inbound_Qualified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Name --></label>
+        <name>Lead_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Owner Same as Current User --></label>
+        <name>Lead_Owner_Same_as_Current_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Phone Number --></label>
+        <name>Lead_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score (Delayed Stamp) --></label>
+        <name>Lead_Score_Delayed_Stamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score (Stamped) --></label>
+        <name>Lead_Score_Stamped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Source --></label>
+        <name>Lead_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead/Contact Title --></label>
+        <name>Lead_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- SLAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MQL Date/Time (SLA) --></label>
+        <name>MQL_Date_Time_SLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- SLAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ops IT Budget --></label>
+        <name>Ops_IT_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Lead/Contact Owner --></label>
+        <name>Original_Lead_Contact_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Lead/Contact Territory Owner --></label>
+        <name>Original_Lead_Contact_Territory_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rapid Response Eligible --></label>
+        <name>Rapid_Response_Eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEC RR --></label>
+        <name>SEC_RR__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEC Territory --></label>
+        <name>SEC_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA 1 Due Date --></label>
+        <name>SLA_1_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA 1 Met --></label>
+        <name>SLA_1_Met__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA 2 Met --></label>
+        <name>SLA_2_Met__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA 3 Met --></label>
+        <name>SLA_3_Met__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Connect Count --></label>
+        <name>SLA_Connect_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Conversation Count --></label>
+        <name>SLA_Conversation_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Dial Count --></label>
+        <name>SLA_Dial_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do not edit. --></help>
+        <label><!-- SLA Email Sent --></label>
+        <name>SLA_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Num --></label>
+        <name>SLA_Num__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Number --></label>
+        <name>SLA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Owner same as current user --></label>
+        <name>SLA_Owner_same_as_current_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Safe ID --></label>
+        <name>SLA_Safe_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Buckets into: 
+(a) Meeting Set 
+(b) Dispositioned - Dialed 7 Times 
+(c) Dispositioned - Dialed 
+(d) Dispositioned - No Dials 
+(e) Expired - Dialed 
+(f) Expired - No Dials 
+(g) Open - Dialed 
+(h) Open - No Dials --></help>
+        <label><!-- SLA Status Bucket Granular --></label>
+        <name>SLA_Status_Bucket_Granular__c</name>
+    </fields>
+    <fields>
+        <help><!-- Buckets into:
+(a) Closed
+(b) Open - Dialed
+(c) Open - Undialed --></help>
+        <label><!-- SLA Status Bucket --></label>
+        <name>SLA_Status_Bucket__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Status --></label>
+        <name>SLA_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed (Contact Dispositioned)</masterLabel>
+            <translation><!-- Closed (Contact Dispositioned) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed (Demo Scheduled)</masterLabel>
+            <translation><!-- Closed (Demo Scheduled) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed (Expired)</masterLabel>
+            <translation><!-- Closed (Expired) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed (Lead Dispositioned)</masterLabel>
+            <translation><!-- Closed (Lead Dispositioned) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed (Manually Dispositioned)</masterLabel>
+            <translation><!-- Closed (Manually Dispositioned) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed (Meeting Set)</masterLabel>
+            <translation><!-- Closed (Meeting Set) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed (New SLA Came In)</masterLabel>
+            <translation><!-- Closed (New SLA Came In) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed (SLA Met)</masterLabel>
+            <translation><!-- Closed (SLA Met) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SMB Territory Owner - Acct --></label>
+        <name>SMB_Territory_Owner_Acct__c</name>
+    </fields>
+    <fields>
+        <label><!-- (Territory Owner) Account --></label>
+        <name>Territory_Owner_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Workflow Rules --></label>
+        <name>Trigger_Workflow_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- WP Download Asset Name --></label>
+        <name>WP_Download_Asset_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Form Fill --></label>
+        <name>Web_Form_Fill__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wild West RR --></label>
+        <name>Wild_West_RR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wild West Territory --></label>
+        <name>Wild_West_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 if Meeting Set --></label>
+        <name>X1_if_Meeting_Set__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Disposition Details are required to manually disposition an SLA --></errorMessage>
+        <name>Require_SLA_Disposition_Detail</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SLAs can only be manually dispositioned for Identify Opportunities, Active Opportunities and Active Customers --></errorMessage>
+        <name>Restrict_SLA_Disposition_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only AEs can manually disposition SLAs --></errorMessage>
+        <name>Restrict_SLA_Disposition_Field2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot disposition a closed SLA. --></errorMessage>
+        <name>Restrict_SLA_Disposition_Field3</name>
+    </validationRules>
+</CustomObjectTranslation>

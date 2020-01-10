@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2017-09-15-CAE-SanFran-091917-Confirmation.ES-2017-09-15-CAE-SanFran-091917-C</name>
+    <style>none</style>
+    <subject>Turbonomic Giants Game - Ticket Info</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+I hope you are as excited as I am to hang out with the Turbonomic crew Tuesday evening at AT&amp;T Park as the Giants take on the Rockies! I am reaching out to provide you with some final details to ensure you find your way to Suite 48.
+I have your ticket, and from 6:00 p.m. until 6:45 p.m. I will wait in front of the Willie Mays Statue at the Willie Mays Plaza Entrance (located at the corner of Third and Kings St.). I will be wearing a Turbonomic t-shirt so I&apos;m easy to find, and will personally hand you your ticket. Then you are free to head up to Suite 48!
+If you cannot arrive by 6:45 p.m., please email me and let me know so I may leave your ticket at Will-Call.
+ &lt;[[https://turbonomic.com/san-francisco-community-appreciation-giants-vs-rockies/]]&gt;
+Tuesday, September 19th 7:15pm EST
+Where: AT&amp;T Park &lt;[[http://sanfrancisco.giants.mlb.com/sf/downloads/y2015/seating_streets.pdf]]&gt;
+San Francisco Giants vs Colorado Rockies 
+24 Willie Mays Plaza, San Francisco, CA 94107
+
+
+Click here for additional park information &lt;[[http://sanfrancisco.giants.mlb.com/sf/ballpark/information/index.jsp?content=AZguide#entrances]]&gt;
+
+
+
+
+See you soon!
+Catherine
+
+
+
+
+
+Catherine Kellogg
+Sr. Marketing Program Manager
+Turbonomic, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

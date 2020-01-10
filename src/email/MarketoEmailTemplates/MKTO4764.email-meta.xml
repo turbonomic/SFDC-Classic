@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SM-2019-05-17 APM Survey Thank You.Completed Survey Thank You - Completed Meetin</name>
+    <style>none</style>
+    <subject>Your reward for completing a meeting with Turbonomic</subject>
+    <textOnly>Hi {{lead.First Name:default=there}},
+
+
+Thank you for meeting with a Turbonomic engineer. We hope you enjoyed your personalized demonstration! As a gift for your time, your $50.00 gift is enclosed below.
+
+For a bit more context, check out these on-demand webinars:
+
+
+	- Tackling the Modern IT Ecosystem &lt;[[https://resources.turbonomic.com/on-demand-webinars/webinar-tackling-the-modern-it-infrastructure/utm_campaign=7012o000001oRWOAA2]]&gt; 
+	- How to Optimize Your VMware ELA &lt;[[https://resources.turbonomic.com/on-demand-webinars/webinar-how-to-optimize-your-vmware-ela/?utm_campaign=7012o000001oRWOAA2]]&gt;
+	- Using AI to Continuously Maximize Cloud Cost Savings &lt;[[https://resources.turbonomic.com/on-demand-webinars/webinar-using-artificial-intelligence-to-continuously-maximize-cloud-cost-saving/?utm_campaign=7012o000001oRWOAA2]]&gt;
+
+
+
+I hope you find this information helpful as you continue your optimization journey.
+{{my.Gift 50:default=}}
+
+
+Regards,
+Elizabeth</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

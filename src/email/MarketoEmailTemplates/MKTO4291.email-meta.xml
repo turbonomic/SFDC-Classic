@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES-2018-10-31 Halloween Mailer - Mahon - Follow Up Email.ES-2018-10-31 Halloween</name>
+    <style>none</style>
+    <subject>Happy Halloween from Turbonomic!</subject>
+    <textOnly>Hi {{lead.First Name:default=there}}!
+
+
+Migrating to the cloud can be scary. Turbonomic can help, wherever you are on your cloud journey.
+
+Certified and trusted by both Amazon and Microsoft, Turbonomic assesses your hybrid infrastructure and provides detailed plans to ensure safe and cost effective migrations to Azure and AWS. Once workloads are operating in the cloud we can optimize spend and reduce your cloud bills by an average of 40-60%.
+
+Reply to this email with your preferred date and time to set up a free assessment of your environment to see how Turbonomic can help you optimize your cloud, on-premises, or hybrid environment.Best,
+
+Erica</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

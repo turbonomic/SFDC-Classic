@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Madison Logic Campaign &apos;13.Welcome Email</name>
+    <style>none</style>
+    <subject>VMTurbo Welcomes You. Now You Can Stop Firefighting and Make Better Use of Your Time</subject>
+    <textOnly>   
+
+
+Dear {{lead.First Name:default=Sir/Madam}},
+
+Thank you for expressing interest in VMTurbo.
+
+In a nutshell, we offer a new approach to managing virtualized IT that allows you to redirect your team’s time from firefighting and chasing down issues in your virtualized environment to other important aspects of IT. This is because your virtual data center is maintained in an ongoing healthy state. 
+ 
+This approach surpasses the tools you already have to automate control of your virtualized environment. Check out this short overview &lt;http://bit.ly/10cctnM&gt; to learn how easy it can be to gain control –and put down the fire hose.
+
+
+Thank you,
+
+{{lead.Lead Owner First Name:default=The VMTurbo Team}} {{lead.Lead Owner Last Name:default=edit me}}
+
+Email: {{lead.Lead Owner Email Address:default=sales@vmturbo.com}}, Phone: {{lead.Lead Owner Phone Number:default=(781) 373-3540}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

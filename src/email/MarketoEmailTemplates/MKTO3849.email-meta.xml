@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CS-Unreferenceable Multinational Banking and FS Customer</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NA_Enterprise_Financial Services_Cold_Nurture.FinancialServices_Cold_Nurture_Ent</name>
+    <style>none</style>
+    <subject>Maximize Resource Utilization &amp; Save Time with Automated VM Placement &amp; Storage Motions</subject>
+    <textOnly>&lt;[[https://resources.turbonomic.com/case-studies/cisco-banking-case-study]]&gt;
+Hi {{lead.First Name:default=there}},
+
+Reluctant to adopt workload automation in your environment? Here’s how Turbonomic and Cisco &lt;[[https://resources.turbonomic.com/case-studies/cisco-banking-case-study]]&gt; delivered self-managing infrastructure that enables 
+automated VM placement and storage motions for this banking and financial leader with a large infrastructure footprint including 6,490 hosts and 56,000 VMs. 
+
+As a result, the customer is on the path towards fully utilizing their resources, so far unlocking 3,790GHZ of CPU, 775TB or Memory, and 2148TB or storage.
+
+Want to learn more? See how over 1,900 customers &lt;[[https://turbonomic.com/customers/customers-by-industry/]]&gt; leverage workload automation to simultaneously optimize performance, cost and policy compliance in real-time.
+
+
+Regards,
+
+
+Team Turbonomic</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
