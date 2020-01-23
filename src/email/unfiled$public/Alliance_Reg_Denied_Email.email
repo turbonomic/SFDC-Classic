@@ -1,9 +1,0 @@
-Dear {!Alliance_Registration__c.Alliance_Partner_First_Name__c},
-
-The following registration for {!Alliance_Registration__c.Customer_Account_Name__c} was denied for the following reason: {!Alliance_Registration__c.Denial_Reason__c}
-
-Please reply to this email if you have any questions or would like to follow-up.
-
-Best,
-
-Turbonomic Strategic Alliances Team

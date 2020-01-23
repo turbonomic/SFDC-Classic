@@ -1,3 +1,0 @@
-Hey {!Account.Owner_Name__c},
-
-The account {!Account.Name} was given a revisit date of {!Account.Revisit_Date__c}. Please reach back out to them. After contacting them, either remove the Revisit Date and change the Revisit Rating, or extend the Revisit Date out further.

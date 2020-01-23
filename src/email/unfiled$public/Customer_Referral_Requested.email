@@ -1,9 +1,0 @@
-Hi,
-
-A customer referral has been requested for the following Opportunity: {!Opportunity.Name}
-
-Industry: {!Opportunity.Industry_clean__c}
-Region: {!Opportunity.Region__c}
-Additional Notes: {!Opportunity.Customer_Referral_Request_Notes__c}
-
-Opportunity Link: {!Opportunity.Link}

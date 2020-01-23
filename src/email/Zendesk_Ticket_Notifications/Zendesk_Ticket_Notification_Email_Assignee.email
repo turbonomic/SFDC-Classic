@@ -1,9 +1,0 @@
-Ticket # {Ticket Link: {!Zendesk__Zendesk_Ticket__c.Link} has been assigned to you:
-
-Ticket Subject: {!Zendesk__Zendesk_Ticket__c.Zendesk__Subject__c} 
-
-This was submitted by: {!Zendesk__Zendesk_Ticket__c.Zendesk__Requester__c} with {!Zendesk__Zendesk_Ticket__c.Organization__c} on {!Zendesk__Zendesk_Ticket__c.CreatedDate}.
-
-If you have any questions, the Sales Rep for this account is: 
-Territory Owner: {!Zendesk__Zendesk_Ticket__c.Account_Territory_Owner__c}
-Email: {!Zendesk__Zendesk_Ticket__c.Territory_Owner_Email_for_WF__c}

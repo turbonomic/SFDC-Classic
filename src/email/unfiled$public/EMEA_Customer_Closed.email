@@ -1,7 +1,0 @@
-Account:  {!Account.Name}
-
-Territory Owner:  {!Account.Territory_Owner_Display__c}
-
-Bookings Closed:    {!Account.Total_Bookings__c}
-
-First Deal Closed (Date):    {!Account.First_Close_Date__c}

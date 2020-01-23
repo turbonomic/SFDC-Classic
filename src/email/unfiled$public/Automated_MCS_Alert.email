@@ -1,6 +1,0 @@
-{!Marketing_Custom_Services__c.CreatedBy} has requested a {!Marketing_Custom_Services__c.Content_Type__c}.
-
-Opportunity Owner: {!Marketing_Custom_Services__c.OpportunityOwner__c} 
-Customer Experience Owner: {!Marketing_Custom_Services__c.Customer_Experience_Owner__c}
-
-MCS Record link: {!Marketing_Custom_Services__c.Link}

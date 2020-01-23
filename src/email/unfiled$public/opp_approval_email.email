@@ -1,7 +1,0 @@
-Dear {!User.FirstName},
-
-Your Opportunity {!Opportunity.Name}, Opportunity ID {!Opportunity.Opportunity_ID__c} for {!Opportunity.Account} with the Amount of {!Opportunity.Amount} has been approved. 
-To view the full opportunity go to: {!Opportunity.Link}
-
-Thanks & Best Regards
-The VMTurbo Channel Team

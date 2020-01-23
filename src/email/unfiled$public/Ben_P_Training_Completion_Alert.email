@@ -1,7 +1,0 @@
-Hi Ben,
-
-Training has been completed on {!Asset.Training_Services_Completed_Expired_Date__c} for {!Asset.Account}.
-
-Please follow-up accordingly.
-
-Link Detail: {!Asset.Link}

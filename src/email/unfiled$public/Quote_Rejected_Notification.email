@@ -1,5 +1,0 @@
-Your quote {!SBQQ__Quote__c.Name} has been rejected.
-
-Please review the approval history on the quote for details on why this quote was rejected.
-
-Detail Link: {!SBQQ__Quote__c.Link}

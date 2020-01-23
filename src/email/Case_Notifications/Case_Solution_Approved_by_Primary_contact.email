@@ -1,6 +1,0 @@
-<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
-<tr valign="top" height="400" >
-<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
-<![CDATA[<div style=""><font face="Arial, sans-serif" style=""><br></font></div><div style=""><font face="Arial, sans-serif"><br></font></div><font face="Arial, sans-serif" style="">The Case "{!Case.Subject}" has been approved by&nbsp;{!Case.Contact}.</font><div style=""><font face="Arial, sans-serif" style=""><br></font><div style=""><font face="Arial, sans-serif">Please verify that the solution is ready for the next deployment.</font></div><div style=""><font face="Arial, sans-serif"><br></font></div><div style=""><font face="Arial, sans-serif" style="">Thank you!</font></div></div>]]></td>
-</tr>
-</table>

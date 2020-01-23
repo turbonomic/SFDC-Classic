@@ -1,8 +1,0 @@
-Click here to view record in salesforce: https://eu1.salesforce.com/{!Opportunity.Opportunity_Safe_ID__c}
-
-Account: {!Account.Name}
-Opportunity Owner: {!Opportunity.OwnerFullName}
-Amount: {!Opportunity.Amount}
-Stage: {!Opportunity.StageName}
-IDed By: {!Opportunity.Identified_By__c}
-IDed By Team: {!Opportunity.Identified_By_Team_Static__c}

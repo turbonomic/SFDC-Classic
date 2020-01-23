@@ -1,3 +1,0 @@
-Hello {!Quote.CreatedBy},
-
-Your Quote {!Quote.Name} has been {!Quote.Status}. If your quote was rejected, please speak with Newt Davis, Valerie Higgins, or Jeff Lacey as to why.

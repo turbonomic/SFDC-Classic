@@ -1,3 +1,0 @@
-<apex:page standardController="Opportunity" sidebar="false" showheader="false">
-    <MiniGrid:GridRelatedListByObject allRows="true" obj="Opportunity" val="{!Opportunity.id}" relObj="Task"/>
-</apex:page>

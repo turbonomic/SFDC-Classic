@@ -1,9 +1,0 @@
-A new {!Asset.Product_Family_from_Product__c} sku had been booked for {!Asset.Account}.
-
-SKU: {!Asset.Name}
-Purchasing Opportunity: {!Asset.Purchase_Opportunity__c}
-Asset Price: {!Asset.Price}
-
-To view the asset record follow: {!Asset.Link}
-To view the account record follow: https://eu4.salesforce.com/{!Asset.AccountId}
-To view the purchasing opportunity: https://eu4.salesforce.com/{!Asset.Purchase_Opportunity_Safe_ID__c}

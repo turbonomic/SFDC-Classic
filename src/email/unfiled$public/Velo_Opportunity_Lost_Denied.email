@@ -1,6 +1,0 @@
-Your request to move the Opportunity {!Opportunity.Name} to Closed Lost was denied. Please talk to the AVPs to determine why your Opportunity was denied.
-
-Opportunity Owner: {!Opportunity.OwnerFullName}
-Owner Team: {!Opportunity.Owner_Team__c}
-
-Opportunity Link: {!Opportunity.Link}

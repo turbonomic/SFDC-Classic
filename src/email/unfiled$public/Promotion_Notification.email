@@ -1,5 +1,0 @@
-Promotion Details:
-
-Name: {!User.Name}
-Role: {!User.Role_formula__c}
-Team: {!User.Team__c}

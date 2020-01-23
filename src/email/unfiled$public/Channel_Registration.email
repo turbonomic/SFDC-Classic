@@ -1,7 +1,0 @@
-Deal closed from Registration.
-
-Registration link: https://eu4.salesforce.com/{!VartopiaDRS__Registration__c.Id}
-
-Opportunity Associated: https://eu4.salesforce.com/{!VartopiaDRS__Registration__c.VartopiaDRS__OpportunityId__c}
-
-Partner Manager involved: {!VartopiaDRS__Registration__c.Partner_Manager__c}

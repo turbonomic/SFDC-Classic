@@ -1,5 +1,0 @@
-The following Registration has expired: {!VartopiaDRS__Registration__c.Link}
-
-Customer: {!VartopiaDRS__Registration__c.VartopiaDRS__Customer_Name__c}
-Partner: {!VartopiaDRS__Registration__c.VartopiaDRS__Partner_Account__c}
-Opportunity: {!VartopiaDRS__Registration__c.VartopiaDRS__Opportunity__c}

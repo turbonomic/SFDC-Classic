@@ -1,9 +1,0 @@
-Please audit and approve the following Registration: 
-
-Customer Name: {!VartopiaDRS__Registration__c.VartopiaDRS__Customer_Name__c} 
-Expected Revenue: {!VartopiaDRS__Registration__c.VartopiaDRS__Expected_Revenue__c} 
-Account Executive: {!VartopiaDRS__Registration__c.VartopiaDRS__Sales_Rep__c} 
-Partner: {!VartopiaDRS__Registration__c.VartopiaDRS__Partner_Account__c} 
-Deal Type: {!VartopiaDRS__Registration__c.Deal_Type__c} 
-
-Registration Link: {!VartopiaDRS__Registration__c.Link}

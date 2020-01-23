@@ -1,2 +1,0 @@
-{!User.FirstName} {!User.LastName} has created the quote {!Quote.QuoteNumber} for {!Quote.Ship_to_Company__c} for the amount {!Quote.Total_Sales_Price__c}.
-To review the quote go to: {!Quote.Link}

@@ -1,3 +1,0 @@
-<apex:page standardController="Lead" sidebar="false" showheader="false">
-    <MiniGrid:GridRelatedListByObject allRows="true" obj="Lead" val="{!Lead.id}" relObj="Task"/>
-</apex:page>

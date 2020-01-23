@@ -1,3 +1,0 @@
-{!Opportunity.OwnerFirstName},
-
-Your Opportunity for {!Opportunity.Account} has gone through a review with the Operations team and was rejected. As such, your Opportunity was unqualified.

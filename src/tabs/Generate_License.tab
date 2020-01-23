@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
-    <frameHeight>600</frameHeight>
-    <hasSidebar>true</hasSidebar>
-    <label>Generate License</label>
-    <motif>Custom63: Chip</motif>
-    <url>/flow/New_Manual_License_Creation_Flow</url>
-    <urlEncodingKey>UTF-8</urlEncodingKey>
-</CustomTab>
